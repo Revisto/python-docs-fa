@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2025, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.13\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 02:51+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: library/asyncio.rst:91
+msgid "High-level APIs"
+msgstr ""
+
+#: library/asyncio.rst:103
+msgid "Low-level APIs"
+msgstr ""
+
+#: library/asyncio.rst:114
+msgid "Guides and Tutorials"
+msgstr ""
+
+#: library/asyncio.rst:2
+msgid ":mod:`!asyncio` --- Asynchronous I/O"
+msgstr ""
+
+#: library/asyncio.rst:-1
+msgid "Hello World!"
+msgstr ""
+
+#: library/asyncio.rst:13
+msgid "import asyncio\n"
+"\n"
+"async def main():\n"
+"    print('Hello ...')\n"
+"    await asyncio.sleep(1)\n"
+"    print('... World!')\n"
+"\n"
+"asyncio.run(main())"
+msgstr ""
+
+#: library/asyncio.rst:22
+msgid "asyncio is a library to write **concurrent** code using the **async/await** syntax."
+msgstr ""
+
+#: library/asyncio.rst:25
+msgid "asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc."
+msgstr ""
+
+#: library/asyncio.rst:29
+msgid "asyncio is often a perfect fit for IO-bound and high-level **structured** network code."
+msgstr ""
+
+#: library/asyncio.rst:32
+msgid "asyncio provides a set of **high-level** APIs to:"
+msgstr ""
+
+#: library/asyncio.rst:34
+msgid ":ref:`run Python coroutines <coroutine>` concurrently and have full control over their execution;"
+msgstr ""
+
+#: library/asyncio.rst:37
+msgid "perform :ref:`network IO and IPC <asyncio-streams>`;"
+msgstr ""
+
+#: library/asyncio.rst:39
+msgid "control :ref:`subprocesses <asyncio-subprocess>`;"
+msgstr ""
+
+#: library/asyncio.rst:41
+msgid "distribute tasks via :ref:`queues <asyncio-queues>`;"
+msgstr ""
+
+#: library/asyncio.rst:43
+msgid ":ref:`synchronize <asyncio-sync>` concurrent code;"
+msgstr ""
+
+#: library/asyncio.rst:45
+msgid "Additionally, there are **low-level** APIs for *library and framework developers* to:"
+msgstr ""
+
+#: library/asyncio.rst:48
+msgid "create and manage :ref:`event loops <asyncio-event-loop>`, which provide asynchronous APIs for :ref:`networking <loop_create_server>`, running :ref:`subprocesses <loop_subprocess_exec>`, handling :ref:`OS signals <loop_add_signal_handler>`, etc;"
+msgstr ""
+
+#: library/asyncio.rst:53
+msgid "implement efficient protocols using :ref:`transports <asyncio-transports-protocols>`;"
+msgstr ""
+
+#: library/asyncio.rst:56
+msgid ":ref:`bridge <asyncio-futures>` callback-based libraries and code with async/await syntax."
+msgstr ""
+
+#: includes/wasm-notavail.rst:3
+msgid "Availability"
+msgstr ""
+
+#: includes/wasm-notavail.rst:5
+msgid "This module does not work or is not available on WebAssembly. See :ref:`wasm-availability` for more information."
+msgstr ""
+
+#: library/asyncio.rst:64
+msgid "asyncio REPL"
+msgstr ""
+
+#: library/asyncio.rst:65
+msgid "You can experiment with an ``asyncio`` concurrent context in the :term:`REPL`:"
+msgstr ""
+
+#: library/asyncio.rst:67
+msgid "$ python -m asyncio\n"
+"asyncio REPL ...\n"
+"Use \"await\" directly instead of \"asyncio.run()\".\n"
+"Type \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n"
+">>> import asyncio\n"
+">>> await asyncio.sleep(10, result='hello')\n"
+"'hello'"
+msgstr ""
+
+#: library/asyncio.rst:77
+msgid "Raises an :ref:`auditing event <auditing>` ``cpython.run_stdin`` with no arguments."
+msgstr ""
+
+#: library/asyncio.rst:79
+msgid "(also 3.11.10, 3.10.15, 3.9.20, and 3.8.20) Emits audit events."
+msgstr ""
+
+#: library/asyncio.rst:82
+msgid "Uses PyREPL if possible, in which case :envvar:`PYTHONSTARTUP` is also executed. Emits audit events."
+msgstr ""
+
+#: library/asyncio.rst:90
+msgid "Reference"
+msgstr ""
+
+#: library/asyncio.rst:123
+msgid "The source code for asyncio can be found in :source:`Lib/asyncio/`."
+msgstr ""

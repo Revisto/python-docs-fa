@@ -1,0 +1,13 @@
+*.mo
+*.po.bak
+*.pot
+.DS_Store
+.idea/
+.pospell/
+.potodo/
+.venv/
+.vs/
+.vscode/
+locales/
+venv/
+__pycache__/

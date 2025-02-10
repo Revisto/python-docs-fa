@@ -1,0 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2025, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.13\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 02:51+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: library/text.rst:6
+msgid "Text Processing Services"
+msgstr ""
+
+#: library/text.rst:8
+msgid "The modules described in this chapter provide a wide range of string manipulation operations and other text processing services."
+msgstr ""
+
+#: library/text.rst:11
+msgid "The :mod:`codecs` module described under :ref:`binaryservices` is also highly relevant to text processing. In addition, see the documentation for Python's built-in string type in :ref:`textseq`."
+msgstr ""
