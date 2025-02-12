@@ -17,125 +17,284 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: bugs.rst:5
+#, fuzzy
 msgid "Dealing with Bugs"
-msgstr ""
+msgstr "مقابله با اشکالات"
 
 #: bugs.rst:7
-msgid "Python is a mature programming language which has established a reputation for stability.  In order to maintain this reputation, the developers would like to know of any deficiencies you find in Python."
+#, fuzzy
+msgid ""
+"Python is a mature programming language which has established a reputation "
+"for stability.  In order to maintain this reputation, the developers would "
+"like to know of any deficiencies you find in Python."
 msgstr ""
+"پایتون یک زبان برنامه نویسی بالغ است که به دلیل ثبات شهرت دارد.  برای حفظ "
+"این شهرت، توسعه‌دهندگان مایلند هر گونه نقصی را که در پایتون پیدا می‌کنید "
+"بدانند."
 
 #: bugs.rst:11
-msgid "It can be sometimes faster to fix bugs yourself and contribute patches to Python as it streamlines the process and involves less people. Learn how to :ref:`contribute <contributing-to-python>`."
+#, fuzzy
+msgid ""
+"It can be sometimes faster to fix bugs yourself and contribute patches to "
+"Python as it streamlines the process and involves less people. Learn how to "
+":ref:`contribute <contributing-to-python>`."
 msgstr ""
+"گاهی اوقات ممکن است سریع‌تر باشد که خودتان باگ‌ها را برطرف کنید و وصله‌هایی "
+"را به پایتون اضافه کنید زیرا فرآیند را ساده می‌کند و افراد کمتری را درگیر "
+"می‌کند. آموزش :ref:`contribute <contributing-to-python>`."
 
 #: bugs.rst:16
+#, fuzzy
 msgid "Documentation bugs"
-msgstr ""
+msgstr "اشکالات مستندات"
 
 #: bugs.rst:18
-msgid "If you find a bug in this documentation or would like to propose an improvement, please submit a bug report on the :ref:`tracker <using-the-tracker>`.  If you have a suggestion on how to fix it, include that as well."
+#, fuzzy
+msgid ""
+"If you find a bug in this documentation or would like to propose an "
+"improvement, please submit a bug report on the :ref:`tracker <using-the-"
+"tracker>`.  If you have a suggestion on how to fix it, include that as well."
 msgstr ""
+"اگر اشکالی در این مستندات پیدا کردید یا می‌خواهید بهبودی را پیشنهاد دهید، "
+"لطفاً یک گزارش اشکال در :ref:`tracker <using-the-tracker>` ارسال کنید.  اگر "
+"پیشنهادی در مورد چگونگی رفع آن دارید، آن را نیز درج کنید."
 
 #: bugs.rst:22
-msgid "You can also open a discussion item on our `Documentation Discourse forum <https://discuss.python.org/c/documentation/26>`_."
+#, fuzzy
+msgid ""
+"You can also open a discussion item on our `Documentation Discourse forum "
+"<https://discuss.python.org/c/documentation/26>`_."
 msgstr ""
+"همچنین می توانید یک مورد بحث را در `Documentation Discourse forum "
+"<https://discuss.python.org/c/documentation/26>`_ ما باز کنید."
 
 #: bugs.rst:25
-msgid "If you find a bug in the theme (HTML / CSS / JavaScript) of the documentation, please submit a bug report on the `python-doc-theme bug tracker <https://github.com/python/python-docs-theme>`_."
+#, fuzzy
+msgid ""
+"If you find a bug in the theme (HTML / CSS / JavaScript) of the "
+"documentation, please submit a bug report on the `python-doc-theme bug "
+"tracker <https://github.com/python/python-docs-theme>`_."
 msgstr ""
+"اگر اشکالی در موضوع (HTML / CSS / جاوا اسکریپت) اسناد پیدا کردید، لطفاً یک "
+"گزارش اشکال در `python-doc-theme bug tracker "
+"<https://github.com/python/python-docs-theme>`_ ارسال کنید."
 
 #: bugs.rst:29
-msgid "If you're short on time, you can also email documentation bug reports to docs@python.org (behavioral bugs can be sent to python-list@python.org). 'docs@' is a mailing list run by volunteers; your request will be noticed, though it may take a while to be processed."
+#, fuzzy
+msgid ""
+"If you're short on time, you can also email documentation bug reports to "
+"docs@python.org (behavioral bugs can be sent to python-list@python.org). "
+"'docs@' is a mailing list run by volunteers; your request will be noticed, "
+"though it may take a while to be processed."
 msgstr ""
+"اگر وقتتان کم است، می‌توانید گزارش‌های اشکال مستندات را به docs@python.org "
+"ایمیل کنید (اشکالات رفتاری را می‌توان به python-list@python.org ارسال کرد). "
+"'docs@' یک لیست پستی است که توسط داوطلبان اداره می شود. درخواست شما مورد "
+"توجه قرار خواهد گرفت، اگرچه ممکن است مدتی طول بکشد تا پردازش شود."
 
 #: bugs.rst:36
+#, fuzzy
 msgid "`Documentation bugs`_"
-msgstr ""
+msgstr "`Documentation bugs`_"
 
 #: bugs.rst:37
-msgid "A list of documentation bugs that have been submitted to the Python issue tracker."
-msgstr ""
+#, fuzzy
+msgid ""
+"A list of documentation bugs that have been submitted to the Python issue "
+"tracker."
+msgstr "لیستی از اشکالات اسنادی که به ردیاب مشکل پایتون ارسال شده است."
 
 #: bugs.rst:39
+#, fuzzy
 msgid "`Issue Tracking <https://devguide.python.org/tracker/>`_"
-msgstr ""
+msgstr "`Issue Tracking <https://devguide.python.org/tracker/>`_"
 
 #: bugs.rst:40
-msgid "Overview of the process involved in reporting an improvement on the tracker."
-msgstr ""
+#, fuzzy
+msgid ""
+"Overview of the process involved in reporting an improvement on the tracker."
+msgstr "مروری بر فرآیند مربوط به گزارش بهبود در ردیاب."
 
 #: bugs.rst:42
-msgid "`Helping with Documentation <https://devguide.python.org/docquality/#helping-with-documentation>`_"
+#, fuzzy
+msgid ""
+"`Helping with Documentation "
+"<https://devguide.python.org/docquality/#helping-with-documentation>`_"
 msgstr ""
+"`Helping with Documentation "
+"<https://devguide.python.org/docquality/#helping-with-documentation>`_"
 
 #: bugs.rst:43
-msgid "Comprehensive guide for individuals that are interested in contributing to Python documentation."
+#, fuzzy
+msgid ""
+"Comprehensive guide for individuals that are interested in contributing to "
+"Python documentation."
 msgstr ""
+"راهنمای جامع برای افرادی که علاقه مند به مشارکت در اسناد پایتون هستند."
 
 #: bugs.rst:45
-msgid "`Documentation Translations <https://devguide.python.org/documentation/translating/>`_"
+#, fuzzy
+msgid ""
+"`Documentation Translations "
+"<https://devguide.python.org/documentation/translating/>`_"
 msgstr ""
+"`Documentation Translations "
+"<https://devguide.python.org/documentation/translating/>`_"
 
 #: bugs.rst:46
-msgid "A list of GitHub pages for documentation translation and their primary contacts."
-msgstr ""
+#, fuzzy
+msgid ""
+"A list of GitHub pages for documentation translation and their primary "
+"contacts."
+msgstr "فهرستی از صفحات GitHub برای ترجمه اسناد و مخاطبین اصلی آنها."
 
 #: bugs.rst:52
+#, fuzzy
 msgid "Using the Python issue tracker"
-msgstr ""
+msgstr "با استفاده از ردیاب مسئله پایتون"
 
 #: bugs.rst:54
-msgid "Issue reports for Python itself should be submitted via the GitHub issues tracker (https://github.com/python/cpython/issues). The GitHub issues tracker offers a web form which allows pertinent information to be entered and submitted to the developers."
+#, fuzzy
+msgid ""
+"Issue reports for Python itself should be submitted via the GitHub issues "
+"tracker (https://github.com/python/cpython/issues). The GitHub issues "
+"tracker offers a web form which allows pertinent information to be entered "
+"and submitted to the developers."
 msgstr ""
+"گزارش های مشکلات خود پایتون باید از طریق ردیاب مسائل GitHub "
+"(https://github.com/python/cpython/issues) ارسال شود. ردیاب مسائل GitHub یک "
+"فرم وب ارائه می دهد که به توسعه دهندگان اجازه می دهد اطلاعات مربوطه را وارد "
+"کرده و ارسال کنید."
 
 #: bugs.rst:59
-msgid "The first step in filing a report is to determine whether the problem has already been reported.  The advantage in doing so, aside from saving the developers' time, is that you learn what has been done to fix it; it may be that the problem has already been fixed for the next release, or additional information is needed (in which case you are welcome to provide it if you can!). To do this, search the tracker using the search box at the top of the page."
+#, fuzzy
+msgid ""
+"The first step in filing a report is to determine whether the problem has "
+"already been reported.  The advantage in doing so, aside from saving the "
+"developers' time, is that you learn what has been done to fix it; it may be "
+"that the problem has already been fixed for the next release, or additional "
+"information is needed (in which case you are welcome to provide it if you "
+"can!). To do this, search the tracker using the search box at the top of the"
+" page."
 msgstr ""
+"اولین قدم در ارائه گزارش این است که مشخص شود آیا مشکل قبلا گزارش شده است یا "
+"خیر.  مزیت انجام این کار، جدای از صرفه جویی در وقت توسعه دهندگان، این است که"
+" یاد می گیرید برای رفع آن چه کاری انجام شده است. ممکن است مشکل قبلاً برای "
+"نسخه بعدی برطرف شده باشد یا اطلاعات بیشتری مورد نیاز باشد (در این صورت می "
+"توانید در صورت امکان آن را ارائه دهید!). برای انجام این کار، ردیاب را با "
+"استفاده از کادر جستجو در بالای صفحه جستجو کنید."
 
 #: bugs.rst:66
-msgid "If the problem you're reporting is not already in the list, log in to GitHub. If you don't already have a GitHub account, create a new account using the \"Sign up\" link. It is not possible to submit a bug report anonymously."
+#, fuzzy
+msgid ""
+"If the problem you're reporting is not already in the list, log in to "
+"GitHub. If you don't already have a GitHub account, create a new account "
+"using the \"Sign up\" link. It is not possible to submit a bug report "
+"anonymously."
 msgstr ""
+"اگر مشکلی که گزارش می‌کنید قبلاً در لیست نیست، وارد GitHub شوید. اگر قبلاً "
+"یک حساب GitHub ندارید، با استفاده از پیوند \"ثبت نام\" یک حساب کاربری جدید "
+"ایجاد کنید. امکان ارسال گزارش اشکال به صورت ناشناس وجود ندارد."
 
 #: bugs.rst:71
-msgid "Being now logged in, you can submit an issue. Click on the \"New issue\" button in the top bar to report a new issue."
+#, fuzzy
+msgid ""
+"Being now logged in, you can submit an issue. Click on the \"New issue\" "
+"button in the top bar to report a new issue."
 msgstr ""
+"اکنون که وارد سیستم شده اید، می توانید مشکلی را ارسال کنید. برای گزارش یک "
+"مشکل جدید، روی دکمه \"نسخه جدید\" در نوار بالا کلیک کنید."
 
 #: bugs.rst:74
+#, fuzzy
 msgid "The submission form has two fields, \"Title\" and \"Comment\"."
-msgstr ""
+msgstr "فرم ارسال دارای دو فیلد «عنوان» و «نظر» است."
 
 #: bugs.rst:76
-msgid "For the \"Title\" field, enter a *very* short description of the problem; fewer than ten words is good."
+#, fuzzy
+msgid ""
+"For the \"Title\" field, enter a *very* short description of the problem; "
+"fewer than ten words is good."
 msgstr ""
+"برای فیلد \"عنوان\", یک توضیح کوتاه *very* از مشکل وارد کنید. کمتر از ده "
+"کلمه خوب است"
 
 #: bugs.rst:79
-msgid "In the \"Comment\" field, describe the problem in detail, including what you expected to happen and what did happen.  Be sure to include whether any extension modules were involved, and what hardware and software platform you were using (including version information as appropriate)."
+#, fuzzy
+msgid ""
+"In the \"Comment\" field, describe the problem in detail, including what you"
+" expected to happen and what did happen.  Be sure to include whether any "
+"extension modules were involved, and what hardware and software platform you"
+" were using (including version information as appropriate)."
 msgstr ""
+"در قسمت \"نظر\", مشکل را با جزئیات شرح دهید، از جمله آنچه که انتظار داشتید "
+"اتفاق بیفتد و چه اتفاقی افتاده است.  مطمئن شوید که آیا ماژول های برنامه "
+"افزودنی درگیر هستند یا خیر، و از چه پلتفرم سخت افزاری و نرم افزاری استفاده "
+"می کردید (از جمله اطلاعات نسخه در صورت لزوم)."
 
 #: bugs.rst:84
-msgid "Each issue report will be reviewed by a developer who will determine what needs to be done to correct the problem. You will receive an update each time an action is taken on the issue."
+#, fuzzy
+msgid ""
+"Each issue report will be reviewed by a developer who will determine what "
+"needs to be done to correct the problem. You will receive an update each "
+"time an action is taken on the issue."
 msgstr ""
+"هر گزارش مشکل توسط یک توسعه دهنده بررسی می شود که تعیین می کند برای اصلاح "
+"مشکل چه کاری باید انجام شود. هر بار که اقدامی در مورد این مشکل انجام شود، "
+"به‌روزرسانی دریافت خواهید کرد."
 
 #: bugs.rst:91
-msgid "`How to Report Bugs Effectively <https://www.chiark.greenend.org.uk/~sgtatham/bugs.html>`_"
+#, fuzzy
+msgid ""
+"`How to Report Bugs Effectively "
+"<https://www.chiark.greenend.org.uk/~sgtatham/bugs.html>`_"
 msgstr ""
+"`How to Report Bugs Effectively "
+"<https://www.chiark.greenend.org.uk/~sgtatham/bugs.html>`_"
 
 #: bugs.rst:92
-msgid "Article which goes into some detail about how to create a useful bug report. This describes what kind of information is useful and why it is useful."
+#, fuzzy
+msgid ""
+"Article which goes into some detail about how to create a useful bug report."
+" This describes what kind of information is useful and why it is useful."
 msgstr ""
+"مقاله ای که به جزئیات در مورد نحوه ایجاد یک گزارش اشکال مفید می پردازد. این "
+"توضیح می دهد که چه نوع اطلاعات مفید است و چرا مفید است."
 
 #: bugs.rst:95
-msgid "`Bug Writing Guidelines <https://bugzilla.mozilla.org/page.cgi?id=bug-writing.html>`_"
+#, fuzzy
+msgid ""
+"`Bug Writing Guidelines <https://bugzilla.mozilla.org/page.cgi?id=bug-"
+"writing.html>`_"
 msgstr ""
+"`Bug Writing Guidelines <https://bugzilla.mozilla.org/page.cgi?id=bug-"
+"writing.html>`_"
 
 #: bugs.rst:96
-msgid "Information about writing a good bug report.  Some of this is specific to the Mozilla project, but describes general good practices."
+#, fuzzy
+msgid ""
+"Information about writing a good bug report.  Some of this is specific to "
+"the Mozilla project, but describes general good practices."
 msgstr ""
+"اطلاعاتی در مورد نوشتن یک گزارش اشکال خوب.  برخی از این ها مختص پروژه موزیلا"
+" است، اما شیوه های خوب کلی را توصیف می کند."
 
 #: bugs.rst:102
+#, fuzzy
 msgid "Getting started contributing to Python yourself"
-msgstr ""
+msgstr "شروع به مشارکت در پایتون خودتان"
 
 #: bugs.rst:104
-msgid "Beyond just reporting bugs that you find, you are also welcome to submit patches to fix them.  You can find more information on how to get started patching Python in the `Python Developer's Guide`_.  If you have questions, the `core-mentorship mailing list`_ is a friendly place to get answers to any and all questions pertaining to the process of fixing issues in Python."
+#, fuzzy
+msgid ""
+"Beyond just reporting bugs that you find, you are also welcome to submit "
+"patches to fix them.  You can find more information on how to get started "
+"patching Python in the `Python Developer's Guide`_.  If you have questions, "
+"the `core-mentorship mailing list`_ is a friendly place to get answers to "
+"any and all questions pertaining to the process of fixing issues in Python."
 msgstr ""
+"علاوه بر گزارش اشکالاتی که پیدا می‌کنید، می‌توانید وصله‌هایی را نیز برای رفع"
+" آنها ارسال کنید.  می توانید اطلاعات بیشتری در مورد نحوه شروع وصله پایتون در"
+" `Python Developer's Guide`_ بیابید.  اگر سؤالی دارید، `core-mentorship "
+"mailing list`_ مکانی دوستانه برای دریافت پاسخ به همه سؤالات مربوط به فرآیند "
+"رفع مشکلات در پایتون است."

@@ -17,29 +17,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: tutorial/interactive.rst:5
+#, fuzzy
 msgid "Interactive Input Editing and History Substitution"
-msgstr ""
+msgstr "ویرایش تعاملی ورودی و جایگزینی تاریخچه"
 
 #: tutorial/interactive.rst:7
-msgid "Some versions of the Python interpreter support editing of the current input line and history substitution, similar to facilities found in the Korn shell and the GNU Bash shell.  This is implemented using the `GNU Readline`_ library, which supports various styles of editing.  This library has its own documentation which we won't duplicate here."
+#, fuzzy
+msgid ""
+"Some versions of the Python interpreter support editing of the current input"
+" line and history substitution, similar to facilities found in the Korn "
+"shell and the GNU Bash shell.  This is implemented using the `GNU Readline`_"
+" library, which supports various styles of editing.  This library has its "
+"own documentation which we won't duplicate here."
 msgstr ""
+"برخی از نسخه‌های مفسر پایتون از ویرایش خط ورودی فعلی و جایگزینی تاریخچه "
+"پشتیبانی می‌کنند، مشابه امکانات موجود در پوسته Korn و پوسته Bash GNU.  این "
+"با استفاده از کتابخانه `GNU Readline`_، که از سبک های مختلف ویرایش پشتیبانی "
+"می کند، پیاده سازی می شود.  این کتابخانه مستندات خاص خود را دارد که ما در "
+"اینجا کپی نمی کنیم."
 
 #: tutorial/interactive.rst:17
+#, fuzzy
 msgid "Tab Completion and History Editing"
-msgstr ""
+msgstr "تکمیل برگه و ویرایش تاریخچه"
 
 #: tutorial/interactive.rst:19
-msgid "Completion of variable and module names is :ref:`automatically enabled <rlcompleter-config>` at interpreter startup so that the :kbd:`Tab` key invokes the completion function; it looks at Python statement names, the current local variables, and the available module names.  For dotted expressions such as ``string.a``, it will evaluate the expression up to the final ``'.'`` and then suggest completions from the attributes of the resulting object.  Note that this may execute application-defined code if an object with a :meth:`~object.__getattr__` method is part of the expression.  The default configuration also saves your history into a file named :file:`.python_history` in your user directory. The history will be available again during the next interactive interpreter session."
+#, fuzzy
+msgid ""
+"Completion of variable and module names is :ref:`automatically enabled "
+"<rlcompleter-config>` at interpreter startup so that the :kbd:`Tab` key "
+"invokes the completion function; it looks at Python statement names, the "
+"current local variables, and the available module names.  For dotted "
+"expressions such as ``string.a``, it will evaluate the expression up to the "
+"final ``'.'`` and then suggest completions from the attributes of the "
+"resulting object.  Note that this may execute application-defined code if an"
+" object with a :meth:`~object.__getattr__` method is part of the expression."
+"  The default configuration also saves your history into a file named "
+":file:`.python_history` in your user directory. The history will be "
+"available again during the next interactive interpreter session."
 msgstr ""
+"تکمیل نام متغیرها و ماژول ها در هنگام راه اندازی مفسر :ref:`automatically "
+"enabled <rlcompleter-config>` است به طوری که کلید :kbd:`Tab` تابع تکمیل را "
+"فراخوانی می کند. به نام دستورات پایتون، متغیرهای محلی فعلی و نام ماژول های "
+"موجود نگاه می کند.  برای عبارات نقطه‌دار مانند ``string.a``، عبارت را تا "
+"``'.'`` نهایی ارزیابی می‌کند و سپس تکمیل‌هایی را از ویژگی‌های شی حاصل "
+"پیشنهاد می‌کند.  توجه داشته باشید که اگر یک شی با متد "
+":meth:`~object.__getattr__` بخشی از عبارت باشد، ممکن است کد تعریف شده توسط "
+"برنامه را اجرا کند.  پیکربندی پیش فرض همچنین تاریخچه شما را در فایلی به نام "
+":file:`.python_history` در فهرست کاربری شما ذخیره می کند. تاریخچه در جلسه "
+"بعدی مترجم تعاملی دوباره در دسترس خواهد بود."
 
 #: tutorial/interactive.rst:36
+#, fuzzy
 msgid "Alternatives to the Interactive Interpreter"
-msgstr ""
+msgstr "جایگزین های مترجم تعاملی"
 
 #: tutorial/interactive.rst:38
-msgid "This facility is an enormous step forward compared to earlier versions of the interpreter; however, some wishes are left: It would be nice if the proper indentation were suggested on continuation lines (the parser knows if an indent token is required next).  The completion mechanism might use the interpreter's symbol table.  A command to check (or even suggest) matching parentheses, quotes, etc., would also be useful."
+#, fuzzy
+msgid ""
+"This facility is an enormous step forward compared to earlier versions of "
+"the interpreter; however, some wishes are left: It would be nice if the "
+"proper indentation were suggested on continuation lines (the parser knows if"
+" an indent token is required next).  The completion mechanism might use the "
+"interpreter's symbol table.  A command to check (or even suggest) matching "
+"parentheses, quotes, etc., would also be useful."
 msgstr ""
+"این تسهیلات در مقایسه با نسخه های قبلی مفسر یک گام بزرگ به جلو است. با این "
+"حال، برخی از آرزوها باقی مانده است: خوب است اگر تورفتگی مناسب در خطوط ادامه "
+"پیشنهاد شود (تجزیه کننده می داند که آیا یک نشانه تورفتگی در مرحله بعد مورد "
+"نیاز است).  مکانیسم تکمیل ممکن است از جدول نمادهای مفسر استفاده کند.  دستوری"
+" برای بررسی (یا حتی پیشنهاد) مطابق با پرانتزها، نقل قول ها و غیره نیز مفید "
+"خواهد بود."
 
 #: tutorial/interactive.rst:45
-msgid "One alternative enhanced interactive interpreter that has been around for quite some time is IPython_, which features tab completion, object exploration and advanced history management.  It can also be thoroughly customized and embedded into other applications.  Another similar enhanced interactive environment is bpython_."
+#, fuzzy
+msgid ""
+"One alternative enhanced interactive interpreter that has been around for "
+"quite some time is IPython_, which features tab completion, object "
+"exploration and advanced history management.  It can also be thoroughly "
+"customized and embedded into other applications.  Another similar enhanced "
+"interactive environment is bpython_."
 msgstr ""
+"یکی از مفسرهای تعاملی پیشرفته جایگزین که برای مدتی طولانی وجود داشته است، "
+"IPython_ است که شامل تکمیل برگه، کاوش شی و مدیریت پیشرفته تاریخچه است.  "
+"همچنین می توان آن را به طور کامل سفارشی کرد و در برنامه های دیگر جاسازی کرد."
+"  یکی دیگر از محیط های تعاملی پیشرفته مشابه bpython_ است."

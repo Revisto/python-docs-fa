@@ -17,33 +17,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: tutorial/stdlib2.rst:5
+#, fuzzy
 msgid "Brief Tour of the Standard Library --- Part II"
-msgstr ""
+msgstr "گشت مختصری از کتابخانه استاندارد --- قسمت دوم"
 
 #: tutorial/stdlib2.rst:7
-msgid "This second tour covers more advanced modules that support professional programming needs.  These modules rarely occur in small scripts."
+#, fuzzy
+msgid ""
+"This second tour covers more advanced modules that support professional "
+"programming needs.  These modules rarely occur in small scripts."
 msgstr ""
+"این تور دوم ماژول های پیشرفته تری را پوشش می دهد که نیازهای برنامه نویسی "
+"حرفه ای را پشتیبانی می کند.  این ماژول ها به ندرت در اسکریپت های کوچک وجود "
+"دارند."
 
 #: tutorial/stdlib2.rst:14
+#, fuzzy
 msgid "Output Formatting"
-msgstr ""
+msgstr "قالب بندی خروجی"
 
 #: tutorial/stdlib2.rst:16
-msgid "The :mod:`reprlib` module provides a version of :func:`repr` customized for abbreviated displays of large or deeply nested containers::"
+#, fuzzy
+msgid ""
+"The :mod:`reprlib` module provides a version of :func:`repr` customized for "
+"abbreviated displays of large or deeply nested containers::"
 msgstr ""
+"ماژول :mod:`reprlib` نسخه ای از :func:`repr` را ارائه می دهد که برای نمایش "
+"های مختصر ظروف بزرگ یا عمیق تو در تو سفارشی شده است:"
 
 #: tutorial/stdlib2.rst:19
-msgid ">>> import reprlib\n"
+#, fuzzy
+msgid ""
+">>> import reprlib\n"
 ">>> reprlib.repr(set('supercalifragilisticexpialidocious'))\n"
 "\"{'a', 'c', 'd', 'e', 'f', 'g', ...}\""
 msgstr ""
+">>> import reprlib\n"
+">>> reprlib.repr(set('supercalifragilisticexpialidocious'))\n"
+"\"{'a', 'c', 'd', 'e', 'f', 'g', ...}\""
 
 #: tutorial/stdlib2.rst:23
-msgid "The :mod:`pprint` module offers more sophisticated control over printing both built-in and user defined objects in a way that is readable by the interpreter. When the result is longer than one line, the \"pretty printer\" adds line breaks and indentation to more clearly reveal data structure::"
+#, fuzzy
+msgid ""
+"The :mod:`pprint` module offers more sophisticated control over printing "
+"both built-in and user defined objects in a way that is readable by the "
+"interpreter. When the result is longer than one line, the \"pretty printer\""
+" adds line breaks and indentation to more clearly reveal data structure::"
 msgstr ""
+"ماژول :mod:`pprint` کنترل پیچیده تری را بر روی چاپ اشیاء داخلی و تعریف شده "
+"توسط کاربر به روشی قابل خواندن توسط مفسر ارائه می دهد. هنگامی که نتیجه "
+"طولانی‌تر از یک خط باشد، «چاپگر زیبا» شکستگی‌ها و تورفتگی‌های خط را اضافه "
+"می‌کند تا ساختار داده را به وضوح نشان دهد:"
 
 #: tutorial/stdlib2.rst:28
-msgid ">>> import pprint\n"
+#, fuzzy
+msgid ""
+">>> import pprint\n"
 ">>> t = [[[['black', 'cyan'], 'white', ['green', 'red']], [['magenta',\n"
 "...     'yellow'], 'blue']]]\n"
 "...\n"
@@ -54,13 +83,30 @@ msgid ">>> import pprint\n"
 "  [['magenta', 'yellow'],\n"
 "   'blue']]]"
 msgstr ""
+">>> import pprint\n"
+">>> t = [[[['black', 'cyan'], 'white', ['green', 'red']], [['magenta',\n"
+"...     'yellow'], 'blue']]]\n"
+"...\n"
+">>> pprint.pprint(t, width=30)\n"
+"[[[['black', 'cyan'],\n"
+"   'white',\n"
+"   ['green', 'red']],\n"
+"  [['magenta', 'yellow'],\n"
+"   'blue']]]"
 
 #: tutorial/stdlib2.rst:39
-msgid "The :mod:`textwrap` module formats paragraphs of text to fit a given screen width::"
+#, fuzzy
+msgid ""
+"The :mod:`textwrap` module formats paragraphs of text to fit a given screen "
+"width::"
 msgstr ""
+"ماژول :mod:`textwrap` پاراگراف های متن را به گونه ای قالب بندی می کند که عرض"
+" صفحه نمایش داده شود:"
 
 #: tutorial/stdlib2.rst:42
-msgid ">>> import textwrap\n"
+#, fuzzy
+msgid ""
+">>> import textwrap\n"
 ">>> doc = \"\"\"The wrap() method is just like fill() except that it returns\n"
 "... a list of strings instead of one big string with newlines to separate\n"
 "... the wrapped lines.\"\"\"\n"
@@ -71,13 +117,32 @@ msgid ">>> import textwrap\n"
 "instead of one big string with newlines\n"
 "to separate the wrapped lines."
 msgstr ""
+">>> وارد کردن textwrap\n"
+">>> doc = \"\"\"متد wrap () درست مانند fill() است با این تفاوت که برمی گردد\n"
+"... لیستی از رشته ها به جای یک رشته بزرگ با خطوط جدید برای جدا کردن\n"
+"... خطوط پیچیده.\"\"\"\n"
+"...\n"
+">>> print(textwrap.fill(doc, width=40))\n"
+"متد wrap() درست مانند fill() است.\n"
+"به جز اینکه لیستی از رشته ها را برمی گرداند\n"
+"به جای یک رشته بزرگ با خطوط جدید\n"
+"برای جدا کردن خطوط پیچیده شده"
 
 #: tutorial/stdlib2.rst:53
-msgid "The :mod:`locale` module accesses a database of culture specific data formats. The grouping attribute of locale's format function provides a direct way of formatting numbers with group separators::"
+#, fuzzy
+msgid ""
+"The :mod:`locale` module accesses a database of culture specific data "
+"formats. The grouping attribute of locale's format function provides a "
+"direct way of formatting numbers with group separators::"
 msgstr ""
+"ماژول :mod:`locale` به پایگاه داده ای از فرمت های داده خاص فرهنگ دسترسی "
+"دارد. ویژگی گروه‌بندی تابع قالب محلی یک روش مستقیم برای قالب‌بندی اعداد با "
+"جداکننده‌های گروه ارائه می‌کند:"
 
 #: tutorial/stdlib2.rst:57
-msgid ">>> import locale\n"
+#, fuzzy
+msgid ""
+">>> import locale\n"
 ">>> locale.setlocale(locale.LC_ALL, 'English_United States.1252')\n"
 "'English_United States.1252'\n"
 ">>> conv = locale.localeconv()          # get a mapping of conventions\n"
@@ -88,32 +153,81 @@ msgid ">>> import locale\n"
 "...                      conv['frac_digits'], x), grouping=True)\n"
 "'$1,234,567.80'"
 msgstr ""
+">>> import locale\n"
+">>> locale.setlocale(locale.LC_ALL, 'English_United States.1252')\n"
+"'English_United States.1252'\n"
+">>> conv = locale.localeconv()          # get a mapping of conventions\n"
+">>> x = 1234567.8\n"
+">>> locale.format_string(\"%d\", x, grouping=True)\n"
+"'1,234,567'\n"
+">>> locale.format_string(\"%s%.*f\", (conv['currency_symbol'],\n"
+"...                      conv['frac_digits'], x), grouping=True)\n"
+"'$1,234,567.80'"
 
 #: tutorial/stdlib2.rst:72
+#, fuzzy
 msgid "Templating"
-msgstr ""
+msgstr "الگوسازی"
 
 #: tutorial/stdlib2.rst:74
-msgid "The :mod:`string` module includes a versatile :class:`~string.Template` class with a simplified syntax suitable for editing by end-users.  This allows users to customize their applications without having to alter the application."
+#, fuzzy
+msgid ""
+"The :mod:`string` module includes a versatile :class:`~string.Template` "
+"class with a simplified syntax suitable for editing by end-users.  This "
+"allows users to customize their applications without having to alter the "
+"application."
 msgstr ""
+"ماژول :mod:`string` شامل یک کلاس همه کاره :class:`~string.Template` با یک "
+"نحو ساده شده است که برای ویرایش توسط کاربران نهایی مناسب است.  این به "
+"کاربران اجازه می دهد تا برنامه های خود را بدون نیاز به تغییر برنامه شخصی "
+"سازی کنند."
 
 #: tutorial/stdlib2.rst:78
-msgid "The format uses placeholder names formed by ``$`` with valid Python identifiers (alphanumeric characters and underscores).  Surrounding the placeholder with braces allows it to be followed by more alphanumeric letters with no intervening spaces.  Writing ``$$`` creates a single escaped ``$``::"
+#, fuzzy
+msgid ""
+"The format uses placeholder names formed by ``$`` with valid Python "
+"identifiers (alphanumeric characters and underscores).  Surrounding the "
+"placeholder with braces allows it to be followed by more alphanumeric "
+"letters with no intervening spaces.  Writing ``$$`` creates a single escaped"
+" ``$``::"
 msgstr ""
+"این فرمت از نام‌های مکان‌نما استفاده می‌کند که توسط ``$`` با شناسه‌های معتبر"
+" پایتون (کاراکترهای الفبایی و زیرخط) تشکیل شده‌اند.  احاطه کردن مکان نگهدار "
+"با پرانتز به آن اجازه می دهد تا با حروف الفبایی عددی بیشتری بدون فاصله میانی"
+" دنبال شود.  نوشتن ``$$`` یک ``$`` واحد ایجاد می کند::"
 
 #: tutorial/stdlib2.rst:83
-msgid ">>> from string import Template\n"
+#, fuzzy
+msgid ""
+">>> from string import Template\n"
 ">>> t = Template('${village}folk send $$10 to $cause.')\n"
 ">>> t.substitute(village='Nottingham', cause='the ditch fund')\n"
 "'Nottinghamfolk send $10 to the ditch fund.'"
 msgstr ""
+">>> from string import Template\n"
+">>> t = Template('${village}folk send $$10 to $cause.')\n"
+">>> t.substitute(village='Nottingham', cause='the ditch fund')\n"
+"'Nottinghamfolk send $10 to the ditch fund.'"
 
 #: tutorial/stdlib2.rst:88
-msgid "The :meth:`~string.Template.substitute` method raises a :exc:`KeyError` when a placeholder is not supplied in a dictionary or a keyword argument.  For mail-merge style applications, user supplied data may be incomplete and the :meth:`~string.Template.safe_substitute` method may be more appropriate --- it will leave placeholders unchanged if data is missing::"
+#, fuzzy
+msgid ""
+"The :meth:`~string.Template.substitute` method raises a :exc:`KeyError` when"
+" a placeholder is not supplied in a dictionary or a keyword argument.  For "
+"mail-merge style applications, user supplied data may be incomplete and the "
+":meth:`~string.Template.safe_substitute` method may be more appropriate --- "
+"it will leave placeholders unchanged if data is missing::"
 msgstr ""
+"روش :meth:`~string.Template.substitute` یک :exc:`KeyError` را زمانی افزایش "
+"می دهد که یک مکان نگهدار در فرهنگ لغت یا آرگومان کلمه کلیدی ارائه نشده باشد."
+"  برای برنامه‌های سبک ادغام ایمیل، داده‌های ارائه‌شده توسط کاربر ممکن است "
+"ناقص باشد و روش :meth:`~string.Template.safe_substitute` ممکن است مناسب‌تر "
+"باشد --- اگر داده‌ها از دست رفته باشد، متغیرهایی را بدون تغییر می‌گذارد:"
 
 #: tutorial/stdlib2.rst:94
-msgid ">>> t = Template('Return the $item to $owner.')\n"
+#, fuzzy
+msgid ""
+">>> t = Template('Return the $item to $owner.')\n"
 ">>> d = dict(item='unladen swallow')\n"
 ">>> t.substitute(d)\n"
 "Traceback (most recent call last):\n"
@@ -122,13 +236,32 @@ msgid ">>> t = Template('Return the $item to $owner.')\n"
 ">>> t.safe_substitute(d)\n"
 "'Return the unladen swallow to $owner.'"
 msgstr ""
+">>> t = Template('item $ را به $owner برگردانید.')\n"
+">>> d = دیکت (آیتم='پرستو بدون بار')\n"
+">>> t.substitute(d)\n"
+"ردیابی (آخرین تماس اخیر):\n"
+"  ...\n"
+"خطای کلیدی: \"مالک\"\n"
+">>> t.safe_substitute(d)\n"
+"'پرستو بدون بار را به $owner برگردانید.'"
 
 #: tutorial/stdlib2.rst:103
-msgid "Template subclasses can specify a custom delimiter.  For example, a batch renaming utility for a photo browser may elect to use percent signs for placeholders such as the current date, image sequence number, or file format::"
+#, fuzzy
+msgid ""
+"Template subclasses can specify a custom delimiter.  For example, a batch "
+"renaming utility for a photo browser may elect to use percent signs for "
+"placeholders such as the current date, image sequence number, or file "
+"format::"
 msgstr ""
+"زیر کلاس های الگو می توانند یک جداکننده سفارشی را مشخص کنند.  به عنوان مثال،"
+" یک ابزار تغییر نام دسته‌ای برای مرورگر عکس ممکن است انتخاب کند که از "
+"نشانه‌های درصد برای متغیرهایی مانند تاریخ فعلی، شماره توالی تصویر یا قالب "
+"فایل استفاده کند:"
 
 #: tutorial/stdlib2.rst:107
-msgid ">>> import time, os.path\n"
+#, fuzzy
+msgid ""
+">>> import time, os.path\n"
 ">>> photofiles = ['img_1074.jpg', 'img_1076.jpg', 'img_1077.jpg']\n"
 ">>> class BatchRename(Template):\n"
 "...     delimiter = '%'\n"
@@ -147,21 +280,63 @@ msgid ">>> import time, os.path\n"
 "img_1076.jpg --> Ashley_1.jpg\n"
 "img_1077.jpg --> Ashley_2.jpg"
 msgstr ""
+">>> زمان واردات, os.path\n"
+">>> فایلهای عکس = ['img_1074.jpg', 'img_1076.jpg', 'img_1077.jpg']\n"
+">>> کلاس BatchRename (الگو):\n"
+"... جداکننده = '%'\n"
+"...\n"
+">>> fmt = ورودی ('سبک تغییر نام را وارد کنید (%d-date %n-seqnum %f-format): ')\n"
+"سبک تغییر نام را وارد کنید (%d-date %n-seqnum %f-format): Ashley_%n%f\n"
+"\n"
+">>> t = BatchRename(fmt)\n"
+">>> date = time.strftime('%d%b%y')\n"
+">>> برای i, نام فایل در enumerate(photofiles):\n"
+"... base, ext = os.path.splitext(نام فایل)\n"
+"... newname = t.substitute(d=date, n=i, f=ext)\n"
+"... print('{0} --> {1}'.format(نام فایل, نام جدید))\n"
+"\n"
+"img_1074.jpg --> Ashley_0.jpg\n"
+"img_1076.jpg --> Ashley_1.jpg\n"
+"img_1077.jpg --> Ashley_2.jpg"
 
 #: tutorial/stdlib2.rst:126
-msgid "Another application for templating is separating program logic from the details of multiple output formats.  This makes it possible to substitute custom templates for XML files, plain text reports, and HTML web reports."
+#, fuzzy
+msgid ""
+"Another application for templating is separating program logic from the "
+"details of multiple output formats.  This makes it possible to substitute "
+"custom templates for XML files, plain text reports, and HTML web reports."
 msgstr ""
+"یکی دیگر از کاربردهای قالب بندی، جداسازی منطق برنامه از جزئیات فرمت های "
+"خروجی متعدد است.  این امکان جایگزینی قالب های سفارشی را برای فایل های XML، "
+"گزارش های متنی ساده و گزارش های وب HTML فراهم می کند."
 
 #: tutorial/stdlib2.rst:134
+#, fuzzy
 msgid "Working with Binary Data Record Layouts"
-msgstr ""
+msgstr "کار با طرح بندی های ضبط داده های باینری"
 
 #: tutorial/stdlib2.rst:136
-msgid "The :mod:`struct` module provides :func:`~struct.pack` and :func:`~struct.unpack` functions for working with variable length binary record formats.  The following example shows how to loop through header information in a ZIP file without using the :mod:`zipfile` module.  Pack codes ``\"H\"`` and ``\"I\"`` represent two and four byte unsigned numbers respectively.  The ``\"<\"`` indicates that they are standard size and in little-endian byte order::"
+#, fuzzy
+msgid ""
+"The :mod:`struct` module provides :func:`~struct.pack` and "
+":func:`~struct.unpack` functions for working with variable length binary "
+"record formats.  The following example shows how to loop through header "
+"information in a ZIP file without using the :mod:`zipfile` module.  Pack "
+"codes ``\"H\"`` and ``\"I\"`` represent two and four byte unsigned numbers "
+"respectively.  The ``\"<\"`` indicates that they are standard size and in "
+"little-endian byte order::"
 msgstr ""
+"ماژول :mod:`struct` توابع :func:`~struct.pack` و :func:`~struct.unpack` را "
+"برای کار با فرمت های رکورد باینری با طول متغیر فراهم می کند.  مثال زیر نشان "
+"می دهد که چگونه می توان اطلاعات هدر را در یک فایل ZIP بدون استفاده از ماژول "
+":mod:`zipfile` حلقه کرد.  کدهای بسته ``\"H\"`` و ``\"I\"`` به ترتیب اعداد "
+"بدون علامت دو و چهار بایتی را نشان می دهند.  ``\"<\"`` نشان می دهد که آنها "
+"اندازه استاندارد و به ترتیب بایت اندک اند:"
 
 #: tutorial/stdlib2.rst:144
-msgid "import struct\n"
+#, fuzzy
+msgid ""
+"import struct\n"
 "\n"
 "with open('myfile.zip', 'rb') as f:\n"
 "    data = f.read()\n"
@@ -180,21 +355,57 @@ msgid "import struct\n"
 "\n"
 "    start += extra_size + comp_size     # skip to the next header"
 msgstr ""
+"import struct\n"
+"\n"
+"with open('myfile.zip', 'rb') as f:\n"
+"    data = f.read()\n"
+"\n"
+"start = 0\n"
+"for i in range(3):                      # show the first 3 file headers\n"
+"    start += 14\n"
+"    fields = struct.unpack('<IIIHH', data[start:start+16])\n"
+"    crc32, comp_size, uncomp_size, filenamesize, extra_size = fields\n"
+"\n"
+"    start += 16\n"
+"    filename = data[start:start+filenamesize]\n"
+"    start += filenamesize\n"
+"    extra = data[start:start+extra_size]\n"
+"    print(filename, hex(crc32), comp_size, uncomp_size)\n"
+"\n"
+"    start += extra_size + comp_size     # skip to the next header"
 
 #: tutorial/stdlib2.rst:167
+#, fuzzy
 msgid "Multi-threading"
-msgstr ""
+msgstr "چند رشته ای"
 
 #: tutorial/stdlib2.rst:169
-msgid "Threading is a technique for decoupling tasks which are not sequentially dependent.  Threads can be used to improve the responsiveness of applications that accept user input while other tasks run in the background.  A related use case is running I/O in parallel with computations in another thread."
+#, fuzzy
+msgid ""
+"Threading is a technique for decoupling tasks which are not sequentially "
+"dependent.  Threads can be used to improve the responsiveness of "
+"applications that accept user input while other tasks run in the background."
+"  A related use case is running I/O in parallel with computations in another"
+" thread."
 msgstr ""
+"Threading تکنیکی برای جدا کردن وظایفی است که به طور متوالی وابسته نیستند.  "
+"از رشته ها می توان برای بهبود پاسخگویی برنامه هایی استفاده کرد که ورودی "
+"کاربر را می پذیرند در حالی که سایر وظایف در پس زمینه اجرا می شوند.  یک مورد "
+"استفاده مرتبط در حال اجرای I/O به موازات محاسبات در رشته دیگر است."
 
 #: tutorial/stdlib2.rst:174
-msgid "The following code shows how the high level :mod:`threading` module can run tasks in background while the main program continues to run::"
+#, fuzzy
+msgid ""
+"The following code shows how the high level :mod:`threading` module can run "
+"tasks in background while the main program continues to run::"
 msgstr ""
+"کد زیر نشان می‌دهد که چگونه ماژول سطح بالای :mod:`threading` می‌تواند وظایف "
+"را در پس‌زمینه اجرا کند در حالی که برنامه اصلی به اجرای خود ادامه می‌دهد:"
 
 #: tutorial/stdlib2.rst:177
-msgid "import threading, zipfile\n"
+#, fuzzy
+msgid ""
+"import threading, zipfile\n"
 "\n"
 "class AsyncZip(threading.Thread):\n"
 "    def __init__(self, infile, outfile):\n"
@@ -215,64 +426,176 @@ msgid "import threading, zipfile\n"
 "background.join()    # Wait for the background task to finish\n"
 "print('Main program waited until background was done.')"
 msgstr ""
+"import threading, zipfile\n"
+"\n"
+"class AsyncZip(threading.Thread):\n"
+"    def __init__(self, infile, outfile):\n"
+"        threading.Thread.__init__(self)\n"
+"        self.infile = infile\n"
+"        self.outfile = outfile\n"
+"\n"
+"    def run(self):\n"
+"        f = zipfile.ZipFile(self.outfile, 'w', zipfile.ZIP_DEFLATED)\n"
+"        f.write(self.infile)\n"
+"        f.close()\n"
+"        print('Finished background zip of:', self.infile)\n"
+"\n"
+"background = AsyncZip('mydata.txt', 'myarchive.zip')\n"
+"background.start()\n"
+"print('The main program continues to run in foreground.')\n"
+"\n"
+"background.join()    # Wait for the background task to finish\n"
+"print('Main program waited until background was done.')"
 
 #: tutorial/stdlib2.rst:198
-msgid "The principal challenge of multi-threaded applications is coordinating threads that share data or other resources.  To that end, the threading module provides a number of synchronization primitives including locks, events, condition variables, and semaphores."
+#, fuzzy
+msgid ""
+"The principal challenge of multi-threaded applications is coordinating "
+"threads that share data or other resources.  To that end, the threading "
+"module provides a number of synchronization primitives including locks, "
+"events, condition variables, and semaphores."
 msgstr ""
+"چالش اصلی برنامه های کاربردی چند رشته ای هماهنگ کردن رشته هایی است که داده "
+"ها یا منابع دیگر را به اشتراک می گذارند.  برای این منظور، ماژول threading "
+"تعدادی از اولیه‌های همگام‌سازی از جمله قفل‌ها، رویدادها، متغیرهای شرط و "
+"سمافورها را ارائه می‌کند."
 
 #: tutorial/stdlib2.rst:203
-msgid "While those tools are powerful, minor design errors can result in problems that are difficult to reproduce.  So, the preferred approach to task coordination is to concentrate all access to a resource in a single thread and then use the :mod:`queue` module to feed that thread with requests from other threads. Applications using :class:`~queue.Queue` objects for inter-thread communication and coordination are easier to design, more readable, and more reliable."
+#, fuzzy
+msgid ""
+"While those tools are powerful, minor design errors can result in problems "
+"that are difficult to reproduce.  So, the preferred approach to task "
+"coordination is to concentrate all access to a resource in a single thread "
+"and then use the :mod:`queue` module to feed that thread with requests from "
+"other threads. Applications using :class:`~queue.Queue` objects for inter-"
+"thread communication and coordination are easier to design, more readable, "
+"and more reliable."
 msgstr ""
+"در حالی که این ابزارها قدرتمند هستند، اشتباهات جزئی طراحی می تواند منجر به "
+"مشکلاتی شود که بازتولید آنها دشوار است.  بنابراین، رویکرد ترجیحی برای "
+"هماهنگی کار این است که تمام دسترسی ها به یک منبع را در یک رشته متمرکز کنید و"
+" سپس از ماژول :mod:`queue` برای تغذیه آن رشته با درخواست های رشته های دیگر "
+"استفاده کنید. برنامه هایی که از اشیاء :class:`~queue.Queue` برای ارتباطات و "
+"هماهنگی بین رشته ای استفاده می کنند، طراحی آسان تر، خواناتر و قابل اعتمادتر "
+"هستند."
 
 #: tutorial/stdlib2.rst:214
+#, fuzzy
 msgid "Logging"
-msgstr ""
+msgstr "ورود به سیستم"
 
 #: tutorial/stdlib2.rst:216
-msgid "The :mod:`logging` module offers a full featured and flexible logging system. At its simplest, log messages are sent to a file or to ``sys.stderr``::"
+#, fuzzy
+msgid ""
+"The :mod:`logging` module offers a full featured and flexible logging "
+"system. At its simplest, log messages are sent to a file or to "
+"``sys.stderr``::"
 msgstr ""
+"ماژول :mod:`logging` یک سیستم ثبت گزارش کامل و انعطاف پذیر را ارائه می دهد. "
+"در ساده‌ترین حالت، پیام‌های گزارش به یک فایل یا به ``sys.stderr`` ارسال "
+"می‌شوند:"
 
 #: tutorial/stdlib2.rst:219
-msgid "import logging\n"
+#, fuzzy
+msgid ""
+"import logging\n"
 "logging.debug('Debugging information')\n"
 "logging.info('Informational message')\n"
 "logging.warning('Warning:config file %s not found', 'server.conf')\n"
 "logging.error('Error occurred')\n"
 "logging.critical('Critical error -- shutting down')"
 msgstr ""
+"import logging\n"
+"logging.debug('Debugging information')\n"
+"logging.info('Informational message')\n"
+"logging.warning('Warning:config file %s not found', 'server.conf')\n"
+"logging.error('Error occurred')\n"
+"logging.critical('Critical error -- shutting down')"
 
 #: tutorial/stdlib2.rst:226
+#, fuzzy
 msgid "This produces the following output:"
-msgstr ""
+msgstr "این خروجی زیر را تولید می کند:"
 
 #: tutorial/stdlib2.rst:228
-msgid "WARNING:root:Warning:config file server.conf not found\n"
+#, fuzzy
+msgid ""
+"WARNING:root:Warning:config file server.conf not found\n"
 "ERROR:root:Error occurred\n"
 "CRITICAL:root:Critical error -- shutting down"
 msgstr ""
+"WARNING:root:Warning:config file server.conf یافت نشد\n"
+"ERROR:root:خطایی رخ داد\n"
+"CRITICAL:root:خطای بحرانی -- خاموش شدن"
 
 #: tutorial/stdlib2.rst:234
-msgid "By default, informational and debugging messages are suppressed and the output is sent to standard error.  Other output options include routing messages through email, datagrams, sockets, or to an HTTP Server.  New filters can select different routing based on message priority: :const:`~logging.DEBUG`, :const:`~logging.INFO`, :const:`~logging.WARNING`, :const:`~logging.ERROR`, and :const:`~logging.CRITICAL`."
+#, fuzzy
+msgid ""
+"By default, informational and debugging messages are suppressed and the "
+"output is sent to standard error.  Other output options include routing "
+"messages through email, datagrams, sockets, or to an HTTP Server.  New "
+"filters can select different routing based on message priority: "
+":const:`~logging.DEBUG`, :const:`~logging.INFO`, :const:`~logging.WARNING`, "
+":const:`~logging.ERROR`, and :const:`~logging.CRITICAL`."
 msgstr ""
+"به طور پیش‌فرض، پیام‌های اطلاعاتی و اشکال‌زدایی سرکوب می‌شوند و خروجی به "
+"خطای استاندارد ارسال می‌شود.  سایر گزینه‌های خروجی شامل مسیریابی پیام‌ها از "
+"طریق ایمیل، دیتاگرام، سوکت‌ها یا به سرور HTTP است.  فیلترهای جدید می توانند "
+"مسیریابی های مختلفی را بر اساس اولویت پیام انتخاب کنند: "
+":const:`~logging.DEBUG`، :const:`~logging.INFO`، :const:`~logging.WARNING`، "
+":const:`~logging.ERROR`، و :const:`~logging.CRITICAL`."
 
 #: tutorial/stdlib2.rst:241
-msgid "The logging system can be configured directly from Python or can be loaded from a user editable configuration file for customized logging without altering the application."
+#, fuzzy
+msgid ""
+"The logging system can be configured directly from Python or can be loaded "
+"from a user editable configuration file for customized logging without "
+"altering the application."
 msgstr ""
+"سیستم لاگ را می توان مستقیماً از پایتون پیکربندی کرد یا می توان آن را از یک "
+"فایل پیکربندی قابل ویرایش کاربر برای ثبت سفارشی بدون تغییر برنامه بارگیری "
+"کرد."
 
 #: tutorial/stdlib2.rst:249
+#, fuzzy
 msgid "Weak References"
-msgstr ""
+msgstr "مراجع ضعیف"
 
 #: tutorial/stdlib2.rst:251
-msgid "Python does automatic memory management (reference counting for most objects and :term:`garbage collection` to eliminate cycles).  The memory is freed shortly after the last reference to it has been eliminated."
+#, fuzzy
+msgid ""
+"Python does automatic memory management (reference counting for most objects"
+" and :term:`garbage collection` to eliminate cycles).  The memory is freed "
+"shortly after the last reference to it has been eliminated."
 msgstr ""
+"پایتون مدیریت خودکار حافظه را انجام می دهد (شمارش مرجع برای اکثر اشیا و "
+":term:`garbage collection` برای حذف چرخه ها).  حافظه مدت کوتاهی پس از حذف "
+"آخرین اشاره به آن آزاد می شود."
 
 #: tutorial/stdlib2.rst:255
-msgid "This approach works fine for most applications but occasionally there is a need to track objects only as long as they are being used by something else. Unfortunately, just tracking them creates a reference that makes them permanent. The :mod:`weakref` module provides tools for tracking objects without creating a reference.  When the object is no longer needed, it is automatically removed from a weakref table and a callback is triggered for weakref objects.  Typical applications include caching objects that are expensive to create::"
+#, fuzzy
+msgid ""
+"This approach works fine for most applications but occasionally there is a "
+"need to track objects only as long as they are being used by something else."
+" Unfortunately, just tracking them creates a reference that makes them "
+"permanent. The :mod:`weakref` module provides tools for tracking objects "
+"without creating a reference.  When the object is no longer needed, it is "
+"automatically removed from a weakref table and a callback is triggered for "
+"weakref objects.  Typical applications include caching objects that are "
+"expensive to create::"
 msgstr ""
+"این رویکرد برای اکثر برنامه ها به خوبی کار می کند، اما گاهی اوقات نیاز به "
+"ردیابی اشیاء تنها تا زمانی وجود دارد که توسط چیز دیگری استفاده می شوند. "
+"متأسفانه فقط ردیابی آنها مرجعی ایجاد می کند که آنها را دائمی می کند. ماژول "
+":mod:`weakref` ابزارهایی را برای ردیابی اشیا بدون ایجاد مرجع فراهم می کند.  "
+"هنگامی که شی دیگر مورد نیاز نیست، به طور خودکار از جدول ضعیف حذف می شود و "
+"برای اشیاء ضعیف بازخوانی فعال می شود.  برنامه‌های کاربردی معمولی شامل "
+"ذخیره‌سازی اشیاء هستند که ایجاد آن‌ها پرهزینه است:"
 
 #: tutorial/stdlib2.rst:263
-msgid ">>> import weakref, gc\n"
+#, fuzzy
+msgid ""
+">>> import weakref, gc\n"
 ">>> class A:\n"
 "...     def __init__(self, value):\n"
 "...         self.value = value\n"
@@ -295,42 +618,109 @@ msgid ">>> import weakref, gc\n"
 "    o = self.data[key]()\n"
 "KeyError: 'primary'"
 msgstr ""
+">>> واردات ضعیف, gc\n"
+">>> کلاس A:\n"
+"... def __init__(خود, ارزش):\n"
+"... خود. ارزش = ارزش\n"
+"... def __repr__(self):\n"
+"... بازگشت str(self.value)\n"
+"...\n"
+">>> a = A(10) # یک مرجع ایجاد کنید\n"
+">>> d = ضعیف.WeakValueDictionary()\n"
+">>> d['primary'] = یک # مرجع ایجاد نمی کند\n"
+">>> d['primary'] # اگر شی هنوز زنده است واکشی کنید\n"
+"10\n"
+">>> یک # مرجع را حذف کنید\n"
+">>> gc.collect() # مجموعه زباله را فوراً اجرا کنید\n"
+"0\n"
+">>> d['primary'] # ورودی به طور خودکار حذف شد\n"
+"ردیابی (آخرین تماس اخیر):\n"
+"  فایل \"<stdin>\", خط 1، در <module>\n"
+"    d['primary'] # ورودی به طور خودکار حذف شد\n"
+"  فایل \"C:/python313/lib/weakref.py\", خط 46، در __getitem__\n"
+"    o = self.data[key]()\n"
+"خطای کلیدی: \"اصلی\""
 
 #: tutorial/stdlib2.rst:290
+#, fuzzy
 msgid "Tools for Working with Lists"
-msgstr ""
+msgstr "ابزارهای کار با لیست ها"
 
 #: tutorial/stdlib2.rst:292
-msgid "Many data structure needs can be met with the built-in list type. However, sometimes there is a need for alternative implementations with different performance trade-offs."
+#, fuzzy
+msgid ""
+"Many data structure needs can be met with the built-in list type. However, "
+"sometimes there is a need for alternative implementations with different "
+"performance trade-offs."
 msgstr ""
+"بسیاری از نیازهای ساختار داده را می توان با نوع لیست داخلی برآورده کرد. با "
+"این حال، گاهی اوقات نیاز به پیاده سازی های جایگزین با مبادلات عملکرد متفاوت "
+"وجود دارد."
 
 #: tutorial/stdlib2.rst:296
-msgid "The :mod:`array` module provides an :class:`~array.array` object that is like a list that stores only homogeneous data and stores it more compactly.  The following example shows an array of numbers stored as two byte unsigned binary numbers (typecode ``\"H\"``) rather than the usual 16 bytes per entry for regular lists of Python int objects::"
+#, fuzzy
+msgid ""
+"The :mod:`array` module provides an :class:`~array.array` object that is "
+"like a list that stores only homogeneous data and stores it more compactly."
+"  The following example shows an array of numbers stored as two byte "
+"unsigned binary numbers (typecode ``\"H\"``) rather than the usual 16 bytes "
+"per entry for regular lists of Python int objects::"
 msgstr ""
+"ماژول :mod:`array` یک شی :class:`~array.array` را ارائه می دهد که مانند "
+"لیستی است که فقط داده های همگن را ذخیره می کند و آن را فشرده تر ذخیره می "
+"کند.  مثال زیر آرایه‌ای از اعداد را نشان می‌دهد که به‌عنوان اعداد باینری "
+"بدون علامت دو بایتی (نوع کد ``\"H\"``) به جای 16 بایت معمول در هر ورودی برای"
+" لیست‌های معمولی اشیاء int پایتون ذخیره می‌شوند:"
 
 #: tutorial/stdlib2.rst:302
-msgid ">>> from array import array\n"
+#, fuzzy
+msgid ""
+">>> from array import array\n"
 ">>> a = array('H', [4000, 10, 700, 22222])\n"
 ">>> sum(a)\n"
 "26932\n"
 ">>> a[1:3]\n"
 "array('H', [10, 700])"
 msgstr ""
+">>> from array import array\n"
+">>> a = array('H', [4000, 10, 700, 22222])\n"
+">>> sum(a)\n"
+"26932\n"
+">>> a[1:3]\n"
+"array('H', [10, 700])"
 
 #: tutorial/stdlib2.rst:309
-msgid "The :mod:`collections` module provides a :class:`~collections.deque` object that is like a list with faster appends and pops from the left side but slower lookups in the middle. These objects are well suited for implementing queues and breadth first tree searches::"
+#, fuzzy
+msgid ""
+"The :mod:`collections` module provides a :class:`~collections.deque` object "
+"that is like a list with faster appends and pops from the left side but "
+"slower lookups in the middle. These objects are well suited for implementing"
+" queues and breadth first tree searches::"
 msgstr ""
+"ماژول :mod:`collections` یک شی :class:`~collections.deque` را ارائه می دهد "
+"که مانند لیستی است با ضمائم سریعتر و از سمت چپ ظاهر می شود اما جستجوهای "
+"کندتر در وسط است. این اشیا برای اجرای صف ها و جستجوهای درختی وسعت مناسب "
+"هستند::"
 
 #: tutorial/stdlib2.rst:314
-msgid ">>> from collections import deque\n"
+#, fuzzy
+msgid ""
+">>> from collections import deque\n"
 ">>> d = deque([\"task1\", \"task2\", \"task3\"])\n"
 ">>> d.append(\"task4\")\n"
 ">>> print(\"Handling\", d.popleft())\n"
 "Handling task1"
 msgstr ""
+">>> از مجموعه ها واردات deque\n"
+">>> d = deque([\"task1\", \"task2\", \"task3\"])\n"
+">>> d.append(\"task4\")\n"
+">>> print(\"Handling\", d.popleft())\n"
+"رسیدگی به کار 1"
 
 #: tutorial/stdlib2.rst:322
-msgid "unsearched = deque([starting_node])\n"
+#, fuzzy
+msgid ""
+"unsearched = deque([starting_node])\n"
 "def breadth_first_search(unsearched):\n"
 "    node = unsearched.popleft()\n"
 "    for m in gen_moves(node):\n"
@@ -338,82 +728,171 @@ msgid "unsearched = deque([starting_node])\n"
 "            return m\n"
 "        unsearched.append(m)"
 msgstr ""
+"unsearched = deque([starting_node])\n"
+"def breadth_first_search(unsearched):\n"
+"    node = unsearched.popleft()\n"
+"    for m in gen_moves(node):\n"
+"        if is_goal(m):\n"
+"            return m\n"
+"        unsearched.append(m)"
 
 #: tutorial/stdlib2.rst:330
-msgid "In addition to alternative list implementations, the library also offers other tools such as the :mod:`bisect` module with functions for manipulating sorted lists::"
+#, fuzzy
+msgid ""
+"In addition to alternative list implementations, the library also offers "
+"other tools such as the :mod:`bisect` module with functions for manipulating"
+" sorted lists::"
 msgstr ""
+"علاوه بر پیاده سازی لیست جایگزین، کتابخانه ابزارهای دیگری مانند ماژول "
+":mod:`bisect` را با توابعی برای دستکاری لیست های مرتب شده نیز ارائه می دهد:"
 
 #: tutorial/stdlib2.rst:334
-msgid ">>> import bisect\n"
+#, fuzzy
+msgid ""
+">>> import bisect\n"
 ">>> scores = [(100, 'perl'), (200, 'tcl'), (400, 'lua'), (500, 'python')]\n"
 ">>> bisect.insort(scores, (300, 'ruby'))\n"
 ">>> scores\n"
 "[(100, 'perl'), (200, 'tcl'), (300, 'ruby'), (400, 'lua'), (500, 'python')]"
 msgstr ""
+">>> import bisect\n"
+">>> scores = [(100, 'perl'), (200, 'tcl'), (400, 'lua'), (500, 'python')]\n"
+">>> bisect.insort(scores, (300, 'ruby'))\n"
+">>> scores\n"
+"[(100, 'perl'), (200, 'tcl'), (300, 'ruby'), (400, 'lua'), (500, 'python')]"
 
 #: tutorial/stdlib2.rst:340
-msgid "The :mod:`heapq` module provides functions for implementing heaps based on regular lists.  The lowest valued entry is always kept at position zero.  This is useful for applications which repeatedly access the smallest element but do not want to run a full list sort::"
+#, fuzzy
+msgid ""
+"The :mod:`heapq` module provides functions for implementing heaps based on "
+"regular lists.  The lowest valued entry is always kept at position zero.  "
+"This is useful for applications which repeatedly access the smallest element"
+" but do not want to run a full list sort::"
 msgstr ""
+"ماژول :mod:`heapq` عملکردهایی را برای پیاده سازی پشته ها بر اساس لیست های "
+"معمولی ارائه می دهد.  کمترین مقدار ورودی همیشه در موقعیت صفر نگه داشته می "
+"شود.  این برای برنامه هایی مفید است که به طور مکرر به کوچکترین عنصر دسترسی "
+"دارند اما نمی خواهند مرتب سازی لیست کامل را اجرا کنند::"
 
 #: tutorial/stdlib2.rst:345
-msgid ">>> from heapq import heapify, heappop, heappush\n"
+#, fuzzy
+msgid ""
+">>> from heapq import heapify, heappop, heappush\n"
 ">>> data = [1, 3, 5, 7, 9, 2, 4, 6, 8, 0]\n"
 ">>> heapify(data)                      # rearrange the list into heap order\n"
 ">>> heappush(data, -5)                 # add a new entry\n"
 ">>> [heappop(data) for i in range(3)]  # fetch the three smallest entries\n"
 "[-5, 0, 1]"
 msgstr ""
+">>> from heapq import heapify, heappop, heappush\n"
+">>> data = [1, 3, 5, 7, 9, 2, 4, 6, 8, 0]\n"
+">>> heapify(data)                      # rearrange the list into heap order\n"
+">>> heappush(data, -5)                 # add a new entry\n"
+">>> [heappop(data) for i in range(3)]  # fetch the three smallest entries\n"
+"[-5, 0, 1]"
 
 #: tutorial/stdlib2.rst:356
+#, fuzzy
 msgid "Decimal Floating-Point Arithmetic"
-msgstr ""
+msgstr "محاسبه اعشاری ممیز شناور"
 
 #: tutorial/stdlib2.rst:358
-msgid "The :mod:`decimal` module offers a :class:`~decimal.Decimal` datatype for decimal floating-point arithmetic.  Compared to the built-in :class:`float` implementation of binary floating point, the class is especially helpful for"
+#, fuzzy
+msgid ""
+"The :mod:`decimal` module offers a :class:`~decimal.Decimal` datatype for "
+"decimal floating-point arithmetic.  Compared to the built-in :class:`float` "
+"implementation of binary floating point, the class is especially helpful for"
 msgstr ""
+"ماژول :mod:`decimal` نوع داده :class:`~decimal.Decimal` را برای محاسبات "
+"اعشاری ممیز شناور ارائه می دهد.  در مقایسه با اجرای داخلی :class:`float` "
+"نقطه شناور باینری، این کلاس به ویژه برای"
 
 #: tutorial/stdlib2.rst:362
-msgid "financial applications and other uses which require exact decimal representation,"
-msgstr ""
+#, fuzzy
+msgid ""
+"financial applications and other uses which require exact decimal "
+"representation,"
+msgstr "کاربردهای مالی و سایر کاربردهایی که نیاز به نمایش اعشاری دقیق دارند،"
 
 #: tutorial/stdlib2.rst:364
+#, fuzzy
 msgid "control over precision,"
-msgstr ""
+msgstr "کنترل بر دقت،"
 
 #: tutorial/stdlib2.rst:365
+#, fuzzy
 msgid "control over rounding to meet legal or regulatory requirements,"
-msgstr ""
+msgstr "کنترل بر گرد کردن برای برآوردن الزامات قانونی یا نظارتی،"
 
 #: tutorial/stdlib2.rst:366
+#, fuzzy
 msgid "tracking of significant decimal places, or"
-msgstr ""
+msgstr "ردیابی ارقام اعشاری قابل توجه یا"
 
 #: tutorial/stdlib2.rst:367
-msgid "applications where the user expects the results to match calculations done by hand."
+#, fuzzy
+msgid ""
+"applications where the user expects the results to match calculations done "
+"by hand."
 msgstr ""
+"برنامه هایی که کاربر انتظار دارد نتایج با محاسبات انجام شده با دست مطابقت "
+"داشته باشد."
 
 #: tutorial/stdlib2.rst:370
-msgid "For example, calculating a 5% tax on a 70 cent phone charge gives different results in decimal floating point and binary floating point. The difference becomes significant if the results are rounded to the nearest cent::"
+#, fuzzy
+msgid ""
+"For example, calculating a 5% tax on a 70 cent phone charge gives different "
+"results in decimal floating point and binary floating point. The difference "
+"becomes significant if the results are rounded to the nearest cent::"
 msgstr ""
+"برای مثال، محاسبه مالیات 5 درصدی بر روی شارژ تلفن 70 سنت، نتایج متفاوتی در "
+"ممیز شناور اعشاری و ممیز شناور باینری به دست می‌دهد. اگر نتایج به نزدیکترین "
+"سنت گرد شوند، تفاوت قابل توجه می شود:"
 
 #: tutorial/stdlib2.rst:374
-msgid ">>> from decimal import *\n"
+#, fuzzy
+msgid ""
+">>> from decimal import *\n"
 ">>> round(Decimal('0.70') * Decimal('1.05'), 2)\n"
 "Decimal('0.74')\n"
 ">>> round(.70 * 1.05, 2)\n"
 "0.73"
 msgstr ""
+">>> from decimal import *\n"
+">>> round(Decimal('0.70') * Decimal('1.05'), 2)\n"
+"Decimal('0.74')\n"
+">>> round(.70 * 1.05, 2)\n"
+"0.73"
 
 #: tutorial/stdlib2.rst:380
-msgid "The :class:`~decimal.Decimal` result keeps a trailing zero, automatically inferring four place significance from multiplicands with two place significance.  Decimal reproduces mathematics as done by hand and avoids issues that can arise when binary floating point cannot exactly represent decimal quantities."
+#, fuzzy
+msgid ""
+"The :class:`~decimal.Decimal` result keeps a trailing zero, automatically "
+"inferring four place significance from multiplicands with two place "
+"significance.  Decimal reproduces mathematics as done by hand and avoids "
+"issues that can arise when binary floating point cannot exactly represent "
+"decimal quantities."
 msgstr ""
+"نتیجه :class:`~decimal.Decimal` یک صفر انتهایی را نگه می‌دارد و به طور "
+"خودکار اهمیت چهار مکان را از ضرب‌کننده‌ها با اهمیت دو مکان استنتاج می‌کند.  "
+"اعشاری ریاضیات را همانطور که با دست انجام می شود بازتولید می کند و از مسائلی"
+" که ممکن است زمانی که ممیز شناور باینری نمی تواند دقیقاً کمیت های اعشاری را "
+"نشان دهد به وجود بیاید جلوگیری می کند."
 
 #: tutorial/stdlib2.rst:386
-msgid "Exact representation enables the :class:`~decimal.Decimal` class to perform modulo calculations and equality tests that are unsuitable for binary floating point::"
+#, fuzzy
+msgid ""
+"Exact representation enables the :class:`~decimal.Decimal` class to perform "
+"modulo calculations and equality tests that are unsuitable for binary "
+"floating point::"
 msgstr ""
+"نمایش دقیق کلاس :class:`~decimal.Decimal` را قادر می سازد تا محاسبات مدول و "
+"تست های برابری را انجام دهد که برای ممیز شناور باینری نامناسب هستند:"
 
 #: tutorial/stdlib2.rst:390
-msgid ">>> Decimal('1.00') % Decimal('.10')\n"
+#, fuzzy
+msgid ""
+">>> Decimal('1.00') % Decimal('.10')\n"
 "Decimal('0.00')\n"
 ">>> 1.00 % 0.10\n"
 "0.09999999999999995\n"
@@ -423,13 +902,30 @@ msgid ">>> Decimal('1.00') % Decimal('.10')\n"
 ">>> 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0\n"
 "False"
 msgstr ""
+">>> Decimal('1.00') % Decimal('.10')\n"
+"Decimal('0.00')\n"
+">>> 1.00 % 0.10\n"
+"0.09999999999999995\n"
+"\n"
+">>> sum([Decimal('0.1')]*10) == Decimal('1.0')\n"
+"True\n"
+">>> 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0\n"
+"False"
 
 #: tutorial/stdlib2.rst:400
-msgid "The :mod:`decimal` module provides arithmetic with as much precision as needed::"
-msgstr ""
+#, fuzzy
+msgid ""
+"The :mod:`decimal` module provides arithmetic with as much precision as "
+"needed::"
+msgstr "ماژول :mod:`decimal` محاسبات را با دقت مورد نیاز ارائه می دهد:"
 
 #: tutorial/stdlib2.rst:402
-msgid ">>> getcontext().prec = 36\n"
+#, fuzzy
+msgid ""
+">>> getcontext().prec = 36\n"
 ">>> Decimal(1) / Decimal(7)\n"
 "Decimal('0.142857142857142857142857142857142857')"
 msgstr ""
+">>> getcontext().prec = 36\n"
+">>> Decimal(1) / Decimal(7)\n"
+"Decimal('0.142857142857142857142857142857142857')"
