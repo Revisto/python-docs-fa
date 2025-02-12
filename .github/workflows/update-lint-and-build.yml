@@ -43,7 +43,7 @@ jobs:
       - run: git pull
         working-directory: ./Doc/locales/fa/LC_MESSAGES
       - uses: sphinx-doc/github-problem-matcher@v1.1
-      - run: make -e SPHINXOPTS="--color -D language='fa',gettext_allow_fuzzy_translations=True -W --keep-going" html
+      - run: make -e SPHINXOPTS="--color -D language='fa' -D gettext_allow_fuzzy_translations=True -W --keep-going" html
         working-directory: ./Doc
       - uses: actions/upload-artifact@master
         if: success() || failure()
