@@ -17,69 +17,217 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: tutorial/appetite.rst:5
+#, fuzzy
 msgid "Whetting Your Appetite"
-msgstr ""
+msgstr "باز کردن اشتهای شما"
 
 #: tutorial/appetite.rst:7
-msgid "If you do much work on computers, eventually you find that there's some task you'd like to automate.  For example, you may wish to perform a search-and-replace over a large number of text files, or rename and rearrange a bunch of photo files in a complicated way. Perhaps you'd like to write a small custom database, or a specialized GUI application, or a simple game."
+#, fuzzy
+msgid ""
+"If you do much work on computers, eventually you find that there's some task"
+" you'd like to automate.  For example, you may wish to perform a search-and-"
+"replace over a large number of text files, or rename and rearrange a bunch "
+"of photo files in a complicated way. Perhaps you'd like to write a small "
+"custom database, or a specialized GUI application, or a simple game."
 msgstr ""
+"اگر کار زیادی روی رایانه انجام می‌دهید، در نهایت متوجه می‌شوید که کاری وجود "
+"دارد که می‌خواهید آن را خودکار کنید.  به عنوان مثال، ممکن است بخواهید روی "
+"تعداد زیادی فایل متنی جستجو و جایگزینی انجام دهید، یا دسته ای از فایل های "
+"عکس را به روشی پیچیده تغییر نام داده و مرتب کنید. شاید بخواهید یک پایگاه "
+"داده سفارشی کوچک، یا یک برنامه رابط کاربری گرافیکی تخصصی، یا یک بازی ساده "
+"بنویسید."
 
 #: tutorial/appetite.rst:13
-msgid "If you're a professional software developer, you may have to work with several C/C++/Java libraries but find the usual write/compile/test/re-compile cycle is too slow.  Perhaps you're writing a test suite for such a library and find writing the testing code a tedious task.  Or maybe you've written a program that could use an extension language, and you don't want to design and implement a whole new language for your application."
+#, fuzzy
+msgid ""
+"If you're a professional software developer, you may have to work with "
+"several C/C++/Java libraries but find the usual write/compile/test/re-"
+"compile cycle is too slow.  Perhaps you're writing a test suite for such a "
+"library and find writing the testing code a tedious task.  Or maybe you've "
+"written a program that could use an extension language, and you don't want "
+"to design and implement a whole new language for your application."
 msgstr ""
+"اگر یک توسعه‌دهنده نرم‌افزار حرفه‌ای هستید، ممکن است مجبور شوید با چندین "
+"کتابخانه C/C++/Java کار کنید، اما دریابید که چرخه معمول "
+"نوشتن/کامپایل/تست/کامپایل مجدد بسیار کند است.  شاید شما در حال نوشتن یک "
+"مجموعه آزمایشی برای چنین کتابخانه ای هستید و نوشتن کد تست را کاری خسته کننده"
+" می دانید.  یا شاید برنامه‌ای نوشته‌اید که می‌تواند از یک زبان افزونه "
+"استفاده کند و نمی‌خواهید یک زبان کاملاً جدید برای برنامه خود طراحی و "
+"پیاده‌سازی کنید."
 
 #: tutorial/appetite.rst:20
+#, fuzzy
 msgid "Python is just the language for you."
-msgstr ""
+msgstr "پایتون فقط زبان شماست."
 
 #: tutorial/appetite.rst:22
-msgid "You could write a Unix shell script or Windows batch files for some of these tasks, but shell scripts are best at moving around files and changing text data, not well-suited for GUI applications or games. You could write a C/C++/Java program, but it can take a lot of development time to get even a first-draft program.  Python is simpler to use, available on Windows, macOS, and Unix operating systems, and will help you get the job done more quickly."
+#, fuzzy
+msgid ""
+"You could write a Unix shell script or Windows batch files for some of these"
+" tasks, but shell scripts are best at moving around files and changing text "
+"data, not well-suited for GUI applications or games. You could write a "
+"C/C++/Java program, but it can take a lot of development time to get even a "
+"first-draft program.  Python is simpler to use, available on Windows, macOS,"
+" and Unix operating systems, and will help you get the job done more "
+"quickly."
 msgstr ""
+"می‌توانید برای برخی از این کارها یک اسکریپت پوسته یونیکس یا فایل‌های دسته‌ای"
+" ویندوز بنویسید، اما اسکریپت‌های پوسته برای جابجایی فایل‌ها و تغییر داده‌های"
+" متنی بهترین هستند و برای برنامه‌های رابط کاربری گرافیکی یا بازی‌ها مناسب "
+"نیستند. شما می توانید یک برنامه C/C++/Java بنویسید، اما ممکن است زمان زیادی "
+"برای توسعه نیاز باشد تا حتی یک برنامه پیش نویس اول را دریافت کنید.  استفاده "
+"از Python ساده‌تر است، در سیستم‌عامل‌های Windows، macOS و Unix موجود است و "
+"به شما کمک می‌کند کار را سریع‌تر انجام دهید."
 
 #: tutorial/appetite.rst:29
-msgid "Python is simple to use, but it is a real programming language, offering much more structure and support for large programs than shell scripts or batch files can offer.  On the other hand, Python also offers much more error checking than C, and, being a *very-high-level language*, it has high-level data types built in, such as flexible arrays and dictionaries.  Because of its more general data types Python is applicable to a much larger problem domain than Awk or even Perl, yet many things are at least as easy in Python as in those languages."
+#, fuzzy
+msgid ""
+"Python is simple to use, but it is a real programming language, offering "
+"much more structure and support for large programs than shell scripts or "
+"batch files can offer.  On the other hand, Python also offers much more "
+"error checking than C, and, being a *very-high-level language*, it has high-"
+"level data types built in, such as flexible arrays and dictionaries.  "
+"Because of its more general data types Python is applicable to a much larger"
+" problem domain than Awk or even Perl, yet many things are at least as easy "
+"in Python as in those languages."
 msgstr ""
+"استفاده از پایتون ساده است، اما یک زبان برنامه نویسی واقعی است که ساختار و "
+"پشتیبانی بسیار بیشتری از برنامه های بزرگ را نسبت به اسکریپت های پوسته یا "
+"فایل های دسته ای ارائه می دهد.  از سوی دیگر، پایتون همچنین بررسی خطاهای "
+"بسیار بیشتری را نسبت به C ارائه می‌کند، و از آنجایی که *very-high-level "
+"language* است، دارای انواع داده‌های سطح بالا مانند آرایه‌های انعطاف‌پذیر و "
+"دیکشنری‌ها است.  به دلیل انواع داده‌های عمومی‌تر، پایتون برای یک دامنه مشکل "
+"بسیار بزرگ‌تر از Awk یا حتی Perl قابل استفاده است، اما بسیاری از کارها حداقل"
+" در پایتون به آسانی آن زبان‌ها هستند."
 
 #: tutorial/appetite.rst:37
-msgid "Python allows you to split your program into modules that can be reused in other Python programs.  It comes with a large collection of standard modules that you can use as the basis of your programs --- or as examples to start learning to program in Python.  Some of these modules provide things like file I/O, system calls, sockets, and even interfaces to graphical user interface toolkits like Tk."
+#, fuzzy
+msgid ""
+"Python allows you to split your program into modules that can be reused in "
+"other Python programs.  It comes with a large collection of standard modules"
+" that you can use as the basis of your programs --- or as examples to start "
+"learning to program in Python.  Some of these modules provide things like "
+"file I/O, system calls, sockets, and even interfaces to graphical user "
+"interface toolkits like Tk."
 msgstr ""
+"پایتون به شما این امکان را می دهد که برنامه خود را به ماژول هایی تقسیم کنید "
+"که می توانند در سایر برنامه های پایتون مورد استفاده مجدد قرار گیرند.  همراه "
+"با مجموعه بزرگی از ماژول های استاندارد است که می توانید از آنها به عنوان "
+"پایه برنامه های خود --- یا به عنوان مثال برای شروع یادگیری برنامه نویسی در "
+"پایتون استفاده کنید.  برخی از این ماژول‌ها مواردی مانند ورودی/خروجی فایل، "
+"تماس‌های سیستمی، سوکت‌ها و حتی رابط‌هایی را برای جعبه‌ابزارهای رابط کاربری "
+"گرافیکی مانند Tk فراهم می‌کنند."
 
 #: tutorial/appetite.rst:44
-msgid "Python is an interpreted language, which can save you considerable time during program development because no compilation and linking is necessary.  The interpreter can be used interactively, which makes it easy to experiment with features of the language, to write throw-away programs, or to test functions during bottom-up program development. It is also a handy desk calculator."
+#, fuzzy
+msgid ""
+"Python is an interpreted language, which can save you considerable time "
+"during program development because no compilation and linking is necessary."
+"  The interpreter can be used interactively, which makes it easy to "
+"experiment with features of the language, to write throw-away programs, or "
+"to test functions during bottom-up program development. It is also a handy "
+"desk calculator."
 msgstr ""
+"پایتون یک زبان تفسیری است که می تواند زمان قابل توجهی را در طول توسعه برنامه"
+" صرفه جویی کند زیرا نیازی به کامپایل و پیوند نیست.  مفسر را می توان به صورت "
+"تعاملی مورد استفاده قرار داد، که آزمایش با ویژگی های زبان، نوشتن برنامه های "
+"دور ریختنی، یا آزمایش توابع در طول توسعه برنامه از پایین به بالا را آسان می "
+"کند. همچنین یک ماشین حساب میز کار مفید است."
 
 #: tutorial/appetite.rst:50
-msgid "Python enables programs to be written compactly and readably.  Programs written in Python are typically much shorter than equivalent C,  C++, or Java programs, for several reasons:"
+#, fuzzy
+msgid ""
+"Python enables programs to be written compactly and readably.  Programs "
+"written in Python are typically much shorter than equivalent C,  C++, or "
+"Java programs, for several reasons:"
 msgstr ""
+"پایتون برنامه ها را قادر می سازد تا به صورت فشرده و خوانا نوشته شوند.  "
+"برنامه های نوشته شده در پایتون معمولاً به چند دلیل بسیار کوتاهتر از برنامه "
+"های C، C++ یا جاوا هستند:"
 
 #: tutorial/appetite.rst:54
-msgid "the high-level data types allow you to express complex operations in a single statement;"
+#, fuzzy
+msgid ""
+"the high-level data types allow you to express complex operations in a "
+"single statement;"
 msgstr ""
+"انواع داده های سطح بالا به شما امکان می دهند عملیات پیچیده را در یک عبارت "
+"واحد بیان کنید."
 
 #: tutorial/appetite.rst:57
-msgid "statement grouping is done by indentation instead of beginning and ending brackets;"
+#, fuzzy
+msgid ""
+"statement grouping is done by indentation instead of beginning and ending "
+"brackets;"
 msgstr ""
+"گروه بندی بیانیه به جای پرانتزهای آغاز و پایان با تورفتگی انجام می شود."
 
 #: tutorial/appetite.rst:60
+#, fuzzy
 msgid "no variable or argument declarations are necessary."
-msgstr ""
+msgstr "هیچ تعریف متغیر یا آرگومانی لازم نیست."
 
 #: tutorial/appetite.rst:62
-msgid "Python is *extensible*: if you know how to program in C it is easy to add a new built-in function or module to the interpreter, either to perform critical operations at maximum speed, or to link Python programs to libraries that may only be available in binary form (such as a vendor-specific graphics library). Once you are really hooked, you can link the Python interpreter into an application written in C and use it as an extension or command language for that application."
+#, fuzzy
+msgid ""
+"Python is *extensible*: if you know how to program in C it is easy to add a "
+"new built-in function or module to the interpreter, either to perform "
+"critical operations at maximum speed, or to link Python programs to "
+"libraries that may only be available in binary form (such as a vendor-"
+"specific graphics library). Once you are really hooked, you can link the "
+"Python interpreter into an application written in C and use it as an "
+"extension or command language for that application."
 msgstr ""
+"پایتون *extensible* است: اگر می‌دانید چگونه به زبان C برنامه‌نویسی کنید، به "
+"راحتی می‌توانید یک تابع یا ماژول داخلی جدید را به مفسر اضافه کنید، یا برای "
+"انجام عملیات حیاتی با حداکثر سرعت، یا پیوند دادن برنامه‌های پایتون به "
+"کتابخانه‌هایی که ممکن است فقط به صورت باینری در دسترس باشند (مانند یک "
+"کتابخانه گرافیکی خاص فروشنده). هنگامی که واقعاً قلاب شدید، می‌توانید مفسر "
+"پایتون را به برنامه‌ای که به زبان C نوشته شده است پیوند دهید و از آن به "
+"عنوان یک برنامه افزودنی یا زبان دستوری برای آن برنامه استفاده کنید."
 
 #: tutorial/appetite.rst:70
-msgid "By the way, the language is named after the BBC show \"Monty Python's Flying Circus\" and has nothing to do with reptiles.  Making references to Monty Python skits in documentation is not only allowed, it is encouraged!"
+#, fuzzy
+msgid ""
+"By the way, the language is named after the BBC show \"Monty Python's Flying"
+" Circus\" and has nothing to do with reptiles.  Making references to Monty "
+"Python skits in documentation is not only allowed, it is encouraged!"
 msgstr ""
+"به هر حال، نام این زبان از برنامه بی بی سی \"سیرک پرنده مونتی پایتون\" گرفته"
+" شده است و ربطی به خزندگان ندارد.  ارجاع به اسکیت های مونتی پایتون در اسناد "
+"نه تنها مجاز است، بلکه تشویق می شود!"
 
 #: tutorial/appetite.rst:74
-msgid "Now that you are all excited about Python, you'll want to examine it in some more detail.  Since the best way to learn a language is to use it, the tutorial invites you to play with the Python interpreter as you read."
+#, fuzzy
+msgid ""
+"Now that you are all excited about Python, you'll want to examine it in some"
+" more detail.  Since the best way to learn a language is to use it, the "
+"tutorial invites you to play with the Python interpreter as you read."
 msgstr ""
+"اکنون که همه شما در مورد پایتون هیجان زده اید، می خواهید آن را با جزئیات "
+"بیشتری بررسی کنید.  از آنجایی که بهترین راه برای یادگیری زبان استفاده از آن "
+"است، این آموزش از شما دعوت می کند که در حین خواندن با مفسر پایتون بازی کنید."
 
 #: tutorial/appetite.rst:78
-msgid "In the next chapter, the mechanics of using the interpreter are explained.  This is rather mundane information, but essential for trying out the examples shown later."
+#, fuzzy
+msgid ""
+"In the next chapter, the mechanics of using the interpreter are explained.  "
+"This is rather mundane information, but essential for trying out the "
+"examples shown later."
 msgstr ""
+"در فصل بعد مکانیزم استفاده از مفسر توضیح داده شده است.  این اطلاعات نسبتا "
+"پیش پا افتاده است، اما برای آزمایش نمونه هایی که بعدا نشان داده شده است "
+"ضروری است."
 
 #: tutorial/appetite.rst:82
-msgid "The rest of the tutorial introduces various features of the Python language and system through examples, beginning with simple expressions, statements and data types, through functions and modules, and finally touching upon advanced concepts like exceptions and user-defined classes."
+#, fuzzy
+msgid ""
+"The rest of the tutorial introduces various features of the Python language "
+"and system through examples, beginning with simple expressions, statements "
+"and data types, through functions and modules, and finally touching upon "
+"advanced concepts like exceptions and user-defined classes."
 msgstr ""
+"ادامه آموزش ویژگی‌های مختلف زبان و سیستم پایتون را از طریق مثال‌ها معرفی "
+"می‌کند، با عبارات ساده، عبارات و انواع داده‌ها، از طریق توابع و ماژول‌ها "
+"شروع می‌شود و در نهایت به مفاهیم پیشرفته مانند استثناها و کلاس‌های تعریف‌شده"
+" توسط کاربر اشاره می‌کند."

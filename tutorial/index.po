@@ -17,33 +17,95 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: tutorial/index.rst:5
+#, fuzzy
 msgid "The Python Tutorial"
-msgstr ""
+msgstr "آموزش پایتون"
 
 #: tutorial/index.rst:7
-msgid "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
+#, fuzzy
+msgid ""
+"Python is an easy to learn, powerful programming language. It has efficient "
+"high-level data structures and a simple but effective approach to object-"
+"oriented programming. Python's elegant syntax and dynamic typing, together "
+"with its interpreted nature, make it an ideal language for scripting and "
+"rapid application development in many areas on most platforms."
 msgstr ""
+"پایتون یک زبان برنامه نویسی قدرتمند و آسان برای یادگیری است. دارای ساختارهای"
+" داده ای کارآمد در سطح بالا و یک رویکرد ساده اما موثر برای برنامه نویسی شی "
+"گرا. نحو زیبا و تایپ پویا پایتون، همراه با ماهیت تفسیری آن، آن را به زبانی "
+"ایده آل برای اسکریپت نویسی و توسعه سریع برنامه در بسیاری از زمینه ها در اکثر"
+" پلتفرم ها تبدیل کرده است."
 
 #: tutorial/index.rst:13
-msgid "The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation."
+#, fuzzy
+msgid ""
+"The Python interpreter and the extensive standard library are freely "
+"available in source or binary form for all major platforms from the Python "
+"web site, https://www.python.org/, and may be freely distributed. The same "
+"site also contains distributions of and pointers to many free third party "
+"Python modules, programs and tools, and additional documentation."
 msgstr ""
+"مفسر پایتون و کتابخانه استاندارد گسترده به صورت منبع یا باینری برای همه "
+"پلتفرم‌های اصلی از وب‌سایت پایتون، https://www.python.org/ آزادانه در دسترس "
+"هستند و ممکن است آزادانه توزیع شوند. همین سایت همچنین حاوی توزیع‌ها و "
+"اشاره‌گرها به بسیاری از ماژول‌های شخص ثالث رایگان پایتون، برنامه‌ها و "
+"ابزارها و اسناد اضافی است."
 
 #: tutorial/index.rst:19
-msgid "The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications."
+#, fuzzy
+msgid ""
+"The Python interpreter is easily extended with new functions and data types "
+"implemented in C or C++ (or other languages callable from C). Python is also"
+" suitable as an extension language for customizable applications."
 msgstr ""
+"مفسر پایتون به راحتی با توابع و انواع داده های جدید پیاده سازی شده در C یا "
+"C++ (یا سایر زبان های قابل فراخوانی از C) گسترش می یابد. پایتون همچنین به "
+"عنوان یک زبان افزونه برای برنامه های کاربردی قابل تنظیم مناسب است."
 
 #: tutorial/index.rst:23
-msgid "This tutorial introduces the reader informally to the basic concepts and features of the Python language and system. It helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the tutorial can be read off-line as well."
+#, fuzzy
+msgid ""
+"This tutorial introduces the reader informally to the basic concepts and "
+"features of the Python language and system. It helps to have a Python "
+"interpreter handy for hands-on experience, but all examples are self-"
+"contained, so the tutorial can be read off-line as well."
 msgstr ""
+"این آموزش خواننده را به صورت غیر رسمی با مفاهیم و ویژگی های اساسی زبان و "
+"سیستم پایتون آشنا می کند. داشتن یک مفسر پایتون برای تجربه عملی کمک می کند، "
+"اما همه نمونه ها مستقل هستند، بنابراین می توان آموزش را به صورت آفلاین نیز "
+"خواند."
 
 #: tutorial/index.rst:28
-msgid "For a description of standard objects and modules, see :ref:`library-index`. :ref:`reference-index` gives a more formal definition of the language.  To write extensions in C or C++, read :ref:`extending-index` and :ref:`c-api-index`. There are also several books covering Python in depth."
+#, fuzzy
+msgid ""
+"For a description of standard objects and modules, see :ref:`library-index`."
+" :ref:`reference-index` gives a more formal definition of the language.  To "
+"write extensions in C or C++, read :ref:`extending-index` and :ref:`c-api-"
+"index`. There are also several books covering Python in depth."
 msgstr ""
+"برای توضیح اشیاء و ماژول های استاندارد، به :ref:`c-api-index` مراجعه کنید. "
+":ref:`c-api-index` تعریف رسمی تری از زبان ارائه می دهد.  برای نوشتن برنامه "
+"های افزودنی در C یا C++، :ref:`c-api-index` و :ref:`c-api-index` را بخوانید."
+" همچنین چندین کتاب وجود دارد که پایتون را به طور عمیق پوشش می دهد."
 
 #: tutorial/index.rst:33
-msgid "This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature. Instead, it introduces many of Python's most noteworthy features, and will give you a good idea of the language's flavor and style. After reading it, you will be able to read and write Python modules and programs, and you will be ready to learn more about the various Python library modules described in :ref:`library-index`."
+#, fuzzy
+msgid ""
+"This tutorial does not attempt to be comprehensive and cover every single "
+"feature, or even every commonly used feature. Instead, it introduces many of"
+" Python's most noteworthy features, and will give you a good idea of the "
+"language's flavor and style. After reading it, you will be able to read and "
+"write Python modules and programs, and you will be ready to learn more about"
+" the various Python library modules described in :ref:`library-index`."
 msgstr ""
+"این آموزش سعی نمی‌کند جامع باشد و تک تک ویژگی‌ها یا حتی هر ویژگی معمولی را "
+"پوشش دهد. در عوض، بسیاری از قابل توجه ترین ویژگی های پایتون را معرفی می کند "
+"و به شما ایده خوبی از طعم و سبک زبان می دهد. پس از خواندن آن، می‌توانید "
+"ماژول‌ها و برنامه‌های پایتون را بخوانید و بنویسید، و آماده خواهید بود تا "
+"درباره ماژول‌های مختلف کتابخانه Python که در :ref:`library-index` توضیح داده"
+" شده است، اطلاعات بیشتری کسب کنید."
 
 #: tutorial/index.rst:40
+#, fuzzy
 msgid "The :ref:`glossary` is also worth going through."
-msgstr ""
+msgstr ":ref:`glossary` نیز ارزش دیدن را دارد."

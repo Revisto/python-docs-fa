@@ -17,142 +17,347 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: tutorial/interpreter.rst:5
+#, fuzzy
 msgid "Using the Python Interpreter"
-msgstr ""
+msgstr "با استفاده از مترجم پایتون"
 
 #: tutorial/interpreter.rst:11
+#, fuzzy
 msgid "Invoking the Interpreter"
-msgstr ""
+msgstr "استناد به مترجم"
 
 #: tutorial/interpreter.rst:13
-msgid "The Python interpreter is usually installed as |usr_local_bin_python_x_dot_y_literal| on those machines where it is available; putting :file:`/usr/local/bin` in your Unix shell's search path makes it possible to start it by typing the command:"
+#, fuzzy
+msgid ""
+"The Python interpreter is usually installed as "
+"|usr_local_bin_python_x_dot_y_literal| on those machines where it is "
+"available; putting :file:`/usr/local/bin` in your Unix shell's search path "
+"makes it possible to start it by typing the command:"
 msgstr ""
+"مفسر پایتون معمولاً به صورت |usr_local_bin_python_x_dot_y_literal| در ماشین "
+"هایی که در دسترس است؛ قرار دادن :file:`/usr/local/bin` در مسیر جستجوی پوسته "
+"یونیکس، شروع آن را با تایپ دستور ممکن می‌سازد:"
 
 #: tutorial/interpreter.rst:17
+#, fuzzy
 msgid "python3.13"
-msgstr ""
+msgstr "پایتون 3.13"
 
 #: tutorial/interpreter.rst:21
-msgid "to the shell. [#]_ Since the choice of the directory where the interpreter lives is an installation option, other places are possible; check with your local Python guru or system administrator.  (E.g., :file:`/usr/local/python` is a popular alternative location.)"
+#, fuzzy
+msgid ""
+"to the shell. [#]_ Since the choice of the directory where the interpreter "
+"lives is an installation option, other places are possible; check with your "
+"local Python guru or system administrator.  (E.g., :file:`/usr/local/python`"
+" is a popular alternative location.)"
 msgstr ""
+"به پوسته [#]_ از آنجایی که انتخاب دایرکتوری که مفسر در آن زندگی می کند یک "
+"گزینه نصب است، مکان های دیگری امکان پذیر است. با گورو محلی پایتون یا مدیر "
+"سیستم خود تماس بگیرید.  (به عنوان مثال، :file:`/usr/local/python` یک مکان "
+"جایگزین محبوب است.)"
 
 #: tutorial/interpreter.rst:26
-msgid "On Windows machines where you have installed Python from the :ref:`Microsoft Store <windows-store>`, the |python_x_dot_y_literal| command will be available. If you have the :ref:`py.exe launcher <launcher>` installed, you can use the :file:`py` command. See :ref:`setting-envvars` for other ways to launch Python."
+#, fuzzy
+msgid ""
+"On Windows machines where you have installed Python from the :ref:`Microsoft"
+" Store <windows-store>`, the |python_x_dot_y_literal| command will be "
+"available. If you have the :ref:`py.exe launcher <launcher>` installed, you "
+"can use the :file:`py` command. See :ref:`setting-envvars` for other ways to"
+" launch Python."
 msgstr ""
+"در ماشین های ویندوزی که پایتون را از :ref:`setting-envvars` نصب کرده اید، "
+"|python_x_dot_y_literal| فرمان در دسترس خواهد بود. اگر :ref:`setting-"
+"envvars` را نصب کرده اید، می توانید از دستور :file:`py` استفاده کنید. برای "
+"راه‌اندازی پایتون به :ref:`setting-envvars` مراجعه کنید."
 
 #: tutorial/interpreter.rst:31
-msgid "Typing an end-of-file character (:kbd:`Control-D` on Unix, :kbd:`Control-Z` on Windows) at the primary prompt causes the interpreter to exit with a zero exit status.  If that doesn't work, you can exit the interpreter by typing the following command: ``quit()``."
+#, fuzzy
+msgid ""
+"Typing an end-of-file character (:kbd:`Control-D` on Unix, :kbd:`Control-Z` "
+"on Windows) at the primary prompt causes the interpreter to exit with a zero"
+" exit status.  If that doesn't work, you can exit the interpreter by typing "
+"the following command: ``quit()``."
 msgstr ""
+"تایپ یک کاراکتر انتهای فایل (:kbd:`Control-Z` در یونیکس، :kbd:`Control-Z` در"
+" ویندوز) در اعلان اولیه باعث می شود که مفسر با وضعیت خروج صفر خارج شود.  اگر"
+" کار نکرد، می توانید با تایپ دستور زیر از مفسر خارج شوید: ``quit()``."
 
 #: tutorial/interpreter.rst:36
-msgid "The interpreter's line-editing features include interactive editing, history substitution and code completion on systems that support the `GNU Readline <https://tiswww.case.edu/php/chet/readline/rltop.html>`_ library. Perhaps the quickest check to see whether command line editing is supported is typing :kbd:`Control-P` to the first Python prompt you get.  If it beeps, you have command line editing; see Appendix :ref:`tut-interacting` for an introduction to the keys.  If nothing appears to happen, or if ``^P`` is echoed, command line editing isn't available; you'll only be able to use backspace to remove characters from the current line."
+#, fuzzy
+msgid ""
+"The interpreter's line-editing features include interactive editing, history"
+" substitution and code completion on systems that support the `GNU Readline "
+"<https://tiswww.case.edu/php/chet/readline/rltop.html>`_ library. Perhaps "
+"the quickest check to see whether command line editing is supported is "
+"typing :kbd:`Control-P` to the first Python prompt you get.  If it beeps, "
+"you have command line editing; see Appendix :ref:`tut-interacting` for an "
+"introduction to the keys.  If nothing appears to happen, or if ``^P`` is "
+"echoed, command line editing isn't available; you'll only be able to use "
+"backspace to remove characters from the current line."
 msgstr ""
+"ویژگی‌های ویرایش خط مفسر شامل ویرایش تعاملی، جایگزینی تاریخچه و تکمیل کد در "
+"سیستم‌هایی است که از کتابخانه `GNU Readline "
+"<https://tiswww.case.edu/php/chet/readline/rltop.html>`_ پشتیبانی می‌کنند. "
+"شاید سریع‌ترین بررسی برای اینکه ببینید آیا ویرایش خط فرمان پشتیبانی می‌شود، "
+"تایپ :kbd:`Control-P` در اولین اعلان پایتون باشد.  اگر بوق می‌دهد، ویرایش خط"
+" فرمان دارید. برای آشنایی با کلیدها به پیوست :ref:`tut-interacting` مراجعه "
+"کنید.  اگر به نظر می رسد هیچ اتفاقی نمی افتد، یا اگر ``^P`` تکرار می شود، "
+"ویرایش خط فرمان در دسترس نیست. شما فقط می توانید از backspace برای حذف "
+"کاراکترها از خط فعلی استفاده کنید."
 
 #: tutorial/interpreter.rst:46
-msgid "The interpreter operates somewhat like the Unix shell: when called with standard input connected to a tty device, it reads and executes commands interactively; when called with a file name argument or with a file as standard input, it reads and executes a *script* from that file."
+#, fuzzy
+msgid ""
+"The interpreter operates somewhat like the Unix shell: when called with "
+"standard input connected to a tty device, it reads and executes commands "
+"interactively; when called with a file name argument or with a file as "
+"standard input, it reads and executes a *script* from that file."
 msgstr ""
+"مفسر تا حدودی مانند پوسته یونیکس عمل می کند: هنگامی که با ورودی استاندارد "
+"متصل به یک دستگاه tty فراخوانی می شود، دستورات را به صورت تعاملی می خواند و "
+"اجرا می کند. هنگامی که با آرگومان نام فایل یا با یک فایل به عنوان ورودی "
+"استاندارد فراخوانی می شود، یک *script* را از آن فایل می خواند و اجرا می کند."
 
 #: tutorial/interpreter.rst:51
-msgid "A second way of starting the interpreter is ``python -c command [arg] ...``, which executes the statement(s) in *command*, analogous to the shell's :option:`-c` option.  Since Python statements often contain spaces or other characters that are special to the shell, it is usually advised to quote *command* in its entirety."
+#, fuzzy
+msgid ""
+"A second way of starting the interpreter is ``python -c command [arg] ...``,"
+" which executes the statement(s) in *command*, analogous to the shell's "
+":option:`-c` option.  Since Python statements often contain spaces or other "
+"characters that are special to the shell, it is usually advised to quote "
+"*command* in its entirety."
 msgstr ""
+"راه دوم برای شروع مفسر ``python -c command [arg] ...`` است که دستور(های) را "
+"در *command*، مشابه گزینه :option:`-c` پوسته، اجرا می کند.  از آنجایی که "
+"عبارات پایتون اغلب حاوی فاصله ها یا کاراکترهای دیگری هستند که مخصوص پوسته "
+"هستند، معمولاً توصیه می شود که *command* را به طور کامل نقل قول کنید."
 
 #: tutorial/interpreter.rst:57
-msgid "Some Python modules are also useful as scripts.  These can be invoked using ``python -m module [arg] ...``, which executes the source file for *module* as if you had spelled out its full name on the command line."
+#, fuzzy
+msgid ""
+"Some Python modules are also useful as scripts.  These can be invoked using "
+"``python -m module [arg] ...``, which executes the source file for *module* "
+"as if you had spelled out its full name on the command line."
 msgstr ""
+"برخی از ماژول های پایتون نیز به عنوان اسکریپت مفید هستند.  اینها را می توان "
+"با استفاده از ``python -m module [arg] ...`` فراخوانی کرد، که فایل منبع را "
+"برای *module* اجرا می کند، گویی که نام کامل آن را در خط فرمان نوشته اید."
 
 #: tutorial/interpreter.rst:61
-msgid "When a script file is used, it is sometimes useful to be able to run the script and enter interactive mode afterwards.  This can be done by passing :option:`-i` before the script."
+#, fuzzy
+msgid ""
+"When a script file is used, it is sometimes useful to be able to run the "
+"script and enter interactive mode afterwards.  This can be done by passing "
+":option:`-i` before the script."
 msgstr ""
+"وقتی از یک فایل اسکریپت استفاده می شود، گاهی اوقات مفید است که بتوان اسکریپت"
+" را اجرا کرد و بعد از آن وارد حالت تعاملی شد.  این را می توان با عبور از "
+":option:`-i` قبل از اسکریپت انجام داد."
 
 #: tutorial/interpreter.rst:65
+#, fuzzy
 msgid "All command line options are described in :ref:`using-on-general`."
 msgstr ""
+"تمام گزینه های خط فرمان در :ref:`using-on-general` توضیح داده شده است."
 
 #: tutorial/interpreter.rst:71
+#, fuzzy
 msgid "Argument Passing"
-msgstr ""
+msgstr "گذراندن استدلال"
 
 #: tutorial/interpreter.rst:73
-msgid "When known to the interpreter, the script name and additional arguments thereafter are turned into a list of strings and assigned to the ``argv`` variable in the ``sys`` module.  You can access this list by executing ``import sys``.  The length of the list is at least one; when no script and no arguments are given, ``sys.argv[0]`` is an empty string.  When the script name is given as ``'-'`` (meaning  standard input), ``sys.argv[0]`` is set to ``'-'``.  When :option:`-c` *command* is used, ``sys.argv[0]`` is set to ``'-c'``.  When :option:`-m` *module* is used, ``sys.argv[0]``  is set to the full name of the located module.  Options found after  :option:`-c` *command* or :option:`-m` *module* are not consumed  by the Python interpreter's option processing but left in ``sys.argv`` for  the command or module to handle."
+#, fuzzy
+msgid ""
+"When known to the interpreter, the script name and additional arguments "
+"thereafter are turned into a list of strings and assigned to the ``argv`` "
+"variable in the ``sys`` module.  You can access this list by executing "
+"``import sys``.  The length of the list is at least one; when no script and "
+"no arguments are given, ``sys.argv[0]`` is an empty string.  When the script"
+" name is given as ``'-'`` (meaning  standard input), ``sys.argv[0]`` is set "
+"to ``'-'``.  When :option:`-c` *command* is used, ``sys.argv[0]`` is set to "
+"``'-c'``.  When :option:`-m` *module* is used, ``sys.argv[0]``  is set to "
+"the full name of the located module.  Options found after  :option:`-c` "
+"*command* or :option:`-m` *module* are not consumed  by the Python "
+"interpreter's option processing but left in ``sys.argv`` for  the command or"
+" module to handle."
 msgstr ""
+"هنگامی که مفسر شناخته شود، نام اسکریپت و آرگومان های اضافی پس از آن به لیستی"
+" از رشته ها تبدیل می شود و به متغیر ``sys.argv`` در ماژول ``sys.argv`` "
+"اختصاص می یابد.  با اجرای ``sys.argv`` می توانید به این لیست دسترسی پیدا "
+"کنید.  طول لیست حداقل یک است. وقتی هیچ اسکریپتی و هیچ آرگومانی داده نمی شود،"
+" ``sys.argv`` یک رشته خالی است.  هنگامی که نام اسکریپت به عنوان ``sys.argv``"
+" (به معنی ورودی استاندارد) داده می شود، ``sys.argv`` روی ``sys.argv`` تنظیم "
+"می شود.  هنگامی که از :option:`-m` *module* استفاده می شود، ``sys.argv`` روی"
+" ``sys.argv`` تنظیم می شود.  هنگامی که از :option:`-m` *module* استفاده می "
+"شود، ``sys.argv`` به نام کامل ماژول واقع شده تنظیم می شود.  گزینه‌هایی که پس"
+" از :option:`-m` *module* یا :option:`-m` *module* یافت می‌شوند توسط پردازش "
+"گزینه مفسر پایتون مصرف نمی‌شوند، اما در ``sys.argv`` برای کنترل فرمان یا "
+"ماژول باقی می‌مانند."
 
 #: tutorial/interpreter.rst:89
+#, fuzzy
 msgid "Interactive Mode"
-msgstr ""
+msgstr "حالت تعاملی"
 
 #: tutorial/interpreter.rst:91
-msgid "When commands are read from a tty, the interpreter is said to be in *interactive mode*.  In this mode it prompts for the next command with the *primary prompt*, usually three greater-than signs (``>>>``); for continuation lines it prompts with the *secondary prompt*, by default three dots (``...``). The interpreter prints a welcome message stating its version number and a copyright notice before printing the first prompt:"
+#, fuzzy
+msgid ""
+"When commands are read from a tty, the interpreter is said to be in "
+"*interactive mode*.  In this mode it prompts for the next command with the "
+"*primary prompt*, usually three greater-than signs (``>>>``); for "
+"continuation lines it prompts with the *secondary prompt*, by default three "
+"dots (``...``). The interpreter prints a welcome message stating its version"
+" number and a copyright notice before printing the first prompt:"
 msgstr ""
+"هنگامی که دستورات از یک tty خوانده می شوند، مفسر در *secondary prompt* است."
+"  در این حالت دستور بعدی را با *secondary prompt*، معمولاً سه علامت بزرگتر "
+"از (``...``) درخواست می کند. برای خطوط ادامه با *secondary prompt*، به طور "
+"پیش فرض سه نقطه (``...``) درخواست می کند. مترجم یک پیام خوشامدگویی را چاپ می"
+" کند که شماره نسخه و یک اعلامیه حق نسخه برداری را قبل از چاپ اولین درخواست "
+"نشان می دهد:"
 
 #: tutorial/interpreter.rst:98
-msgid "$ python3.13\n"
+#, fuzzy
+msgid ""
+"$ python3.13\n"
 "Python 3.13 (default, April 4 2023, 09:25:04)\n"
 "[GCC 10.2.0] on linux\n"
 "Type \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n"
 ">>>"
 msgstr ""
+"پایتون 3.13 دلار\n"
+"Python 3.13 (پیش‌فرض، 4 آوریل 2023، 09:25:04)\n"
+"[GCC 10.2.0] در لینوکس\n"
+"برای اطلاعات بیشتر، «راهنما»، «حق نشر»، «اعتبارات» یا «مجوز» را تایپ کنید.\n"
+">>>"
 
 #: tutorial/interpreter.rst:108
-msgid "Continuation lines are needed when entering a multi-line construct. As an example, take a look at this :keyword:`if` statement::"
+#, fuzzy
+msgid ""
+"Continuation lines are needed when entering a multi-line construct. As an "
+"example, take a look at this :keyword:`if` statement::"
 msgstr ""
+"هنگام ورود به ساختار چند خطی به خطوط ادامه نیاز است. به عنوان مثال، به این "
+"عبارت :keyword:`if` نگاهی بیندازید:"
 
 #: tutorial/interpreter.rst:111
-msgid ">>> the_world_is_flat = True\n"
+#, fuzzy
+msgid ""
+">>> the_world_is_flat = True\n"
 ">>> if the_world_is_flat:\n"
 "...     print(\"Be careful not to fall off!\")\n"
 "...\n"
 "Be careful not to fall off!"
 msgstr ""
+">>> the_world_is_flat = درست است\n"
+">>> اگر_جهان_مسطح است:\n"
+"... چاپ (\"مراقب باشید زمین نخورید!\")\n"
+"...\n"
+"مراقب باشید زمین نخورید!"
 
 #: tutorial/interpreter.rst:118
+#, fuzzy
 msgid "For more on interactive mode, see :ref:`tut-interac`."
 msgstr ""
+"برای اطلاعات بیشتر در مورد حالت تعاملی، به :ref:`tut-interac` مراجعه کنید."
 
 #: tutorial/interpreter.rst:124
+#, fuzzy
 msgid "The Interpreter and Its Environment"
-msgstr ""
+msgstr "مترجم و محیط آن"
 
 #: tutorial/interpreter.rst:130
+#, fuzzy
 msgid "Source Code Encoding"
-msgstr ""
+msgstr "کد منبع کد"
 
 #: tutorial/interpreter.rst:132
-msgid "By default, Python source files are treated as encoded in UTF-8.  In that encoding, characters of most languages in the world can be used simultaneously in string literals, identifiers and comments --- although the standard library only uses ASCII characters for identifiers, a convention that any portable code should follow.  To display all these characters properly, your editor must recognize that the file is UTF-8, and it must use a font that supports all the characters in the file."
+#, fuzzy
+msgid ""
+"By default, Python source files are treated as encoded in UTF-8.  In that "
+"encoding, characters of most languages in the world can be used "
+"simultaneously in string literals, identifiers and comments --- although the"
+" standard library only uses ASCII characters for identifiers, a convention "
+"that any portable code should follow.  To display all these characters "
+"properly, your editor must recognize that the file is UTF-8, and it must use"
+" a font that supports all the characters in the file."
 msgstr ""
+"به‌طور پیش‌فرض، فایل‌های منبع پایتون در UTF-8 کدگذاری شده‌اند.  در آن "
+"رمزگذاری، کاراکترهای اکثر زبان‌های دنیا می‌توانند به طور همزمان در کلمات "
+"رشته‌ای، شناسه‌ها و نظرات استفاده شوند --- اگرچه کتابخانه استاندارد فقط از "
+"کاراکترهای ASCII برای شناسه‌ها استفاده می‌کند، قراردادی که هر کد قابل حمل "
+"باید از آن پیروی کند.  برای نمایش درست همه این کاراکترها، ویرایشگر شما باید "
+"تشخیص دهد که فایل UTF-8 است و باید از فونتی استفاده کند که از همه کاراکترهای"
+" فایل پشتیبانی کند."
 
 #: tutorial/interpreter.rst:140
-msgid "To declare an encoding other than the default one, a special comment line should be added as the *first* line of the file.  The syntax is as follows::"
+#, fuzzy
+msgid ""
+"To declare an encoding other than the default one, a special comment line "
+"should be added as the *first* line of the file.  The syntax is as follows::"
 msgstr ""
+"برای اعلام رمزگذاری غیر از کد پیش فرض، باید یک خط نظر ویژه به عنوان خط "
+"*first* فایل اضافه شود.  نحو به شرح زیر است:"
 
 #: tutorial/interpreter.rst:143
+#, fuzzy
 msgid "# -*- coding: encoding -*-"
-msgstr ""
+msgstr "# -*- coding: encoding -*-"
 
 #: tutorial/interpreter.rst:145
-msgid "where *encoding* is one of the valid :mod:`codecs` supported by Python."
+#, fuzzy
+msgid ""
+"where *encoding* is one of the valid :mod:`codecs` supported by Python."
 msgstr ""
+"که در آن *encoding* یکی از :mod:`codecs` معتبر است که توسط پایتون پشتیبانی "
+"می شود."
 
 #: tutorial/interpreter.rst:147
-msgid "For example, to declare that Windows-1252 encoding is to be used, the first line of your source code file should be::"
+#, fuzzy
+msgid ""
+"For example, to declare that Windows-1252 encoding is to be used, the first "
+"line of your source code file should be::"
 msgstr ""
+"به عنوان مثال، برای اعلام اینکه باید از رمزگذاری Windows-1252 استفاده شود، "
+"خط اول فایل کد منبع شما باید به صورت زیر باشد:"
 
 #: tutorial/interpreter.rst:150
+#, fuzzy
 msgid "# -*- coding: cp1252 -*-"
-msgstr ""
+msgstr "# -*- coding: cp1252 -*-"
 
 #: tutorial/interpreter.rst:152
-msgid "One exception to the *first line* rule is when the source code starts with a :ref:`UNIX \"shebang\" line <tut-scripts>`.  In this case, the encoding declaration should be added as the second line of the file.  For example::"
+#, fuzzy
+msgid ""
+"One exception to the *first line* rule is when the source code starts with a"
+" :ref:`UNIX \"shebang\" line <tut-scripts>`.  In this case, the encoding "
+"declaration should be added as the second line of the file.  For example::"
 msgstr ""
+"یک استثنا برای قانون *first line* زمانی است که کد منبع با :ref:`UNIX "
+"\"shebang\" line <tut-scripts>` شروع می شود.  در این حالت، اعلان رمزگذاری "
+"باید به عنوان خط دوم فایل اضافه شود.  به عنوان مثال::"
 
 #: tutorial/interpreter.rst:156
-msgid "#!/usr/bin/env python3\n"
+#, fuzzy
+msgid ""
+"#!/usr/bin/env python3\n"
 "# -*- coding: cp1252 -*-"
 msgstr ""
+"#!/usr/bin/env python3\n"
+"# -*- coding: cp1252 -*-"
 
 #: tutorial/interpreter.rst:160
+#, fuzzy
 msgid "Footnotes"
-msgstr ""
+msgstr "پاورقی ها"
 
 #: tutorial/interpreter.rst:161
-msgid "On Unix, the Python 3.x interpreter is by default not installed with the executable named ``python``, so that it does not conflict with a simultaneously installed Python 2.x executable."
+#, fuzzy
+msgid ""
+"On Unix, the Python 3.x interpreter is by default not installed with the "
+"executable named ``python``, so that it does not conflict with a "
+"simultaneously installed Python 2.x executable."
 msgstr ""
+"در یونیکس، مفسر Python 3.x به طور پیش‌فرض با فایل اجرایی به نام ``python`` "
+"نصب نمی‌شود، بنابراین با یک فایل اجرایی Python 2.x که به طور همزمان نصب شده "
+"است، تضاد ندارد."
