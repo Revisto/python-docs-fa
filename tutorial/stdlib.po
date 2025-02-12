@@ -58,8 +58,8 @@ msgid ""
 "This will keep :func:`os.open` from shadowing the built-in :func:`open` "
 "function which operates much differently."
 msgstr ""
-"حتما به جای ``from os import *`` از سبک ``from os import *`` استفاده کنید.  "
-"این امر باعث می‌شود که :func:`open` روی عملکرد داخلی :func:`open` که بسیار "
+"حتما از سبک ``import os`` به جای ``from os import *`` استفاده کنید.  این امر"
+" باعث می‌شود که :func:`os.open` روی عملکرد داخلی :func:`open` که بسیار "
 "متفاوت عمل می‌کند سایه نزند."
 
 #: tutorial/stdlib.rst:29
@@ -68,7 +68,7 @@ msgid ""
 "The built-in :func:`dir` and :func:`help` functions are useful as "
 "interactive aids for working with large modules like :mod:`os`::"
 msgstr ""
-"توابع داخلی :func:`help` و :func:`help` به عنوان کمک های تعاملی برای کار با "
+"توابع داخلی :func:`dir` و :func:`help` به عنوان کمک های تعاملی برای کار با "
 "ماژول های بزرگ مانند :mod:`os` مفید هستند:"
 
 #: tutorial/stdlib.rst:32
@@ -92,7 +92,7 @@ msgid ""
 "For daily file and directory management tasks, the :mod:`shutil` module "
 "provides a higher level interface that is easier to use::"
 msgstr ""
-"برای وظایف مدیریت فایل و دایرکتوری روزانه، ماژول :mod:`shutil` رابط سطح "
+"برای کارهای روزانه مدیریت فایل و دایرکتوری، ماژول :mod:`shutil` رابط سطح "
 "بالاتری را ارائه می دهد که استفاده از آن آسان تر است:"
 
 #: tutorial/stdlib.rst:41
@@ -121,8 +121,8 @@ msgid ""
 "The :mod:`glob` module provides a function for making file lists from "
 "directory wildcard searches::"
 msgstr ""
-"ماژول :mod:`glob` تابعی را برای ایجاد لیست فایل ها از جستجوهای عام دایرکتوری"
-" ارائه می دهد:"
+"ماژول :mod:`glob` عملکردی را برای ایجاد لیست فایل ها از جستجوهای عام "
+"دایرکتوری ارائه می دهد:"
 
 #: tutorial/stdlib.rst:56
 #, fuzzy
@@ -216,10 +216,9 @@ msgid ""
 "beta.txt``, the script sets ``args.lines`` to ``5`` and ``args.filenames`` "
 "to ``['alpha.txt', 'beta.txt']``."
 msgstr ""
-"هنگامی که در خط فرمان با ``['alpha.txt', 'beta.txt']`` اجرا می شود، اسکریپت "
-"``['alpha.txt', 'beta.txt']`` را روی ``['alpha.txt', 'beta.txt']`` و "
-"``['alpha.txt', 'beta.txt']`` را به ``['alpha.txt', 'beta.txt']`` تنظیم می "
-"کند."
+"هنگامی که در خط فرمان با ``python top.py --lines=5 alpha.txt beta.txt`` اجرا"
+" می شود، اسکریپت ``args.lines`` را به ``5`` و ``args.filenames`` را به "
+"``['alpha.txt', 'beta.txt']`` تنظیم می کند."
 
 #: tutorial/stdlib.rst:101
 #, fuzzy
@@ -233,9 +232,9 @@ msgid ""
 "*stderr*. The latter is useful for emitting warnings and error messages to "
 "make them visible even when *stdout* has been redirected::"
 msgstr ""
-"ماژول :mod:`sys` همچنین دارای ویژگی هایی برای *stdout*، *stdout* و *stdout* "
+"ماژول :mod:`sys` همچنین دارای ویژگی هایی برای *stdin*، *stdout* و *stderr* "
 "است. مورد دوم برای ارسال اخطارها و پیام های خطا مفید است تا آنها را حتی "
-"زمانی که *stdout* تغییر مسیر داده است قابل مشاهده باشد:"
+"زمانی که *stdout* هدایت شده است قابل مشاهده کند:"
 
 #: tutorial/stdlib.rst:107
 #, fuzzy
@@ -410,8 +409,8 @@ msgid ""
 "retrieving data from URLs and :mod:`smtplib` for sending mail::"
 msgstr ""
 "تعدادی ماژول برای دسترسی به اینترنت و پردازش پروتکل های اینترنتی وجود دارد. "
-"دو مورد از ساده ترین آنها :mod:`smtplib` برای بازیابی داده ها از URL ها و "
-":mod:`smtplib` برای ارسال نامه هستند:"
+"دو مورد از ساده ترین آنها :mod:`urllib.request` برای بازیابی داده ها از URL "
+"ها و :mod:`smtplib` برای ارسال نامه هستند:"
 
 #: tutorial/stdlib.rst:185
 #, fuzzy
@@ -526,8 +525,8 @@ msgid ""
 ":mod:`zipfile` and :mod:`tarfile`. ::"
 msgstr ""
 "فرمت‌های رایج بایگانی و فشرده‌سازی داده‌ها مستقیماً توسط ماژول‌هایی از جمله:"
-" :mod:`tarfile`، :mod:`tarfile`، :mod:`tarfile`، :mod:`tarfile`، "
-":mod:`tarfile` و :mod:`tarfile` پشتیبانی می‌شوند. ::"
+" :mod:`zlib`، :mod:`gzip`، :mod:`bz2`، :mod:`lzma`، :mod:`zipfile` و "
+":mod:`tarfile` پشتیبانی می‌شوند. ::"
 
 #: tutorial/stdlib.rst:242
 #, fuzzy
@@ -605,9 +604,9 @@ msgid ""
 " and :mod:`pstats` modules provide tools for identifying time critical "
 "sections in larger blocks of code."
 msgstr ""
-"برخلاف سطح دقیق دانه بندی :mod:`pstats`، ماژول های :mod:`pstats` و "
-":mod:`pstats` ابزارهایی را برای شناسایی بخش های مهم زمانی در بلوک های بزرگتر"
-" کد ارائه می دهند."
+"برخلاف سطح دقیق دانه‌بندی :mod:`timeit`، ماژول‌های :mod:`profile` و "
+":mod:`pstats` ابزارهایی را برای شناسایی بخش‌های حساس زمانی در بلوک‌های "
+"بزرگ‌تر کد ارائه می‌کنند."
 
 #: tutorial/stdlib.rst:282
 #, fuzzy
@@ -654,7 +653,7 @@ msgid ""
 "import doctest\n"
 "doctest.testmod()   # automatically validate the embedded tests"
 msgstr ""
-"میانگین (مقدار):\n"
+"دف میانگین(مقدار):\n"
 "    \"\"\"میانگین حسابی لیستی از اعداد را محاسبه می کند.\n"
 "\n"
 "    >>> چاپ (متوسط ​​([20، 30، 70]))\n"
@@ -672,7 +671,7 @@ msgid ""
 "module, but it allows a more comprehensive set of tests to be maintained in "
 "a separate file::"
 msgstr ""
-"ماژول :mod:`doctest` به آسانی ماژول :mod:`doctest` نیست، اما اجازه می دهد "
+"ماژول :mod:`unittest` به آسانی ماژول :mod:`doctest` نیست، اما اجازه می دهد "
 "مجموعه جامع تری از تست ها در یک فایل جداگانه نگهداری شود:"
 
 #: tutorial/stdlib.rst:310
@@ -728,8 +727,8 @@ msgid ""
 "remote procedure calls into an almost trivial task.  Despite the modules' "
 "names, no direct knowledge or handling of XML is needed."
 msgstr ""
-"ماژول های :mod:`xmlrpc.server` و :mod:`xmlrpc.server` اجرای فراخوانی های "
-"رویه از راه دور را به یک کار تقریباً بی اهمیت تبدیل می کنند.  با وجود نام "
+"ماژول‌های :mod:`xmlrpc.client` و :mod:`xmlrpc.server` اجرای فراخوانی‌های "
+"رویه از راه دور را به یک کار تقریباً بی‌اهمیت تبدیل می‌کنند.  با وجود نام "
 "ماژول ها، هیچ دانش یا مدیریت مستقیم XML مورد نیاز نیست."
 
 #: tutorial/stdlib.rst:337
@@ -742,11 +741,11 @@ msgid ""
 "structures (including attachments) and for implementing internet encoding "
 "and header protocols."
 msgstr ""
-"بسته :mod:`poplib` کتابخانه ای برای مدیریت پیام های ایمیل، از جمله MIME و "
-"سایر اسناد پیام مبتنی بر :rfc:`2822` است. برخلاف :mod:`poplib` و "
+"بسته :mod:`email` کتابخانه ای برای مدیریت پیام های ایمیل، از جمله MIME و "
+"سایر اسناد پیام مبتنی بر :rfc:`2822` است. برخلاف :mod:`smtplib` و "
 ":mod:`poplib` که در واقع پیام‌ها را ارسال و دریافت می‌کنند، بسته ایمیل دارای"
 " یک مجموعه ابزار کامل برای ساخت یا رمزگشایی ساختارهای پیام پیچیده (از جمله "
-"پیوست‌ها) و برای پیاده‌سازی پروتکل‌های رمزگذاری اینترنتی و هدر است."
+"پیوست‌ها) و برای اجرای کدگذاری اینترنتی و پروتکل‌های هدر است."
 
 #: tutorial/stdlib.rst:344
 #, fuzzy
@@ -759,11 +758,11 @@ msgid ""
 "Together, these modules and packages greatly simplify data interchange "
 "between Python applications and other tools."
 msgstr ""
-"بسته :mod:`xml.sax` پشتیبانی قوی برای تجزیه این فرمت تبادل داده محبوب فراهم "
-"می کند.  ماژول :mod:`xml.sax` از خواندن و نوشتن مستقیم فایل ها با فرمت مقدار"
-" جدا شده با کاما پشتیبانی می کند که معمولاً توسط پایگاه های داده و صفحات "
-"گسترده پشتیبانی می شود.  پردازش XML توسط بسته های :mod:`xml.sax`، "
-":mod:`xml.sax` و :mod:`xml.sax` پشتیبانی می شود. این ماژول‌ها و بسته‌ها با "
+"بسته :mod:`json` پشتیبانی قوی برای تجزیه این فرمت تبادل داده محبوب فراهم می "
+"کند.  ماژول :mod:`csv` از خواندن و نوشتن مستقیم فایل ها با فرمت مقدار جدا "
+"شده با کاما پشتیبانی می کند که معمولاً توسط پایگاه های داده و صفحات گسترده "
+"پشتیبانی می شود.  پردازش XML توسط بسته های :mod:`xml.etree.ElementTree`، "
+":mod:`xml.dom` و :mod:`xml.sax` پشتیبانی می شود. این ماژول‌ها و بسته‌ها با "
 "هم تبادل داده‌ها را بین برنامه‌های پایتون و ابزارهای دیگر بسیار ساده "
 "می‌کنند."
 
@@ -776,7 +775,7 @@ msgid ""
 msgstr ""
 "ماژول :mod:`sqlite3` پوششی برای کتابخانه پایگاه داده SQLite است که یک پایگاه"
 " داده پایدار را ارائه می دهد که می تواند با استفاده از نحو کمی غیر استاندارد"
-" SQL به روز شود و به آن دسترسی پیدا کرد."
+" SQL به روز شود و به آن دسترسی داشت."
 
 #: tutorial/stdlib.rst:357
 #, fuzzy
@@ -784,7 +783,7 @@ msgid ""
 "Internationalization is supported by a number of modules including "
 ":mod:`gettext`, :mod:`locale`, and the :mod:`codecs` package."
 msgstr ""
-"بین المللی سازی توسط تعدادی ماژول از جمله :mod:`codecs`، :mod:`codecs` و "
+"بین المللی سازی توسط تعدادی ماژول از جمله :mod:`gettext`، :mod:`locale` و "
 "بسته :mod:`codecs` پشتیبانی می شود."
 
 #: tutorial/stdlib.rst:27
