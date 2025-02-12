@@ -159,7 +159,7 @@ msgid ""
 ">>> 1 / 10\n"
 "0.1"
 msgstr ""
-">>> 1/10\n"
+">>> 1 / 10\n"
 "0.1"
 
 #: tutorial/floatingpoint.rst:75
@@ -238,10 +238,10 @@ msgid ""
 ">>> repr(math.pi)\n"
 "'3.141592653589793'"
 msgstr ""
-">>> فرمت (math.pi, '.12g') # 12 رقم قابل توجه را می دهد\n"
+">>> format(math.pi, '.12g')  # give 12 significant digits\n"
 "'3.14159265359'\n"
 "\n"
-">>> قالب (math.pi, '.2f') # بعد از نقطه 2 رقم بدهید\n"
+">>> format(math.pi, '.2f')   # give 2 digits after the point\n"
 "'3.14'\n"
 "\n"
 ">>> repr(math.pi)\n"
@@ -272,7 +272,7 @@ msgid ""
 "False"
 msgstr ""
 ">>> 0.1 + 0.1 + 0.1 == 0.3\n"
-"نادرست"
+"False"
 
 #: tutorial/floatingpoint.rst:122
 #, fuzzy
@@ -291,8 +291,8 @@ msgid ""
 ">>> round(0.1, 1) + round(0.1, 1) + round(0.1, 1) == round(0.3, 1)\n"
 "False"
 msgstr ""
-">>> دور (0.1, 1) + دور (0.1, 1) + دور (0.1, 1) == دور (0.3, 1)\n"
-"نادرست"
+">>> round(0.1, 1) + round(0.1, 1) + round(0.1, 1) == round(0.3, 1)\n"
+"False"
 
 #: tutorial/floatingpoint.rst:131
 #, fuzzy
@@ -310,7 +310,7 @@ msgid ""
 "True"
 msgstr ""
 ">>> math.isclose(0.1 + 0.1 + 0.1, 0.3)\n"
-"درست است"
+"True"
 
 #: tutorial/floatingpoint.rst:139
 #, fuzzy
@@ -327,8 +327,8 @@ msgid ""
 ">>> round(math.pi, ndigits=2) == round(22 / 7, ndigits=2)\n"
 "True"
 msgstr ""
-">>> دور (math.pi, ndigits=2) == دور (22 / 7, ndigits=2)\n"
-"درست است"
+">>> round(math.pi, ndigits=2) == round(22 / 7, ndigits=2)\n"
+"True"
 
 #: tutorial/floatingpoint.rst:147
 #, fuzzy
@@ -457,7 +457,7 @@ msgid ""
 "True"
 msgstr ""
 ">>> x == 3537115888337719 / 1125899906842624\n"
-"درست است"
+"True"
 
 #: tutorial/floatingpoint.rst:200
 #, fuzzy
@@ -493,7 +493,7 @@ msgid ""
 "True"
 msgstr ""
 ">>> x == float.fromhex('0x1.921f9f01b866ep+1')\n"
-"درست است"
+"True"
 
 #: tutorial/floatingpoint.rst:216
 #, fuzzy
@@ -531,9 +531,9 @@ msgid ""
 "True"
 msgstr ""
 ">>> 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0\n"
-"نادرست\n"
-">>> مجموع ([0.1] * 10) == 1.0\n"
-"درست است"
+"False\n"
+">>> sum([0.1] * 10) == 1.0\n"
+"True"
 
 #: tutorial/floatingpoint.rst:233
 #, fuzzy
@@ -569,18 +569,18 @@ msgid ""
 "-0.0051575902860057365"
 msgstr ""
 ">>> arr = [-0.10430216751806065, -266310978.67179024, 143401161448607.16,\n"
-"... -143401161400469.7, 266262841.31058735, -0.003244936839808227]\n"
-">>> شناور (جمع (نقشه (کسری, arr))) # جمع بندی دقیق با یک گرد کردن\n"
+"...        -143401161400469.7, 266262841.31058735, -0.003244936839808227]\n"
+">>> float(sum(map(Fraction, arr)))   # Exact summation with single rounding\n"
 "8.042173697819788e-13\n"
-">>> math.fsum(arr) # گرد کردن تکی\n"
+">>> math.fsum(arr)                   # Single rounding\n"
 "8.042173697819788e-13\n"
-">>> sum(arr) # گرد کردن چندگانه با دقت بیشتر\n"
+">>> sum(arr)                         # Multiple roundings in extended precision\n"
 "8.042178034628478e-13\n"
-">>> مجموع = 0.0\n"
-">>> برای x در arr:\n"
-"... مجموع += x # گرد کردن چندگانه با دقت استاندارد\n"
+">>> total = 0.0\n"
+">>> for x in arr:\n"
+"...     total += x                   # Multiple roundings in standard precision\n"
 "...\n"
-">>> مجموع # مستقیم هیچ رقم صحیحی ندارد!\n"
+">>> total                            # Straight addition has no correct digits!\n"
 "-0.0051575902860057365"
 
 #: tutorial/floatingpoint.rst:260
@@ -662,8 +662,8 @@ msgid ""
 ">>> 2**52 <=  2**56 // 10  < 2**53\n"
 "True"
 msgstr ""
-">>> 2**52 <=  2**56 // 10 < 2**53\n"
-"درست است"
+">>> 2**52 <=  2**56 // 10  < 2**53\n"
+"True"
 
 #: tutorial/floatingpoint.rst:294
 #, fuzzy
@@ -682,7 +682,7 @@ msgid ""
 "6"
 msgstr ""
 ">>> q, r = divmod(2**56, 10)\n"
-">>> ر\n"
+">>> r\n"
 "6"
 
 #: tutorial/floatingpoint.rst:303
@@ -771,7 +771,7 @@ msgid ""
 "1000000000000000055511151231257827021181583404541015625"
 msgstr ""
 ">>> 3602879701896397 * 10 ** 55 // 2 ** 55\n"
-"10000000000000005551151231257827021181583404541015625"
+"1000000000000000055511151231257827021181583404541015625"
 
 #: tutorial/floatingpoint.rst:342
 #, fuzzy
@@ -792,8 +792,8 @@ msgid ""
 ">>> format(0.1, '.17f')\n"
 "'0.10000000000000001'"
 msgstr ""
-">>> قالب (0.1, '.17f')\n"
-"'0.100000000000000001'"
+">>> format(0.1, '.17f')\n"
+"'0.10000000000000001'"
 
 #: tutorial/floatingpoint.rst:352
 #, fuzzy
@@ -821,17 +821,17 @@ msgid ""
 ">>> format(Decimal.from_float(0.1), '.17')\n"
 "'0.10000000000000001'"
 msgstr ""
-">>> از اعشار واردات اعشاری\n"
-">>> از کسری واردات کسر\n"
+">>> from decimal import Decimal\n"
+">>> from fractions import Fraction\n"
 "\n"
 ">>> Fraction.from_float(0.1)\n"
-"کسر(3602879701896397, 36028797018963968)\n"
+"Fraction(3602879701896397, 36028797018963968)\n"
 "\n"
 ">>> (0.1).as_integer_ratio()\n"
 "(3602879701896397, 36028797018963968)\n"
 "\n"
 ">>> Decimal.from_float(0.1)\n"
-"اعشاری('0.100000000000000055511151231257827021181583404541015625')\n"
+"Decimal('0.1000000000000000055511151231257827021181583404541015625')\n"
 "\n"
-">>> قالب (Decimal.from_float(0.1), '.17')\n"
-"'0.100000000000000001'"
+">>> format(Decimal.from_float(0.1), '.17')\n"
+"'0.10000000000000001'"

@@ -84,11 +84,31 @@ def is_complete_python_code(text: str) -> bool:
         and "," not in text
     ):
         return False
+
     try:
         compile(text, "<string>", "exec")
         return True
     except SyntaxError:
-        return False
+        pass
+
+    try:
+        # remove >>> and ... prompts
+        text_without_prompts = re.sub(r"^>>> |^\.\.\. ", "", text, flags=re.MULTILINE)
+        compile(text_without_prompts, "<string>", "exec")
+        return True
+    except SyntaxError:
+        pass
+
+    try:
+        # remove >>> and ... prompts except the last one (might be the output)
+        text_without_prompts = re.sub(r"^>>> |^\.\.\. ", "", text, flags=re.MULTILINE)
+        text_without_prompts = re.sub(
+            r"^>>> |^\.\.\. ", "", text_without_prompts, count=1, flags=re.MULTILINE
+        )
+        compile(text_without_prompts, "<string>", "exec")
+        return True
+    except SyntaxError:
+        pass
 
 
 def process_po_file(po_file):

@@ -280,7 +280,7 @@ msgid ""
 ">>> site.getusersitepackages()\n"
 "'/home/user/.local/lib/python3.x/site-packages'"
 msgstr ""
-">>> سایت واردات\n"
+">>> import site\n"
 ">>> site.getusersitepackages()\n"
 "'/home/user/.local/lib/python3.x/site-packages'"
 
