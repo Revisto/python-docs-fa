@@ -1496,19 +1496,7 @@ msgid ""
 "to Python as the :attr:`~sys.hash_info.modulus` attribute of "
 ":data:`sys.hash_info`."
 msgstr ""
-"برای اعداد ``x`` و ``y``، که ممکن است از انواع مختلف باشند، این الزام است که"
-" هرگاه ``x == y`` باشد، در نتیجه داشته باشیم ``hash(x) == hash(y)`` (برای "
-"جزئیات بیشتر به مستندات روش :meth:`~object.__hash__` مراجعه کنید).  برای "
-"سهولت پیاده‌سازی و کارایی در میان انواع عددی متفاوت (از جمله :class:`int`, "
-":class:`float`, :class:`complex`, :class:`decimal.Decimal` و "
-":c:func:`localeconv`) هش پایتون برای انواع عددی بر اساس یک تابع ریاضی یکتا "
-"تعریف شده است که برای هر عدد گویا معتبر است و بر همین اساس در تمامی "
-"نمونه‌های :class:`int` و :class:`fractions.Fraction`, و همچنین در تمامی "
-"نمونه‌های متناهی :class:`float` و :class:`decimal.Decimal` اعمال می‌شود. "
-"اساساً، این تابع به صورت کاهش باقی‌مانده نسبت به ``P``، که یک عدد اول ثابت "
-"است، تعریف شده است. مقدار ``P`` به عنوان ویژگی "
-":attr:`~sys.hash_info.modulus` در :data:`sys.hash_info` در دسترس پایتون قرار"
-" گرفته است."
+"برای اعداد ``x`` و ``y``، که ممکن است از انواع مختلف باشند، این الزام است که هرگاه ``x == y`` باشد، در نتیجه داشته باشیم ``hash(x) == hash(y)`` (برای جزئیات بیشتر به مستندات روش :meth:`~object.__hash__` مراجعه کنید). برای سهولت پیاده‌سازی و کارایی در میان انواع عددی متفاوت (از جمله :class:`int`, :class:`float`, :class:`decimal.Decimal` و :class:`fractions.Fraction`) هش پایتون برای انواع عددی بر اساس یک تابع ریاضی یکتا تعریف شده است که برای هر عدد گویا معتبر است و بر همین اساس در تمامی نمونه‌های :class:`int` و :class:`fractions.Fraction`, و همچنین در تمامی نمونه‌های متناهی :class:`float` و :class:`decimal.Decimal` اعمال می‌شود. اساساً، این تابع به صورت کاهش باقی‌مانده نسبت به ``P``، که یک عدد اول ثابت است، تعریف شده است. مقدار ``P`` به عنوان ویژگی :attr:`~sys.hash_info.modulus` در :data:`sys.hash_info` در دسترس پایتون قرار گرفته است."
 
 #: library/stdtypes.rst:726
 #, fuzzy
@@ -9109,10 +9097,7 @@ msgid ""
 ":func:`open` to be used as the context expression in a :keyword:`with` "
 "statement."
 msgstr ""
-"برای اطلاعات بیشتر در مورد کلاس ``str`` و متدهای آن، به :ref:`textseq` و بخش"
-" :ref:`string-methods` در زیر مراجعه کنید. برای خروجی گرفتن رشته‌های "
-"قالب‌بندی‌شده، به بخش‌های :ref:`f-strings` و :ref:`formatstrings` مراجعه "
-"کنید. علاوه بر این، به بخش :ref:`stringservices` مراجعه کنید."
+"مثالی از یک مدیر زمینه که خود را برمی‌گرداند، یک :term:`file object` است. اشیاء فایل خود را از __enter__() برمی‌گردانند تا اجازه دهند :func:`open` به عنوان عبارت زمینه در یک دستور :keyword:`with` استفاده شود."
 
 #: library/stdtypes.rst:4851
 #, fuzzy
