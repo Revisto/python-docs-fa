@@ -378,7 +378,7 @@ msgstr "**R**"
 #: library/functions.rst:0
 #, fuzzy
 msgid "|func-range|_"
-msgstr "|fun-range|_"
+msgstr "|func-range|_"
 
 #: library/functions.rst:0
 #, fuzzy
