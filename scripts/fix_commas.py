@@ -18,14 +18,15 @@ code_patterns = [
     r"__import__\([^)]*،[^)]*\)",  # __import__('spam.ham'، globals()، locals())
     r"(?:globals|locals)\(\)،\s*(?:globals|locals)\(\)",  # globals()، locals()
     # Variable assignments and operations
-    r"for\s+\w+،\s*\w+\s+in\s+",  # for نام، تلفن in table.items()
+    r"for\s+\w+،\s*\w+\s+in\s+",  # for a، b in table.items()
     r"print\([^)]*،[^)]*\)",  # print(a، end=' ')
     # Variable and attribute access
     r"\w+\.\w+،\s*\w+\.\w+",  # x.r، x.i
     r"(?:\w+\([^)]*\)|'[^']*'|\"[^\"]*\"|[)\]])،\s*\w+",  # os.open('mydata.db'، 'rb')
     # Dictionary operations
     r"{\s*'[^']*':\s*\w+،",  # {'primary': یک، 'secondary': دو}
-    r"for\s+\w+،\s*\w+\s+in\s+\w+\.items\(\)",  # for نام، تلفن in table.items()
+    r"for\s+\w+،\s*\w+\s+in\s+\w+\.items\(\)",  # for a، b in table.items()
+    r">>>.*،.*",  # >>> a، b
 ]
 
 
