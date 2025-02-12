@@ -83,10 +83,10 @@ msgid ""
 "          # ... and now a third!\n"
 "text = \"# This is not a comment because it's inside quotes.\""
 msgstr ""
-"# این اولین نظر است\n"
-"هرزنامه = 1 # و این دومین نظر است\n"
-"          # ... و حالا یک سوم!\n"
-"text = \"# این یک نظر نیست زیرا داخل نقل قول است.\""
+"# this is the first comment\n"
+"spam = 1  # and this is the second comment\n"
+"          # ... and now a third!\n"
+"text = \"# This is not a comment because it's inside quotes.\""
 
 #: tutorial/introduction.rst:42
 #, fuzzy
@@ -1405,7 +1405,7 @@ msgstr ""
 #: tutorial/introduction.rst:21
 #, fuzzy
 msgid "# (hash)"
-msgstr "# (هش)"
+msgstr "# (hash)"
 
 #: tutorial/introduction.rst:21
 #, fuzzy

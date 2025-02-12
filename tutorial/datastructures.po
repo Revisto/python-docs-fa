@@ -384,7 +384,7 @@ msgstr ""
 #: tutorial/datastructures.rst:216
 #, fuzzy
 msgid "squares = list(map(lambda x: x**2, range(10)))"
-msgstr "مربع = لیست (نقشه (لامبدا x: x**2, محدوده (10)))"
+msgstr "squares = list(map(lambda x: x**2, range(10)))"
 
 #: tutorial/datastructures.rst:218
 #, fuzzy
@@ -394,7 +394,7 @@ msgstr "یا به طور معادل::"
 #: tutorial/datastructures.rst:220
 #, fuzzy
 msgid "squares = [x**2 for x in range(10)]"
-msgstr "مربع = [x**2 برای x در محدوده (10)]"
+msgstr "squares = [x**2 for x in range(10)]"
 
 #: tutorial/datastructures.rst:222
 #, fuzzy
@@ -749,7 +749,7 @@ msgstr ""
 #: tutorial/datastructures.rst:370
 #, fuzzy
 msgid "Tuples and Sequences"
-msgstr "تاپل ها و دنباله ها"
+msgstr "Tuples and Sequences"
 
 #: tutorial/datastructures.rst:372
 #, fuzzy
@@ -1564,13 +1564,13 @@ msgid ""
 "(1, 2, 3)             == (1.0, 2.0, 3.0)\n"
 "(1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)"
 msgstr ""
-"(1, 2, 3) < (1, 2, 4)\n"
-"[1, 2, 3] < [1, 2, 4]\n"
-"\"ABC\" < \"C\" < \"Pascal\" < \"Python\"\n"
-"(1, 2, 3, 4) < (1, 2, 4)\n"
-"(1, 2) < (1, 2, -1)\n"
-"(1, 2, 3) == (1.0, 2.0, 3.0)\n"
-"(1, 2, (\"aa\", \"ab\")) < (1, 2, (\"abc\", \"a\"), 4)"
+"(1, 2, 3)              < (1, 2, 4)\n"
+"[1, 2, 3]              < [1, 2, 4]\n"
+"'ABC' < 'C' < 'Pascal' < 'Python'\n"
+"(1, 2, 3, 4)           < (1, 2, 4)\n"
+"(1, 2)                 < (1, 2, -1)\n"
+"(1, 2, 3)             == (1.0, 2.0, 3.0)\n"
+"(1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)"
 
 #: tutorial/datastructures.rst:724
 #, fuzzy

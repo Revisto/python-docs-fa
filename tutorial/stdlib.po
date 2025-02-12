@@ -158,9 +158,9 @@ msgid ""
 "import sys\n"
 "print(sys.argv)"
 msgstr ""
-"# فایل demo.py\n"
-"سیستم واردات\n"
-"چاپ (sys.argv)"
+"# File demo.py\n"
+"import sys\n"
+"print(sys.argv)"
 
 #: tutorial/stdlib.rst:74
 #, fuzzy
@@ -173,7 +173,7 @@ msgstr ""
 #: tutorial/stdlib.rst:77
 #, fuzzy
 msgid "['demo.py', 'one', 'two', 'three']"
-msgstr "['demo.py', 'یک', 'دو', 'سه']"
+msgstr "['demo.py', 'one', 'two', 'three']"
 
 #: tutorial/stdlib.rst:79
 #, fuzzy
@@ -199,15 +199,15 @@ msgid ""
 "args = parser.parse_args()\n"
 "print(args)"
 msgstr ""
-"واردات argparse\n"
+"import argparse\n"
 "\n"
-"تجزیه کننده = argparse.ArgumentParser(\n"
+"parser = argparse.ArgumentParser(\n"
 "    prog='top',\n"
-"    description='نمایش خطوط برتر از هر فایل')\n"
-"parser.add_argument('names', nargs='+')\n"
+"    description='Show top lines from each file')\n"
+"parser.add_argument('filenames', nargs='+')\n"
 "parser.add_argument('-l', '--lines', type=int, default=10)\n"
 "args = parser.parse_args()\n"
-"چاپ (args)"
+"print(args)"
 
 #: tutorial/stdlib.rst:93
 #, fuzzy
@@ -464,7 +464,7 @@ msgstr ""
 #: tutorial/stdlib.rst:210
 #, fuzzy
 msgid "Dates and Times"
-msgstr "تاریخ و زمان"
+msgstr "Dates and Times"
 
 #: tutorial/stdlib.rst:212
 #, fuzzy
@@ -653,16 +653,16 @@ msgid ""
 "import doctest\n"
 "doctest.testmod()   # automatically validate the embedded tests"
 msgstr ""
-"دف میانگین(مقدار):\n"
-"    \"\"\"میانگین حسابی لیستی از اعداد را محاسبه می کند.\n"
+"def average(values):\n"
+"    \"\"\"Computes the arithmetic mean of a list of numbers.\n"
 "\n"
-"    >>> چاپ (متوسط ​​([20, 30, 70]))\n"
+"    >>> print(average([20, 30, 70]))\n"
 "    40.0\n"
 "    \"\"\"\n"
-"    جمع برگشتی (ارزش ها) / لن (مقادیر)\n"
+"    return sum(values) / len(values)\n"
 "\n"
-"واردات docttest\n"
-"doctest.testmod() # به طور خودکار تست های تعبیه شده را تأیید می کند"
+"import doctest\n"
+"doctest.testmod()   # automatically validate the embedded tests"
 
 #: tutorial/stdlib.rst:306
 #, fuzzy
@@ -691,19 +691,19 @@ msgid ""
 "\n"
 "unittest.main()  # Calling from the command line invokes all tests"
 msgstr ""
-"واحد تست واردات\n"
+"import unittest\n"
 "\n"
-"کلاس TestStatisticalFunctions (unittest.TestCase):\n"
+"class TestStatisticalFunctions(unittest.TestCase):\n"
 "\n"
 "    def test_average(self):\n"
-"        self.assertEqual(میانگین([20, 30, 70]), 40.0)\n"
-"        self.assertEqual(round(Average([1, 5, 7]), 1), 4.3)\n"
-"        با self.assertRaises(ZeroDivisionError):\n"
-"            متوسط ​​([])\n"
-"        با self.assertRaises (TypeError):\n"
-"            میانگین (20, 30, 70)\n"
+"        self.assertEqual(average([20, 30, 70]), 40.0)\n"
+"        self.assertEqual(round(average([1, 5, 7]), 1), 4.3)\n"
+"        with self.assertRaises(ZeroDivisionError):\n"
+"            average([])\n"
+"        with self.assertRaises(TypeError):\n"
+"            average(20, 30, 70)\n"
 "\n"
-"unittest.main() # فراخوانی از خط فرمان همه تست ها را فراخوانی می کند"
+"unittest.main()  # Calling from the command line invokes all tests"
 
 #: tutorial/stdlib.rst:328
 #, fuzzy

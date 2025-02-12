@@ -93,22 +93,22 @@ msgid ""
 "        a, b = b, a+b\n"
 "    return result"
 msgstr ""
-"# ماژول اعداد فیبوناچی\n"
+"# Fibonacci numbers module\n"
 "\n"
-"def fib(n): # سری فیبوناچی را تا n بنویسید\n"
-"    a، b = 0، 1\n"
-"    در حالی که a < n:\n"
-"        چاپ (a, end=' ')\n"
-"        a، b = b، a+b\n"
-"    چاپ ()\n"
+"def fib(n):    # write Fibonacci series up to n\n"
+"    a, b = 0, 1\n"
+"    while a < n:\n"
+"        print(a, end=' ')\n"
+"        a, b = b, a+b\n"
+"    print()\n"
 "\n"
-"def fib2(n): # سری فیبوناچی را تا n برگرداند\n"
-"    نتیجه = []\n"
-"    a، b = 0، 1\n"
-"    در حالی که a < n:\n"
+"def fib2(n):   # return Fibonacci series up to n\n"
+"    result = []\n"
+"    a, b = 0, 1\n"
+"    while a < n:\n"
 "        result.append(a)\n"
-"        a، b = b، a+b\n"
-"    نتیجه بازگشت"
+"        a, b = b, a+b\n"
+"    return result"
 
 #: tutorial/modules.rst:45
 #, fuzzy
@@ -386,8 +386,8 @@ msgid ""
 "    import sys\n"
 "    fib(int(sys.argv[1]))"
 msgstr ""
-"اگر __name__ == \"__اصلی__\":\n"
-"    سیستم واردات\n"
+"if __name__ == \"__main__\":\n"
+"    import sys\n"
 "    fib(int(sys.argv[1]))"
 
 #: tutorial/modules.rst:161
@@ -1028,7 +1028,7 @@ msgstr ""
 #: tutorial/modules.rst:450
 #, fuzzy
 msgid "import sound.effects.echo"
-msgstr "وارد کردن sound.effects.echo"
+msgstr "import sound.effects.echo"
 
 #: tutorial/modules.rst:452
 #, fuzzy
@@ -1042,7 +1042,7 @@ msgstr ""
 #: tutorial/modules.rst:455
 #, fuzzy
 msgid "sound.effects.echo.echofilter(input, output, delay=0.7, atten=4)"
-msgstr "sound.effects.echo.echofilter(ورودی, خروجی, تاخیر=0.7, atten=4)"
+msgstr "sound.effects.echo.echofilter(input, output, delay=0.7, atten=4)"
 
 #: tutorial/modules.rst:457
 #, fuzzy
@@ -1052,7 +1052,7 @@ msgstr "یک راه جایگزین برای وارد کردن زیر ماژول 
 #: tutorial/modules.rst:459
 #, fuzzy
 msgid "from sound.effects import echo"
-msgstr "از sound.effects import echo"
+msgstr "from sound.effects import echo"
 
 #: tutorial/modules.rst:461
 #, fuzzy
@@ -1066,7 +1066,7 @@ msgstr ""
 #: tutorial/modules.rst:464
 #, fuzzy
 msgid "echo.echofilter(input, output, delay=0.7, atten=4)"
-msgstr "echo.echofilter(ورودی, خروجی, تاخیر=0.7, atten=4)"
+msgstr "echo.echofilter(input, output, delay=0.7, atten=4)"
 
 #: tutorial/modules.rst:466
 #, fuzzy
@@ -1078,7 +1078,7 @@ msgstr "یک تغییر دیگر این است که تابع یا متغیر م�
 #: tutorial/modules.rst:468
 #, fuzzy
 msgid "from sound.effects.echo import echofilter"
-msgstr "از echofilter واردات sound.effects.echo"
+msgstr "from sound.effects.echo import echofilter"
 
 #: tutorial/modules.rst:470
 #, fuzzy
@@ -1092,7 +1092,7 @@ msgstr ""
 #: tutorial/modules.rst:473
 #, fuzzy
 msgid "echofilter(input, output, delay=0.7, atten=4)"
-msgstr "echofilter (ورودی, خروجی, تاخیر=0.7, atten=4)"
+msgstr "echofilter(input, output, delay=0.7, atten=4)"
 
 #: tutorial/modules.rst:475
 #, fuzzy
@@ -1171,7 +1171,7 @@ msgstr ""
 #: tutorial/modules.rst:511
 #, fuzzy
 msgid "__all__ = [\"echo\", \"surround\", \"reverse\"]"
-msgstr "__all__ = [\"پژواک\", \"محاطع\", \"معکوس\"]"
+msgstr "__all__ = [\"echo\", \"surround\", \"reverse\"]"
 
 #: tutorial/modules.rst:513
 #, fuzzy
@@ -1211,14 +1211,14 @@ msgid ""
 "def reverse(msg: str):  # <-- this name shadows the 'reverse.py' submodule\n"
 "    return msg[::-1]    #     in the case of a 'from sound.effects import *'"
 msgstr ""
-"__همه__ = [\n"
-"    \"echo\", # به فایل \"echo.py\" اشاره دارد\n"
-"    \"Surround\", # به فایل \"surround.py\" اشاره دارد\n"
-"    \"معکوس\",   # !!! اشاره به تابع \"معکوس\" در حال حاضر !!!\n"
+"__all__ = [\n"
+"    \"echo\",      # refers to the 'echo.py' file\n"
+"    \"surround\",  # refers to the 'surround.py' file\n"
+"    \"reverse\",   # !!! refers to the 'reverse' function now !!!\n"
 "]\n"
 "\n"
-"def reverse(msg: str): # <-- این نام زیر ماژول 'reverse.py' را سایه می اندازد\n"
-"    msg[::-1] # را در مورد \"import from sound.effects *\" برگردانید"
+"def reverse(msg: str):  # <-- this name shadows the 'reverse.py' submodule\n"
+"    return msg[::-1]    #     in the case of a 'from sound.effects import *'"
 
 #: tutorial/modules.rst:532
 #, fuzzy
@@ -1249,9 +1249,9 @@ msgid ""
 "import sound.effects.surround\n"
 "from sound.effects import *"
 msgstr ""
-"وارد کردن sound.effects.echo\n"
-"وارد کردن sound.effects.surround\n"
-"از واردات sound.effects *"
+"import sound.effects.echo\n"
+"import sound.effects.surround\n"
+"from sound.effects import *"
 
 #: tutorial/modules.rst:545
 #, fuzzy
@@ -1331,9 +1331,9 @@ msgid ""
 "from .. import formats\n"
 "from ..filters import equalizer"
 msgstr ""
-"از . اکو وارداتی\n"
-"از .. وارد کردن فرمت ها\n"
-"از اکولایزر واردات فیلترها"
+"from . import echo\n"
+"from .. import formats\n"
+"from ..filters import equalizer"
 
 #: tutorial/modules.rst:580
 #, fuzzy
@@ -1420,4 +1420,4 @@ msgstr "سازه ها"
 #: tutorial/modules.rst:493
 #, fuzzy
 msgid "__all__"
-msgstr "__همه__"
+msgstr "__all__"

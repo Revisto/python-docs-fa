@@ -15,7 +15,7 @@ code_patterns = [
     r"__init__\([^)]*،[^)]*\)",  # __init__(self، realpart، imagpart)
     # Method and function calls
     r"\w+\([^)]*،[^)]*\)",  # round(Decimal('0.70')، 2)
-    r"__import__\([^)]*،[^)]*\)",  # __import__('spam.ham'، globals()، locals())
+    r"__import__\([^،]*(?:،\s*[^،)]*){0,4}\)",  # __import__('spam.ham'، globals()، locals())
     r"(?:globals|locals)\(\)،\s*(?:globals|locals)\(\)",  # globals()، locals()
     # Variable assignments and operations
     r"for\s+\w+،\s*\w+\s+in\s+",  # for a، b in table.items()
@@ -46,6 +46,13 @@ def fix_virgules_in_code(entry):
     """
     modified = False
 
+    # Check if original message is complete Python code
+    if is_complete_python_code(entry.msgid):
+        if entry.msgid != entry.msgstr and entry.msgstr != "":
+            entry.msgstr = entry.msgid
+            modified = True
+        return modified
+
     # If the text appears to be code, replace virgules
     if is_code_pattern(entry.msgstr):
         new_text = entry.msgstr
@@ -63,6 +70,25 @@ def fix_virgules_in_code(entry):
             modified = True
 
     return modified
+
+
+def is_complete_python_code(text: str) -> bool:
+    """
+    Check if the text is complete, runnable Python code.
+    """
+    if (
+        len(text.split()) == 1
+        and "_" not in text
+        and "(" not in text
+        and ")" not in text
+        and "," not in text
+    ):
+        return False
+    try:
+        compile(text, "<string>", "exec")
+        return True
+    except SyntaxError:
+        return False
 
 
 def process_po_file(po_file):

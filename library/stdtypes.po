@@ -336,7 +336,7 @@ msgstr "``!=``"
 #: library/stdtypes.rst:156
 #, fuzzy
 msgid "not equal"
-msgstr "برابر نیست"
+msgstr "not equal"
 
 #: library/stdtypes.rst:158
 #, fuzzy
@@ -946,7 +946,7 @@ msgstr "*x* توسط بیت *n* به چپ منتقل شد"
 #: library/stdtypes.rst:427
 #, fuzzy
 msgid "(1)(2)"
-msgstr "(1) (2)"
+msgstr "(1)(2)"
 
 #: library/stdtypes.rst:429
 #, fuzzy
@@ -961,7 +961,7 @@ msgstr "*x* با بیت *n* به راست جابجا شد"
 #: library/stdtypes.rst:429
 #, fuzzy
 msgid "(1)(3)"
-msgstr "(1) (3)"
+msgstr "(1)(3)"
 
 #: library/stdtypes.rst:431
 #, fuzzy
@@ -1074,9 +1074,9 @@ msgid ""
 "    return len(s)       # len('100101') --> 6"
 msgstr ""
 "def bit_length(self):\n"
-"    s = bin(self) # نمایش باینری: bin(-37) --> '-0b100101'\n"
-"    s = s.lstrip('-0b') # صفرهای ابتدایی و علامت منفی را حذف کنید\n"
-"    len(های) بازگشت # len('100101') --> 6"
+"    s = bin(self)       # binary representation:  bin(-37) --> '-0b100101'\n"
+"    s = s.lstrip('-0b') # remove leading zeros and minus sign\n"
+"    return len(s)       # len('100101') --> 6"
 
 #: library/stdtypes.rst:486
 #, fuzzy
@@ -1197,15 +1197,15 @@ msgid ""
 "\n"
 "    return bytes((n >> i*8) & 0xff for i in order)"
 msgstr ""
-"def to_bytes(n, طول=1, بایت ترتیب='بزرگ', signed=نادرست):\n"
-"    if byteorder == 'کم':\n"
-"        سفارش = برد (طول)\n"
-"    elif byteorder == 'بزرگ':\n"
-"        ترتیب = معکوس (محدوده (طول))\n"
-"    دیگر:\n"
-"        raise ValueError(\"ترتیب بایت باید \"کوچک\" یا \"بزرگ\" باشد\")\n"
+"def to_bytes(n, length=1, byteorder='big', signed=False):\n"
+"    if byteorder == 'little':\n"
+"        order = range(length)\n"
+"    elif byteorder == 'big':\n"
+"        order = reversed(range(length))\n"
+"    else:\n"
+"        raise ValueError(\"byteorder must be either 'little' or 'big'\")\n"
 "\n"
-"    بازگشت بایت ((n >> i*8) و 0xff برای i به ترتیب)"
+"    return bytes((n >> i*8) & 0xff for i in order)"
 
 #: library/stdtypes.rst:556
 #, fuzzy
@@ -1270,18 +1270,18 @@ msgid ""
 "    return n"
 msgstr ""
 "def from_bytes(bytes, byteorder='big', signed=False):\n"
-"    if byteorder == 'کم':\n"
-"        کوچک_ مرتب = لیست (بایت)\n"
-"    elif byteorder == 'بزرگ':\n"
-"        small_ordered = لیست (معکوس (بایت))\n"
-"    دیگر:\n"
-"        raise ValueError(\"ترتیب بایت باید \"کوچک\" یا \"بزرگ\" باشد\")\n"
+"    if byteorder == 'little':\n"
+"        little_ordered = list(bytes)\n"
+"    elif byteorder == 'big':\n"
+"        little_ordered = list(reversed(bytes))\n"
+"    else:\n"
+"        raise ValueError(\"byteorder must be either 'little' or 'big'\")\n"
 "\n"
-"    n = مجموع (b << i*8 for i, b in enumerate(little_ordered))\n"
+"    n = sum(b << i*8 for i, b in enumerate(little_ordered))\n"
 "    if signed and little_ordered and (little_ordered[-1] & 0x80):\n"
-"        n -= 1 << 8*len(سفارش_کم)\n"
+"        n -= 1 << 8*len(little_ordered)\n"
 "\n"
-"    بازگشت n"
+"    return n"
 
 #: library/stdtypes.rst:604
 #, fuzzy
@@ -1642,25 +1642,25 @@ msgid ""
 "        hash_value = -2\n"
 "    return hash_value"
 msgstr ""
-"سیستم وارداتی، ریاضی\n"
+"import sys, math\n"
 "\n"
 "def hash_fraction(m, n):\n"
-"    \"\"\"هش یک عدد گویا m/n را محاسبه کنید.\n"
+"    \"\"\"Compute the hash of a rational number m / n.\n"
 "\n"
-"    m و n را اعداد صحیح با n مثبت فرض می کنیم.\n"
-"    معادل هش(کسری.کسری(m,n)).\n"
+"    Assumes m and n are integers, with n positive.\n"
+"    Equivalent to hash(fractions.Fraction(m, n)).\n"
 "\n"
 "    \"\"\"\n"
 "    P = sys.hash_info.modulus\n"
-"    # فاکتورهای مشترک P. را حذف کنید (اگر m و n قبلاً همخوانی داشته باشند, غیر ضروری است.)\n"
-"    در حالی که m % P == n % P == 0:\n"
+"    # Remove common factors of P.  (Unnecessary if m and n already coprime.)\n"
+"    while m % P == n % P == 0:\n"
 "        m, n = m // P, n // P\n"
 "\n"
-"    اگر n % P == 0:\n"
+"    if n % P == 0:\n"
 "        hash_value = sys.hash_info.inf\n"
-"    دیگر:\n"
-"        # قضیه کوچک فرما: pow(n, P-1, P) 1 است, بنابراین\n"
-"        # pow(n, P-2, P) معکوس n مدول P را به دست می دهد.\n"
+"    else:\n"
+"        # Fermat's Little Theorem: pow(n, P-1, P) is 1, so\n"
+"        # pow(n, P-2, P) gives the inverse of n modulo P.\n"
 "        hash_value = (abs(m) % P) * pow(n, P - 2, P) % P\n"
 "    if m < 0:\n"
 "        hash_value = -hash_value\n"
@@ -1679,15 +1679,15 @@ msgstr ""
 "        return hash_fraction(*x.as_integer_ratio())\n"
 "\n"
 "def hash_complex(z):\n"
-"    \"\"\"هش یک عدد مختلط z را محاسبه کنید.\"\"\"\n"
+"    \"\"\"Compute the hash of a complex number z.\"\"\"\n"
 "\n"
 "    hash_value = hash_float(z.real) + sys.hash_info.imag * hash_float(z.imag)\n"
 "    # do a signed reduction modulo 2**sys.hash_info.width\n"
 "    M = 2**(sys.hash_info.width - 1)\n"
-"    hash_value = (Hash_value & (M - 1)) - (Hash_value & M)\n"
-"    اگر hash_value == -1:\n"
+"    hash_value = (hash_value & (M - 1)) - (hash_value & M)\n"
+"    if hash_value == -1:\n"
 "        hash_value = -2\n"
-"    hash_value را برگرداند"
+"    return hash_value"
 
 #: library/stdtypes.rst:812
 #, fuzzy
@@ -1972,7 +1972,7 @@ msgstr "الحاق *s* و *t*"
 #: library/stdtypes.rst:973
 #, fuzzy
 msgid "(6)(7)"
-msgstr "(6) (7)"
+msgstr "(6)(7)"
 
 #: library/stdtypes.rst:976
 #, fuzzy
@@ -1987,7 +1987,7 @@ msgstr "معادل اضافه کردن *s* به خود *n* بار"
 #: library/stdtypes.rst:976
 #, fuzzy
 msgid "(2)(7)"
-msgstr "(2) (7)"
+msgstr "(2)(7)"
 
 #: library/stdtypes.rst:979
 #, fuzzy
@@ -2012,7 +2012,7 @@ msgstr "برشی از *s* از *i* به *j*"
 #: library/stdtypes.rst:981
 #, fuzzy
 msgid "(3)(4)"
-msgstr "(3) (4)"
+msgstr "(3)(4)"
 
 #: library/stdtypes.rst:983
 #, fuzzy
@@ -2027,7 +2027,7 @@ msgstr "تکه ای از *s* از *i* به *j* با مرحله *k*"
 #: library/stdtypes.rst:983
 #, fuzzy
 msgid "(3)(5)"
-msgstr "(3) (5)"
+msgstr "(3)(5)"
 
 #: library/stdtypes.rst:986
 #, fuzzy
@@ -9027,7 +9027,7 @@ msgid ""
 msgstr ""
 ">>> ظروف = {'تخم مرغ': 2, 'سوسیس': 1, 'بیکن': 1, 'هرزنامه': 500}\n"
 ">>> keys = dishes.keys()\n"
-">>> values ​​= dishes.values()\n"
+">>> values = dishes.values()\n"
 "\n"
 ">>> # تکرار\n"
 ">>> n = 0\n"
@@ -9360,8 +9360,8 @@ msgid ""
 "def average(values: list[float]) -> float:\n"
 "    return sum(values) / len(values)"
 msgstr ""
-"def average( مقادیر: list[float]) -> float:\n"
-"    جمع برگشتی (ارزش ها) / لن (مقادیر)"
+"def average(values: list[float]) -> float:\n"
+"    return sum(values) / len(values)"
 
 #: library/stdtypes.rst:4972
 #, fuzzy
@@ -9382,7 +9382,7 @@ msgid ""
 "def send_post_request(url: str, body: dict[str, int]) -> None:\n"
 "    ..."
 msgstr ""
-"def send_post_request(url: str, body: dict[str, int]) -> هیچ:\n"
+"def send_post_request(url: str, body: dict[str, int]) -> None:\n"
 "    ..."
 
 #: library/stdtypes.rst:4980
@@ -9983,8 +9983,8 @@ msgid ""
 "def square(number: int | float) -> int | float:\n"
 "    return number ** 2"
 msgstr ""
-"def square(شماره: int | float) -> int | شناور:\n"
-"    شماره برگشت ** 2"
+"def square(number: int | float) -> int | float:\n"
+"    return number ** 2"
 
 #: library/stdtypes.rst:5190
 #, fuzzy
@@ -10017,7 +10017,7 @@ msgstr "اتحادیه های اتحادیه ها مسطح می شوند::"
 #: library/stdtypes.rst:5202
 #, fuzzy
 msgid "(int | str) | float == int | str | float"
-msgstr "(int | str) | شناور == int | خ | شناور"
+msgstr "(int | str) | float == int | str | float"
 
 #: library/stdtypes.rst:5204
 #, fuzzy
@@ -10027,7 +10027,7 @@ msgstr "انواع اضافی حذف می شوند:"
 #: library/stdtypes.rst:5206
 #, fuzzy
 msgid "int | str | int == int | str"
-msgstr "int | خ | int == int | خ"
+msgstr "int | str | int == int | str"
 
 #: library/stdtypes.rst:5208
 #, fuzzy
@@ -10037,7 +10037,7 @@ msgstr "هنگام مقایسه اتحادیه ها، ترتیب نادیده گ
 #: library/stdtypes.rst:5210
 #, fuzzy
 msgid "int | str == str | int"
-msgstr "int | str == str | بین المللی"
+msgstr "int | str == str | int"
 
 #: library/stdtypes.rst:5212
 #, fuzzy
@@ -10057,7 +10057,7 @@ msgstr "انواع اختیاری را می توان به صورت یک اتحا
 #: library/stdtypes.rst:5218
 #, fuzzy
 msgid "str | None == typing.Optional[str]"
-msgstr "خ | هیچ == تایپ کردن. اختیاری[str]"
+msgstr "str | None == typing.Optional[str]"
 
 #: library/stdtypes.rst:5223
 #, fuzzy
@@ -11329,7 +11329,7 @@ msgstr "مجتمع"
 #: library/stdtypes.rst:3621
 #, fuzzy
 msgid "+ (plus)"
-msgstr "+ (به علاوه)"
+msgstr "+ (plus)"
 
 #: library/stdtypes.rst:246
 #, fuzzy
@@ -11345,7 +11345,7 @@ msgstr "عملگر باینری"
 #: library/stdtypes.rst:3621
 #, fuzzy
 msgid "- (minus)"
-msgstr "- (منهای)"
+msgstr "- (minus)"
 
 #: library/stdtypes.rst:246 library/stdtypes.rst:2359
 #: library/stdtypes.rst:3578
@@ -11459,7 +11459,7 @@ msgstr ">>"
 #: library/stdtypes.rst:393
 #, fuzzy
 msgid "~ (tilde)"
-msgstr "~ (تایلد)"
+msgstr "~ (tilde)"
 
 #: library/stdtypes.rst:817
 #, fuzzy
@@ -11739,12 +11739,12 @@ msgstr "درون یابی، رشته (%)"
 #: library/stdtypes.rst:2323
 #, fuzzy
 msgid "formatting, printf"
-msgstr "قالب بندی، printf"
+msgstr "formatting, printf"
 
 #: library/stdtypes.rst:2323
 #, fuzzy
 msgid "interpolation, printf"
-msgstr "درون یابی، printf"
+msgstr "interpolation, printf"
 
 #: library/stdtypes.rst:2323 library/stdtypes.rst:3546
 #, fuzzy
@@ -11759,7 +11759,7 @@ msgstr "قالب بندی به سبک sprintf"
 #: library/stdtypes.rst:2359 library/stdtypes.rst:3578
 #, fuzzy
 msgid "() (parentheses)"
-msgstr "() (پرانتز)"
+msgstr "() (parentheses)"
 
 #: library/stdtypes.rst:2359 library/stdtypes.rst:2402
 #: library/stdtypes.rst:3578 library/stdtypes.rst:3621
@@ -11775,7 +11775,7 @@ msgstr ". (نقطه)"
 #: library/stdtypes.rst:2402 library/stdtypes.rst:3621
 #, fuzzy
 msgid "# (hash)"
-msgstr "# (هش)"
+msgstr "# (hash)"
 
 #: library/stdtypes.rst:2402 library/stdtypes.rst:3621
 #, fuzzy
@@ -11845,7 +11845,7 @@ msgstr "فرهنگ لغت"
 #: library/stdtypes.rst:4518
 #, fuzzy
 msgid "__missing__()"
-msgstr "__مفقود__()"
+msgstr "__missing__()"
 
 #: library/stdtypes.rst:4829
 #, fuzzy

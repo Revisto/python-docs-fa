@@ -248,12 +248,12 @@ msgid ""
 "        startup_file = fobj.read()\n"
 "    exec(startup_file)"
 msgstr ""
-"واردات سیستم عامل\n"
-"نام فایل = os.environ.get ('PYTHONSTARTUP')\n"
-"if filename و os.path.isfile(filename):\n"
-"    با open(نام فایل) به عنوان fobj:\n"
+"import os\n"
+"filename = os.environ.get('PYTHONSTARTUP')\n"
+"if filename and os.path.isfile(filename):\n"
+"    with open(filename) as fobj:\n"
 "        startup_file = fobj.read()\n"
-"    exec (فایل_شروع)"
+"    exec(startup_file)"
 
 #: tutorial/appendix.rst:124
 #, fuzzy

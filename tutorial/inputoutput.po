@@ -19,7 +19,7 @@ msgstr ""
 #: tutorial/inputoutput.rst:5
 #, fuzzy
 msgid "Input and Output"
-msgstr "ورودی و خروجی"
+msgstr "Input and Output"
 
 #: tutorial/inputoutput.rst:7
 #, fuzzy
