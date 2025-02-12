@@ -4,19 +4,36 @@ import sys
 import os
 import glob
 
+code_patterns = [
+    # Basic patterns
+    r"\([^)]*،[^)]*\)",  # foo(3.0، -4.5)
+    r"\[[^]]*،[^]]*\]",  # ['a'، 'b'، 'c']
+    r"\{[^}]*،[^}]*\}",  # {'Sjoerd': 4127، 'Jack': 4098}
+    # Function and class definitions
+    r"def\s+\w+\s*\([^)]*،[^)]*\)",  # def __init__(self، name)
+    r"class\s+\w+\s*\([^)]*،[^)]*\)",  # class AsyncZip(threading.Thread، file)
+    r"__init__\([^)]*،[^)]*\)",  # __init__(self، realpart، imagpart)
+    # Method and function calls
+    r"\w+\([^)]*،[^)]*\)",  # round(Decimal('0.70')، 2)
+    r"__import__\([^)]*،[^)]*\)",  # __import__('spam.ham'، globals()، locals())
+    r"(?:globals|locals)\(\)،\s*(?:globals|locals)\(\)",  # globals()، locals()
+    # Variable assignments and operations
+    r"for\s+\w+،\s*\w+\s+in\s+",  # for نام، تلفن in table.items()
+    r"print\([^)]*،[^)]*\)",  # print(a، end=' ')
+    # Variable and attribute access
+    r"\w+\.\w+،\s*\w+\.\w+",  # x.r، x.i
+    r"(?:\w+\([^)]*\)|'[^']*'|\"[^\"]*\"|[)\]])،\s*\w+",  # os.open('mydata.db'، 'rb')
+    # Dictionary operations
+    r"{\s*'[^']*':\s*\w+،",  # {'primary': یک، 'secondary': دو}
+    r"for\s+\w+،\s*\w+\s+in\s+\w+\.items\(\)",  # for نام، تلفن in table.items()
+]
+
 
 def is_code_pattern(text: str) -> bool:
     """
     Check if the text matches common code patterns
     where virgules should be converted to commas.
     """
-    code_patterns = [
-        r"\([^)]*،[^)]*\)",  # Function calls with params: foo(a، b)
-        r"\[[^]]*،[^]]*\]",  # List literals: [1، 2، 3]
-        r"def\s+\w+\s*\([^)]*،[^)]*\)",  # Function definitions
-        r"class\s+\w+\s*\([^)]*،[^)]*\)",  # Class definitions
-        r"\{[^}]*،[^}]*\}",  # Dict literals
-    ]
 
     return any(re.search(pattern, text) for pattern in code_patterns)
 
@@ -26,30 +43,19 @@ def fix_virgules_in_code(entry):
     Fix virgules in code sections while preserving them in regular text.
     Returns True if any changes were made.
     """
-    if not isinstance(entry.msgstr, str):
-        return False
-
     modified = False
 
     # If the text appears to be code, replace virgules
     if is_code_pattern(entry.msgstr):
         new_text = entry.msgstr
 
-        # Handle parentheses content
-        def replace_in_parens(match):
+        # Handle matches
+        def replace_virgules(match):
             return match.group().replace("،", ",")
 
-        # Replace virgules in various code patterns
-        patterns_and_replacements = [
-            (r"\([^)]+\)", replace_in_parens),  # Function params
-            (r"\[[^]]+\]", replace_in_parens),  # List literals
-            (r"\'[^\']+\'", replace_in_parens),  # Single quoted strings
-            (r'"[^"]+"', replace_in_parens),  # Double quoted strings
-            (r"\{[^}]+\}", replace_in_parens),  # Dict literals
-        ]
-
-        for pattern, replacement in patterns_and_replacements:
-            new_text = re.sub(pattern, replacement, new_text)
+        # Use the same patterns from is_code_pattern
+        for pattern in code_patterns:
+            new_text = re.sub(pattern, replace_virgules, new_text)
 
         if new_text != entry.msgstr:
             entry.msgstr = new_text
@@ -111,7 +117,7 @@ def main(paths):
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print(
-            "Usage: python fix_code_virgules.py"
+            "Usage: python fix_code_virgules.py "
             "<po-file|directory|glob-pattern> [additional paths...]"
         )
         sys.exit(1)

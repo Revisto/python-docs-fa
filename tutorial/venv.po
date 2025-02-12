@@ -251,7 +251,7 @@ msgid ""
 " etc.  (Consult the :ref:`installing-index` guide for complete documentation"
 " for ``pip``.)"
 msgstr ""
-"``pip`` تعدادی دستور فرعی دارد: \"install\"، \"uninstall\"، \"freeze\"، و "
+"``pip`` تعدادی دستور فرعی دارد: \"install\"، \"uninstall\"، \"freeze\", و "
 "غیره (برای مستندات کامل ``pip`` به راهنمای :ref:`installing-index` مراجعه "
 "کنید.)"
 
