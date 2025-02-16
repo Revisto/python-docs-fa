@@ -1,7 +1,6 @@
-# ترجمه مستندات پایتون به فارسی 💚
+# ترجمه مستندات پایتون به فارسی 🐍💛
 
 [![discord](https://img.shields.io/badge/Discord-python--docs--tr-5865F2?style=for-the-badge&logo=Discord)](https://discord.gg/BXGRnMdF)
-
 
 ## درباره پروژه
 
