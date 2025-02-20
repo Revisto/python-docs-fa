@@ -45,7 +45,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: "Update fa translations from Transifex"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update Farsi translations from Transifex"
           title: "Sync translations from Transifex"
           body: |
             This PR updates Persian (fa) translations from Transifex.
