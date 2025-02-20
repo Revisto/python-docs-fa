@@ -14,7 +14,8 @@ msgstr ""
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2022-11-05 19:49+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,15 +31,24 @@ msgid "**Source code:** :source:`Lib/tomllib`"
 msgstr ""
 
 #: ../../library/tomllib.rst:16
-msgid "This module provides an interface for parsing TOML 1.0.0 (Tom's Obvious Minimal Language, `https://toml.io <https://toml.io/en/>`_). This module does not support writing TOML."
+msgid ""
+"This module provides an interface for parsing TOML 1.0.0 (Tom's Obvious "
+"Minimal Language, `https://toml.io <https://toml.io/en/>`_). This module "
+"does not support writing TOML."
 msgstr ""
 
 #: ../../library/tomllib.rst:22
-msgid "The :pypi:`Tomli-W package <tomli-w>` is a TOML writer that can be used in conjunction with this module, providing a write API familiar to users of the standard library :mod:`marshal` and :mod:`pickle` modules."
+msgid ""
+"The :pypi:`Tomli-W package <tomli-w>` is a TOML writer that can be used in "
+"conjunction with this module, providing a write API familiar to users of the "
+"standard library :mod:`marshal` and :mod:`pickle` modules."
 msgstr ""
 
 #: ../../library/tomllib.rst:29
-msgid "The :pypi:`TOML Kit package <tomlkit>` is a style-preserving TOML library with both read and write capability. It is a recommended replacement for this module for editing already existing TOML files."
+msgid ""
+"The :pypi:`TOML Kit package <tomlkit>` is a style-preserving TOML library "
+"with both read and write capability. It is a recommended replacement for "
+"this module for editing already existing TOML files."
 msgstr ""
 
 #: ../../library/tomllib.rst:35
@@ -46,11 +56,19 @@ msgid "This module defines the following functions:"
 msgstr ""
 
 #: ../../library/tomllib.rst:39
-msgid "Read a TOML file. The first argument should be a readable and binary file object. Return a :class:`dict`. Convert TOML types to Python using this :ref:`conversion table <toml-to-py-table>`."
+msgid ""
+"Read a TOML file. The first argument should be a readable and binary file "
+"object. Return a :class:`dict`. Convert TOML types to Python using this :ref:"
+"`conversion table <toml-to-py-table>`."
 msgstr ""
 
 #: ../../library/tomllib.rst:43
-msgid "*parse_float* will be called with the string of every TOML float to be decoded.  By default, this is equivalent to ``float(num_str)``. This can be used to use another datatype or parser for TOML floats (e.g. :class:`decimal.Decimal`). The callable must not return a :class:`dict` or a :class:`list`, else a :exc:`ValueError` is raised."
+msgid ""
+"*parse_float* will be called with the string of every TOML float to be "
+"decoded.  By default, this is equivalent to ``float(num_str)``. This can be "
+"used to use another datatype or parser for TOML floats (e.g. :class:`decimal."
+"Decimal`). The callable must not return a :class:`dict` or a :class:`list`, "
+"else a :exc:`ValueError` is raised."
 msgstr ""
 
 #: ../../library/tomllib.rst:49 ../../library/tomllib.rst:58
@@ -58,7 +76,10 @@ msgid "A :exc:`TOMLDecodeError` will be raised on an invalid TOML document."
 msgstr ""
 
 #: ../../library/tomllib.rst:54
-msgid "Load TOML from a :class:`str` object. Return a :class:`dict`. Convert TOML types to Python using this :ref:`conversion table <toml-to-py-table>`. The *parse_float* argument has the same meaning as in :func:`load`."
+msgid ""
+"Load TOML from a :class:`str` object. Return a :class:`dict`. Convert TOML "
+"types to Python using this :ref:`conversion table <toml-to-py-table>`. The "
+"*parse_float* argument has the same meaning as in :func:`load`."
 msgstr ""
 
 #: ../../library/tomllib.rst:61
@@ -159,7 +180,9 @@ msgid "offset date-time"
 msgstr ""
 
 #: ../../library/tomllib.rst:108
-msgid "datetime.datetime (``tzinfo`` attribute set to an instance of ``datetime.timezone``)"
+msgid ""
+"datetime.datetime (``tzinfo`` attribute set to an instance of ``datetime."
+"timezone``)"
 msgstr ""
 
 #: ../../library/tomllib.rst:110

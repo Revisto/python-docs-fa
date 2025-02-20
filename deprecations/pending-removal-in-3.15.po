@@ -10,7 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2024-07-20 00:54+0000\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,11 +27,19 @@ msgid "The import system:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:6
-msgid "Setting :attr:`~module.__cached__` on a module while failing to set :attr:`__spec__.cached <importlib.machinery.ModuleSpec.cached>` is deprecated. In Python 3.15, :attr:`!__cached__` will cease to be set or take into consideration by the import system or standard library. (:gh:`97879`)"
+msgid ""
+"Setting :attr:`~module.__cached__` on a module while failing to set :attr:"
+"`__spec__.cached <importlib.machinery.ModuleSpec.cached>` is deprecated. In "
+"Python 3.15, :attr:`!__cached__` will cease to be set or take into "
+"consideration by the import system or standard library. (:gh:`97879`)"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:11
-msgid "Setting :attr:`~module.__package__` on a module while failing to set :attr:`__spec__.parent <importlib.machinery.ModuleSpec.parent>` is deprecated. In Python 3.15, :attr:`!__package__` will cease to be set or take into consideration by the import system or standard library. (:gh:`97879`)"
+msgid ""
+"Setting :attr:`~module.__package__` on a module while failing to set :attr:"
+"`__spec__.parent <importlib.machinery.ModuleSpec.parent>` is deprecated. In "
+"Python 3.15, :attr:`!__package__` will cease to be set or take into "
+"consideration by the import system or standard library. (:gh:`97879`)"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:16
@@ -38,7 +47,9 @@ msgid ":mod:`ctypes`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:18
-msgid "The undocumented :func:`!ctypes.SetPointerType` function has been deprecated since Python 3.13."
+msgid ""
+"The undocumented :func:`!ctypes.SetPointerType` function has been deprecated "
+"since Python 3.13."
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:21
@@ -46,11 +57,16 @@ msgid ":mod:`http.server`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:23
-msgid "The obsolete and rarely used :class:`~http.server.CGIHTTPRequestHandler` has been deprecated since Python 3.13. No direct replacement exists. *Anything* is better than CGI to interface a web server with a request handler."
+msgid ""
+"The obsolete and rarely used :class:`~http.server.CGIHTTPRequestHandler` has "
+"been deprecated since Python 3.13. No direct replacement exists. *Anything* "
+"is better than CGI to interface a web server with a request handler."
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:29
-msgid "The :option:`!--cgi` flag to the :program:`python -m http.server` command-line interface has been deprecated since Python 3.13."
+msgid ""
+"The :option:`!--cgi` flag to the :program:`python -m http.server` command-"
+"line interface has been deprecated since Python 3.13."
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:32
@@ -66,7 +82,12 @@ msgid ":class:`locale`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:38
-msgid "The :func:`~locale.getdefaultlocale` function has been deprecated since Python 3.11. Its removal was originally planned for Python 3.13 (:gh:`90817`), but has been postponed to Python 3.15. Use :func:`~locale.getlocale`, :func:`~locale.setlocale`, and :func:`~locale.getencoding` instead. (Contributed by Hugo van Kemenade in :gh:`111187`.)"
+msgid ""
+"The :func:`~locale.getdefaultlocale` function has been deprecated since "
+"Python 3.11. Its removal was originally planned for Python 3.13 (:gh:"
+"`90817`), but has been postponed to Python 3.15. Use :func:`~locale."
+"getlocale`, :func:`~locale.setlocale`, and :func:`~locale.getencoding` "
+"instead. (Contributed by Hugo van Kemenade in :gh:`111187`.)"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:46
@@ -74,7 +95,9 @@ msgid ":mod:`pathlib`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:48
-msgid ":meth:`.PurePath.is_reserved` has been deprecated since Python 3.13. Use :func:`os.path.isreserved` to detect reserved paths on Windows."
+msgid ""
+":meth:`.PurePath.is_reserved` has been deprecated since Python 3.13. Use :"
+"func:`os.path.isreserved` to detect reserved paths on Windows."
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:52
@@ -82,7 +105,10 @@ msgid ":mod:`platform`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:54
-msgid ":func:`~platform.java_ver` has been deprecated since Python 3.13. This function is only useful for Jython support, has a confusing API, and is largely untested."
+msgid ""
+":func:`~platform.java_ver` has been deprecated since Python 3.13. This "
+"function is only useful for Jython support, has a confusing API, and is "
+"largely untested."
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:58
@@ -90,7 +116,11 @@ msgid ":mod:`threading`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:60
-msgid ":func:`~threading.RLock` will take no arguments in Python 3.15. Passing any arguments has been deprecated since Python 3.14, as the  Python version does not permit any arguments, but the C version allows any number of positional or keyword arguments, ignoring every argument."
+msgid ""
+":func:`~threading.RLock` will take no arguments in Python 3.15. Passing any "
+"arguments has been deprecated since Python 3.14, as the  Python version does "
+"not permit any arguments, but the C version allows any number of positional "
+"or keyword arguments, ignoring every argument."
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:66
@@ -98,7 +128,11 @@ msgid ":mod:`types`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:68
-msgid ":class:`types.CodeType`: Accessing :attr:`~codeobject.co_lnotab` was deprecated in :pep:`626` since 3.10 and was planned to be removed in 3.12, but it only got a proper :exc:`DeprecationWarning` in 3.12. May be removed in 3.15. (Contributed by Nikita Sobolev in :gh:`101866`.)"
+msgid ""
+":class:`types.CodeType`: Accessing :attr:`~codeobject.co_lnotab` was "
+"deprecated in :pep:`626` since 3.10 and was planned to be removed in 3.12, "
+"but it only got a proper :exc:`DeprecationWarning` in 3.12. May be removed "
+"in 3.15. (Contributed by Nikita Sobolev in :gh:`101866`.)"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:75
@@ -106,11 +140,18 @@ msgid ":mod:`typing`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:77
-msgid "The undocumented keyword argument syntax for creating :class:`~typing.NamedTuple` classes (e.g. ``Point = NamedTuple(\"Point\", x=int, y=int)``) has been deprecated since Python 3.13. Use the class-based syntax or the functional syntax instead."
+msgid ""
+"The undocumented keyword argument syntax for creating :class:`~typing."
+"NamedTuple` classes (e.g. ``Point = NamedTuple(\"Point\", x=int, y=int)``) "
+"has been deprecated since Python 3.13. Use the class-based syntax or the "
+"functional syntax instead."
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:83
-msgid "The :func:`typing.no_type_check_decorator` decorator function has been deprecated since Python 3.13. After eight years in the :mod:`typing` module, it has yet to be supported by any major type checker."
+msgid ""
+"The :func:`typing.no_type_check_decorator` decorator function has been "
+"deprecated since Python 3.13. After eight years in the :mod:`typing` module, "
+"it has yet to be supported by any major type checker."
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:88
@@ -118,5 +159,8 @@ msgid ":mod:`wave`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:90
-msgid "The :meth:`~wave.Wave_read.getmark`, :meth:`!setmark`, and :meth:`~wave.Wave_read.getmarkers` methods of the :class:`~wave.Wave_read` and :class:`~wave.Wave_write` classes have been deprecated since Python 3.13."
+msgid ""
+"The :meth:`~wave.Wave_read.getmark`, :meth:`!setmark`, and :meth:`~wave."
+"Wave_read.getmarkers` methods of the :class:`~wave.Wave_read` and :class:"
+"`~wave.Wave_write` classes have been deprecated since Python 3.13."
 msgstr ""

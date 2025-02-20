@@ -14,7 +14,8 @@ msgstr ""
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2021-06-28 01:50+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +27,9 @@ msgid "More Control Flow Tools"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:7
-msgid "As well as the :keyword:`while` statement just introduced, Python uses a few more that we will encounter in this chapter."
+msgid ""
+"As well as the :keyword:`while` statement just introduced, Python uses a few "
+"more that we will encounter in this chapter."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:14
@@ -34,7 +37,9 @@ msgid ":keyword:`!if` Statements"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:16
-msgid "Perhaps the most well-known statement type is the :keyword:`if` statement.  For example::"
+msgid ""
+"Perhaps the most well-known statement type is the :keyword:`if` statement.  "
+"For example::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:19
@@ -55,11 +60,19 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:33
-msgid "There can be zero or more :keyword:`elif` parts, and the :keyword:`else` part is optional.  The keyword ':keyword:`!elif`' is short for 'else if', and is useful to avoid excessive indentation.  An  :keyword:`!if` ... :keyword:`!elif` ... :keyword:`!elif` ... sequence is a substitute for the ``switch`` or ``case`` statements found in other languages."
+msgid ""
+"There can be zero or more :keyword:`elif` parts, and the :keyword:`else` "
+"part is optional.  The keyword ':keyword:`!elif`' is short for 'else if', "
+"and is useful to avoid excessive indentation.  An  :keyword:`!if` ... :"
+"keyword:`!elif` ... :keyword:`!elif` ... sequence is a substitute for the "
+"``switch`` or ``case`` statements found in other languages."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:39
-msgid "If you're comparing the same value to several constants, or checking for specific types or attributes, you may also find the :keyword:`!match` statement useful. For more details see :ref:`tut-match`."
+msgid ""
+"If you're comparing the same value to several constants, or checking for "
+"specific types or attributes, you may also find the :keyword:`!match` "
+"statement useful. For more details see :ref:`tut-match`."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:46
@@ -67,7 +80,14 @@ msgid ":keyword:`!for` Statements"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:51
-msgid "The :keyword:`for` statement in Python differs a bit from what you may be used to in C or Pascal.  Rather than always iterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to define both the iteration step and halting condition (as C), Python's :keyword:`!for` statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence.  For example (no pun intended):"
+msgid ""
+"The :keyword:`for` statement in Python differs a bit from what you may be "
+"used to in C or Pascal.  Rather than always iterating over an arithmetic "
+"progression of numbers (like in Pascal), or giving the user the ability to "
+"define both the iteration step and halting condition (as C), Python's :"
+"keyword:`!for` statement iterates over the items of any sequence (a list or "
+"a string), in the order that they appear in the sequence.  For example (no "
+"pun intended):"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:63
@@ -83,7 +103,10 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:72
-msgid "Code that modifies a collection while iterating over that same collection can be tricky to get right.  Instead, it is usually more straight-forward to loop over a copy of the collection or to create a new collection::"
+msgid ""
+"Code that modifies a collection while iterating over that same collection "
+"can be tricky to get right.  Instead, it is usually more straight-forward to "
+"loop over a copy of the collection or to create a new collection::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:76
@@ -108,7 +131,9 @@ msgid "The :func:`range` Function"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:96
-msgid "If you do need to iterate over a sequence of numbers, the built-in function :func:`range` comes in handy.  It generates arithmetic progressions::"
+msgid ""
+"If you do need to iterate over a sequence of numbers, the built-in function :"
+"func:`range` comes in handy.  It generates arithmetic progressions::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:99
@@ -124,7 +149,11 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:108
-msgid "The given end point is never part of the generated sequence; ``range(10)`` generates 10 values, the legal indices for items of a sequence of length 10.  It is possible to let the range start at another number, or to specify a different increment (even negative; sometimes this is called the 'step')::"
+msgid ""
+"The given end point is never part of the generated sequence; ``range(10)`` "
+"generates 10 values, the legal indices for items of a sequence of length "
+"10.  It is possible to let the range start at another number, or to specify "
+"a different increment (even negative; sometimes this is called the 'step')::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:113
@@ -140,7 +169,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:122
-msgid "To iterate over the indices of a sequence, you can combine :func:`range` and :func:`len` as follows::"
+msgid ""
+"To iterate over the indices of a sequence, you can combine :func:`range` "
+"and :func:`len` as follows::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:125
@@ -157,7 +188,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:135
-msgid "In most such cases, however, it is convenient to use the :func:`enumerate` function, see :ref:`tut-loopidioms`."
+msgid ""
+"In most such cases, however, it is convenient to use the :func:`enumerate` "
+"function, see :ref:`tut-loopidioms`."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:138
@@ -171,11 +204,20 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:143
-msgid "In many ways the object returned by :func:`range` behaves as if it is a list, but in fact it isn't. It is an object which returns the successive items of the desired sequence when you iterate over it, but it doesn't really make the list, thus saving space."
+msgid ""
+"In many ways the object returned by :func:`range` behaves as if it is a "
+"list, but in fact it isn't. It is an object which returns the successive "
+"items of the desired sequence when you iterate over it, but it doesn't "
+"really make the list, thus saving space."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:148
-msgid "We say such an object is :term:`iterable`, that is, suitable as a target for functions and constructs that expect something from which they can obtain successive items until the supply is exhausted.  We have seen that the :keyword:`for` statement is such a construct, while an example of a function that takes an iterable is :func:`sum`::"
+msgid ""
+"We say such an object is :term:`iterable`, that is, suitable as a target for "
+"functions and constructs that expect something from which they can obtain "
+"successive items until the supply is exhausted.  We have seen that the :"
+"keyword:`for` statement is such a construct, while an example of a function "
+"that takes an iterable is :func:`sum`::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:154
@@ -185,7 +227,10 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:157
-msgid "Later we will see more functions that return iterables and take iterables as arguments.  In chapter :ref:`tut-structures`, we will discuss in more detail about :func:`list`."
+msgid ""
+"Later we will see more functions that return iterables and take iterables as "
+"arguments.  In chapter :ref:`tut-structures`, we will discuss in more detail "
+"about :func:`list`."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:164
@@ -193,7 +238,9 @@ msgid ":keyword:`!break` and :keyword:`!continue` Statements"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:166
-msgid "The :keyword:`break` statement breaks out of the innermost enclosing :keyword:`for` or :keyword:`while` loop::"
+msgid ""
+"The :keyword:`break` statement breaks out of the innermost enclosing :"
+"keyword:`for` or :keyword:`while` loop::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:169
@@ -211,7 +258,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:180
-msgid "The :keyword:`continue` statement continues with the next iteration of the loop::"
+msgid ""
+"The :keyword:`continue` statement continues with the next iteration of the "
+"loop::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:183
@@ -237,23 +286,37 @@ msgid ":keyword:`!else` Clauses on Loops"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:204
-msgid "In a :keyword:`!for` or :keyword:`!while` loop the :keyword:`!break` statement may be paired with an :keyword:`!else` clause.  If the loop finishes without executing the :keyword:`!break`, the :keyword:`!else` clause executes."
+msgid ""
+"In a :keyword:`!for` or :keyword:`!while` loop the :keyword:`!break` "
+"statement may be paired with an :keyword:`!else` clause.  If the loop "
+"finishes without executing the :keyword:`!break`, the :keyword:`!else` "
+"clause executes."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:208
-msgid "In a :keyword:`for` loop, the :keyword:`!else` clause is executed after the loop finishes its final iteration, that is, if no break occurred."
+msgid ""
+"In a :keyword:`for` loop, the :keyword:`!else` clause is executed after the "
+"loop finishes its final iteration, that is, if no break occurred."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:211
-msgid "In a :keyword:`while` loop, it's executed after the loop's condition becomes false."
+msgid ""
+"In a :keyword:`while` loop, it's executed after the loop's condition becomes "
+"false."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:213
-msgid "In either kind of loop, the :keyword:`!else` clause is **not** executed if the loop was terminated by a :keyword:`break`.  Of course, other ways of ending the loop early, such as a :keyword:`return` or a raised exception, will also skip execution of the :keyword:`else` clause."
+msgid ""
+"In either kind of loop, the :keyword:`!else` clause is **not** executed if "
+"the loop was terminated by a :keyword:`break`.  Of course, other ways of "
+"ending the loop early, such as a :keyword:`return` or a raised exception, "
+"will also skip execution of the :keyword:`else` clause."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:218
-msgid "This is exemplified in the following :keyword:`!for` loop, which searches for prime numbers::"
+msgid ""
+"This is exemplified in the following :keyword:`!for` loop, which searches "
+"for prime numbers::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:221
@@ -278,15 +341,28 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:239
-msgid "(Yes, this is the correct code.  Look closely: the ``else`` clause belongs to the ``for`` loop, **not** the ``if`` statement.)"
+msgid ""
+"(Yes, this is the correct code.  Look closely: the ``else`` clause belongs "
+"to the ``for`` loop, **not** the ``if`` statement.)"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:242
-msgid "One way to think of the else clause is to imagine it paired with the ``if`` inside the loop.  As the loop executes, it will run a sequence like if/if/if/else. The ``if`` is inside the loop, encountered a number of times. If the condition is ever true, a ``break`` will happen. If the condition is never true, the ``else`` clause outside the loop will execute."
+msgid ""
+"One way to think of the else clause is to imagine it paired with the ``if`` "
+"inside the loop.  As the loop executes, it will run a sequence like if/if/if/"
+"else. The ``if`` is inside the loop, encountered a number of times. If the "
+"condition is ever true, a ``break`` will happen. If the condition is never "
+"true, the ``else`` clause outside the loop will execute."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:248
-msgid "When used with a loop, the ``else`` clause has more in common with the ``else`` clause of a :keyword:`try` statement than it does with that of ``if`` statements: a ``try`` statement's ``else`` clause runs when no exception occurs, and a loop's ``else`` clause runs when no ``break`` occurs. For more on the ``try`` statement and exceptions, see :ref:`tut-handling`."
+msgid ""
+"When used with a loop, the ``else`` clause has more in common with the "
+"``else`` clause of a :keyword:`try` statement than it does with that of "
+"``if`` statements: a ``try`` statement's ``else`` clause runs when no "
+"exception occurs, and a loop's ``else`` clause runs when no ``break`` "
+"occurs. For more on the ``try`` statement and exceptions, see :ref:`tut-"
+"handling`."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:257
@@ -294,7 +370,9 @@ msgid ":keyword:`!pass` Statements"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:259
-msgid "The :keyword:`pass` statement does nothing. It can be used when a statement is required syntactically but the program requires no action. For example::"
+msgid ""
+"The :keyword:`pass` statement does nothing. It can be used when a statement "
+"is required syntactically but the program requires no action. For example::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:262
@@ -316,7 +394,11 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:272
-msgid "Another place :keyword:`pass` can be used is as a place-holder for a function or conditional body when you are working on new code, allowing you to keep thinking at a more abstract level.  The :keyword:`!pass` is silently ignored::"
+msgid ""
+"Another place :keyword:`pass` can be used is as a place-holder for a "
+"function or conditional body when you are working on new code, allowing you "
+"to keep thinking at a more abstract level.  The :keyword:`!pass` is silently "
+"ignored::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:276
@@ -331,11 +413,19 @@ msgid ":keyword:`!match` Statements"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:286
-msgid "A :keyword:`match` statement takes an expression and compares its value to successive patterns given as one or more case blocks.  This is superficially similar to a switch statement in C, Java or JavaScript (and many other languages), but it's more similar to pattern matching in languages like Rust or Haskell. Only the first pattern that matches gets executed and it can also extract components (sequence elements or object attributes) from the value into variables."
+msgid ""
+"A :keyword:`match` statement takes an expression and compares its value to "
+"successive patterns given as one or more case blocks.  This is superficially "
+"similar to a switch statement in C, Java or JavaScript (and many other "
+"languages), but it's more similar to pattern matching in languages like Rust "
+"or Haskell. Only the first pattern that matches gets executed and it can "
+"also extract components (sequence elements or object attributes) from the "
+"value into variables."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:294
-msgid "The simplest form compares a subject value against one or more literals::"
+msgid ""
+"The simplest form compares a subject value against one or more literals::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:296
@@ -353,11 +443,14 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:307
-msgid "Note the last block: the \"variable name\" ``_`` acts as a *wildcard* and never fails to match. If no case matches, none of the branches is executed."
+msgid ""
+"Note the last block: the \"variable name\" ``_`` acts as a *wildcard* and "
+"never fails to match. If no case matches, none of the branches is executed."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:310
-msgid "You can combine several literals in a single pattern using ``|`` (\"or\")::"
+msgid ""
+"You can combine several literals in a single pattern using ``|`` (\"or\")::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:312
@@ -367,7 +460,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:315
-msgid "Patterns can look like unpacking assignments, and can be used to bind variables::"
+msgid ""
+"Patterns can look like unpacking assignments, and can be used to bind "
+"variables::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:318
@@ -387,11 +482,20 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:331
-msgid "Study that one carefully!  The first pattern has two literals, and can be thought of as an extension of the literal pattern shown above.  But the next two patterns combine a literal and a variable, and the variable *binds* a value from the subject (``point``).  The fourth pattern captures two values, which makes it conceptually similar to the unpacking assignment ``(x, y) = point``."
+msgid ""
+"Study that one carefully!  The first pattern has two literals, and can be "
+"thought of as an extension of the literal pattern shown above.  But the next "
+"two patterns combine a literal and a variable, and the variable *binds* a "
+"value from the subject (``point``).  The fourth pattern captures two values, "
+"which makes it conceptually similar to the unpacking assignment ``(x, y) = "
+"point``."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:338
-msgid "If you are using classes to structure your data you can use the class name followed by an argument list resembling a constructor, but with the ability to capture attributes into variables::"
+msgid ""
+"If you are using classes to structure your data you can use the class name "
+"followed by an argument list resembling a constructor, but with the ability "
+"to capture attributes into variables::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:342
@@ -416,7 +520,13 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:360
-msgid "You can use positional parameters with some builtin classes that provide an ordering for their attributes (e.g. dataclasses). You can also define a specific position for attributes in patterns by setting the ``__match_args__`` special attribute in your classes. If it's set to (\"x\", \"y\"), the following patterns are all equivalent (and all bind the ``y`` attribute to the ``var`` variable)::"
+msgid ""
+"You can use positional parameters with some builtin classes that provide an "
+"ordering for their attributes (e.g. dataclasses). You can also define a "
+"specific position for attributes in patterns by setting the "
+"``__match_args__`` special attribute in your classes. If it's set to (\"x\", "
+"\"y\"), the following patterns are all equivalent (and all bind the ``y`` "
+"attribute to the ``var`` variable)::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:366
@@ -428,11 +538,20 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:371
-msgid "A recommended way to read patterns is to look at them as an extended form of what you would put on the left of an assignment, to understand which variables would be set to what. Only the standalone names (like ``var`` above) are assigned to by a match statement. Dotted names (like ``foo.bar``), attribute names (the ``x=`` and ``y=`` above) or class names (recognized by the \"(...)\" next to them like ``Point`` above) are never assigned to."
+msgid ""
+"A recommended way to read patterns is to look at them as an extended form of "
+"what you would put on the left of an assignment, to understand which "
+"variables would be set to what. Only the standalone names (like ``var`` "
+"above) are assigned to by a match statement. Dotted names (like ``foo."
+"bar``), attribute names (the ``x=`` and ``y=`` above) or class names "
+"(recognized by the \"(...)\" next to them like ``Point`` above) are never "
+"assigned to."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:378
-msgid "Patterns can be arbitrarily nested.  For example, if we have a short list of Points, with ``__match_args__`` added, we could match it like this::"
+msgid ""
+"Patterns can be arbitrarily nested.  For example, if we have a short list of "
+"Points, with ``__match_args__`` added, we could match it like this::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:381
@@ -457,7 +576,10 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:399
-msgid "We can add an ``if`` clause to a pattern, known as a \"guard\".  If the guard is false, ``match`` goes on to try the next case block.  Note that value capture happens before the guard is evaluated::"
+msgid ""
+"We can add an ``if`` clause to a pattern, known as a \"guard\".  If the "
+"guard is false, ``match`` goes on to try the next case block.  Note that "
+"value capture happens before the guard is evaluated::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:403
@@ -474,15 +596,26 @@ msgid "Several other key features of this statement:"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:411
-msgid "Like unpacking assignments, tuple and list patterns have exactly the same meaning and actually match arbitrary sequences.  An important exception is that they don't match iterators or strings."
+msgid ""
+"Like unpacking assignments, tuple and list patterns have exactly the same "
+"meaning and actually match arbitrary sequences.  An important exception is "
+"that they don't match iterators or strings."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:415
-msgid "Sequence patterns support extended unpacking: ``[x, y, *rest]`` and ``(x, y, *rest)`` work similar to unpacking assignments.  The name after ``*`` may also be ``_``, so ``(x, y, *_)`` matches a sequence of at least two items without binding the remaining items."
+msgid ""
+"Sequence patterns support extended unpacking: ``[x, y, *rest]`` and ``(x, y, "
+"*rest)`` work similar to unpacking assignments.  The name after ``*`` may "
+"also be ``_``, so ``(x, y, *_)`` matches a sequence of at least two items "
+"without binding the remaining items."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:420
-msgid "Mapping patterns: ``{\"bandwidth\": b, \"latency\": l}`` captures the ``\"bandwidth\"`` and ``\"latency\"`` values from a dictionary.  Unlike sequence patterns, extra keys are ignored.  An unpacking like ``**rest`` is also supported.  (But ``**_`` would be redundant, so it is not allowed.)"
+msgid ""
+"Mapping patterns: ``{\"bandwidth\": b, \"latency\": l}`` captures the "
+"``\"bandwidth\"`` and ``\"latency\"`` values from a dictionary.  Unlike "
+"sequence patterns, extra keys are ignored.  An unpacking like ``**rest`` is "
+"also supported.  (But ``**_`` would be redundant, so it is not allowed.)"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:425
@@ -494,15 +627,21 @@ msgid "case (Point(x1, y1), Point(x2, y2) as p2): ..."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:429
-msgid "will capture the second element of the input as ``p2`` (as long as the input is a sequence of two points)"
+msgid ""
+"will capture the second element of the input as ``p2`` (as long as the input "
+"is a sequence of two points)"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:432
-msgid "Most literals are compared by equality, however the singletons ``True``, ``False`` and ``None`` are compared by identity."
+msgid ""
+"Most literals are compared by equality, however the singletons ``True``, "
+"``False`` and ``None`` are compared by identity."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:435
-msgid "Patterns may use named constants.  These must be dotted names to prevent them from being interpreted as capture variable::"
+msgid ""
+"Patterns may use named constants.  These must be dotted names to prevent "
+"them from being interpreted as capture variable::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:438
@@ -525,7 +664,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:454
-msgid "For a more detailed explanation and additional examples, you can look into :pep:`636` which is written in a tutorial format."
+msgid ""
+"For a more detailed explanation and additional examples, you can look into :"
+"pep:`636` which is written in a tutorial format."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:460
@@ -533,7 +674,9 @@ msgid "Defining Functions"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:462
-msgid "We can create a function that writes the Fibonacci series to an arbitrary boundary::"
+msgid ""
+"We can create a function that writes the Fibonacci series to an arbitrary "
+"boundary::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:465
@@ -552,23 +695,54 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:482
-msgid "The keyword :keyword:`def` introduces a function *definition*.  It must be followed by the function name and the parenthesized list of formal parameters. The statements that form the body of the function start at the next line, and must be indented."
+msgid ""
+"The keyword :keyword:`def` introduces a function *definition*.  It must be "
+"followed by the function name and the parenthesized list of formal "
+"parameters. The statements that form the body of the function start at the "
+"next line, and must be indented."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:487
-msgid "The first statement of the function body can optionally be a string literal; this string literal is the function's documentation string, or :dfn:`docstring`. (More about docstrings can be found in the section :ref:`tut-docstrings`.) There are tools which use docstrings to automatically produce online or printed documentation, or to let the user interactively browse through code; it's good practice to include docstrings in code that you write, so make a habit of it."
+msgid ""
+"The first statement of the function body can optionally be a string literal; "
+"this string literal is the function's documentation string, or :dfn:"
+"`docstring`. (More about docstrings can be found in the section :ref:`tut-"
+"docstrings`.) There are tools which use docstrings to automatically produce "
+"online or printed documentation, or to let the user interactively browse "
+"through code; it's good practice to include docstrings in code that you "
+"write, so make a habit of it."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:494
-msgid "The *execution* of a function introduces a new symbol table used for the local variables of the function.  More precisely, all variable assignments in a function store the value in the local symbol table; whereas variable references first look in the local symbol table, then in the local symbol tables of enclosing functions, then in the global symbol table, and finally in the table of built-in names. Thus, global variables and variables of enclosing functions cannot be directly assigned a value within a function (unless, for global variables, named in a :keyword:`global` statement, or, for variables of enclosing functions, named in a :keyword:`nonlocal` statement), although they may be referenced."
+msgid ""
+"The *execution* of a function introduces a new symbol table used for the "
+"local variables of the function.  More precisely, all variable assignments "
+"in a function store the value in the local symbol table; whereas variable "
+"references first look in the local symbol table, then in the local symbol "
+"tables of enclosing functions, then in the global symbol table, and finally "
+"in the table of built-in names. Thus, global variables and variables of "
+"enclosing functions cannot be directly assigned a value within a function "
+"(unless, for global variables, named in a :keyword:`global` statement, or, "
+"for variables of enclosing functions, named in a :keyword:`nonlocal` "
+"statement), although they may be referenced."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:505
-msgid "The actual parameters (arguments) to a function call are introduced in the local symbol table of the called function when it is called; thus, arguments are passed using *call by value* (where the *value* is always an object *reference*, not the value of the object). [#]_ When a function calls another function, or calls itself recursively, a new local symbol table is created for that call."
+msgid ""
+"The actual parameters (arguments) to a function call are introduced in the "
+"local symbol table of the called function when it is called; thus, arguments "
+"are passed using *call by value* (where the *value* is always an object "
+"*reference*, not the value of the object). [#]_ When a function calls "
+"another function, or calls itself recursively, a new local symbol table is "
+"created for that call."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:512
-msgid "A function definition associates the function name with the function object in the current symbol table.  The interpreter recognizes the object pointed to by that name as a user-defined function.  Other names can also point to that same function object and can also be used to access the function::"
+msgid ""
+"A function definition associates the function name with the function object "
+"in the current symbol table.  The interpreter recognizes the object pointed "
+"to by that name as a user-defined function.  Other names can also point to "
+"that same function object and can also be used to access the function::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:517
@@ -581,7 +755,14 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:523
-msgid "Coming from other languages, you might object that ``fib`` is not a function but a procedure since it doesn't return a value.  In fact, even functions without a :keyword:`return` statement do return a value, albeit a rather boring one.  This value is called ``None`` (it's a built-in name).  Writing the value ``None`` is normally suppressed by the interpreter if it would be the only value written. You can see it if you really want to using :func:`print`::"
+msgid ""
+"Coming from other languages, you might object that ``fib`` is not a function "
+"but a procedure since it doesn't return a value.  In fact, even functions "
+"without a :keyword:`return` statement do return a value, albeit a rather "
+"boring one.  This value is called ``None`` (it's a built-in name).  Writing "
+"the value ``None`` is normally suppressed by the interpreter if it would be "
+"the only value written. You can see it if you really want to using :func:"
+"`print`::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:530
@@ -592,7 +773,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:534
-msgid "It is simple to write a function that returns a list of the numbers of the Fibonacci series, instead of printing it::"
+msgid ""
+"It is simple to write a function that returns a list of the numbers of the "
+"Fibonacci series, instead of printing it::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:537
@@ -616,11 +799,25 @@ msgid "This example, as usual, demonstrates some new Python features:"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:552
-msgid "The :keyword:`return` statement returns with a value from a function. :keyword:`!return` without an expression argument returns ``None``. Falling off the end of a function also returns ``None``."
+msgid ""
+"The :keyword:`return` statement returns with a value from a function. :"
+"keyword:`!return` without an expression argument returns ``None``. Falling "
+"off the end of a function also returns ``None``."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:556
-msgid "The statement ``result.append(a)`` calls a *method* of the list object ``result``.  A method is a function that 'belongs' to an object and is named ``obj.methodname``, where ``obj`` is some object (this may be an expression), and ``methodname`` is the name of a method that is defined by the object's type. Different types define different methods.  Methods of different types may have the same name without causing ambiguity.  (It is possible to define your own object types and methods, using *classes*, see :ref:`tut-classes`) The method :meth:`!append` shown in the example is defined for list objects; it adds a new element at the end of the list.  In this example it is equivalent to ``result = result + [a]``, but more efficient."
+msgid ""
+"The statement ``result.append(a)`` calls a *method* of the list object "
+"``result``.  A method is a function that 'belongs' to an object and is named "
+"``obj.methodname``, where ``obj`` is some object (this may be an "
+"expression), and ``methodname`` is the name of a method that is defined by "
+"the object's type. Different types define different methods.  Methods of "
+"different types may have the same name without causing ambiguity.  (It is "
+"possible to define your own object types and methods, using *classes*, see :"
+"ref:`tut-classes`) The method :meth:`!append` shown in the example is "
+"defined for list objects; it adds a new element at the end of the list.  In "
+"this example it is equivalent to ``result = result + [a]``, but more "
+"efficient."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:571
@@ -628,7 +825,9 @@ msgid "More on Defining Functions"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:573
-msgid "It is also possible to define functions with a variable number of arguments. There are three forms, which can be combined."
+msgid ""
+"It is also possible to define functions with a variable number of arguments. "
+"There are three forms, which can be combined."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:580
@@ -636,7 +835,10 @@ msgid "Default Argument Values"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:582
-msgid "The most useful form is to specify a default value for one or more arguments. This creates a function that can be called with fewer arguments than it is defined to allow.  For example::"
+msgid ""
+"The most useful form is to specify a default value for one or more "
+"arguments. This creates a function that can be called with fewer arguments "
+"than it is defined to allow.  For example::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:586
@@ -659,23 +861,32 @@ msgid "This function can be called in several ways:"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:600
-msgid "giving only the mandatory argument: ``ask_ok('Do you really want to quit?')``"
+msgid ""
+"giving only the mandatory argument: ``ask_ok('Do you really want to quit?')``"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:602
-msgid "giving one of the optional arguments: ``ask_ok('OK to overwrite the file?', 2)``"
+msgid ""
+"giving one of the optional arguments: ``ask_ok('OK to overwrite the file?', "
+"2)``"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:604
-msgid "or even giving all arguments: ``ask_ok('OK to overwrite the file?', 2, 'Come on, only yes or no!')``"
+msgid ""
+"or even giving all arguments: ``ask_ok('OK to overwrite the file?', 2, 'Come "
+"on, only yes or no!')``"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:607
-msgid "This example also introduces the :keyword:`in` keyword. This tests whether or not a sequence contains a certain value."
+msgid ""
+"This example also introduces the :keyword:`in` keyword. This tests whether "
+"or not a sequence contains a certain value."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:610
-msgid "The default values are evaluated at the point of function definition in the *defining* scope, so that ::"
+msgid ""
+"The default values are evaluated at the point of function definition in the "
+"*defining* scope, so that ::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:613
@@ -694,7 +905,11 @@ msgid "will print ``5``."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:623
-msgid "**Important warning:**  The default value is evaluated only once. This makes a difference when the default is a mutable object such as a list, dictionary, or instances of most classes.  For example, the following function accumulates the arguments passed to it on subsequent calls::"
+msgid ""
+"**Important warning:**  The default value is evaluated only once. This makes "
+"a difference when the default is a mutable object such as a list, "
+"dictionary, or instances of most classes.  For example, the following "
+"function accumulates the arguments passed to it on subsequent calls::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:628
@@ -720,7 +935,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:642
-msgid "If you don't want the default to be shared between subsequent calls, you can write the function like this instead::"
+msgid ""
+"If you don't want the default to be shared between subsequent calls, you can "
+"write the function like this instead::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:645
@@ -737,7 +954,10 @@ msgid "Keyword Arguments"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:657
-msgid "Functions can also be called using :term:`keyword arguments <keyword argument>` of the form ``kwarg=value``.  For instance, the following function::"
+msgid ""
+"Functions can also be called using :term:`keyword arguments <keyword "
+"argument>` of the form ``kwarg=value``.  For instance, the following "
+"function::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:660
@@ -750,17 +970,23 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:666
-msgid "accepts one required argument (``voltage``) and three optional arguments (``state``, ``action``, and ``type``).  This function can be called in any of the following ways::"
+msgid ""
+"accepts one required argument (``voltage``) and three optional arguments "
+"(``state``, ``action``, and ``type``).  This function can be called in any "
+"of the following ways::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:670
 msgid ""
-"parrot(1000)                                          # 1 positional argument\n"
+"parrot(1000)                                          # 1 positional "
+"argument\n"
 "parrot(voltage=1000)                                  # 1 keyword argument\n"
 "parrot(voltage=1000000, action='VOOOOOM')             # 2 keyword arguments\n"
 "parrot(action='VOOOOOM', voltage=1000000)             # 2 keyword arguments\n"
-"parrot('a million', 'bereft of life', 'jump')         # 3 positional arguments\n"
-"parrot('a thousand', state='pushing up the daisies')  # 1 positional, 1 keyword"
+"parrot('a million', 'bereft of life', 'jump')         # 3 positional "
+"arguments\n"
+"parrot('a thousand', state='pushing up the daisies')  # 1 positional, 1 "
+"keyword"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:677
@@ -770,13 +996,21 @@ msgstr ""
 #: ../../tutorial/controlflow.rst:679
 msgid ""
 "parrot()                     # required argument missing\n"
-"parrot(voltage=5.0, 'dead')  # non-keyword argument after a keyword argument\n"
+"parrot(voltage=5.0, 'dead')  # non-keyword argument after a keyword "
+"argument\n"
 "parrot(110, voltage=220)     # duplicate value for the same argument\n"
 "parrot(actor='John Cleese')  # unknown keyword argument"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:684
-msgid "In a function call, keyword arguments must follow positional arguments. All the keyword arguments passed must match one of the arguments accepted by the function (e.g. ``actor`` is not a valid argument for the ``parrot`` function), and their order is not important.  This also includes non-optional arguments (e.g. ``parrot(voltage=1000)`` is valid too). No argument may receive a value more than once. Here's an example that fails due to this restriction::"
+msgid ""
+"In a function call, keyword arguments must follow positional arguments. All "
+"the keyword arguments passed must match one of the arguments accepted by the "
+"function (e.g. ``actor`` is not a valid argument for the ``parrot`` "
+"function), and their order is not important.  This also includes non-"
+"optional arguments (e.g. ``parrot(voltage=1000)`` is valid too). No argument "
+"may receive a value more than once. Here's an example that fails due to this "
+"restriction::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:692
@@ -791,7 +1025,14 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:700
-msgid "When a final formal parameter of the form ``**name`` is present, it receives a dictionary (see :ref:`typesmapping`) containing all keyword arguments except for those corresponding to a formal parameter.  This may be combined with a formal parameter of the form ``*name`` (described in the next subsection) which receives a :ref:`tuple <tut-tuples>` containing the positional arguments beyond the formal parameter list.  (``*name`` must occur before ``**name``.) For example, if we define a function like this::"
+msgid ""
+"When a final formal parameter of the form ``**name`` is present, it receives "
+"a dictionary (see :ref:`typesmapping`) containing all keyword arguments "
+"except for those corresponding to a formal parameter.  This may be combined "
+"with a formal parameter of the form ``*name`` (described in the next "
+"subsection) which receives a :ref:`tuple <tut-tuples>` containing the "
+"positional arguments beyond the formal parameter list.  (``*name`` must "
+"occur before ``**name``.) For example, if we define a function like this::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:708
@@ -836,7 +1077,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:738
-msgid "Note that the order in which the keyword arguments are printed is guaranteed to match the order in which they were provided in the function call."
+msgid ""
+"Note that the order in which the keyword arguments are printed is guaranteed "
+"to match the order in which they were provided in the function call."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:742
@@ -844,7 +1087,12 @@ msgid "Special parameters"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:744
-msgid "By default, arguments may be passed to a Python function either by position or explicitly by keyword. For readability and performance, it makes sense to restrict the way arguments can be passed so that a developer need only look at the function definition to determine if items are passed by position, by position or keyword, or by keyword."
+msgid ""
+"By default, arguments may be passed to a Python function either by position "
+"or explicitly by keyword. For readability and performance, it makes sense to "
+"restrict the way arguments can be passed so that a developer need only look "
+"at the function definition to determine if items are passed by position, by "
+"position or keyword, or by keyword."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:750
@@ -862,7 +1110,11 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:761
-msgid "where ``/`` and ``*`` are optional. If used, these symbols indicate the kind of parameter by how the arguments may be passed to the function: positional-only, positional-or-keyword, and keyword-only. Keyword parameters are also referred to as named parameters."
+msgid ""
+"where ``/`` and ``*`` are optional. If used, these symbols indicate the kind "
+"of parameter by how the arguments may be passed to the function: positional-"
+"only, positional-or-keyword, and keyword-only. Keyword parameters are also "
+"referred to as named parameters."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:768
@@ -870,7 +1122,9 @@ msgid "Positional-or-Keyword Arguments"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:770
-msgid "If ``/`` and ``*`` are not present in the function definition, arguments may be passed to a function by position or by keyword."
+msgid ""
+"If ``/`` and ``*`` are not present in the function definition, arguments may "
+"be passed to a function by position or by keyword."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:775
@@ -878,11 +1132,20 @@ msgid "Positional-Only Parameters"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:777
-msgid "Looking at this in a bit more detail, it is possible to mark certain parameters as *positional-only*. If *positional-only*, the parameters' order matters, and the parameters cannot be passed by keyword. Positional-only parameters are placed before a ``/`` (forward-slash). The ``/`` is used to logically separate the positional-only parameters from the rest of the parameters. If there is no ``/`` in the function definition, there are no positional-only parameters."
+msgid ""
+"Looking at this in a bit more detail, it is possible to mark certain "
+"parameters as *positional-only*. If *positional-only*, the parameters' order "
+"matters, and the parameters cannot be passed by keyword. Positional-only "
+"parameters are placed before a ``/`` (forward-slash). The ``/`` is used to "
+"logically separate the positional-only parameters from the rest of the "
+"parameters. If there is no ``/`` in the function definition, there are no "
+"positional-only parameters."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:785
-msgid "Parameters following the ``/`` may be *positional-or-keyword* or *keyword-only*."
+msgid ""
+"Parameters following the ``/`` may be *positional-or-keyword* or *keyword-"
+"only*."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:789
@@ -890,7 +1153,10 @@ msgid "Keyword-Only Arguments"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:791
-msgid "To mark parameters as *keyword-only*, indicating the parameters must be passed by keyword argument, place an ``*`` in the arguments list just before the first *keyword-only* parameter."
+msgid ""
+"To mark parameters as *keyword-only*, indicating the parameters must be "
+"passed by keyword argument, place an ``*`` in the arguments list just before "
+"the first *keyword-only* parameter."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:797
@@ -898,7 +1164,9 @@ msgid "Function Examples"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:799
-msgid "Consider the following example function definitions paying close attention to the markers ``/`` and ``*``::"
+msgid ""
+"Consider the following example function definitions paying close attention "
+"to the markers ``/`` and ``*``::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:802
@@ -917,7 +1185,10 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:815
-msgid "The first function definition, ``standard_arg``, the most familiar form, places no restrictions on the calling convention and arguments may be passed by position or keyword::"
+msgid ""
+"The first function definition, ``standard_arg``, the most familiar form, "
+"places no restrictions on the calling convention and arguments may be passed "
+"by position or keyword::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:819
@@ -930,7 +1201,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:825
-msgid "The second function ``pos_only_arg`` is restricted to only use positional parameters as there is a ``/`` in the function definition::"
+msgid ""
+"The second function ``pos_only_arg`` is restricted to only use positional "
+"parameters as there is a ``/`` in the function definition::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:828
@@ -941,11 +1214,14 @@ msgid ""
 ">>> pos_only_arg(arg=1)\n"
 "Traceback (most recent call last):\n"
 "  File \"<stdin>\", line 1, in <module>\n"
-"TypeError: pos_only_arg() got some positional-only arguments passed as keyword arguments: 'arg'"
+"TypeError: pos_only_arg() got some positional-only arguments passed as "
+"keyword arguments: 'arg'"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:836
-msgid "The third function ``kwd_only_arg`` only allows keyword arguments as indicated by a ``*`` in the function definition::"
+msgid ""
+"The third function ``kwd_only_arg`` only allows keyword arguments as "
+"indicated by a ``*`` in the function definition::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:839
@@ -960,7 +1236,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:847
-msgid "And the last uses all three calling conventions in the same function definition::"
+msgid ""
+"And the last uses all three calling conventions in the same function "
+"definition::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:850
@@ -979,11 +1257,15 @@ msgid ""
 ">>> combined_example(pos_only=1, standard=2, kwd_only=3)\n"
 "Traceback (most recent call last):\n"
 "  File \"<stdin>\", line 1, in <module>\n"
-"TypeError: combined_example() got some positional-only arguments passed as keyword arguments: 'pos_only'"
+"TypeError: combined_example() got some positional-only arguments passed as "
+"keyword arguments: 'pos_only'"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:867
-msgid "Finally, consider this function definition which has a potential collision between the positional argument ``name``  and ``**kwds`` which has ``name`` as a key::"
+msgid ""
+"Finally, consider this function definition which has a potential collision "
+"between the positional argument ``name``  and ``**kwds`` which has ``name`` "
+"as a key::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:869
@@ -993,7 +1275,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:872
-msgid "There is no possible call that will make it return ``True`` as the keyword ``'name'`` will always bind to the first parameter. For example::"
+msgid ""
+"There is no possible call that will make it return ``True`` as the keyword "
+"``'name'`` will always bind to the first parameter. For example::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:875
@@ -1006,7 +1290,10 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:881
-msgid "But using ``/`` (positional only arguments), it is possible since it allows ``name`` as a positional argument and ``'name'`` as a key in the keyword arguments::"
+msgid ""
+"But using ``/`` (positional only arguments), it is possible since it allows "
+"``name`` as a positional argument and ``'name'`` as a key in the keyword "
+"arguments::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:883
@@ -1019,7 +1306,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:889
-msgid "In other words, the names of positional-only parameters can be used in ``**kwds`` without ambiguity."
+msgid ""
+"In other words, the names of positional-only parameters can be used in "
+"``**kwds`` without ambiguity."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:894
@@ -1027,7 +1316,9 @@ msgid "Recap"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:896
-msgid "The use case will determine which parameters to use in the function definition::"
+msgid ""
+"The use case will determine which parameters to use in the function "
+"definition::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:898
@@ -1039,15 +1330,25 @@ msgid "As guidance:"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:902
-msgid "Use positional-only if you want the name of the parameters to not be available to the user. This is useful when parameter names have no real meaning, if you want to enforce the order of the arguments when the function is called or if you need to take some positional parameters and arbitrary keywords."
+msgid ""
+"Use positional-only if you want the name of the parameters to not be "
+"available to the user. This is useful when parameter names have no real "
+"meaning, if you want to enforce the order of the arguments when the function "
+"is called or if you need to take some positional parameters and arbitrary "
+"keywords."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:907
-msgid "Use keyword-only when names have meaning and the function definition is more understandable by being explicit with names or you want to prevent users relying on the position of the argument being passed."
+msgid ""
+"Use keyword-only when names have meaning and the function definition is more "
+"understandable by being explicit with names or you want to prevent users "
+"relying on the position of the argument being passed."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:910
-msgid "For an API, use positional-only to prevent breaking API changes if the parameter's name is modified in the future."
+msgid ""
+"For an API, use positional-only to prevent breaking API changes if the "
+"parameter's name is modified in the future."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:916
@@ -1055,7 +1356,11 @@ msgid "Arbitrary Argument Lists"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:921
-msgid "Finally, the least frequently used option is to specify that a function can be called with an arbitrary number of arguments.  These arguments will be wrapped up in a tuple (see :ref:`tut-tuples`).  Before the variable number of arguments, zero or more normal arguments may occur. ::"
+msgid ""
+"Finally, the least frequently used option is to specify that a function can "
+"be called with an arbitrary number of arguments.  These arguments will be "
+"wrapped up in a tuple (see :ref:`tut-tuples`).  Before the variable number "
+"of arguments, zero or more normal arguments may occur. ::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:926
@@ -1065,7 +1370,12 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:930
-msgid "Normally, these *variadic* arguments will be last in the list of formal parameters, because they scoop up all remaining input arguments that are passed to the function. Any formal parameters which occur after the ``*args`` parameter are 'keyword-only' arguments, meaning that they can only be used as keywords rather than positional arguments. ::"
+msgid ""
+"Normally, these *variadic* arguments will be last in the list of formal "
+"parameters, because they scoop up all remaining input arguments that are "
+"passed to the function. Any formal parameters which occur after the "
+"``*args`` parameter are 'keyword-only' arguments, meaning that they can only "
+"be used as keywords rather than positional arguments. ::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:936
@@ -1084,7 +1394,13 @@ msgid "Unpacking Argument Lists"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:949
-msgid "The reverse situation occurs when the arguments are already in a list or tuple but need to be unpacked for a function call requiring separate positional arguments.  For instance, the built-in :func:`range` function expects separate *start* and *stop* arguments.  If they are not available separately, write the function call with the  ``*``\\ -operator to unpack the arguments out of a list or tuple::"
+msgid ""
+"The reverse situation occurs when the arguments are already in a list or "
+"tuple but need to be unpacked for a function call requiring separate "
+"positional arguments.  For instance, the built-in :func:`range` function "
+"expects separate *start* and *stop* arguments.  If they are not available "
+"separately, write the function call with the  ``*``\\ -operator to unpack "
+"the arguments out of a list or tuple::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:956
@@ -1092,12 +1408,15 @@ msgid ""
 ">>> list(range(3, 6))            # normal call with separate arguments\n"
 "[3, 4, 5]\n"
 ">>> args = [3, 6]\n"
-">>> list(range(*args))            # call with arguments unpacked from a list\n"
+">>> list(range(*args))            # call with arguments unpacked from a "
+"list\n"
 "[3, 4, 5]"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:965
-msgid "In the same fashion, dictionaries can deliver keyword arguments with the ``**``\\ -operator::"
+msgid ""
+"In the same fashion, dictionaries can deliver keyword arguments with the "
+"``**``\\ -operator::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:968
@@ -1107,9 +1426,11 @@ msgid ""
 "...     print(\"if you put\", voltage, \"volts through it.\", end=' ')\n"
 "...     print(\"E's\", state, \"!\")\n"
 "...\n"
-">>> d = {\"voltage\": \"four million\", \"state\": \"bleedin' demised\", \"action\": \"VOOM\"}\n"
+">>> d = {\"voltage\": \"four million\", \"state\": \"bleedin' demised\", "
+"\"action\": \"VOOM\"}\n"
 ">>> parrot(**d)\n"
-"-- This parrot wouldn't VOOM if you put four million volts through it. E's bleedin' demised !"
+"-- This parrot wouldn't VOOM if you put four million volts through it. E's "
+"bleedin' demised !"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:981
@@ -1117,7 +1438,14 @@ msgid "Lambda Expressions"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:983
-msgid "Small anonymous functions can be created with the :keyword:`lambda` keyword. This function returns the sum of its two arguments: ``lambda a, b: a+b``. Lambda functions can be used wherever function objects are required.  They are syntactically restricted to a single expression.  Semantically, they are just syntactic sugar for a normal function definition.  Like nested function definitions, lambda functions can reference variables from the containing scope::"
+msgid ""
+"Small anonymous functions can be created with the :keyword:`lambda` keyword. "
+"This function returns the sum of its two arguments: ``lambda a, b: a+b``. "
+"Lambda functions can be used wherever function objects are required.  They "
+"are syntactically restricted to a single expression.  Semantically, they are "
+"just syntactic sugar for a normal function definition.  Like nested function "
+"definitions, lambda functions can reference variables from the containing "
+"scope::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:991
@@ -1133,7 +1461,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1000
-msgid "The above example uses a lambda expression to return a function.  Another use is to pass a small function as an argument::"
+msgid ""
+"The above example uses a lambda expression to return a function.  Another "
+"use is to pass a small function as an argument::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1003
@@ -1149,19 +1479,41 @@ msgid "Documentation Strings"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1019
-msgid "Here are some conventions about the content and formatting of documentation strings."
+msgid ""
+"Here are some conventions about the content and formatting of documentation "
+"strings."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1022
-msgid "The first line should always be a short, concise summary of the object's purpose.  For brevity, it should not explicitly state the object's name or type, since these are available by other means (except if the name happens to be a verb describing a function's operation).  This line should begin with a capital letter and end with a period."
+msgid ""
+"The first line should always be a short, concise summary of the object's "
+"purpose.  For brevity, it should not explicitly state the object's name or "
+"type, since these are available by other means (except if the name happens "
+"to be a verb describing a function's operation).  This line should begin "
+"with a capital letter and end with a period."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1028
-msgid "If there are more lines in the documentation string, the second line should be blank, visually separating the summary from the rest of the description.  The following lines should be one or more paragraphs describing the object's calling conventions, its side effects, etc."
+msgid ""
+"If there are more lines in the documentation string, the second line should "
+"be blank, visually separating the summary from the rest of the description.  "
+"The following lines should be one or more paragraphs describing the object's "
+"calling conventions, its side effects, etc."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1033
-msgid "The Python parser does not strip indentation from multi-line string literals in Python, so tools that process documentation have to strip indentation if desired.  This is done using the following convention. The first non-blank line *after* the first line of the string determines the amount of indentation for the entire documentation string.  (We can't use the first line since it is generally adjacent to the string's opening quotes so its indentation is not apparent in the string literal.)  Whitespace \"equivalent\" to this indentation is then stripped from the start of all lines of the string.  Lines that are indented less should not occur, but if they occur all their leading whitespace should be stripped.  Equivalence of whitespace should be tested after expansion of tabs (to 8 spaces, normally)."
+msgid ""
+"The Python parser does not strip indentation from multi-line string literals "
+"in Python, so tools that process documentation have to strip indentation if "
+"desired.  This is done using the following convention. The first non-blank "
+"line *after* the first line of the string determines the amount of "
+"indentation for the entire documentation string.  (We can't use the first "
+"line since it is generally adjacent to the string's opening quotes so its "
+"indentation is not apparent in the string literal.)  Whitespace "
+"\"equivalent\" to this indentation is then stripped from the start of all "
+"lines of the string.  Lines that are indented less should not occur, but if "
+"they occur all their leading whitespace should be stripped.  Equivalence of "
+"whitespace should be tested after expansion of tabs (to 8 spaces, normally)."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1045
@@ -1188,11 +1540,22 @@ msgid "Function Annotations"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1071
-msgid ":ref:`Function annotations <function>` are completely optional metadata information about the types used by user-defined functions (see :pep:`3107` and :pep:`484` for more information)."
+msgid ""
+":ref:`Function annotations <function>` are completely optional metadata "
+"information about the types used by user-defined functions (see :pep:`3107` "
+"and :pep:`484` for more information)."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1075
-msgid ":term:`Annotations <function annotation>` are stored in the :attr:`!__annotations__` attribute of the function as a dictionary and have no effect on any other part of the function.  Parameter annotations are defined by a colon after the parameter name, followed by an expression evaluating to the value of the annotation.  Return annotations are defined by a literal ``->``, followed by an expression, between the parameter list and the colon denoting the end of the :keyword:`def` statement.  The following example has a required argument, an optional argument, and the return value annotated::"
+msgid ""
+":term:`Annotations <function annotation>` are stored in the :attr:`!"
+"__annotations__` attribute of the function as a dictionary and have no "
+"effect on any other part of the function.  Parameter annotations are defined "
+"by a colon after the parameter name, followed by an expression evaluating to "
+"the value of the annotation.  Return annotations are defined by a literal ``-"
+">``, followed by an expression, between the parameter list and the colon "
+"denoting the end of the :keyword:`def` statement.  The following example has "
+"a required argument, an optional argument, and the return value annotated::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1084
@@ -1203,7 +1566,8 @@ msgid ""
 "...     return ham + ' and ' + eggs\n"
 "...\n"
 ">>> f('spam')\n"
-"Annotations: {'ham': <class 'str'>, 'return': <class 'str'>, 'eggs': <class 'str'>}\n"
+"Annotations: {'ham': <class 'str'>, 'return': <class 'str'>, 'eggs': <class "
+"'str'>}\n"
 "Arguments: spam eggs\n"
 "'spam and eggs'"
 msgstr ""
@@ -1213,11 +1577,20 @@ msgid "Intermezzo: Coding Style"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1102
-msgid "Now that you are about to write longer, more complex pieces of Python, it is a good time to talk about *coding style*.  Most languages can be written (or more concise, *formatted*) in different styles; some are more readable than others. Making it easy for others to read your code is always a good idea, and adopting a nice coding style helps tremendously for that."
+msgid ""
+"Now that you are about to write longer, more complex pieces of Python, it is "
+"a good time to talk about *coding style*.  Most languages can be written (or "
+"more concise, *formatted*) in different styles; some are more readable than "
+"others. Making it easy for others to read your code is always a good idea, "
+"and adopting a nice coding style helps tremendously for that."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1108
-msgid "For Python, :pep:`8` has emerged as the style guide that most projects adhere to; it promotes a very readable and eye-pleasing coding style.  Every Python developer should read it at some point; here are the most important points extracted for you:"
+msgid ""
+"For Python, :pep:`8` has emerged as the style guide that most projects "
+"adhere to; it promotes a very readable and eye-pleasing coding style.  Every "
+"Python developer should read it at some point; here are the most important "
+"points extracted for you:"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1113
@@ -1225,7 +1598,10 @@ msgid "Use 4-space indentation, and no tabs."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1115
-msgid "4 spaces are a good compromise between small indentation (allows greater nesting depth) and large indentation (easier to read).  Tabs introduce confusion, and are best left out."
+msgid ""
+"4 spaces are a good compromise between small indentation (allows greater "
+"nesting depth) and large indentation (easier to read).  Tabs introduce "
+"confusion, and are best left out."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1119
@@ -1233,11 +1609,15 @@ msgid "Wrap lines so that they don't exceed 79 characters."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1121
-msgid "This helps users with small displays and makes it possible to have several code files side-by-side on larger displays."
+msgid ""
+"This helps users with small displays and makes it possible to have several "
+"code files side-by-side on larger displays."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1124
-msgid "Use blank lines to separate functions and classes, and larger blocks of code inside functions."
+msgid ""
+"Use blank lines to separate functions and classes, and larger blocks of code "
+"inside functions."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1127
@@ -1249,19 +1629,31 @@ msgid "Use docstrings."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1131
-msgid "Use spaces around operators and after commas, but not directly inside bracketing constructs: ``a = f(1, 2) + g(3, 4)``."
+msgid ""
+"Use spaces around operators and after commas, but not directly inside "
+"bracketing constructs: ``a = f(1, 2) + g(3, 4)``."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1134
-msgid "Name your classes and functions consistently; the convention is to use ``UpperCamelCase`` for classes and ``lowercase_with_underscores`` for functions and methods.  Always use ``self`` as the name for the first method argument (see :ref:`tut-firstclasses` for more on classes and methods)."
+msgid ""
+"Name your classes and functions consistently; the convention is to use "
+"``UpperCamelCase`` for classes and ``lowercase_with_underscores`` for "
+"functions and methods.  Always use ``self`` as the name for the first method "
+"argument (see :ref:`tut-firstclasses` for more on classes and methods)."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1139
-msgid "Don't use fancy encodings if your code is meant to be used in international environments.  Python's default, UTF-8, or even plain ASCII work best in any case."
+msgid ""
+"Don't use fancy encodings if your code is meant to be used in international "
+"environments.  Python's default, UTF-8, or even plain ASCII work best in any "
+"case."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1143
-msgid "Likewise, don't use non-ASCII characters in identifiers if there is only the slightest chance people speaking a different language will read or maintain the code."
+msgid ""
+"Likewise, don't use non-ASCII characters in identifiers if there is only the "
+"slightest chance people speaking a different language will read or maintain "
+"the code."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1149
@@ -1269,7 +1661,10 @@ msgid "Footnotes"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:1150
-msgid "Actually, *call by object reference* would be a better description, since if a mutable object is passed, the caller will see any changes the callee makes to it (items inserted into a list)."
+msgid ""
+"Actually, *call by object reference* would be a better description, since if "
+"a mutable object is passed, the caller will see any changes the callee makes "
+"to it (items inserted into a list)."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:48

@@ -10,7 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2021-06-28 01:15+0000\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +27,9 @@ msgid "**Source code:** :source:`Lib/tkinter/font.py`"
 msgstr ""
 
 #: ../../library/tkinter.font.rst:12
-msgid "The :mod:`tkinter.font` module provides the :class:`Font` class for creating and using named fonts."
+msgid ""
+"The :mod:`tkinter.font` module provides the :class:`Font` class for creating "
+"and using named fonts."
 msgstr ""
 
 #: ../../library/tkinter.font.rst:15
@@ -34,7 +37,12 @@ msgid "The different font weights and slants are:"
 msgstr ""
 
 #: ../../library/tkinter.font.rst:24
-msgid "The :class:`Font` class represents a named font. *Font* instances are given unique names and can be specified by their family, size, and style configuration. Named fonts are Tk's method of creating and identifying fonts as a single object, rather than specifying a font by its attributes with each occurrence."
+msgid ""
+"The :class:`Font` class represents a named font. *Font* instances are given "
+"unique names and can be specified by their family, size, and style "
+"configuration. Named fonts are Tk's method of creating and identifying fonts "
+"as a single object, rather than specifying a font by its attributes with "
+"each occurrence."
 msgstr ""
 
 #: ../../library/tkinter.font.rst:30
@@ -110,7 +118,10 @@ msgid "Return new instance of the current font."
 msgstr ""
 
 #: ../../library/tkinter.font.rst:66
-msgid "Return amount of space the text would occupy on the specified display when formatted in the current font. If no display is specified then the main application window is assumed."
+msgid ""
+"Return amount of space the text would occupy on the specified display when "
+"formatted in the current font. If no display is specified then the main "
+"application window is assumed."
 msgstr ""
 
 #: ../../library/tkinter.font.rst:72

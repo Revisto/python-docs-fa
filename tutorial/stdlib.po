@@ -14,7 +14,8 @@ msgstr ""
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2021-06-28 01:50+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,7 +31,9 @@ msgid "Operating System Interface"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:13
-msgid "The :mod:`os` module provides dozens of functions for interacting with the operating system::"
+msgid ""
+"The :mod:`os` module provides dozens of functions for interacting with the "
+"operating system::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:16
@@ -44,11 +47,16 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:23
-msgid "Be sure to use the ``import os`` style instead of ``from os import *``.  This will keep :func:`os.open` from shadowing the built-in :func:`open` function which operates much differently."
+msgid ""
+"Be sure to use the ``import os`` style instead of ``from os import *``.  "
+"This will keep :func:`os.open` from shadowing the built-in :func:`open` "
+"function which operates much differently."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:29
-msgid "The built-in :func:`dir` and :func:`help` functions are useful as interactive aids for working with large modules like :mod:`os`::"
+msgid ""
+"The built-in :func:`dir` and :func:`help` functions are useful as "
+"interactive aids for working with large modules like :mod:`os`::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:32
@@ -61,7 +69,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:38
-msgid "For daily file and directory management tasks, the :mod:`shutil` module provides a higher level interface that is easier to use::"
+msgid ""
+"For daily file and directory management tasks, the :mod:`shutil` module "
+"provides a higher level interface that is easier to use::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:41
@@ -78,7 +88,9 @@ msgid "File Wildcards"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:53
-msgid "The :mod:`glob` module provides a function for making file lists from directory wildcard searches::"
+msgid ""
+"The :mod:`glob` module provides a function for making file lists from "
+"directory wildcard searches::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:56
@@ -93,7 +105,10 @@ msgid "Command Line Arguments"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:66
-msgid "Common utility scripts often need to process command line arguments. These arguments are stored in the :mod:`sys` module's *argv* attribute as a list.  For instance, let's take the following :file:`demo.py` file::"
+msgid ""
+"Common utility scripts often need to process command line arguments. These "
+"arguments are stored in the :mod:`sys` module's *argv* attribute as a list.  "
+"For instance, let's take the following :file:`demo.py` file::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:70
@@ -104,7 +119,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:74
-msgid "Here is the output from running ``python demo.py one two three`` at the command line::"
+msgid ""
+"Here is the output from running ``python demo.py one two three`` at the "
+"command line::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:77
@@ -112,7 +129,10 @@ msgid "['demo.py', 'one', 'two', 'three']"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:79
-msgid "The :mod:`argparse` module provides a more sophisticated mechanism to process command line arguments.  The following script extracts one or more filenames and an optional number of lines to be displayed::"
+msgid ""
+"The :mod:`argparse` module provides a more sophisticated mechanism to "
+"process command line arguments.  The following script extracts one or more "
+"filenames and an optional number of lines to be displayed::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:83
@@ -129,7 +149,10 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:93
-msgid "When run at the command line with ``python top.py --lines=5 alpha.txt beta.txt``, the script sets ``args.lines`` to ``5`` and ``args.filenames`` to ``['alpha.txt', 'beta.txt']``."
+msgid ""
+"When run at the command line with ``python top.py --lines=5 alpha.txt beta."
+"txt``, the script sets ``args.lines`` to ``5`` and ``args.filenames`` to "
+"``['alpha.txt', 'beta.txt']``."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:101
@@ -137,7 +160,10 @@ msgid "Error Output Redirection and Program Termination"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:103
-msgid "The :mod:`sys` module also has attributes for *stdin*, *stdout*, and *stderr*. The latter is useful for emitting warnings and error messages to make them visible even when *stdout* has been redirected::"
+msgid ""
+"The :mod:`sys` module also has attributes for *stdin*, *stdout*, and "
+"*stderr*. The latter is useful for emitting warnings and error messages to "
+"make them visible even when *stdout* has been redirected::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:107
@@ -155,7 +181,10 @@ msgid "String Pattern Matching"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:118
-msgid "The :mod:`re` module provides regular expression tools for advanced string processing. For complex matching and manipulation, regular expressions offer succinct, optimized solutions::"
+msgid ""
+"The :mod:`re` module provides regular expression tools for advanced string "
+"processing. For complex matching and manipulation, regular expressions offer "
+"succinct, optimized solutions::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:122
@@ -168,7 +197,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:128
-msgid "When only simple capabilities are needed, string methods are preferred because they are easier to read and debug::"
+msgid ""
+"When only simple capabilities are needed, string methods are preferred "
+"because they are easier to read and debug::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:131
@@ -182,7 +213,9 @@ msgid "Mathematics"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:140
-msgid "The :mod:`math` module gives access to the underlying C library functions for floating-point math::"
+msgid ""
+"The :mod:`math` module gives access to the underlying C library functions "
+"for floating-point math::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:143
@@ -212,7 +245,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:161
-msgid "The :mod:`statistics` module calculates basic statistical properties (the mean, median, variance, etc.) of numeric data::"
+msgid ""
+"The :mod:`statistics` module calculates basic statistical properties (the "
+"mean, median, variance, etc.) of numeric data::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:164
@@ -228,7 +263,9 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:173
-msgid "The SciPy project <https://scipy.org> has many other modules for numerical computations."
+msgid ""
+"The SciPy project <https://scipy.org> has many other modules for numerical "
+"computations."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:179
@@ -236,13 +273,17 @@ msgid "Internet Access"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:181
-msgid "There are a number of modules for accessing the internet and processing internet protocols. Two of the simplest are :mod:`urllib.request` for retrieving data from URLs and :mod:`smtplib` for sending mail::"
+msgid ""
+"There are a number of modules for accessing the internet and processing "
+"internet protocols. Two of the simplest are :mod:`urllib.request` for "
+"retrieving data from URLs and :mod:`smtplib` for sending mail::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:185
 msgid ""
 ">>> from urllib.request import urlopen\n"
-">>> with urlopen('http://worldtimeapi.org/api/timezone/etc/UTC.txt') as response:\n"
+">>> with urlopen('http://worldtimeapi.org/api/timezone/etc/UTC.txt') as "
+"response:\n"
 "...     for line in response:\n"
 "...         line = line.decode()             # Convert bytes to a str\n"
 "...         if line.startswith('datetime'):\n"
@@ -270,7 +311,12 @@ msgid "Dates and Times"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:212
-msgid "The :mod:`datetime` module supplies classes for manipulating dates and times in both simple and complex ways. While date and time arithmetic is supported, the focus of the implementation is on efficient member extraction for output formatting and manipulation.  The module also supports objects that are timezone aware. ::"
+msgid ""
+"The :mod:`datetime` module supplies classes for manipulating dates and times "
+"in both simple and complex ways. While date and time arithmetic is "
+"supported, the focus of the implementation is on efficient member extraction "
+"for output formatting and manipulation.  The module also supports objects "
+"that are timezone aware. ::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:218
@@ -295,7 +341,10 @@ msgid "Data Compression"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:238
-msgid "Common data archiving and compression formats are directly supported by modules including: :mod:`zlib`, :mod:`gzip`, :mod:`bz2`, :mod:`lzma`, :mod:`zipfile` and :mod:`tarfile`. ::"
+msgid ""
+"Common data archiving and compression formats are directly supported by "
+"modules including: :mod:`zlib`, :mod:`gzip`, :mod:`bz2`, :mod:`lzma`, :mod:"
+"`zipfile` and :mod:`tarfile`. ::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:242
@@ -318,11 +367,17 @@ msgid "Performance Measurement"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:260
-msgid "Some Python users develop a deep interest in knowing the relative performance of different approaches to the same problem. Python provides a measurement tool that answers those questions immediately."
+msgid ""
+"Some Python users develop a deep interest in knowing the relative "
+"performance of different approaches to the same problem. Python provides a "
+"measurement tool that answers those questions immediately."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:264
-msgid "For example, it may be tempting to use the tuple packing and unpacking feature instead of the traditional approach to swapping arguments. The :mod:`timeit` module quickly demonstrates a modest performance advantage::"
+msgid ""
+"For example, it may be tempting to use the tuple packing and unpacking "
+"feature instead of the traditional approach to swapping arguments. The :mod:"
+"`timeit` module quickly demonstrates a modest performance advantage::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:268
@@ -335,7 +390,10 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:274
-msgid "In contrast to :mod:`timeit`'s fine level of granularity, the :mod:`profile` and :mod:`pstats` modules provide tools for identifying time critical sections in larger blocks of code."
+msgid ""
+"In contrast to :mod:`timeit`'s fine level of granularity, the :mod:`profile` "
+"and :mod:`pstats` modules provide tools for identifying time critical "
+"sections in larger blocks of code."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:282
@@ -343,11 +401,20 @@ msgid "Quality Control"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:284
-msgid "One approach for developing high quality software is to write tests for each function as it is developed and to run those tests frequently during the development process."
+msgid ""
+"One approach for developing high quality software is to write tests for each "
+"function as it is developed and to run those tests frequently during the "
+"development process."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:288
-msgid "The :mod:`doctest` module provides a tool for scanning a module and validating tests embedded in a program's docstrings.  Test construction is as simple as cutting-and-pasting a typical call along with its results into the docstring. This improves the documentation by providing the user with an example and it allows the doctest module to make sure the code remains true to the documentation::"
+msgid ""
+"The :mod:`doctest` module provides a tool for scanning a module and "
+"validating tests embedded in a program's docstrings.  Test construction is "
+"as simple as cutting-and-pasting a typical call along with its results into "
+"the docstring. This improves the documentation by providing the user with an "
+"example and it allows the doctest module to make sure the code remains true "
+"to the documentation::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:295
@@ -365,7 +432,10 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:306
-msgid "The :mod:`unittest` module is not as effortless as the :mod:`doctest` module, but it allows a more comprehensive set of tests to be maintained in a separate file::"
+msgid ""
+"The :mod:`unittest` module is not as effortless as the :mod:`doctest` "
+"module, but it allows a more comprehensive set of tests to be maintained in "
+"a separate file::"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:310
@@ -390,27 +460,51 @@ msgid "Batteries Included"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:330
-msgid "Python has a \"batteries included\" philosophy.  This is best seen through the sophisticated and robust capabilities of its larger packages. For example:"
+msgid ""
+"Python has a \"batteries included\" philosophy.  This is best seen through "
+"the sophisticated and robust capabilities of its larger packages. For "
+"example:"
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:333
-msgid "The :mod:`xmlrpc.client` and :mod:`xmlrpc.server` modules make implementing remote procedure calls into an almost trivial task.  Despite the modules' names, no direct knowledge or handling of XML is needed."
+msgid ""
+"The :mod:`xmlrpc.client` and :mod:`xmlrpc.server` modules make implementing "
+"remote procedure calls into an almost trivial task.  Despite the modules' "
+"names, no direct knowledge or handling of XML is needed."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:337
-msgid "The :mod:`email` package is a library for managing email messages, including MIME and other :rfc:`2822`-based message documents. Unlike :mod:`smtplib` and :mod:`poplib` which actually send and receive messages, the email package has a complete toolset for building or decoding complex message structures (including attachments) and for implementing internet encoding and header protocols."
+msgid ""
+"The :mod:`email` package is a library for managing email messages, including "
+"MIME and other :rfc:`2822`-based message documents. Unlike :mod:`smtplib` "
+"and :mod:`poplib` which actually send and receive messages, the email "
+"package has a complete toolset for building or decoding complex message "
+"structures (including attachments) and for implementing internet encoding "
+"and header protocols."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:344
-msgid "The :mod:`json` package provides robust support for parsing this popular data interchange format.  The :mod:`csv` module supports direct reading and writing of files in Comma-Separated Value format, commonly supported by databases and spreadsheets.  XML processing is supported by the :mod:`xml.etree.ElementTree`, :mod:`xml.dom` and :mod:`xml.sax` packages. Together, these modules and packages greatly simplify data interchange between Python applications and other tools."
+msgid ""
+"The :mod:`json` package provides robust support for parsing this popular "
+"data interchange format.  The :mod:`csv` module supports direct reading and "
+"writing of files in Comma-Separated Value format, commonly supported by "
+"databases and spreadsheets.  XML processing is supported by the :mod:`xml."
+"etree.ElementTree`, :mod:`xml.dom` and :mod:`xml.sax` packages. Together, "
+"these modules and packages greatly simplify data interchange between Python "
+"applications and other tools."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:353
-msgid "The :mod:`sqlite3` module is a wrapper for the SQLite database library, providing a persistent database that can be updated and accessed using slightly nonstandard SQL syntax."
+msgid ""
+"The :mod:`sqlite3` module is a wrapper for the SQLite database library, "
+"providing a persistent database that can be updated and accessed using "
+"slightly nonstandard SQL syntax."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:357
-msgid "Internationalization is supported by a number of modules including :mod:`gettext`, :mod:`locale`, and the :mod:`codecs` package."
+msgid ""
+"Internationalization is supported by a number of modules including :mod:"
+"`gettext`, :mod:`locale`, and the :mod:`codecs` package."
 msgstr ""
 
 #: ../../tutorial/stdlib.rst:27

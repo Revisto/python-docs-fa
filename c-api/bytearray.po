@@ -14,7 +14,8 @@ msgstr ""
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,11 +27,14 @@ msgid "Byte Array Objects"
 msgstr ""
 
 #: ../../c-api/bytearray.rst:13
-msgid "This subtype of :c:type:`PyObject` represents a Python bytearray object."
+msgid ""
+"This subtype of :c:type:`PyObject` represents a Python bytearray object."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:18
-msgid "This instance of :c:type:`PyTypeObject` represents the Python bytearray type; it is the same object as :class:`bytearray` in the Python layer."
+msgid ""
+"This instance of :c:type:`PyTypeObject` represents the Python bytearray "
+"type; it is the same object as :class:`bytearray` in the Python layer."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:23
@@ -38,11 +42,15 @@ msgid "Type check macros"
 msgstr ""
 
 #: ../../c-api/bytearray.rst:27
-msgid "Return true if the object *o* is a bytearray object or an instance of a subtype of the bytearray type.  This function always succeeds."
+msgid ""
+"Return true if the object *o* is a bytearray object or an instance of a "
+"subtype of the bytearray type.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:33
-msgid "Return true if the object *o* is a bytearray object, but not an instance of a subtype of the bytearray type.  This function always succeeds."
+msgid ""
+"Return true if the object *o* is a bytearray object, but not an instance of "
+"a subtype of the bytearray type.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:38
@@ -50,7 +58,9 @@ msgid "Direct API functions"
 msgstr ""
 
 #: ../../c-api/bytearray.rst:42
-msgid "Return a new bytearray object from any object, *o*, that implements the :ref:`buffer protocol <bufferobjects>`."
+msgid ""
+"Return a new bytearray object from any object, *o*, that implements the :ref:"
+"`buffer protocol <bufferobjects>`."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:45 ../../c-api/bytearray.rst:52
@@ -63,7 +73,8 @@ msgid "Create a new bytearray object from *string* and its length, *len*."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:57
-msgid "Concat bytearrays *a* and *b* and return a new bytearray with the result."
+msgid ""
+"Concat bytearrays *a* and *b* and return a new bytearray with the result."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:64
@@ -71,7 +82,9 @@ msgid "Return the size of *bytearray* after checking for a ``NULL`` pointer."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:69
-msgid "Return the contents of *bytearray* as a char array after checking for a ``NULL`` pointer.  The returned array always has an extra null byte appended."
+msgid ""
+"Return the contents of *bytearray* as a char array after checking for a "
+"``NULL`` pointer.  The returned array always has an extra null byte appended."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:76

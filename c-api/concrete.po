@@ -14,7 +14,8 @@ msgstr ""
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2021-06-28 00:48+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,11 +27,22 @@ msgid "Concrete Objects Layer"
 msgstr ""
 
 #: ../../c-api/concrete.rst:10
-msgid "The functions in this chapter are specific to certain Python object types. Passing them an object of the wrong type is not a good idea; if you receive an object from a Python program and you are not sure that it has the right type, you must perform a type check first; for example, to check that an object is a dictionary, use :c:func:`PyDict_Check`.  The chapter is structured like the \"family tree\" of Python object types."
+msgid ""
+"The functions in this chapter are specific to certain Python object types. "
+"Passing them an object of the wrong type is not a good idea; if you receive "
+"an object from a Python program and you are not sure that it has the right "
+"type, you must perform a type check first; for example, to check that an "
+"object is a dictionary, use :c:func:`PyDict_Check`.  The chapter is "
+"structured like the \"family tree\" of Python object types."
 msgstr ""
 
 #: ../../c-api/concrete.rst:19
-msgid "While the functions described in this chapter carefully check the type of the objects which are passed in, many of them do not check for ``NULL`` being passed instead of a valid object.  Allowing ``NULL`` to be passed in can cause memory access violations and immediate termination of the interpreter."
+msgid ""
+"While the functions described in this chapter carefully check the type of "
+"the objects which are passed in, many of them do not check for ``NULL`` "
+"being passed instead of a valid object.  Allowing ``NULL`` to be passed in "
+"can cause memory access violations and immediate termination of the "
+"interpreter."
 msgstr ""
 
 #: ../../c-api/concrete.rst:28
@@ -38,7 +50,8 @@ msgid "Fundamental Objects"
 msgstr ""
 
 #: ../../c-api/concrete.rst:30
-msgid "This section describes Python type objects and the singleton object ``None``."
+msgid ""
+"This section describes Python type objects and the singleton object ``None``."
 msgstr ""
 
 #: ../../c-api/concrete.rst:41
@@ -50,7 +63,10 @@ msgid "Sequence Objects"
 msgstr ""
 
 #: ../../c-api/concrete.rst:60
-msgid "Generic operations on sequence objects were discussed in the previous chapter; this section deals with the specific kinds of sequence objects that are intrinsic to the Python language."
+msgid ""
+"Generic operations on sequence objects were discussed in the previous "
+"chapter; this section deals with the specific kinds of sequence objects that "
+"are intrinsic to the Python language."
 msgstr ""
 
 #: ../../c-api/concrete.rst:78

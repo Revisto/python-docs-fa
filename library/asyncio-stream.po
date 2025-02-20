@@ -10,7 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2021-06-28 00:55+0000\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +27,10 @@ msgid "**Source code:** :source:`Lib/asyncio/streams.py`"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:13
-msgid "Streams are high-level async/await-ready primitives to work with network connections.  Streams allow sending and receiving data without using callbacks or low-level protocols and transports."
+msgid ""
+"Streams are high-level async/await-ready primitives to work with network "
+"connections.  Streams allow sending and receiving data without using "
+"callbacks or low-level protocols and transports."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:19
@@ -64,27 +68,40 @@ msgid "Stream Functions"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:47
-msgid "The following top-level asyncio functions can be used to create and work with streams:"
+msgid ""
+"The following top-level asyncio functions can be used to create and work "
+"with streams:"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:58
-msgid "Establish a network connection and return a pair of ``(reader, writer)`` objects."
+msgid ""
+"Establish a network connection and return a pair of ``(reader, writer)`` "
+"objects."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:61
-msgid "The returned *reader* and *writer* objects are instances of :class:`StreamReader` and :class:`StreamWriter` classes."
+msgid ""
+"The returned *reader* and *writer* objects are instances of :class:"
+"`StreamReader` and :class:`StreamWriter` classes."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:64 ../../library/asyncio-stream.rst:110
-msgid "*limit* determines the buffer size limit used by the returned :class:`StreamReader` instance.  By default the *limit* is set to 64 KiB."
+msgid ""
+"*limit* determines the buffer size limit used by the returned :class:"
+"`StreamReader` instance.  By default the *limit* is set to 64 KiB."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:68
-msgid "The rest of the arguments are passed directly to :meth:`loop.create_connection`."
+msgid ""
+"The rest of the arguments are passed directly to :meth:`loop."
+"create_connection`."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:73 ../../library/asyncio-stream.rst:151
-msgid "The *sock* argument transfers ownership of the socket to the :class:`StreamWriter` created. To close the socket, call its :meth:`~asyncio.StreamWriter.close` method."
+msgid ""
+"The *sock* argument transfers ownership of the socket to the :class:"
+"`StreamWriter` created. To close the socket, call its :meth:`~asyncio."
+"StreamWriter.close` method."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:77
@@ -111,19 +128,29 @@ msgid "Start a socket server."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:101
-msgid "The *client_connected_cb* callback is called whenever a new client connection is established.  It receives a ``(reader, writer)`` pair as two arguments, instances of the :class:`StreamReader` and :class:`StreamWriter` classes."
+msgid ""
+"The *client_connected_cb* callback is called whenever a new client "
+"connection is established.  It receives a ``(reader, writer)`` pair as two "
+"arguments, instances of the :class:`StreamReader` and :class:`StreamWriter` "
+"classes."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:106
-msgid "*client_connected_cb* can be a plain callable or a :ref:`coroutine function <coroutine>`; if it is a coroutine function, it will be automatically scheduled as a :class:`Task`."
+msgid ""
+"*client_connected_cb* can be a plain callable or a :ref:`coroutine function "
+"<coroutine>`; if it is a coroutine function, it will be automatically "
+"scheduled as a :class:`Task`."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:114
-msgid "The rest of the arguments are passed directly to :meth:`loop.create_server`."
+msgid ""
+"The rest of the arguments are passed directly to :meth:`loop.create_server`."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:119 ../../library/asyncio-stream.rst:181
-msgid "The *sock* argument transfers ownership of the socket to the server created. To close the socket, call the server's :meth:`~asyncio.Server.close` method."
+msgid ""
+"The *sock* argument transfers ownership of the socket to the server created. "
+"To close the socket, call the server's :meth:`~asyncio.Server.close` method."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:123
@@ -139,7 +166,8 @@ msgid "Unix Sockets"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:142
-msgid "Establish a Unix socket connection and return a pair of ``(reader, writer)``."
+msgid ""
+"Establish a Unix socket connection and return a pair of ``(reader, writer)``."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:145
@@ -155,7 +183,9 @@ msgid "Availability"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:157
-msgid "Added the *ssl_handshake_timeout* parameter. The *path* parameter can now be a :term:`path-like object`"
+msgid ""
+"Added the *ssl_handshake_timeout* parameter. The *path* parameter can now be "
+"a :term:`path-like object`"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:173
@@ -171,7 +201,9 @@ msgid "See also the documentation of :meth:`loop.create_unix_server`."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:187
-msgid "Added the *ssl_handshake_timeout* and *start_serving* parameters. The *path* parameter can now be a :term:`path-like object`."
+msgid ""
+"Added the *ssl_handshake_timeout* and *start_serving* parameters. The *path* "
+"parameter can now be a :term:`path-like object`."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:199
@@ -179,11 +211,16 @@ msgid "StreamReader"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:203
-msgid "Represents a reader object that provides APIs to read data from the IO stream. As an :term:`asynchronous iterable`, the object supports the :keyword:`async for` statement."
+msgid ""
+"Represents a reader object that provides APIs to read data from the IO "
+"stream. As an :term:`asynchronous iterable`, the object supports the :"
+"keyword:`async for` statement."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:207
-msgid "It is not recommended to instantiate *StreamReader* objects directly; use :func:`open_connection` and :func:`start_server` instead."
+msgid ""
+"It is not recommended to instantiate *StreamReader* objects directly; use :"
+"func:`open_connection` and :func:`start_server` instead."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:213
@@ -195,7 +232,10 @@ msgid "Read up to *n* bytes from the stream."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:219
-msgid "If *n* is not provided or set to ``-1``, read until EOF, then return all read :class:`bytes`. If EOF was received and the internal buffer is empty, return an empty ``bytes`` object."
+msgid ""
+"If *n* is not provided or set to ``-1``, read until EOF, then return all "
+"read :class:`bytes`. If EOF was received and the internal buffer is empty, "
+"return an empty ``bytes`` object."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:224
@@ -203,19 +243,27 @@ msgid "If *n* is ``0``, return an empty ``bytes`` object immediately."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:226
-msgid "If *n* is positive, return at most *n* available ``bytes`` as soon as at least 1 byte is available in the internal buffer. If EOF is received before any byte is read, return an empty ``bytes`` object."
+msgid ""
+"If *n* is positive, return at most *n* available ``bytes`` as soon as at "
+"least 1 byte is available in the internal buffer. If EOF is received before "
+"any byte is read, return an empty ``bytes`` object."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:233
-msgid "Read one line, where \"line\" is a sequence of bytes ending with ``\\n``."
+msgid ""
+"Read one line, where \"line\" is a sequence of bytes ending with ``\\n``."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:236
-msgid "If EOF is received and ``\\n`` was not found, the method returns partially read data."
+msgid ""
+"If EOF is received and ``\\n`` was not found, the method returns partially "
+"read data."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:239
-msgid "If EOF is received and the internal buffer is empty, return an empty ``bytes`` object."
+msgid ""
+"If EOF is received and the internal buffer is empty, return an empty "
+"``bytes`` object."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:244
@@ -223,7 +271,10 @@ msgid "Read exactly *n* bytes."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:246
-msgid "Raise an :exc:`IncompleteReadError` if EOF is reached before *n* can be read.  Use the :attr:`IncompleteReadError.partial` attribute to get the partially read data."
+msgid ""
+"Raise an :exc:`IncompleteReadError` if EOF is reached before *n* can be "
+"read.  Use the :attr:`IncompleteReadError.partial` attribute to get the "
+"partially read data."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:252
@@ -231,19 +282,32 @@ msgid "Read data from the stream until *separator* is found."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:254
-msgid "On success, the data and separator will be removed from the internal buffer (consumed). Returned data will include the separator at the end."
+msgid ""
+"On success, the data and separator will be removed from the internal buffer "
+"(consumed). Returned data will include the separator at the end."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:258
-msgid "If the amount of data read exceeds the configured stream limit, a :exc:`LimitOverrunError` exception is raised, and the data is left in the internal buffer and can be read again."
+msgid ""
+"If the amount of data read exceeds the configured stream limit, a :exc:"
+"`LimitOverrunError` exception is raised, and the data is left in the "
+"internal buffer and can be read again."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:262
-msgid "If EOF is reached before the complete separator is found, an :exc:`IncompleteReadError` exception is raised, and the internal buffer is reset.  The :attr:`IncompleteReadError.partial` attribute may contain a portion of the separator."
+msgid ""
+"If EOF is reached before the complete separator is found, an :exc:"
+"`IncompleteReadError` exception is raised, and the internal buffer is "
+"reset.  The :attr:`IncompleteReadError.partial` attribute may contain a "
+"portion of the separator."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:267
-msgid "The *separator* may also be a tuple of separators. In this case the return value will be the shortest possible that has any separator as the suffix. For the purposes of :exc:`LimitOverrunError`, the shortest possible separator is considered to be the one that matched."
+msgid ""
+"The *separator* may also be a tuple of separators. In this case the return "
+"value will be the shortest possible that has any separator as the suffix. "
+"For the purposes of :exc:`LimitOverrunError`, the shortest possible "
+"separator is considered to be the one that matched."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:277
@@ -259,15 +323,21 @@ msgid "StreamWriter"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:291
-msgid "Represents a writer object that provides APIs to write data to the IO stream."
+msgid ""
+"Represents a writer object that provides APIs to write data to the IO stream."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:294
-msgid "It is not recommended to instantiate *StreamWriter* objects directly; use :func:`open_connection` and :func:`start_server` instead."
+msgid ""
+"It is not recommended to instantiate *StreamWriter* objects directly; use :"
+"func:`open_connection` and :func:`start_server` instead."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:300
-msgid "The method attempts to write the *data* to the underlying socket immediately. If that fails, the data is queued in an internal write buffer until it can be sent."
+msgid ""
+"The method attempts to write the *data* to the underlying socket "
+"immediately. If that fails, the data is queued in an internal write buffer "
+"until it can be sent."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:304 ../../library/asyncio-stream.rst:316
@@ -281,7 +351,10 @@ msgid ""
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:311
-msgid "The method writes a list (or any iterable) of bytes to the underlying socket immediately. If that fails, the data is queued in an internal write buffer until it can be sent."
+msgid ""
+"The method writes a list (or any iterable) of bytes to the underlying socket "
+"immediately. If that fails, the data is queued in an internal write buffer "
+"until it can be sent."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:318
@@ -295,7 +368,9 @@ msgid "The method closes the stream and the underlying socket."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:325
-msgid "The method should be used, though not mandatory, along with the ``wait_closed()`` method::"
+msgid ""
+"The method should be used, though not mandatory, along with the "
+"``wait_closed()`` method::"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:328
@@ -305,11 +380,14 @@ msgid ""
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:333
-msgid "Return ``True`` if the underlying transport supports the :meth:`write_eof` method, ``False`` otherwise."
+msgid ""
+"Return ``True`` if the underlying transport supports the :meth:`write_eof` "
+"method, ``False`` otherwise."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:338
-msgid "Close the write end of the stream after the buffered write data is flushed."
+msgid ""
+"Close the write end of the stream after the buffered write data is flushed."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:343
@@ -317,7 +395,9 @@ msgid "Return the underlying asyncio transport."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:347
-msgid "Access optional transport information; see :meth:`BaseTransport.get_extra_info` for details."
+msgid ""
+"Access optional transport information; see :meth:`BaseTransport."
+"get_extra_info` for details."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:352
@@ -331,7 +411,12 @@ msgid ""
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:358
-msgid "This is a flow control method that interacts with the underlying IO write buffer.  When the size of the buffer reaches the high watermark, *drain()* blocks until the size of the buffer is drained down to the low watermark and writing can be resumed.  When there is nothing to wait for, the :meth:`drain` returns immediately."
+msgid ""
+"This is a flow control method that interacts with the underlying IO write "
+"buffer.  When the size of the buffer reaches the high watermark, *drain()* "
+"blocks until the size of the buffer is drained down to the low watermark and "
+"writing can be resumed.  When there is nothing to wait for, the :meth:"
+"`drain` returns immediately."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:368
@@ -347,19 +432,28 @@ msgid "*sslcontext*: a configured instance of :class:`~ssl.SSLContext`."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:374
-msgid "*server_hostname*: sets or overrides the host name that the target server's certificate will be matched against."
+msgid ""
+"*server_hostname*: sets or overrides the host name that the target server's "
+"certificate will be matched against."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:377
-msgid "*ssl_handshake_timeout* is the time in seconds to wait for the TLS handshake to complete before aborting the connection.  ``60.0`` seconds if ``None`` (default)."
+msgid ""
+"*ssl_handshake_timeout* is the time in seconds to wait for the TLS handshake "
+"to complete before aborting the connection.  ``60.0`` seconds if ``None`` "
+"(default)."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:381
-msgid "*ssl_shutdown_timeout* is the time in seconds to wait for the SSL shutdown to complete before aborting the connection. ``30.0`` seconds if ``None`` (default)."
+msgid ""
+"*ssl_shutdown_timeout* is the time in seconds to wait for the SSL shutdown "
+"to complete before aborting the connection. ``30.0`` seconds if ``None`` "
+"(default)."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:393
-msgid "Return ``True`` if the stream is closed or in the process of being closed."
+msgid ""
+"Return ``True`` if the stream is closed or in the process of being closed."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:400
@@ -367,7 +461,10 @@ msgid "Wait until the stream is closed."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:402
-msgid "Should be called after :meth:`close` to wait until the underlying connection is closed, ensuring that all data has been flushed before e.g. exiting the program."
+msgid ""
+"Should be called after :meth:`close` to wait until the underlying connection "
+"is closed, ensuring that all data has been flushed before e.g. exiting the "
+"program."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:410
@@ -383,7 +480,10 @@ msgid "TCP echo client using the :func:`asyncio.open_connection` function::"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:441
-msgid "The :ref:`TCP echo client protocol <asyncio_example_tcp_echo_client_protocol>` example uses the low-level :meth:`loop.create_connection` method."
+msgid ""
+"The :ref:`TCP echo client protocol "
+"<asyncio_example_tcp_echo_client_protocol>` example uses the low-level :meth:"
+"`loop.create_connection` method."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:448
@@ -427,7 +527,10 @@ msgid ""
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:484
-msgid "The :ref:`TCP echo server protocol <asyncio_example_tcp_echo_server_protocol>` example uses the :meth:`loop.create_server` method."
+msgid ""
+"The :ref:`TCP echo server protocol "
+"<asyncio_example_tcp_echo_server_protocol>` example uses the :meth:`loop."
+"create_server` method."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:489
@@ -435,7 +538,8 @@ msgid "Get HTTP headers"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:491
-msgid "Simple example querying HTTP headers of the URL passed on the command line::"
+msgid ""
+"Simple example querying HTTP headers of the URL passed on the command line::"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:493
@@ -498,7 +602,9 @@ msgid "Register an open socket to wait for data using streams"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:544
-msgid "Coroutine waiting until a socket receives data using the :func:`open_connection` function::"
+msgid ""
+"Coroutine waiting until a socket receives data using the :func:"
+"`open_connection` function::"
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:547
@@ -535,9 +641,15 @@ msgid ""
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:579
-msgid "The :ref:`register an open socket to wait for data using a protocol <asyncio_example_create_connection>` example uses a low-level protocol and the :meth:`loop.create_connection` method."
+msgid ""
+"The :ref:`register an open socket to wait for data using a protocol "
+"<asyncio_example_create_connection>` example uses a low-level protocol and "
+"the :meth:`loop.create_connection` method."
 msgstr ""
 
 #: ../../library/asyncio-stream.rst:583
-msgid "The :ref:`watch a file descriptor for read events <asyncio_example_watch_fd>` example uses the low-level :meth:`loop.add_reader` method to watch a file descriptor."
+msgid ""
+"The :ref:`watch a file descriptor for read events "
+"<asyncio_example_watch_fd>` example uses the low-level :meth:`loop."
+"add_reader` method to watch a file descriptor."
 msgstr ""

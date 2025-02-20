@@ -10,7 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2021-06-28 01:51+0000\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +23,10 @@ msgid "Editors and IDEs"
 msgstr ""
 
 #: ../../using/editors.rst:9
-msgid "There are a number of IDEs that support Python programming language. Many editors and IDEs provide syntax highlighting, debugging tools, and :pep:`8` checks."
+msgid ""
+"There are a number of IDEs that support Python programming language. Many "
+"editors and IDEs provide syntax highlighting, debugging tools, and :pep:`8` "
+"checks."
 msgstr ""
 
 #: ../../using/editors.rst:14
@@ -30,7 +34,12 @@ msgid "IDLE --- Python editor and shell"
 msgstr ""
 
 #: ../../using/editors.rst:16
-msgid "IDLE is Python’s Integrated Development and Learning Environment and is generally bundled with Python installs. If you are on Linux and do not have IDLE installed see :ref:`Installing IDLE on Linux <installing_idle_on_linux>`. For more information see the :ref:`IDLE docs <idle>`."
+msgid ""
+"IDLE is Python’s Integrated Development and Learning Environment and is "
+"generally bundled with Python installs. If you are on Linux and do not have "
+"IDLE installed see :ref:`Installing IDLE on Linux "
+"<installing_idle_on_linux>`. For more information see the :ref:`IDLE docs "
+"<idle>`."
 msgstr ""
 
 #: ../../using/editors.rst:22
@@ -38,5 +47,10 @@ msgid "Other Editors and IDEs"
 msgstr ""
 
 #: ../../using/editors.rst:24
-msgid "Python's community wiki has information submitted by the community on Editors and IDEs. Please go to `Python Editors <https://wiki.python.org/moin/PythonEditors>`_ and `Integrated Development Environments <https://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_ for a comprehensive list."
+msgid ""
+"Python's community wiki has information submitted by the community on "
+"Editors and IDEs. Please go to `Python Editors <https://wiki.python.org/moin/"
+"PythonEditors>`_ and `Integrated Development Environments <https://wiki."
+"python.org/moin/IntegratedDevelopmentEnvironments>`_ for a comprehensive "
+"list."
 msgstr ""

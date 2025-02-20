@@ -10,7 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2021-06-28 01:15+0000\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,11 +27,21 @@ msgid "**Source code:** :source:`Lib/tkinter/dnd.py`"
 msgstr ""
 
 #: ../../library/tkinter.dnd.rst:12
-msgid "This is experimental and due to be deprecated when it is replaced with the Tk DND."
+msgid ""
+"This is experimental and due to be deprecated when it is replaced with the "
+"Tk DND."
 msgstr ""
 
 #: ../../library/tkinter.dnd.rst:15
-msgid "The :mod:`tkinter.dnd` module provides drag-and-drop support for objects within a single application, within the same window or between windows. To enable an object to be dragged, you must create an event binding for it that starts the drag-and-drop process. Typically, you bind a ButtonPress event to a callback function that you write (see :ref:`Bindings-and-Events`). The function should call :func:`dnd_start`, where 'source' is the object to be dragged, and 'event' is the event that invoked the call (the argument to your callback function)."
+msgid ""
+"The :mod:`tkinter.dnd` module provides drag-and-drop support for objects "
+"within a single application, within the same window or between windows. To "
+"enable an object to be dragged, you must create an event binding for it that "
+"starts the drag-and-drop process. Typically, you bind a ButtonPress event to "
+"a callback function that you write (see :ref:`Bindings-and-Events`). The "
+"function should call :func:`dnd_start`, where 'source' is the object to be "
+"dragged, and 'event' is the event that invoked the call (the argument to "
+"your callback function)."
 msgstr ""
 
 #: ../../library/tkinter.dnd.rst:23
@@ -46,7 +57,9 @@ msgid "Target widget should have a callable *dnd_accept* attribute"
 msgstr ""
 
 #: ../../library/tkinter.dnd.rst:28
-msgid "If *dnd_accept* is not present or returns ``None``, search moves to parent widget"
+msgid ""
+"If *dnd_accept* is not present or returns ``None``, search moves to parent "
+"widget"
 msgstr ""
 
 #: ../../library/tkinter.dnd.rst:29
@@ -66,11 +79,14 @@ msgid "Call to *<target>.dnd_commit(source, event)* to notify of drop"
 msgstr ""
 
 #: ../../library/tkinter.dnd.rst:34
-msgid "Call to *<source>.dnd_end(target, event)* to signal end of drag-and-drop"
+msgid ""
+"Call to *<source>.dnd_end(target, event)* to signal end of drag-and-drop"
 msgstr ""
 
 #: ../../library/tkinter.dnd.rst:39
-msgid "The *DndHandler* class handles drag-and-drop events tracking Motion and ButtonRelease events on the root of the event widget."
+msgid ""
+"The *DndHandler* class handles drag-and-drop events tracking Motion and "
+"ButtonRelease events on the root of the event widget."
 msgstr ""
 
 #: ../../library/tkinter.dnd.rst:44

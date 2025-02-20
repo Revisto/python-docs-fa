@@ -14,7 +14,8 @@ msgstr ""
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2021-06-28 01:08+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +27,12 @@ msgid "Internet Protocols and Support"
 msgstr ""
 
 #: ../../library/internet.rst:14
-msgid "The modules described in this chapter implement internet protocols and  support for related technology.  They are all implemented in Python. Most of these modules require the presence of the system-dependent module :mod:`socket`, which is currently supported on most popular platforms.  Here is an overview:"
+msgid ""
+"The modules described in this chapter implement internet protocols and  "
+"support for related technology.  They are all implemented in Python. Most of "
+"these modules require the presence of the system-dependent module :mod:"
+"`socket`, which is currently supported on most popular platforms.  Here is "
+"an overview:"
 msgstr ""
 
 #: ../../library/internet.rst:7

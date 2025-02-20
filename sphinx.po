@@ -10,7 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-14 14:17+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
+"fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -65,11 +66,15 @@ msgid "PDF"
 msgstr ""
 
 #: ../../tools/templates/download.html:31
-msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-pdf-a4.zip\">Download</a> (ca. %(download_size)s MiB)"
+msgid ""
+"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-pdf-a4.zip\">Download</a> "
+"(ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:32
-msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-pdf-a4.tar.bz2\">Download</a> (ca. %(download_size)s MiB)"
+msgid ""
+"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-pdf-a4.tar.bz2\">Download</"
+"a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:35
@@ -77,11 +82,15 @@ msgid "HTML"
 msgstr ""
 
 #: ../../tools/templates/download.html:36
-msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.zip\">Download</a> (ca. %(download_size)s MiB)"
+msgid ""
+"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.zip\">Download</a> "
+"(ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:37
-msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.tar.bz2\">Download</a> (ca. %(download_size)s MiB)"
+msgid ""
+"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.tar.bz2\">Download</a> "
+"(ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:40
@@ -89,11 +98,15 @@ msgid "Plain text"
 msgstr ""
 
 #: ../../tools/templates/download.html:41
-msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.zip\">Download</a> (ca. %(download_size)s MiB)"
+msgid ""
+"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.zip\">Download</a> "
+"(ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:42
-msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.tar.bz2\">Download</a> (ca. %(download_size)s MiB)"
+msgid ""
+"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.tar.bz2\">Download</a> "
+"(ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:45
@@ -101,11 +114,15 @@ msgid "Texinfo"
 msgstr ""
 
 #: ../../tools/templates/download.html:46
-msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.zip\">Download</a> (ca. %(download_size)s MiB)"
+msgid ""
+"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.zip\">Download</a> "
+"(ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:47
-msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.tar.bz2\">Download</a> (ca. %(download_size)s MiB)"
+msgid ""
+"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.tar.bz2\">Download</"
+"a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:50
@@ -113,7 +130,9 @@ msgid "EPUB"
 msgstr ""
 
 #: ../../tools/templates/download.html:51
-msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs.epub\">Download</a> (ca. %(download_size)s MiB)"
+msgid ""
+"<a href=\"%(dl_base)s/python-%(dl_version)s-docs.epub\">Download</a> (ca. "
+"%(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:56
@@ -128,8 +147,10 @@ msgstr ""
 msgid ""
 "Unix users should download the .tar.bz2 archives; these are bzipped tar\n"
 "archives and can be handled in the usual way using tar and the bzip2\n"
-"program. The <a href=\"https://infozip.sourceforge.net\">Info-ZIP</a> unzip program can be\n"
-"used to handle the ZIP archives if desired. The .tar.bz2 archives provide the\n"
+"program. The <a href=\"https://infozip.sourceforge.net\">Info-ZIP</a> unzip "
+"program can be\n"
+"used to handle the ZIP archives if desired. The .tar.bz2 archives provide "
+"the\n"
 "best compression and fastest download times."
 msgstr ""
 
@@ -145,7 +166,8 @@ msgstr ""
 
 #: ../../tools/templates/download.html:73
 msgid ""
-"If you have comments or suggestions for the Python documentation, please send\n"
+"If you have comments or suggestions for the Python documentation, please "
+"send\n"
 "email to <a href=\"mailto:docs@python.org\">docs@python.org</a>."
 msgstr ""
 
@@ -210,7 +232,8 @@ msgid "CPython implementation detail:"
 msgstr ""
 
 #: ../../tools/templates/dummy.html:30
-msgid "Deprecated since version {deprecated}, will be removed in version {removed}"
+msgid ""
+"Deprecated since version {deprecated}, will be removed in version {removed}"
 msgstr ""
 
 #: ../../tools/templates/dummy.html:31
@@ -250,7 +273,9 @@ msgid "What's new in Python %(version)s?"
 msgstr ""
 
 #: ../../tools/templates/indexcontent.html:14
-msgid "Or <a href=\"%(whatsnew_index)s\">all \"What's new\" documents since Python 2.0</a>"
+msgid ""
+"Or <a href=\"%(whatsnew_index)s\">all \"What's new\" documents since Python "
+"2.0</a>"
 msgstr ""
 
 #: ../../tools/templates/indexcontent.html:15
@@ -469,7 +494,8 @@ msgstr ""
 
 #: ../../tools/templates/layout.html:14
 msgid ""
-"This is a deploy preview created from a <a href=\"%(repository_url)s/pull/%(pr_id)s\">pull request</a>.\n"
+"This is a deploy preview created from a <a href=\"%(repository_url)s/pull/"
+"%(pr_id)s\">pull request</a>.\n"
 "  For authoritative documentation, see"
 msgstr ""
 
