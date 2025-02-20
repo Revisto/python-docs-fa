@@ -8,7 +8,7 @@
 
 ## راهنمای مشارکت 🌱
 
-تمام ترجمه‌ها بر روی [Transifex](https://app.transifex.com/python-doc/python-newest/language/fa/) انجام می‌شود.
+تمام ترجمه‌ها بر روی [Transifex](https://app.transifex.com/python-doc/python-newest/language/fa/) انجام می‌شود. فرآیند ترجمه شامل بازبینی و اصلاح متونی است که به صورت خودکار توسط ابزارهای ترجمه ماشینی ترجمه شده‌اند.
 
 ## ارتباط و هماهنگی
 
