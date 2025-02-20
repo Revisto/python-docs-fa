@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,8 +22,5 @@ msgid "Unix Specific Services"
 msgstr ""
 
 #: ../../library/unix.rst:7
-msgid ""
-"The modules described in this chapter provide interfaces to features that "
-"are unique to the Unix operating system, or in some cases to some or many "
-"variants of it.  Here's an overview:"
+msgid "The modules described in this chapter provide interfaces to features that are unique to the Unix operating system, or in some cases to some or many variants of it.  Here's an overview:"
 msgstr ""

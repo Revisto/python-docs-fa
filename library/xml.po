@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -26,29 +26,19 @@ msgid "**Source code:** :source:`Lib/xml/`"
 msgstr ""
 
 #: ../../library/xml.rst:16
-msgid ""
-"Python's interfaces for processing XML are grouped in the ``xml`` package."
+msgid "Python's interfaces for processing XML are grouped in the ``xml`` package."
 msgstr ""
 
 #: ../../library/xml.rst:20
-msgid ""
-"The XML modules are not secure against erroneous or maliciously constructed "
-"data.  If you need to parse untrusted or unauthenticated data see the "
-":ref:`xml-vulnerabilities` and :ref:`defusedxml-package` sections."
+msgid "The XML modules are not secure against erroneous or maliciously constructed data.  If you need to parse untrusted or unauthenticated data see the :ref:`xml-vulnerabilities` and :ref:`defusedxml-package` sections."
 msgstr ""
 
 #: ../../library/xml.rst:25
-msgid ""
-"It is important to note that modules in the :mod:`xml` package require that "
-"there be at least one SAX-compliant XML parser available. The Expat parser "
-"is included with Python, so the :mod:`xml.parsers.expat` module will always "
-"be available."
+msgid "It is important to note that modules in the :mod:`xml` package require that there be at least one SAX-compliant XML parser available. The Expat parser is included with Python, so the :mod:`xml.parsers.expat` module will always be available."
 msgstr ""
 
 #: ../../library/xml.rst:30
-msgid ""
-"The documentation for the :mod:`xml.dom` and :mod:`xml.sax` packages are the"
-" definition of the Python bindings for the DOM and SAX interfaces."
+msgid "The documentation for the :mod:`xml.dom` and :mod:`xml.sax` packages are the definition of the Python bindings for the DOM and SAX interfaces."
 msgstr ""
 
 #: ../../library/xml.rst:33
@@ -56,9 +46,7 @@ msgid "The XML handling submodules are:"
 msgstr ""
 
 #: ../../library/xml.rst:35
-msgid ""
-":mod:`xml.etree.ElementTree`: the ElementTree API, a simple and lightweight "
-"XML processor"
+msgid ":mod:`xml.etree.ElementTree`: the ElementTree API, a simple and lightweight XML processor"
 msgstr ""
 
 #: ../../library/xml.rst:40
@@ -86,17 +74,11 @@ msgid "XML vulnerabilities"
 msgstr ""
 
 #: ../../library/xml.rst:55
-msgid ""
-"The XML processing modules are not secure against maliciously constructed "
-"data. An attacker can abuse XML features to carry out denial of service "
-"attacks, access local files, generate network connections to other machines,"
-" or circumvent firewalls."
+msgid "The XML processing modules are not secure against maliciously constructed data. An attacker can abuse XML features to carry out denial of service attacks, access local files, generate network connections to other machines, or circumvent firewalls."
 msgstr ""
 
 #: ../../library/xml.rst:60
-msgid ""
-"The following table gives an overview of the known attacks and whether the "
-"various modules are vulnerable to them."
+msgid "The following table gives an overview of the known attacks and whether the various modules are vulnerable to them."
 msgstr ""
 
 #: ../../library/xml.rst:64
@@ -180,23 +162,15 @@ msgid "**Vulnerable** (6)"
 msgstr ""
 
 #: ../../library/xml.rst:74
-msgid ""
-"Expat 2.4.1 and newer is not vulnerable to the \"billion laughs\" and "
-"\"quadratic blowup\" vulnerabilities. Items still listed as vulnerable due "
-"to potential reliance on system-provided libraries. Check "
-":const:`!pyexpat.EXPAT_VERSION`."
+msgid "Expat 2.4.1 and newer is not vulnerable to the \"billion laughs\" and \"quadratic blowup\" vulnerabilities. Items still listed as vulnerable due to potential reliance on system-provided libraries. Check :const:`!pyexpat.EXPAT_VERSION`."
 msgstr ""
 
 #: ../../library/xml.rst:78
-msgid ""
-":mod:`xml.etree.ElementTree` doesn't expand external entities and raises a "
-":exc:`~xml.etree.ElementTree.ParseError` when an entity occurs."
+msgid ":mod:`xml.etree.ElementTree` doesn't expand external entities and raises a :exc:`~xml.etree.ElementTree.ParseError` when an entity occurs."
 msgstr ""
 
 #: ../../library/xml.rst:80
-msgid ""
-":mod:`xml.dom.minidom` doesn't expand external entities and simply returns "
-"the unexpanded entity verbatim."
+msgid ":mod:`xml.dom.minidom` doesn't expand external entities and simply returns the unexpanded entity verbatim."
 msgstr ""
 
 #: ../../library/xml.rst:82
@@ -204,17 +178,11 @@ msgid ":mod:`xmlrpc.client` doesn't expand external entities and omits them."
 msgstr ""
 
 #: ../../library/xml.rst:83
-msgid ""
-"Since Python 3.7.1, external general entities are no longer processed by "
-"default."
+msgid "Since Python 3.7.1, external general entities are no longer processed by default."
 msgstr ""
 
 #: ../../library/xml.rst:85
-msgid ""
-"Expat 2.6.0 and newer is not vulnerable to denial of service through "
-"quadratic runtime caused by parsing large tokens. Items still listed as "
-"vulnerable due to potential reliance on system-provided libraries. Check "
-":const:`!pyexpat.EXPAT_VERSION`."
+msgid "Expat 2.6.0 and newer is not vulnerable to denial of service through quadratic runtime caused by parsing large tokens. Items still listed as vulnerable due to potential reliance on system-provided libraries. Check :const:`!pyexpat.EXPAT_VERSION`."
 msgstr ""
 
 #: ../../library/xml.rst:92
@@ -222,12 +190,7 @@ msgid "billion laughs / exponential entity expansion"
 msgstr ""
 
 #: ../../library/xml.rst:93
-msgid ""
-"The `Billion Laughs`_ attack -- also known as exponential entity expansion "
-"-- uses multiple levels of nested entities. Each entity refers to another "
-"entity several times, and the final entity definition contains a small "
-"string. The exponential expansion results in several gigabytes of text and "
-"consumes lots of memory and CPU time."
+msgid "The `Billion Laughs`_ attack -- also known as exponential entity expansion -- uses multiple levels of nested entities. Each entity refers to another entity several times, and the final entity definition contains a small string. The exponential expansion results in several gigabytes of text and consumes lots of memory and CPU time."
 msgstr ""
 
 #: ../../library/xml.rst:99
@@ -235,48 +198,27 @@ msgid "quadratic blowup entity expansion"
 msgstr ""
 
 #: ../../library/xml.rst:100
-msgid ""
-"A quadratic blowup attack is similar to a `Billion Laughs`_ attack; it "
-"abuses entity expansion, too. Instead of nested entities it repeats one "
-"large entity with a couple of thousand chars over and over again. The attack"
-" isn't as efficient as the exponential case but it avoids triggering parser "
-"countermeasures that forbid deeply nested entities."
+msgid "A quadratic blowup attack is similar to a `Billion Laughs`_ attack; it abuses entity expansion, too. Instead of nested entities it repeats one large entity with a couple of thousand chars over and over again. The attack isn't as efficient as the exponential case but it avoids triggering parser countermeasures that forbid deeply nested entities."
 msgstr ""
 
 #: ../../library/xml.rst:107
-msgid ""
-"Entity declarations can contain more than just text for replacement. They "
-"can also point to external resources or local files. The XML parser accesses"
-" the resource and embeds the content into the XML document."
+msgid "Entity declarations can contain more than just text for replacement. They can also point to external resources or local files. The XML parser accesses the resource and embeds the content into the XML document."
 msgstr ""
 
 #: ../../library/xml.rst:112
-msgid ""
-"Some XML libraries like Python's :mod:`xml.dom.pulldom` retrieve document "
-"type definitions from remote or local locations. The feature has similar "
-"implications as the external entity expansion issue."
+msgid "Some XML libraries like Python's :mod:`xml.dom.pulldom` retrieve document type definitions from remote or local locations. The feature has similar implications as the external entity expansion issue."
 msgstr ""
 
 #: ../../library/xml.rst:117
-msgid ""
-"Decompression bombs (aka `ZIP bomb`_) apply to all XML libraries that can "
-"parse compressed XML streams such as gzipped HTTP streams or LZMA-compressed"
-" files. For an attacker it can reduce the amount of transmitted data by "
-"three magnitudes or more."
+msgid "Decompression bombs (aka `ZIP bomb`_) apply to all XML libraries that can parse compressed XML streams such as gzipped HTTP streams or LZMA-compressed files. For an attacker it can reduce the amount of transmitted data by three magnitudes or more."
 msgstr ""
 
 #: ../../library/xml.rst:124
-msgid ""
-"Expat needs to re-parse unfinished tokens; without the protection introduced"
-" in Expat 2.6.0, this can lead to quadratic runtime that can be used to "
-"cause denial of service in the application parsing XML. The issue is known "
-"as :cve:`2023-52425`."
+msgid "Expat needs to re-parse unfinished tokens; without the protection introduced in Expat 2.6.0, this can lead to quadratic runtime that can be used to cause denial of service in the application parsing XML. The issue is known as :cve:`2023-52425`."
 msgstr ""
 
 #: ../../library/xml.rst:129
-msgid ""
-"The documentation for :pypi:`defusedxml` on PyPI has further information "
-"about all known attack vectors with examples and references."
+msgid "The documentation for :pypi:`defusedxml` on PyPI has further information about all known attack vectors with examples and references."
 msgstr ""
 
 #: ../../library/xml.rst:135
@@ -284,10 +226,5 @@ msgid "The :mod:`!defusedxml` Package"
 msgstr ""
 
 #: ../../library/xml.rst:137
-msgid ""
-":pypi:`defusedxml` is a pure Python package with modified subclasses of all "
-"stdlib XML parsers that prevent any potentially malicious operation. Use of "
-"this package is recommended for any server code that parses untrusted XML "
-"data. The package also ships with example exploits and extended "
-"documentation on more XML exploits such as XPath injection."
+msgid ":pypi:`defusedxml` is a pure Python package with modified subclasses of all stdlib XML parsers that prevent any potentially malicious operation. Use of this package is recommended for any server code that parses untrusted XML data. The package also ships with example exploits and extended documentation on more XML exploits such as XPath injection."
 msgstr ""

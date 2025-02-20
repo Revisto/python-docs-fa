@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,16 +22,11 @@ msgid "Networking and Interprocess Communication"
 msgstr ""
 
 #: ../../library/ipc.rst:7
-msgid ""
-"The modules described in this chapter provide mechanisms for networking and "
-"inter-processes communication."
+msgid "The modules described in this chapter provide mechanisms for networking and inter-processes communication."
 msgstr ""
 
 #: ../../library/ipc.rst:10
-msgid ""
-"Some modules only work for two processes that are on the same machine, e.g. "
-":mod:`signal` and :mod:`mmap`.  Other modules support networking protocols "
-"that two or more processes can use to communicate across machines."
+msgid "Some modules only work for two processes that are on the same machine, e.g. :mod:`signal` and :mod:`mmap`.  Other modules support networking protocols that two or more processes can use to communicate across machines."
 msgstr ""
 
 #: ../../library/ipc.rst:14

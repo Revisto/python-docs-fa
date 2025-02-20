@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,29 +22,19 @@ msgid "Boolean Objects"
 msgstr ""
 
 #: ../../c-api/bool.rst:8
-msgid ""
-"Booleans in Python are implemented as a subclass of integers.  There are "
-"only two booleans, :c:data:`Py_False` and :c:data:`Py_True`.  As such, the "
-"normal creation and deletion functions don't apply to booleans.  The "
-"following macros are available, however."
+msgid "Booleans in Python are implemented as a subclass of integers.  There are only two booleans, :c:data:`Py_False` and :c:data:`Py_True`.  As such, the normal creation and deletion functions don't apply to booleans.  The following macros are available, however."
 msgstr ""
 
 #: ../../c-api/bool.rst:16
-msgid ""
-"This instance of :c:type:`PyTypeObject` represents the Python boolean type; "
-"it is the same object as :class:`bool` in the Python layer."
+msgid "This instance of :c:type:`PyTypeObject` represents the Python boolean type; it is the same object as :class:`bool` in the Python layer."
 msgstr ""
 
 #: ../../c-api/bool.rst:22
-msgid ""
-"Return true if *o* is of type :c:data:`PyBool_Type`.  This function always "
-"succeeds."
+msgid "Return true if *o* is of type :c:data:`PyBool_Type`.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/bool.rst:28
-msgid ""
-"The Python ``False`` object.  This object has no methods and is "
-":term:`immortal`."
+msgid "The Python ``False`` object.  This object has no methods and is :term:`immortal`."
 msgstr ""
 
 #: ../../c-api/bool.rst:31
@@ -52,9 +42,7 @@ msgid ":c:data:`Py_False` is :term:`immortal`."
 msgstr ""
 
 #: ../../c-api/bool.rst:37
-msgid ""
-"The Python ``True`` object.  This object has no methods and is "
-":term:`immortal`."
+msgid "The Python ``True`` object.  This object has no methods and is :term:`immortal`."
 msgstr ""
 
 #: ../../c-api/bool.rst:40
@@ -70,7 +58,5 @@ msgid "Return :c:data:`Py_True` from a function."
 msgstr ""
 
 #: ../../c-api/bool.rst:56
-msgid ""
-"Return :c:data:`Py_True` or :c:data:`Py_False`, depending on the truth value"
-" of *v*."
+msgid "Return :c:data:`Py_True` or :c:data:`Py_False`, depending on the truth value of *v*."
 msgstr ""

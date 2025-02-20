@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -26,9 +26,7 @@ msgid "**Source code:** :source:`Lib/keyword.py`"
 msgstr ""
 
 #: ../../library/keyword.rst:11
-msgid ""
-"This module allows a Python program to determine if a string is a "
-":ref:`keyword <keywords>` or :ref:`soft keyword <soft-keywords>`."
+msgid "This module allows a Python program to determine if a string is a :ref:`keyword <keywords>` or :ref:`soft keyword <soft-keywords>`."
 msgstr ""
 
 #: ../../library/keyword.rst:17
@@ -36,21 +34,13 @@ msgid "Return ``True`` if *s* is a Python :ref:`keyword <keywords>`."
 msgstr ""
 
 #: ../../library/keyword.rst:22
-msgid ""
-"Sequence containing all the :ref:`keywords <keywords>` defined for the "
-"interpreter.  If any keywords are defined to only be active when particular "
-":mod:`__future__` statements are in effect, these will be included as well."
+msgid "Sequence containing all the :ref:`keywords <keywords>` defined for the interpreter.  If any keywords are defined to only be active when particular :mod:`__future__` statements are in effect, these will be included as well."
 msgstr ""
 
 #: ../../library/keyword.rst:29
-msgid ""
-"Return ``True`` if *s* is a Python :ref:`soft keyword <soft-keywords>`."
+msgid "Return ``True`` if *s* is a Python :ref:`soft keyword <soft-keywords>`."
 msgstr ""
 
 #: ../../library/keyword.rst:36
-msgid ""
-"Sequence containing all the :ref:`soft keywords <soft-keywords>` defined for"
-" the interpreter.  If any soft keywords are defined to only be active when "
-"particular :mod:`__future__` statements are in effect, these will be "
-"included as well."
+msgid "Sequence containing all the :ref:`soft keywords <soft-keywords>` defined for the interpreter.  If any soft keywords are defined to only be active when particular :mod:`__future__` statements are in effect, these will be included as well."
 msgstr ""

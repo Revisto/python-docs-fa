@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,7 +22,5 @@ msgid "MS Windows Specific Services"
 msgstr ""
 
 #: ../../library/windows.rst:7
-msgid ""
-"This chapter describes modules that are only available on MS Windows "
-"platforms."
+msgid "This chapter describes modules that are only available on MS Windows platforms."
 msgstr ""

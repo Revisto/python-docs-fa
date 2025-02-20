@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,7 +22,5 @@ msgid "File Formats"
 msgstr ""
 
 #: ../../library/fileformats.rst:7
-msgid ""
-"The modules described in this chapter parse various miscellaneous file "
-"formats that aren't markup languages and are not related to e-mail."
+msgid "The modules described in this chapter parse various miscellaneous file formats that aren't markup languages and are not related to e-mail."
 msgstr ""

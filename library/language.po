@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,10 +22,7 @@ msgid "Python Language Services"
 msgstr ""
 
 #: ../../library/language.rst:7
-msgid ""
-"Python provides a number of modules to assist in working with the Python "
-"language.  These modules support tokenizing, parsing, syntax analysis, "
-"bytecode disassembly, and various other facilities."
+msgid "Python provides a number of modules to assist in working with the Python language.  These modules support tokenizing, parsing, syntax analysis, bytecode disassembly, and various other facilities."
 msgstr ""
 
 #: ../../library/language.rst:11

@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -26,52 +26,31 @@ msgid "**Source code:** :source:`Lib/modulefinder.py`"
 msgstr ""
 
 #: ../../library/modulefinder.rst:13
-msgid ""
-"This module provides a :class:`ModuleFinder` class that can be used to "
-"determine the set of modules imported by a script. ``modulefinder.py`` can "
-"also be run as a script, giving the filename of a Python script as its "
-"argument, after which a report of the imported modules will be printed."
+msgid "This module provides a :class:`ModuleFinder` class that can be used to determine the set of modules imported by a script. ``modulefinder.py`` can also be run as a script, giving the filename of a Python script as its argument, after which a report of the imported modules will be printed."
 msgstr ""
 
 #: ../../library/modulefinder.rst:21
-msgid ""
-"Record that the package named *pkg_name* can be found in the specified "
-"*path*."
+msgid "Record that the package named *pkg_name* can be found in the specified *path*."
 msgstr ""
 
 #: ../../library/modulefinder.rst:26
-msgid ""
-"Allows specifying that the module named *oldname* is in fact the package "
-"named *newname*."
+msgid "Allows specifying that the module named *oldname* is in fact the package named *newname*."
 msgstr ""
 
 #: ../../library/modulefinder.rst:32
-msgid ""
-"This class provides :meth:`run_script` and :meth:`report` methods to "
-"determine the set of modules imported by a script. *path* can be a list of "
-"directories to search for modules; if not specified, ``sys.path`` is used.  "
-"*debug* sets the debugging level; higher values make the class print "
-"debugging messages about what it's doing. *excludes* is a list of module "
-"names to exclude from the analysis. *replace_paths* is a list of ``(oldpath,"
-" newpath)`` tuples that will be replaced in module paths."
+msgid "This class provides :meth:`run_script` and :meth:`report` methods to determine the set of modules imported by a script. *path* can be a list of directories to search for modules; if not specified, ``sys.path`` is used.  *debug* sets the debugging level; higher values make the class print debugging messages about what it's doing. *excludes* is a list of module names to exclude from the analysis. *replace_paths* is a list of ``(oldpath, newpath)`` tuples that will be replaced in module paths."
 msgstr ""
 
 #: ../../library/modulefinder.rst:43
-msgid ""
-"Print a report to standard output that lists the modules imported by the "
-"script and their paths, as well as modules that are missing or seem to be "
-"missing."
+msgid "Print a report to standard output that lists the modules imported by the script and their paths, as well as modules that are missing or seem to be missing."
 msgstr ""
 
 #: ../../library/modulefinder.rst:49
-msgid ""
-"Analyze the contents of the *pathname* file, which must contain Python code."
+msgid "Analyze the contents of the *pathname* file, which must contain Python code."
 msgstr ""
 
 #: ../../library/modulefinder.rst:54
-msgid ""
-"A dictionary mapping module names to modules. See :ref:`modulefinder-"
-"example`."
+msgid "A dictionary mapping module names to modules. See :ref:`modulefinder-example`."
 msgstr ""
 
 #: ../../library/modulefinder.rst:61

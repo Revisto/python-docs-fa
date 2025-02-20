@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,13 +22,7 @@ msgid "Numeric and Mathematical Modules"
 msgstr ""
 
 #: ../../library/numeric.rst:8
-msgid ""
-"The modules described in this chapter provide numeric and math-related "
-"functions and data types. The :mod:`numbers` module defines an abstract "
-"hierarchy of numeric types. The :mod:`math` and :mod:`cmath` modules contain"
-" various mathematical functions for floating-point and complex numbers. The "
-":mod:`decimal` module supports exact representations of decimal numbers, "
-"using arbitrary precision arithmetic."
+msgid "The modules described in this chapter provide numeric and math-related functions and data types. The :mod:`numbers` module defines an abstract hierarchy of numeric types. The :mod:`math` and :mod:`cmath` modules contain various mathematical functions for floating-point and complex numbers. The :mod:`decimal` module supports exact representations of decimal numbers, using arbitrary precision arithmetic."
 msgstr ""
 
 #: ../../library/numeric.rst:15

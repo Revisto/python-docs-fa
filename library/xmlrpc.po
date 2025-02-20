@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,16 +22,11 @@ msgid ":mod:`!xmlrpc` --- XMLRPC server and client modules"
 msgstr ""
 
 #: ../../library/xmlrpc.rst:7
-msgid ""
-"XML-RPC is a Remote Procedure Call method that uses XML passed via HTTP as a"
-" transport.  With it, a client can call methods with parameters on a remote "
-"server (the server is named by a URI) and get back structured data."
+msgid "XML-RPC is a Remote Procedure Call method that uses XML passed via HTTP as a transport.  With it, a client can call methods with parameters on a remote server (the server is named by a URI) and get back structured data."
 msgstr ""
 
 #: ../../library/xmlrpc.rst:11
-msgid ""
-"``xmlrpc`` is a package that collects server and client modules implementing"
-" XML-RPC.  The modules are:"
+msgid "``xmlrpc`` is a package that collects server and client modules implementing XML-RPC.  The modules are:"
 msgstr ""
 
 #: ../../library/xmlrpc.rst:14

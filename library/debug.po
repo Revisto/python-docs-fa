@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,11 +22,5 @@ msgid "Debugging and Profiling"
 msgstr ""
 
 #: ../../library/debug.rst:5
-msgid ""
-"These libraries help you with Python development: the debugger enables you "
-"to step through code, analyze stack frames and set breakpoints etc., and the"
-" profilers run code and give you a detailed breakdown of execution times, "
-"allowing you to identify bottlenecks in your programs. Auditing events "
-"provide visibility into runtime behaviors that would otherwise require "
-"intrusive debugging or patching."
+msgid "These libraries help you with Python development: the debugger enables you to step through code, analyze stack frames and set breakpoints etc., and the profilers run code and give you a detailed breakdown of execution times, allowing you to identify bottlenecks in your programs. Auditing events provide visibility into runtime behaviors that would otherwise require intrusive debugging or patching."
 msgstr ""

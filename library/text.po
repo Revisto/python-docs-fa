@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,14 +22,9 @@ msgid "Text Processing Services"
 msgstr ""
 
 #: ../../library/text.rst:8
-msgid ""
-"The modules described in this chapter provide a wide range of string "
-"manipulation operations and other text processing services."
+msgid "The modules described in this chapter provide a wide range of string manipulation operations and other text processing services."
 msgstr ""
 
 #: ../../library/text.rst:11
-msgid ""
-"The :mod:`codecs` module described under :ref:`binaryservices` is also "
-"highly relevant to text processing. In addition, see the documentation for "
-"Python's built-in string type in :ref:`textseq`."
+msgid "The :mod:`codecs` module described under :ref:`binaryservices` is also highly relevant to text processing. In addition, see the documentation for Python's built-in string type in :ref:`textseq`."
 msgstr ""

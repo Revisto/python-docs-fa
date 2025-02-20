@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,9 +22,7 @@ msgid "Functional Programming Modules"
 msgstr ""
 
 #: ../../library/functional.rst:5
-msgid ""
-"The modules described in this chapter provide functions and classes that "
-"support a functional programming style, and general operations on callables."
+msgid "The modules described in this chapter provide functions and classes that support a functional programming style, and general operations on callables."
 msgstr ""
 
 #: ../../library/functional.rst:8

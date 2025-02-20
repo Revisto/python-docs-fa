@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,23 +22,13 @@ msgid ":mod:`!crypt` --- Function to check Unix passwords"
 msgstr ""
 
 #: ../../library/crypt.rst:10
-msgid ""
-"This module is no longer part of the Python standard library. It was "
-":ref:`removed in Python 3.13 <whatsnew313-pep594>` after being deprecated in"
-" Python 3.11.  The removal was decided in :pep:`594`."
+msgid "This module is no longer part of the Python standard library. It was :ref:`removed in Python 3.13 <whatsnew313-pep594>` after being deprecated in Python 3.11.  The removal was decided in :pep:`594`."
 msgstr ""
 
 #: ../../library/crypt.rst:14
-msgid ""
-"Applications can use the :mod:`hashlib` module from the standard library. "
-"Other possible replacements are third-party libraries from PyPI: "
-":pypi:`legacycrypt`, :pypi:`bcrypt`, :pypi:`argon2-cffi`, or "
-":pypi:`passlib`. These are not supported or maintained by the Python core "
-"team."
+msgid "Applications can use the :mod:`hashlib` module from the standard library. Other possible replacements are third-party libraries from PyPI: :pypi:`legacycrypt`, :pypi:`bcrypt`, :pypi:`argon2-cffi`, or :pypi:`passlib`. These are not supported or maintained by the Python core team."
 msgstr ""
 
 #: ../../library/crypt.rst:19
-msgid ""
-"The last version of Python that provided the :mod:`!crypt` module was "
-"`Python 3.12 <https://docs.python.org/3.12/library/crypt.html>`_."
+msgid "The last version of Python that provided the :mod:`!crypt` module was `Python 3.12 <https://docs.python.org/3.12/library/crypt.html>`_."
 msgstr ""

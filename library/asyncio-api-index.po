@@ -2,10 +2,10 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -34,9 +34,7 @@ msgid "Tasks"
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:14
-msgid ""
-"Utilities to run asyncio programs, create Tasks, and await on multiple "
-"things with timeouts."
+msgid "Utilities to run asyncio programs, create Tasks, and await on multiple things with timeouts."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:21
@@ -68,9 +66,7 @@ msgid ":class:`TaskGroup`"
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:31
-msgid ""
-"A context manager that holds a group of tasks. Provides a convenient and "
-"reliable way to wait for all tasks in the group to finish."
+msgid "A context manager that holds a group of tasks. Provides a convenient and reliable way to wait for all tasks in the group to finish."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:35
@@ -179,15 +175,11 @@ msgid "Examples"
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:74
-msgid ""
-":ref:`Using asyncio.gather() to run things in parallel "
-"<asyncio_example_gather>`."
+msgid ":ref:`Using asyncio.gather() to run things in parallel <asyncio_example_gather>`."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:77
-msgid ""
-":ref:`Using asyncio.wait_for() to enforce a timeout "
-"<asyncio_example_waitfor>`."
+msgid ":ref:`Using asyncio.wait_for() to enforce a timeout <asyncio_example_waitfor>`."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:80
@@ -207,9 +199,7 @@ msgid "Queues"
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:90
-msgid ""
-"Queues should be used to distribute work amongst multiple asyncio Tasks, "
-"implement connection pools, and pub/sub patterns."
+msgid "Queues should be used to distribute work amongst multiple asyncio Tasks, implement connection pools, and pub/sub patterns."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:98
@@ -237,9 +227,7 @@ msgid "A LIFO queue."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:110
-msgid ""
-":ref:`Using asyncio.Queue to distribute workload between several Tasks "
-"<asyncio_example_queue_dist>`."
+msgid ":ref:`Using asyncio.Queue to distribute workload between several Tasks <asyncio_example_queue_dist>`."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:113
@@ -275,8 +263,7 @@ msgid ":ref:`Executing a shell command <asyncio_example_subprocess_shell>`."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:136
-msgid ""
-"See also the :ref:`subprocess APIs <asyncio-subprocess>` documentation."
+msgid "See also the :ref:`subprocess APIs <asyncio-subprocess>` documentation."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:141
@@ -408,9 +395,7 @@ msgid ":ref:`Using asyncio.Barrier <asyncio_example_barrier>`."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:210
-msgid ""
-"See also the documentation of asyncio :ref:`synchronization primitives "
-"<asyncio-sync>`."
+msgid "See also the documentation of asyncio :ref:`synchronization primitives <asyncio-sync>`."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:215
@@ -434,13 +419,9 @@ msgid "Raised when a Barrier is broken. See also :meth:`Barrier.wait`."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:231
-msgid ""
-":ref:`Handling CancelledError to run code on cancellation request "
-"<asyncio_example_task_cancel>`."
+msgid ":ref:`Handling CancelledError to run code on cancellation request <asyncio_example_task_cancel>`."
 msgstr ""
 
 #: ../../library/asyncio-api-index.rst:234
-msgid ""
-"See also the full list of :ref:`asyncio-specific exceptions <asyncio-"
-"exceptions>`."
+msgid "See also the full list of :ref:`asyncio-specific exceptions <asyncio-exceptions>`."
 msgstr ""
