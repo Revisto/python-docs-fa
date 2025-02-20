@@ -7,6 +7,10 @@ on:
   pull_request:
     types: [labeled]     # Trigger on PR label
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   sync-translations:
     if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event.label.name == 'sync-translations'
@@ -43,7 +47,7 @@ jobs:
           find . -name "*.po" -exec msgcat --no-wrap {} -o {} \;
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Update Farsi translations from Transifex"
