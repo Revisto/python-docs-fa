@@ -51,6 +51,7 @@ jobs:
           find . -name "*.po" -exec powrap {} \;
 
       - name: Commit and push changes
+        if: github.event_name != 'pull_request'
         run: |
           git config --local user.name "GitHub Action's update-translation job"
           git config --local user.email github-actions@github.com
