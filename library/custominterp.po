@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,12 +22,7 @@ msgid "Custom Python Interpreters"
 msgstr ""
 
 #: ../../library/custominterp.rst:7
-msgid ""
-"The modules described in this chapter allow writing interfaces similar to "
-"Python's interactive interpreter.  If you want a Python interpreter that "
-"supports some special feature in addition to the Python language, you should"
-" look at the :mod:`code` module.  (The :mod:`codeop` module is lower-level, "
-"used to support compiling a possibly incomplete chunk of Python code.)"
+msgid "The modules described in this chapter allow writing interfaces similar to Python's interactive interpreter.  If you want a Python interpreter that supports some special feature in addition to the Python language, you should look at the :mod:`code` module.  (The :mod:`codeop` module is lower-level, used to support compiling a possibly incomplete chunk of Python code.)"
 msgstr ""
 
 #: ../../library/custominterp.rst:13

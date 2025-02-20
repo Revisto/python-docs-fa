@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,9 +22,7 @@ msgid "Importing Modules"
 msgstr ""
 
 #: ../../library/modules.rst:7
-msgid ""
-"The modules described in this chapter provide new ways to import other "
-"Python modules and hooks for customizing the import process."
+msgid "The modules described in this chapter provide new ways to import other Python modules and hooks for customizing the import process."
 msgstr ""
 
 #: ../../library/modules.rst:10

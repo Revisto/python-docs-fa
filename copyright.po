@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -34,18 +34,13 @@ msgid "Copyright © 2000 BeOpen.com. All rights reserved."
 msgstr ""
 
 #: ../../copyright.rst:11
-msgid ""
-"Copyright © 1995-2000 Corporation for National Research Initiatives. All "
-"rights reserved."
+msgid "Copyright © 1995-2000 Corporation for National Research Initiatives. All rights reserved."
 msgstr ""
 
 #: ../../copyright.rst:14
-msgid ""
-"Copyright © 1991-1995 Stichting Mathematisch Centrum. All rights reserved."
+msgid "Copyright © 1991-1995 Stichting Mathematisch Centrum. All rights reserved."
 msgstr ""
 
 #: ../../copyright.rst:18
-msgid ""
-"See :ref:`history-and-license` for complete license and permissions "
-"information."
+msgid "See :ref:`history-and-license` for complete license and permissions information."
 msgstr ""

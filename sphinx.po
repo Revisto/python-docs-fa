@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -65,15 +65,11 @@ msgid "PDF"
 msgstr ""
 
 #: ../../tools/templates/download.html:31
-msgid ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-pdf-a4.zip\">Download</a> "
-"(ca. %(download_size)s MiB)"
+msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-pdf-a4.zip\">Download</a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:32
-msgid ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-"
-"pdf-a4.tar.bz2\">Download</a> (ca. %(download_size)s MiB)"
+msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-pdf-a4.tar.bz2\">Download</a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:35
@@ -81,15 +77,11 @@ msgid "HTML"
 msgstr ""
 
 #: ../../tools/templates/download.html:36
-msgid ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.zip\">Download</a> "
-"(ca. %(download_size)s MiB)"
+msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.zip\">Download</a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:37
-msgid ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.tar.bz2\">Download</a>"
-" (ca. %(download_size)s MiB)"
+msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.tar.bz2\">Download</a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:40
@@ -97,15 +89,11 @@ msgid "Plain text"
 msgstr ""
 
 #: ../../tools/templates/download.html:41
-msgid ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.zip\">Download</a> "
-"(ca. %(download_size)s MiB)"
+msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.zip\">Download</a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:42
-msgid ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.tar.bz2\">Download</a>"
-" (ca. %(download_size)s MiB)"
+msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.tar.bz2\">Download</a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:45
@@ -113,15 +101,11 @@ msgid "Texinfo"
 msgstr ""
 
 #: ../../tools/templates/download.html:46
-msgid ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.zip\">Download</a> "
-"(ca. %(download_size)s MiB)"
+msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.zip\">Download</a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:47
-msgid ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs-"
-"texinfo.tar.bz2\">Download</a> (ca. %(download_size)s MiB)"
+msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.tar.bz2\">Download</a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:50
@@ -129,9 +113,7 @@ msgid "EPUB"
 msgstr ""
 
 #: ../../tools/templates/download.html:51
-msgid ""
-"<a href=\"%(dl_base)s/python-%(dl_version)s-docs.epub\">Download</a> (ca. "
-"%(download_size)s MiB)"
+msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs.epub\">Download</a> (ca. %(download_size)s MiB)"
 msgstr ""
 
 #: ../../tools/templates/download.html:56
@@ -228,8 +210,7 @@ msgid "CPython implementation detail:"
 msgstr ""
 
 #: ../../tools/templates/dummy.html:30
-msgid ""
-"Deprecated since version {deprecated}, will be removed in version {removed}"
+msgid "Deprecated since version {deprecated}, will be removed in version {removed}"
 msgstr ""
 
 #: ../../tools/templates/dummy.html:31
@@ -269,9 +250,7 @@ msgid "What's new in Python %(version)s?"
 msgstr ""
 
 #: ../../tools/templates/indexcontent.html:14
-msgid ""
-"Or <a href=\"%(whatsnew_index)s\">all \"What's new\" documents since Python "
-"2.0</a>"
+msgid "Or <a href=\"%(whatsnew_index)s\">all \"What's new\" documents since Python 2.0</a>"
 msgstr ""
 
 #: ../../tools/templates/indexcontent.html:15

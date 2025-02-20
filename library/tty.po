@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -26,9 +26,7 @@ msgid "**Source code:** :source:`Lib/tty.py`"
 msgstr ""
 
 #: ../../library/tty.rst:15
-msgid ""
-"The :mod:`tty` module defines functions for putting the tty into cbreak and "
-"raw modes."
+msgid "The :mod:`tty` module defines functions for putting the tty into cbreak and raw modes."
 msgstr ""
 
 #: ../../library/tty.rst:18
@@ -36,8 +34,7 @@ msgid "Availability"
 msgstr ""
 
 #: ../../library/tty.rst:20
-msgid ""
-"Because it requires the :mod:`termios` module, it will work only on Unix."
+msgid "Because it requires the :mod:`termios` module, it will work only on Unix."
 msgstr ""
 
 #: ../../library/tty.rst:22
@@ -45,61 +42,39 @@ msgid "The :mod:`tty` module defines the following functions:"
 msgstr ""
 
 #: ../../library/tty.rst:27
-msgid ""
-"Convert the tty attribute list *mode*, which is a list like the one returned"
-" by :func:`termios.tcgetattr`, to that of a tty in raw mode."
+msgid "Convert the tty attribute list *mode*, which is a list like the one returned by :func:`termios.tcgetattr`, to that of a tty in raw mode."
 msgstr ""
 
 #: ../../library/tty.rst:35
-msgid ""
-"Convert the tty attribute list *mode*, which is a list like the one returned"
-" by :func:`termios.tcgetattr`, to that of a tty in cbreak mode."
+msgid "Convert the tty attribute list *mode*, which is a list like the one returned by :func:`termios.tcgetattr`, to that of a tty in cbreak mode."
 msgstr ""
 
 #: ../../library/tty.rst:38
-msgid ""
-"This clears the ``ECHO`` and ``ICANON`` local mode flags in *mode* as well "
-"as setting the minimum input to 1 byte with no delay."
+msgid "This clears the ``ECHO`` and ``ICANON`` local mode flags in *mode* as well as setting the minimum input to 1 byte with no delay."
 msgstr ""
 
 #: ../../library/tty.rst:43
-msgid ""
-"The ``ICRNL`` flag is no longer cleared. This matches Linux and macOS ``stty"
-" cbreak`` behavior and what :func:`setcbreak` historically did."
+msgid "The ``ICRNL`` flag is no longer cleared. This matches Linux and macOS ``stty cbreak`` behavior and what :func:`setcbreak` historically did."
 msgstr ""
 
 #: ../../library/tty.rst:50
-msgid ""
-"Change the mode of the file descriptor *fd* to raw. If *when* is omitted, it"
-" defaults to :const:`termios.TCSAFLUSH`, and is passed to "
-":func:`termios.tcsetattr`. The return value of :func:`termios.tcgetattr` is "
-"saved before setting *fd* to raw mode; this value is returned."
+msgid "Change the mode of the file descriptor *fd* to raw. If *when* is omitted, it defaults to :const:`termios.TCSAFLUSH`, and is passed to :func:`termios.tcsetattr`. The return value of :func:`termios.tcgetattr` is saved before setting *fd* to raw mode; this value is returned."
 msgstr ""
 
 #: ../../library/tty.rst:55 ../../library/tty.rst:69
-msgid ""
-"The return value is now the original tty attributes, instead of ``None``."
+msgid "The return value is now the original tty attributes, instead of ``None``."
 msgstr ""
 
 #: ../../library/tty.rst:61
-msgid ""
-"Change the mode of file descriptor *fd* to cbreak. If *when* is omitted, it "
-"defaults to :const:`termios.TCSAFLUSH`, and is passed to "
-":func:`termios.tcsetattr`. The return value of :func:`termios.tcgetattr` is "
-"saved before setting *fd* to cbreak mode; this value is returned."
+msgid "Change the mode of file descriptor *fd* to cbreak. If *when* is omitted, it defaults to :const:`termios.TCSAFLUSH`, and is passed to :func:`termios.tcsetattr`. The return value of :func:`termios.tcgetattr` is saved before setting *fd* to cbreak mode; this value is returned."
 msgstr ""
 
 #: ../../library/tty.rst:66
-msgid ""
-"This clears the ``ECHO`` and ``ICANON`` local mode flags as well as setting "
-"the minimum input to 1 byte with no delay."
+msgid "This clears the ``ECHO`` and ``ICANON`` local mode flags as well as setting the minimum input to 1 byte with no delay."
 msgstr ""
 
 #: ../../library/tty.rst:72
-msgid ""
-"The ``ICRNL`` flag is no longer cleared. This restores the behavior of "
-"Python 3.11 and earlier as well as matching what Linux, macOS, & BSDs "
-"describe in their ``stty(1)`` man pages regarding cbreak mode."
+msgid "The ``ICRNL`` flag is no longer cleared. This restores the behavior of Python 3.11 and earlier as well as matching what Linux, macOS, & BSDs describe in their ``stty(1)`` man pages regarding cbreak mode."
 msgstr ""
 
 #: ../../library/tty.rst:80

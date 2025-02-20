@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,8 +22,5 @@ msgid "Removed Modules"
 msgstr ""
 
 #: ../../library/removed.rst:9
-msgid ""
-"The modules described in this chapter have been removed from the Python "
-"standard library.  They are documented here to help people find "
-"replacements."
+msgid "The modules described in this chapter have been removed from the Python standard library.  They are documented here to help people find replacements."
 msgstr ""

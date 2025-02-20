@@ -2,10 +2,10 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -30,9 +30,7 @@ msgid "**Source code:** :source:`Lib/pkgutil.py`"
 msgstr ""
 
 #: ../../library/pkgutil.rst:11
-msgid ""
-"This module provides utilities for the import system, in particular package "
-"support."
+msgid "This module provides utilities for the import system, in particular package support."
 msgstr ""
 
 #: ../../library/pkgutil.rst:16
@@ -40,9 +38,7 @@ msgid "A namedtuple that holds a brief summary of a module's info."
 msgstr ""
 
 #: ../../library/pkgutil.rst:22
-msgid ""
-"Extend the search path for the modules which comprise a package.  Intended "
-"use is to place the following code in a package's :file:`__init__.py`::"
+msgid "Extend the search path for the modules which comprise a package.  Intended use is to place the following code in a package's :file:`__init__.py`::"
 msgstr ""
 
 #: ../../library/pkgutil.rst:25
@@ -52,38 +48,19 @@ msgid ""
 msgstr ""
 
 #: ../../library/pkgutil.rst:28
-msgid ""
-"For each directory on :data:`sys.path` that has a subdirectory that matches "
-"the package name, add the subdirectory to the package's "
-":attr:`~module.__path__`. This is useful if one wants to distribute "
-"different parts of a single logical package as multiple directories."
+msgid "For each directory on :data:`sys.path` that has a subdirectory that matches the package name, add the subdirectory to the package's :attr:`~module.__path__`. This is useful if one wants to distribute different parts of a single logical package as multiple directories."
 msgstr ""
 
 #: ../../library/pkgutil.rst:34
-msgid ""
-"It also looks for :file:`\\*.pkg` files beginning where ``*`` matches the "
-"*name* argument.  This feature is similar to :file:`\\*.pth` files (see the "
-":mod:`site` module for more information), except that it doesn't special-"
-"case lines starting with ``import``.  A :file:`\\*.pkg` file is trusted at "
-"face value: apart from skipping blank lines and ignoring comments, all "
-"entries found in a :file:`\\*.pkg` file are added to the path, regardless of"
-" whether they exist on the filesystem (this is a feature)."
+msgid "It also looks for :file:`\\*.pkg` files beginning where ``*`` matches the *name* argument.  This feature is similar to :file:`\\*.pth` files (see the :mod:`site` module for more information), except that it doesn't special-case lines starting with ``import``.  A :file:`\\*.pkg` file is trusted at face value: apart from skipping blank lines and ignoring comments, all entries found in a :file:`\\*.pkg` file are added to the path, regardless of whether they exist on the filesystem (this is a feature)."
 msgstr ""
 
 #: ../../library/pkgutil.rst:42
-msgid ""
-"If the input path is not a list (as is the case for frozen packages) it is "
-"returned unchanged.  The input path is not modified; an extended copy is "
-"returned.  Items are only appended to the copy at the end."
+msgid "If the input path is not a list (as is the case for frozen packages) it is returned unchanged.  The input path is not modified; an extended copy is returned.  Items are only appended to the copy at the end."
 msgstr ""
 
 #: ../../library/pkgutil.rst:46
-msgid ""
-"It is assumed that :data:`sys.path` is a sequence.  Items of "
-":data:`sys.path` that are not strings referring to existing directories are "
-"ignored. Unicode items on :data:`sys.path` that cause errors when used as "
-"filenames may cause this function to raise an exception (in line with "
-":func:`os.path.isdir` behavior)."
+msgid "It is assumed that :data:`sys.path` is a sequence.  Items of :data:`sys.path` that are not strings referring to existing directories are ignored. Unicode items on :data:`sys.path` that cause errors when used as filenames may cause this function to raise an exception (in line with :func:`os.path.isdir` behavior)."
 msgstr ""
 
 #: ../../library/pkgutil.rst:54
@@ -91,19 +68,13 @@ msgid "Retrieve a module :term:`loader` for the given *fullname*."
 msgstr ""
 
 #: ../../library/pkgutil.rst:56
-msgid ""
-"This is a backwards compatibility wrapper around "
-":func:`importlib.util.find_spec` that converts most failures to "
-":exc:`ImportError` and only returns the loader rather than the full "
-":class:`importlib.machinery.ModuleSpec`."
+msgid "This is a backwards compatibility wrapper around :func:`importlib.util.find_spec` that converts most failures to :exc:`ImportError` and only returns the loader rather than the full :class:`importlib.machinery.ModuleSpec`."
 msgstr ""
 
 #: ../../library/pkgutil.rst:61 ../../library/pkgutil.rst:82
 #: ../../library/pkgutil.rst:97 ../../library/pkgutil.rst:121
 #: ../../library/pkgutil.rst:142 ../../library/pkgutil.rst:181
-msgid ""
-"Updated to be based directly on :mod:`importlib` rather than relying on the "
-"package internal :pep:`302` import emulation."
+msgid "Updated to be based directly on :mod:`importlib` rather than relying on the package internal :pep:`302` import emulation."
 msgstr ""
 
 #: ../../library/pkgutil.rst:65 ../../library/pkgutil.rst:101
@@ -119,15 +90,11 @@ msgid "Retrieve a :term:`finder` for the given *path_item*."
 msgstr ""
 
 #: ../../library/pkgutil.rst:76
-msgid ""
-"The returned finder is cached in :data:`sys.path_importer_cache` if it was "
-"newly created by a path hook."
+msgid "The returned finder is cached in :data:`sys.path_importer_cache` if it was newly created by a path hook."
 msgstr ""
 
 #: ../../library/pkgutil.rst:79
-msgid ""
-"The cache (or part of it) can be cleared manually if a rescan of "
-":data:`sys.path_hooks` is necessary."
+msgid "The cache (or part of it) can be cleared manually if a rescan of :data:`sys.path_hooks` is necessary."
 msgstr ""
 
 #: ../../library/pkgutil.rst:89
@@ -135,12 +102,7 @@ msgid "Get a :term:`loader` object for *module_or_name*."
 msgstr ""
 
 #: ../../library/pkgutil.rst:91
-msgid ""
-"If the module or package is accessible via the normal import mechanism, a "
-"wrapper around the relevant part of that machinery is returned.  Returns "
-"``None`` if the module cannot be found or imported.  If the named module is "
-"not already imported, its containing package (if any) is imported, in order "
-"to establish the package ``__path__``."
+msgid "If the module or package is accessible via the normal import mechanism, a wrapper around the relevant part of that machinery is returned.  Returns ``None`` if the module cannot be found or imported.  If the named module is not already imported, its containing package (if any) is imported, in order to establish the package ``__path__``."
 msgstr ""
 
 #: ../../library/pkgutil.rst:110
@@ -148,16 +110,11 @@ msgid "Yield :term:`finder` objects for the given module name."
 msgstr ""
 
 #: ../../library/pkgutil.rst:112
-msgid ""
-"If fullname contains a ``'.'``, the finders will be for the package "
-"containing fullname, otherwise they will be all registered top level finders"
-" (i.e. those on both :data:`sys.meta_path` and :data:`sys.path_hooks`)."
+msgid "If fullname contains a ``'.'``, the finders will be for the package containing fullname, otherwise they will be all registered top level finders (i.e. those on both :data:`sys.meta_path` and :data:`sys.path_hooks`)."
 msgstr ""
 
 #: ../../library/pkgutil.rst:116
-msgid ""
-"If the named module is in a package, that package is imported as a side "
-"effect of invoking this function."
+msgid "If the named module is in a package, that package is imported as a side effect of invoking this function."
 msgstr ""
 
 #: ../../library/pkgutil.rst:119
@@ -165,49 +122,31 @@ msgid "If no module name is specified, all top level finders are produced."
 msgstr ""
 
 #: ../../library/pkgutil.rst:128
-msgid ""
-"Yields :class:`ModuleInfo` for all submodules on *path*, or, if *path* is "
-"``None``, all top-level modules on :data:`sys.path`."
+msgid "Yields :class:`ModuleInfo` for all submodules on *path*, or, if *path* is ``None``, all top-level modules on :data:`sys.path`."
 msgstr ""
 
 #: ../../library/pkgutil.rst:131 ../../library/pkgutil.rst:152
-msgid ""
-"*path* should be either ``None`` or a list of paths to look for modules in."
+msgid "*path* should be either ``None`` or a list of paths to look for modules in."
 msgstr ""
 
 #: ../../library/pkgutil.rst:133 ../../library/pkgutil.rst:154
-msgid ""
-"*prefix* is a string to output on the front of every module name on output."
+msgid "*prefix* is a string to output on the front of every module name on output."
 msgstr ""
 
 #: ../../library/pkgutil.rst:137 ../../library/pkgutil.rst:176
-msgid ""
-"Only works for a :term:`finder` which defines an ``iter_modules()`` method. "
-"This interface is non-standard, so the module also provides implementations "
-"for :class:`importlib.machinery.FileFinder` and "
-":class:`zipimport.zipimporter`."
+msgid "Only works for a :term:`finder` which defines an ``iter_modules()`` method. This interface is non-standard, so the module also provides implementations for :class:`importlib.machinery.FileFinder` and :class:`zipimport.zipimporter`."
 msgstr ""
 
 #: ../../library/pkgutil.rst:149
-msgid ""
-"Yields :class:`ModuleInfo` for all modules recursively on *path*, or, if "
-"*path* is ``None``, all accessible modules."
+msgid "Yields :class:`ModuleInfo` for all modules recursively on *path*, or, if *path* is ``None``, all accessible modules."
 msgstr ""
 
 #: ../../library/pkgutil.rst:156
-msgid ""
-"Note that this function must import all *packages* (*not* all modules!) on "
-"the given *path*, in order to access the ``__path__`` attribute to find "
-"submodules."
+msgid "Note that this function must import all *packages* (*not* all modules!) on the given *path*, in order to access the ``__path__`` attribute to find submodules."
 msgstr ""
 
 #: ../../library/pkgutil.rst:160
-msgid ""
-"*onerror* is a function which gets called with one argument (the name of the"
-" package which was being imported) if any exception occurs while trying to "
-"import a package.  If no *onerror* function is supplied, "
-":exc:`ImportError`\\s are caught and ignored, while all other exceptions are"
-" propagated, terminating the search."
+msgid "*onerror* is a function which gets called with one argument (the name of the package which was being imported) if any exception occurs while trying to import a package.  If no *onerror* function is supplied, :exc:`ImportError`\\s are caught and ignored, while all other exceptions are propagated, terminating the search."
 msgstr ""
 
 #: ../../library/pkgutil.rst:166
@@ -228,25 +167,15 @@ msgid "Get a resource from a package."
 msgstr ""
 
 #: ../../library/pkgutil.rst:190
-msgid ""
-"This is a wrapper for the :term:`loader` :meth:`get_data "
-"<importlib.abc.ResourceLoader.get_data>` API.  The *package* argument should"
-" be the name of a package, in standard module format (``foo.bar``).  The "
-"*resource* argument should be in the form of a relative filename, using "
-"``/`` as the path separator.  The parent directory name ``..`` is not "
-"allowed, and nor is a rooted name (starting with a ``/``)."
+msgid "This is a wrapper for the :term:`loader` :meth:`get_data <importlib.abc.ResourceLoader.get_data>` API.  The *package* argument should be the name of a package, in standard module format (``foo.bar``).  The *resource* argument should be in the form of a relative filename, using ``/`` as the path separator.  The parent directory name ``..`` is not allowed, and nor is a rooted name (starting with a ``/``)."
 msgstr ""
 
 #: ../../library/pkgutil.rst:197
-msgid ""
-"The function returns a binary string that is the contents of the specified "
-"resource."
+msgid "The function returns a binary string that is the contents of the specified resource."
 msgstr ""
 
 #: ../../library/pkgutil.rst:200
-msgid ""
-"For packages located in the filesystem, which have already been imported, "
-"this is the rough equivalent of::"
+msgid "For packages located in the filesystem, which have already been imported, this is the rough equivalent of::"
 msgstr ""
 
 #: ../../library/pkgutil.rst:203
@@ -256,13 +185,7 @@ msgid ""
 msgstr ""
 
 #: ../../library/pkgutil.rst:206
-msgid ""
-"If the package cannot be located or loaded, or it uses a :term:`loader` "
-"which does not support :meth:`get_data "
-"<importlib.abc.ResourceLoader.get_data>`, then ``None`` is returned.  In "
-"particular, the :term:`loader` for :term:`namespace packages <namespace "
-"package>` does not support :meth:`get_data "
-"<importlib.abc.ResourceLoader.get_data>`."
+msgid "If the package cannot be located or loaded, or it uses a :term:`loader` which does not support :meth:`get_data <importlib.abc.ResourceLoader.get_data>`, then ``None`` is returned.  In particular, the :term:`loader` for :term:`namespace packages <namespace package>` does not support :meth:`get_data <importlib.abc.ResourceLoader.get_data>`."
 msgstr ""
 
 #: ../../library/pkgutil.rst:215
@@ -270,17 +193,11 @@ msgid "Resolve a name to an object."
 msgstr ""
 
 #: ../../library/pkgutil.rst:217
-msgid ""
-"This functionality is used in numerous places in the standard library (see "
-":issue:`12915`) - and equivalent functionality is also in widely used third-"
-"party packages such as setuptools, Django and Pyramid."
+msgid "This functionality is used in numerous places in the standard library (see :issue:`12915`) - and equivalent functionality is also in widely used third-party packages such as setuptools, Django and Pyramid."
 msgstr ""
 
 #: ../../library/pkgutil.rst:221
-msgid ""
-"It is expected that *name* will be a string in one of the following formats,"
-" where W is shorthand for a valid Python identifier and dot stands for a "
-"literal period in these pseudo-regexes:"
+msgid "It is expected that *name* will be a string in one of the following formats, where W is shorthand for a valid Python identifier and dot stands for a literal period in these pseudo-regexes:"
 msgstr ""
 
 #: ../../library/pkgutil.rst:225
@@ -292,28 +209,15 @@ msgid "``W(.W)*:(W(.W)*)?``"
 msgstr ""
 
 #: ../../library/pkgutil.rst:228
-msgid ""
-"The first form is intended for backward compatibility only. It assumes that "
-"some part of the dotted name is a package, and the rest is an object "
-"somewhere within that package, possibly nested inside other objects. Because"
-" the place where the package stops and the object hierarchy starts can't be "
-"inferred by inspection, repeated attempts to import must be done with this "
-"form."
+msgid "The first form is intended for backward compatibility only. It assumes that some part of the dotted name is a package, and the rest is an object somewhere within that package, possibly nested inside other objects. Because the place where the package stops and the object hierarchy starts can't be inferred by inspection, repeated attempts to import must be done with this form."
 msgstr ""
 
 #: ../../library/pkgutil.rst:235
-msgid ""
-"In the second form, the caller makes the division point clear through the "
-"provision of a single colon: the dotted name to the left of the colon is a "
-"package to be imported, and the dotted name to the right is the object "
-"hierarchy within that package. Only one import is needed in this form. If it"
-" ends with the colon, then a module object is returned."
+msgid "In the second form, the caller makes the division point clear through the provision of a single colon: the dotted name to the left of the colon is a package to be imported, and the dotted name to the right is the object hierarchy within that package. Only one import is needed in this form. If it ends with the colon, then a module object is returned."
 msgstr ""
 
 #: ../../library/pkgutil.rst:241
-msgid ""
-"The function will return an object (which might be a module), or raise one "
-"of the following exceptions:"
+msgid "The function will return an object (which might be a module), or raise one of the following exceptions:"
 msgstr ""
 
 #: ../../library/pkgutil.rst:244
@@ -325,7 +229,5 @@ msgid ":exc:`ImportError` -- if an import failed when it shouldn't have."
 msgstr ""
 
 #: ../../library/pkgutil.rst:248
-msgid ""
-":exc:`AttributeError` -- If a failure occurred when traversing the object "
-"hierarchy within the imported package to get to the desired object."
+msgid ":exc:`AttributeError` -- If a failure occurred when traversing the object hierarchy within the imported package to get to the desired object."
 msgstr ""

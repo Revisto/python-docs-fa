@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,12 +22,7 @@ msgid "Concurrent Execution"
 msgstr ""
 
 #: ../../library/concurrency.rst:7
-msgid ""
-"The modules described in this chapter provide support for concurrent "
-"execution of code. The appropriate choice of tool will depend on the task to"
-" be executed (CPU bound vs IO bound) and preferred style of development "
-"(event driven cooperative multitasking vs preemptive multitasking). Here's "
-"an overview:"
+msgid "The modules described in this chapter provide support for concurrent execution of code. The appropriate choice of tool will depend on the task to be executed (CPU bound vs IO bound) and preferred style of development (event driven cooperative multitasking vs preemptive multitasking). Here's an overview:"
 msgstr ""
 
 #: ../../library/concurrency.rst:27

@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,55 +22,35 @@ msgid ":mod:`!errno` --- Standard errno system symbols"
 msgstr ""
 
 #: ../../library/errno.rst:9
-msgid ""
-"This module makes available standard ``errno`` system symbols. The value of "
-"each symbol is the corresponding integer value. The names and descriptions "
-"are borrowed from :file:`linux/include/errno.h`, which should be all-"
-"inclusive."
+msgid "This module makes available standard ``errno`` system symbols. The value of each symbol is the corresponding integer value. The names and descriptions are borrowed from :file:`linux/include/errno.h`, which should be all-inclusive."
 msgstr ""
 
 #: ../../library/errno.rst:17
-msgid ""
-"Dictionary providing a mapping from the errno value to the string name in "
-"the underlying system.  For instance, ``errno.errorcode[errno.EPERM]`` maps "
-"to ``'EPERM'``."
+msgid "Dictionary providing a mapping from the errno value to the string name in the underlying system.  For instance, ``errno.errorcode[errno.EPERM]`` maps to ``'EPERM'``."
 msgstr ""
 
 #: ../../library/errno.rst:21
-msgid ""
-"To translate a numeric error code to an error message, use "
-":func:`os.strerror`."
+msgid "To translate a numeric error code to an error message, use :func:`os.strerror`."
 msgstr ""
 
 #: ../../library/errno.rst:23
-msgid ""
-"Of the following list, symbols that are not used on the current platform are"
-" not defined by the module.  The specific list of defined symbols is "
-"available as ``errno.errorcode.keys()``.  Symbols available can include:"
+msgid "Of the following list, symbols that are not used on the current platform are not defined by the module.  The specific list of defined symbols is available as ``errno.errorcode.keys()``.  Symbols available can include:"
 msgstr ""
 
 #: ../../library/errno.rst:30
-msgid ""
-"Operation not permitted. This error is mapped to the exception "
-":exc:`PermissionError`."
+msgid "Operation not permitted. This error is mapped to the exception :exc:`PermissionError`."
 msgstr ""
 
 #: ../../library/errno.rst:36
-msgid ""
-"No such file or directory. This error is mapped to the exception "
-":exc:`FileNotFoundError`."
+msgid "No such file or directory. This error is mapped to the exception :exc:`FileNotFoundError`."
 msgstr ""
 
 #: ../../library/errno.rst:42
-msgid ""
-"No such process. This error is mapped to the exception "
-":exc:`ProcessLookupError`."
+msgid "No such process. This error is mapped to the exception :exc:`ProcessLookupError`."
 msgstr ""
 
 #: ../../library/errno.rst:48
-msgid ""
-"Interrupted system call. This error is mapped to the exception "
-":exc:`InterruptedError`."
+msgid "Interrupted system call. This error is mapped to the exception :exc:`InterruptedError`."
 msgstr ""
 
 #: ../../library/errno.rst:54
@@ -94,14 +74,11 @@ msgid "Bad file number"
 msgstr ""
 
 #: ../../library/errno.rst:79
-msgid ""
-"No child processes. This error is mapped to the exception "
-":exc:`ChildProcessError`."
+msgid "No child processes. This error is mapped to the exception :exc:`ChildProcessError`."
 msgstr ""
 
 #: ../../library/errno.rst:85
-msgid ""
-"Try again. This error is mapped to the exception :exc:`BlockingIOError`."
+msgid "Try again. This error is mapped to the exception :exc:`BlockingIOError`."
 msgstr ""
 
 #: ../../library/errno.rst:90
@@ -109,9 +86,7 @@ msgid "Out of memory"
 msgstr ""
 
 #: ../../library/errno.rst:95
-msgid ""
-"Permission denied.  This error is mapped to the exception "
-":exc:`PermissionError`."
+msgid "Permission denied.  This error is mapped to the exception :exc:`PermissionError`."
 msgstr ""
 
 #: ../../library/errno.rst:101
@@ -127,8 +102,7 @@ msgid "Device or resource busy"
 msgstr ""
 
 #: ../../library/errno.rst:116
-msgid ""
-"File exists. This error is mapped to the exception :exc:`FileExistsError`."
+msgid "File exists. This error is mapped to the exception :exc:`FileExistsError`."
 msgstr ""
 
 #: ../../library/errno.rst:122
@@ -140,15 +114,11 @@ msgid "No such device"
 msgstr ""
 
 #: ../../library/errno.rst:132
-msgid ""
-"Not a directory. This error is mapped to the exception "
-":exc:`NotADirectoryError`."
+msgid "Not a directory. This error is mapped to the exception :exc:`NotADirectoryError`."
 msgstr ""
 
 #: ../../library/errno.rst:138
-msgid ""
-"Is a directory. This error is mapped to the exception "
-":exc:`IsADirectoryError`."
+msgid "Is a directory. This error is mapped to the exception :exc:`IsADirectoryError`."
 msgstr ""
 
 #: ../../library/errno.rst:144
@@ -192,8 +162,7 @@ msgid "Too many links"
 msgstr ""
 
 #: ../../library/errno.rst:194
-msgid ""
-"Broken pipe. This error is mapped to the exception :exc:`BrokenPipeError`."
+msgid "Broken pipe. This error is mapped to the exception :exc:`BrokenPipeError`."
 msgstr ""
 
 #: ../../library/errno.rst:200
@@ -229,9 +198,7 @@ msgid "Too many symbolic links encountered"
 msgstr ""
 
 #: ../../library/errno.rst:240
-msgid ""
-"Operation would block. This error is mapped to the exception "
-":exc:`BlockingIOError`."
+msgid "Operation would block. This error is mapped to the exception :exc:`BlockingIOError`."
 msgstr ""
 
 #: ../../library/errno.rst:246
@@ -483,15 +450,11 @@ msgid "Network dropped connection because of reset"
 msgstr ""
 
 #: ../../library/errno.rst:558
-msgid ""
-"Software caused connection abort. This error is mapped to the exception "
-":exc:`ConnectionAbortedError`."
+msgid "Software caused connection abort. This error is mapped to the exception :exc:`ConnectionAbortedError`."
 msgstr ""
 
 #: ../../library/errno.rst:564
-msgid ""
-"Connection reset by peer. This error is mapped to the exception "
-":exc:`ConnectionResetError`."
+msgid "Connection reset by peer. This error is mapped to the exception :exc:`ConnectionResetError`."
 msgstr ""
 
 #: ../../library/errno.rst:570
@@ -507,9 +470,7 @@ msgid "Transport endpoint is not connected"
 msgstr ""
 
 #: ../../library/errno.rst:585
-msgid ""
-"Cannot send after transport endpoint shutdown. This error is mapped to the "
-"exception :exc:`BrokenPipeError`."
+msgid "Cannot send after transport endpoint shutdown. This error is mapped to the exception :exc:`BrokenPipeError`."
 msgstr ""
 
 #: ../../library/errno.rst:591
@@ -517,15 +478,11 @@ msgid "Too many references: cannot splice"
 msgstr ""
 
 #: ../../library/errno.rst:596
-msgid ""
-"Connection timed out. This error is mapped to the exception "
-":exc:`TimeoutError`."
+msgid "Connection timed out. This error is mapped to the exception :exc:`TimeoutError`."
 msgstr ""
 
 #: ../../library/errno.rst:602
-msgid ""
-"Connection refused. This error is mapped to the exception "
-":exc:`ConnectionRefusedError`."
+msgid "Connection refused. This error is mapped to the exception :exc:`ConnectionRefusedError`."
 msgstr ""
 
 #: ../../library/errno.rst:608
@@ -537,15 +494,11 @@ msgid "No route to host"
 msgstr ""
 
 #: ../../library/errno.rst:618
-msgid ""
-"Operation already in progress. This error is mapped to the exception "
-":exc:`BlockingIOError`."
+msgid "Operation already in progress. This error is mapped to the exception :exc:`BlockingIOError`."
 msgstr ""
 
 #: ../../library/errno.rst:624
-msgid ""
-"Operation now in progress. This error is mapped to the exception "
-":exc:`BlockingIOError`."
+msgid "Operation now in progress. This error is mapped to the exception :exc:`BlockingIOError`."
 msgstr ""
 
 #: ../../library/errno.rst:630
@@ -685,9 +638,7 @@ msgid "Shared library version mismatch"
 msgstr ""
 
 #: ../../library/errno.rst:835
-msgid ""
-"Capabilities insufficient. This error is mapped to the exception "
-":exc:`PermissionError`."
+msgid "Capabilities insufficient. This error is mapped to the exception :exc:`PermissionError`."
 msgstr ""
 
 #: ../../library/errno.rst:838

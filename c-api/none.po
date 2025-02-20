@@ -2,10 +2,10 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -26,17 +26,11 @@ msgid "The ``None`` Object"
 msgstr ""
 
 #: ../../c-api/none.rst:10
-msgid ""
-"Note that the :c:type:`PyTypeObject` for ``None`` is not directly exposed in"
-" the Python/C API.  Since ``None`` is a singleton, testing for object "
-"identity (using ``==`` in C) is sufficient. There is no "
-":c:func:`!PyNone_Check` function for the same reason."
+msgid "Note that the :c:type:`PyTypeObject` for ``None`` is not directly exposed in the Python/C API.  Since ``None`` is a singleton, testing for object identity (using ``==`` in C) is sufficient. There is no :c:func:`!PyNone_Check` function for the same reason."
 msgstr ""
 
 #: ../../c-api/none.rst:18
-msgid ""
-"The Python ``None`` object, denoting lack of value.  This object has no "
-"methods and is :term:`immortal`."
+msgid "The Python ``None`` object, denoting lack of value.  This object has no methods and is :term:`immortal`."
 msgstr ""
 
 #: ../../c-api/none.rst:21

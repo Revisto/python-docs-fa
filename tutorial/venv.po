@@ -2,10 +2,10 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -30,38 +30,19 @@ msgid "Introduction"
 msgstr ""
 
 #: ../../tutorial/venv.rst:11
-msgid ""
-"Python applications will often use packages and modules that don't come as "
-"part of the standard library.  Applications will sometimes need a specific "
-"version of a library, because the application may require that a particular "
-"bug has been fixed or the application may be written using an obsolete "
-"version of the library's interface."
+msgid "Python applications will often use packages and modules that don't come as part of the standard library.  Applications will sometimes need a specific version of a library, because the application may require that a particular bug has been fixed or the application may be written using an obsolete version of the library's interface."
 msgstr ""
 
 #: ../../tutorial/venv.rst:17
-msgid ""
-"This means it may not be possible for one Python installation to meet the "
-"requirements of every application.  If application A needs version 1.0 of a "
-"particular module but application B needs version 2.0, then the requirements"
-" are in conflict and installing either version 1.0 or 2.0 will leave one "
-"application unable to run."
+msgid "This means it may not be possible for one Python installation to meet the requirements of every application.  If application A needs version 1.0 of a particular module but application B needs version 2.0, then the requirements are in conflict and installing either version 1.0 or 2.0 will leave one application unable to run."
 msgstr ""
 
 #: ../../tutorial/venv.rst:23
-msgid ""
-"The solution for this problem is to create a :term:`virtual environment`, a "
-"self-contained directory tree that contains a Python installation for a "
-"particular version of Python, plus a number of additional packages."
+msgid "The solution for this problem is to create a :term:`virtual environment`, a self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages."
 msgstr ""
 
 #: ../../tutorial/venv.rst:27
-msgid ""
-"Different applications can then use different virtual environments. To "
-"resolve the earlier example of conflicting requirements, application A can "
-"have its own virtual environment with version 1.0 installed while "
-"application B has another virtual environment with version 2.0. If "
-"application B requires a library be upgraded to version 3.0, this will not "
-"affect application A's environment."
+msgid "Different applications can then use different virtual environments. To resolve the earlier example of conflicting requirements, application A can have its own virtual environment with version 1.0 installed while application B has another virtual environment with version 2.0. If application B requires a library be upgraded to version 3.0, this will not affect application A's environment."
 msgstr ""
 
 #: ../../tutorial/venv.rst:36
@@ -69,19 +50,11 @@ msgid "Creating Virtual Environments"
 msgstr ""
 
 #: ../../tutorial/venv.rst:38
-msgid ""
-"The module used to create and manage virtual environments is called "
-":mod:`venv`.  :mod:`venv` will install the Python version from which the "
-"command was run (as reported by the :option:`--version` option). For "
-"instance, executing the command with ``python3.12`` will install version "
-"3.12."
+msgid "The module used to create and manage virtual environments is called :mod:`venv`.  :mod:`venv` will install the Python version from which the command was run (as reported by the :option:`--version` option). For instance, executing the command with ``python3.12`` will install version 3.12."
 msgstr ""
 
 #: ../../tutorial/venv.rst:44
-msgid ""
-"To create a virtual environment, decide upon a directory where you want to "
-"place it, and run the :mod:`venv` module as a script with the directory "
-"path::"
+msgid "To create a virtual environment, decide upon a directory where you want to place it, and run the :mod:`venv` module as a script with the directory path::"
 msgstr ""
 
 #: ../../tutorial/venv.rst:47
@@ -89,19 +62,11 @@ msgid "python -m venv tutorial-env"
 msgstr ""
 
 #: ../../tutorial/venv.rst:49
-msgid ""
-"This will create the ``tutorial-env`` directory if it doesn't exist, and "
-"also create directories inside it containing a copy of the Python "
-"interpreter and various supporting files."
+msgid "This will create the ``tutorial-env`` directory if it doesn't exist, and also create directories inside it containing a copy of the Python interpreter and various supporting files."
 msgstr ""
 
 #: ../../tutorial/venv.rst:53
-msgid ""
-"A common directory location for a virtual environment is ``.venv``. This "
-"name keeps the directory typically hidden in your shell and thus out of the "
-"way while giving it a name that explains why the directory exists. It also "
-"prevents clashing with ``.env`` environment variable definition files that "
-"some tooling supports."
+msgid "A common directory location for a virtual environment is ``.venv``. This name keeps the directory typically hidden in your shell and thus out of the way while giving it a name that explains why the directory exists. It also prevents clashing with ``.env`` environment variable definition files that some tooling supports."
 msgstr ""
 
 #: ../../tutorial/venv.rst:59
@@ -125,18 +90,11 @@ msgid "source tutorial-env/bin/activate"
 msgstr ""
 
 #: ../../tutorial/venv.rst:69
-msgid ""
-"(This script is written for the bash shell.  If you use the :program:`csh` "
-"or :program:`fish` shells, there are alternate ``activate.csh`` and "
-"``activate.fish`` scripts you should use instead.)"
+msgid "(This script is written for the bash shell.  If you use the :program:`csh` or :program:`fish` shells, there are alternate ``activate.csh`` and ``activate.fish`` scripts you should use instead.)"
 msgstr ""
 
 #: ../../tutorial/venv.rst:74
-msgid ""
-"Activating the virtual environment will change your shell's prompt to show "
-"what virtual environment you're using, and modify the environment so that "
-"running ``python`` will get you that particular version and installation of "
-"Python. For example:"
+msgid "Activating the virtual environment will change your shell's prompt to show what virtual environment you're using, and modify the environment so that running ``python`` will get you that particular version and installation of Python. For example:"
 msgstr ""
 
 #: ../../tutorial/venv.rst:79
@@ -169,24 +127,15 @@ msgid "Managing Packages with pip"
 msgstr ""
 
 #: ../../tutorial/venv.rst:100
-msgid ""
-"You can install, upgrade, and remove packages using a program called "
-":program:`pip`.  By default ``pip`` will install packages from the `Python "
-"Package Index <https://pypi.org>`_.  You can browse the Python Package Index"
-" by going to it in your web browser."
+msgid "You can install, upgrade, and remove packages using a program called :program:`pip`.  By default ``pip`` will install packages from the `Python Package Index <https://pypi.org>`_.  You can browse the Python Package Index by going to it in your web browser."
 msgstr ""
 
 #: ../../tutorial/venv.rst:105
-msgid ""
-"``pip`` has a number of subcommands: \"install\", \"uninstall\", \"freeze\","
-" etc.  (Consult the :ref:`installing-index` guide for complete documentation"
-" for ``pip``.)"
+msgid "``pip`` has a number of subcommands: \"install\", \"uninstall\", \"freeze\", etc.  (Consult the :ref:`installing-index` guide for complete documentation for ``pip``.)"
 msgstr ""
 
 #: ../../tutorial/venv.rst:109
-msgid ""
-"You can install the latest version of a package by specifying a package's "
-"name:"
+msgid "You can install the latest version of a package by specifying a package's name:"
 msgstr ""
 
 #: ../../tutorial/venv.rst:111
@@ -200,9 +149,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/venv.rst:120
-msgid ""
-"You can also install a specific version of a package by giving the package "
-"name  followed by ``==`` and the version number:"
+msgid "You can also install a specific version of a package by giving the package name  followed by ``==`` and the version number:"
 msgstr ""
 
 #: ../../tutorial/venv.rst:123
@@ -215,11 +162,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/venv.rst:131
-msgid ""
-"If you re-run this command, ``pip`` will notice that the requested version "
-"is already installed and do nothing.  You can supply a different version "
-"number to get that version, or you can run ``python -m pip install "
-"--upgrade`` to upgrade the package to the latest version:"
+msgid "If you re-run this command, ``pip`` will notice that the requested version is already installed and do nothing.  You can supply a different version number to get that version, or you can run ``python -m pip install --upgrade`` to upgrade the package to the latest version:"
 msgstr ""
 
 #: ../../tutorial/venv.rst:136
@@ -234,14 +177,11 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/venv.rst:146
-msgid ""
-"``python -m pip uninstall`` followed by one or more package names will "
-"remove the packages from the virtual environment."
+msgid "``python -m pip uninstall`` followed by one or more package names will remove the packages from the virtual environment."
 msgstr ""
 
 #: ../../tutorial/venv.rst:149
-msgid ""
-"``python -m pip show`` will display information about a particular package:"
+msgid "``python -m pip show`` will display information about a particular package:"
 msgstr ""
 
 #: ../../tutorial/venv.rst:151
@@ -261,9 +201,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/venv.rst:166
-msgid ""
-"``python -m pip list`` will display all of the packages installed in the "
-"virtual environment:"
+msgid "``python -m pip list`` will display all of the packages installed in the virtual environment:"
 msgstr ""
 
 #: ../../tutorial/venv.rst:169
@@ -277,11 +215,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/venv.rst:178
-msgid ""
-"``python -m pip freeze`` will produce a similar list of the installed "
-"packages, but the output uses the format that ``python -m pip install`` "
-"expects. A common convention is to put this list in a ``requirements.txt`` "
-"file:"
+msgid "``python -m pip freeze`` will produce a similar list of the installed packages, but the output uses the format that ``python -m pip install`` expects. A common convention is to put this list in a ``requirements.txt`` file:"
 msgstr ""
 
 #: ../../tutorial/venv.rst:182
@@ -294,10 +228,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/venv.rst:190
-msgid ""
-"The ``requirements.txt`` can then be committed to version control and "
-"shipped as part of an application.  Users can then install all the necessary"
-" packages with ``install -r``:"
+msgid "The ``requirements.txt`` can then be committed to version control and shipped as part of an application.  Users can then install all the necessary packages with ``install -r``:"
 msgstr ""
 
 #: ../../tutorial/venv.rst:194
@@ -315,9 +246,5 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/venv.rst:207
-msgid ""
-"``pip`` has many more options.  Consult the :ref:`installing-index` guide "
-"for complete documentation for ``pip``.  When you've written a package and "
-"want to make it available on the Python Package Index, consult the `Python "
-"packaging user guide`_."
+msgid "``pip`` has many more options.  Consult the :ref:`installing-index` guide for complete documentation for ``pip``.  When you've written a package and want to make it available on the Python Package Index, consult the `Python packaging user guide`_."
 msgstr ""

@@ -2,10 +2,10 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -26,15 +26,11 @@ msgid "API and ABI Versioning"
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:9
-msgid ""
-"CPython exposes its version number in the following macros. Note that these "
-"correspond to the version code is **built** with, not necessarily the "
-"version used at **run time**."
+msgid "CPython exposes its version number in the following macros. Note that these correspond to the version code is **built** with, not necessarily the version used at **run time**."
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:13
-msgid ""
-"See :ref:`stable` for a discussion of API and ABI stability across versions."
+msgid "See :ref:`stable` for a discussion of API and ABI stability across versions."
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:17
@@ -50,9 +46,7 @@ msgid "The ``1`` in ``3.4.1a2``."
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:29
-msgid ""
-"The ``a`` in ``3.4.1a2``. This can be ``0xA`` for alpha, ``0xB`` for beta, "
-"``0xC`` for release candidate or ``0xF`` for final."
+msgid "The ``a`` in ``3.4.1a2``. This can be ``0xA`` for alpha, ``0xB`` for beta, ``0xC`` for release candidate or ``0xF`` for final."
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:35
@@ -64,9 +58,7 @@ msgid "The Python version number encoded in a single integer."
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:41
-msgid ""
-"The underlying version information can be found by treating it as a 32 bit "
-"number in the following manner:"
+msgid "The underlying version information can be found by treating it as a 32 bit number in the following manner:"
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:45
@@ -162,9 +154,7 @@ msgid "``0x2``"
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:58
-msgid ""
-"Thus ``3.4.1a2`` is hexversion ``0x030401a2`` and ``3.10.0`` is hexversion "
-"``0x030a00f0``."
+msgid "Thus ``3.4.1a2`` is hexversion ``0x030401a2`` and ``3.10.0`` is hexversion ``0x030a00f0``."
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:61
@@ -176,10 +166,7 @@ msgid "This version is also available via the symbol :c:var:`Py_Version`."
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:67
-msgid ""
-"The Python runtime version number encoded in a single constant integer, with"
-" the same format as the :c:macro:`PY_VERSION_HEX` macro. This contains the "
-"Python version used at run time."
+msgid "The Python runtime version number encoded in a single constant integer, with the same format as the :c:macro:`PY_VERSION_HEX` macro. This contains the Python version used at run time."
 msgstr ""
 
 #: ../../c-api/apiabiversion.rst:73

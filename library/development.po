@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,12 +22,7 @@ msgid "Development Tools"
 msgstr ""
 
 #: ../../library/development.rst:7
-msgid ""
-"The modules described in this chapter help you write software.  For example,"
-" the :mod:`pydoc` module takes a module and generates documentation based on"
-" the module's contents.  The :mod:`doctest` and :mod:`unittest` modules "
-"contains frameworks for writing unit tests that automatically exercise code "
-"and verify that the expected output is produced."
+msgid "The modules described in this chapter help you write software.  For example, the :mod:`pydoc` module takes a module and generates documentation based on the module's contents.  The :mod:`doctest` and :mod:`unittest` modules contains frameworks for writing unit tests that automatically exercise code and verify that the expected output is produced."
 msgstr ""
 
 #: ../../library/development.rst:13

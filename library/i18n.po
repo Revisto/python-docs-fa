@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,11 +22,7 @@ msgid "Internationalization"
 msgstr ""
 
 #: ../../library/i18n.rst:7
-msgid ""
-"The modules described in this chapter help you write software that is "
-"independent of language and locale by providing mechanisms for selecting a "
-"language to be used in  program messages or by tailoring output to match "
-"local conventions."
+msgid "The modules described in this chapter help you write software that is independent of language and locale by providing mechanisms for selecting a language to be used in  program messages or by tailoring output to match local conventions."
 msgstr ""
 
 #: ../../library/i18n.rst:12

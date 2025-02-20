@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,8 +22,5 @@ msgid "Distributing Python Modules"
 msgstr ""
 
 #: ../../distributing/index.rst:14
-msgid ""
-"Information and guidance on distributing Python modules and packages has "
-"been moved to the `Python Packaging User Guide`_, and the tutorial on "
-"`packaging Python projects`_."
+msgid "Information and guidance on distributing Python modules and packages has been moved to the `Python Packaging User Guide`_, and the tutorial on `packaging Python projects`_."
 msgstr ""

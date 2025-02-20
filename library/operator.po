@@ -2,10 +2,10 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -30,57 +30,31 @@ msgid "**Source code:** :source:`Lib/operator.py`"
 msgstr ""
 
 #: ../../library/operator.rst:18
-msgid ""
-"The :mod:`operator` module exports a set of efficient functions "
-"corresponding to the intrinsic operators of Python.  For example, "
-"``operator.add(x, y)`` is equivalent to the expression ``x+y``. Many "
-"function names are those used for special methods, without the double "
-"underscores.  For backward compatibility, many of these have a variant with "
-"the double underscores kept. The variants without the double underscores are"
-" preferred for clarity."
+msgid "The :mod:`operator` module exports a set of efficient functions corresponding to the intrinsic operators of Python.  For example, ``operator.add(x, y)`` is equivalent to the expression ``x+y``. Many function names are those used for special methods, without the double underscores.  For backward compatibility, many of these have a variant with the double underscores kept. The variants without the double underscores are preferred for clarity."
 msgstr ""
 
 #: ../../library/operator.rst:25
-msgid ""
-"The functions fall into categories that perform object comparisons, logical "
-"operations, mathematical operations and sequence operations."
+msgid "The functions fall into categories that perform object comparisons, logical operations, mathematical operations and sequence operations."
 msgstr ""
 
 #: ../../library/operator.rst:28
-msgid ""
-"The object comparison functions are useful for all objects, and are named "
-"after the rich comparison operators they support:"
+msgid "The object comparison functions are useful for all objects, and are named after the rich comparison operators they support:"
 msgstr ""
 
 #: ../../library/operator.rst:45
-msgid ""
-"Perform \"rich comparisons\" between *a* and *b*. Specifically, ``lt(a, b)``"
-" is equivalent to ``a < b``, ``le(a, b)`` is equivalent to ``a <= b``, "
-"``eq(a, b)`` is equivalent to ``a == b``, ``ne(a, b)`` is equivalent to ``a "
-"!= b``, ``gt(a, b)`` is equivalent to ``a > b`` and ``ge(a, b)`` is "
-"equivalent to ``a >= b``.  Note that these functions can return any value, "
-"which may or may not be interpretable as a Boolean value.  See "
-":ref:`comparisons` for more information about rich comparisons."
+msgid "Perform \"rich comparisons\" between *a* and *b*. Specifically, ``lt(a, b)`` is equivalent to ``a < b``, ``le(a, b)`` is equivalent to ``a <= b``, ``eq(a, b)`` is equivalent to ``a == b``, ``ne(a, b)`` is equivalent to ``a != b``, ``gt(a, b)`` is equivalent to ``a > b`` and ``ge(a, b)`` is equivalent to ``a >= b``.  Note that these functions can return any value, which may or may not be interpretable as a Boolean value.  See :ref:`comparisons` for more information about rich comparisons."
 msgstr ""
 
 #: ../../library/operator.rst:54
-msgid ""
-"The logical operations are also generally applicable to all objects, and "
-"support truth tests, identity tests, and boolean operations:"
+msgid "The logical operations are also generally applicable to all objects, and support truth tests, identity tests, and boolean operations:"
 msgstr ""
 
 #: ../../library/operator.rst:61
-msgid ""
-"Return the outcome of :keyword:`not` *obj*.  (Note that there is no "
-":meth:`!__not__` method for object instances; only the interpreter core "
-"defines this operation.  The result is affected by the "
-":meth:`~object.__bool__` and :meth:`~object.__len__` methods.)"
+msgid "Return the outcome of :keyword:`not` *obj*.  (Note that there is no :meth:`!__not__` method for object instances; only the interpreter core defines this operation.  The result is affected by the :meth:`~object.__bool__` and :meth:`~object.__len__` methods.)"
 msgstr ""
 
 #: ../../library/operator.rst:69
-msgid ""
-"Return :const:`True` if *obj* is true, and :const:`False` otherwise.  This "
-"is equivalent to using the :class:`bool` constructor."
+msgid "Return :const:`True` if *obj* is true, and :const:`False` otherwise.  This is equivalent to using the :class:`bool` constructor."
 msgstr ""
 
 #: ../../library/operator.rst:75
@@ -116,15 +90,11 @@ msgid "Return *a* converted to an integer.  Equivalent to ``a.__index__()``."
 msgstr ""
 
 #: ../../library/operator.rst:115
-msgid ""
-"The result always has exact type :class:`int`.  Previously, the result could"
-" have been an instance of a subclass of ``int``."
+msgid "The result always has exact type :class:`int`.  Previously, the result could have been an instance of a subclass of ``int``."
 msgstr ""
 
 #: ../../library/operator.rst:125
-msgid ""
-"Return the bitwise inverse of the number *obj*.  This is equivalent to "
-"``~obj``."
+msgid "Return the bitwise inverse of the number *obj*.  This is equivalent to ``~obj``."
 msgstr ""
 
 #: ../../library/operator.rst:131
@@ -168,9 +138,7 @@ msgid "Return ``a - b``."
 msgstr ""
 
 #: ../../library/operator.rst:193
-msgid ""
-"Return ``a / b`` where 2/3 is .66 rather than 0.  This is also known as "
-"\"true\" division."
+msgid "Return ``a / b`` where 2/3 is .66 rather than 0.  This is also known as \"true\" division."
 msgstr ""
 
 #: ../../library/operator.rst:200
@@ -178,9 +146,7 @@ msgid "Return the bitwise exclusive or of *a* and *b*."
 msgstr ""
 
 #: ../../library/operator.rst:203
-msgid ""
-"Operations which work with sequences (some of them with mappings too) "
-"include:"
+msgid "Operations which work with sequences (some of them with mappings too) include:"
 msgstr ""
 
 #: ../../library/operator.rst:208
@@ -212,10 +178,7 @@ msgid "Set the value of *a* at index *b* to *c*."
 msgstr ""
 
 #: ../../library/operator.rst:247
-msgid ""
-"Return an estimated length for the object *obj*. First try to return its "
-"actual length, then an estimate using :meth:`object.__length_hint__`, and "
-"finally return the default value."
+msgid "Return an estimated length for the object *obj*. First try to return its actual length, then an estimate using :meth:`object.__length_hint__`, and finally return the default value."
 msgstr ""
 
 #: ../../library/operator.rst:254
@@ -227,35 +190,23 @@ msgid "Return ``obj(*args, **kwargs)``."
 msgstr ""
 
 #: ../../library/operator.rst:264
-msgid ""
-"The :mod:`operator` module also defines tools for generalized attribute and "
-"item lookups.  These are useful for making fast field extractors as "
-"arguments for :func:`map`, :func:`sorted`, :meth:`itertools.groupby`, or "
-"other functions that expect a function argument."
+msgid "The :mod:`operator` module also defines tools for generalized attribute and item lookups.  These are useful for making fast field extractors as arguments for :func:`map`, :func:`sorted`, :meth:`itertools.groupby`, or other functions that expect a function argument."
 msgstr ""
 
 #: ../../library/operator.rst:273
-msgid ""
-"Return a callable object that fetches *attr* from its operand. If more than "
-"one attribute is requested, returns a tuple of attributes. The attribute "
-"names can also contain dots. For example:"
+msgid "Return a callable object that fetches *attr* from its operand. If more than one attribute is requested, returns a tuple of attributes. The attribute names can also contain dots. For example:"
 msgstr ""
 
 #: ../../library/operator.rst:277
-msgid ""
-"After ``f = attrgetter('name')``, the call ``f(b)`` returns ``b.name``."
+msgid "After ``f = attrgetter('name')``, the call ``f(b)`` returns ``b.name``."
 msgstr ""
 
 #: ../../library/operator.rst:279
-msgid ""
-"After ``f = attrgetter('name', 'date')``, the call ``f(b)`` returns "
-"``(b.name, b.date)``."
+msgid "After ``f = attrgetter('name', 'date')``, the call ``f(b)`` returns ``(b.name, b.date)``."
 msgstr ""
 
 #: ../../library/operator.rst:282
-msgid ""
-"After ``f = attrgetter('name.first', 'name.last')``, the call ``f(b)`` "
-"returns ``(b.name.first, b.name.last)``."
+msgid "After ``f = attrgetter('name.first', 'name.last')``, the call ``f(b)`` returns ``(b.name.first, b.name.last)``."
 msgstr ""
 
 #: ../../library/operator.rst:285 ../../library/operator.rst:317
@@ -284,10 +235,7 @@ msgid ""
 msgstr ""
 
 #: ../../library/operator.rst:308
-msgid ""
-"Return a callable object that fetches *item* from its operand using the "
-"operand's :meth:`~object.__getitem__` method.  If multiple items are "
-"specified, returns a tuple of lookup values.  For example:"
+msgid "Return a callable object that fetches *item* from its operand using the operand's :meth:`~object.__getitem__` method.  If multiple items are specified, returns a tuple of lookup values.  For example:"
 msgstr ""
 
 #: ../../library/operator.rst:312
@@ -295,9 +243,7 @@ msgid "After ``f = itemgetter(2)``, the call ``f(r)`` returns ``r[2]``."
 msgstr ""
 
 #: ../../library/operator.rst:314
-msgid ""
-"After ``g = itemgetter(2, 5, 3)``, the call ``g(r)`` returns ``(r[2], r[5], "
-"r[3])``."
+msgid "After ``g = itemgetter(2, 5, 3)``, the call ``g(r)`` returns ``(r[2], r[5], r[3])``."
 msgstr ""
 
 #: ../../library/operator.rst:319
@@ -314,35 +260,23 @@ msgid ""
 msgstr ""
 
 #: ../../library/operator.rst:329
-msgid ""
-"The items can be any type accepted by the operand's "
-":meth:`~object.__getitem__` method.  Dictionaries accept any "
-":term:`hashable` value.  Lists, tuples, and strings accept an index or a "
-"slice:"
+msgid "The items can be any type accepted by the operand's :meth:`~object.__getitem__` method.  Dictionaries accept any :term:`hashable` value.  Lists, tuples, and strings accept an index or a slice:"
 msgstr ""
 
 #: ../../library/operator.rst:343
-msgid ""
-"Example of using :func:`itemgetter` to retrieve specific fields from a tuple"
-" record:"
+msgid "Example of using :func:`itemgetter` to retrieve specific fields from a tuple record:"
 msgstr ""
 
 #: ../../library/operator.rst:356
-msgid ""
-"Return a callable object that calls the method *name* on its operand.  If "
-"additional arguments and/or keyword arguments are given, they will be given "
-"to the method as well.  For example:"
+msgid "Return a callable object that calls the method *name* on its operand.  If additional arguments and/or keyword arguments are given, they will be given to the method as well.  For example:"
 msgstr ""
 
 #: ../../library/operator.rst:360
-msgid ""
-"After ``f = methodcaller('name')``, the call ``f(b)`` returns ``b.name()``."
+msgid "After ``f = methodcaller('name')``, the call ``f(b)`` returns ``b.name()``."
 msgstr ""
 
 #: ../../library/operator.rst:362
-msgid ""
-"After ``f = methodcaller('name', 'foo', bar=1)``, the call ``f(b)`` returns "
-"``b.name('foo', bar=1)``."
+msgid "After ``f = methodcaller('name', 'foo', bar=1)``, the call ``f(b)`` returns ``b.name('foo', bar=1)``."
 msgstr ""
 
 #: ../../library/operator.rst:367
@@ -358,9 +292,7 @@ msgid "Mapping Operators to Functions"
 msgstr ""
 
 #: ../../library/operator.rst:378
-msgid ""
-"This table shows how abstract operations correspond to operator symbols in "
-"the Python syntax and the functions in the :mod:`operator` module."
+msgid "This table shows how abstract operations correspond to operator symbols in the Python syntax and the functions in the :mod:`operator` module."
 msgstr ""
 
 #: ../../library/operator.rst:382
@@ -781,33 +713,19 @@ msgid "In-place Operators"
 msgstr ""
 
 #: ../../library/operator.rst:458
-msgid ""
-"Many operations have an \"in-place\" version.  Listed below are functions "
-"providing a more primitive access to in-place operators than the usual "
-"syntax does; for example, the :term:`statement` ``x += y`` is equivalent to "
-"``x = operator.iadd(x, y)``.  Another way to put it is to say that ``z = "
-"operator.iadd(x, y)`` is equivalent to the compound statement ``z = x; z += "
-"y``."
+msgid "Many operations have an \"in-place\" version.  Listed below are functions providing a more primitive access to in-place operators than the usual syntax does; for example, the :term:`statement` ``x += y`` is equivalent to ``x = operator.iadd(x, y)``.  Another way to put it is to say that ``z = operator.iadd(x, y)`` is equivalent to the compound statement ``z = x; z += y``."
 msgstr ""
 
 #: ../../library/operator.rst:465
-msgid ""
-"In those examples, note that when an in-place method is called, the "
-"computation and assignment are performed in two separate steps.  The in-"
-"place functions listed below only do the first step, calling the in-place "
-"method.  The second step, assignment, is not handled."
+msgid "In those examples, note that when an in-place method is called, the computation and assignment are performed in two separate steps.  The in-place functions listed below only do the first step, calling the in-place method.  The second step, assignment, is not handled."
 msgstr ""
 
 #: ../../library/operator.rst:470
-msgid ""
-"For immutable targets such as strings, numbers, and tuples, the updated "
-"value is computed, but not assigned back to the input variable:"
+msgid "For immutable targets such as strings, numbers, and tuples, the updated value is computed, but not assigned back to the input variable:"
 msgstr ""
 
 #: ../../library/operator.rst:479
-msgid ""
-"For mutable targets such as lists and dictionaries, the in-place method will"
-" perform the update, so no subsequent assignment is necessary:"
+msgid "For mutable targets such as lists and dictionaries, the in-place method will perform the update, so no subsequent assignment is necessary:"
 msgstr ""
 
 #: ../../library/operator.rst:491
@@ -819,8 +737,7 @@ msgid "``a = iand(a, b)`` is equivalent to ``a &= b``."
 msgstr ""
 
 #: ../../library/operator.rst:503
-msgid ""
-"``a = iconcat(a, b)`` is equivalent to ``a += b`` for *a* and *b* sequences."
+msgid "``a = iconcat(a, b)`` is equivalent to ``a += b`` for *a* and *b* sequences."
 msgstr ""
 
 #: ../../library/operator.rst:509

@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -26,26 +26,15 @@ msgid "**Source code:** :source:`Lib/tkinter/scrolledtext.py`"
 msgstr ""
 
 #: ../../library/tkinter.scrolledtext.rst:14
-msgid ""
-"The :mod:`tkinter.scrolledtext` module provides a class of the same name "
-"which implements a basic text widget which has a vertical scroll bar "
-"configured to do the \"right thing.\"  Using the :class:`ScrolledText` class"
-" is a lot easier than setting up a text widget and scroll bar directly."
+msgid "The :mod:`tkinter.scrolledtext` module provides a class of the same name which implements a basic text widget which has a vertical scroll bar configured to do the \"right thing.\"  Using the :class:`ScrolledText` class is a lot easier than setting up a text widget and scroll bar directly."
 msgstr ""
 
 #: ../../library/tkinter.scrolledtext.rst:19
-msgid ""
-"The text widget and scrollbar are packed together in a :class:`Frame`, and "
-"the methods of the :class:`Grid` and :class:`Pack` geometry managers are "
-"acquired from the :class:`Frame` object.  This allows the "
-":class:`ScrolledText` widget to be used directly to achieve most normal "
-"geometry management behavior."
+msgid "The text widget and scrollbar are packed together in a :class:`Frame`, and the methods of the :class:`Grid` and :class:`Pack` geometry managers are acquired from the :class:`Frame` object.  This allows the :class:`ScrolledText` widget to be used directly to achieve most normal geometry management behavior."
 msgstr ""
 
 #: ../../library/tkinter.scrolledtext.rst:24
-msgid ""
-"Should more specific control be necessary, the following attributes are "
-"available:"
+msgid "Should more specific control be necessary, the following attributes are available:"
 msgstr ""
 
 #: ../../library/tkinter.scrolledtext.rst:32

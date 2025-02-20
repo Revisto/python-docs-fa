@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -30,8 +30,7 @@ msgid "1.13"
 msgstr ""
 
 #: ../../howto/timerfd.rst:9
-msgid ""
-"This HOWTO discusses Python's support for the linux timer file descriptor."
+msgid "This HOWTO discusses Python's support for the linux timer file descriptor."
 msgstr ""
 
 #: ../../howto/timerfd.rst:13
@@ -39,9 +38,7 @@ msgid "Examples"
 msgstr ""
 
 #: ../../howto/timerfd.rst:15
-msgid ""
-"The following example shows how to use a timer file descriptor to execute a "
-"function twice a second:"
+msgid "The following example shows how to use a timer file descriptor to execute a function twice a second:"
 msgstr ""
 
 #: ../../howto/timerfd.rst:18
@@ -68,16 +65,11 @@ msgid ""
 msgstr ""
 
 #: ../../howto/timerfd.rst:40
-msgid ""
-"To avoid the precision loss caused by the :class:`float` type, timer file "
-"descriptors allow specifying initial expiration and interval in integer "
-"nanoseconds with ``_ns`` variants of the functions."
+msgid "To avoid the precision loss caused by the :class:`float` type, timer file descriptors allow specifying initial expiration and interval in integer nanoseconds with ``_ns`` variants of the functions."
 msgstr ""
 
 #: ../../howto/timerfd.rst:44
-msgid ""
-"This example shows how :func:`~select.epoll` can be used with timer file "
-"descriptors to wait until the file descriptor is ready for reading:"
+msgid "This example shows how :func:`~select.epoll` can be used with timer file descriptors to wait until the file descriptor is ready for reading:"
 msgstr ""
 
 #: ../../howto/timerfd.rst:47
@@ -188,9 +180,7 @@ msgid ""
 msgstr ""
 
 #: ../../howto/timerfd.rst:153
-msgid ""
-"This example shows how :func:`~select.select` can be used with timer file "
-"descriptors to wait until the file descriptor is ready for reading:"
+msgid "This example shows how :func:`~select.select` can be used with timer file descriptors to wait until the file descriptor is ready for reading:"
 msgstr ""
 
 #: ../../howto/timerfd.rst:156

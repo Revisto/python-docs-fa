@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,9 +22,5 @@ msgid "Software Packaging and Distribution"
 msgstr ""
 
 #: ../../library/distribution.rst:5
-msgid ""
-"These libraries help you with publishing and installing Python software. "
-"While these modules are designed to work in conjunction with the `Python "
-"Package Index <https://pypi.org>`__, they can also be used with a local "
-"index server, or without any index server at all."
+msgid "These libraries help you with publishing and installing Python software. While these modules are designed to work in conjunction with the `Python Package Index <https://pypi.org>`__, they can also be used with a local index server, or without any index server at all."
 msgstr ""
