@@ -2,42 +2,41 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 02:51+0330\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2025-02-14 14:17+0000\n"
+"PO-Revision-Date: 2021-06-28 01:49+0000\n"
+"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: tutorial/appendix.rst:5
-#, fuzzy
+#: ../../tutorial/appendix.rst:5
 msgid "Appendix"
-msgstr "ضمیمه"
+msgstr ""
 
-#: tutorial/appendix.rst:11
-#, fuzzy
+#: ../../tutorial/appendix.rst:11
 msgid "Interactive Mode"
-msgstr "حالت تعاملی"
+msgstr ""
 
-#: tutorial/appendix.rst:13
-#, fuzzy
+#: ../../tutorial/appendix.rst:13
 msgid ""
 "There are two variants of the interactive :term:`REPL`.  The classic basic "
 "interpreter is supported on all platforms with minimal line control "
 "capabilities."
 msgstr ""
-"دو نوع از :term:`REPL` تعاملی وجود دارد.  مفسر پایه کلاسیک در تمام پلتفرم ها"
-" با حداقل قابلیت های کنترل خط پشتیبانی می شود."
 
-#: tutorial/appendix.rst:17
-#, fuzzy
+#: ../../tutorial/appendix.rst:17
 msgid ""
 "On Windows, or Unix-like systems with :mod:`curses` support, a new "
 "interactive shell is used by default. This one supports color, multiline "
@@ -49,42 +48,25 @@ msgid ""
 " \"paste mode\", which makes pasting larger blocks of code easier. Press "
 ":kbd:`F3` to return to the regular prompt."
 msgstr ""
-"در ویندوز یا سیستم‌های شبه یونیکس با پشتیبانی از :mod:`curses`، به طور "
-"پیش‌فرض از یک پوسته تعاملی جدید استفاده می‌شود. این یکی از رنگ‌ها، ویرایش "
-"چند خطی، مرور تاریخ و حالت چسباندن پشتیبانی می‌کند.  برای غیرفعال کردن رنگ، "
-"برای جزئیات بیشتر به :ref:`using-on-controlling-color` مراجعه کنید.  کلیدهای"
-" عملکرد برخی از عملکردهای اضافی را ارائه می دهند. :kbd:`F1` وارد مرورگر کمک "
-"تعاملی :mod:`pydoc` می شود. :kbd:`F2` امکان مرور تاریخچه خط فرمان را بدون "
-"خروجی و فرمان های :term:`>>>` و :term:`...` فراهم می کند. :kbd:`F3` وارد "
-"\"حالت چسباندن\" می شود که چسباندن بلوک های بزرگتر کد را آسان تر می کند. "
-"برای بازگشت به دستور معمولی, :kbd:`F3` را فشار دهید."
 
-#: tutorial/appendix.rst:28
-#, fuzzy
+#: ../../tutorial/appendix.rst:28
 msgid ""
 "When using the new interactive shell, exit the shell by typing :kbd:`exit` "
 "or :kbd:`quit`. Adding call parentheses after those commands is not "
 "required."
 msgstr ""
-"هنگام استفاده از پوسته تعاملی جدید، با تایپ :kbd:`exit` یا :kbd:`quit` از "
-"پوسته خارج شوید. اضافه کردن پرانتز تماس بعد از آن دستورات لازم نیست."
 
-#: tutorial/appendix.rst:32
-#, fuzzy
+#: ../../tutorial/appendix.rst:32
 msgid ""
 "If the new interactive shell is not desired, it can be disabled via the "
 ":envvar:`PYTHON_BASIC_REPL` environment variable."
 msgstr ""
-"اگر پوسته تعاملی جدید مورد نظر نباشد، می توان آن را از طریق متغیر محیطی "
-":envvar:`PYTHON_BASIC_REPL` غیرفعال کرد."
 
-#: tutorial/appendix.rst:38
-#, fuzzy
+#: ../../tutorial/appendix.rst:38
 msgid "Error Handling"
-msgstr "رسیدگی به خطا"
+msgstr ""
 
-#: tutorial/appendix.rst:40
-#, fuzzy
+#: ../../tutorial/appendix.rst:40
 msgid ""
 "When an error occurs, the interpreter prints an error message and a stack "
 "trace. In interactive mode, it then returns to the primary prompt; when "
@@ -96,18 +78,8 @@ msgid ""
 "  All error messages are written to the standard error stream; normal output"
 " from executed commands is written to standard output."
 msgstr ""
-"هنگامی که یک خطا رخ می دهد، مترجم یک پیام خطا و یک ردیابی پشته را چاپ می "
-"کند. در حالت تعاملی، سپس به اعلان اولیه باز می گردد. هنگامی که ورودی از یک "
-"فایل می آید، پس از چاپ ردیابی پشته، با وضعیت خروج غیر صفر خارج می شود. "
-"(استثناهایی که توسط یک بند :keyword:`except` در دستور :keyword:`try` استفاده"
-" می شود, در این زمینه خطا نیستند.) برخی از خطاها بدون قید و شرط کشنده هستند "
-"و باعث خروجی با وضعیت خروج غیر صفر می شوند. این در مورد ناهماهنگی های داخلی "
-"و برخی موارد تمام شدن حافظه صدق می کند.  همه پیام های خطا در جریان خطای "
-"استاندارد نوشته می شوند. خروجی عادی از دستورات اجرا شده در خروجی استاندارد "
-"نوشته می شود."
 
-#: tutorial/appendix.rst:50
-#, fuzzy
+#: ../../tutorial/appendix.rst:50
 msgid ""
 "Typing the interrupt character (usually :kbd:`Control-C` or :kbd:`Delete`) "
 "to the primary or secondary prompt cancels the input and returns to the "
@@ -115,32 +87,22 @@ msgid ""
 " the :exc:`KeyboardInterrupt` exception, which may be handled by a "
 ":keyword:`try` statement."
 msgstr ""
-"تایپ کاراکتر وقفه (معمولا :kbd:`Control-C` یا :kbd:`Delete`) در اعلان اولیه "
-"یا ثانویه، ورودی را لغو می کند و به اعلان اصلی باز می گردد. [#]_ تایپ یک "
-"وقفه در حین اجرای فرمان، استثناء :exc:`KeyboardInterrupt` را افزایش می‌دهد، "
-"که ممکن است توسط یک دستور :keyword:`try` مدیریت شود."
 
-#: tutorial/appendix.rst:60
-#, fuzzy
+#: ../../tutorial/appendix.rst:60
 msgid "Executable Python Scripts"
-msgstr "اسکریپت های اجرایی پایتون"
+msgstr ""
 
-#: tutorial/appendix.rst:62
-#, fuzzy
+#: ../../tutorial/appendix.rst:62
 msgid ""
 "On BSD'ish Unix systems, Python scripts can be made directly executable, "
 "like shell scripts, by putting the line ::"
 msgstr ""
-"در سیستم‌های BSD'ish Unix، اسکریپت‌های پایتون را می‌توان مستقیماً مانند "
-"اسکریپت‌های پوسته با قرار دادن خط :: قابل اجرا ساخت."
 
-#: tutorial/appendix.rst:65
-#, fuzzy
+#: ../../tutorial/appendix.rst:65
 msgid "#!/usr/bin/env python3"
-msgstr "#!/usr/bin/env python3"
+msgstr ""
 
-#: tutorial/appendix.rst:67
-#, fuzzy
+#: ../../tutorial/appendix.rst:67
 msgid ""
 "(assuming that the interpreter is on the user's :envvar:`PATH`) at the "
 "beginning of the script and giving the file an executable mode.  The ``#!`` "
@@ -149,28 +111,18 @@ msgid ""
 "(``'\\r\\n'``) line ending.  Note that the hash, or pound, character, "
 "``'#'``, is used to start a comment in Python."
 msgstr ""
-"(با فرض اینکه مفسر روی :envvar:`PATH` کاربر باشد) در ابتدای اسکریپت و دادن "
-"حالت اجرایی به فایل.  ``#!`` باید دو کاراکتر اول فایل باشد.  در برخی از "
-"پلتفرم‌ها، این خط اول باید با پایان خط به سبک یونیکس (``'\\n'``) به پایان "
-"برسد، نه پایان خط ویندوز (``'\\r\\n'``).  توجه داشته باشید که کاراکتر هش یا "
-"پوند، ``'#'``، برای شروع یک نظر در پایتون استفاده می شود."
 
-#: tutorial/appendix.rst:74
-#, fuzzy
+#: ../../tutorial/appendix.rst:74
 msgid ""
 "The script can be given an executable mode, or permission, using the "
 ":program:`chmod` command."
 msgstr ""
-"با استفاده از دستور :program:`chmod` می توان به اسکریپت یک حالت اجرایی یا "
-"مجوز داد."
 
-#: tutorial/appendix.rst:77
-#, fuzzy
+#: ../../tutorial/appendix.rst:77
 msgid "$ chmod +x myscript.py"
-msgstr "$ chmod +x myscript.py"
+msgstr ""
 
-#: tutorial/appendix.rst:81
-#, fuzzy
+#: ../../tutorial/appendix.rst:81
 msgid ""
 "On Windows systems, there is no notion of an \"executable mode\".  The "
 "Python installer automatically associates ``.py`` files with ``python.exe`` "
@@ -178,19 +130,12 @@ msgid ""
 "extension can also be ``.pyw``, in that case, the console window that "
 "normally appears is suppressed."
 msgstr ""
-"در سیستم های ویندوز، هیچ مفهومی از \"حالت اجرایی\" وجود ندارد.  نصب‌کننده "
-"پایتون به‌طور خودکار فایل‌های ``.py`` را با ``python.exe`` مرتبط می‌کند تا "
-"با دوبار کلیک کردن روی فایل پایتون آن را به‌عنوان یک اسکریپت اجرا کند.  "
-"پسوند همچنین می تواند ``.pyw`` باشد، در این صورت، پنجره کنسولی که به طور "
-"معمول ظاهر می شود، سرکوب می شود."
 
-#: tutorial/appendix.rst:91
-#, fuzzy
+#: ../../tutorial/appendix.rst:91
 msgid "The Interactive Startup File"
-msgstr "فایل راه اندازی تعاملی"
+msgstr ""
 
-#: tutorial/appendix.rst:93
-#, fuzzy
+#: ../../tutorial/appendix.rst:93
 msgid ""
 "When you use Python interactively, it is frequently handy to have some "
 "standard commands executed every time the interpreter is started.  You can "
@@ -198,14 +143,8 @@ msgid ""
 "the name of a file containing your start-up commands.  This is similar to "
 "the :file:`.profile` feature of the Unix shells."
 msgstr ""
-"هنگامی که از پایتون به صورت تعاملی استفاده می کنید، هر بار که مفسر شروع می "
-"شود، اجرای برخی از دستورات استاندارد اغلب مفید است.  شما می توانید این کار "
-"را با تنظیم یک متغیر محیطی به نام :envvar:`PYTHONSTARTUP` به نام فایل حاوی "
-"دستورات راه اندازی انجام دهید.  این شبیه به ویژگی :file:`.profile` پوسته های"
-" یونیکس است."
 
-#: tutorial/appendix.rst:99
-#, fuzzy
+#: ../../tutorial/appendix.rst:99
 msgid ""
 "This file is only read in interactive sessions, not when Python reads "
 "commands from a script, and not when :file:`/dev/tty` is given as the "
@@ -215,16 +154,8 @@ msgid ""
 " qualification in the interactive session. You can also change the prompts "
 "``sys.ps1`` and ``sys.ps2`` in this file."
 msgstr ""
-"این فایل فقط در جلسات تعاملی خوانده می شود، نه زمانی که پایتون دستورات را از"
-" یک اسکریپت می خواند، و نه زمانی که :file:`/dev/tty` به عنوان منبع صریح "
-"دستورات داده می شود (که در غیر این صورت مانند یک جلسه تعاملی رفتار می کند)."
-"  در همان فضای نامی که دستورات تعاملی اجرا می‌شوند اجرا می‌شود، به طوری که "
-"اشیایی را که تعریف می‌کند یا وارد می‌کند، می‌توانند بدون صلاحیت در جلسه "
-"تعاملی استفاده شوند. همچنین می توانید دستورات ``sys.ps1`` و ``sys.ps2`` را "
-"در این فایل تغییر دهید."
 
-#: tutorial/appendix.rst:107
-#, fuzzy
+#: ../../tutorial/appendix.rst:107
 msgid ""
 "If you want to read an additional start-up file from the current directory, "
 "you can program this in the global start-up file using code like ``if "
@@ -232,14 +163,8 @@ msgid ""
 "want to use the startup file in a script, you must do this explicitly in the"
 " script::"
 msgstr ""
-"اگر می‌خواهید یک فایل راه‌اندازی اضافی را از دایرکتوری فعلی بخوانید، "
-"می‌توانید آن را در فایل راه‌اندازی جهانی با استفاده از کدهایی مانند ``if "
-"os.path.isfile('.pythonrc.py'): exec(open('.pythonrc.py').read())`` "
-"برنامه‌ریزی کنید. اگر می خواهید از فایل راه اندازی در یک اسکریپت استفاده "
-"کنید، باید این کار را به صراحت در اسکریپت انجام دهید:"
 
-#: tutorial/appendix.rst:113
-#, fuzzy
+#: ../../tutorial/appendix.rst:113
 msgid ""
 "import os\n"
 "filename = os.environ.get('PYTHONSTARTUP')\n"
@@ -248,74 +173,46 @@ msgid ""
 "        startup_file = fobj.read()\n"
 "    exec(startup_file)"
 msgstr ""
-"import os\n"
-"filename = os.environ.get('PYTHONSTARTUP')\n"
-"if filename and os.path.isfile(filename):\n"
-"    with open(filename) as fobj:\n"
-"        startup_file = fobj.read()\n"
-"    exec(startup_file)"
 
-#: tutorial/appendix.rst:124
-#, fuzzy
+#: ../../tutorial/appendix.rst:124
 msgid "The Customization Modules"
-msgstr "ماژول های سفارشی سازی"
+msgstr ""
 
-#: tutorial/appendix.rst:126
-#, fuzzy
+#: ../../tutorial/appendix.rst:126
 msgid ""
 "Python provides two hooks to let you customize it: :index:`sitecustomize` "
 "and :index:`usercustomize`.  To see how it works, you need first to find the"
 " location of your user site-packages directory.  Start Python and run this "
 "code::"
 msgstr ""
-"پایتون دو قلاب برای سفارشی کردن آن فراهم می کند: :index:`sitecustomize` و "
-":index:`usercustomize`.  برای اینکه ببینید چگونه کار می‌کند، ابتدا باید مکان "
-"فهرست بسته‌های سایت کاربر خود را پیدا کنید.  پایتون را راه اندازی کنید و این"
-" کد را اجرا کنید:"
 
-#: tutorial/appendix.rst:130
-#, fuzzy
+#: ../../tutorial/appendix.rst:130
 msgid ""
 ">>> import site\n"
 ">>> site.getusersitepackages()\n"
 "'/home/user/.local/lib/python3.x/site-packages'"
 msgstr ""
-">>> import site\n"
-">>> site.getusersitepackages()\n"
-"'/home/user/.local/lib/python3.x/site-packages'"
 
-#: tutorial/appendix.rst:134
-#, fuzzy
+#: ../../tutorial/appendix.rst:134
 msgid ""
 "Now you can create a file named :file:`usercustomize.py` in that directory "
 "and put anything you want in it.  It will affect every invocation of Python,"
 " unless it is started with the :option:`-s` option to disable the automatic "
 "import."
 msgstr ""
-"حالا می توانید یک فایل به نام :file:`usercustomize.py` در آن دایرکتوری ایجاد"
-" کنید و هر چیزی را که می خواهید در آن قرار دهید.  هر فراخوانی پایتون را تحت "
-"تأثیر قرار می دهد، مگر اینکه با گزینه :option:`-s` شروع شود تا واردات خودکار"
-" غیرفعال شود."
 
-#: tutorial/appendix.rst:138
-#, fuzzy
+#: ../../tutorial/appendix.rst:138
 msgid ""
 ":index:`sitecustomize` works in the same way, but is typically created by an"
 " administrator of the computer in the global site-packages directory, and is"
 " imported before :index:`usercustomize`.  See the documentation of the "
 ":mod:`site` module for more details."
 msgstr ""
-":index:`sitecustomize` به همین روش کار می‌کند، اما معمولاً توسط یک مدیر "
-"رایانه در فهرست جهانی بسته‌های سایت ایجاد می‌شود و قبل از "
-":index:`usercustomize` وارد می‌شود. برای جزئیات بیشتر به مستندات ماژول "
-":mod:`site` مراجعه کنید."
 
-#: tutorial/appendix.rst:145
-#, fuzzy
+#: ../../tutorial/appendix.rst:145
 msgid "Footnotes"
-msgstr "پاورقی ها"
+msgstr ""
 
-#: tutorial/appendix.rst:146
-#, fuzzy
+#: ../../tutorial/appendix.rst:146
 msgid "A problem with the GNU Readline package may prevent this."
-msgstr "یک مشکل در بسته Readline گنو ممکن است از این امر جلوگیری کند."
+msgstr ""

@@ -2,44 +2,55 @@
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 02:51+0330\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2025-02-14 14:17+0000\n"
+"PO-Revision-Date: 2021-06-28 00:49+0000\n"
+"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: c-api/none.rst:6
+#: ../../c-api/none.rst:6
 msgid "The ``None`` Object"
 msgstr ""
 
-#: c-api/none.rst:10
-msgid "Note that the :c:type:`PyTypeObject` for ``None`` is not directly exposed in the Python/C API.  Since ``None`` is a singleton, testing for object identity (using ``==`` in C) is sufficient. There is no :c:func:`!PyNone_Check` function for the same reason."
+#: ../../c-api/none.rst:10
+msgid ""
+"Note that the :c:type:`PyTypeObject` for ``None`` is not directly exposed in"
+" the Python/C API.  Since ``None`` is a singleton, testing for object "
+"identity (using ``==`` in C) is sufficient. There is no "
+":c:func:`!PyNone_Check` function for the same reason."
 msgstr ""
 
-#: c-api/none.rst:18
-msgid "The Python ``None`` object, denoting lack of value.  This object has no methods and is :term:`immortal`."
+#: ../../c-api/none.rst:18
+msgid ""
+"The Python ``None`` object, denoting lack of value.  This object has no "
+"methods and is :term:`immortal`."
 msgstr ""
 
-#: c-api/none.rst:21
+#: ../../c-api/none.rst:21
 msgid ":c:data:`Py_None` is :term:`immortal`."
 msgstr ""
 
-#: c-api/none.rst:26
+#: ../../c-api/none.rst:26
 msgid "Return :c:data:`Py_None` from a function."
 msgstr ""
 
-#: c-api/none.rst:8
+#: ../../c-api/none.rst:8
 msgid "object"
 msgstr ""
 
-#: c-api/none.rst:8
+#: ../../c-api/none.rst:8
 msgid "None"
 msgstr ""
