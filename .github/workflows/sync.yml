@@ -34,7 +34,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y gettext
-          pip install transifex-python sphinx-intl
+          pip install transifex-python sphinx-intl polib powrap
 
       - name: Sync with Transifex
         env:
@@ -45,6 +45,10 @@ jobs:
           
           # Format .po files
           find . -name "*.po" -exec msgcat --no-wrap {} -o {} \;
+
+      - name: Format PO files
+        run: |
+          find . -name "*.po" -exec powrap {} \;
 
       - name: Commit and push changes
         run: |
