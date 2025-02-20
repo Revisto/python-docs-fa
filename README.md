@@ -14,12 +14,10 @@
 
 برای بحث، هماهنگی و به‌روزرسانی‌های مرتبط با ترجمه، می‌توانید از کانال‌های زیر استفاده کنید: 
 
-<div dir="rtl">
-    <ul>
-        <li><a href="https://discord.gg/BXGRnMdF">Discord مستندات پایتون به فارسی</a></li>
-        <li>بخش <a href="https://github.com/python/python-docs-fa/issues">Issues</a> در این ریپازیتوری جهت گزارش مشکلات یا پیشنهادات</li>
-    </ul>
-</div>
+<ul dir="rtl">
+    <li><a href="https://discord.gg/BXGRnMdF">Discord مستندات پایتون به فارسی</a></li>
+    <li>بخش <a href="https://github.com/python/python-docs-fa/issues">Issues</a> در این ریپازیتوری جهت گزارش مشکلات یا پیشنهادات</li>
+</ul>
 
 ***
 
