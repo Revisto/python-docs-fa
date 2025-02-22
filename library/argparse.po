@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
+# Alireza Shabani <theRevisto@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 14:17+0000\n"
+"POT-Creation-Date: 2025-02-21 14:16+0000\n"
 "PO-Revision-Date: 2021-06-28 00:54+0000\n"
-"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
+"Last-Translator: Alireza Shabani <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -1813,7 +1813,7 @@ msgid ""
 ">>> parser.add_argument('--legs', default=0, type=int, deprecated=True)\n"
 ">>> parser.parse_args([])\n"
 "Namespace(legs=0)\n"
-">>> parser.parse_args(['--legs', '4'])  \n"
+">>> parser.parse_args(['--legs', '4'])\n"
 "snake.py: warning: option '--legs' is deprecated\n"
 "Namespace(legs=4)"
 msgstr ""
