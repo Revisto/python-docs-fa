@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 14:17+0000\n"
+"POT-Creation-Date: 2025-02-28 14:17+0000\n"
 "PO-Revision-Date: 2024-07-20 00:54+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -112,10 +112,20 @@ msgid ""
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:58
-msgid ":mod:`threading`:"
+msgid ":mod:`sysconfig`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:60
+msgid ""
+"The *check_home* argument of :func:`sysconfig.is_python_build` has been "
+"deprecated since Python 3.12."
+msgstr ""
+
+#: ../../deprecations/pending-removal-in-3.15.rst:63
+msgid ":mod:`threading`:"
+msgstr ""
+
+#: ../../deprecations/pending-removal-in-3.15.rst:65
 msgid ""
 ":func:`~threading.RLock` will take no arguments in Python 3.15. Passing any "
 "arguments has been deprecated since Python 3.14, as the  Python version does "
@@ -123,11 +133,11 @@ msgid ""
 "or keyword arguments, ignoring every argument."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:66
+#: ../../deprecations/pending-removal-in-3.15.rst:71
 msgid ":mod:`types`:"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:68
+#: ../../deprecations/pending-removal-in-3.15.rst:73
 msgid ""
 ":class:`types.CodeType`: Accessing :attr:`~codeobject.co_lnotab` was "
 "deprecated in :pep:`626` since 3.10 and was planned to be removed in 3.12, "
@@ -135,11 +145,11 @@ msgid ""
 "in 3.15. (Contributed by Nikita Sobolev in :gh:`101866`.)"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:75
+#: ../../deprecations/pending-removal-in-3.15.rst:80
 msgid ":mod:`typing`:"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:77
+#: ../../deprecations/pending-removal-in-3.15.rst:82
 msgid ""
 "The undocumented keyword argument syntax for creating :class:`~typing."
 "NamedTuple` classes (e.g. ``Point = NamedTuple(\"Point\", x=int, y=int)``) "
@@ -147,18 +157,18 @@ msgid ""
 "functional syntax instead."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:83
+#: ../../deprecations/pending-removal-in-3.15.rst:88
 msgid ""
 "The :func:`typing.no_type_check_decorator` decorator function has been "
 "deprecated since Python 3.13. After eight years in the :mod:`typing` module, "
 "it has yet to be supported by any major type checker."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:88
+#: ../../deprecations/pending-removal-in-3.15.rst:93
 msgid ":mod:`wave`:"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:90
+#: ../../deprecations/pending-removal-in-3.15.rst:95
 msgid ""
 "The :meth:`~wave.Wave_read.getmark`, :meth:`!setmark`, and :meth:`~wave."
 "Wave_read.getmarkers` methods of the :class:`~wave.Wave_read` and :class:"

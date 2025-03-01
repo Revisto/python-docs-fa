@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 14:17+0000\n"
+"POT-Creation-Date: 2025-02-28 14:17+0000\n"
 "PO-Revision-Date: 2024-07-29 04:07+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -311,10 +311,20 @@ msgid ""
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:58
-msgid ":mod:`threading`:"
+msgid ":mod:`sysconfig`:"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:60
+msgid ""
+"The *check_home* argument of :func:`sysconfig.is_python_build` has been "
+"deprecated since Python 3.12."
+msgstr ""
+
+#: ../../deprecations/pending-removal-in-3.15.rst:63
+msgid ":mod:`threading`:"
+msgstr ""
+
+#: ../../deprecations/pending-removal-in-3.15.rst:65
 msgid ""
 ":func:`~threading.RLock` will take no arguments in Python 3.15. Passing any "
 "arguments has been deprecated since Python 3.14, as the  Python version does "
@@ -322,11 +332,11 @@ msgid ""
 "or keyword arguments, ignoring every argument."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:66
+#: ../../deprecations/pending-removal-in-3.15.rst:71
 msgid ":mod:`types`:"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:68
+#: ../../deprecations/pending-removal-in-3.15.rst:73
 msgid ""
 ":class:`types.CodeType`: Accessing :attr:`~codeobject.co_lnotab` was "
 "deprecated in :pep:`626` since 3.10 and was planned to be removed in 3.12, "
@@ -334,11 +344,11 @@ msgid ""
 "in 3.15. (Contributed by Nikita Sobolev in :gh:`101866`.)"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:75
+#: ../../deprecations/pending-removal-in-3.15.rst:80
 msgid ":mod:`typing`:"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:77
+#: ../../deprecations/pending-removal-in-3.15.rst:82
 msgid ""
 "The undocumented keyword argument syntax for creating :class:`~typing."
 "NamedTuple` classes (e.g. ``Point = NamedTuple(\"Point\", x=int, y=int)``) "
@@ -346,18 +356,18 @@ msgid ""
 "functional syntax instead."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:83
+#: ../../deprecations/pending-removal-in-3.15.rst:88
 msgid ""
 "The :func:`typing.no_type_check_decorator` decorator function has been "
 "deprecated since Python 3.13. After eight years in the :mod:`typing` module, "
 "it has yet to be supported by any major type checker."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:88
+#: ../../deprecations/pending-removal-in-3.15.rst:93
 msgid ":mod:`wave`:"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:90
+#: ../../deprecations/pending-removal-in-3.15.rst:95
 msgid ""
 "The :meth:`~wave.Wave_read.getmark`, :meth:`!setmark`, and :meth:`~wave."
 "Wave_read.getmarkers` methods of the :class:`~wave.Wave_read` and :class:"
@@ -676,119 +686,113 @@ msgid "``ssl.TLSVersion.TLSv1_1``"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-future.rst:108
-msgid ""
-":func:`sysconfig.is_python_build` *check_home* parameter is deprecated and "
-"ignored."
-msgstr ""
-
-#: ../../deprecations/pending-removal-in-future.rst:111
 msgid ":mod:`threading` methods:"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:113
+#: ../../deprecations/pending-removal-in-future.rst:110
 msgid ""
 ":meth:`!threading.Condition.notifyAll`: use :meth:`~threading.Condition."
 "notify_all`."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:114
+#: ../../deprecations/pending-removal-in-future.rst:111
 msgid ":meth:`!threading.Event.isSet`: use :meth:`~threading.Event.is_set`."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:115
+#: ../../deprecations/pending-removal-in-future.rst:112
 msgid ""
 ":meth:`!threading.Thread.isDaemon`, :meth:`threading.Thread.setDaemon`: use :"
 "attr:`threading.Thread.daemon` attribute."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:117
+#: ../../deprecations/pending-removal-in-future.rst:114
 msgid ""
 ":meth:`!threading.Thread.getName`, :meth:`threading.Thread.setName`: use :"
 "attr:`threading.Thread.name` attribute."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:119
+#: ../../deprecations/pending-removal-in-future.rst:116
 msgid ":meth:`!threading.currentThread`: use :meth:`threading.current_thread`."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:120
+#: ../../deprecations/pending-removal-in-future.rst:117
 msgid ":meth:`!threading.activeCount`: use :meth:`threading.active_count`."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:122
+#: ../../deprecations/pending-removal-in-future.rst:119
 msgid ":class:`typing.Text` (:gh:`92332`)."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:124
+#: ../../deprecations/pending-removal-in-future.rst:121
 msgid ""
 ":class:`unittest.IsolatedAsyncioTestCase`: it is deprecated to return a "
 "value that is not ``None`` from a test case."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:127
+#: ../../deprecations/pending-removal-in-future.rst:124
 msgid ""
 ":mod:`urllib.parse` deprecated functions: :func:`~urllib.parse.urlparse` "
 "instead"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:129
+#: ../../deprecations/pending-removal-in-future.rst:126
 msgid "``splitattr()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:130
+#: ../../deprecations/pending-removal-in-future.rst:127
 msgid "``splithost()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:131
+#: ../../deprecations/pending-removal-in-future.rst:128
 msgid "``splitnport()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:132
+#: ../../deprecations/pending-removal-in-future.rst:129
 msgid "``splitpasswd()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:133
+#: ../../deprecations/pending-removal-in-future.rst:130
 msgid "``splitport()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:134
+#: ../../deprecations/pending-removal-in-future.rst:131
 msgid "``splitquery()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:135
+#: ../../deprecations/pending-removal-in-future.rst:132
 msgid "``splittag()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:136
+#: ../../deprecations/pending-removal-in-future.rst:133
 msgid "``splittype()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:137
+#: ../../deprecations/pending-removal-in-future.rst:134
 msgid "``splituser()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:138
+#: ../../deprecations/pending-removal-in-future.rst:135
 msgid "``splitvalue()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:139
+#: ../../deprecations/pending-removal-in-future.rst:136
 msgid "``to_bytes()``"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:141
+#: ../../deprecations/pending-removal-in-future.rst:138
 msgid ""
 ":mod:`urllib.request`: :class:`~urllib.request.URLopener` and :class:"
 "`~urllib.request.FancyURLopener` style of invoking requests is deprecated. "
 "Use newer :func:`~urllib.request.urlopen` functions and methods."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:145
+#: ../../deprecations/pending-removal-in-future.rst:142
 msgid ""
 ":mod:`wsgiref`: ``SimpleHandler.stdout.write()`` should not do partial "
 "writes."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:148
+#: ../../deprecations/pending-removal-in-future.rst:145
 msgid ""
 ":mod:`xml.etree.ElementTree`: Testing the truth value of an :class:`~xml."
 "etree.ElementTree.Element` is deprecated. In a future release it will always "
@@ -796,7 +800,7 @@ msgid ""
 "instead."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-future.rst:153
+#: ../../deprecations/pending-removal-in-future.rst:150
 msgid ""
 ":meth:`zipimport.zipimporter.load_module` is deprecated: use :meth:"
 "`~zipimport.zipimporter.exec_module` instead."
