@@ -186,7 +186,7 @@ msgid ""
 "``activate.fish`` scripts you should use instead.)"
 msgstr ""
 "(این اسکریپت برای شل bash نوشته شده است. اگر شما از شل های :program:`csh` یا"
-" :program:`fish` استفاده می کنید، باید به جای آن از اسکریپت های "
+" :program:`fish` استفاده می کنید, باید به جای آن از اسکریپت های "
 "``activate.csh`` و ``activate.fish`` استفاده کنید.)"
 
 #: ../../tutorial/venv.rst:74
