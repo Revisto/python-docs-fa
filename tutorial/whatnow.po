@@ -24,7 +24,7 @@ msgstr ""
 #: ../../tutorial/whatnow.rst:5
 #, fuzzy
 msgid "What Now?"
-msgstr "چی کاری باید انجام داد؟"
+msgstr "حال چه کنیم؟"
 
 #: ../../tutorial/whatnow.rst:7
 #, fuzzy
@@ -33,9 +33,9 @@ msgid ""
 "--- you should be eager to apply Python to solving your real-world problems."
 " Where should you go to learn more?"
 msgstr ""
-"مطالعه این آموزش احتمالاً علاقه شما به استفاده از Python را تقویت کرده است "
-"--- شما باید مشتاق باشید که Python را برای حل مسائل دنیای واقعی خود به کار "
-"ببرید. از کجا باید یادگیری بیشتر را شروع کنید؟"
+"خواندن این آموزش احتمالاً علاقه  شما به استفاده از پایتون را تقویت کرده است "
+"--- شما باید مشتاق باشید که پایتون را برای حل مسائل واقعی تان به کار بگیرید."
+" برای یادگیری بیشتر کجا باید بروید؟"
 
 #: ../../tutorial/whatnow.rst:11
 #, fuzzy
@@ -43,14 +43,15 @@ msgid ""
 "This tutorial is part of Python's documentation set.   Some other documents "
 "in the set are:"
 msgstr ""
-"این آموزش بخشی از مجموعه مستندات پایتون است. برخی دیگر از مستندات موجود در "
-"این مجموعه عبارتند از:"
+"این آموزش بخشی از مجموعه مستندات پایتون است. برخی از سایر اسناد در این "
+"مجموعه عبارتند از:"
 
 #: ../../tutorial/whatnow.rst:14
 #, fuzzy
 msgid ":ref:`library-index`:"
 msgstr ""
-"متنی برای ترجمه ارائه نشده است. لطفاً متن مورد نظر برای ترجمه را فراهم کنید."
+"متاسفانه بدون مشاهده متن اصلی نمی توانم ترجمه ای ارائه بدهم. لطفاً متن اصلی "
+"را ارسال فرمایید تا به شما کمک کنم."
 
 #: ../../tutorial/whatnow.rst:16
 #, fuzzy
@@ -63,12 +64,12 @@ msgid ""
 "many other tasks. Skimming through the Library Reference will give you an "
 "idea of what's available."
 msgstr ""
-"شما باید این راهنما را مرور کنید که مرجع کاملی (اگرچه مختصر) درباره انواع، "
-"توابع و ماژول های موجود در کتابخانه استاندارد ارائه می دهد. توزیع استاندارد "
-"Python شامل *lot* کد اضافی است. ماژول هایی برای خواندن صندوق های پستی "
-"یونیکس، بازیابی اسناد از طریق HTTP، تولید اعداد تصادفی، تجزیه گزینه های خط "
-"فرمان، فشرده سازی داده ها و بسیاری وظایف دیگر وجود دارند. مروری بر مرجع "
-"کتابخانه به شما ایده ای از قابلیت های موجود خواهد داد."
+"شما باید این راهنما را مرور کنید که مواد مرجع کامل (هرچند مختصر) درباره "
+"انواع، توابع و ماژول های موجود در کتابخانه استاندارد ارائه می دهد. توزیع "
+"استاندارد پایتون شامل یک *lot* از کد اضافی است. ماژول هایی برای خواندن صندوق"
+" های پستی یونیکس، بازیابی اسناد از طریق HTTP، تولید اعداد تصادفی، تجزیه "
+"گزینه های خط فرمان، فشرده سازی داده ها و بسیاری از وظایف دیگر وجود دارد. "
+"مرور اجمالی از مرجع کتابخانه به شما ایده ای از آنچه موجود است خواهد داد."
 
 #: ../../tutorial/whatnow.rst:24
 #, fuzzy
@@ -76,8 +77,8 @@ msgid ""
 ":ref:`installing-index` explains how to install additional modules written "
 "by other Python users."
 msgstr ""
-":ref:`installing-index` توضیح می دهد که چگونه ماژول های اضافی نوشته شده توسط"
-" دیگر کاربران پایتون را نصب کنیم."
+":ref:`installing-index` توضیح می دهد چگونه ماژول های اضافی نوشته شده توسط "
+"کاربران دیگر پایتون را نصب کنیم."
 
 #: ../../tutorial/whatnow.rst:27
 #, fuzzy
@@ -86,13 +87,13 @@ msgid ""
 "semantics.  It's heavy reading, but is useful as a complete guide to the "
 "language itself."
 msgstr ""
-":ref:`reference-index`: توضیحی دقیق از سینتکس و معنای پایتون. این متن سنگین "
-"است، اما به عنوان یک راهنمای کامل برای خود زبان مفید است."
+":ref:`reference-index`: یک توضیح دقیق از نحو و معناشناسی زبان پایتون. این "
+"متن سنگین است، اما به عنوان یک راهنمای کامل برای خود زبان مفید می باشد."
 
 #: ../../tutorial/whatnow.rst:31
 #, fuzzy
 msgid "More Python resources:"
-msgstr "منابع بیشتر پایتون:"
+msgstr "منابع بیشتر برای پایتون:"
 
 #: ../../tutorial/whatnow.rst:33
 #, fuzzy
@@ -100,13 +101,13 @@ msgid ""
 "https://www.python.org:  The major Python web site.  It contains code, "
 "documentation, and pointers to Python-related pages around the web."
 msgstr ""
-"وب سایت اصلی Python: این وب سایت شامل کد، مستندات و لینک هایی به صفحات مرتبط"
-" با Python در سراسر اینترنت می باشد."
+"https://www.python.org:  وب سایت اصلی پایتون. این وب سایت شامل کد، مستندات، "
+"و پیوندهایی به صفحات مرتبط با پایتون در سراسر وب می باشد."
 
 #: ../../tutorial/whatnow.rst:36
 #, fuzzy
 msgid "https://docs.python.org:  Fast access to Python's  documentation."
-msgstr "دسترسی سریع به مستندات پایتون: https://docs.python.org"
+msgstr "https://docs.python.org: دسترسی سریع به مستندات پایتون."
 
 #: ../../tutorial/whatnow.rst:38
 #, fuzzy
@@ -116,10 +117,10 @@ msgid ""
 "available for download.  Once you begin releasing code, you can register it "
 "here so that others can find it."
 msgstr ""
-"https://pypi.org: شاخص بسته های پایتون، که قبلاً به عنوان مغازه پنیر نیز "
-"شناخته می شد [#]_، یک شاخص از ماژول های پایتون ایجاد شده توسط کاربران است که"
-" برای دانلود در دسترس هستند. پس از آنکه شروع به انتشار کد کردید، می توانید "
-"آن را در اینجا ثبت کنید تا دیگران بتوانند آن را پیدا کنند."
+"https://pypi.org: شاخص بسته های پایتون، که قبلاً به نام فروشگاه پنیر نیز "
+"شناخته می شد [#]_، شاخصی از ماژول های پایتون ایجاد شده توسط کاربران است که "
+"برای دانلود در دسترس هستند. زمانی که شروع به عرضه کدهای خود کنید، می توانید "
+"آنها را اینجا ثبت کنید تا دیگران بتوانند آن را پیدا کنند."
 
 #: ../../tutorial/whatnow.rst:43
 #, fuzzy
@@ -129,10 +130,10 @@ msgid ""
 "Particularly notable contributions are collected in a book also titled "
 "Python Cookbook (O'Reilly & Associates, ISBN 0-596-00797-3.)"
 msgstr ""
-"https://code.activestate.com/recipes/langs/python/: کتاب Python Cookbook "
-"مجموعه ای بزرگ از مثال های کد، ماژول های بزرگتر و اسکریپت های مفید است. "
-"مشارکت های به ویژه قابل توجه در کتابی با همین عنوان، یعنی Python Cookbook "
-"(منتشر شده توسط O'Reilly & Associates، شابک 0-596-00797-3) جمع آوری شده اند."
+"https://code.activestate.com/recipes/langs/python/: کتابخانه Python Cookbook"
+" مجموعه بزرگی از مثال های کد، ماژول های بزرگ تر و اسکریپت های مفید است. "
+"مشارکت های به ویژه قابل توجه در کتابی با عنوان Python Cookbook (انتشارات "
+"O'Reilly & Associates، ISBN 0-596-00797-3) گردآوری شده اند."
 
 #: ../../tutorial/whatnow.rst:48
 #, fuzzy
@@ -140,8 +141,8 @@ msgid ""
 "https://pyvideo.org collects links to Python-related videos from conferences"
 " and user-group meetings."
 msgstr ""
-"وب سایت https://pyvideo.org لینک هایی به ویدئوهای مرتبط با پایتون از کنفرانس"
-" ها و جلسات گروه های کاربری را جمع آوری می کند."
+"https://pyvideo.org لینک هایی به ویدیوهای مربوط به پایتون از کنفرانس ها و "
+"جلسات گروه های کاربری جمع آوری می کند."
 
 #: ../../tutorial/whatnow.rst:51
 #, fuzzy
@@ -151,9 +152,10 @@ msgid ""
 " as linear algebra, Fourier transforms, non-linear solvers, random number "
 "distributions, statistical analysis and the like."
 msgstr ""
-"پروژه علمی پایتون شامل ماژول هایی برای محاسبات و دستکاری سریع آرایه ها به "
-"همراه مجموعه ای از بسته ها برای مواردی مانند جبر خطی، تبدیلات فوریه، حل "
-"کننده های غیرخطی، توزیع های اعداد تصادفی، تحلیل های آماری و موارد مشابه است."
+"پروژه Scientific Python در https://scipy.org شامل ماژول هایی برای محاسبات و "
+"دستکاری آرایه ها به صورت سریع به همراه مجموعه ای از بسته ها برای مواردی "
+"مانند جبر خطی، تبدیل های فوریه، حل کننده های غیرخطی، توزیع اعداد تصادفی، "
+"تحلیل آماری و موارد مشابه است."
 
 #: ../../tutorial/whatnow.rst:56
 #, fuzzy
@@ -166,13 +168,14 @@ msgid ""
 " new features, and announcing new modules. Mailing list archives are "
 "available at https://mail.python.org/pipermail/."
 msgstr ""
-"برای پرسش ها و گزارش مشکلات مرتبط با پایتون، می توانید به گروه خبری "
-":newsgroup:`comp.lang.python` پست ارسال کنید، یا آن ها را به فهرست پستی در "
-"python-list@python.org بفرستید. گروه خبری و فهرست پستی به یکدیگر متصل هستند،"
-" بنابراین پیام هایی که به یکی ارسال می شود، به طور خودکار به دیگری نیز ارسال"
-" خواهد شد. روزانه صدها پست ارسال می شود که شامل پرسش و پاسخ، پیشنهاد ویژگی "
-"های جدید و اعلام ماژول های جدید است. آرشیو های فهرست پستی در "
-"https://mail.python.org/pipermail/ در دسترس هستند."
+"برای پرسش ها و گزارش  مشکلات مرتبط با پایتون، می توانید در گروه خبری "
+":newsgroup:`comp.lang.python` پست بگذارید، یا آنها را به لیست پستی در "
+"python-list@python.org ارسال کنید. گروه خبری و لیست پستی به یکدیگر متصل "
+"هستند، بنابراین پیام هایی که به یکی ارسال می شوند، به صورت خودکار به دیگری "
+"نیز فرستاده می شوند. روزانه صدها پست ارسال می شود که در آنها به طرح پرسش ها "
+"(و پاسخ به آنها)، پیشنهاد ویژگی های جدید، و اعلام ماژول های جدید پرداخته می "
+"شود. آرشیوهای لیست پستی در https://mail.python.org/pipermail/ در دسترس "
+"هستند."
 
 #: ../../tutorial/whatnow.rst:64
 #, fuzzy
@@ -182,15 +185,15 @@ msgid ""
 "questions that come up again and again, and may already contain the solution"
 " for your problem."
 msgstr ""
-"قبل از ارسال، حتماً فهرست :ref:`Frequently Asked Questions <faq-index>` (که "
+"قبل از ارسال، حتماً لیست :ref:`Frequently Asked Questions <faq-index>` (که "
 "به عنوان FAQ نیز شناخته می شود) را بررسی کنید. FAQ به بسیاری از سوالاتی که "
-"بارها و بارها مطرح می شوند پاسخ می دهد و ممکن است راه حل مسئله شما را قبلاً "
-"در خود داشته باشد."
+"بارها و بارها مطرح می شوند پاسخ می دهد و ممکن است قبلاً راه حل مشکل شما را "
+"در بر داشته باشد."
 
 #: ../../tutorial/whatnow.rst:70
 #, fuzzy
 msgid "Footnotes"
-msgstr "پانویس ها"
+msgstr "پاورقی ها"
 
 #: ../../tutorial/whatnow.rst:71
 #, fuzzy
@@ -198,5 +201,5 @@ msgid ""
 "\"Cheese Shop\" is a Monty Python's sketch: a customer enters a cheese shop,"
 " but whatever cheese he asks for, the clerk says it's missing."
 msgstr ""
-"اسکچ \"Cheese Shop\" یک اجرای کمدی از Monty Python است: مشتری وارد فروشگاه "
-"پنیر می شود، اما هر نوع پنیری که می خواهد، فروشنده می گوید که موجود نیست."
+"\"فروشگاه پنیر\" یک نمایش نامه از مانتی پایتون است: مردی به فروشگاه پنیر "
+"وارد می شود، اما هر پنیری که درخواست می کند، فروشنده می گوید که موجود نیست."

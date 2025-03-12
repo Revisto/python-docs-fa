@@ -32,13 +32,13 @@ msgid ""
 "This chapter describes some things you've learned about already in more "
 "detail, and adds some new things as well."
 msgstr ""
-"این فصل برخی از مواردی که قبلاً درباره آن ها یاد گرفته اید را با جزئیات "
-"بیشتری توضیح می دهد و همچنین موارد جدیدی را نیز اضافه می کند."
+"این فصل برخی از مواردی را که قبلاً یاد گرفته اید با جزئیات بیشتری توصیف می "
+"کند و همچنین برخی از موارد جدید را نیز اضافه می کند."
 
 #: ../../tutorial/datastructures.rst:13
 #, fuzzy
 msgid "More on Lists"
-msgstr "بیشتر درباره لیست ها"
+msgstr "بیشتر در مورد لیست ها"
 
 #: ../../tutorial/datastructures.rst:15
 #, fuzzy
@@ -46,13 +46,13 @@ msgid ""
 "The list data type has some more methods.  Here are all of the methods of "
 "list objects:"
 msgstr ""
-"نوع داده ای فهرست دارای چندین متد اضافی است. در اینجا تمامی متدهای شیء های "
-"فهرست آورده شده اند:"
+"نوع داده ای لیست روش های بیشتری دارد. در اینجا تمام روش های اشیاء لیست وجود "
+"دارد:"
 
 #: ../../tutorial/datastructures.rst:22
 #, fuzzy
 msgid "Add an item to the end of the list.  Similar to ``a[len(a):] = [x]``."
-msgstr "یک آیتم به انتهای لیست اضافه کنید. مشابه ``a[len(a):] = [x]``."
+msgstr "یک آیتم به انتهای لیست اضافه کنید. مشابه با ``a[len(a):] = [x]``."
 
 #: ../../tutorial/datastructures.rst:28
 #, fuzzy
@@ -60,7 +60,7 @@ msgid ""
 "Extend the list by appending all the items from the iterable.  Similar to "
 "``a[len(a):] = iterable``."
 msgstr ""
-"لیست را با اضافه کردن همه آیتم ها از قابل تکرار گسترش دهید. مشابه "
+"لیست را با افزودن تمام آیتم ها از شیء قابل تکرار گسترش دهید. مشابه "
 "``a[len(a):] = iterable``."
 
 #: ../../tutorial/datastructures.rst:35
@@ -70,9 +70,9 @@ msgid ""
 "element before which to insert, so ``a.insert(0, x)`` inserts at the front "
 "of the list, and ``a.insert(len(a), x)`` is equivalent to ``a.append(x)``."
 msgstr ""
-"یک آیتم را در یک موقعیت مشخص وارد کنید. اولین آرگومان، شاخص المانی است که "
-"قبل از آن قرار گیرد، بنابراین `insert(0, X)` آیتمی را در ابتدای لیست قرار می"
-" دهد و `insert(1, X)` معادل `append(X)` است."
+"یک آیتم را در یک موقعیت مشخص درج کنید. اولین آرگومان، شاخص المانی است که قبل"
+" از آن درج انجام می شود. بنابراین ``a.insert(0, x)`` در ابتدای لیست درج می "
+"شود و ``a.insert(len(a), x)`` معادل ``a.append(x)`` است."
 
 #: ../../tutorial/datastructures.rst:43
 #, fuzzy
@@ -80,7 +80,7 @@ msgid ""
 "Remove the first item from the list whose value is equal to *x*.  It raises "
 "a :exc:`ValueError` if there is no such item."
 msgstr ""
-"اولین مورد را از لیست که مقدار آن برابر با *x* است حذف کنید. اگر چنین آیتمی "
+"اولین مورد را از لیست که مقدار آن برابر با *x* است حذف کنید. اگر چنین موردی "
 "وجود نداشته باشد، یک :exc:`ValueError` ایجاد می کند."
 
 #: ../../tutorial/datastructures.rst:50
@@ -91,15 +91,15 @@ msgid ""
 "list. It raises an :exc:`IndexError` if the list is empty or the index is "
 "outside the list range."
 msgstr ""
-"مورد در موقعیت داده شده در لیست را حذف کرده و آن را بازمی گرداند. اگر هیچ "
-"اندیسی مشخص نشده باشد، ``a.pop()`` آخرین مورد در لیست را حذف و بازمی گرداند."
-" اگر لیست خالی باشد یا اندیس خارج از محدوده لیست باشد، یک :exc:`IndexError` "
-"ایجاد می کند."
+"مورد را در موقعیت داده شده در لیست حذف کرده و آن را برمی گرداند. اگر هیچ "
+"شاخصی مشخص نشده باشد، ``a.pop()`` آخرین مورد موجود در لیست را حذف کرده و "
+"برمی گرداند. اگر لیست خالی باشد یا شاخص خارج از محدوده لیست باشد، "
+":exc:`IndexError` ایجاد می کند."
 
 #: ../../tutorial/datastructures.rst:59
 #, fuzzy
 msgid "Remove all items from the list.  Similar to ``del a[:]``."
-msgstr "همهٔ آیتم ها را از لیست حذف کنید. مشابه ``del a[:]``."
+msgstr "همه اقلام را از لیست حذف کنید. مشابه ``del a[:]``."
 
 #: ../../tutorial/datastructures.rst:65
 #, fuzzy
@@ -107,8 +107,8 @@ msgid ""
 "Return zero-based index in the list of the first item whose value is equal "
 "to *x*. Raises a :exc:`ValueError` if there is no such item."
 msgstr ""
-"برگرداندن شاخص بر مبنای صفر در لیست برای اولین موردی که مقدار آن برابر با "
-"*x* است. اگر چنین موردی وجود نداشته باشد، یک :exc:`ValueError` ایجاد می کند."
+"مقدار شاخص صفرم در لیست از اولین موردی که مقدارش برابر با *x* است را برمی "
+"گرداند. اگر چنین موردی وجود نداشته باشد، یک :exc:`ValueError` ایجاد می کند."
 
 #: ../../tutorial/datastructures.rst:68
 #, fuzzy
@@ -118,15 +118,14 @@ msgid ""
 " list.  The returned index is computed relative to the beginning of the full"
 " sequence rather than the *start* argument."
 msgstr ""
-"استدلال های اختیاری *start* و *end* به همان صورت که در نشانه گذاری برش "
-"استفاده می شوند تفسیر شده و برای محدود کردن جستجو به زیردنباله خاصی از لیست "
-"به کار می روند. اندیس برگردانده شده نسبت به ابتدای کل دنباله محاسبه می شود و"
-" نه نسبت به آرگومان *start*."
+"آرگومان های اختیاری *start* و *end* همانند نمادگذاری برش تعبیر می شوند و "
+"برای محدود کردن جستجو به زیرتوالی خاصی از لیست استفاده می شوند. شاخص بازگشتی"
+" نسبت به ابتدای کل توالی محاسبه می شود و نه نسبت به آرگومان *start*."
 
 #: ../../tutorial/datastructures.rst:77
 #, fuzzy
 msgid "Return the number of times *x* appears in the list."
-msgstr "تعداد دفعاتی که *x* در لیست ظاهر می شود را برگردانید."
+msgstr "تعداد دفعاتی که *x* در لیست ظاهر می شود را برگردان."
 
 #: ../../tutorial/datastructures.rst:83
 #, fuzzy
@@ -134,23 +133,23 @@ msgid ""
 "Sort the items of the list in place (the arguments can be used for sort "
 "customization, see :func:`sorted` for their explanation)."
 msgstr ""
-"اقلام لیست را به صورت درجا مرتب کنید (آرگومان ها می توانند برای سفارشی سازی "
-"مرتب سازی استفاده شوند، برای توضیحات آن ها به :func:`sorted` مراجعه کنید)."
+"اقلام لیست را در جای خود مرتب کنید (می توان از آرگومان ها برای سفارشی سازی "
+"مرتب سازی استفاده کرد، برای توضیح آنها به :func:`sorted` مراجعه کنید)."
 
 #: ../../tutorial/datastructures.rst:90
 #, fuzzy
 msgid "Reverse the elements of the list in place."
-msgstr "عناصر لیست را به صورت درجا معکوس کنید."
+msgstr "عناصر لیست را به صورت در جا معکوس کنید."
 
 #: ../../tutorial/datastructures.rst:96
 #, fuzzy
 msgid "Return a shallow copy of the list.  Similar to ``a[:]``."
-msgstr "یک کپی سطحی از لیست را برمی گرداند. مشابه با ``a[:]``."
+msgstr "برگشتی یک کپی سطحی از لیست. مشابه ``a[:]``."
 
 #: ../../tutorial/datastructures.rst:99
 #, fuzzy
 msgid "An example that uses most of the list methods::"
-msgstr "مثالی که از بیشتر متدهای لیست استفاده می کند::"
+msgstr "یک مثال که از اکثر متدهای لیست استفاده می کند::"
 
 #: ../../tutorial/datastructures.rst:101
 #, fuzzy
@@ -176,44 +175,26 @@ msgid ""
 ">>> fruits.pop()\n"
 "'pear'"
 msgstr ""
-"```python\n"
 ">>> fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']\n"
-"```\n"
-"```python\n"
-">>> fruits.count('apple')\n"
-"```\n"
-"2\n"
-"```python\n"
-">>> fruits.count('tangerine')\n"
-"```\n"
-"0\n"
-"```python\n"
-">>> fruits.index('banana')\n"
-"```\n"
-"3\n"
-"```python\n"
-">>> fruits.index('banana', 4)  # یافتن موز بعدی از موقعیت ۴\n"
-"```\n"
-"6\n"
-"```python\n"
-">>> fruits.reverse()\n"
-">>> fruits\n"
-"```\n"
-"['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']\n"
-"```python\n"
-">>> fruits.append('grape')\n"
-">>> fruits\n"
-"```\n"
-"['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grape']\n"
-"```python\n"
-">>> fruits.sort()\n"
-">>> fruits\n"
-"```\n"
-"['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear']\n"
-"```python\n"
-">>> fruits.pop()\n"
-"```\n"
-"'pear'"
+">>> fruits.count('apple') \n"
+"۲ \n"
+">>> fruits.count('tangerine') \n"
+"۰ \n"
+">>> fruits.index('banana') \n"
+"۳ \n"
+">>> fruits.index('banana', 4)  # پیدا کردن موز بعدی از مکان ۴ \n"
+"۶ \n"
+">>> fruits.reverse() \n"
+">>> fruits \n"
+"['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange'] \n"
+">>> fruits.append('grape') \n"
+">>> fruits \n"
+"['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grape'] \n"
+">>> fruits.sort() \n"
+">>> fruits \n"
+"['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear'] \n"
+">>> fruits.pop() \n"
+"'pear' "
 
 #: ../../tutorial/datastructures.rst:122
 #, fuzzy
@@ -223,10 +204,10 @@ msgid ""
 "default ``None``. [#]_  This is a design principle for all mutable data "
 "structures in Python."
 msgstr ""
-"ممکن است متوجه شده باشید که روش هایی مانند ```insert```، ```remove``` یا "
-"```sort``` که فقط لیست را تغییر می دهند، هیچ مقدار بازگشتی چاپ نمی کنند -- "
-"آن ها مقدار پیش فرض ```None``` را بازمی گردانند. [#]_ این یک اصل طراحی برای "
-"تمام ساختارهای داده ای تغییرپذیر در پایتون است."
+"ممکن است متوجه شده باشید که متدهایی مانند ``insert``، ``remove`` یا ``sort``"
+" که فقط لیست را تغییر می دهند، هیچ مقدار بازگشتی چاپ شده ای ندارند -- آن ها "
+"مقدار پیش فرض ``None`` را بازمی گردانند. [#]_ این یک اصل طراحی برای تمامی "
+"ساختارهای داده قابل تغییر در پایتون است."
 
 #: ../../tutorial/datastructures.rst:127
 #, fuzzy
@@ -237,16 +218,16 @@ msgid ""
 "other types.  Also, there are some types that don't have a defined ordering "
 "relation.  For example, ``3+4j < 5+7j`` isn't a valid comparison."
 msgstr ""
-"موضوع دیگری که ممکن است متوجه شوید این است که همه داده ها قابل مرتب سازی یا "
-"مقایسه نیستند. به عنوان مثال، ``[None, 'hello', 10]`` مرتب نمی شود زیرا "
-"اعداد صحیح نمی توانند با رشته ها مقایسه شوند و ``None`` نمی تواند با انواع "
-"دیگر مقایسه شود. همچنین، برخی انواع وجود دارند که رابطه ترتیب بندی تعریف شده"
-" ای ندارند. برای مثال، ``3+4j < 5+7j`` یک مقایسه معتبر نیست."
+"چیز دیگری که ممکن است متوجه شوید این است که همه داده ها نمی توانند مرتب یا "
+"مقایسه شوند. به عنوان مثال، ``[None, 'hello', 10]`` مرتب نمی شود زیرا اعداد "
+"صحیح نمی توانند با رشته ها مقایسه شوند و ``None`` نمی تواند با انواع دیگر "
+"مقایسه شود. همچنین، برخی از انواع وجود دارند که رابطه مرتب سازی مشخصی "
+"ندارند. برای مثال، ``3+4j < 5+7j`` یک مقایسه معتبر نیست."
 
 #: ../../tutorial/datastructures.rst:138
 #, fuzzy
 msgid "Using Lists as Stacks"
-msgstr "استفاده از فهرست ها به عنوان پشته ها"
+msgstr "استفاده از لیست ها به عنوان پشته ها"
 
 #: ../../tutorial/datastructures.rst:143
 #, fuzzy
@@ -257,11 +238,11 @@ msgid ""
 "item from the top of the stack, use :meth:`!pop` without an explicit index."
 "  For example::"
 msgstr ""
-"روش های لیست استفاده از یک لیست به عنوان یک پشته را بسیار آسان می کنند، جایی"
-" که آخرین عنصر اضافه شده اولین بخشی است که بازیابی می شود (\"آخرین ورودی، "
-"اولین خروجی\"). برای اضافه کردن یک آیتم به بالای پشته، از "
-"``:meth:`!append``` استفاده کنید. برای بازیابی یک آیتم از بالای پشته، از "
-"``:meth:`!pop``` بدون اشاره گر مشخص استفاده کنید. برای مثال::"
+"متدهای لیست استفاده از یک لیست به عنوان یک پشته را بسیار آسان می کنند، جایی "
+"که آخرین عنصر اضافه شده اولین عنصر بازیابی شده است (\"آخرین ورودی، اولین "
+"خروجی\"). برای افزودن یک آیتم به بالای پشته از :meth:`!append` استفاده کنید."
+" برای بازیابی یک آیتم از بالای پشته، از :meth:`!pop` بدون یک اندیس مشخص "
+"استفاده کنید. برای مثال::"
 
 #: ../../tutorial/datastructures.rst:148
 #, fuzzy
@@ -282,7 +263,6 @@ msgid ""
 ">>> stack\n"
 "[3, 4]"
 msgstr ""
-"```python\n"
 ">>> stack = [3, 4, 5]\n"
 ">>> stack.append(6)\n"
 ">>> stack.append(7)\n"
@@ -297,8 +277,7 @@ msgstr ""
 ">>> stack.pop()\n"
 "5\n"
 ">>> stack\n"
-"[3, 4]\n"
-"```"
+"[3, 4]"
 
 #: ../../tutorial/datastructures.rst:168
 #, fuzzy
@@ -314,11 +293,12 @@ msgid ""
 "list are fast, doing inserts or pops from the beginning of a list is slow "
 "(because all of the other elements have to be shifted by one)."
 msgstr ""
-"همچنین می توان از لیست به عنوان صف استفاده کرد، به طوری که اولین عنصر اضافه "
-"شده، اولین عنصری است که برداشته می شود (اولین ورودی، اولین خروجی)؛ با این "
-"حال، لیست ها برای این منظور کارآمد نیستند. باوجود اینکه اضافه کردن و برداشتن"
-" از انتهای لیست سریع است، درج یا برداشتن از ابتدای لیست کند است (زیرا بقیه "
-"عناصر باید به اندازه یک واحد جابه جا شوند)."
+"همچنین می توان از یک لیست به عنوان صف استفاده کرد، به طوری که اولین عنصری که"
+" اضافه می شود، اولین عنصری است که بازیابی می شود (\"اولین ورودی، اولین "
+"خروجی\")؛ با این حال، لیست ها برای این منظور کارآمد نیستند. در حالی که اضافه"
+" کردن ها و حذف ها از انتهای لیست سریع هستند، انجام وارد کردن ها یا حذف ها از"
+" ابتدای لیست کند است (زیرا همه عناصر دیگر باید به اندازه یک واحد جابجا "
+"شوند)."
 
 #: ../../tutorial/datastructures.rst:178
 #, fuzzy
@@ -327,7 +307,7 @@ msgid ""
 "have fast appends and pops from both ends.  For example::"
 msgstr ""
 "برای پیاده سازی یک صف، از :class:`collections.deque` استفاده کنید که برای "
-"افزودن و حذف سریع از هر دو طرف طراحی شده است. به عنوان مثال:"
+"افزودن و حذف سریع از هر دو انتها طراحی شده است. برای مثال::"
 
 #: ../../tutorial/datastructures.rst:181
 #, fuzzy
@@ -343,21 +323,21 @@ msgid ""
 ">>> queue                           # Remaining queue in order of arrival\n"
 "deque(['Michael', 'Terry', 'Graham'])"
 msgstr ""
-">>> از collections ماژول `deque` را وارد کنید\n"
-">>> صف = `deque`([\"Eric\"، \"John\"، \"Michael\"])\n"
-">>> صف را با افزودن \"Terry\" گسترش دهید         # Terry وارد می شود\n"
-">>> صف را با افزودن \"Graham\" گسترش دهید        # Graham وارد می شود\n"
-">>> صف را از سمت چپ حذف کنید                   # اولین فرد وارد شده اکنون خارج می شود\n"
+">>> from collections import deque\n"
+">>> queue = deque([\"Eric\", \"John\", \"Michael\"])\n"
+">>> queue.append(\"Terry\")           # تری می آید\n"
+">>> queue.append(\"Graham\")          # گراهام می آید\n"
+">>> queue.popleft()                 # اولین نفری که آمد حالا می رود\n"
 "'Eric'\n"
-">>> صف را از سمت چپ حذف کنید                   # دومین فرد وارد شده اکنون خارج می شود\n"
+">>> queue.popleft()                 # دومی نفری که آمد حالا می رود\n"
 "'John'\n"
-">>> صف                                 # صف باقی مانده به ترتیب ورود\n"
-"`deque`(['Michael'، 'Terry'، 'Graham'])"
+">>> queue                           # صف باقی مانده به ترتیب ورود\n"
+"deque(['Michael', 'Terry', 'Graham'])"
 
 #: ../../tutorial/datastructures.rst:196
 #, fuzzy
 msgid "List Comprehensions"
-msgstr "فهرست های فشرده نویسی (List Comprehensions)"
+msgstr "لیست کامپرهنشن ها"
 
 #: ../../tutorial/datastructures.rst:198
 #, fuzzy
@@ -367,16 +347,16 @@ msgid ""
 "operations applied to each member of another sequence or iterable, or to "
 "create a subsequence of those elements that satisfy a certain condition."
 msgstr ""
-"لیست کامپری هنشن ها یک روش مختصر برای ایجاد لیست ها ارائه می دهند. کاربردهای"
-" رایج آن ها شامل ایجاد لیست های جدید است که در آن هر عنصر نتیجه ی برخی "
-"عملیات ها است که بر روی هر عضو دنباله یا قابل  iter اعمال می شود، یا برای "
-"ایجاد یک زیر دنباله از آن عناصری که یک شرط خاص را برآورده می کنند، استفاده "
-"می شوند."
+"تعبیرات لیستی روشی مختصر برای ایجاد لیست ها فراهم می کند. کاربردهای معمول "
+"شامل ایجاد لیست های جدیدی است که در آن هر عنصر نتیجه ٔ اعمال عملیات هایی بر "
+"روی هر عضو یک توالی یا قابل پیمایش دیگر است، یا ایجاد زیرتوالی از آن عناصر "
+"که یک شرط خاص را برآورده می کنند."
 
 #: ../../tutorial/datastructures.rst:203
 #, fuzzy
 msgid "For example, assume we want to create a list of squares, like::"
-msgstr "به عنوان مثال، فرض کنیم می خواهیم لیستی از مربع ها ایجاد کنیم، مانند:"
+msgstr ""
+"به عنوان مثال، فرض کنید می خواهیم فهرستی از مربعات ایجاد کنیم، مانند::"
 
 #: ../../tutorial/datastructures.rst:205
 #, fuzzy
@@ -388,14 +368,12 @@ msgid ""
 ">>> squares\n"
 "[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]"
 msgstr ""
-"```python\n"
-">>> مربعات = []\n"
-">>> برای x در محدوده(10):\n"
-"...     مربعات.اضافه کردن(x**2)\n"
+">>> squares = []\n"
+">>> for x in range(10):\n"
+"...     squares.append(x**2)\n"
 "...\n"
-">>> مربعات\n"
-"[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]\n"
-"```"
+">>> squares\n"
+"[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]"
 
 #: ../../tutorial/datastructures.rst:212
 #, fuzzy
@@ -404,24 +382,27 @@ msgid ""
 "exists after the loop completes.  We can calculate the list of squares "
 "without any side effects using::"
 msgstr ""
-"لطفاً توجه کنید که این یک متغیر به نام ``x`` ایجاد می کند (یا بازنویسی می "
-"کند) که پس از اتمام حلقه همچنان وجود دارد. ما می توانیم لیست مربعات را بدون "
-"هیچ اثر جانبی با استفاده از موارد زیر محاسبه کنیم::"
+"توجه داشته باشید که این کار یک متغیر به نام ``x`` ایجاد (یا بازنویسی) می کند"
+" که پس از پایان حلقه همچنان وجود دارد. ما می توانیم لیست مربعات را بدون هیچ "
+"اثر جانبی محاسبه کنیم با استفاده از::"
 
 #: ../../tutorial/datastructures.rst:216
 #, fuzzy
 msgid "squares = list(map(lambda x: x**2, range(10)))"
-msgstr "```squares``` = ```list(map(lambda x: x**2, range(10)))```"
+msgstr ""
+"\n"
+"\n"
+"مربعات = فهرست(map(lambda x: x**2, range(10)))"
 
 #: ../../tutorial/datastructures.rst:218
 #, fuzzy
 msgid "or, equivalently::"
-msgstr "یا به عبارت دیگر::"
+msgstr "یا به طور معادل::"
 
 #: ../../tutorial/datastructures.rst:220
 #, fuzzy
 msgid "squares = [x**2 for x in range(10)]"
-msgstr "مربعات = [x**2 for x in range(10)]"
+msgstr "squares = [x**2 for x in range(10)]"
 
 #: ../../tutorial/datastructures.rst:222
 #, fuzzy
@@ -438,12 +419,12 @@ msgid ""
 ":keyword:`!if` clauses which follow it. For example, this listcomp combines "
 "the elements of two lists if they are not equal::"
 msgstr ""
-"یک فهرست تفسیرشده از براکت هایی شامل یک عبارت ایجاد شده است که به دنبال آن "
-"یک بند `:keyword:`!for`` و سپس صفر یا بیشتر از بندهای `:keyword:`!for`` یا "
-"`:keyword:`!if`` قرار می گیرد. نتیجه یک لیست جدید خواهد بود که از ارزیابی "
-"عبارت در متن بندهای `:keyword:`!for`` و `:keyword:`!if`` که بعد از آن می "
-"آیند، به  دست می آید. به عنوان مثال، این فهرست ترکیبی از عناصر دو فهرست را "
-"اگر برابر نباشند، انجام می دهد."
+"یک ترکیب لیستی شامل کروشه هایی است که یک عبارت را در بر می گیرد و به دنبال "
+"آن یک بند :keyword:`!for` قرار دارد، سپس صفر یا چند بند :keyword:`!for` یا "
+":keyword:`!if` نیز ممکن است بیایند. نتیجه یک لیست جدید خواهد بود که با "
+"ارزیابی عبارت در زمینه بندهای :keyword:`!for` و :keyword:`!if` که بعد از آن "
+"می آیند به دست می آید. به عنوان مثال، این ترکیب لیستی عناصر دو لیست را ترکیب"
+" می کند اگر آن ها برابر نباشند::"
 
 #: ../../tutorial/datastructures.rst:231
 #, fuzzy
@@ -451,15 +432,13 @@ msgid ""
 ">>> [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]\n"
 "[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
 msgstr ""
-"```python\n"
 ">>> [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]\n"
-"[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]\n"
-"```"
+"[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
 
 #: ../../tutorial/datastructures.rst:234
 #, fuzzy
 msgid "and it's equivalent to::"
-msgstr "و معادل آن به صورت زیر است::"
+msgstr "و معادل آن به این صورت است::"
 
 #: ../../tutorial/datastructures.rst:236
 #, fuzzy
@@ -473,16 +452,14 @@ msgid ""
 ">>> combs\n"
 "[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
 msgstr ""
-"```python\n"
-">>> combs = []\n"
-">>> for x in [1,2,3]:\n"
-"...     for y in [3,1,4]:\n"
-"...         if x != y:\n"
-"...             combs.append((x, y))\n"
+">>> ترکیبات = []\n"
+">>> برای x در [1,2,3]:\n"
+"...     برای y در [3,1,4]:\n"
+"...         اگر x != y:\n"
+"...             ترکیبات.پیوست((x, y))\n"
 "...\n"
-">>> combs\n"
-"[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]\n"
-"```"
+">>> ترکیبات\n"
+"[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
 
 #: ../../tutorial/datastructures.rst:245
 #, fuzzy
@@ -490,8 +467,8 @@ msgid ""
 "Note how the order of the :keyword:`for` and :keyword:`if` statements is the"
 " same in both these snippets."
 msgstr ""
-"توجه داشته باشید که ترتیب دستورات :keyword:`for` و :keyword:`if` در هر دو "
-"بخش کد مشابه است."
+"توجه کنید که ترتیب دستورات :keyword:`for` و :keyword:`if` در هر دو این تکه "
+"کدها مشابه است."
 
 #: ../../tutorial/datastructures.rst:248
 #, fuzzy
@@ -499,8 +476,8 @@ msgid ""
 "If the expression is a tuple (e.g. the ``(x, y)`` in the previous example), "
 "it must be parenthesized. ::"
 msgstr ""
-"اگر عبارت یک تاپل باشد (مثلاً ``(x, y)`` در مثال قبلی)، باید در داخل پرانتز "
-"قرار گیرد. ::"
+"اگر عبارت یک تاپل باشد (مثلاً ``(x, y)`` در مثال قبلی)، باید در پرانتز قرار "
+"گیرد. ::"
 
 #: ../../tutorial/datastructures.rst:251
 #, fuzzy
@@ -533,7 +510,6 @@ msgid ""
 ">>> [num for elem in vec for num in elem]\n"
 "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
 msgstr ""
-"```\n"
 ">>> vec = [-4, -2, 0, 2, 4]\n"
 ">>> # یک لیست جدید با مقادیر دو برابر شده ایجاد کنید\n"
 ">>> [x*2 for x in vec]\n"
@@ -556,18 +532,19 @@ msgstr ""
 "  File \"<stdin>\", line 1\n"
 "    [x, x**2 for x in range(6)]\n"
 "     ^^^^^^^\n"
-"SyntaxError: آیا پرانتزها را دور هدف درک کردن فراموش کرده اید؟\n"
-">>> # یک لیست را با استفاده از یک لیست فهمی با دو 'for' صاف کنید\n"
+"SyntaxError: آیا در اطراف هدف درک، پرانتزها را فراموش کرده اید؟\n"
+">>> # کاهش ابعاد یک لیست با استفاده از یک فهرست ساز با دو 'for'\n"
 ">>> vec = [[1,2,3], [4,5,6], [7,8,9]]\n"
 ">>> [num for elem in vec for num in elem]\n"
-"[1, 2, 3, 4, 5, 6, 7, 8, 9]\n"
-"```"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9]"
 
 #: ../../tutorial/datastructures.rst:279
 #, fuzzy
 msgid ""
 "List comprehensions can contain complex expressions and nested functions::"
-msgstr "فهرست سازی می تواند شامل عبارات پیچیده و توابع تو در تو باشد::"
+msgstr ""
+"\n"
+"درک لیست ها می توانند شامل عبارات پیچیده و توابع تو در تو باشند::"
 
 #: ../../tutorial/datastructures.rst:281
 #, fuzzy
@@ -576,16 +553,14 @@ msgid ""
 ">>> [str(round(pi, i)) for i in range(1, 6)]\n"
 "['3.1', '3.14', '3.142', '3.1416', '3.14159']"
 msgstr ""
-"```python\n"
-">>> from math import pi\n"
+">>> از math وارد کنید pi\n"
 ">>> [str(round(pi, i)) for i in range(1, 6)]\n"
-"['3.1', '3.14', '3.142', '3.1416', '3.14159']\n"
-"```"
+"['3.1', '3.14', '3.142', '3.1416', '3.14159']"
 
 #: ../../tutorial/datastructures.rst:286
 #, fuzzy
 msgid "Nested List Comprehensions"
-msgstr "فهرست های تو در توی درک شده"
+msgstr "تودرتوی لیست درک ها (Nested List Comprehensions)"
 
 #: ../../tutorial/datastructures.rst:288
 #, fuzzy
@@ -593,8 +568,8 @@ msgid ""
 "The initial expression in a list comprehension can be any arbitrary "
 "expression, including another list comprehension."
 msgstr ""
-"عبارت اولیه در یک \"list comprehension\" می تواند هر عبارت دلخواهی باشد، از "
-"جمله یک \"list comprehension\" دیگر."
+"عبارت اولیه در یک درک لیست می تواند هر عبارت دلخواهی باشد، از جمله یک درک "
+"لیست دیگر."
 
 #: ../../tutorial/datastructures.rst:291
 #, fuzzy
@@ -602,8 +577,8 @@ msgid ""
 "Consider the following example of a 3x4 matrix implemented as a list of 3 "
 "lists of length 4::"
 msgstr ""
-"در نظر داشته باشید مثال زیر از یک ماتریس ۳x۴ که به صورت یک لیست از ۳ لیست با"
-" طول ۴ پیاده سازی شده است:"
+"مثال زیر یک ماتریس ۳x4 را نشان می دهد که به صورت لیستی از ۳ لیست با طول ۴ "
+"پیاده سازی شده است::"
 
 #: ../../tutorial/datastructures.rst:294
 #, fuzzy
@@ -614,18 +589,16 @@ msgid ""
 "...     [9, 10, 11, 12],\n"
 "... ]"
 msgstr ""
-"```python\n"
 ">>> matrix = [\n"
 "...     [1, 2, 3, 4],\n"
 "...     [5, 6, 7, 8],\n"
 "...     [9, 10, 11, 12],\n"
-"... ]\n"
-"```"
+"... ]"
 
 #: ../../tutorial/datastructures.rst:300
 #, fuzzy
 msgid "The following list comprehension will transpose rows and columns::"
-msgstr "فهرست فهمی زیر سطر ها و ستون ها را جابه جا خواهد کرد::"
+msgstr "فهمیدن فهرست هم قالب زیر ستون ها و سطرها را جابه جا می کند::"
 
 #: ../../tutorial/datastructures.rst:302
 #, fuzzy
@@ -643,9 +616,9 @@ msgid ""
 " in the context of the :keyword:`for` that follows it, so this example is "
 "equivalent to::"
 msgstr ""
-"همان طور که در بخش قبلی دیدیم، تفسیر «list comprehension» داخلی در زمینه "
-"«:keyword:`for`» که پس از آن قرار دارد انجام می شود، بنابراین این مثال معادل"
-" است با:"
+"همان طور که در بخش قبلی دیدیم، comprehension لیست داخلی در زمینه ی "
+":keyword:`for` که بعد از آن می آید ارزیابی می شود، بنابراین این مثال معادل "
+"است با::"
 
 #: ../../tutorial/datastructures.rst:309
 #, fuzzy
@@ -657,19 +630,17 @@ msgid ""
 ">>> transposed\n"
 "[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 msgstr ""
-"```python\n"
 ">>> transposed = []\n"
 ">>> for i in range(4):\n"
 "...     transposed.append([row[i] for row in matrix])\n"
 "...\n"
 ">>> transposed\n"
-"[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]\n"
-"```"
+"[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 
 #: ../../tutorial/datastructures.rst:316
 #, fuzzy
 msgid "which, in turn, is the same as::"
-msgstr "که به نوبه خود، مشابه است با::"
+msgstr "که به نوبه خود معادل زیر است::"
 
 #: ../../tutorial/datastructures.rst:318
 #, fuzzy
@@ -685,18 +656,16 @@ msgid ""
 ">>> transposed\n"
 "[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 msgstr ""
-"```python\n"
 ">>> transposed = []\n"
-">>> for i in range(4):\n"
-"...     # سه خط بعدی لیست تو در تو را پیاده سازی می کند\n"
+">>> برای i در طیف(4):\n"
+"...     # سه خط زیر لیست تو در تو را پیاده سازی می کند\n"
 "...     transposed_row = []\n"
-"...     for row in matrix:\n"
-"...         transposed_row.append(row[i])\n"
+"...     برای سطر در matrix:\n"
+"...         transposed_row.append(satr[i])\n"
 "...     transposed.append(transposed_row)\n"
 "...\n"
 ">>> transposed\n"
-"[[1, 5, 9], [2, 6، 10], [3, 7، 11], [4, 8، 12]]\n"
-"```"
+"[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 
 #: ../../tutorial/datastructures.rst:329
 #, fuzzy
@@ -705,8 +674,9 @@ msgid ""
 "statements. The :func:`zip` function would do a great job for this use "
 "case::"
 msgstr ""
-"در دنیای واقعی، شما باید توابع داخلی را به عبارات جریان پیچیده ترجیح دهید. "
-"تابع :func:`zip` برای این مورد استفاده عالی عمل خواهد کرد::"
+"در دنیای واقعی، شما باید توابع داخلی را به جای جملات کنترلی پیچیده ترجیح "
+"دهید. تابع :func:`zip` برای این مورد استفاده کار بسیار خوبی انجام خواهد "
+"داد::"
 
 #: ../../tutorial/datastructures.rst:332
 #, fuzzy
@@ -714,23 +684,21 @@ msgid ""
 ">>> list(zip(*matrix))\n"
 "[(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]"
 msgstr ""
-"```python\n"
 ">>> list(zip(*matrix))\n"
-"[(۱, ۵, ۹), (۲, ۶, ۱۰), (۳, ۷, ۱۱), (۴, ۸, ۱۲)]\n"
-"```"
+"[(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]"
 
 #: ../../tutorial/datastructures.rst:335
 #, fuzzy
 msgid ""
 "See :ref:`tut-unpacking-arguments` for details on the asterisk in this line."
 msgstr ""
-"برای جزئیات مربوط به ستاره در این خط، به :ref:`tut-unpacking-arguments` "
+"برای جزئیات در مورد ستاره در این خط، به :ref:`tut-unpacking-arguments` "
 "مراجعه کنید."
 
 #: ../../tutorial/datastructures.rst:340
 #, fuzzy
 msgid "The :keyword:`!del` statement"
-msgstr "عبارت :keyword:`!del`"
+msgstr "بیانیه :keyword:`!del`"
 
 #: ../../tutorial/datastructures.rst:342
 #, fuzzy
@@ -741,11 +709,11 @@ msgid ""
 "used to remove slices from a list or clear the entire list (which we did "
 "earlier by assignment of an empty list to the slice).  For example::"
 msgstr ""
-"برای حذف یک آیتم از لیست با داشتن اندیس آن به جای مقدارش، می توان از دستور "
-":keyword:`del` استفاده کرد. این با متد :meth:`!pop` که مقداری را برمی "
-"گرداند، متفاوت است. دستور :keyword:`!del` نیز می تواند برای حذف بخش هایی از "
-"لیست یا خالی کردن کامل لیست استفاده شود (که پیش تر با تخصیص یک لیست خالی به "
-"بخش انجام دادیم). به عنوان مثال::"
+"راهی برای حذف یک آیتم از لیست با استفاده از ایندکس آن به جای مقدارش وجود "
+"دارد: دستور :keyword:`del`. این روش با متد :meth:`!pop` که یک مقدار را برمی "
+"گرداند، متفاوت است. دستور :keyword:`!del` نیز می تواند برای حذف برش ها از یک"
+" لیست یا پاک سازی کل لیست استفاده شود (که قبلاً با تخصیص یک لیست خالی به برش"
+" انجام دادیم). برای مثال::"
 
 #: ../../tutorial/datastructures.rst:348
 #, fuzzy
@@ -761,32 +729,27 @@ msgid ""
 ">>> a\n"
 "[]"
 msgstr ""
-"```python\n"
 ">>> a = [-1, 1, 66.25, 333, 333, 1234.5]\n"
 ">>> del a[0]\n"
 ">>> a\n"
-"[1, 66.25، 333، 333، 1234.5]\n"
+"[1, 66.25, 333, 333, 1234.5]\n"
 ">>> del a[2:4]\n"
 ">>> a\n"
-"[1, 66.25، 1234.5]\n"
+"[1, 66.25, 1234.5]\n"
 ">>> del a[:]\n"
 ">>> a\n"
-"[]\n"
-"```"
+"[]"
 
 #: ../../tutorial/datastructures.rst:359
 #, fuzzy
 msgid ":keyword:`del` can also be used to delete entire variables::"
 msgstr ""
-":keyword:`del` می تواند برای حذف کل متغیرها نیز مورد استفاده قرار گیرد::"
+":keyword:`del` همچنین می تواند برای حذف کامل متغیرها نیز استفاده شود::"
 
 #: ../../tutorial/datastructures.rst:361
 #, fuzzy
 msgid ">>> del a"
-msgstr ""
-">>> del a\n"
-"\n"
-"حذف متغیر `a` از فضای نام جاری."
+msgstr ">>> del a"
 
 #: ../../tutorial/datastructures.rst:363
 #, fuzzy
@@ -794,14 +757,14 @@ msgid ""
 "Referencing the name ``a`` hereafter is an error (at least until another "
 "value is assigned to it).  We'll find other uses for :keyword:`del` later."
 msgstr ""
-"ارجاع به نام ``a`` بعد از این یک خطا است (حداقل تا زمانی که مقدار دیگری به "
-"آن اختصاص داده شود). بعداً برای :keyword:`del` استفاده های دیگری پیدا خواهیم"
-" کرد."
+"استفاده از نام ``a`` از اینجا به بعد یک خطا است (حداقل تا زمانی که مقدار "
+"دیگری به آن اختصاص داده شود). بعداً استفاده های دیگری برای :keyword:`del` "
+"پیدا خواهیم کرد."
 
 #: ../../tutorial/datastructures.rst:370
 #, fuzzy
 msgid "Tuples and Sequences"
-msgstr "تاپل ها و توالی ها"
+msgstr "تاپل ها و دنباله ها"
 
 #: ../../tutorial/datastructures.rst:372
 #, fuzzy
@@ -812,18 +775,19 @@ msgid ""
 "data types may be added.  There is also another standard sequence data type:"
 " the *tuple*."
 msgstr ""
-"ما دیدیم که لیست ها و رشته ها خواص مشترک زیادی دارند، مانند عملیات ایندکس "
-"گذاری و برش. آنها دو نمونه از انواع داده *sequence* هستند (نگاه کنید به "
-":ref:`typesseq`). از آنجایی که پایتون یک زبان در حال تکامل است، انواع داده "
-"ترتیبی دیگر نیز ممکن است اضافه شوند. همچنین یک نوع داده ترتیبی استاندارد "
-"دیگر نیز وجود دارد: *tuple*."
+"ما دیدیم که لیست ها و رشته ها خصوصیات مشترک زیادی دارند، مانند عملیات اندیس "
+"گذاری و برش. آنها دو مثال از انواع داده *sequence* هستند (نگاه کنید به "
+":ref:`typesseq`). از آنجایی که پایتون یک زبان در حال تکامل است، ممکن است "
+"انواع داده  توالی دیگری اضافه شود. همچنین یک نوع داده توالی استاندارد دیگر "
+"وجود دارد: *tuple*."
 
 #: ../../tutorial/datastructures.rst:378
 #, fuzzy
 msgid ""
 "A tuple consists of a number of values separated by commas, for instance::"
 msgstr ""
-"یک \"tuple\" شامل چندین مقدار است که با کاما از هم جدا شده اند، برای مثال:"
+"یک \"tuple\" شامل تعدادی مقدار است که با کاما از هم جدا شده اند، به عنوان "
+"مثال::"
 
 #: ../../tutorial/datastructures.rst:380
 #, fuzzy
@@ -852,11 +816,11 @@ msgstr ""
 "12345\n"
 ">>> t\n"
 "(12345, 54321, 'hello!')\n"
-">>> # تاپل ها می توانند تو در تو باشند:\n"
+">>> # تاپل ها می توانند تودرتو باشند:\n"
 ">>> u = t, (1, 2, 3, 4, 5)\n"
 ">>> u\n"
 "((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))\n"
-">>> # تاپل ها تغییرناپذیر هستند:\n"
+">>> # تاپل ها غیر قابل تغییر هستند:\n"
 ">>> t[0] = 88888\n"
 "Traceback (most recent call last):\n"
 "  File \"<stdin>\", line 1, in <module>\n"
@@ -876,12 +840,11 @@ msgid ""
 " the individual items of a tuple, however it is possible to create tuples "
 "which contain mutable objects, such as lists."
 msgstr ""
-"همان طور که مشاهده می کنید، در خروجی، تاپل ها همیشه در پرانتز قرار می گیرند "
-"تا تاپل های تو در تو به درستی تفسیر شوند؛ آن ها می توانند بدون پرانتز محصور "
-"کننده یا با آن وارد شوند، اگرچه اغلب پرانتزها در هر صورت لازم هستند (اگر "
-"تاپل بخشی از یک عبارت بزرگتر باشد). امکان انتساب به آیتم های فردی یک تاپل "
-"وجود ندارد، اما امکان ایجاد تاپل های حاوی اشیای قابل تغییر، مانند لیست ها "
-"وجود دارد."
+"همان طور که می بینید، خروجی ها همیشه در پرانتز قرار می گیرند تا تاپل های تو "
+"در تو به درستی تفسیر شوند؛ آن ها می توانند با یا بدون پرانتز ورودی باشند، "
+"اگرچه اغلب پرانتزها به هر حال لازم هستند (اگر تاپل بخشی از یک عبارت بزرگ تر "
+"باشد). امکان انتساب به آیتم های تکی یک تاپل وجود ندارد، اما می توان تاپل "
+"هایی ایجاد کرد که شامل اشیاء قابل تغییر، مانند لیست ها باشند."
 
 #: ../../tutorial/datastructures.rst:407
 #, fuzzy
@@ -894,13 +857,13 @@ msgid ""
 ":term:`mutable`, and their elements are usually homogeneous and are accessed"
 " by iterating over the list."
 msgstr ""
-"اگرچه تاپل ها ممکن است شبیه به لیست ها به نظر برسند، اما معمولاً در شرایط و "
-"اهداف متفاوتی مورد استفاده قرار می گیرند. تاپل ها \":term:`immutable`\" "
-"هستند و معمولاً حاوی یک دنباله نامتجانس از عناصر می باشند که از طریق "
-"\"unpacking\" (در ادامه این بخش ببینید) یا \"indexing\" (و یا حتی توسط صفت "
-"در مورد \":func:`namedtuples <collections.namedtuple>`\") به آن ها دسترسی "
-"پیدا می شود. لیست ها \":term:`mutable`\" هستند و عناصر آن ها معمولاً همگن "
-"هستند و با تکرار در طول لیست به آن ها دسترسی پیدا می شود."
+"اگرچه به نظر می رسد که تاپل ها شبیه به فهرست ها باشند، اما اغلب در شرایط و "
+"اهداف متفاوتی مورد استفاده قرار می گیرند. تاپل ها :term:`immutable` هستند و "
+"معمولاً حاوی یک دنباله ناهمگون از عناصر می باشند که از طریق باز کردن (نکته: "
+"بخش بعدی را ببینید) یا ایندکس گذاری (و حتی از طریق صفت در مورد "
+":func:`namedtuples <collections.namedtuple>`) قابل دسترسی هستند. فهرست ها "
+":term:`mutable` هستند و عناصر آن ها معمولاً همگون بوده و با تکرار بر روی "
+"فهرست به آن ها دسترسی پیدا می شود."
 
 #: ../../tutorial/datastructures.rst:415
 #, fuzzy
@@ -911,11 +874,11 @@ msgid ""
 "constructed by following a value with a comma (it is not sufficient to "
 "enclose a single value in parentheses). Ugly, but effective.  For example::"
 msgstr ""
-"یک مشکل ویژه، ساخت تاپل هایی با ۰ یا ۱ عضو است: نحو آن چند ویژگی اضافی دارد "
-"تا این موارد را در خود بگنجاند. تاپل های خالی با یک جفت پرانتز خالی ساخته می"
-" شوند؛ یک تاپل با یک عضو با قرار دادن یک کاما بعد از مقدار مورد نظر ساخته می"
-" شود (قرار دادن یک مقدار تکی در پرانتز به تنهایی کافی نیست). زشت، ولی موثر. "
-"به عنوان مثال::"
+"یک مشکل ویژه در ساختن تاپل هایی است که 0 یا 1 آیتم دارند: نحو زبان نیازمند "
+"تغییرات اضافی برای تطابق با این موارد است. تاپل های خالی با یک جفت پرانتز "
+"خالی ساخته می شوند؛ یک تاپل با یک آیتم با قرار دادن یک کاما پس از مقدار "
+"ساخته می شود (قرار دادن یک مقدار تنها درون پرانتز کافی نیست). این کار شاید "
+"زیبا نباشد، اما مؤثر است. برای مثال::"
 
 #: ../../tutorial/datastructures.rst:421
 #, fuzzy
@@ -929,16 +892,14 @@ msgid ""
 ">>> singleton\n"
 "('hello',)"
 msgstr ""
-"```\n"
 ">>> empty = ()\n"
-">>> singleton = 'hello',    # <-- توجه داشته باشید کاما در انتهای خط\n"
+">>> singleton = 'hello',    # <-- توجه داشته باشید که ویرگول در انتها آمده است\n"
 ">>> len(empty)\n"
 "0\n"
 ">>> len(singleton)\n"
 "1\n"
 ">>> singleton\n"
-"('hello',)\n"
-"```"
+"('hello',)"
 
 #: ../../tutorial/datastructures.rst:430
 #, fuzzy
@@ -947,14 +908,14 @@ msgid ""
 "packing*: the values ``12345``, ``54321`` and ``'hello!'`` are packed "
 "together in a tuple. The reverse operation is also possible::"
 msgstr ""
-"عبارت ``t = 12345, 54321, 'hello!'`` مثالی از *tuple packing* است: مقادیر "
-"``12345``، ``54321`` و ``'hello!'`` در یک تاپل به هم بسته شده اند. عملیات "
-"معکوس نیز ممکن است::"
+"عبارت ``t = 12345, 54321, 'hello!'`` نمونه ای از *tuple packing* است: مقادیر"
+" ``12345``، ``54321`` و ``'hello!'`` در یک تاپل با هم بسته بندی می شوند. "
+"عملیات معکوس نیز امکان پذیر است::"
 
 #: ../../tutorial/datastructures.rst:434
 #, fuzzy
 msgid ">>> x, y, z = t"
-msgstr "```>>> x, y, z = t```"
+msgstr ">>> x, y, z = t"
 
 #: ../../tutorial/datastructures.rst:436
 #, fuzzy
@@ -965,10 +926,10 @@ msgid ""
 "elements in the sequence.  Note that multiple assignment is really just a "
 "combination of tuple packing and sequence unpacking."
 msgstr ""
-"این به طور مناسب *sequence unpacking* نامیده می شود و برای هر دنباله ای در "
-"سمت راست کار می کند. بازکردن دنباله نیازمند این است که به همان تعداد متغیر "
-"در سمت چپ علامت مساوی باشد که عناصر در دنباله وجود دارند. توجه داشته باشید "
-"که انتساب چندگانه در واقع تنها ترکیبی از بسته بندی تاپل و بازکردن دنباله "
+"این به درستی *sequence unpacking* نامیده می شود و برای هر دنباله ای در سمت "
+"راست کار می کند. بازگشایی دنباله نیاز دارد که به همان تعداد متغیر در سمت چپ "
+"علامت مساوی وجود داشته باشد که عناصر در دنباله وجود دارند. توجه داشته باشید "
+"که تخصیص چندگانه در واقع فقط یک ترکیب از بسته بندی تاپل و بازگشایی دنباله "
 "است."
 
 #: ../../tutorial/datastructures.rst:446
@@ -985,10 +946,10 @@ msgid ""
 "mathematical operations like union, intersection, difference, and symmetric "
 "difference."
 msgstr ""
-"پایتون همچنین شامل یک نوع داده برای *sets* است. مجموعه یک کلکسیون نامرتب "
-"بدون عناصر تکراری است. استفاده های اصلی شامل آزمایش عضویت و حذف ورودی های "
-"تکراری می باشد. اشیاء مجموعه همچنین از عملیات های ریاضی مانند اجتماع، "
-"اشتراک، تفاوت و تفاوت متقارن پشتیبانی می کنند."
+"پایتون همچنین شامل یک نوع داده برای *sets* است. یک مجموعه (set) یک مجموعه ی "
+"نامرتب بدون عناصر تکراری است. استفاده های پایه شامل آزمایش عضویت و حذف ورودی"
+" های تکراری است. اشیاء مجموعه (set) همچنین از عملیات ریاضی مثل اجتماع، "
+"اشتراک، تفاضل و تفاضل متقارن پشتیبانی می کنند."
 
 #: ../../tutorial/datastructures.rst:453
 #, fuzzy
@@ -998,15 +959,15 @@ msgid ""
 "creates an empty dictionary, a data structure that we discuss in the next "
 "section."
 msgstr ""
-"آکولادها یا تابع :func:`set` می توانند برای ایجاد مجموعه ها استفاده شوند. "
+"از آکولادها یا تابع :func:`set` می توان برای ایجاد مجموعه ها استفاده کرد. "
 "توجه: برای ایجاد یک مجموعه خالی باید از ``set()`` استفاده کنید، نه ``{}``؛ "
-"مورد دوم یک دیکشنری خالی ایجاد می کند که یک ساختار داده است و در بخش بعد به "
-"آن می پردازیم."
+"دومی یک دیکشنری خالی ایجاد می کند که یک ساختار داده است و آن را در بخش بعدی "
+"بررسی خواهیم کرد."
 
 #: ../../tutorial/datastructures.rst:457
 #, fuzzy
 msgid "Here is a brief demonstration::"
-msgstr "در اینجا یک نمایش کوتاه ارائه شده است::"
+msgstr "در اینجا یک نمایش مختصر ارائه شده است::"
 
 #: ../../tutorial/datastructures.rst:459
 #, fuzzy
@@ -1034,30 +995,28 @@ msgid ""
 ">>> a ^ b                              # letters in a or b but not both\n"
 "{'r', 'd', 'b', 'm', 'z', 'l'}"
 msgstr ""
-"```python\n"
 ">>> basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}\n"
-">>> print(basket)                      # نشان دادن اینکه موارد تکراری حذف شده اند\n"
+">>> print(basket)                      # نشان می دهد که موارد تکراری حذف شده اند\n"
 "{'orange', 'banana', 'pear', 'apple'}\n"
-">>> 'orange' in basket                 # آزمایش عضویت سریع\n"
+">>> 'orange' in basket                 # تست سریع عضویت\n"
 "True\n"
 ">>> 'crabgrass' in basket\n"
 "False\n"
 "\n"
-">>> # اعمال مجموعه را بر روی حروف منحصر به فرد از دو کلمه نمایش دهید\n"
+">>> # نشان دادن عملیات مجموعه روی حروف یکتا از دو کلمه\n"
 ">>>\n"
 ">>> a = set('abracadabra')\n"
 ">>> b = set('alacazam')\n"
-">>> a                                  # حروف منحصر به فرد در a\n"
+">>> a                                  # حروف یکتا در a\n"
 "{'a', 'r', 'b', 'c', 'd'}\n"
-">>> a - b                              # حروف موجود در a اما نه در b\n"
+">>> a - b                              # حروفی که در a هستند اما در b نیستند\n"
 "{'r', 'd', 'b'}\n"
-">>> a | b                              # حروف در a یا b یا هر دو\n"
+">>> a | b                              # حروفی که در a یا b یا هر دو هستند\n"
 "{'a', 'c', 'r', 'd', 'b', 'm', 'z', 'l'}\n"
-">>> a & b                              # حروف مشترک در a و b\n"
+">>> a & b                              # حروفی که هم در a و هم در b هستند\n"
 "{'a', 'c'}\n"
-">>> a ^ b                              # حروف موجود در a یا b اما نه هر دو\n"
-"{'r', 'd', 'b', 'm', 'z', 'l'}\n"
-"```"
+">>> a ^ b                              # حروفی که در a یا b هستند اما نه هر دو\n"
+"{'r', 'd', 'b', 'm', 'z', 'l'}"
 
 #: ../../tutorial/datastructures.rst:482
 #, fuzzy
@@ -1065,8 +1024,8 @@ msgid ""
 "Similarly to :ref:`list comprehensions <tut-listcomps>`, set comprehensions "
 "are also supported::"
 msgstr ""
-"به طور مشابه با :ref:`list comprehensions <tut-listcomps>`، مفهوم مجموعه "
-"سازی یا «set comprehensions» نیز پشتیبانی می شود::"
+"به طور مشابه با :ref:`list comprehensions <tut-listcomps>`، comprehensions "
+"مجموعه نیز پشتیبانی می شوند::"
 
 #: ../../tutorial/datastructures.rst:485
 #, fuzzy
@@ -1075,16 +1034,14 @@ msgid ""
 ">>> a\n"
 "{'r', 'd'}"
 msgstr ""
-"```python\n"
 ">>> a = {x for x in 'abracadabra' if x not in 'abc'}\n"
 ">>> a\n"
-"{'r', 'd'}\n"
-"```"
+"{'r', 'd'}"
 
 #: ../../tutorial/datastructures.rst:493
 #, fuzzy
 msgid "Dictionaries"
-msgstr "دیكشنری ها"
+msgstr "دایره المعارف ها"
 
 #: ../../tutorial/datastructures.rst:495
 #, fuzzy
@@ -1100,17 +1057,17 @@ msgid ""
 "modified in place using index assignments, slice assignments, or methods "
 "like :meth:`!append` and :meth:`!extend`."
 msgstr ""
-"یکی دیگر از نوع داده های مفید ساخته شده در پایتون *dictionary* است (نگاه "
-"کنید به :ref:`typesmapping`). دیکشنری ها گاهی در زبان های دیگر به عنوان "
-"\"حافظه های انجمنی\" یا \"آرایه های انجمنی\" شناخته می شوند. برخلاف دنباله "
-"ها که با یک بازه از اعداد ایندکس می شوند، دیکشنری ها با *keys* ایندکس می "
-"شوند که می تواند هر نوع غیرقابل تغییر باشد؛ رشته ها و اعداد همیشه می توانند "
-"کلید باشند. از تاپل ها می توان به عنوان کلید استفاده کرد اگر تنها شامل رشته "
-"ها، اعداد، یا تاپل ها باشند؛ اگر یک تاپل به صورت مستقیم یا غیرمستقیم شامل هر"
-" شیء قابل تغییری باشد، نمی توان از آن به عنوان کلید استفاده کرد. نمی توانید "
-"از لیست ها به عنوان کلید استفاده کنید، زیرا لیست ها می توانند با استفاده از "
-"تخصیص ایندکس، تخصیص برشی، یا روش هایی مانند :meth:`!append` و "
-":meth:`!extend` به صورت محلی تغییر پیدا کنند."
+"یکی دیگر از نوع های داده مفید موجود در پایتون، *dictionary* (به "
+":ref:`typesmapping` مراجعه کنید) است. دیکشنری ها در بعضی زبان ها به عنوان "
+"\"حافظه های انجمنی\" یا \"آرایه های انجمنی\" شناخته می شوند. برخلاف توالی ها"
+" که با یک محدوده از اعداد شاخص گذاری می شوند، دیکشنری ها توسط *keys* شاخص "
+"گذاری می شوند که می تواند هر نوع غیر قابل تغییر باشد؛ رشته ها و اعداد همیشه "
+"می توانند کلید باشند. در صورتی که یک تاپل تنها حاوی رشته ها، اعداد یا تاپل "
+"دیگری باشد، می تواند به عنوان کلید استفاده شود؛ اگر یک تاپل به صورت مستقیم "
+"یا غیر مستقیم شامل هر شیء قابل تغییر باشد، نمی تواند به عنوان کلید استفاده "
+"شود. شما نمی توانید از لیست ها به عنوان کلید استفاده کنید، زیرا لیست ها می "
+"توانند با استفاده از انتساب شاخص، انتساب قطعه ای یا متدهایی مانند "
+":meth:`!append` و :meth:`!extend` در محل تغییر کنند."
 
 #: ../../tutorial/datastructures.rst:506
 #, fuzzy
@@ -1121,12 +1078,12 @@ msgid ""
 "of key:value pairs within the braces adds initial key:value pairs to the "
 "dictionary; this is also the way dictionaries are written on output."
 msgstr ""
-"بهترین راه برای تصور یک دیکشنری این است که آن را به صورت مجموعه ای از جفت "
-"های *key: value* در نظر بگیرید، با این شرط که کلیدها باید یکتا باشند (در "
-"داخل یک دیکشنری). یک جفت آکولاد، یک دیکشنری خالی ایجاد می کند: ``{}``. قرار "
-"دادن لیستی از جفت های کلید:مقدار که با ویرگول از هم جدا شده اند درون "
-"آکولادها، جفت های کلید:مقدار اولیه به دیکشنری اضافه می کند؛ این همچنین روشی "
-"است که دیکشنری ها در خروجی نوشته می شوند."
+"بهتر است یک دیکشنری را به عنوان یک مجموعه از جفت  *key: value* در نظر "
+"بگیریم، با این شرط که کلیدها در یک دیکشنری منحصر به فرد باشند. یک جفت آکولاد"
+" یک دیکشنری خالی ایجاد می کند: ``{}``. قراردادن یک لیست از جفت های "
+"کلید:مقدار که با کاما از هم جدا شده اند، در داخل آکولادها، جفت های "
+"کلید:مقدار اولیه را به دیکشنری اضافه می کند؛ این همچنین روشی است که دیکشنری "
+"ها در خروجی نوشته می شوند."
 
 #: ../../tutorial/datastructures.rst:512
 #, fuzzy
@@ -1137,11 +1094,11 @@ msgid ""
 "use, the old value associated with that key is forgotten.  It is an error to"
 " extract a value using a non-existent key."
 msgstr ""
-"عملیات اصلی روی دیکشنری شامل ذخیره یک مقدار با استفاده از یک کلید و استخراج "
-"مقدار با دادن کلید مربوطه است. همچنین امکان حذف یک جفت کلید:مقدار با "
-"\"``del``\" وجود دارد. اگر از یک کلید که قبلاً مورد استفاده قرار گرفته است "
-"برای ذخیره سازی استفاده کنید، مقدار قدیمی مرتبط با آن کلید به فراموشی سپرده "
-"می شود. استخراج مقدار با استفاده از یک کلید غیر موجود یک خطا محسوب می شود."
+"عملیات اصلی روی یک دیکشنری ذخیره یک مقدار با یک کلید و استخراج مقدار با "
+"استفاده از کلید است. همچنین امکان حذف یک جفت کلید:مقدار با استفاده از "
+"``del`` وجود دارد. اگر از کلیدی که قبلاً استفاده شده است استفاده کنید، مقدار"
+" قدیمی مرتبط با آن کلید فراموش می شود. استخراج یک مقدار با استفاده از یک "
+"کلید ناموجود یک خطا است."
 
 #: ../../tutorial/datastructures.rst:518
 #, fuzzy
@@ -1151,15 +1108,15 @@ msgid ""
 "``sorted(d)`` instead). To check whether a single key is in the dictionary, "
 "use the :keyword:`in` keyword."
 msgstr ""
-"انجام ``list(d)`` بر روی یک دیکشنری، لیستی از تمام کلیدهایی که در دیکشنری "
-"استفاده شده اند را، به ترتیب ورود برمی گرداند (اگر می خواهید آن را مرتب "
-"کنید، فقط از ``sorted(d)`` استفاده کنید). برای بررسی اینکه آیا یک کلید خاص "
-"در دیکشنری وجود دارد یا خیر، از کلمه کلیدی :keyword:`in` استفاده کنید."
+"انجام ``list(d)`` بر روی یک دیکشنری، لیستی از تمامی کلیدهای استفاده شده در "
+"دیکشنری را در ترتیب درج شده بر می گرداند (اگر می خواهید مرتب باشد، به جای آن"
+" از ``sorted(d)`` استفاده کنید). برای بررسی اینکه آیا یک کلید خاص در دیکشنری"
+" وجود دارد، از کلمه کلیدی :keyword:`in` استفاده کنید."
 
 #: ../../tutorial/datastructures.rst:523
 #, fuzzy
 msgid "Here is a small example using a dictionary::"
-msgstr "اینجا یک مثال کوچک با استفاده از یک دیکشنری آورده شده است:"
+msgstr "در اینجا یک مثال کوچک با استفاده از یک دیکشنری آمده است::"
 
 #: ../../tutorial/datastructures.rst:525
 #, fuzzy
@@ -1183,7 +1140,6 @@ msgid ""
 ">>> 'jack' not in tel\n"
 "False"
 msgstr ""
-"```\n"
 ">>> tel = {'jack': 4098, 'sape': 4139}\n"
 ">>> tel['guido'] = 4127\n"
 ">>> tel\n"
@@ -1201,8 +1157,7 @@ msgstr ""
 ">>> 'guido' in tel\n"
 "True\n"
 ">>> 'jack' not in tel\n"
-"False\n"
-"```"
+"False"
 
 #: ../../tutorial/datastructures.rst:544
 #, fuzzy
@@ -1210,8 +1165,8 @@ msgid ""
 "The :func:`dict` constructor builds dictionaries directly from sequences of "
 "key-value pairs::"
 msgstr ""
-"سازنده :func:`dict` دیکشنری ها را مستقیماً از توالی های جفت کلید-مقدار می "
-"سازد::"
+"سازنده :func:`dict` دیکشنری ها را به طور مستقیم از دنباله های جفت کلید-مقدار"
+" می سازد::"
 
 #: ../../tutorial/datastructures.rst:547
 #, fuzzy
@@ -1219,10 +1174,8 @@ msgid ""
 ">>> dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])\n"
 "{'sape': 4139, 'guido': 4127, 'jack': 4098}"
 msgstr ""
-"```python\n"
 ">>> dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])\n"
-"{'sape': 4139, 'guido': 4127, 'jack': 4098}\n"
-"```"
+"{'sape': 4139, 'guido': 4127, 'jack': 4098}"
 
 #: ../../tutorial/datastructures.rst:550
 #, fuzzy
@@ -1230,8 +1183,8 @@ msgid ""
 "In addition, dict comprehensions can be used to create dictionaries from "
 "arbitrary key and value expressions::"
 msgstr ""
-"علاوه بر این، از «dict comprehensions» می توان برای ایجاد دیکشنری ها از "
-"عبارات کلید و مقدار دلخواه استفاده کرد::"
+"علاوه بر این، می توان از dict comprehensions برای ایجاد دیکشنری ها از عبارات"
+" دلخواه کلید و مقدار استفاده کرد::"
 
 #: ../../tutorial/datastructures.rst:553
 #, fuzzy
@@ -1239,8 +1192,8 @@ msgid ""
 ">>> {x: x**2 for x in (2, 4, 6)}\n"
 "{2: 4, 4: 16, 6: 36}"
 msgstr ""
-"```python\n"
-"{2: 4, 4: 16, 6: 36} ```: x**2``` برای ساخت این دیکشنری، از «تعبیر دیکشنری» استفاده می کنیم که در آن هر کلید مربع مقدارش است و به این صورت تعریف می شود که برای هر x در (2، 4، 6) عبارت"
+">>> {x: x**2 for x in (2, 4, 6)}\n"
+"{2: 4, 4: 16, 6: 36}"
 
 #: ../../tutorial/datastructures.rst:556
 #, fuzzy
@@ -1248,8 +1201,8 @@ msgid ""
 "When the keys are simple strings, it is sometimes easier to specify pairs "
 "using keyword arguments::"
 msgstr ""
-"وقتی کلیدها رشته های ساده هستند، گاهی اوقات مشخص کردن جفت ها با استفاده از "
-"آرگومان های کلیدی آسان تر است::"
+"هنگامی که کلیدها رشته های ساده باشند، گاهی اوقات آسان تر است که جفت ها را با"
+" استفاده از آرگومان های کلیدواژه مشخص کنید::"
 
 #: ../../tutorial/datastructures.rst:559
 #, fuzzy
@@ -1257,15 +1210,13 @@ msgid ""
 ">>> dict(sape=4139, guido=4127, jack=4098)\n"
 "{'sape': 4139, 'guido': 4127, 'jack': 4098}"
 msgstr ""
-"```python\n"
 ">>> dict(sape=4139, guido=4127, jack=4098)\n"
-"{'sape': 4139, 'guido': 4127, 'jack': 4098}\n"
-"```"
+"{'sape': 4139, 'guido': 4127, 'jack': 4098}"
 
 #: ../../tutorial/datastructures.rst:566
 #, fuzzy
 msgid "Looping Techniques"
-msgstr "تکنیک های تکرار"
+msgstr "تکنیک های حلقه زدن"
 
 #: ../../tutorial/datastructures.rst:568
 #, fuzzy
@@ -1273,8 +1224,8 @@ msgid ""
 "When looping through dictionaries, the key and corresponding value can be "
 "retrieved at the same time using the :meth:`~dict.items` method. ::"
 msgstr ""
-"هنگام پیمایش در دیکشنری ها، کلید و مقدار مربوطه می توانند همزمان با استفاده "
-"از متد :meth:`~dict.items` بازیابی شوند."
+"هنگام پیمایش در دیکشنری ها، کلید و مقدار مربوطه را می توان همزمان با استفاده"
+" از روش :meth:`~dict.items` بازیابی کرد. ::"
 
 #: ../../tutorial/datastructures.rst:571
 #, fuzzy
@@ -1286,14 +1237,12 @@ msgid ""
 "gallahad the pure\n"
 "robin the brave"
 msgstr ""
-"```python\n"
 ">>> knights = {'gallahad': 'the pure', 'robin': 'the brave'}\n"
 ">>> for k, v in knights.items():\n"
 "...     print(k, v)\n"
 "...\n"
 "gallahad the pure\n"
-"robin the brave\n"
-"```"
+"robin the brave"
 
 #: ../../tutorial/datastructures.rst:578
 #, fuzzy
@@ -1301,8 +1250,8 @@ msgid ""
 "When looping through a sequence, the position index and corresponding value "
 "can be retrieved at the same time using the :func:`enumerate` function. ::"
 msgstr ""
-"هنگام پیمایش یک دنباله، می توان به طور همزمان به شاخص موقعیت و مقدار مربوطه "
-"با استفاده از تابع :func:`enumerate` دسترسی داشت."
+"هنگام گردش در یک توالی، می توان به طور همزمان به شاخص موقعیت و مقدار مربوطه "
+"با استفاده از تابع :func:`enumerate` دسترسی پیدا کرد. ::"
 
 #: ../../tutorial/datastructures.rst:581
 #, fuzzy
@@ -1314,14 +1263,12 @@ msgid ""
 "1 tac\n"
 "2 toe"
 msgstr ""
-"```python\n"
-">>> برای i و v در `enumerate(['tic', 'tac', 'toe']):`\n"
-"...     `print(i, v)`\n"
+">>> for i, v in enumerate(['tic', 'tac', 'toe']):\n"
+"...     print(i, v)\n"
 "...\n"
 "0 tic\n"
 "1 tac\n"
-"2 toe\n"
-"```"
+"2 toe"
 
 #: ../../tutorial/datastructures.rst:588
 #, fuzzy
@@ -1329,8 +1276,8 @@ msgid ""
 "To loop over two or more sequences at the same time, the entries can be "
 "paired with the :func:`zip` function. ::"
 msgstr ""
-"برای پیمایش بر روی دو یا چند دنباله به طور همزمان، می توان ورودی ها را با "
-"استفاده از تابع :func:`zip` جفت کرد. ::"
+"برای پیمایش همزمان در دو یا چند توالی، می توان از تابع :func:`zip` برای جفت "
+"کردن ورودی ها استفاده کرد. ::"
 
 #: ../../tutorial/datastructures.rst:591
 #, fuzzy
@@ -1344,16 +1291,14 @@ msgid ""
 "What is your quest?  It is the holy grail.\n"
 "What is your favorite color?  It is blue."
 msgstr ""
-"```python\n"
 ">>> questions = ['name', 'quest', 'favorite color']\n"
 ">>> answers = ['lancelot', 'the holy grail', 'blue']\n"
 ">>> for q, a in zip(questions, answers):\n"
 "...     print('What is your {0}?  It is {1}.'.format(q, a))\n"
 "...\n"
-"What is your name?  It is lancelot.\n"
-"What is your quest?  It is the holy grail.\n"
-"What is your favorite color?  It is blue.\n"
-"```"
+"نام شما چیست؟  آن lancelot است.\n"
+"ماموریت شما چیست؟  آن the holy grail است.\n"
+"رنگ مورد علاقه ی شما چیست؟  آن blue است."
 
 #: ../../tutorial/datastructures.rst:600
 #, fuzzy
@@ -1361,8 +1306,8 @@ msgid ""
 "To loop over a sequence in reverse, first specify the sequence in a forward "
 "direction and then call the :func:`reversed` function. ::"
 msgstr ""
-"برای پیمایش یک دنباله به صورت معکوس، ابتدا دنباله را در جهت رو  به جلو مشخص "
-"کرده و سپس تابع :func:`reversed` را فراخوانی کنید. ::"
+"برای پیمایش بر روی یک دنباله به صورت معکوس، ابتدا دنباله را به صورت رو به "
+"جلو مشخص کرده و سپس تابع :func:`reversed` را فراخوانی کنید. ::"
 
 #: ../../tutorial/datastructures.rst:603
 #, fuzzy
@@ -1376,16 +1321,14 @@ msgid ""
 "3\n"
 "1"
 msgstr ""
-"```python\n"
-">>> for i in reversed(range(1, 10, 2)):\n"
+">>> برای i در reversed(range(1, 10, 2)):\n"
 "...     print(i)\n"
 "...\n"
 "9\n"
 "7\n"
 "5\n"
 "3\n"
-"1\n"
-"```"
+"1"
 
 #: ../../tutorial/datastructures.rst:612
 #, fuzzy
@@ -1393,9 +1336,9 @@ msgid ""
 "To loop over a sequence in sorted order, use the :func:`sorted` function "
 "which returns a new sorted list while leaving the source unaltered. ::"
 msgstr ""
-"برای پیمایش بر روی یک توالی به ترتیب مرتب شده، از تابع :func:`sorted` "
-"استفاده کنید که یک لیست مرتب شده جدید بازمی گرداند در حالی که منبع را بدون "
-"تغییر باقی می گذارد. ::"
+"برای مرور بر روی یک دنباله به ترتیب مرتب، از تابع :func:`sorted` استفاده "
+"کنید که یک لیست مرتب جدید را بازمی گرداند در حالی که منبع را به صورت تغییر "
+"نیافته باقی می گذارد. ::"
 
 #: ../../tutorial/datastructures.rst:615
 #, fuzzy
@@ -1411,7 +1354,6 @@ msgid ""
 "orange\n"
 "pear"
 msgstr ""
-"```python\n"
 ">>> basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']\n"
 ">>> for i in sorted(basket):\n"
 "...     print(i)\n"
@@ -1421,8 +1363,7 @@ msgstr ""
 "banana\n"
 "orange\n"
 "orange\n"
-"pear\n"
-"```"
+"pear"
 
 #: ../../tutorial/datastructures.rst:626
 #, fuzzy
@@ -1432,9 +1373,9 @@ msgid ""
 "idiomatic way to loop over unique elements of the sequence in sorted order. "
 "::"
 msgstr ""
-"استفاده از :func:`set` بر روی یک دنباله، عناصر تکراری را حذف می کند. استفاده"
-" از :func:`sorted` به همراه :func:`set` بر روی یک دنباله، روشی اصطلاحی برای "
-"پیمایش عناصر یکتای دنباله به ترتیب مرتب شده است. ::"
+"استفاده از :func:`set` بر روی دنباله، عناصر تکراری را حذف می کند. استفاده از"
+" :func:`sorted` به همراه :func:`set` بر روی یک دنباله، روشی ایدئوماتیک برای "
+"پیمایش بر روی عناصر منحصر به فرد دنباله به صورت مرتب شده است. ::"
 
 #: ../../tutorial/datastructures.rst:630
 #, fuzzy
@@ -1448,16 +1389,14 @@ msgid ""
 "orange\n"
 "pear"
 msgstr ""
-"```python\n"
 ">>> basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']\n"
 ">>> for f in sorted(set(basket)):\n"
 "...     print(f)\n"
 "...\n"
-"سیب\n"
-"موز\n"
-"پرتقال\n"
-"گلابی\n"
-"```"
+"apple\n"
+"banana\n"
+"orange\n"
+"pear"
 
 #: ../../tutorial/datastructures.rst:639
 #, fuzzy
@@ -1465,8 +1404,8 @@ msgid ""
 "It is sometimes tempting to change a list while you are looping over it; "
 "however, it is often simpler and safer to create a new list instead. ::"
 msgstr ""
-"اغلب اوقات وسوسه انگیز است که در حالی که در حال پیمایش یک لیست هستید، آن را "
-"تغییر دهید؛ اما اغلب ساده تر و امن تر است که یک لیست جدید ایجاد کنید."
+"گاهی وسوسه انگیز است که هنگام پیمایش یک لیست، آن را تغییر دهید؛ اما اغلب "
+"ساده تر و ایمن تر است که به جای آن یک لیست جدید ایجاد کنید. ::"
 
 #: ../../tutorial/datastructures.rst:642
 #, fuzzy
@@ -1481,7 +1420,6 @@ msgid ""
 ">>> filtered_data\n"
 "[56.2, 51.7, 55.3, 52.5, 47.8]"
 msgstr ""
-"```python\n"
 ">>> import math\n"
 ">>> raw_data = [56.2, float('NaN'), 51.7, 55.3, 52.5, float('NaN'), 47.8]\n"
 ">>> filtered_data = []\n"
@@ -1490,15 +1428,12 @@ msgstr ""
 "...         filtered_data.append(value)\n"
 "...\n"
 ">>> filtered_data\n"
-"[56.2, 51.7, 55.3, 52.5, 47.8]\n"
-"``` \n"
-"\n"
-"ماژول `math` را وارد می کنیم و یک لیست نام `raw_data` را تعریف می کنیم که شامل مقادیر عددی و `NaN` است. سپس، یک لیست خالی به نام `filtered_data` ایجاد می کنیم. برای هر مقدار در `raw_data`، بررسی می کنیم که آیا `NaN` نیست. اگر مقدار `NaN` نبود، آن را به `filtered_data` اضافه می کنیم. در نهایت، `filtered_data` را مشاهده می کنیم که شامل مقادیر عددی بدون `NaN` است: `[56.2, 51.7, 55.3, 52.5, 47.8]`."
+"[56.2, 51.7, 55.3, 52.5, 47.8]"
 
 #: ../../tutorial/datastructures.rst:656
 #, fuzzy
 msgid "More on Conditions"
-msgstr "بیشتر درباره ی شرایط"
+msgstr "بیشتر درباره شرایط"
 
 #: ../../tutorial/datastructures.rst:658
 #, fuzzy
@@ -1506,8 +1441,8 @@ msgid ""
 "The conditions used in ``while`` and ``if`` statements can contain any "
 "operators, not just comparisons."
 msgstr ""
-"شرایطی که در دستورات ``while`` و ``if`` استفاده می شوند می توانند شامل هر "
-"نوع عملیاتی باشند، نه فقط مقایسه ها."
+"شرایط استفاده شده در دستورات ``while`` و ``if`` می توانند شامل هر گونه "
+"عملگرها باشند، نه فقط مقایسه ها."
 
 #: ../../tutorial/datastructures.rst:662
 #, fuzzy
@@ -1518,10 +1453,11 @@ msgid ""
 "object.  All comparison operators have the same priority, which is lower "
 "than that of all numerical operators."
 msgstr ""
-"عملگرهای مقایسه ای ``in`` و ``not in`` آزمون های عضویتی هستند که تعیین می "
-"کنند آیا یک مقدار در یک ظرف وجود دارد (یا ندارد). عملگرهای ``is`` و ``is "
-"not`` بررسی می کنند که آیا دو شیء واقعاً یک شیء هستند. تمامی عملگرهای مقایسه"
-" ای دارای اولویت یکسانی هستند که پایین تر از تمامی عملگرهای عددی است."
+"عملگرهای مقایسه ای ``in`` و ``not in`` تست های عضویت هستند که تعیین می کنند "
+"آیا یک مقدار در یک محفظه وجود دارد یا خیر. عملگرهای ``is`` و ``is not`` "
+"بررسی می کنند آیا دو شیء عملاً یک شیء واحد هستند یا خیر. تمام عملگرهای "
+"مقایسه ای دارای اولویت یکسانی هستند که این اولویت کمتر از تمام عملگرهای عددی"
+" است."
 
 #: ../../tutorial/datastructures.rst:668
 #, fuzzy
@@ -1529,8 +1465,9 @@ msgid ""
 "Comparisons can be chained.  For example, ``a < b == c`` tests whether ``a``"
 " is less than ``b`` and moreover ``b`` equals ``c``."
 msgstr ""
-"مقایسه ها می توانند به هم زنجیره شوند. برای مثال، ``a < b == c`` بررسی می "
-"کند که آیا ``a`` کمتر از ``b`` است و علاوه بر آن، ``b`` برابر با ``c`` است."
+"می توان مقایسه ها را به هم زنجیر کرد. به عنوان مثال، ``a < b == c`` بررسی می"
+" کند که آیا ``a`` کمتر از ``b`` است و علاوه بر این ``b`` برابر با ``c`` می "
+"باشد."
 
 #: ../../tutorial/datastructures.rst:671
 #, fuzzy
@@ -1542,12 +1479,12 @@ msgid ""
 "lowest, so that ``A and not B or C`` is equivalent to ``(A and (not B)) or "
 "C``. As always, parentheses can be used to express the desired composition."
 msgstr ""
-"مقایسه ها ممکن است با استفاده از عملگرهای بولی ``and`` و ``or`` ترکیب شوند و"
-" نتیجه یک مقایسه (یا هر عبارت بولی دیگر) ممکن است با ``not`` نفی شود. این ها"
-" اولویت های پایین تری از عملگرهای مقایسه دارند؛ بین آن ها، ``not`` بالاترین "
+"مقایسه ها می توانند با استفاده از عملگرهای بولی ``and`` و ``or`` ترکیب شوند "
+"و نتیجه یک مقایسه (یا هر عبارت بولی دیگر) می تواند با ``not`` منفی شود. این "
+"ها اولویت کمتری نسبت به عملگرهای مقایسه دارند؛ بین آن ها، ``not`` بالاترین "
 "اولویت و ``or`` پایین ترین اولویت را دارد، به طوری که ``A and not B or C`` "
-"معادل ``(A and (not B)) or C`` است. همانطور که همیشه، می توان از پرانتزها "
-"برای بیان ترکیب مورد نظر استفاده کرد."
+"معادل ``(A and (not B)) or C`` است. همانطور که همیشه، پرانتزها می توانند "
+"برای نشان دادن ترکیب مطلوب استفاده شوند."
 
 #: ../../tutorial/datastructures.rst:678
 #, fuzzy
@@ -1559,12 +1496,12 @@ msgid ""
 "expression ``C``.  When used as a general value and not as a Boolean, the "
 "return value of a short-circuit operator is the last evaluated argument."
 msgstr ""
-"عملگرهای بولینی ``and`` و ``or`` به عنوان عملگرهای *short-circuit* شناخته می"
-" شوند: آرگومان های آنها از چپ به راست ارزیابی می شوند و ارزیابی به محض تعیین"
+"عملگرهای بولی ``and`` و ``or`` به عنوان عملگرهای *short-circuit* شناخته می "
+"شوند: آرگومان های آن ها از چپ به راست ارزیابی می شوند و ارزیابی به محض تعیین"
 " نتیجه متوقف می شود. به عنوان مثال، اگر ``A`` و ``C`` درست باشند اما ``B`` "
-"نادرست باشد، ``A and B and C`` عبارت ``C`` را ارزیابی نمی کند. هنگامی که به "
-"عنوان یک مقدار کلی و نه به عنوان یک بولین استفاده می شوند، مقدار بازگشتی یک "
-"عملگر کوتاه-مدار، آخرین آرگومان ارزیابی شده است."
+"غلط باشد، ``A and B and C`` عبارت ``C`` را ارزیابی نمی کند. زمانی که به "
+"عنوان یک مقدار عمومی و نه به عنوان بولی استفاده شوند، مقدار بازگشتی یک عملگر"
+" *short-circuit* برابر با آخرین آرگومانی است که ارزیابی شده است."
 
 #: ../../tutorial/datastructures.rst:685
 #, fuzzy
@@ -1572,8 +1509,8 @@ msgid ""
 "It is possible to assign the result of a comparison or other Boolean "
 "expression to a variable.  For example, ::"
 msgstr ""
-"امکان دارد نتیجه یک مقایسه یا یک عبارت بولی دیگر را به یک متغیر نسبت دهید. "
-"برای مثال: ::"
+"امکان انتساب نتیجه یک مقایسه یا دیگر عبارات بولی به یک متغیر وجود دارد. برای"
+" مثال، ::"
 
 #: ../../tutorial/datastructures.rst:688
 #, fuzzy
@@ -1583,12 +1520,10 @@ msgid ""
 ">>> non_null\n"
 "'Trondheim'"
 msgstr ""
-"```\n"
 ">>> string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'\n"
 ">>> non_null = string1 or string2 or string3\n"
 ">>> non_null\n"
-"'Trondheim'\n"
-"```"
+"'Trondheim'"
 
 #: ../../tutorial/datastructures.rst:693
 #, fuzzy
@@ -1598,16 +1533,16 @@ msgid ""
 "an-expression>` ``:=``. This avoids a common class of problems encountered "
 "in C programs: typing ``=`` in an expression when ``==`` was intended."
 msgstr ""
-"در پایتون، برخلاف C، تخصیص در داخل عبارات باید به صورت صریح با استفاده از "
-":ref:`walrus operator <why-can-t-i-use-an-assignment-in-an-expression>` "
-"``:=`` انجام شود. این کار از یک دسته مشکلات رایج که در برنامه های C مشاهده "
-"می شود جلوگیری می کند: وقتی که در یک عبارت ``=`` تایپ می شود در حالی که "
-"منظور ``==`` بوده است."
+"توجه داشته باشید که در پایتون، برخلاف زبان C، تخصیص در عبارات باید به صورت "
+"صریح با :ref:`walrus operator <why-can-t-i-use-an-assignment-in-an-"
+"expression>` ``:=`` انجام شود. این کار یک دسته مشکلات رایج در برنامه های C "
+"را که به علت تایپ ``=`` در یک عبارت در زمانی رخ می دهد که ``==`` مورد نظر "
+"بوده است، اجتناب می کند."
 
 #: ../../tutorial/datastructures.rst:703
 #, fuzzy
 msgid "Comparing Sequences and Other Types"
-msgstr "مقایسه توالی ها و انواع دیگر"
+msgstr "مقایسه ی دنباله ها و انواع دیگر"
 
 #: ../../tutorial/datastructures.rst:704
 #, fuzzy
@@ -1625,16 +1560,17 @@ msgid ""
 "order individual characters. Some examples of comparisons between sequences "
 "of the same type::"
 msgstr ""
-"اشیای توالی معمولاً به اشیای دیگر از نوع توالی یکسان قابل مقایسه هستند. "
-"مقایسه از ترتیب *lexicographical* استفاده می کند: ابتدا دو آیتم اول مقایسه "
-"می شوند و اگر تفاوت داشته باشند، نتیجه مقایسه را تعیین می کند؛ اگر برابر "
-"باشند، دو آیتم بعدی مقایسه می شوند و این روند ادامه می یابد تا زمانی که یک "
-"توالی به پایان برسد. اگر دو آیتمی که باید مقایسه شوند خودشان توالی از همان "
-"نوع باشند، مقایسه لغت نامه ای به صورت بازگشتی انجام می شود. اگر تمام آیتم "
-"های دو توالی با هم برابر باشند، توالی ها برابر در نظر گرفته می شوند. اگر یک "
-"توالی زیردنباله اولیه دیگری باشد، توالی کوتاه تر، کوچکتر در نظر گرفته می "
-"شود. ترتیب لغت نامه ای رشته ها از شماره کد نقطه Unicode برای مرتب سازی "
-"کاراکترها استفاده می کند. برخی مثال ها از مقایسه بین توالی های از همان نوع:"
+"اشیاء دنباله ای معمولاً می توانند با دیگر اشیاء از همان نوع دنباله مقایسه "
+"شوند. مقایسه از ترتیب *lexicographical* استفاده می کند: ابتدا دو آیتم اول "
+"مقایسه می شوند و اگر متفاوت باشند، نتیجه مقایسه را تعیین می کند؛ اگر برابر "
+"باشند، دو آیتم بعدی مقایسه می شوند و این روند ادامه می یابد تا زمانی که یکی "
+"از دنباله ها تمام شود. اگر دو آیتمی که مقایسه می شوند خودشان دنباله هایی از "
+"همان نوع باشند، مقایسه لغتنامه ای به صورت بازگشتی انجام می شود. اگر تمام "
+"آیتم های دو دنباله برابر باشند، دنباله ها برابر در نظر گرفته می شوند. اگر یک"
+" دنباله زیر-دنباله ابتدایی دیگری باشد، دنباله کوتاه تر کوچک تر در نظر گرفته "
+"می شود. ترتیب لغتنامه ای برای رشته ها از شماره نقطه کد Unicode برای مرتب "
+"سازی کاراکترهای فردی استفاده می کند. چند مثال از مقایسه بین  دنباله های از "
+"همان نوع::"
 
 #: ../../tutorial/datastructures.rst:716
 #, fuzzy
@@ -1647,13 +1583,13 @@ msgid ""
 "(1, 2, 3)             == (1.0, 2.0, 3.0)\n"
 "(1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)"
 msgstr ""
-"(1، 2، 3) < (1، 2، 4)\n"
-"[1، 2، 3] < [1، 2، 4]\n"
+"(1, 2, 3)              < (1, 2, 4)\n"
+"[1, 2, 3]              < [1, 2, 4]\n"
 "'ABC' < 'C' < 'Pascal' < 'Python'\n"
-"(1، 2، 3، 4) < (1، 2، 4)\n"
-"(1، 2) < (1، 2، -1)\n"
-"(1، 2، 3) == (1.0، 2.0، 3.0)\n"
-"(1، 2، ('aa'، 'ab')) < (1، 2، ('abc'، 'a')، 4)"
+"(1, 2, 3, 4)           < (1, 2, 4)\n"
+"(1, 2)                 < (1, 2, -1)\n"
+"(1, 2, 3)             == (1.0, 2.0, 3.0)\n"
+"(1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)"
 
 #: ../../tutorial/datastructures.rst:724
 #, fuzzy
@@ -1664,16 +1600,16 @@ msgid ""
 "equals 0.0, etc.  Otherwise, rather than providing an arbitrary ordering, "
 "the interpreter will raise a :exc:`TypeError` exception."
 msgstr ""
-"توجه داشته باشید که مقایسه اشیاء از انواع مختلف با \"``<``\" یا \"``>``\" "
-"قانونی است، به شرطی که اشیاء دارای متدهای مقایسه مناسب باشند. برای مثال، "
-"انواع عددی مختلط بر اساس مقدار عددی شان مقایسه می شوند، بنابراین ۰ برابر با "
-"۰.۰ است، و غیره. در غیر این صورت، به جای ارائه یک ترتیب دلخواه، مفسر یک "
-"استثنای \":exc:`TypeError`\" را فراخواهد خواند."
+"توجه داشته باشید که مقایسه اشیاء از انواع مختلف با ``<`` یا ``>`` قانونی است"
+" به شرطی که اشیاء روش های مقایسه مناسب داشته باشند. به عنوان مثال، انواع "
+"عددی مختلط بر اساس مقدار عددی خود مقایسه می شوند، بنابراین 0 برابر 0.0 است و"
+" غیره. در غیر این صورت، به جای ارائه یک ترتیب دلخواه، مفسر یک استثنا از نوع "
+":exc:`TypeError` ایجاد خواهد کرد."
 
 #: ../../tutorial/datastructures.rst:732
 #, fuzzy
 msgid "Footnotes"
-msgstr "پانویس ها"
+msgstr "پاورقی ها"
 
 #: ../../tutorial/datastructures.rst:733
 #, fuzzy
@@ -1681,6 +1617,6 @@ msgid ""
 "Other languages may return the mutated object, which allows method chaining,"
 " such as ``d->insert(\"a\")->remove(\"b\")->sort();``."
 msgstr ""
-"زبان های دیگر ممکن است شیء تغییر یافته را برگردانند، که این کار زنجیره سازی "
-"متدها، مانند ``d->insert(\"a\")->remove(\"b\")->sort();`` را امکان پذیر می "
-"سازد."
+"زبان های دیگر ممکن است شیء تغییر یافته را برگردانند که این امکان را فراهم می"
+" کند که متدها به صورت زنجیره ای فراخوانی شوند، مانند "
+"``d->insert(\"a\")->remove(\"b\")->sort();``."

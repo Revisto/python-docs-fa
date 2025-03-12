@@ -29,7 +29,7 @@ msgstr "استفاده از مفسر پایتون"
 #: ../../tutorial/interpreter.rst:11
 #, fuzzy
 msgid "Invoking the Interpreter"
-msgstr "فراخوانی مفسر"
+msgstr "اجرای مفسر"
 
 #: ../../tutorial/interpreter.rst:13
 #, fuzzy
@@ -39,15 +39,15 @@ msgid ""
 "available; putting :file:`/usr/local/bin` in your Unix shell's search path "
 "makes it possible to start it by typing the command:"
 msgstr ""
-"مفسر Python معمولاً به صورت |usr_local_bin_python_x_dot_y_literal| بر روی آن"
-" دسته از ماشین هایی نصب می شود که در دسترس هستند؛ با قرار دادن "
-":file:`/usr/local/bin` در مسیر جستجوی شل یونیکس تان، می توانید آن را با تایپ"
-" کردن دستور زیر اجرا کنید:"
+"معمولاً مفسر پایتون به صورت |usr_local_bin_python_x_dot_y_literal| بر روی آن"
+" ماشین هایی که پایتون در دسترس است نصب می شود؛ قرار دادن "
+":file:`/usr/local/bin` در مسیر جستجوی شل یونیکس تان امکان شروع آن را با تایپ"
+" فرمان زیر فراهم می کند:"
 
 #: ../../tutorial/interpreter.rst:17
 #, fuzzy
 msgid "python3.13"
-msgstr "پایتون۳.۱۳"
+msgstr "پایتون نسخه ۳.۱۳"
 
 #: ../../tutorial/interpreter.rst:21
 #, fuzzy
@@ -57,10 +57,10 @@ msgid ""
 "local Python guru or system administrator.  (E.g., :file:`/usr/local/python`"
 " is a popular alternative location.)"
 msgstr ""
-"به پوسته. [#]_ از آنجا که انتخاب مسیر دایرکتوری که مفسر در آن قرار دارد یک "
-"گزینه نصب است، مکان های دیگری نیز ممکن است وجود داشته باشد؛ با متخصص پایتون "
-"محل کارتان یا مدیر سیستم مشورت کنید. (برای مثال، `:file:`/usr/local/python``"
-" یک مکان جایگزین محبوب است.)"
+"به شل. [#]_ از آنجایی که انتخاب دایرکتوری که مفسر در آن قرار دارد یک گزینه "
+"نصب است، مکان های دیگری نیز ممکن است وجود داشته باشد؛ با کارشناس محلی پایتون"
+" یا مدیر سیستم خود مشورت کنید. (برای مثال، :file:`/usr/local/python` یک مکان"
+" جایگزین محبوب است.)"
 
 #: ../../tutorial/interpreter.rst:26
 #, fuzzy
@@ -71,11 +71,11 @@ msgid ""
 "can use the :file:`py` command. See :ref:`setting-envvars` for other ways to"
 " launch Python."
 msgstr ""
-"در ماشین های ویندوز که در آن ها پایتون را از :ref:`Microsoft Store <windows-"
-"store>` نصب کرده اید، دستور |python_x_dot_y_literal| در دسترس خواهد بود. اگر"
-" :ref:`py.exe launcher <launcher>` را نصب کرده باشید، می توانید از دستور "
-":file:`py` استفاده کنید. برای روش های دیگر راه اندازی پایتون، :ref:`setting-"
-"envvars` را ببینید."
+"در ماشین های ویندوزی که در آن ها پایتون را از :ref:`Microsoft Store "
+"<windows-store>` نصب کرده اید، فرمان |python_x_dot_y_literal| در دسترس خواهد"
+" بود. اگر :ref:`py.exe launcher <launcher>` را نصب کرده اید، می توانید از "
+"فرمان :file:`py` استفاده کنید. برای روش های دیگر اجرای پایتون، به "
+":ref:`setting-envvars` مراجعه کنید."
 
 #: ../../tutorial/interpreter.rst:31
 #, fuzzy
@@ -85,9 +85,10 @@ msgid ""
 " exit status.  If that doesn't work, you can exit the interpreter by typing "
 "the following command: ``quit()``."
 msgstr ""
-"با وارد کردن نویسه پایان فایل (:kbd:`Control-D` در یونیکس، :kbd:`Control-Z` "
-"در ویندوز) در اعلان اصلی، مفسر با وضعیت خروج صفر خارج می شود. اگر این کار "
-"نکرد، می توانید با وارد کردن دستور زیر از مفسر خارج شوید: ``quit()``."
+"وارد کردن نویسه ی پایان فایل (:kbd:`Control-D` روی یونیکس، :kbd:`Control-Z` "
+"روی ویندوز) در اعلان اولیه باعث می شود که مفسر با وضعیت خروجی صفر خارج شود. "
+"اگر این کار نتیجه نداد، می توانید با وارد کردن فرمان زیر از مفسر خارج شوید: "
+"``quit()``."
 
 #: ../../tutorial/interpreter.rst:36
 #, fuzzy
@@ -103,14 +104,14 @@ msgid ""
 "backspace to remove characters from the current line."
 msgstr ""
 "ویژگی های ویرایش خط مفسر شامل ویرایش تعاملی، جایگزینی تاریخچه و تکمیل کد در "
-"سیستم هایی است که از کتابخانه ``GNU Readline "
-"<https://tiswww.case.edu/php/chet/readline/rltop.html>`_` پشتیبانی می کنند. "
-"شاید سریع ترین راه برای بررسی اینکه آیا ویرایش خط فرمان پشتیبانی می شود یا "
-"خیر این است که `:kbd:`Control-P`` را در اولین پیغام پایتون که دریافت می کنید"
-" تایپ کنید. اگر صدای بیپ شنیده شود، ویرایش خط فرمان دارید؛ برای معرفی کلیدها"
-" به پیوست `:ref:`tut-interacting`` مراجعه کنید. اگر هیچ اتفاقی نیفتاد یا "
-"```^P``` بازتاب شد، ویرایش خط فرمان در دسترس نیست؛ شما فقط می توانید از کلید"
-" backspace برای حذف کاراکترها از خط فعلی استفاده کنید."
+"سیستم هایی است که از کتابخانه `GNU Readline "
+"<https://tiswww.case.edu/php/chet/readline/rltop.html>`_ پشتیبانی می کنند. "
+"شاید سریع ترین راه برای بررسی این که آیا ویرایش خط فرمان پشتیبانی می شود "
+"تایپ کردن :kbd:`Control-P` در اولین پیامی است که از پایتون دریافت می کنید. "
+"اگر صدای بیپی شنیدید، ویرایش خط فرمان دارید؛ برای آشنایی با کلیدها به پیوست "
+":ref:`tut-interacting` مراجعه کنید. اگر هیچ اتفاقی نیفتد یا ``^P`` تکرار "
+"شود، ویرایش خط فرمان در دسترس نیست؛ شما فقط می توانید از backspace برای حذف "
+"کاراکترها از خط فعلی استفاده کنید."
 
 #: ../../tutorial/interpreter.rst:46
 #, fuzzy
@@ -120,10 +121,11 @@ msgid ""
 "interactively; when called with a file name argument or with a file as "
 "standard input, it reads and executes a *script* from that file."
 msgstr ""
-"مفسر تا حدی شبیه به پوسته ی یونیکس عمل می کند: زمانی که با ورودی استاندارد "
-"متصل به یک دستگاه tty فراخوانی می شود، به صورت تعاملی دستورات را می خواند و "
-"اجرا می کند؛ وقتی با یک آرگومان نام فایل یا به عنوان یک فایل به عنوان ورودی "
-"استاندارد فراخوانی می شود، از آن فایل *script* را می خواند و اجرا می کند."
+"مفسر تا حدودی شبیه به شِل یونیکس عمل می کند: هنگامی که با ورودی استاندارد که"
+" به یک دستگاه tty متصل است فراخوانی می شود، به صورت تعاملی دستورات را می "
+"خواند و اجرا می کند؛ وقتی با یک آرگومان نام فایل یا با یک فایل به عنوان "
+"ورودی استاندارد فراخوانی می شود، آن را از فایل می خواند و یک *script* را "
+"اجرا می کند."
 
 #: ../../tutorial/interpreter.rst:51
 #, fuzzy
@@ -134,10 +136,11 @@ msgid ""
 "characters that are special to the shell, it is usually advised to quote "
 "*command* in its entirety."
 msgstr ""
-"روش دوم برای شروع مفسر، ``python -c command [arg] ...`` است که دستور(ها) را "
-"در *command* اجرا می کند، مشابه با گزینه :option:`-c` در شل. از آنجایی که "
-"دستورات پایتون اغلب شامل فاصله ها یا سایر کاراکترهایی هستند که برای شل خاص "
-"هستند، معمولاً توصیه می شود که *command* به طور کامل نقل شود."
+"راه دوم برای آغاز مفسر ``python -c command [arg] ...`` است که دستور یا "
+"دستورات موجود در *command* را اجرا می کند، مشابه گزینه :option:`-c` در شل. "
+"از آنجا که دستورات پایتون اغلب شامل فاصله ها یا کاراکترهای دیگری هستند که "
+"برای شل خاص هستند، معمولاً توصیه می شود که *command* را به طور کامل در گیومه"
+" قرار دهید."
 
 #: ../../tutorial/interpreter.rst:57
 #, fuzzy
@@ -146,10 +149,10 @@ msgid ""
 "``python -m module [arg] ...``, which executes the source file for *module* "
 "as if you had spelled out its full name on the command line."
 msgstr ""
-"برخی از ماژول های پایتون به عنوان اسکریپت نیز مفید هستند. این ها می توانند "
-"با استفاده از ``python -m module [arg] ...`` فراخوانی شوند، که فایل منبع "
-"برای *module* را اجرا می کند، همان طوری که انگار نام کامل آن را در خط فرمان "
-"نوشته اید."
+"برخی از ماژول های پایتون به عنوان اسکریپت هم مفید هستند. این ماژول ها می "
+"توانند با استفاده از ``python -m module [arg] ...`` فراخوانی شوند که فایل "
+"منبع *module* را به گونه ای اجرا می کند که انگار نام کامل آن را در خط فرمان "
+"وارد کرده اید."
 
 #: ../../tutorial/interpreter.rst:61
 #, fuzzy
@@ -158,14 +161,15 @@ msgid ""
 "script and enter interactive mode afterwards.  This can be done by passing "
 ":option:`-i` before the script."
 msgstr ""
-"وقتی از یک فایل اسکریپت استفاده می شود، گاهی اوقات مفید است که بتوان اسکریپت"
-" را اجرا کرده و پس از آن به حالت تعاملی وارد شد. این کار با عبور دادن "
-"`:option:`-i`` قبل از اسکریپت انجام پذیر است."
+"زمانی که یک فایل اسکریپت استفاده می شود، گاهی اوقات مفید است که بتوان "
+"اسکریپت را اجرا کرد و سپس وارد حالت تعاملی شد. این کار با عبور "
+"`:option:`-i`` قبل از اسکریپت قابل انجام است."
 
 #: ../../tutorial/interpreter.rst:65
 #, fuzzy
 msgid "All command line options are described in :ref:`using-on-general`."
-msgstr "همه گزینه های خط فرمان در :ref:`using-on-general` توصیف شده اند."
+msgstr ""
+"تمام گزینه های خط فرمان در :ref:`using-on-general` توضیح داده شده اند."
 
 #: ../../tutorial/interpreter.rst:71
 #, fuzzy
@@ -188,18 +192,18 @@ msgid ""
 "interpreter's option processing but left in ``sys.argv`` for  the command or"
 " module to handle."
 msgstr ""
-"هنگامی که برای مفسر شناخته شده باشد، نام اسکریپت و آرگومان های اضافی بعد از "
-"آن به یک لیست از رشته ها تبدیل شده و به متغیر ``argv`` در ماژول ``sys`` "
-"اختصاص داده می شود. شما می توانید با اجرای ``import sys`` به این لیست دسترسی"
-" پیدا کنید. طول این لیست حداقل یک است؛ زمانی که هیچ اسکریپت و هیچ آرگومانی "
-"داده نشده باشد، ``sys.argv[0]`` یک رشته خالی است. وقتی نام اسکریپت به صورت "
-"``'-'`` (به معنای ورودی استاندارد) داده شود، ``sys.argv[0]`` به ``'-'`` "
-"تنظیم می شود. وقتی :option:`-c` *command* استفاده شود، ``sys.argv[0]`` به "
-"``'-c'`` تنظیم می شود. وقتی :option:`-m` *module* استفاده شود، "
-"``sys.argv[0]`` به نام کامل ماژول واقع در آن تنظیم می شود. گزینه هایی که بعد"
-" از :option:`-c` *command* یا :option:`-m` *module* پیدا می شوند توسط پردازش"
-" گزینه های مفسر پایتون مصرف نمی شوند، بلکه در ``sys.argv`` باقی می مانند تا "
-"توسط فرمان یا ماژول مدیریت شوند."
+"وقتی که برای مفسر شناخته شده باشد، نام اسکریپت و آرگومان های اضافی که پس از "
+"آن می آیند به یک لیست از رشته ها تبدیل می شوند و به متغیر ``argv`` در ماژول "
+"``sys`` اختصاص داده می شوند. شما می توانید با اجرای ``import sys`` به این "
+"لیست دسترسی پیدا کنید. طول این لیست حداقل یک است؛ زمانی که هیچ اسکریپت و هیچ"
+" آرگومانی داده نشده باشد، ``sys.argv[0]`` یک رشته خالی است. وقتی نام اسکریپت"
+" به صورت ``'-'`` داده شود (به معنای ورودی استاندارد)، ``sys.argv[0]`` به "
+"``'-'`` تنظیم می شود. وقتی :option:`-c` *command* استفاده می شود، "
+"``sys.argv[0]`` به ``'-c'`` تنظیم می شود. وقتی :option:`-m` *module* استفاده"
+" می شود، ``sys.argv[0]`` به نام کامل ماژول مکان یابی شدۀ تنظیم می شود. گزینه"
+" هایی که بعد از :option:`-c` *command* یا :option:`-m` *module* پیدا می شوند"
+" توسط پردازش گزینه های مفسر پایتون مصرف نمی شوند بلکه در ``sys.argv`` باقی "
+"می مانند تا فرمان یا ماژول با آنها برخورد کند."
 
 #: ../../tutorial/interpreter.rst:89
 #, fuzzy
@@ -216,12 +220,12 @@ msgid ""
 "dots (``...``). The interpreter prints a welcome message stating its version"
 " number and a copyright notice before printing the first prompt:"
 msgstr ""
-"هنگامی که دستورات از یک tty خوانده می شوند، گفته می شود که مفسر در حالت "
-"*interactive mode* قرار دارد. در این حالت، برای دستوری بعدی با *primary "
-"prompt* اعلان می کند، که معمولاً به صورت سه علامت بزرگتر (``>>>``) است؛ برای"
-" خطوط ادامه، با *secondary prompt* اعلان می کند، که به طور پیش فرض به صورت "
-"سه نقطه (``...``) است. مفسر پیش از چاپ اولین اعلان، پیامی خوش آمدگویی که "
-"نسخه و شماره کپی رایت آن را بیان می کند، چاپ می کند:"
+"وقتی که دستورات از یک tty خوانده می شوند، گفته می شود که مفسر در حالت "
+"*interactive mode* قرار دارد. در این حالت، برای دریافت فرمان بعدی با "
+"*primary prompt* درخواست می کند، که معمولاً سه علامت بزرگ تر (``>>>``) "
+"هستند؛ برای خطوط ادامه، با *secondary prompt* درخواست می کند، که به طور پیش "
+"فرض سه نقطه (``...``) هستند. مفسر قبل از نمایش اولین درخواست، پیامی خوش آمد "
+"می فرستد که شماره نسخه و اعلامیه حقوقی را بیان می کند."
 
 #: ../../tutorial/interpreter.rst:98
 #, fuzzy
@@ -233,8 +237,8 @@ msgid ""
 ">>>"
 msgstr ""
 "$ python3.13\n"
-"پایتون 3.13 (پیش فرض، 4 آوریل 2023، 09:25:04)\n"
-"[GCC 10.2.0] روی لینوکس\n"
+"Python 3.13 (default, April 4 2023, 09:25:04)\n"
+"[GCC 10.2.0] on linux\n"
 "برای اطلاعات بیشتر \"help\"، \"copyright\"، \"credits\" یا \"license\" را تایپ کنید.\n"
 ">>>"
 
@@ -244,8 +248,8 @@ msgid ""
 "Continuation lines are needed when entering a multi-line construct. As an "
 "example, take a look at this :keyword:`if` statement::"
 msgstr ""
-"ادامه خطوط زمانی که یک ساختار چند خطی وارد می شود، لازم است. به عنوان مثال، "
-"به این دستور :keyword:`if` نگاه کنید::"
+"هنگام وارد کردن یک ساختار چند خطی، خطوط تداوم مورد نیاز هستند. به عنوان "
+"مثال، به این دستور `:keyword:`if`` توجه کنید:"
 
 #: ../../tutorial/interpreter.rst:111
 #, fuzzy
@@ -256,27 +260,27 @@ msgid ""
 "...\n"
 "Be careful not to fall off!"
 msgstr ""
-"```>>> the_world_is_flat = True\n"
+">>> the_world_is_flat = True\n"
 ">>> if the_world_is_flat:\n"
-"...     print(\"مواظب باش که نیفتی!\")\n"
+"...     print(\"Be careful not to fall off!\")\n"
 "...\n"
-"مواظب باش که نیفتی!```"
+"Be careful not to fall off!"
 
 #: ../../tutorial/interpreter.rst:118
 #, fuzzy
 msgid "For more on interactive mode, see :ref:`tut-interac`."
 msgstr ""
-"برای اطلاعات بیشتر درباره حالت تعاملی، به :ref:`tut-interac` مراجعه کنید."
+"برای اطلاعات بیشتر در مورد حالت تعاملی، به :ref:`tut-interac` مراجعه کنید."
 
 #: ../../tutorial/interpreter.rst:124
 #, fuzzy
 msgid "The Interpreter and Its Environment"
-msgstr "مترجم و محیط آن"
+msgstr "مفسر و محیط آن"
 
 #: ../../tutorial/interpreter.rst:130
 #, fuzzy
 msgid "Source Code Encoding"
-msgstr "کدگذاری منبع"
+msgstr "کد منبع کدگذاری"
 
 #: ../../tutorial/interpreter.rst:132
 #, fuzzy
@@ -289,13 +293,13 @@ msgid ""
 "properly, your editor must recognize that the file is UTF-8, and it must use"
 " a font that supports all the characters in the file."
 msgstr ""
-"به طور پیش فرض، فایل های منبع پایتون به عنوان کدگذاری شده با UTF-8 در نظر "
-"گرفته می شوند. در این کدگذاری، حروف اکثر زبان های جهان می توانند به طور "
-"همزمان در \"string literals\"، شناسه ها و توضیحات استفاده شوند --- اگرچه "
-"کتابخانه استاندارد تنها از کاراکترهای ASCII برای شناسه ها استفاده می کند، که"
-" هر کدی که قابل حمل باشد باید این قاعده را رعایت کند. برای نمایش صحیح همه "
-"این کاراکترها، ویرایشگر شما باید تشخیص دهد که فایل UTF-8 است و باید از فونتی"
-" که از همه کاراکترهای موجود در فایل پشتیبانی می کند، استفاده نماید."
+"به صورت پیش فرض، فایل های منبع پایتون به عنوان کد شده در UTF-8 در نظر گرفته "
+"می شوند. در این کدگذاری، کاراکترهای بیشتر زبان های دنیا می توانند به طور "
+"همزمان در رشته ها، شناسه ها و نظرات استفاده شوند --- اگرچه کتابخانه "
+"استاندارد فقط از کاراکترهای ASCII برای شناسه ها استفاده می کند، که یک عرف "
+"است که هر کدی که باید قابل حمل باشد باید آن را رعایت کند. برای نمایش صحیح "
+"تمامی این کاراکترها، ویرایشگر شما باید تشخیص دهد که فایل به صورت UTF-8 است و"
+" باید از فونتی استفاده کند که از تمام کاراکترهای موجود در فایل پشتیبانی کند."
 
 #: ../../tutorial/interpreter.rst:140
 #, fuzzy
@@ -303,23 +307,20 @@ msgid ""
 "To declare an encoding other than the default one, a special comment line "
 "should be added as the *first* line of the file.  The syntax is as follows::"
 msgstr ""
-"برای اعلام یک کدگذاری (encoding) غیر از پیش فرض، یک خط نظر خاص باید به عنوان"
-" خط *first* فایل اضافه شود. نحو به صورت زیر است:"
+"برای اعلام یک کدگذاری غیر از کدگذاری پیش فرض، باید یک خط نظر خاص به عنوان خط"
+" *first* فایل اضافه شود. نحو آن به صورت زیر است::"
 
 #: ../../tutorial/interpreter.rst:143
 #, fuzzy
 msgid "# -*- coding: encoding -*-"
-msgstr ""
-"متن داده شده برای ترجمه حاوی محتوای مستندات رسمی پایتون نیست. لطفاً یک بخش "
-"مشخص و واقعی از مستندات پایتون را ارائه دهید تا بتوانم آن را به فارسی ترجمه "
-"کنم."
+msgstr "# -*- coding: encoding -*-"
 
 #: ../../tutorial/interpreter.rst:145
 #, fuzzy
 msgid ""
 "where *encoding* is one of the valid :mod:`codecs` supported by Python."
 msgstr ""
-"که *encoding* یکی از :mod:`codecs` معتبر پشتیبانی شده توسط Python است."
+"که *encoding* یکی از :mod:`codecs` معتبر پشتیبانی شده توسط پایتون باشد."
 
 #: ../../tutorial/interpreter.rst:147
 #, fuzzy
@@ -327,15 +328,16 @@ msgid ""
 "For example, to declare that Windows-1252 encoding is to be used, the first "
 "line of your source code file should be::"
 msgstr ""
-"به عنوان مثال، برای اعلام اینکه از کدگذاری Windows-1252 استفاده می شود، "
-"اولین خط فایل کد منبع شما باید به صورت زیر باشد::"
+"به عنوان مثال، برای اعلام اینکه باید از رمزگذاری Windows-1252 استفاده شود، "
+"اولین خط فایل کد منبع شما باید به این صورت باشد::"
 
 #: ../../tutorial/interpreter.rst:150
 #, fuzzy
 msgid "# -*- coding: cp1252 -*-"
 msgstr ""
-"متن خاصی برای ترجمه ارائه نشده است. لطفاً متن مورد نظر خود را برای ترجمه "
-"ارائه دهید."
+"متن درخواستی برای ترجمه: \n"
+"\n"
+"# -*- coding: cp1252 -*-"
 
 #: ../../tutorial/interpreter.rst:152
 #, fuzzy
@@ -344,9 +346,9 @@ msgid ""
 " :ref:`UNIX \"shebang\" line <tut-scripts>`.  In this case, the encoding "
 "declaration should be added as the second line of the file.  For example::"
 msgstr ""
-"یک استثناء برای قاعده *first line* زمانی است که کد منبع با یک :ref:`UNIX "
-"\"shebang\" line <tut-scripts>` شروع می شود. در این حالت، اعلامیه کدگذاری "
-"باید به عنوان خط دوم فایل اضافه شود. برای مثال::"
+"یک استثنا از قاعده *first line* زمانی است که کد منبع با یک :ref:`UNIX "
+"\"shebang\" line <tut-scripts>` شروع شود. در این حالت، اعلامیه کدگذاری باید "
+"به عنوان خط دوم فایل اضافه شود. برای مثال::"
 
 #: ../../tutorial/interpreter.rst:156
 #, fuzzy
@@ -369,6 +371,6 @@ msgid ""
 "executable named ``python``, so that it does not conflict with a "
 "simultaneously installed Python 2.x executable."
 msgstr ""
-"در سیستم عامل یونیکس، مفسر Python 3.x به طور پیش فرض با فایل اجرایی با نام "
-"``python`` نصب نمی شود، بنابراین با فایل اجرایی Python 2.x که همزمان نصب شده"
-"  است، تداخلی نداشته باشد."
+"در یونیکس، مفسر Python 3.x به صورت پیش فرض با فایل اجرایی به نام ``python`` "
+"نصب نمی شود تا با فایل اجرایی Python 2.x که هم زمان نصب شده است، تداخلی "
+"ایجاد نکند."
