@@ -14,19 +14,20 @@ msgstr ""
 "POT-Creation-Date: 2025-03-07 14:18+0000\n"
 "PO-Revision-Date: 2021-06-28 01:50+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
-"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
-"fa/)\n"
+"Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/fa/)\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/floatingpoint.rst:10
+#, fuzzy
 msgid "Floating-Point Arithmetic:  Issues and Limitations"
-msgstr ""
+msgstr "محاسبات اعداد اعشاری: مسائل و محدودیت ها"
 
 #: ../../tutorial/floatingpoint.rst:16
+#, fuzzy
 msgid ""
 "Floating-point numbers are represented in computer hardware as base 2 "
 "(binary) fractions.  For example, the **decimal** fraction ``0.625`` has "
@@ -35,66 +36,101 @@ msgid ""
 "values, the only real difference being that the first is written in base 10 "
 "fractional notation, and the second in base 2."
 msgstr ""
+"اعداد اعشاری در سخت افزار کامپیوتر به عنوان کسرهای مبنای ۲ (باینری) نمایش "
+"داده می شوند. به عنوان مثال، کسر **decimal** دارای مقدار 6/10 + 2/100 + "
+"5/1000 است و به همین روش، کسر **binary** دارای مقدار 1/2 + 0/4 + 1/8 است. "
+"این دو کسر معادلی با مقادیر مشابه دارند و تنها تفاوت واقعی این است که اولی "
+"به صورت کسر مبنای ۱۰ نوشته شده و دومی به صورت کسر مبنای ۲."
 
 #: ../../tutorial/floatingpoint.rst:23
+#, fuzzy
 msgid ""
 "Unfortunately, most decimal fractions cannot be represented exactly as "
 "binary fractions.  A consequence is that, in general, the decimal floating-"
 "point numbers you enter are only approximated by the binary floating-point "
 "numbers actually stored in the machine."
 msgstr ""
+"متأسفانه، اکثر کسرهای اعشاری نمی توانند به طور دقیق به صورت کسرهای دودویی "
+"نمایش داده شوند. نتیجه این است که، به طور کلی، اعداد اعشاری شناور که وارد می"
+" کنید فقط به صورت تقریبی توسط اعداد شناور دودویی که واقعاً در ماشین ذخیره می"
+" شوند، نمایش داده می شوند."
 
 #: ../../tutorial/floatingpoint.rst:28
+#, fuzzy
 msgid ""
 "The problem is easier to understand at first in base 10.  Consider the "
 "fraction 1/3.  You can approximate that as a base 10 fraction::"
 msgstr ""
+"در ابتدا، مسئله در مبنای ۱۰ آسان تر قابل درک است. به کسر 1/3 توجه کنید. می "
+"توانید آن را به صورت یک کسر در مبنای ۱۰ تقریب بزنید:"
 
 #: ../../tutorial/floatingpoint.rst:31
+#, fuzzy
 msgid "0.3"
-msgstr ""
+msgstr "۰٫۳"
 
 #: ../../tutorial/floatingpoint.rst:33 ../../tutorial/floatingpoint.rst:37
+#, fuzzy
 msgid "or, better, ::"
-msgstr ""
+msgstr "یا، بهتر، ::"
 
 #: ../../tutorial/floatingpoint.rst:35
+#, fuzzy
 msgid "0.33"
-msgstr ""
+msgstr "۰٫۳۳"
 
 #: ../../tutorial/floatingpoint.rst:39
+#, fuzzy
 msgid "0.333"
-msgstr ""
+msgstr "۰٫۳۳۳"
 
 #: ../../tutorial/floatingpoint.rst:41
+#, fuzzy
 msgid ""
 "and so on.  No matter how many digits you're willing to write down, the "
 "result will never be exactly 1/3, but will be an increasingly better "
 "approximation of 1/3."
 msgstr ""
+"و به همین ترتیب. فرقی نمی کند که چقدر رقم بنویسید، نتیجه هرگز دقیقاً 1/3 "
+"نخواهد بود، اما یک تقریب به طور فزاینده بهتر از 1/3 خواهد بود."
 
 #: ../../tutorial/floatingpoint.rst:45
+#, fuzzy
 msgid ""
-"In the same way, no matter how many base 2 digits you're willing to use, the "
-"decimal value 0.1 cannot be represented exactly as a base 2 fraction.  In "
+"In the same way, no matter how many base 2 digits you're willing to use, the"
+" decimal value 0.1 cannot be represented exactly as a base 2 fraction.  In "
 "base 2, 1/10 is the infinitely repeating fraction ::"
 msgstr ""
+"به همین ترتیب، فرقی نمی کند چه تعداد رقم در مبنای ۲ بخواهید استفاده کنید، "
+"مقدار اعشاری ۰.۱ نمی تواند به طور دقیق به عنوان یک کسر در مبنای ۲ نمایش داده"
+" شود. در مبنای ۲، ۱/۱۰ یک کسر بی نهایت تکرارشونده است ::"
 
 #: ../../tutorial/floatingpoint.rst:49
+#, fuzzy
 msgid "0.0001100110011001100110011001100110011001100110011..."
 msgstr ""
+"متن ارائه شده فقط شامل اعداد است و متنی برای ترجمه وجود ندارد. اگر توضیحات "
+"بیشتری یا متن دیگری دارید که نیاز به ترجمه دارد، لطفاً آن را ارائه دهید."
 
 #: ../../tutorial/floatingpoint.rst:51
+#, fuzzy
 msgid ""
 "Stop at any finite number of bits, and you get an approximation.  On most "
 "machines today, floats are approximated using a binary fraction with the "
-"numerator using the first 53 bits starting with the most significant bit and "
-"with the denominator as a power of two.  In the case of 1/10, the binary "
-"fraction is ``3602879701896397 / 2 ** 55`` which is close to but not exactly "
-"equal to the true value of 1/10."
+"numerator using the first 53 bits starting with the most significant bit and"
+" with the denominator as a power of two.  In the case of 1/10, the binary "
+"fraction is ``3602879701896397 / 2 ** 55`` which is close to but not exactly"
+" equal to the true value of 1/10."
 msgstr ""
+"در هر تعداد محدودی از بیت ها متوقف شوید و یک تقریب به دست می آورید. در بیشتر"
+" ماشین های امروزی، اعداد اعشاری به وسیله یک کسر دودویی تقریبی می شوند که "
+"صورت آن با استفاده از ۵۳ بیت اول شروع از بیت با بیشترین اهمیت (بیت چپ ترین) "
+"و مخرج آن به صورت توانی از دو است. در مورد 1/10، کسر دودویی "
+"``3602879701896397 / 2 ** 55`` است که به مقدار واقعی 1/10 نزدیک است اما "
+"دقیقاً برابر نیست."
 
 #: ../../tutorial/floatingpoint.rst:58
+#, fuzzy
 msgid ""
 "Many users are not aware of the approximation because of the way values are "
 "displayed.  Python only prints a decimal approximation to the true decimal "
@@ -102,32 +138,53 @@ msgid ""
 "if Python were to print the true decimal value of the binary approximation "
 "stored for 0.1, it would have to display::"
 msgstr ""
+"بسیاری از کاربران به دلیل نحوه نمایش مقادیر، از تقریب مقادیر آگاه نیستند. "
+"پایتون تنها یک تقریب اعشاری از مقدار واقعی اعشاری تقریب باینری ذخیره شده "
+"توسط ماشین را چاپ می کند. در اکثر ماشین ها، اگر پایتون قرار بود مقدار واقعی "
+"اعشاری تقریب باینری ذخیره شده برای 0.1 را چاپ کند، باید نمایش می داد::"
 
 #: ../../tutorial/floatingpoint.rst:64
+#, fuzzy
 msgid ""
 ">>> 0.1\n"
 "0.1000000000000000055511151231257827021181583404541015625"
 msgstr ""
+"```\n"
+">>> 0.1\n"
+"0.1000000000000000055511151231257827021181583404541015625\n"
+"```"
 
 #: ../../tutorial/floatingpoint.rst:67
+#, fuzzy
 msgid ""
-"That is more digits than most people find useful, so Python keeps the number "
-"of digits manageable by displaying a rounded value instead:"
+"That is more digits than most people find useful, so Python keeps the number"
+" of digits manageable by displaying a rounded value instead:"
 msgstr ""
+"این تعداد رقم بیشتر از چیزی است که اکثر افراد مفید می یابند، بنابراین پایتون"
+" تعداد ارقام را با نمایش یک مقدار گرد شده مدیریت می کند:"
 
 #: ../../tutorial/floatingpoint.rst:70
+#, fuzzy
 msgid ""
 ">>> 1 / 10\n"
 "0.1"
 msgstr ""
+"```python\n"
+">>> 1 / 10\n"
+"0.1\n"
+"```"
 
 #: ../../tutorial/floatingpoint.rst:75
+#, fuzzy
 msgid ""
 "Just remember, even though the printed result looks like the exact value of "
 "1/10, the actual stored value is the nearest representable binary fraction."
 msgstr ""
+"فقط به خاطر داشته باشید که حتی اگر نتیجه چاپ شده به نظر مانند مقدار دقیق "
+"1/10 برسد، مقدار واقعی ذخیره شده نزدیک ترین کسر دودویی قابل نمایش است."
 
 #: ../../tutorial/floatingpoint.rst:78
+#, fuzzy
 msgid ""
 "Interestingly, there are many different decimal numbers that share the same "
 "nearest approximate binary fraction.  For example, the numbers ``0.1`` and "
@@ -137,31 +194,53 @@ msgid ""
 "values share the same approximation, any one of them could be displayed "
 "while still preserving the invariant ``eval(repr(x)) == x``."
 msgstr ""
+"جالب است که بسیاری از اعداد اعشاری مختلف وجود دارند که عدد کسری باینری "
+"نزدیکی مشابهی با یکدیگر دارند. برای مثال، اعداد ``0.1`` و "
+"``0.10000000000000001`` و "
+"``0.1000000000000000055511151231257827021181583404541015625`` همگی با "
+"``3602879701896397 / 2 ** 55`` تخمین زده می شوند. از آنجایی که همه این "
+"مقادیر اعشاری همان تخمین را به اشتراک می گذارند، هر یک از آنها می تواند "
+"نمایش داده شود در حالی که هنوز ویژگی ثابت ``eval(repr(x)) == x`` حفظ می شود."
 
 #: ../../tutorial/floatingpoint.rst:86
+#, fuzzy
 msgid ""
 "Historically, the Python prompt and built-in :func:`repr` function would "
 "choose the one with 17 significant digits, ``0.10000000000000001``.   "
-"Starting with Python 3.1, Python (on most systems) is now able to choose the "
-"shortest of these and simply display ``0.1``."
+"Starting with Python 3.1, Python (on most systems) is now able to choose the"
+" shortest of these and simply display ``0.1``."
 msgstr ""
+"به طور تاریخی، اعلان Python و تابع داخلی :func:`repr` احتمالاً عددی را "
+"انتخاب می کردند که دارای 17 رقم معنادار باشد، یعنی ``0.10000000000000001``. "
+"از نسخه Python 3.1 به بعد، حالا Python (روی اکثر سیستم ها) می تواند کوتاه "
+"ترین مقدار از بین این ها را انتخاب کند و به طور ساده ``0.1`` را نمایش دهد."
 
 #: ../../tutorial/floatingpoint.rst:91
+#, fuzzy
 msgid ""
-"Note that this is in the very nature of binary floating point: this is not a "
-"bug in Python, and it is not a bug in your code either.  You'll see the same "
-"kind of thing in all languages that support your hardware's floating-point "
-"arithmetic (although some languages may not *display* the difference by "
-"default, or in all output modes)."
+"Note that this is in the very nature of binary floating point: this is not a"
+" bug in Python, and it is not a bug in your code either.  You'll see the "
+"same kind of thing in all languages that support your hardware's floating-"
+"point arithmetic (although some languages may not *display* the difference "
+"by default, or in all output modes)."
 msgstr ""
+"توجه داشته باشید که این مسئله از ذات اعداد اعشاری دودویی ناشی می شود: این یک"
+" باگ در پایتون نیست و همچنین یک باگ در کد شما هم نیست. شما همین نوع مسائل را"
+" در تمامی زبان هایی که از محاسبات اعشاری شناور سخت افزار شما پشتیبانی می "
+"کنند مشاهده خواهید کرد (اگرچه برخی زبان ها ممکن است به طور پیش فرض یا در همه"
+" حالت های خروجی تفاوت را نشان ندهند)."
 
 #: ../../tutorial/floatingpoint.rst:97
+#, fuzzy
 msgid ""
-"For more pleasant output, you may wish to use string formatting to produce a "
-"limited number of significant digits:"
+"For more pleasant output, you may wish to use string formatting to produce a"
+" limited number of significant digits:"
 msgstr ""
+"برای خروجی بهتر، ممکن است بخواهید از قالب بندی رشته ای استفاده کنید تا تعداد"
+" محدودی از ارقام معنادار تولید کنید:"
 
 #: ../../tutorial/floatingpoint.rst:100
+#, fuzzy
 msgid ""
 ">>> format(math.pi, '.12g')  # give 12 significant digits\n"
 "'3.14159265359'\n"
@@ -172,75 +251,128 @@ msgid ""
 ">>> repr(math.pi)\n"
 "'3.141592653589793'"
 msgstr ""
+"```python\n"
+">>> format(math.pi, '.12g')  # ارائه 12 رقم معنادار\n"
+"'3.14159265359'\n"
+"\n"
+">>> format(math.pi, '.2f')   # ارائه 2 رقم بعد از نقطه\n"
+"'3.14'\n"
+"\n"
+">>> repr(math.pi)\n"
+"'3.141592653589793'\n"
+"```"
 
 #: ../../tutorial/floatingpoint.rst:111
+#, fuzzy
 msgid ""
-"It's important to realize that this is, in a real sense, an illusion: you're "
-"simply rounding the *display* of the true machine value."
+"It's important to realize that this is, in a real sense, an illusion: you're"
+" simply rounding the *display* of the true machine value."
 msgstr ""
+"مهم است که بدانید این در واقعیت یک توهم است: شما به سادگی در حال گرد کردن "
+"*display* از مقدار واقعی ماشین هستید."
 
 #: ../../tutorial/floatingpoint.rst:114
+#, fuzzy
 msgid ""
-"One illusion may beget another.  For example, since 0.1 is not exactly 1/10, "
-"summing three values of 0.1 may not yield exactly 0.3, either:"
+"One illusion may beget another.  For example, since 0.1 is not exactly 1/10,"
+" summing three values of 0.1 may not yield exactly 0.3, either:"
 msgstr ""
+"یک توهم ممکن است توهم دیگری را به وجود آورد. برای مثال، از آنجا که 0.1 "
+"دقیقاً برابر 1/10 نیست، جمع سه مقدار 0.1 ممکن است به طور دقیق برابر با 0.3 "
+"نباشد:"
 
 #: ../../tutorial/floatingpoint.rst:117
+#, fuzzy
 msgid ""
 ">>> 0.1 + 0.1 + 0.1 == 0.3\n"
 "False"
 msgstr ""
+"```>>> 0.1 + 0.1 + 0.1 == 0.3\n"
+"False```"
 
 #: ../../tutorial/floatingpoint.rst:122
+#, fuzzy
 msgid ""
-"Also, since the 0.1 cannot get any closer to the exact value of 1/10 and 0.3 "
-"cannot get any closer to the exact value of 3/10, then pre-rounding with :"
-"func:`round` function cannot help:"
+"Also, since the 0.1 cannot get any closer to the exact value of 1/10 and 0.3"
+" cannot get any closer to the exact value of 3/10, then pre-rounding with "
+":func:`round` function cannot help:"
 msgstr ""
+"از آنجا که عدد 0.1 نمی تواند به مقدار دقیق 1/10 نزدیک تر شود و عدد 0.3 نیز "
+"نمی تواند به مقدار دقیق 3/10 نزدیک تر شود، تولید اعشاری توسط تابع "
+"\"`:func:`round``\" نمی تواند کمکی کند:"
 
 #: ../../tutorial/floatingpoint.rst:126
+#, fuzzy
 msgid ""
 ">>> round(0.1, 1) + round(0.1, 1) + round(0.1, 1) == round(0.3, 1)\n"
 "False"
 msgstr ""
+"```python\n"
+">>> round(0.1, 1) + round(0.1, 1) + round(0.1, 1) == round(0.3, 1)\n"
+"False\n"
+"```"
 
 #: ../../tutorial/floatingpoint.rst:131
+#, fuzzy
 msgid ""
-"Though the numbers cannot be made closer to their intended exact values, "
-"the :func:`math.isclose` function can be useful for comparing inexact values:"
+"Though the numbers cannot be made closer to their intended exact values, the"
+" :func:`math.isclose` function can be useful for comparing inexact values:"
 msgstr ""
+"اگرچه نمی توان مقادیر عددی را به مقادیر دقیق مورد نظرشان نزدیک تر کرد، تابع "
+":func:`math.isclose` می تواند برای مقایسه مقادیر غیر دقیق مفید باشد:"
 
 #: ../../tutorial/floatingpoint.rst:134
+#, fuzzy
 msgid ""
 ">>> math.isclose(0.1 + 0.1 + 0.1, 0.3)\n"
 "True"
 msgstr ""
+"```>>> math.isclose(0.1 + 0.1 + 0.1, 0.3)```  \n"
+"درست"
 
 #: ../../tutorial/floatingpoint.rst:139
+#, fuzzy
 msgid ""
 "Alternatively, the :func:`round` function can be used to compare rough "
 "approximations:"
 msgstr ""
+"به طور متناوب، می توان از تابع :func:`round` برای مقایسه تقریب های تقریبی "
+"استفاده کرد:"
 
 #: ../../tutorial/floatingpoint.rst:142
+#, fuzzy
 msgid ""
 ">>> round(math.pi, ndigits=2) == round(22 / 7, ndigits=2)\n"
 "True"
 msgstr ""
+"```python\n"
+">>> round(math.pi, ndigits=2) == round(22 / 7, ndigits=2)\n"
+"درست\n"
+"```"
 
 #: ../../tutorial/floatingpoint.rst:147
+#, fuzzy
 msgid ""
 "Binary floating-point arithmetic holds many surprises like this.  The "
 "problem with \"0.1\" is explained in precise detail below, in the "
 "\"Representation Error\" section.  See `Examples of Floating Point Problems "
-"<https://jvns.ca/blog/2023/01/13/examples-of-floating-point-problems/>`_ for "
-"a pleasant summary of how binary floating point works and the kinds of "
-"problems commonly encountered in practice.  Also see `The Perils of Floating "
-"Point <http://www.indowsway.com/floatingpoint.htm>`_ for a more complete "
+"<https://jvns.ca/blog/2023/01/13/examples-of-floating-point-problems/>`_ for"
+" a pleasant summary of how binary floating point works and the kinds of "
+"problems commonly encountered in practice.  Also see `The Perils of Floating"
+" Point <http://www.indowsway.com/floatingpoint.htm>`_ for a more complete "
 "account of other common surprises."
 msgstr ""
+"محاسبات ممیز شناور دودویی می تواند شگفتی های زیادی مانند این داشته باشد. "
+"مشکل \"0.1\" به طور دقیق در بخش \"خطای نمایش\" توضیح داده شده است. برای "
+"خلاصه ای دلپذیر از نحوه کارکرد ممیز شناور دودویی و مشکلاتی که به طور مکرر در"
+" عمل با آنها مواجه می شویم، به `Examples of Floating Point Problems "
+"<https://jvns.ca/blog/2023/01/13/examples-of-floating-point-problems/>`_ "
+"مراجعه کنید. همچنین برای شرح کامل تری از دیگر شگفتی های رایج به `The Perils "
+"of Floating Point <http://www.indowsway.com/floatingpoint.htm>`_ مراجعه "
+"کنید."
 
 #: ../../tutorial/floatingpoint.rst:156
+#, fuzzy
 msgid ""
 "As that says near the end, \"there are no easy answers.\"  Still, don't be "
 "unduly wary of floating point!  The errors in Python float operations are "
@@ -250,97 +382,156 @@ msgid ""
 "decimal arithmetic and that every float operation can suffer a new rounding "
 "error."
 msgstr ""
+"همان طور که در انتها گفته شد، \"جواب های ساده ای وجود ندارد.\" با این حال، "
+"بیش از حد از نقطه شناور نگران نباشید! خطاها در عملیات نقطه شناور در پایتون "
+"از سخت افزار نقطه شناور به ارث برده شده اند و در بیشتر ماشین ها در حدی هستند"
+" که در هر عملیات بیش از 1 قسمت در 2\\*\\*53 نمی باشند. این برای اکثر وظایف "
+"کافی است، اما باید به خاطر داشته باشید که این حساب دهدهی نیست و هر عملیات با"
+" نقطه شناور می تواند دچار یک خطای گرد کردن جدید گردد."
 
 #: ../../tutorial/floatingpoint.rst:163
+#, fuzzy
 msgid ""
 "While pathological cases do exist, for most casual use of floating-point "
 "arithmetic you'll see the result you expect in the end if you simply round "
 "the display of your final results to the number of decimal digits you "
-"expect. :func:`str` usually suffices, and for finer control see the :meth:"
-"`str.format` method's format specifiers in :ref:`formatstrings`."
+"expect. :func:`str` usually suffices, and for finer control see the "
+":meth:`str.format` method's format specifiers in :ref:`formatstrings`."
 msgstr ""
+"هرچند موارد خاص وجود دارند، اما در بیشتر استفاده های معمول از حساب های ممیز "
+"شناور، در نهایت نتیجه ای را که انتظار دارید مشاهده خواهید کرد اگر نمایش "
+"نتایج نهایی خود را به تعداد ارقام اعشاری مورد نظر خود گرد کنید. "
+"\":func:`str`\" معمولاً کافی است و برای کنترل دقیق تر، به مشخص کننده های "
+"قالب متد \":meth:`str.format`\" در \":ref:`formatstrings`\" مراجعه کنید."
 
 #: ../../tutorial/floatingpoint.rst:169
+#, fuzzy
 msgid ""
-"For use cases which require exact decimal representation, try using the :mod:"
-"`decimal` module which implements decimal arithmetic suitable for accounting "
-"applications and high-precision applications."
+"For use cases which require exact decimal representation, try using the "
+":mod:`decimal` module which implements decimal arithmetic suitable for "
+"accounting applications and high-precision applications."
 msgstr ""
+"برای موارد استفاده ای که به نمایش اعشاری دقیق نیاز دارند، سعی کنید از ماژول "
+"`:mod:`decimal`` استفاده کنید که حساب اعشاری مناسب برای برنامه های حسابداری "
+"و برنامه های با دقت بالا را پیاده سازی می کند."
 
 #: ../../tutorial/floatingpoint.rst:173
+#, fuzzy
 msgid ""
-"Another form of exact arithmetic is supported by the :mod:`fractions` module "
-"which implements arithmetic based on rational numbers (so the numbers like "
+"Another form of exact arithmetic is supported by the :mod:`fractions` module"
+" which implements arithmetic based on rational numbers (so the numbers like "
 "1/3 can be represented exactly)."
 msgstr ""
+"نوع دیگری از حساب دقیق توسط ماژول :mod:`fractions` پشتیبانی می شود که حسابی "
+"مبتنی بر اعداد گویا را پیاده سازی می کند (به طوری که می توان اعدادی مانند "
+"1/3 را به طور دقیق نمایش داد)."
 
 #: ../../tutorial/floatingpoint.rst:177
+#, fuzzy
 msgid ""
 "If you are a heavy user of floating-point operations you should take a look "
 "at the NumPy package and many other packages for mathematical and "
-"statistical operations supplied by the SciPy project. See <https://scipy."
-"org>."
+"statistical operations supplied by the SciPy project. See "
+"<https://scipy.org>."
 msgstr ""
+"اگر زیاد از عملیات اعشاری استفاده می کنید، باید نگاهی به پکیج NumPy و بسیاری"
+" دیگر از پکیج های موجود برای عملیات ریاضی و آماری که توسط پروژه SciPy ارائه "
+"می شوند، بیندازید. به <https://scipy.org> مراجعه کنید."
 
 #: ../../tutorial/floatingpoint.rst:181
+#, fuzzy
 msgid ""
 "Python provides tools that may help on those rare occasions when you really "
-"*do* want to know the exact value of a float.  The :meth:`float."
-"as_integer_ratio` method expresses the value of a float as a fraction:"
+"*do* want to know the exact value of a float.  The "
+":meth:`float.as_integer_ratio` method expresses the value of a float as a "
+"fraction:"
 msgstr ""
+"پایتون ابزارهایی فراهم می کند که ممکن است در مواقع نادری که واقعاً می خواهید"
+" مقدار دقیق یک \"float\" را بدانید، به شما کمک کنند. روش "
+"\":meth:`float.as_integer_ratio`\" مقدار یک \"float\" را به عنوان یک کسر "
+"بیان می کند:"
 
 #: ../../tutorial/floatingpoint.rst:186
+#, fuzzy
 msgid ""
 ">>> x = 3.14159\n"
 ">>> x.as_integer_ratio()\n"
 "(3537115888337719, 1125899906842624)"
 msgstr ""
+"```>>> x = 3.14159\n"
+">>> x.as_integer_ratio()\n"
+"(3537115888337719, 1125899906842624)```"
 
 #: ../../tutorial/floatingpoint.rst:192
+#, fuzzy
 msgid ""
-"Since the ratio is exact, it can be used to losslessly recreate the original "
-"value:"
+"Since the ratio is exact, it can be used to losslessly recreate the original"
+" value:"
 msgstr ""
+"از آنجایی که نسبت به طور دقیق است، می توان از آن برای بازسازی بدون از دست "
+"دادن مقدار اصلی استفاده کرد:"
 
 #: ../../tutorial/floatingpoint.rst:195
+#, fuzzy
 msgid ""
 ">>> x == 3537115888337719 / 1125899906842624\n"
 "True"
 msgstr ""
+"``` python\n"
+">>> x == 3537115888337719 / 1125899906842624\n"
+"درست\n"
+"```"
 
 #: ../../tutorial/floatingpoint.rst:200
+#, fuzzy
 msgid ""
 "The :meth:`float.hex` method expresses a float in hexadecimal (base 16), "
 "again giving the exact value stored by your computer:"
 msgstr ""
+"روش :meth:`float.hex` یک عدد اعشاری را به صورت هگزادسیمال (پایه ۱۶) نمایش می"
+" دهد و مقدار دقیقی که توسط رایانه شما ذخیره شده است را ارائه می کند:"
 
 #: ../../tutorial/floatingpoint.rst:203
+#, fuzzy
 msgid ""
 ">>> x.hex()\n"
 "'0x1.921f9f01b866ep+1'"
 msgstr ""
+"```>>> x.hex()\n"
+"'0x1.921f9f01b866ep+1'```"
 
 #: ../../tutorial/floatingpoint.rst:208
+#, fuzzy
 msgid ""
-"This precise hexadecimal representation can be used to reconstruct the float "
-"value exactly:"
+"This precise hexadecimal representation can be used to reconstruct the float"
+" value exactly:"
 msgstr ""
+"این نمایش دقیق شانزده شانزدهی می تواند برای بازسازی دقیق مقدار «float» "
+"استفاده شود:"
 
 #: ../../tutorial/floatingpoint.rst:211
+#, fuzzy
 msgid ""
 ">>> x == float.fromhex('0x1.921f9f01b866ep+1')\n"
 "True"
 msgstr ""
+">>> x == float.fromhex('0x1.921f9f01b866ep+1')\n"
+"درست"
 
 #: ../../tutorial/floatingpoint.rst:216
+#, fuzzy
 msgid ""
 "Since the representation is exact, it is useful for reliably porting values "
 "across different versions of Python (platform independence) and exchanging "
 "data with other languages that support the same format (such as Java and "
 "C99)."
 msgstr ""
+"از آنجایی که نمایش دقیق است، این امر برای انتقال مطمئن مقادیر بین نسخه های "
+"مختلف پایتون (استقلال از پلتفرم) و تبادل داده با زبان های دیگر که از همان "
+"قالب پشتیبانی می کنند (مانند Java و C99) مفید است."
 
 #: ../../tutorial/floatingpoint.rst:220
+#, fuzzy
 msgid ""
 "Another helpful tool is the :func:`sum` function which helps mitigate loss-"
 "of-precision during summation.  It uses extended precision for intermediate "
@@ -348,16 +539,29 @@ msgid ""
 "difference in overall accuracy so that the errors do not accumulate to the "
 "point where they affect the final total:"
 msgstr ""
+"ابزار مفید دیگر، تابع :func:`sum` است که به کاهش خطای از دست رفتن دقت در طی "
+"جمع کمک می کند. این تابع از دقت بالاتر برای مراحل میانگین گیری هنگام اضافه "
+"شدن مقادیر به مجموع در حال اجرا استفاده می کند. این موضوع می تواند تفاوت "
+"قابل توجهی در دقت کلی ایجاد کند تا خطاها به حدی نرسند که بر مجموع نهایی "
+"تأثیر بگذارند:"
 
 #: ../../tutorial/floatingpoint.rst:226
+#, fuzzy
 msgid ""
 ">>> 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0\n"
 "False\n"
 ">>> sum([0.1] * 10) == 1.0\n"
 "True"
 msgstr ""
+"```python  \n"
+">>> 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0  \n"
+"نادرست  \n"
+">>> sum([0.1] * 10) == 1.0  \n"
+"درست  \n"
+"```"
 
 #: ../../tutorial/floatingpoint.rst:233
+#, fuzzy
 msgid ""
 "The :func:`math.fsum` goes further and tracks all of the \"lost digits\" as "
 "values are added onto a running total so that the result has only a single "
@@ -365,8 +569,14 @@ msgid ""
 "uncommon cases where large magnitude inputs mostly cancel each other out "
 "leaving a final sum near zero:"
 msgstr ""
+"نسخه :func:`math.fsum` فراتر می رود و تمام \"ارقام از دست رفته\" را در حالی "
+"که مقادیر به مجموع افزوده می شوند دنبال می کند تا نتیجه فقط یک بار گرد شود. "
+"این روش نسبت به :func:`sum` کندتر است اما در موارد غیرمعمولی که ورودی های با"
+" مقدار بزرگ عمدتاً یکدیگر را خنثی می کنند و یک جمع نهایی نزدیک به صفر باقی "
+"می گذارند، دقیق تر خواهد بود."
 
 #: ../../tutorial/floatingpoint.rst:239
+#, fuzzy
 msgid ""
 ">>> arr = [-0.10430216751806065, -266310978.67179024, 143401161448607.16,\n"
 "...        -143401161400469.7, 266262841.31058735, -0.003244936839808227]\n"
@@ -374,31 +584,50 @@ msgid ""
 "8.042173697819788e-13\n"
 ">>> math.fsum(arr)                   # Single rounding\n"
 "8.042173697819788e-13\n"
-">>> sum(arr)                         # Multiple roundings in extended "
-"precision\n"
+">>> sum(arr)                         # Multiple roundings in extended precision\n"
 "8.042178034628478e-13\n"
 ">>> total = 0.0\n"
 ">>> for x in arr:\n"
-"...     total += x                   # Multiple roundings in standard "
-"precision\n"
+"...     total += x                   # Multiple roundings in standard precision\n"
 "...\n"
-">>> total                            # Straight addition has no correct "
-"digits!\n"
+">>> total                            # Straight addition has no correct digits!\n"
 "-0.0051575902860057365"
 msgstr ""
+"```python\n"
+">>> arr = [-0.10430216751806065, -266310978.67179024, 143401161448607.16,\n"
+"...        -143401161400469.7, 266262841.31058735, -0.003244936839808227]\n"
+">>> float(sum(map(Fraction, arr)))   # جمع دقیق با یک بار گرد کردن\n"
+"8.042173697819788e-13\n"
+">>> math.fsum(arr)                   # یک بار گرد کردن\n"
+"8.042173697819788e-13\n"
+">>> sum(arr)                         # گرد کردن های متعدد با دقت گسترش یافته\n"
+"8.042178034628478e-13\n"
+">>> total = 0.0\n"
+">>> for x in arr:\n"
+"...     total += x                   # گرد کردن های متعدد با دقت استاندارد\n"
+"...\n"
+">>> total                            # جمع معمولی هیچ رقم صحیحی ندارد!\n"
+"-0.0051575902860057365\n"
+"```"
 
 #: ../../tutorial/floatingpoint.rst:260
+#, fuzzy
 msgid "Representation Error"
-msgstr ""
+msgstr "خطای نمایش"
 
 #: ../../tutorial/floatingpoint.rst:262
+#, fuzzy
 msgid ""
 "This section explains the \"0.1\" example in detail, and shows how you can "
 "perform an exact analysis of cases like this yourself.  Basic familiarity "
 "with binary floating-point representation is assumed."
 msgstr ""
+"این بخش مثال \"0.1\" را به طور دقیق توضیح می دهد و نشان می دهد که چگونه می "
+"توانید تجزیه و تحلیل دقیقی از مواردی مانند این را خودتان انجام دهید. آشنایی "
+"اولیه با نمایش اعداد اعشاری در مبنای دودویی فرض شده است."
 
 #: ../../tutorial/floatingpoint.rst:266
+#, fuzzy
 msgid ""
 ":dfn:`Representation error` refers to the fact that some (most, actually) "
 "decimal fractions cannot be represented exactly as binary (base 2) "
@@ -406,137 +635,205 @@ msgid ""
 "Fortran, and many others) often won't display the exact decimal number you "
 "expect."
 msgstr ""
+":dfn:`خطای نمایش` به این واقعیت اشاره دارد که برخی (در واقع بیشتر) کسرهای "
+"اعشاری نمی توانند به طور دقیق به صورت کسرهای دودویی (مبتنی بر ۲) نمایش داده "
+"شوند. این مهم ترین دلیلی است که چرا پایتون (یا پرل، C، C++، جاوا، فورترن و "
+"بسیاری زبان های دیگر) اغلب عدد اعشاری دقیقی که انتظار دارید را نمایش نمی "
+"دهد."
 
 #: ../../tutorial/floatingpoint.rst:271
+#, fuzzy
 msgid ""
-"Why is that?  1/10 is not exactly representable as a binary fraction.  Since "
-"at least 2000, almost all machines use IEEE 754 binary floating-point "
+"Why is that?  1/10 is not exactly representable as a binary fraction.  Since"
+" at least 2000, almost all machines use IEEE 754 binary floating-point "
 "arithmetic, and almost all platforms map Python floats to IEEE 754 binary64 "
 "\"double precision\" values.  IEEE 754 binary64 values contain 53 bits of "
 "precision, so on input the computer strives to convert 0.1 to the closest "
-"fraction it can of the form *J*/2**\\ *N* where *J* is an integer containing "
-"exactly 53 bits. Rewriting ::"
+"fraction it can of the form *J*/2**\\ *N* where *J* is an integer containing"
+" exactly 53 bits. Rewriting ::"
 msgstr ""
+"چرا اینطور است؟ 1/10 به طور دقیق به صورت یک کسر باینری قابل نمایش نیست. از "
+"حداقل سال 2000، تقریباً تمام ماشین ها از حساب اعشاری شناوری باینری IEEE 754 "
+"استفاده می کنند و تقریباً تمام پلتفرم ها اعداد اعشاری شناور پایتون را به "
+"مقادیر \"دقت دوگانه\" باینری64 IEEE 754 نگاشت می کنند. مقادیر باینری64 IEEE "
+"754 شامل 53 بیت دقت هستند، بنابراین در ورودی، کامپیوتر تلاش می کند 0.1 را به"
+" نزدیک ترین کسری که می تواند تبدیل کند، تبدیل کند به فرم *J*/2**\\ *N* where"
+" *J* که یک عدد صحیح است که دقیقاً 53 بیت دارد. بازنویسی ::"
 
 #: ../../tutorial/floatingpoint.rst:280
+#, fuzzy
 msgid "1 / 10 ~= J / (2**N)"
-msgstr ""
+msgstr "۱ / ۱۰ تقریباً برابر است با J / (۲**N)"
 
 #: ../../tutorial/floatingpoint.rst:282
+#, fuzzy
 msgid "as ::"
-msgstr ""
+msgstr "به عنوان ::"
 
 #: ../../tutorial/floatingpoint.rst:284
+#, fuzzy
 msgid "J ~= 2**N / 10"
-msgstr ""
+msgstr "J تقریباً برابر است با 2**N تقسیم بر 10"
 
 #: ../../tutorial/floatingpoint.rst:286
+#, fuzzy
 msgid ""
 "and recalling that *J* has exactly 53 bits (is ``>= 2**52`` but ``< "
 "2**53``), the best value for *N* is 56:"
 msgstr ""
+"و به یاد داشته باشید که *J* دقیقاً ۵۳ بیت دارد (همان ``>= 2**52`` اما ``< "
+"2**53`` می باشد)، بهترین مقدار برای *N* برابر با ۵۶ است:"
 
 #: ../../tutorial/floatingpoint.rst:289
+#, fuzzy
 msgid ""
 ">>> 2**52 <=  2**56 // 10  < 2**53\n"
 "True"
-msgstr ""
+msgstr "راست می باشد"
 
 #: ../../tutorial/floatingpoint.rst:294
+#, fuzzy
 msgid ""
-"That is, 56 is the only value for *N* that leaves *J* with exactly 53 bits.  "
-"The best possible value for *J* is then that quotient rounded:"
+"That is, 56 is the only value for *N* that leaves *J* with exactly 53 bits."
+"  The best possible value for *J* is then that quotient rounded:"
 msgstr ""
+"یعنی ۵۶ تنها مقداری است برای *N* که *J* را دقیقاً با ۵۳ بیت باقی می گذارد. "
+"بهترین مقدار ممکن برای *J*، سپس آن خارج قسمت گرد شده است:"
 
 #: ../../tutorial/floatingpoint.rst:297
+#, fuzzy
 msgid ""
 ">>> q, r = divmod(2**56, 10)\n"
 ">>> r\n"
 "6"
 msgstr ""
+"```python\n"
+">>> q, r = divmod(2**56, 10)\n"
+">>> r\n"
+"6\n"
+"```"
 
 #: ../../tutorial/floatingpoint.rst:303
+#, fuzzy
 msgid ""
 "Since the remainder is more than half of 10, the best approximation is "
 "obtained by rounding up:"
 msgstr ""
+"از آنجا که باقیمانده بیشتر از نصف 10 است، بهترین تقریب با گرد کردن به بالا "
+"به دست می آید:"
 
 #: ../../tutorial/floatingpoint.rst:306
+#, fuzzy
 msgid ""
 ">>> q+1\n"
 "7205759403792794"
-msgstr ""
+msgstr "۷۲۰۵۷۵۹۴۰۳۷۹۲۷۹۴"
 
 #: ../../tutorial/floatingpoint.rst:313
+#, fuzzy
 msgid ""
 "Therefore the best possible approximation to 1/10 in IEEE 754 double "
 "precision is::"
 msgstr ""
+"بنابراین بهترین تقریب ممکن برای 1/10 در دقت مضاعف IEEE 754 به صورت زیر است::"
 
 #: ../../tutorial/floatingpoint.rst:316
+#, fuzzy
 msgid "7205759403792794 / 2 ** 56"
-msgstr ""
+msgstr "۷۲۰۵۷۵۹۴۰۳۷۹۲۷۹۴ / ۲ ** ۵۶"
 
 #: ../../tutorial/floatingpoint.rst:318
+#, fuzzy
 msgid ""
 "Dividing both the numerator and denominator by two reduces the fraction to::"
-msgstr ""
+msgstr "با تقسیم کردن صورت و مخرج بر دو، کسر به شکل زیر ساده می شود::"
 
 #: ../../tutorial/floatingpoint.rst:320
+#, fuzzy
 msgid "3602879701896397 / 2 ** 55"
-msgstr ""
+msgstr "۳۶۰۲۸۷۹۷۰۱۸۹۶۳۹۷ / ۲ ** ۵۵"
 
 #: ../../tutorial/floatingpoint.rst:322
+#, fuzzy
 msgid ""
 "Note that since we rounded up, this is actually a little bit larger than "
 "1/10; if we had not rounded up, the quotient would have been a little bit "
 "smaller than 1/10.  But in no case can it be *exactly* 1/10!"
 msgstr ""
+"توجه داشته باشید که چون رو به بالا گرد کردیم، این در واقع کمی بزرگ تر از "
+"1/10 است؛ اگر رو به بالا گرد نمی کردیم، خارج قسمت کمی کوچک تر از 1/10 می شد."
+" اما در هیچ حالتی نمی تواند *exactly* 1/10 باشد!"
 
 #: ../../tutorial/floatingpoint.rst:326
+#, fuzzy
 msgid ""
 "So the computer never \"sees\" 1/10:  what it sees is the exact fraction "
 "given above, the best IEEE 754 double approximation it can get:"
 msgstr ""
+"بنابراین کامپیوتر هرگز 1/10 را \"نمی بیند\": آنچه می بیند دقیقاً همان کسری "
+"است که در بالا داده شده، بهترین تقریب مضاعف IEEE 754 که می تواند بدست آورد:"
 
 #: ../../tutorial/floatingpoint.rst:329
+#, fuzzy
 msgid ""
 ">>> 0.1 * 2 ** 55\n"
 "3602879701896397.0"
 msgstr ""
+">>> 0.1 * 55\n"
+"3602879701896397.0"
 
 #: ../../tutorial/floatingpoint.rst:334
+#, fuzzy
 msgid ""
 "If we multiply that fraction by 10\\*\\*55, we can see the value out to 55 "
 "decimal digits:"
 msgstr ""
+"اگر آن کسر را در 10\\*\\*55 ضرب کنیم، می توانیم مقدار آن را تا ۵۵ رقم اعشار "
+"ببینیم:"
 
 #: ../../tutorial/floatingpoint.rst:337
+#, fuzzy
 msgid ""
 ">>> 3602879701896397 * 10 ** 55 // 2 ** 55\n"
 "1000000000000000055511151231257827021181583404541015625"
 msgstr ""
+">>> 3602879701896397 * 10 ** 55 // 2 ** 55\n"
+"1000000000000000055511151231257827021181583404541015625"
 
 #: ../../tutorial/floatingpoint.rst:342
+#, fuzzy
 msgid ""
-"meaning that the exact number stored in the computer is equal to the decimal "
-"value 0.1000000000000000055511151231257827021181583404541015625. Instead of "
-"displaying the full decimal value, many languages (including older versions "
-"of Python), round the result to 17 significant digits:"
+"meaning that the exact number stored in the computer is equal to the decimal"
+" value 0.1000000000000000055511151231257827021181583404541015625. Instead of"
+" displaying the full decimal value, many languages (including older versions"
+" of Python), round the result to 17 significant digits:"
 msgstr ""
+"به این معنا که عدد دقیق ذخیره شده در کامپیوتر برابر با مقدار اعشاری "
+"0.1000000000000000055511151231257827021181583404541015625 است. به جای نمایش "
+"مقدار کامل اعشاری، بسیاری از زبان ها (از جمله نسخه های قدیمی تر Python) "
+"نتیجه را به 17 رقم معنی دار گرد می کنند:"
 
 #: ../../tutorial/floatingpoint.rst:347
+#, fuzzy
 msgid ""
 ">>> format(0.1, '.17f')\n"
 "'0.10000000000000001'"
 msgstr ""
+"```python\n"
+">>> format(0.1, '.17f')\n"
+"'0.10000000000000001'\n"
+"```"
 
 #: ../../tutorial/floatingpoint.rst:352
+#, fuzzy
 msgid ""
-"The :mod:`fractions` and :mod:`decimal` modules make these calculations easy:"
+"The :mod:`fractions` and :mod:`decimal` modules make these calculations "
+"easy:"
 msgstr ""
+"ماژول های :mod:`fractions` و :mod:`decimal` این محاسبات را آسان می کنند:"
 
 #: ../../tutorial/floatingpoint.rst:355
+#, fuzzy
 msgid ""
 ">>> from decimal import Decimal\n"
 ">>> from fractions import Fraction\n"
@@ -553,3 +850,17 @@ msgid ""
 ">>> format(Decimal.from_float(0.1), '.17')\n"
 "'0.10000000000000001'"
 msgstr ""
+">>> from decimal import Decimal  \n"
+">>> from fractions import Fraction  \n"
+"\n"
+">>> Fraction.from_float(0.1)  \n"
+"Fraction(3602879701896397, 36028797018963968)  \n"
+"\n"
+">>> (0.1).as_integer_ratio()  \n"
+"(3602879701896397, 36028797018963968)  \n"
+"\n"
+">>> Decimal.from_float(0.1)  \n"
+"Decimal('0.1000000000000000055511151231257827021181583404541015625')  \n"
+"\n"
+">>> format(Decimal.from_float(0.1), '.17')  \n"
+"'0.10000000000000001'"
