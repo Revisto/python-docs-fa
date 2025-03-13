@@ -32,21 +32,20 @@ msgid ""
 "As well as the :keyword:`while` statement just introduced, Python uses a few"
 " more that we will encounter in this chapter."
 msgstr ""
-"همچنین علاوه بر دستور :keyword:`while` که تازه معرفی شد، پایتون از چند دستور"
-" دیگر نیز استفاده می کند که در این فصل با آنها روبرو خواهیم شد."
+"همچنین به علاوه دستور :keyword:`while` که به تازگی معرفی شد، پایتون از چند "
+"دستور دیگر نیز استفاده می کند که در این فصل با آن ها مواجه خواهیم شد."
 
 #: ../../tutorial/controlflow.rst:14
 #, fuzzy
 msgid ":keyword:`!if` Statements"
-msgstr ":keyword:`!if` عبارات"
+msgstr "عبارات :keyword:`!if`"
 
 #: ../../tutorial/controlflow.rst:16
 #, fuzzy
 msgid ""
 "Perhaps the most well-known statement type is the :keyword:`if` statement.  "
 "For example::"
-msgstr ""
-"شاید شناخته شده ترین نوع دستورات، دستور :keyword:`if` باشد. به عنوان مثال::"
+msgstr "شاید شناخته شده ترین نوع دستور، دستور :keyword:`if` باشد. برای مثال:"
 
 #: ../../tutorial/controlflow.rst:19
 #, fuzzy
@@ -65,19 +64,19 @@ msgid ""
 "...\n"
 "More"
 msgstr ""
-">>> x = int(input(\"Please enter an integer: \"))\n"
-"Please enter an integer: 42\n"
+">>> x = int(input(\"لطفاً یک عدد صحیح وارد کنید: \"))\n"
+"لطفاً یک عدد صحیح وارد کنید: 42\n"
 ">>> if x < 0:\n"
 "...     x = 0\n"
-"...     print('Negative changed to zero')\n"
+"...     print('منفی به صفر تغییر یافت')\n"
 "... elif x == 0:\n"
-"...     print('Zero')\n"
+"...     print('صفر')\n"
 "... elif x == 1:\n"
-"...     print('Single')\n"
+"...     print('تک')\n"
 "... else:\n"
-"...     print('More')\n"
+"...     print('بیشتر')\n"
 "...\n"
-"More"
+"بیشتر"
 
 #: ../../tutorial/controlflow.rst:33
 #, fuzzy
@@ -88,11 +87,12 @@ msgid ""
 ":keyword:`!elif` ... :keyword:`!elif` ... sequence is a substitute for the "
 "``switch`` or ``case`` statements found in other languages."
 msgstr ""
-"ممکن است هیچ یا تعداد بیشتری از بخش های :keyword:`elif` وجود داشته باشد، و "
-"بخش :keyword:`else` اختیاری است. کلمه کلیدی ':keyword:`!elif`' کوتاه شده "
-"برای 'else if' است و برای جلوگیری از تو رفتگی بیش از حد مفید است. توالی "
-":keyword:`!if` ... :keyword:`!elif` ... :keyword:`!elif` ... جایگزینی برای "
-"دستورات ``switch`` یا ``case`` است که در زبان های دیگر یافت می شود."
+"می تواند صفر یا بیشتر از بخش های :keyword:`elif` وجود داشته باشد، و بخش "
+":keyword:`else` اختیاری است. کلمه کلیدی ':keyword:`!elif`' به عنوان کوتاه "
+"شده 'else if' استفاده می شود و برای جلوگیری از تو رفتگی بیش از حد مفید است. "
+"دنباله ای :keyword:`!if` ... :keyword:`!elif` ... :keyword:`!elif` ... به "
+"عنوان جایگزینی برای عبارات ``switch`` یا ``case`` که در دیگر زبان ها یافت می"
+" شود، به کار می رود."
 
 #: ../../tutorial/controlflow.rst:39
 #, fuzzy
@@ -101,14 +101,14 @@ msgid ""
 "specific types or attributes, you may also find the :keyword:`!match` "
 "statement useful. For more details see :ref:`tut-match`."
 msgstr ""
-"اگر در حال مقایسه یک مقدار با چند ثابت هستید، یا نوع ها یا ویژگی های خاصی را"
-" بررسی می کنید، ممکن است بیانیه ی :keyword:`!match` را نیز مفید بیابید. برای"
-" جزئیات بیشتر به :ref:`tut-match` مراجعه کنید."
+"اگر در حال مقایسه یک مقدار با چندین ثابت هستید، یا بررسی نوع های خاص یا "
+"ویژگی ها را انجام می دهید، ممکن است دستور :keyword:`!match` برای شما مفید "
+"باشد. برای جزئیات بیشتر به :ref:`tut-match` مراجعه کنید."
 
 #: ../../tutorial/controlflow.rst:46
 #, fuzzy
 msgid ":keyword:`!for` Statements"
-msgstr "دستورات :keyword:`!for`"
+msgstr ":keyword:`!for` اظهارات"
 
 #: ../../tutorial/controlflow.rst:51
 #, fuzzy
@@ -121,12 +121,11 @@ msgid ""
 " a string), in the order that they appear in the sequence.  For example (no "
 "pun intended):"
 msgstr ""
-"بیانیه :keyword:`for` در پایتون کمی با آنچه ممکن است در C یا Pascal به آن "
-"عادت کرده باشید متفاوت است. به جای آنکه همیشه بر روی یک پیشرفت عددی حسابی "
-"حرکت کند (مثل Pascal), یا امکان تعریف گام تکرار و شرط توقف را برای کاربر "
-"فراهم کند (مثل C), بیانیه :keyword:`!for` در پایتون بر روی آیتم های هر توالی"
-" (مثل یک لیست یا رشته) به ترتیبی که در توالی ظاهر می شوند، تکرار می کند. "
-"برای مثال:"
+"بیانیه :keyword:`for` در پایتون کمی با آنچه که ممکن است در C یا Pascal به آن"
+" عادت داشته باشید تفاوت دارد. به جای تکرار همیشگی از یک دنباله حسابی از "
+"اعداد (مانند Pascal)، یا اجازه دادن به کاربر برای تعریف گام تکرار و شرط توقف"
+" (مانند C)، بیانیه :keyword:`!for` در پایتون بر روی آیتم های هر دنباله ای "
+"(لیست یا رشته) به ترتیب ظاهر شدن آنها در دنباله، تکرار می کند. برای مثال:"
 
 #: ../../tutorial/controlflow.rst:63
 #, fuzzy
@@ -140,7 +139,7 @@ msgid ""
 "window 6\n"
 "defenestrate 12"
 msgstr ""
-">>> # اندازه گیری چند رشته:\n"
+">>> # چند رشته را اندازه گیری کنید:\n"
 ">>> words = ['cat', 'window', 'defenestrate']\n"
 ">>> for w in words:\n"
 "...     print(w, len(w))\n"
@@ -156,9 +155,9 @@ msgid ""
 "can be tricky to get right.  Instead, it is usually more straight-forward to"
 " loop over a copy of the collection or to create a new collection::"
 msgstr ""
-"هنگامی که کدی مجموعه ای را در حالی که بر روی همان مجموعه تکرار می کند، تغییر"
-" می دهد، ممکن است دچار پیچیدگی شود. به جای آن، معمولاً راحت تر است که بر روی"
-" یک کپی از مجموعه عمل کنید یا یک مجموعه جدید ایجاد کنید::"
+"زمانی که کدی مجموعه ای را در حین پیمایش آن مجموعه تغییر می دهد، ممکن است "
+"خطاهایی رخ دهد. به جای این روش، معمولاً ساده تر این است که یا بر روی یک نسخه"
+" کپی از مجموعه حلقه بزنید یا یک مجموعه جدید ایجاد کنید::"
 
 #: ../../tutorial/controlflow.rst:76
 #, fuzzy
@@ -177,15 +176,15 @@ msgid ""
 "    if status == 'active':\n"
 "        active_users[user] = status"
 msgstr ""
-"# Create a sample collection\n"
+"# ایجاد یک مجموعه نمونه\n"
 "users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}\n"
 "\n"
-"# Strategy:  Iterate over a copy\n"
+"# استراتژی: تکرار روی یک کپی\n"
 "for user, status in users.copy().items():\n"
 "    if status == 'inactive':\n"
 "        del users[user]\n"
 "\n"
-"# Strategy:  Create a new collection\n"
+"# استراتژی: ایجاد یک مجموعه جدید\n"
 "active_users = {}\n"
 "for user, status in users.items():\n"
 "    if status == 'active':\n"
@@ -202,8 +201,8 @@ msgid ""
 "If you do need to iterate over a sequence of numbers, the built-in function "
 ":func:`range` comes in handy.  It generates arithmetic progressions::"
 msgstr ""
-"اگر نیاز دارید روی یک دنباله از اعداد تکرار انجام دهید، تابع داخلی "
-":func:`range` بسیار کارآمد است. این تابع دنباله های حسابی تولید می کند::"
+"اگر نیاز دارید بر روی دنباله ای از اعداد تکرار کنید، تابع داخلی "
+":func:`range` کارآمد است. این تابع، پیشرفت های حسابی تولید می کند::"
 
 #: ../../tutorial/controlflow.rst:99
 #, fuzzy
@@ -234,10 +233,11 @@ msgid ""
 "  It is possible to let the range start at another number, or to specify a "
 "different increment (even negative; sometimes this is called the 'step')::"
 msgstr ""
-"نقطه انتهایی هرگز بخشی از دنباله تولیدشده نیست؛ ```range(10)``` ده مقدار "
-"تولید می کند که شاخص های مجاز برای آیتم های یک دنباله با طول ۱۰ هستند. این "
-"امکان وجود دارد که محدوده شروع از عدد دیگری باشد یا یک افزایش (حتی منفی؛ که "
-"گاهی اوقات به آن «گام» گفته می شود) متفاوت را مشخص کنید::"
+"نقطه پایانی که داده شده است هیچ وقت بخشی از دنباله تولید شده نیست؛ "
+"``range(10)`` تعداد 10 مقدار تولید می کند، شاخص های قانونی برای اعضای یک "
+"دنباله با طول 10. امکان شروع بازه از عدد دیگری وجود دارد یا می توان یک "
+"افزایش دهنده (حتی منفی؛ گاهی اوقات این را 'گام' می نامند) متفاوت را مشخص "
+"کرد:"
 
 #: ../../tutorial/controlflow.rst:113
 #, fuzzy
@@ -266,8 +266,8 @@ msgid ""
 "To iterate over the indices of a sequence, you can combine :func:`range` and"
 " :func:`len` as follows::"
 msgstr ""
-"برای پیمایش در شاخص های یک دنباله، می توانید :func:`range` و :func:`len` را "
-"به صورت زیر ترکیب کنید::"
+"برای پیمایش بر روی شاخص های یک دنباله، می توانید :func:`range` و :func:`len`"
+" را به صورت زیر ترکیب کنید::"
 
 #: ../../tutorial/controlflow.rst:125
 #, fuzzy
@@ -298,13 +298,13 @@ msgid ""
 "In most such cases, however, it is convenient to use the :func:`enumerate` "
 "function, see :ref:`tut-loopidioms`."
 msgstr ""
-"در بیشتر چنین مواردی، با این حال، استفاده از تابع :func:`enumerate` راحت تر "
-"است، به :ref:`tut-loopidioms` مراجعه کنید."
+"در بسیاری از این موارد، با این حال، استفاده از تابع :func:`enumerate` راحت "
+"است، رجوع کنید به :ref:`tut-loopidioms`."
 
 #: ../../tutorial/controlflow.rst:138
 #, fuzzy
 msgid "A strange thing happens if you just print a range::"
-msgstr "اگر فقط یک محدوده (range) را چاپ کنید، یک اتفاق عجیب رخ می دهد::"
+msgstr "اگر شما فقط یک range را چاپ کنید، اتفاق عجیبی رخ می دهد:"
 
 #: ../../tutorial/controlflow.rst:140
 #, fuzzy
@@ -323,10 +323,10 @@ msgid ""
 "items of the desired sequence when you iterate over it, but it doesn't "
 "really make the list, thus saving space."
 msgstr ""
-"از بسیاری جهات، شیء بازگشتی توسط :func:`range` به گونه ای رفتار می کند که "
-"گویی لیست است، اما در واقع این گونه نیست. این شیء ای است که هنگام مرور به "
-"دنبال آن، آیتم های متوالی از دنباله مورد نظر را برمی گرداند، اما واقعاً لیست"
-" را ایجاد نمی کند، بنابراین در مصرف فضا صرفه جویی می کند."
+"به بسیاری از جهات، شیء بازگشتی توسط :func:`range` رفتار می کند انگار که یک "
+"لیست است، اما در واقع این طور نیست. این یک شیء است که آیتم های متوالی از "
+"دنباله ی مورد نظر را زمانی که بر روی آن تکرار می کنید، بازمی گرداند، اما در "
+"حقیقت لیست را نمی سازد و بدین ترتیب فضای ذخیره سازی را حفظ می کند."
 
 #: ../../tutorial/controlflow.rst:148
 #, fuzzy
@@ -337,11 +337,11 @@ msgid ""
 ":keyword:`for` statement is such a construct, while an example of a function"
 " that takes an iterable is :func:`sum`::"
 msgstr ""
-"ما به چنین شیء که :term:`iterable` نامیده می شود، اشاره می کنیم. این به "
-"معنای مناسب بودن به عنوان هدف برای توابع و ساختارهایی است که انتظار دارند تا"
-" زمانی که منابع تمام نشده است، موارد متوالی را بتوانند بدست آورند. ما دیده "
-"ایم که عبارت :keyword:`for` چنین ساختاری است، در حالی که مثالی از تابعی که "
-"یک iterable را می پذیرد، :func:`sum` است::"
+"ما به چنین شیء :term:`iterable` می گوییم، به این معنی که برای استفاده در "
+"توابع و ساختارهایی مناسب است که انتظار دارند چیزی داشته باشند که بتوانند از "
+"آن به ترتیب آیتم هایی را دریافت کنند تا وقتی که منابع به پایان برسد.  ما "
+"دیده ایم که عبارت :keyword:`for` ساختاری از این قبیل است، در حالی که مثالی "
+"از یک تابع که یک iterable می گیرد :func:`sum` است::"
 
 #: ../../tutorial/controlflow.rst:154
 #, fuzzy
@@ -359,14 +359,14 @@ msgid ""
 " arguments.  In chapter :ref:`tut-structures`, we will discuss in more "
 "detail about :func:`list`."
 msgstr ""
-"بعداً به توابع بیشتری خواهیم پرداخت که مقادیر قابل تکرار بازمی گردانند و به "
-"عنوان آرگومان مقادیر قابل تکرار را می پذیرند. در فصل :ref:`tut-structures`، "
-"درباره :func:`list` با جزئیات بیشتری بحث خواهیم کرد."
+"در ادامه، توابع بیشتری را خواهیم دید که تکرارشونده ها را برمی گردانند و "
+"تکرارشونده ها را به عنوان آرگومان می پذیرند. در فصل :ref:`tut-structures`، "
+"درباره :func:`list` به تفصیل بیشتری صحبت خواهیم کرد."
 
 #: ../../tutorial/controlflow.rst:164
 #, fuzzy
 msgid ":keyword:`!break` and :keyword:`!continue` Statements"
-msgstr ":keyword:`!break` و :keyword:`!continue` دستورات"
+msgstr ":keyword:`!break` و :keyword:`!continue` گزاره ها"
 
 #: ../../tutorial/controlflow.rst:166
 #, fuzzy
@@ -374,8 +374,8 @@ msgid ""
 "The :keyword:`break` statement breaks out of the innermost enclosing "
 ":keyword:`for` or :keyword:`while` loop::"
 msgstr ""
-"عبارت :keyword:`break` از درون حلقه :keyword:`for` یا :keyword:`while` که "
-"نزدیک ترین حلقه محصورکننده است، خارج می شود::"
+"دستور :keyword:`break` از درونی ترین حلقه های :keyword:`for` یا "
+":keyword:`while` خارج می شود::"
 
 #: ../../tutorial/controlflow.rst:169
 #, fuzzy
@@ -391,8 +391,8 @@ msgid ""
 "8 equals 2 * 4\n"
 "9 equals 3 * 3"
 msgstr ""
-">>> برای n در بازه 2 تا 10:\n"
-"...     برای x در بازه 2 تا n:\n"
+">>> برای n در range(2, 10):\n"
+"...     برای x در range(2, n):\n"
 "...         اگر n % x == 0:\n"
 "...             print(f\"{n} برابر است با {x} ضربدر {n//x}\")\n"
 "...             break\n"
@@ -404,7 +404,7 @@ msgstr ""
 msgid ""
 "The :keyword:`continue` statement continues with the next iteration of the "
 "loop::"
-msgstr "عبارت :keyword:`continue` به اجرای تکرار بعدی حلقه ادامه می دهد::"
+msgstr "بیانیه :keyword:`continue` با تکرار بعدی حلقه ادامه می یابد."
 
 #: ../../tutorial/controlflow.rst:183
 #, fuzzy
@@ -424,25 +424,25 @@ msgid ""
 "Found an even number 8\n"
 "Found an odd number 9"
 msgstr ""
-">>> for num in range(2, 10):\n"
-"...     if num % 2 == 0:\n"
-"...         print(f\"Found an even number {num}\")\n"
-"...         continue\n"
-"...     print(f\"Found an odd number {num}\")\n"
-"...\n"
-"Found an even number 2\n"
-"Found an odd number 3\n"
-"Found an even number 4\n"
-"Found an odd number 5\n"
-"Found an even number 6\n"
-"Found an odd number 7\n"
-"Found an even number 8\n"
-"Found an odd number 9"
+"برای num در بازه ی 2 تا 10:\n"
+"    اگر num % 2 == 0:\n"
+"        چاپ کن(f\"عدد زوج پیدا شد {num}\")\n"
+"        ادامه بده\n"
+"    چاپ کن(f\"عدد فرد پیدا شد {num}\")\n"
+"\n"
+"عدد زوج پیدا شد 2\n"
+"عدد فرد پیدا شد 3\n"
+"عدد زوج پیدا شد 4\n"
+"عدد فرد پیدا شد 5\n"
+"عدد زوج پیدا شد 6\n"
+"عدد فرد پیدا شد 7\n"
+"عدد زوج پیدا شد 8\n"
+"عدد فرد پیدا شد 9"
 
 #: ../../tutorial/controlflow.rst:202
 #, fuzzy
 msgid ":keyword:`!else` Clauses on Loops"
-msgstr ":keyword:`!else` گزاره ها در حلقه ها"
+msgstr ":keyword:`!else` بندهایی درباره حلقه ها"
 
 #: ../../tutorial/controlflow.rst:204
 #, fuzzy
@@ -453,8 +453,8 @@ msgid ""
 "clause executes."
 msgstr ""
 "در یک حلقه :keyword:`!for` یا :keyword:`!while`، دستور :keyword:`!break` "
-"ممکن است با یک بند :keyword:`!else` جفت شود. اگر حلقه بدون اجرای "
-":keyword:`!break` به پایان برسد، بند :keyword:`!else` اجرا می شود."
+"ممکن است با یک شرط :keyword:`!else` جفت شود. اگر حلقه بدون اجرای "
+":keyword:`!break` به پایان برسد، شرط :keyword:`!else` اجرا می شود."
 
 #: ../../tutorial/controlflow.rst:208
 #, fuzzy
@@ -462,8 +462,8 @@ msgid ""
 "In a :keyword:`for` loop, the :keyword:`!else` clause is executed after the "
 "loop finishes its final iteration, that is, if no break occurred."
 msgstr ""
-"در یک حلقه :keyword:`for`، عبارت :keyword:`!else` بعد از اتمام آخرین تکرار "
-"حلقه اجرا می شود، یعنی اگر هیچ وقفه ای رخ نداده باشد."
+"در یک حلقه :keyword:`for`، عبارت :keyword:`!else` پس از پایان یافتن آخرین "
+"تکرار حلقه اجرا می شود، یعنی اگر هیچ توقفی رخ نداده باشد."
 
 #: ../../tutorial/controlflow.rst:211
 #, fuzzy
@@ -471,7 +471,7 @@ msgid ""
 "In a :keyword:`while` loop, it's executed after the loop's condition becomes"
 " false."
 msgstr ""
-"در یک حلقه :keyword:`while`، این دستور زمانی اجرا می شود که شرط حلقه غلط "
+"در یک حلقه :keyword:`while`، این پس از آن اجرا می شود که شرط حلقه نادرست می "
 "شود."
 
 #: ../../tutorial/controlflow.rst:213
@@ -482,10 +482,10 @@ msgid ""
 "ending the loop early, such as a :keyword:`return` or a raised exception, "
 "will also skip execution of the :keyword:`else` clause."
 msgstr ""
-"در هر نوع حلقه، بند :keyword:`!else` زمانی اجرا می شود که حلقه توسط "
-":keyword:`break` خاتمه یافته باشد. البته، سایر راه های پایان دادن زود هنگام "
-"حلقه، مانند :keyword:`return` یا بروز یک استثنا، نیز باعث می شوند که اجرای "
-"بند :keyword:`else` نادیده گرفته شود."
+"در هر دو نوع حلقه، بخش :keyword:`!else` تنها زمانی **not** اجرا می شود که "
+"حلقه توسط یک :keyword:`break` خاتمه یافته باشد. البته، روش های دیگری برای "
+"پایان دادن به حلقه به صورت زودهنگام، مانند یک :keyword:`return` یا ایجاد "
+"استثنا، نیز باعث می شوند که اجرای بخش :keyword:`else` نادیده گرفته شود."
 
 #: ../../tutorial/controlflow.rst:218
 #, fuzzy
@@ -493,8 +493,8 @@ msgid ""
 "This is exemplified in the following :keyword:`!for` loop, which searches "
 "for prime numbers::"
 msgstr ""
-"این مورد در حلقه :keyword:`!for` زیر، که به دنبال اعداد اول می گردد، نشان "
-"داده شده است::"
+"این در حلقه :keyword:`!for` زیر که به دنبال اعداد اول می گردد، نشان داده شده"
+" است::"
 
 #: ../../tutorial/controlflow.rst:221
 #, fuzzy
@@ -517,13 +517,23 @@ msgid ""
 "8 equals 2 * 4\n"
 "9 equals 3 * 3"
 msgstr ""
-">>> for n in range(2, 10):\n"
-"...     for x in range(2, n):\n"
-"...         if n % x == 0:\n"
-"...             print(n, 'مساوی است با', x, '*', n//x)\n"
+">>> برای n در بازه(2, 10):\n"
+"...     برای x در بازه(2, n):\n"
+"...         اگر n % x == 0:\n"
+"...             print(n, 'equals', x, '*', n//x)\n"
 "...             break\n"
 "...     else:\n"
-"...         print(n, 'یک عدد اول است')"
+"...         # loop fell through without finding a factor\n"
+"...         print(n, 'is a prime number')\n"
+"...\n"
+"2 is a prime number\n"
+"3 is a prime number\n"
+"4 equals 2 * 2\n"
+"5 یک عدد اول است\n"
+"6 برابر است با 2 * 3\n"
+"7 is a prime number\n"
+"8 equals 2 * 4\n"
+"9 برابر است با 3 * 3"
 
 #: ../../tutorial/controlflow.rst:239
 #, fuzzy
@@ -531,8 +541,8 @@ msgid ""
 "(Yes, this is the correct code.  Look closely: the ``else`` clause belongs "
 "to the ``for`` loop, **not** the ``if`` statement.)"
 msgstr ""
-"(بله, این کد درست است. با دقت نگاه کنید: قسمت ``else`` به حلقه ``for`` تعلق "
-"دارد, **not** به عبارت ``if``.)"
+"(بله، این کد درست است. با دقت نگاه کنید: قید ``else`` به حلقه ``for`` تعلق "
+"دارد، **not** به عبارت ``if``.)"
 
 #: ../../tutorial/controlflow.rst:242
 #, fuzzy
@@ -543,11 +553,11 @@ msgid ""
 " If the condition is ever true, a ``break`` will happen. If the condition is"
 " never true, the ``else`` clause outside the loop will execute."
 msgstr ""
-"راهی برای فکر کردن به عبارت else این است که آن را با ``if`` درون حلقه تصور "
-"کنیم. زمانی که حلقه اجرا می شود، یک دنباله مانند if/if/if/else را اجرا خواهد"
-" کرد. ``if`` درون حلقه است و چندین بار با آن مواجه می شود. اگر شرطی درست "
-"باشد، یک ``break`` رخ خواهد داد. اگر شرط هرگز درست نباشد، عبارت ``else`` "
-"خارج از حلقه اجرا خواهد شد."
+"یک راه برای فکر کردن به گزاره else این است که آن را با ``if`` داخل حلقه تصور"
+" کنید. هنگامی که حلقه اجرا می شود، اجرا به صورت if/if/if/else خواهد بود. "
+"``if`` داخل حلقه، چندین بار برخورد می شود. اگر شرطی صحیح باشد، یک ``break`` "
+"اتفاق خواهد افتاد. اگر هیچ گاه شرطی صحیح نباشد، گزاره ``else`` خارج از حلقه "
+"اجرا خواهد شد."
 
 #: ../../tutorial/controlflow.rst:248
 #, fuzzy
@@ -560,16 +570,15 @@ msgid ""
 "handling`."
 msgstr ""
 "هنگامی که با یک حلقه استفاده می شود، عبارت ``else`` بیشتر با عبارت ``else`` "
-"از یک دستور :keyword:`try` مشترک است تا با آن از دستورات ``if``: بند "
-"``else`` از یک دستور ``try`` زمانی اجرا می شود که هیچ استثنائی رخ نمی دهد، و"
-" بند ``else`` یک حلقه زمانی اجرا می شود که هیچ ``break`` رخ نمی دهد. برای "
-"اطلاعات بیشتر درباره دستور ``try`` و استثنائات، به :ref:`tut-handling` "
-"مراجعه کنید."
+"در یک دستور :keyword:`try` شباهت دارد تا با عبارت دستورهای ``if``: عبارت "
+"``else`` در یک دستور ``try`` زمانی اجرا می شود که استثنایی رخ ندهد، و عبارت "
+"``else`` در یک حلقه زمانی اجرا می شود که ``break`` رخ ندهد. برای اطلاعات "
+"بیشتر درباره دستور ``try`` و استثناها، به :ref:`tut-handling` مراجعه کنید."
 
 #: ../../tutorial/controlflow.rst:257
 #, fuzzy
 msgid ":keyword:`!pass` Statements"
-msgstr "عبارات :keyword:`!pass`"
+msgstr ":keyword:`!pass` دستورات"
 
 #: ../../tutorial/controlflow.rst:259
 #, fuzzy
@@ -577,9 +586,9 @@ msgid ""
 "The :keyword:`pass` statement does nothing. It can be used when a statement "
 "is required syntactically but the program requires no action. For example::"
 msgstr ""
-"عبارت :keyword:`pass` هیچ کاری انجام نمی دهد. می تواند زمانی استفاده شود که "
-"از لحاظ نحوی یک عبارت لازم است اما برنامه نیازی به عمل خاصی ندارد. برای "
-"مثال::"
+"عبارت :keyword:`pass` هیچ کاری انجام نمی دهد. این عبارت می تواند زمانی "
+"استفاده شود که به صورت نحوی یک عبارت لازم است اما برنامه به هیچ عملی نیازی "
+"ندارد. برای مثال::"
 
 #: ../../tutorial/controlflow.rst:262
 #, fuzzy
@@ -588,8 +597,8 @@ msgid ""
 "...     pass  # Busy-wait for keyboard interrupt (Ctrl+C)\n"
 "..."
 msgstr ""
-">>> while True:\n"
-"...     pass  # Busy-wait for keyboard interrupt (Ctrl+C)\n"
+">>> در حالی که True:\n"
+"...     pass  # انتظار مشغول برای قطع کیبورد (Ctrl+C)\n"
 "..."
 
 #: ../../tutorial/controlflow.rst:266
@@ -604,7 +613,7 @@ msgid ""
 "...     pass\n"
 "..."
 msgstr ""
-">>> class MyEmptyClass:\n"
+">>> کلاس MyEmptyClass:\n"
 "...     pass\n"
 "..."
 
@@ -616,10 +625,10 @@ msgid ""
 "to keep thinking at a more abstract level.  The :keyword:`!pass` is silently"
 " ignored::"
 msgstr ""
-"محل دیگری که :keyword:`pass` می تواند استفاده شود، به عنوان جایگزین برای "
-"بدنه یک تابع یا بخش شرطی است وقتی که شما در حال کار بر روی کد جدید هستید. "
-"این کار به شما این امکان را می دهد که همچنان در سطحی انتزاعی تر فکر کنید. "
-":keyword:`!pass` به صورت خاموشی نادیده گرفته می شود::"
+"جای دیگری که :keyword:`pass` می تواند استفاده شود به عنوان یک جای نگه دار "
+"برای بدنه یک تابع یا شرطی زمانی است که شما در حال کار روی کد جدیدی هستید، که"
+" به شما اجازه می دهد تا به تفکر در سطحی انتزاعی تر ادامه دهید. "
+":keyword:`!pass` به صورت خاموش نادیده گرفته می شود::"
 
 #: ../../tutorial/controlflow.rst:276
 #, fuzzy
@@ -629,13 +638,13 @@ msgid ""
 "..."
 msgstr ""
 ">>> def initlog(*args):\n"
-"...     pass   # Remember to implement this!\n"
+"...     pass   # به یاد داشته باشید که این را پیاده سازی کنید!\n"
 "..."
 
 #: ../../tutorial/controlflow.rst:284
 #, fuzzy
 msgid ":keyword:`!match` Statements"
-msgstr "دستورات :keyword:`!match`"
+msgstr ":keyword:`!match` دستورات"
 
 #: ../../tutorial/controlflow.rst:286
 #, fuzzy
@@ -648,13 +657,12 @@ msgid ""
 "also extract components (sequence elements or object attributes) from the "
 "value into variables."
 msgstr ""
-"یک گزاره :keyword:`match` یک عبارت را گرفته و مقدار آن را با الگوهای متوالی "
-"که به صورت یک یا چند بلوک `case` ارائه شده اند مقایسه می کند. این از نظر "
-"ظاهری شبیه به گزاره `switch` در C، جاوا یا جاوااسکریپت (و بسیاری از زبان های"
-" دیگر) است، اما به تطابق الگو در زبان هایی مانند Rust یا Haskell شباهت "
-"بیشتری دارد. فقط اولین الگوی که مطابقت دارد اجرا می شود و همچنین می تواند "
-"مؤلفه هایی (عناصر توالی یا ویژگی های شی) را از مقدار استخراج کرده و به "
-"متغیرها اختصاص دهد."
+"یک دستور :keyword:`match` یک عبارت را می گیرد و مقدار آن را با الگوهای "
+"متوالی مقایسه می کند که به صورت یک یا چند بلوک case ارائه شده اند. این به "
+"طور سطحی شبیه به یک دستور switch در زبان های C، Java یا JavaScript (و بسیاری"
+" زبان های دیگر) است، اما بیشتر شبیه به تطابق الگو در زبان هایی مانند Rust یا"
+" Haskell است. فقط اولین الگویی که مطابقت دارد اجرا می شود و همچنین می تواند "
+"اجزا (عناصر دنباله یا ویژگی های شیء) را از مقدار درون متغیرها استخراج کند."
 
 #: ../../tutorial/controlflow.rst:294
 #, fuzzy
@@ -680,13 +688,13 @@ msgstr ""
 "def http_error(status):\n"
 "    match status:\n"
 "        case 400:\n"
-"            return \"Bad request\"\n"
+"            return \"درخواست نامعتبر\"\n"
 "        case 404:\n"
-"            return \"Not found\"\n"
+"            return \"یافت نشد\"\n"
 "        case 418:\n"
-"            return \"I'm a teapot\"\n"
+"            return \"من یک قوری هستم\"\n"
 "        case _:\n"
-"            return \"Something's wrong with the internet\""
+"            return \"مشکلی در اینترنت وجود دارد\""
 
 #: ../../tutorial/controlflow.rst:307
 #, fuzzy
@@ -694,16 +702,16 @@ msgid ""
 "Note the last block: the \"variable name\" ``_`` acts as a *wildcard* and "
 "never fails to match. If no case matches, none of the branches is executed."
 msgstr ""
-"به آخرین بلوک توجه کنید: \"نام متغیر\" ``_`` به عنوان یک *wildcard* عمل می "
-"کند و هرگز در تطابق شکست نمی خورد. اگر هیچ موردی تطابق نداشته باشد، هیچ یک "
-"از شاخه ها اجرا نمی شوند."
+"توجه داشته باشید که در آخرین بلوک: \"نام متغیر\" ``_`` به عنوان یک "
+"*wildcard* عمل می کند و هرگز در تطابق شکست نمی خورد. اگر هیچ موردی مطابقت "
+"نداشته باشد، هیچ کدام از شاخه ها اجرا نمی شوند."
 
 #: ../../tutorial/controlflow.rst:310
 #, fuzzy
 msgid ""
 "You can combine several literals in a single pattern using ``|`` (\"or\")::"
 msgstr ""
-"می توانید چندین مقدار ثابت را با استفاده از ``|`` (\"یا\") در یک الگوی واحد "
+"شما می توانید چندین مقدار مشخص را در یک الگو با استفاده از ``|`` (\"یا\") "
 "ترکیب کنید::"
 
 #: ../../tutorial/controlflow.rst:312
@@ -712,8 +720,8 @@ msgid ""
 "case 401 | 403 | 404:\n"
 "    return \"Not allowed\""
 msgstr ""
-"مورد 401 | 403 | 404:\n"
-"    بازگشت \"مجاز نیست\""
+"مورد ۴۰۱ | ۴۰۳ | ۴۰۴:\n"
+"    return \"اجازه داده نمی شود\""
 
 #: ../../tutorial/controlflow.rst:315
 #, fuzzy
@@ -721,8 +729,8 @@ msgid ""
 "Patterns can look like unpacking assignments, and can be used to bind "
 "variables::"
 msgstr ""
-"الگوها می توانند شبیه به تخصیص های باز کردن بسته ها باشند و می توانند برای "
-"بستن متغیرها استفاده شوند::"
+"الگوها می توانند شبیه به تخصیص های باز کردن باشند و می توانند برای بستن "
+"متغیرها استفاده شوند::"
 
 #: ../../tutorial/controlflow.rst:318
 #, fuzzy
@@ -740,7 +748,7 @@ msgid ""
 "    case _:\n"
 "        raise ValueError(\"Not a point\")"
 msgstr ""
-"# point is an (x, y) tuple\n"
+"# point یک زوج ترتیبی (x, y) است\n"
 "match point:\n"
 "    case (0, 0):\n"
 "        print(\"Origin\")\n"
@@ -763,11 +771,12 @@ msgid ""
 " which makes it conceptually similar to the unpacking assignment ``(x, y) = "
 "point``."
 msgstr ""
-"این مورد را به دقت مطالعه کنید! الگوی اول دارای دو مقدار ثابت است و می تواند"
-" به عنوان توسعه ای از الگوی ثابت نشان داده شده در بالا در نظر گرفته شود. اما"
-" دو الگوی بعدی یک مقدار ثابت و یک متغیر را ترکیب می کنند و متغیر *binds* "
-"مقداری از موضوع (``point``) می گیرد. الگوی چهارم دو مقدار را می گیرد که از "
-"نظر مفهومی شبیه تخصیص بازکردن ``(x, y) = point`` است."
+"به دقت این را مطالعه کنید! الگوی اول دو مقدار ثابت دارد و می توان آن را به "
+"عنوان یک گسترش از الگوی مقدار ثابت نشان داده شده در بالا در نظر گرفت. اما، "
+"دو الگوی بعدی یک مقدار ثابت و یک متغیر را ترکیب می کنند و متغیر *binds* یک "
+"مقدار از موضوع (``point``) را می گیرد. الگوی چهارم دو مقدار را ضبط می کند که"
+" این باعث می شود از نظر مفهومی به تخصیص بازکردن ``(x, y) = point`` شبیه "
+"باشد."
 
 #: ../../tutorial/controlflow.rst:338
 #, fuzzy
@@ -776,9 +785,9 @@ msgid ""
 "followed by an argument list resembling a constructor, but with the ability "
 "to capture attributes into variables::"
 msgstr ""
-"اگر از کلاس ها برای ساختاردهی داده های خود استفاده می کنید، می توانید از نام"
-" کلاس همراه با لیست آرگومان ها که شبیه به یک سازنده است استفاده کنید، اما با"
-" قابلیت ذخیره سازی ویژگی ها در متغیرها::"
+"اگر از کلاس ها برای ساختاردهی داده ها استفاده می کنید، می توانید از نام کلاس"
+" به همراه یک لیست از آرگومان ها استفاده کنید که شبیه به یک سازنده عمل می "
+"کند، اما با این قابلیت که ویژگی ها را در متغیرها ذخیره کنید::"
 
 #: ../../tutorial/controlflow.rst:342
 #, fuzzy
@@ -801,7 +810,7 @@ msgid ""
 "        case _:\n"
 "            print(\"Not a point\")"
 msgstr ""
-"class Point:\n"
+"کلاس Point:\n"
 "    def __init__(self, x, y):\n"
 "        self.x = x\n"
 "        self.y = y\n"
@@ -809,15 +818,15 @@ msgstr ""
 "def where_is(point):\n"
 "    match point:\n"
 "        case Point(x=0, y=0):\n"
-"            print(\"Origin\")\n"
+"            print(\"مبدا\")\n"
 "        case Point(x=0, y=y):\n"
 "            print(f\"Y={y}\")\n"
 "        case Point(x=x, y=0):\n"
 "            print(f\"X={x}\")\n"
 "        case Point():\n"
-"            print(\"Somewhere else\")\n"
+"            print(\"جای دیگری\")\n"
 "        case _:\n"
-"            print(\"Not a point\")"
+"            print(\"یک نقطه نیست\")"
 
 #: ../../tutorial/controlflow.rst:360
 #, fuzzy
@@ -829,12 +838,12 @@ msgid ""
 " \"y\"), the following patterns are all equivalent (and all bind the ``y`` "
 "attribute to the ``var`` variable)::"
 msgstr ""
-"شما می توانید از پارامترهای جایگاهی با برخی کلاس های داخلی که برای ویژگی "
-"هایشان ترتیب ارائه می دهند (مانند dataclasses) استفاده کنید. شما همچنین می "
-"توانید موقعیت خاصی برای ویژگی ها در الگوها تعیین کنید با تنظیم ویژگی خاص "
-"``__match_args__`` در کلاس های خود. اگر این ویژگی به صورت (\"x\", \"y\") "
-"تنظیم شود، الگوهای زیر همگی معادل هستند (و همه ویژگی ``y`` را به متغیر "
-"``var`` متصل می کنند)::"
+"شما می توانید از پارامترهای موقعیتی با برخی کلاس های داخلی که یک ترتیب دهی "
+"برای ویژگی هایشان ارائه می دهند (مانند dataclasses) استفاده کنید. شما همچنین"
+" می توانید موقعیت خاصی را برای ویژگی ها در الگوها با تنظیم ویژگی خاص "
+"``__match_args__`` در کلاس های خود تعریف کنید. اگر روی (\"x\", \"y\") تنظیم "
+"شود، الگوهای زیر همگی معادل هستند (و همگی ویژگی ``y`` را به متغیر ``var`` "
+"متصل می کنند):"
 
 #: ../../tutorial/controlflow.rst:366
 #, fuzzy
@@ -844,9 +853,9 @@ msgid ""
 "Point(x=1, y=var)\n"
 "Point(y=var, x=1)"
 msgstr ""
-"Point(1, var)\n"
-"Point(1, y=var)\n"
-"Point(x=1, y=var)\n"
+"Point(1, var)  \n"
+"Point(1, y=var)  \n"
+"Point(x=1, y=var)  \n"
 "Point(y=var, x=1)"
 
 #: ../../tutorial/controlflow.rst:371
@@ -860,13 +869,12 @@ msgid ""
 "(recognized by the \"(...)\" next to them like ``Point`` above) are never "
 "assigned to."
 msgstr ""
-"یک روش پیشنهادی برای خواندن الگوها این است که به آن ها به عنوان یک فرم گسترش"
-" یافته از چیزی که در سمت چپ یک انتساب قرار می دهید نگاه کنید، تا بفهمید کدام"
-" متغیرها به چه چیزی تنظیم خواهند شد. تنها نام های مستقل (مانند ``var`` در "
-"بالا) توسط یک عبارت مطابقت تخصیص داده می شوند. نام های نقطه دار (مانند "
-"``foo.bar``), نام های خصوصیت (``x=`` و ``y=`` در بالا) یا نام های کلاس (که "
-"با \"(...)\" در کنار آنها شناخته می شوند، مانند ``Point`` در بالا) هرگز "
-"تخصیص داده نمی شوند."
+"روش توصیه شده برای خواندن الگوها این است که به آنها به عنوان شکلی گسترش "
+"یافته از چیزی که در سمت چپ یک تخصیص قرار می دهید نگاه کنید، تا بفهمید کدام "
+"متغیرها به چه چیزی تنظیم می شوند. تنها نام های مستقل (مثل ``var`` بالا) توسط"
+" یک عبارت match تخصیص داده می شوند. نام های نقطه دار (مثل ``foo.bar``)، نام "
+"های ویژگی (``x=`` و ``y=`` بالا) یا نام های کلاس (که با \"(...)\" کنارشان "
+"شناخته می شوند مثل ``Point`` بالا) هرگز تخصیص داده نمی شوند."
 
 #: ../../tutorial/controlflow.rst:378
 #, fuzzy
@@ -874,9 +882,9 @@ msgid ""
 "Patterns can be arbitrarily nested.  For example, if we have a short list of"
 " Points, with ``__match_args__`` added, we could match it like this::"
 msgstr ""
-"الگوها می توانند به صورت دلخواه تو در تو باشند. برای مثال، اگر یک لیست کوتاه"
-" از نقاط داشته باشیم که ``__match_args__`` به آن اضافه شده باشد، می توانیم "
-"به این شکل آن را تطبیق دهیم::"
+"الگوها می توانند به صورت دلخواه تو در تو قرار گیرند. به عنوان مثال، اگر یک "
+"لیست کوتاه از Points داشته باشیم که ``__match_args__`` به آن اضافه شده باشد،"
+" می توانیم به این صورت آن را تطبیق دهیم::"
 
 #: ../../tutorial/controlflow.rst:381
 #, fuzzy
@@ -899,7 +907,7 @@ msgid ""
 "    case _:\n"
 "        print(\"Something else\")"
 msgstr ""
-"class Point:\n"
+"کلاس Point:\n"
 "    __match_args__ = ('x', 'y')\n"
 "    def __init__(self, x, y):\n"
 "        self.x = x\n"
@@ -907,15 +915,15 @@ msgstr ""
 "\n"
 "match points:\n"
 "    case []:\n"
-"        print(\"No points\")\n"
+"        print(\"هیچ نقطه ای نیست\")\n"
 "    case [Point(0, 0)]:\n"
-"        print(\"The origin\")\n"
+"        print(\"مبدا\")\n"
 "    case [Point(x, y)]:\n"
-"        print(f\"Single point {x}, {y}\")\n"
+"        print(f\"نقطه واحد {x}, {y}\")\n"
 "    case [Point(0, y1), Point(0, y2)]:\n"
-"        print(f\"Two on the Y axis at {y1}, {y2}\")\n"
+"        print(f\"دو نقطه روی محور Y در {y1}, {y2}\")\n"
 "    case _:\n"
-"        print(\"Something else\")"
+"        print(\"چیز دیگری\")"
 
 #: ../../tutorial/controlflow.rst:399
 #, fuzzy
@@ -924,10 +932,9 @@ msgid ""
 "guard is false, ``match`` goes on to try the next case block.  Note that "
 "value capture happens before the guard is evaluated::"
 msgstr ""
-"ما می توانیم به یک الگو یک عبارت ``if`` اضافه کنیم که به عنوان \"نگهبان\" "
-"شناخته می شود. اگر نگهبان نادرست باشد، ``match`` به تلاش برای بلوک مورد بعدی"
-" ادامه می دهد. توجه داشته باشید که دریافت مقدار قبل از ارزیابی نگهبان اتفاق "
-"می افتد::"
+"ما می توانیم یک بند ``if`` به یک الگو اضافه کنیم، که به عنوان \"محافظ\" "
+"شناخته می شود. اگر محافظ نادرست باشد، ``match`` به بلوک بعدی می رود. توجه "
+"داشته باشید که جذب مقدار قبل از ارزیابی محافظ رخ می دهد::"
 
 #: ../../tutorial/controlflow.rst:403
 #, fuzzy
@@ -938,7 +945,7 @@ msgid ""
 "    case Point(x, y):\n"
 "        print(f\"Not on the diagonal\")"
 msgstr ""
-"match point:\n"
+"انتخاب نقطه:\n"
 "    case Point(x, y) if x == y:\n"
 "        print(f\"Y=X at {x}\")\n"
 "    case Point(x, y):\n"
@@ -947,7 +954,7 @@ msgstr ""
 #: ../../tutorial/controlflow.rst:409
 #, fuzzy
 msgid "Several other key features of this statement:"
-msgstr "چند ویژگی کلیدی دیگر از این عبارت:"
+msgstr "چند ویژگی  کلیدی دیگر این عبارت:"
 
 #: ../../tutorial/controlflow.rst:411
 #, fuzzy
@@ -956,9 +963,9 @@ msgid ""
 "meaning and actually match arbitrary sequences.  An important exception is "
 "that they don't match iterators or strings."
 msgstr ""
-"الگوهای تاپل و لیست دقیقاً همان معنی تخصیص های بازگشایی را دارند و در واقع "
-"با توالی های دلخواه مطابقت دارند. یک استثنای مهم این است که با «iterator»ها "
-"یا رشته ها مطابقت ندارند."
+"مانند تخصیص های بازکردن بسته، الگوهای تاپل و لیست دقیقا همان معنا را دارند و"
+" در واقع با توالی های دلخواه تطابق دارند. یک استثنای مهم این است که آنها با "
+"iteratorها یا رشته ها مطابقت ندارند."
 
 #: ../../tutorial/controlflow.rst:415
 #, fuzzy
@@ -968,10 +975,10 @@ msgid ""
 "also be ``_``, so ``(x, y, *_)`` matches a sequence of at least two items "
 "without binding the remaining items."
 msgstr ""
-"الگوهای دنباله از باز کردن گسترده پشتیبانی می کنند: ``[x, y, *rest]`` و "
-"``(x, y, *rest)`` مشابه اختصاص های باز کردن عمل می کنند. نام پس از ``*`` نیز"
-" می تواند ``_`` باشد، بنابراین ``(x, y, *_)`` با دنباله ای که حداقل دو آیتم "
-"دارد، بدون اینکه آیتم های باقی مانده را مقید کند، مطابقت دارد."
+"الگوهای دنباله ای از باز کردن توسعه یافته پشتیبانی می کنند: ``[x, y, "
+"*rest]`` و ``(x, y, *rest)`` به صورت مشابه با اختصاص باز کردن کار می کنند. "
+"نام بعد از ``*`` ممکن است ``_`` باشد، بنابراین ``(x, y, *_)`` با دنباله ای "
+"از حداقل دو آیتم مطابقت دارد بدون اینکه آیتم ها ی باقی مانده را متصل کند."
 
 #: ../../tutorial/controlflow.rst:420
 #, fuzzy
@@ -983,19 +990,18 @@ msgid ""
 msgstr ""
 "الگوهای نگاشت: ``{\"bandwidth\": b, \"latency\": l}`` مقادیر "
 "``\"bandwidth\"`` و ``\"latency\"`` را از یک دیکشنری استخراج می کند. بر خلاف"
-" الگوهای ترتیبی، کلیدهای اضافی نادیده گرفته می شوند. یک استخراج مانند "
-"``**rest`` نیز پشتیبانی می شود. (اما ``**_`` اضافی خواهد بود, بنابراین مجاز "
-"نیست.)"
+" الگوهای دنباله ای، کلیدهای اضافی نادیده گرفته می شوند. مشابه ``**rest`` نیز"
+" پشتیبانی می شود. (اما ``**_`` زائد خواهد بود، بنابراین مجاز نیست.)"
 
 #: ../../tutorial/controlflow.rst:425
 #, fuzzy
 msgid "Subpatterns may be captured using the ``as`` keyword::"
-msgstr "زیر الگوها ممکن است با استفاده از کلیدواژه ``as`` ثبت شوند::"
+msgstr "می توان الگوهای جزئی را با استفاده از کلیدواژه ``as`` ضبط کرد::"
 
 #: ../../tutorial/controlflow.rst:427
 #, fuzzy
 msgid "case (Point(x1, y1), Point(x2, y2) as p2): ..."
-msgstr "در حالت (Point(x1, y1), Point(x2, y2) به عنوان p2): ..."
+msgstr "case (Point(x1, y1), Point(x2, y2) as p2): ..."
 
 #: ../../tutorial/controlflow.rst:429
 #, fuzzy
@@ -1003,7 +1009,7 @@ msgid ""
 "will capture the second element of the input as ``p2`` (as long as the input"
 " is a sequence of two points)"
 msgstr ""
-"عنصر دوم ورودی را به عنوان ``p2`` دریافت خواهد کرد (به شرطی که ورودی یک "
+"عنصر دوم ورودی را به عنوان ``p2`` در نظر می گیرد (تا زمانی که ورودی یک "
 "دنباله از دو نقطه باشد)"
 
 #: ../../tutorial/controlflow.rst:432
@@ -1012,8 +1018,8 @@ msgid ""
 "Most literals are compared by equality, however the singletons ``True``, "
 "``False`` and ``None`` are compared by identity."
 msgstr ""
-"بیشتر لیترال ها از طریق برابری مقایسه می شوند، اما سینگلتون های ``True``، "
-"``False`` و ``None`` از طریق هویت مقایسه می شوند."
+"بیشتر لیترال ها بر اساس برابری مقایسه می شوند، اما تک تایی ها ``True``، "
+"``False`` و ``None`` بر اساس هویت مقایسه می شوند."
 
 #: ../../tutorial/controlflow.rst:435
 #, fuzzy
@@ -1021,9 +1027,9 @@ msgid ""
 "Patterns may use named constants.  These must be dotted names to prevent "
 "them from being interpreted as capture variable::"
 msgstr ""
-"الگوها می توانند از ثابت های نام گذاری شده استفاده کنند. این نام ها باید به "
-"صورت نقطه گذاری شده باشند تا از تفسیر آن ها به عنوان متغیرهای دستگیر جلوگیری"
-" شود::"
+"الگوها ممکن است از ثابت های نام گذاری شده استفاده کنند. این ها باید به صورت "
+"نام های نقطه دار باشند تا از تفسیر آن ها به عنوان متغیر قابل ضبط جلوگیری "
+"شود::"
 
 #: ../../tutorial/controlflow.rst:438
 #, fuzzy
@@ -1044,21 +1050,21 @@ msgid ""
 "    case Color.BLUE:\n"
 "        print(\"I'm feeling the blues :(\")"
 msgstr ""
-"from enum import Enum\n"
-"class Color(Enum):\n"
+"از enum import Enum\n"
+"کلاس Color(Enum):\n"
 "    RED = 'red'\n"
 "    GREEN = 'green'\n"
 "    BLUE = 'blue'\n"
 "\n"
-"color = Color(input(\"Enter your choice of 'red', 'blue' or 'green': \"))\n"
+"color = Color(input(\"یکی از مقادیر 'red', 'blue' یا 'green' را وارد کنید: \"))\n"
 "\n"
 "match color:\n"
 "    case Color.RED:\n"
-"        print(\"I see red!\")\n"
+"        print(\"من قرمز می بینم!\")\n"
 "    case Color.GREEN:\n"
-"        print(\"Grass is green\")\n"
+"        print(\"چمن سبز است\")\n"
 "    case Color.BLUE:\n"
-"        print(\"I'm feeling the blues :(\")"
+"        print(\"احساس افسردگی می کنم :(\")"
 
 #: ../../tutorial/controlflow.rst:454
 #, fuzzy
@@ -1066,8 +1072,8 @@ msgid ""
 "For a more detailed explanation and additional examples, you can look into "
 ":pep:`636` which is written in a tutorial format."
 msgstr ""
-"برای توضیح کامل تر و مثال های اضافی، می توانید به :pep:`636` که به صورت "
-"آموزشی نوشته شده است، مراجعه کنید."
+"برای توضیح بیشتر و مثال های اضافی، می توانید به :pep:`636` که به صورت یک "
+"آموزش نوشته شده است، مراجعه کنید."
 
 #: ../../tutorial/controlflow.rst:460
 #, fuzzy
@@ -1097,15 +1103,15 @@ msgid ""
 ">>> fib(2000)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597"
 msgstr ""
-">>> def fib(n):    # نوشتن دنباله فیبوناچی کمتر از n\n"
-"...     \"\"\"چاپ دنباله فیبوناچی کمتر از n.\"\"\"\n"
+">>> def fib(n):    # نوشتن سری فیبوناچی کمتر از n\n"
+"...     \"\"\"سری فیبوناچی کمتر از n را چاپ کنید.\"\"\"\n"
 "...     a, b = 0, 1\n"
 "...     while a < n:\n"
 "...         print(a, end=' ')\n"
 "...         a, b = b, a+b\n"
 "...     print()\n"
 "...\n"
-">>> # حالا تابعی که تعریف کرده ایم را صدا می زنیم:\n"
+">>> # اکنون تابعی که تعریف کردیم را فراخوانی کنید:\n"
 ">>> fib(2000)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597"
 
@@ -1117,10 +1123,9 @@ msgid ""
 "parameters. The statements that form the body of the function start at the "
 "next line, and must be indented."
 msgstr ""
-"کلیدواژه :keyword:`def` یک تابع به نام *definition* معرفی می کند. این "
-"کلیدواژه باید با نام تابع و لیستی از پارامترهای رسمی که در پرانتز قرار "
-"دارند، دنبال شود. دستورات تشکیل دهنده بدنه تابع از خط بعد شروع می شوند و "
-"باید تورفتگی داشته باشند."
+"کلمه کلیدی :keyword:`def` یک تابع *definition* را معرفی می کند. این کلمه "
+"باید با نام تابع و لیست پرانتزی پارامترهای رسمی بیاید. دستوراتی که بدنه تابع"
+" را تشکیل می دهند باید در خط بعد شروع شوند و تورفتگی داشته باشند."
 
 #: ../../tutorial/controlflow.rst:487
 #, fuzzy
@@ -1133,13 +1138,13 @@ msgid ""
 "interactively browse through code; it's good practice to include docstrings "
 "in code that you write, so make a habit of it."
 msgstr ""
-"اولین دستور در بدنه تابع می تواند به انتخاب شما یک عبارت رشته ای باشد؛ این "
-"عبارت رشته ای، رشته مستندات تابع یا :dfn:`docstring` است. (اطلاعات بیشتر "
-"درباره docstring ها را می توانید در بخش :ref:`tut-docstrings` بیابید.) "
-"ابزارهایی وجود دارند که از docstring ها برای تولید خودکار مستندات آنلاین یا "
-"چاپی استفاده می کنند، یا به کاربر اجازه می دهند به صورت تعاملی به مرور کد "
-"بپردازند؛ بهتر است در کدی که می نویسید docstring ها را اضافه کنید و از آن به"
-" عنوان یک عادت استفاده نمایید."
+"اولین عبارت از بدنه تابع می تواند به صورت اختیاری یک رشته متنی باشد؛ این "
+"رشته متنی، رشته مستندات تابع یا :dfn:`docstring` نامیده می شود. (اطلاعات "
+"بیشتر درباره docstrings را می توانید در بخش :ref:`tut-docstrings` پیدا "
+"کنید.) ابزارهایی وجود دارند که از docstrings استفاده می کنند تا به صورت "
+"خودکار مستندات آنلاین یا چاپی تولید کنند یا به کاربر اجازه دهند تا به صورت "
+"تعاملی بین کد بگردد؛ بنابراین قراردادن docstrings در کدی که می نویسید، تمرین"
+" خوبی است و این کار را به صورت عادت انجام دهید."
 
 #: ../../tutorial/controlflow.rst:494
 #, fuzzy
@@ -1155,15 +1160,15 @@ msgid ""
 "for variables of enclosing functions, named in a :keyword:`nonlocal` "
 "statement), although they may be referenced."
 msgstr ""
-"*execution* یک تابع یک جدول نماد جدید برای متغیرهای محلی تابع معرفی می کند. "
-"به طور دقیق تر، تمامی انتساب های متغیر در یک تابع، مقدار را در جدول نماد "
-"محلی ذخیره می کنند؛ در حالی که ارجاعات متغیر ابتدا در جدول نماد محلی جستجو "
-"می شوند، سپس در جدول نماد محلی توابع محیطی، سپس در جدول نماد جهانی، و در "
-"نهایت در جدول نام های داخلی. بنابراین، متغیرهای جهانی و متغیرهای توابع محیطی"
-" نمی توانند به صورت مستقیم یک مقدار را در یک تابع دریافت کنند (مگر اینکه "
-"برای متغیرهای جهانی, در یک عبارت :keyword:`global` نام گذاری شده باشند, یا "
-"برای متغیرهای توابع محیطی, در یک عبارت :keyword:`nonlocal` نام گذاری شده "
-"باشند), اگرچه می توان به آنها ارجاع داد."
+"*execution* یک تابع یک جدول نماد جدید معرفی می کند که برای متغیرهای محلی "
+"تابع استفاده می شود. به طور دقیق تر، تمام انتساب های متغیر در یک تابع، مقدار"
+" را در جدول نماد محلی ذخیره می کنند؛ در حالی که مراجع متغیر ابتدا در جدول "
+"نماد محلی جستجو می شوند، سپس در جداول نماد محلی توابع محصورکننده، سپس در "
+"جدول نمادهای جهانی، و در نهایت در جدول نام های توکار. بنابراین، به متغیرهای "
+"جهانی و متغیرهای توابع محصورکننده نمی توان به طور مستقیم یک مقدار درون تابع "
+"اختصاص داد (مگر این که برای متغیرهای جهانی، در یک عبارت :keyword:`global` "
+"نام گذاری شوند، یا برای متغیرهای توابع محصورکننده، در یک عبارت "
+":keyword:`nonlocal` نام گذاری شوند)، هرچند ممکن است به آن ها اشاره شود."
 
 #: ../../tutorial/controlflow.rst:505
 #, fuzzy
@@ -1175,11 +1180,12 @@ msgid ""
 "another function, or calls itself recursively, a new local symbol table is "
 "created for that call."
 msgstr ""
-"پارامترهای واقعی (آرگومان ها) در یک فراخوانی تابع در جدول نمادهای محلی تابع "
-"فراخوانی شده معرفی می شوند؛ بنابراین، آرگومان ها به صورت *call by value* (که"
-" *value* همیشه یک شیء *reference* است, نه مقدار شیء) منتقل می شوند. [#]_ "
-"زمانی که تابعی، تابع دیگری را فراخوانی می کند یا به صورت بازگشتی خود را صدا "
-"می زند، یک جدول نماد محلی جدید برای آن فراخوانی ایجاد می شود."
+"پارامترهای واقعی (آرگومان ها) در یک فراخوانی تابع هنگام فراخوانی به جدول "
+"نماد محلی تابع فراخوانده شده معرفی می شوند؛ بنابراین، آرگومان ها با استفاده "
+"از *call by value* منتقل می شوند (که در آن *value* همیشه یک شیء *reference* "
+"است، نه مقدار شیء). [#]_ هنگامی که یک تابع، تابع دیگری را فرا می خواند یا "
+"خودش را به صورت بازگشتی فراخوانی می کند، یک جدول نماد محلی جدید برای آن "
+"فراخوانی ایجاد می شود."
 
 #: ../../tutorial/controlflow.rst:512
 #, fuzzy
@@ -1189,10 +1195,10 @@ msgid ""
 "to by that name as a user-defined function.  Other names can also point to "
 "that same function object and can also be used to access the function::"
 msgstr ""
-"تعریف یک تابع، نام تابع را با شیء تابع در جدول نمادهای جاری مرتبط می کند. "
-"مفسر، شیء اشاره شده توسط آن نام را به عنوان یک تابع تعریف شده توسط کاربر "
-"تشخیص می دهد. نام های دیگر نیز می توانند به همان شیء تابع اشاره کنند و برای "
-"دسترسی به تابع استفاده شوند::"
+"تعریف تابع، نام تابع را با شیء تابع در جدول نماد جاری مرتبط می کند. مفسر، "
+"شیء اشاره شده توسط آن نام را به عنوان یک تابع تعریف شده توسط کاربر شناسایی "
+"می کند. نام های دیگر نیز می توانند به همان شیء تابع اشاره کنند و می توانند "
+"برای دسترسی به تابع استفاده شوند:"
 
 #: ../../tutorial/controlflow.rst:517
 #, fuzzy
@@ -1220,13 +1226,13 @@ msgid ""
 "the only value written. You can see it if you really want to using "
 ":func:`print`::"
 msgstr ""
-"اگر از زبان های دیگر به Python آمده باشید، ممکن است بگویید که ``fib`` یک "
-"تابع نیست بلکه یک دستور است زیرا مقداری را برنمی گرداند. در واقع، حتی توابعی"
-" که دستور :keyword:`return` را ندارند هم مقداری را برمی گردانند، اگرچه یک "
-"مقدار کاملاً خسته کننده. این مقدار ``None`` نامیده می شود (این یک نام داخلی "
-"است). نوشتن مقدار ``None`` معمولاً توسط مفسر پنهان می شود اگر که تنها مقداری"
-" باشد که نوشته می شود. اگر بخواهید واقعاً آن را ببینید، می توانید از "
-":func:`print` استفاده کنید::"
+"هنگام انتقال از زبان های دیگر، ممکن است با این موضوع مخالفت کنید که ``fib`` "
+"یک تابع نیست بلکه یک رویه است زیرا مقداری بر نمی گرداند. در واقع، حتی توابعی"
+" که هیچ عبارت :keyword:`return` ندارند نیز مقداری بر می گردانند، اگرچه "
+"مقداری نسبتاً کسل کننده است. این مقدار ``None`` نامیده می شود (این یک نام "
+"داخلی است). نوشتن مقدار ``None`` معمولاً توسط مفسر زمانی که تنها مقدار نوشته"
+" شده باشد، نادیده گرفته می شود. اگر واقعاً بخواهید، می توانید با استفاده از "
+":func:`print` آن را ببینید."
 
 #: ../../tutorial/controlflow.rst:530
 #, fuzzy
@@ -1245,7 +1251,7 @@ msgid ""
 "It is simple to write a function that returns a list of the numbers of the "
 "Fibonacci series, instead of printing it::"
 msgstr ""
-"نوشتن یک تابع که به جای چاپ کردن، یک لیست از اعداد سری فیبوناچی را بازمی "
+"نوشتن یک تابع که به جای چاپ کردن، فهرستی از اعداد سری فیبوناچی را برمی "
 "گرداند، ساده است::"
 
 #: ../../tutorial/controlflow.rst:537
@@ -1264,23 +1270,23 @@ msgid ""
 ">>> f100                # write the result\n"
 "[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]"
 msgstr ""
-">>> def fib2(n):  # return Fibonacci series up to n\n"
-"...     \"\"\"Return a list containing the Fibonacci series up to n.\"\"\"\n"
+">>> def fib2(n):  # بازگرداندن سری فیبوناچی تا n\n"
+"...     \"\"\"بازگرداندن لیستی شامل سری فیبوناچی تا n.\"\"\"\n"
 "...     result = []\n"
 "...     a, b = 0, 1\n"
 "...     while a < n:\n"
-"...         result.append(a)    # see below\n"
+"...         result.append(a)    # به پایین نگاه کنید\n"
 "...         a, b = b, a+b\n"
 "...     return result\n"
 "...\n"
-">>> f100 = fib2(100)    # call it\n"
-">>> f100                # write the result\n"
+">>> f100 = fib2(100)    # صدا زدن آن\n"
+">>> f100                # نوشتن نتیجه\n"
 "[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]"
 
 #: ../../tutorial/controlflow.rst:550
 #, fuzzy
 msgid "This example, as usual, demonstrates some new Python features:"
-msgstr "این مثال، طبق معمول، برخی از ویژگی های جدید پایتون را نشان می دهد:"
+msgstr "این مثال، طبق معمول، برخی ویژگی های جدید Python را نمایش می دهد:"
 
 #: ../../tutorial/controlflow.rst:552
 #, fuzzy
@@ -1289,9 +1295,9 @@ msgid ""
 ":keyword:`!return` without an expression argument returns ``None``. Falling "
 "off the end of a function also returns ``None``."
 msgstr ""
-"دستور :keyword:`return` مقداری را از یک تابع بازمی گرداند. "
-":keyword:`!return` بدون آرگومان عبارت ``None`` را بازمی گرداند. با رسیدن به "
-"انتهای یک تابع نیز ``None`` بازگردانده می شود."
+"دستور :keyword:`return` یک مقدار از یک تابع برمی گرداند. :keyword:`!return` "
+"بدون یک آرگومان عبارت، ``None`` را برمی گرداند. یعنی خروج از انتهای تابع نیز"
+" ``None`` را برمی گرداند."
 
 #: ../../tutorial/controlflow.rst:556
 #, fuzzy
@@ -1308,16 +1314,16 @@ msgid ""
 "this example it is equivalent to ``result = result + [a]``, but more "
 "efficient."
 msgstr ""
-"دستور ``result.append(a)`` یک *method* از شی لیست ``result`` را فراخوانی می "
-"کند. یک متد، تابعی است که به یک شی 'تعلق' دارد و به صورت ``obj.methodname`` "
-"نامیده می شود، که در آن ``obj`` یک شی (که می تواند یک عبارت باشد) و "
-"``methodname`` نام متدی است که توسط نوع آن شی تعریف شده است. انواع مختلف، "
-"متدهای مختلفی را تعریف می کنند. متدهای انواع مختلف ممکن است نام یکسانی داشته"
-" باشند بدون این که ابهامی ایجاد کنند. (این امکان وجود دارد که نوع اشیا و "
-"متدهای خود را با استفاده از *classes* تعریف کنید, به :ref:`tut-classes` "
-"مراجعه کنید) متد :meth:`!append` که در مثال نشان داده شده برای اشیای لیست "
-"تعریف شده است؛ این متد یک عنصر جدید را به انتهای لیست اضافه می کند. در این "
-"مثال معادل ``result = result + [a]`` است، اما کارآمدتر."
+"عبارت ``result.append(a)`` یک *method* از شیء لیست ``result`` را فراخوانی می"
+" کند. متد یک تابع است که به یک شیء \"تعلق دارد\" و به نام ``obj.methodname``"
+" نامیده می شود، که در آن ``obj`` برخی اشیاء هستند (که ممکن است یک عبارت "
+"باشد) و ``methodname`` نام یک متد است که توسط نوع شیء تعریف می شود. انواع "
+"مختلف متدهای متفاوتی تعریف می کنند. متدهای انواع مختلف ممکن است نام مشابهی "
+"داشته باشند بدون اینکه باعث ابهام شوند. (این امکان وجود دارد که انواع اشیاء "
+"و متدهای خود را با استفاده از *classes* تعریف کنید، به :ref:`tut-classes` "
+"مراجعه کنید) متد :meth:`!append` که در مثال نشان داده شده است برای اشیاء "
+"لیست تعریف شده است؛ این متد یک عنصر جدید در انتهای لیست اضافه می کند. در این"
+" مثال معادل ``result = result + [a]`` است، اما کارآمدتر."
 
 #: ../../tutorial/controlflow.rst:571
 #, fuzzy
@@ -1330,13 +1336,13 @@ msgid ""
 "It is also possible to define functions with a variable number of arguments."
 " There are three forms, which can be combined."
 msgstr ""
-"همچنین تعریف توابع با تعداد متغیری از آرگومان ها ممکن است. سه فرم وجود دارد "
-"که می توان آن ها را با هم ترکیب کرد."
+"همچنین امکان تعریف توابع با تعداد متغیری از آرگومان ها وجود دارد. سه فرم "
+"وجود دارد که می توانند با هم ترکیب شوند."
 
 #: ../../tutorial/controlflow.rst:580
 #, fuzzy
 msgid "Default Argument Values"
-msgstr "مقادیر پیش فرض برای آرگومان ها"
+msgstr "مقادیر پیش فرض آرگومان ها"
 
 #: ../../tutorial/controlflow.rst:582
 #, fuzzy
@@ -1345,9 +1351,9 @@ msgid ""
 "arguments. This creates a function that can be called with fewer arguments "
 "than it is defined to allow.  For example::"
 msgstr ""
-"مفیدترین شکل این است که مقدار پیش فرضی برای یک یا چند آرگومان مشخص شود. این "
-"باعث می شود که یک تابع قابل فراخوانی با آرگومان های کمتر از آنچه که تعریف "
-"شده است باشد. برای مثال::"
+"مفیدترین حالت، مشخص کردن یک مقدار پیش فرض برای یک یا چند آرگومان است. این "
+"کار تابعی ایجاد می کند که می توان آن را با تعداد آرگومان های کمتری نسبت به "
+"آنچه که تعریف شده فراخوانی کرد. به عنوان مثال:"
 
 #: ../../tutorial/controlflow.rst:586
 #, fuzzy
@@ -1379,15 +1385,14 @@ msgstr ""
 #: ../../tutorial/controlflow.rst:598
 #, fuzzy
 msgid "This function can be called in several ways:"
-msgstr "این تابع می تواند به چندین روش فراخوانی شود:"
+msgstr "این تابع می تواند به روش های مختلفی فراخوانی شود:"
 
 #: ../../tutorial/controlflow.rst:600
 #, fuzzy
 msgid ""
 "giving only the mandatory argument: ``ask_ok('Do you really want to "
 "quit?')``"
-msgstr ""
-"تنها آرگومان اجباری داده شده: ``ask_ok('Do you really want to quit?')``"
+msgstr "فقط آرگومان اجباری را دادن: ``ask_ok('Do you really want to quit?')``"
 
 #: ../../tutorial/controlflow.rst:602
 #, fuzzy
@@ -1395,8 +1400,8 @@ msgid ""
 "giving one of the optional arguments: ``ask_ok('OK to overwrite the file?', "
 "2)``"
 msgstr ""
-"استفاده از یکی از آرگومان های اختیاری: ``ask_ok('OK to overwrite the file?',"
-" 2)``"
+"با ارائه یکی از آرگومان های اختیاری: ``ask_ok('OK to overwrite the file?', "
+"2)``"
 
 #: ../../tutorial/controlflow.rst:604
 #, fuzzy
@@ -1404,8 +1409,8 @@ msgid ""
 "or even giving all arguments: ``ask_ok('OK to overwrite the file?', 2, 'Come"
 " on, only yes or no!')``"
 msgstr ""
-"یا حتی با وارد کردن همه آرگومان ها: ``ask_ok('OK to overwrite the file?', 2,"
-" 'Come on, only yes or no!')``"
+"یا حتی با دادن تمام آرگومان ها: ``ask_ok('OK to overwrite the file?', 2, "
+"'Come on, only yes or no!')``"
 
 #: ../../tutorial/controlflow.rst:607
 #, fuzzy
@@ -1413,8 +1418,8 @@ msgid ""
 "This example also introduces the :keyword:`in` keyword. This tests whether "
 "or not a sequence contains a certain value."
 msgstr ""
-"این مثال همچنین کلمه کلیدی :keyword:`in` را معرفی می کند. این کلمه بررسی می "
-"کند که آیا یک دنباله شامل یک مقدار خاص است یا نه."
+"این مثال همچنین کلمه کلیدی :keyword:`in` را معرفی می کند. این مورد بررسی می "
+"کند که آیا یک دنباله شامل یک مقدار خاص است یا خیر."
 
 #: ../../tutorial/controlflow.rst:610
 #, fuzzy
@@ -1422,8 +1427,8 @@ msgid ""
 "The default values are evaluated at the point of function definition in the "
 "*defining* scope, so that ::"
 msgstr ""
-"مقادیر پیش فرض در لحظه تعریف تابع در دامنه *defining* ارزیابی می شوند، به "
-"طوری که::"
+"مقادیر پیش فرض در نقطه تعریف تابع در دامنه *defining* ارزیابی می شوند، به "
+"طوری که ::"
 
 #: ../../tutorial/controlflow.rst:613
 #, fuzzy
@@ -1457,10 +1462,10 @@ msgid ""
 "dictionary, or instances of most classes.  For example, the following "
 "function accumulates the arguments passed to it on subsequent calls::"
 msgstr ""
-"مقدار پیش فرض تنها یک بار ارزیابی می شود. این موضوع هنگامی که پیش فرض یک شیء"
-" قابل تغییر مانند یک لیست، دیکشنری، یا نمونه هایی از اکثر کلاس ها باشد، "
-"تفاوت ایجاد می کند. به عنوان مثال، تابع زیر آرگومان هایی که به آن ارسال شده "
-"اند را در فراخوانی های بعدی جمع آوری می کند::"
+"**Important warning:**  مقدار پیش فرض تنها یک بار ارزیابی می شود. این موضوع "
+"زمانی اهمیت پیدا می کند که مقدار پیش فرض یک شیء قابل تغییر مانند یک فهرست، "
+"فرهنگ، یا نمونه هایی از بیشتر کلاس ها باشد. برای مثال، تابع زیر، آرگومان "
+"هایی که در فراخوانی های بعدی به آن ارسال می شوند را جمع آوری می کند::"
 
 #: ../../tutorial/controlflow.rst:628
 #, fuzzy
@@ -1473,13 +1478,9 @@ msgid ""
 "print(f(2))\n"
 "print(f(3))"
 msgstr ""
-"def f(a, L=[]):\n"
-"    L.append(a)\n"
-"    return L\n"
+"تابع f دو آرگومان ورودی دریافت می کند: a و L که به طور پیش فرض یک لیست خالی است. درون تابع، مقدار a به لیست L اضافه می شود و سپس لیست L برگردانده می شود.\n"
 "\n"
-"print(f(1))\n"
-"print(f(2))\n"
-"print(f(3))"
+"در هنگام اجرای خط print(f(1))، مقدار 1 به لیست پیش فرض L اضافه می شود، بنابراین نتیجه [1] خواهد بود. در خط بعدی print(f(2))، مقدار 2 به همان لیست اضافه می شود که نتیجه [1, 2] خواهد بود. مشابه این روند در چاپ سوم باعث می شود نتیجه [1, 2, 3] باشد. دلیل این رفتار نگهداری وضعیت لیست L به عنوان یک پارامتر پیش فرض است که تنها یک بار ساخته می شود و در سراسر اجراهای تابع مشترک است."
 
 #: ../../tutorial/controlflow.rst:636
 #, fuzzy
@@ -1516,15 +1517,15 @@ msgid ""
 "    return L"
 msgstr ""
 "def f(a, L=None):\n"
-"    if L is None:\n"
+"    اگر L برابر None باشد:\n"
 "        L = []\n"
 "    L.append(a)\n"
-"    return L"
+"    بازگرداندن L"
 
 #: ../../tutorial/controlflow.rst:655
 #, fuzzy
 msgid "Keyword Arguments"
-msgstr "آرگومان های کلیدی"
+msgstr "آرگومان های کلیدواژه ای"
 
 #: ../../tutorial/controlflow.rst:657
 #, fuzzy
@@ -1533,8 +1534,8 @@ msgid ""
 "argument>` of the form ``kwarg=value``.  For instance, the following "
 "function::"
 msgstr ""
-"تابع ها می توانند با استفاده از :term:`keyword arguments <keyword argument>`"
-" به فرم ``kwarg=value`` نیز فراخوانی شوند. به عنوان مثال، تابع زیر::"
+"تابع ها همچنین می توانند با استفاده از :term:`keyword arguments <keyword "
+"argument>` به فرم ``kwarg=value`` فراخوانی شوند. برای مثال، تابع زیر::"
 
 #: ../../tutorial/controlflow.rst:660
 #, fuzzy
@@ -1546,10 +1547,10 @@ msgid ""
 "    print(\"-- It's\", state, \"!\")"
 msgstr ""
 "def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):\n"
-"    print(\"-- This parrot wouldn't\", action, end=' ')\n"
-"    print(\"if you put\", voltage, \"volts through it.\")\n"
-"    print(\"-- Lovely plumage, the\", type)\n"
-"    print(\"-- It's\", state, \"!\")"
+"    print(\"-- این طوطی نمی خواهد\", action, end=' ')\n"
+"    print(\"اگر شما\", voltage, \"ولت از آن عبور دهید.\")\n"
+"    print(\"-- پرهای زیبا،\", type)\n"
+"    print(\"-- این\", state, \"!\")"
 
 #: ../../tutorial/controlflow.rst:666
 #, fuzzy
@@ -1558,8 +1559,8 @@ msgid ""
 "(``state``, ``action``, and ``type``).  This function can be called in any "
 "of the following ways::"
 msgstr ""
-"یک آرگومان ضروری (``voltage``) و سه آرگومان اختیاری (``state``, ``action`` و"
-" ``type``) را می پذیرد. این تابع می تواند به هر یک از روش های زیر فراخوانی "
+"یک آرگومان اجباری (``voltage``) و سه آرگومان اختیاری (``state``، ``action`` "
+"و ``type``) را می پذیرد. این تابع می تواند به یکی از روش های زیر فراخوانی "
 "شود::"
 
 #: ../../tutorial/controlflow.rst:670
@@ -1572,12 +1573,12 @@ msgid ""
 "parrot('a million', 'bereft of life', 'jump')         # 3 positional arguments\n"
 "parrot('a thousand', state='pushing up the daisies')  # 1 positional, 1 keyword"
 msgstr ""
-"parrot(1000)                                          # 1 positional argument\n"
-"parrot(voltage=1000)                                  # 1 keyword argument\n"
-"parrot(voltage=1000000, action='VOOOOOM')             # 2 keyword arguments\n"
-"parrot(action='VOOOOOM', voltage=1000000)             # 2 keyword arguments\n"
-"parrot('a million', 'bereft of life', 'jump')         # 3 positional arguments\n"
-"parrot('a thousand', state='pushing up the daisies')  # 1 positional, 1 keyword"
+"parrot(1000)                                          # ١ آرگومان موقعیتی\n"
+"parrot(voltage=1000)                                  # ١ آرگومان کلیدی\n"
+"parrot(voltage=1000000, action='VOOOOOM')             # ٢ آرگومان کلیدی\n"
+"parrot(action='VOOOOOM', voltage=1000000)             # ٢ آرگومان کلیدی\n"
+"parrot('a million', 'bereft of life', 'jump')         # ٣ آرگومان موقعیتی\n"
+"parrot('a thousand', state='pushing up the daisies')  # ١ موقعیت، ١ کلیدی"
 
 #: ../../tutorial/controlflow.rst:677
 #, fuzzy
@@ -1592,9 +1593,9 @@ msgid ""
 "parrot(110, voltage=220)     # duplicate value for the same argument\n"
 "parrot(actor='John Cleese')  # unknown keyword argument"
 msgstr ""
-"parrot()                     # آرگومان مورد نیاز وارد نشده است\n"
+"parrot()                     # آرگومان ضروری وجود ندارد\n"
 "parrot(voltage=5.0, 'dead')  # آرگومان غیر کلیدی بعد از آرگومان کلیدی\n"
-"parrot(110, voltage=220)     # مقدار تکراری برای یک آرگومان\n"
+"parrot(110, voltage=220)     # مقدار تکراری برای همان آرگومان\n"
 "parrot(actor='John Cleese')  # آرگومان کلیدی ناشناخته"
 
 #: ../../tutorial/controlflow.rst:684
@@ -1608,13 +1609,13 @@ msgid ""
 " may receive a value more than once. Here's an example that fails due to "
 "this restriction::"
 msgstr ""
-"در یک فراخوانی تابع، آرگومان های کلیدی باید پس از آرگومان های موضعی بیایند. "
-"همه آرگومان های کلیدی که ارسال می شوند باید با یکی از آرگومان های پذیرفته "
-"شده توسط تابع مطابقت داشته باشند (برای مثال ``actor`` یک آرگومان معتبر برای "
-"تابع ``parrot`` نیست), و ترتیب آنها اهمیتی ندارد. این شامل آرگومان های غیر "
-"اختیاری نیز می باشد (برای مثال ``parrot(voltage=1000)`` هم معتبر است). هیچ "
-"آرگومانی نباید بیش از یک بار مقداری بگیرد. در اینجا مثالی آورده شده که به "
-"دلیل این محدودیت شکست می خورد::"
+"در یک فراخوانی تابع، آرگومان های کلیدی باید پس از آرگومان های موقعیتی "
+"بیایند. تمام آرگومان های کلیدی که ارسال می شوند باید با یکی از آرگومان هایی "
+"که تابع قبول می کند، مطابقت داشته باشند (به عنوان مثال ``actor`` آرگومان "
+"معتبری برای تابع ``parrot`` نیست)، و ترتیب آنها مهم نیست. این مورد شامل "
+"آرگومان های غیر اختیاری نیز می شود (به عنوان مثال ``parrot(voltage=1000)`` "
+"نیز معتبر است). هیچ آرگومانی نمی تواند بیش از یک بار مقدار بگیرد. در اینجا "
+"یک مثال آورده شده که به دلیل این محدودیت شکست می خورد:"
 
 #: ../../tutorial/controlflow.rst:692
 #, fuzzy
@@ -1646,13 +1647,13 @@ msgid ""
 "positional arguments beyond the formal parameter list.  (``*name`` must "
 "occur before ``**name``.) For example, if we define a function like this::"
 msgstr ""
-"وقتی یک پارامتر رسمی نهایی به فرم ``**name`` وجود دارد، یک دیکشنری (به "
-":ref:`typesmapping` مراجعه کنید) حاوی تمام آرگومان های کلیدواژه ای به جز آن "
-"هایی که به پارامتر رسمی مربوط می شوند، دریافت می کند. این می تواند با یک "
-"پارامتر رسمی به فرم ``*name`` ترکیب شود (در زیرشاخه بعدی توضیح داده می شود) "
-"که یک :ref:`tuple <tut-tuples>` شامل آرگومان های موقعیتی بیشتر از لیست "
-"پارامتر رسمی دریافت می کند. (``*name`` باید قبل از ``**name`` بیاید.) برای "
-"مثال، اگر ما یک تابع شبیه به این تعریف کنیم::"
+"هنگامی که یک پارامتر رسمی نهایی به صورت ``**name`` وجود دارد، یک دیکشنری (به"
+" :ref:`typesmapping` مراجعه کنید) دریافت می کند که شامل تمام آرگومان های "
+"کلیدواژه ای به جز آن هایی که با یک پارامتر رسمی مطابقت دارند، می باشد. این "
+"می تواند با یک پارامتر رسمی به شکل ``*name`` (که در زیر بخش بعدی توصیف شده "
+"است) که شامل یک :ref:`tuple <tut-tuples>` است که آرگومان های موقعیتی فراتر "
+"از لیست پارامترهای رسمی را دریافت می کند، ترکیب شود. (``*name`` باید قبل از "
+"``**name`` ظاهر شود.) به عنوان مثال، اگر ما تابعی به این صورت تعریف کنیم:"
 
 #: ../../tutorial/controlflow.rst:708
 #, fuzzy
@@ -1678,7 +1679,7 @@ msgstr ""
 #: ../../tutorial/controlflow.rst:717
 #, fuzzy
 msgid "It could be called like this::"
-msgstr "می توان این گونه آن را فراخوانی کرد::"
+msgstr "می تواند به این صورت فراخوانی شود::"
 
 #: ../../tutorial/controlflow.rst:719
 #, fuzzy
@@ -1689,8 +1690,8 @@ msgid ""
 "           client=\"John Cleese\",\n"
 "           sketch=\"Cheese Shop Sketch\")"
 msgstr ""
-"cheeseshop(\"Limburger\", \"It's very runny, sir.\",\n"
-"           \"It's really very, VERY runny, sir.\",\n"
+"cheeseshop(\"Limburger\", \"خیلی شُل است، قربان.\",\n"
+"           \"واقعا خیلی، بسیار شُل است، قربان.\",\n"
 "           shopkeeper=\"Michael Palin\",\n"
 "           client=\"John Cleese\",\n"
 "           sketch=\"Cheese Shop Sketch\")"
@@ -1698,7 +1699,7 @@ msgstr ""
 #: ../../tutorial/controlflow.rst:725
 #, fuzzy
 msgid "and of course it would print:"
-msgstr "و البته چاپ می کند:"
+msgstr "و البته چاپ خواهد کرد:"
 
 #: ../../tutorial/controlflow.rst:727
 #, fuzzy
@@ -1712,14 +1713,14 @@ msgid ""
 "client : John Cleese\n"
 "sketch : Cheese Shop Sketch"
 msgstr ""
-"-- آیا «لیمبورگر» دارید؟\n"
-"-- متاسفم، ما «لیمبورگر» تمام کرده ایم.\n"
-"بسیار شل است، آقا.\n"
-"واقعاً خیلی، خیلی شل است، آقا.\n"
+"-- آیا پنیر لیـمبـرگر دارین؟\n"
+"-- متأسفم، لیک همه لیـمبـرگر ما تمام شده\n"
+"خیلی نرم هست، آقا.\n"
+"واقعاً خیلی، خیلی نرم هست، آقا.\n"
 "----------------------------------------\n"
-"فروشنده : Michael Palin\n"
-"مشتری : John Cleese\n"
-"نمایشنامه : Cheese Shop Sketch"
+"مغازه دار: مایکل پَلین\n"
+"مشتری: جان کـلیز\n"
+"اسکچ: طرح پنیر فروشی"
 
 #: ../../tutorial/controlflow.rst:738
 #, fuzzy
@@ -1727,8 +1728,8 @@ msgid ""
 "Note that the order in which the keyword arguments are printed is guaranteed"
 " to match the order in which they were provided in the function call."
 msgstr ""
-"توجه داشته باشید که ترتیب چاپ آرگومان های کلیدی تضمین می شود که مطابق با "
-"ترتیب ارائه شان در فراخوانی تابع باشد."
+"توجه داشته باشید که ترتیب نمایش آرگومان های کلیدی، مطابق با ترتیبی که در "
+"فراخوانی تابع ارائه شده اند، تضمین می شود."
 
 #: ../../tutorial/controlflow.rst:742
 #, fuzzy
@@ -1744,16 +1745,16 @@ msgid ""
 " at the function definition to determine if items are passed by position, by"
 " position or keyword, or by keyword."
 msgstr ""
-"به طور پیش فرض، آرگومان ها ممکن است به یک تابع پایتون یا به صورت موقعیتی یا "
-"به صورت صریح با کلیدواژه ارسال شوند. برای خوانایی و عملکرد بهتر، منطقی است "
-"که نحوه ارسال آرگومان ها محدود شود تا توسعه دهنده فقط به تعریف تابع نگاه کند"
-" تا تعیین کند که آیتم ها به صورت موقعیتی، به صورت موقعیتی یا کلیدواژه، یا به"
-" صورت کلیدواژه ارسال شوند."
+"به طور پیش فرض، آرگومان ها می توانند به یک تابع پایتون به صورت موقعیتی یا به"
+" صورت صریح با استفاده از کلیدواژه ها ارسال شوند. برای افزایش خوانایی و "
+"کارایی، منطقی است که روش ارسال آرگومان ها را محدود کنیم تا یک توسعه دهنده "
+"فقط با نگاه کردن به تعریف تابع بتواند تشخیص دهد که آیتم ها به صورت موقعیتی، "
+"یا به صورت موقعیتی و کلیدواژه، یا به صورت کلیدواژه ارسال می شوند."
 
 #: ../../tutorial/controlflow.rst:750
 #, fuzzy
 msgid "A function definition may look like:"
-msgstr "تعریف یک تابع ممکن است به این شکل باشد:"
+msgstr "تعریف یک تابع ممکن است به صورت زیر باشد:"
 
 #: ../../tutorial/controlflow.rst:752
 #, fuzzy
@@ -1765,14 +1766,12 @@ msgid ""
 "        |                                - Keyword only\n"
 "         -- Positional only"
 msgstr ""
-"```python\n"
-"def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):\n"
+"تعریف f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):\n"
 "      -----------    ----------     ----------\n"
 "        |             |                  |\n"
-"        |        موقعیت یا کلمه کلیدی     |\n"
-"        |                                - فقط کلمه کلیدی\n"
-"         -- فقط موقعیت\n"
-"```"
+"        |        مکانی یا کلیدواژه ای   |\n"
+"        |                                - فقط کلیدواژه ای\n"
+"         -- فقط مکانی"
 
 #: ../../tutorial/controlflow.rst:761
 #, fuzzy
@@ -1782,15 +1781,15 @@ msgid ""
 "positional-only, positional-or-keyword, and keyword-only. Keyword parameters"
 " are also referred to as named parameters."
 msgstr ""
-"در جایی که ``/`` و ``*`` اختیاری هستند. اگر استفاده شوند، این نمادها نوع "
-"پارامتر را با نحوه ارسال آرگومان ها به تابع نشان می دهند: فقط-موقعیتی، "
-"موقعیتی-یا-کلیدواژه ای، و فقط-کلیدواژه ای. پارامترهای کلیدواژه ای به عنوان "
-"پارامترهای نام گذاری شده نیز شناخته می شوند."
+"که ``/`` و ``*`` اختیاری هستند. اگر استفاده شوند، این نمادها نوع پارامتر را "
+"با نحوه ای که آرگومان ها ممکن است به تابع منتقل شوند، نشان می دهند: فقط "
+"موقعیتی، موقعیتی یا کلیدواژه ای، و فقط کلیدواژه ای. پارامترهای کلیدواژه ای "
+"همچنین به عنوان پارامترهای نام گذاری شده شناخته می شوند."
 
 #: ../../tutorial/controlflow.rst:768
 #, fuzzy
 msgid "Positional-or-Keyword Arguments"
-msgstr "آرگومان های موقعیتی یا کلیدواژه ای"
+msgstr "آرگومان های موقعیتی-یا-کلیدواژه ای"
 
 #: ../../tutorial/controlflow.rst:770
 #, fuzzy
@@ -1798,8 +1797,8 @@ msgid ""
 "If ``/`` and ``*`` are not present in the function definition, arguments may"
 " be passed to a function by position or by keyword."
 msgstr ""
-"اگر ``/`` و ``*`` در تعریف تابع وجود نداشته باشند، آرگومان ها ممکن است به "
-"صورت موقعیتی یا با استفاده از کلمات کلیدی به تابع ارسال شوند."
+"اگر ``/`` و ``*`` در تعریف تابع حضور نداشته باشند، آرگومان ها ممکن است به "
+"صورت مکانی یا با استفاده از کلیدواژه به تابع ارسال شوند."
 
 #: ../../tutorial/controlflow.rst:775
 #, fuzzy
@@ -1817,12 +1816,13 @@ msgid ""
 "parameters. If there is no ``/`` in the function definition, there are no "
 "positional-only parameters."
 msgstr ""
-"با نگاه دقیق تر به این موضوع، امکان علامت گذاری پارامترهای خاصی به عنوان "
-"*positional-only* وجود دارد. در صورت *positional-only*، ترتیب پارامترها "
-"اهمیت دارد و پارامترها نمی توانند با استفاده از کلیدواژه ارسال شوند. "
-"پارامترهای فقط موضعی قبل از ``/`` (اسلش رو به جلو) قرار می گیرند. ``/`` برای"
-" جداسازی منطقی پارامترهای فقط موضعی از بقیه پارامترها استفاده می شود. اگر در"
-" تعریف تابع ``/`` وجود نداشته باشد، پارامترهای فقط موضعی وجود ندارند."
+"با بررسی دقیق تر این موضوع، می توان برخی از پارامترها را به عنوان "
+"*positional-only* علامت گذاری کرد. اگر *positional-only*، ترتیب پارامترها "
+"اهمیت دارد و پارامترها نمی توانند با استفاده از کلمات کلیدی ارسال شوند. "
+"پارامترهای فقط مکانی قبل از ``/`` (اسلش رو به جلو) قرار می گیرند. ``/`` برای"
+" جدا کردن منطقی پارامترهای فقط مکانی از بقیه پارامترها استفاده می شود. اگر "
+"در تعریف تابع ``/`` وجود نداشته باشد، پارامترهای فقط مکانی وجود نخواهند "
+"داشت."
 
 #: ../../tutorial/controlflow.rst:785
 #, fuzzy
@@ -1830,13 +1830,18 @@ msgid ""
 "Parameters following the ``/`` may be *positional-or-keyword* or *keyword-"
 "only*."
 msgstr ""
-"پارامترهایی که پس از ``/`` می آیند ممکن است *positional-or-keyword* یا "
+"پارامترهایی که پس از ``/`` می آیند می توانند *positional-or-keyword* یا "
 "*keyword-only* باشند."
 
 #: ../../tutorial/controlflow.rst:789
 #, fuzzy
 msgid "Keyword-Only Arguments"
-msgstr "آرگومان های فقط کلیدواژه ای"
+msgstr ""
+"استدلال های فقط کلیدواژه ای\n"
+"\n"
+"در پایتون، می توانید به توابع خود استدلال هایی اضافه کنید که تنها از طریق کلیدواژه ها قابل ارائه باشند. برای این کار، از علامت شناور * در تعریف تابع استفاده می شود. استدلال هایی که بعد از * می آیند، باید به عنوان استدلال های کلیدواژه ای ارائه شوند. \n"
+"\n"
+"این ویژگی می تواند خوانایی کد را افزایش داده و جلوگیری از اشتباه را تسهیل کند."
 
 #: ../../tutorial/controlflow.rst:791
 #, fuzzy
@@ -1845,14 +1850,14 @@ msgid ""
 "passed by keyword argument, place an ``*`` in the arguments list just before"
 " the first *keyword-only* parameter."
 msgstr ""
-"برای مشخص کردن پارامترها به عنوان *keyword-only*، که نشان دهنده این است که "
-"پارامترها باید به صورت آرگومان کلیدواژه ای ارسال شوند، یک ``*`` را در فهرست "
-"آرگومان ها دقیقاً قبل از اولین پارامتر *keyword-only* قرار دهید."
+"برای علامت گذاری پارامترها به عنوان *keyword-only*، که نشان دهنده ی این است "
+"که پارامترها باید با آرگومان کلیدواژه ای ارسال شوند، یک ``*`` را در لیست "
+"آرگومان ها درست قبل از اولین پارامتر *keyword-only* قرار دهید."
 
 #: ../../tutorial/controlflow.rst:797
 #, fuzzy
 msgid "Function Examples"
-msgstr "مثال های تابع"
+msgstr "نمونه های تابع"
 
 #: ../../tutorial/controlflow.rst:799
 #, fuzzy
@@ -1860,8 +1865,8 @@ msgid ""
 "Consider the following example function definitions paying close attention "
 "to the markers ``/`` and ``*``::"
 msgstr ""
-"نمونه تعریف های تابع زیر را با دقت به علامت های ``/`` و ``*`` در نظر "
-"بگیرید::"
+"مثال های زیر را که شامل تعریف توابع هستند بررسی کنید و به علامت های ``/`` و "
+"``*`` دقت کنید::"
 
 #: ../../tutorial/controlflow.rst:802
 #, fuzzy
@@ -1897,9 +1902,9 @@ msgid ""
 "places no restrictions on the calling convention and arguments may be passed"
 " by position or keyword::"
 msgstr ""
-"تعریف اولین تابع، ``standard_arg``، به صورت معمول ترین فرم، هیچ محدودیتی در "
-"روش فراخوانی ندارد و آرگومان ها می توانند با استفاده از موقعیت یا کلمه کلیدی"
-" ارسال شوند::"
+"تعریف اولین تابع، ``standard_arg``، که آشناترین فرم است، هیچ محدودیتی بر روی"
+" نحوه فراخوانی ندارد و آرگومان ها می توانند به صورت موقعیت یا کلیدواژه ای "
+"ارسال شوند:"
 
 #: ../../tutorial/controlflow.rst:819
 #, fuzzy
@@ -1922,8 +1927,8 @@ msgid ""
 "The second function ``pos_only_arg`` is restricted to only use positional "
 "parameters as there is a ``/`` in the function definition::"
 msgstr ""
-"تابع دوم ``pos_only_arg`` محدود به استفاده از پارامترهای موقعیتی است زیرا یک"
-" ``/`` در تعریف تابع وجود دارد::"
+"تابع دوم ``pos_only_arg`` محدود به استفاده تنها از پارامترهای موقعیتی است "
+"زیرا یک ``/`` در تعریف تابع قرار دارد::"
 
 #: ../../tutorial/controlflow.rst:828
 #, fuzzy
@@ -1940,9 +1945,9 @@ msgstr ""
 "1\n"
 "\n"
 ">>> pos_only_arg(arg=1)\n"
-"ردیابی اخیر (آخرین تماس اخیر):\n"
-"  فایل \"<stdin>\", خط 1، در <module>\n"
-"TypeError: pos_only_arg() تعدادی آرگومان فقط-مکانی به عنوان آرگومان کلیدواژه ای دریافت کرد: 'arg'"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"TypeError: pos_only_arg() got some positional-only arguments passed as keyword arguments: 'arg'"
 
 #: ../../tutorial/controlflow.rst:836
 #, fuzzy
@@ -1950,8 +1955,8 @@ msgid ""
 "The third function ``kwd_only_arg`` only allows keyword arguments as "
 "indicated by a ``*`` in the function definition::"
 msgstr ""
-"تابع سوم ``kwd_only_arg`` تنها اجازه استفاده از آرگومان های کلیدی را می دهد "
-"همانطور که توسط ``*`` در تعریف تابع نشان داده می شود::"
+"تابع سوم ``kwd_only_arg`` تنها آرگومان های کلیدواژه ای را می پذیرد، همان طور"
+" که با یک ``*`` در تعریف تابع نشان داده شده است::"
 
 #: ../../tutorial/controlflow.rst:839
 #, fuzzy
@@ -1970,14 +1975,15 @@ msgstr ""
 "TypeError: kwd_only_arg() takes 0 positional arguments but 1 was given\n"
 "\n"
 ">>> kwd_only_arg(arg=3)\n"
-"3\n"
+"3"
 
 #: ../../tutorial/controlflow.rst:847
 #, fuzzy
 msgid ""
 "And the last uses all three calling conventions in the same function "
 "definition::"
-msgstr "و در نهایت از هر سه روش فراخوانی در همان تعریف تابع استفاده می کند::"
+msgstr ""
+"و در آخر، هر سه قرارداد فراخوانی را در همان تعریف تابع استفاده می کند::"
 
 #: ../../tutorial/controlflow.rst:850
 #, fuzzy
@@ -1999,9 +2005,9 @@ msgid ""
 "TypeError: combined_example() got some positional-only arguments passed as keyword arguments: 'pos_only'"
 msgstr ""
 ">>> combined_example(1, 2, 3)\n"
-"دنباله ی ردگیری اخیر (آخر):\n"
-"  File \"<stdin>\", خط 1، در <module>\n"
-"TypeError: تابع `combined_example()` به جای ۳ آرگومان، تنها ۲ آرگومان موقعیتی دریافت می کند.\n"
+"دنباله خطا (آخرین تماس اخیر):\n"
+"  پرونده \"<stdin>\", خط 1، در <module>\n"
+"TypeError: combined_example() تعداد 2 آرگومان مکانی لازم دارد ولی 3 داده شده اند\n"
 "\n"
 ">>> combined_example(1, 2, kwd_only=3)\n"
 "1 2 3\n"
@@ -2010,9 +2016,9 @@ msgstr ""
 "1 2 3\n"
 "\n"
 ">>> combined_example(pos_only=1, standard=2, kwd_only=3)\n"
-"دنباله ی ردگیری اخیر (آخر):\n"
-"  File \"<stdin>\", خط 1، در <module>\n"
-"TypeError: تابع `combined_example()` بعضی آرگومان های تنها-موقعیت را به صورت آرگومان کلیدواژه ای دریافت کرده است: 'pos_only'"
+"دنباله خطا (آخرین تماس اخیر):\n"
+"  پرونده \"<stdin>\", خط 1، در <module>\n"
+"TypeError: combined_example() برخی از آرگومان های فقط مکان دریافت کرده است که به صورت آرگومان های کلمه کلیدی ارسال شده اند: 'pos_only'"
 
 #: ../../tutorial/controlflow.rst:867
 #, fuzzy
@@ -2021,8 +2027,8 @@ msgid ""
 "between the positional argument ``name``  and ``**kwds`` which has ``name`` "
 "as a key::"
 msgstr ""
-"در نهایت، به این تعریف تابع که دارای یک برخورد احتمالی بین آرگومان موقعیتی "
-"``name`` و ``**kwds`` که ``name`` را به عنوان کلید دارد، توجه کنید::"
+"در نهایت، به این تعریف تابع توجه کنید که دارای یک برخورد احتمالی بین آرگومان"
+" موقعیتی ``name`` و ``**kwds`` است که ``name`` را به عنوان یک کلید دارد::"
 
 #: ../../tutorial/controlflow.rst:869
 #, fuzzy
@@ -2030,8 +2036,10 @@ msgid ""
 "def foo(name, **kwds):\n"
 "    return 'name' in kwds"
 msgstr ""
+"```python\n"
 "def foo(name, **kwds):\n"
-"    return 'name' in kwds"
+"    return 'name' in kwds\n"
+"```"
 
 #: ../../tutorial/controlflow.rst:872
 #, fuzzy
@@ -2039,8 +2047,8 @@ msgid ""
 "There is no possible call that will make it return ``True`` as the keyword "
 "``'name'`` will always bind to the first parameter. For example::"
 msgstr ""
-"هیچ فراخوانی وجود ندارد که موجب بازگشت ``True`` شود زیرا کلیدواژه ``'name'``"
-" همیشه به اولین پارامتر متصل خواهد شد. برای مثال::"
+"هیچ فراخوانی ممکن نیست که باعث شود ``True`` برگردد زیرا کلیدواژه ``'name'`` "
+"همیشه به اولین پارامتر متصل می شود. برای مثال::"
 
 #: ../../tutorial/controlflow.rst:875
 #, fuzzy
@@ -2052,9 +2060,9 @@ msgid ""
 ">>>"
 msgstr ""
 ">>> foo(1, **{'name': 2})\n"
-"دریابی خطا (اخیراً آخرین تماس):\n"
-"  فایل \"<stdin>\", خط 1، در <module>\n"
-"TypeError: تابع foo() مقادیر متعددی برای آرگومان 'name' دریافت کرده است\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"TypeError: foo() got multiple values for argument 'name'\n"
 ">>>"
 
 #: ../../tutorial/controlflow.rst:881
@@ -2064,9 +2072,9 @@ msgid ""
 "``name`` as a positional argument and ``'name'`` as a key in the keyword "
 "arguments::"
 msgstr ""
-"اما با استفاده از ``/`` (آرگومان های تنها مکانی), این امکان وجود دارد زیرا "
-"``name`` را به عنوان یک آرگومان مکانی و ``'name'`` را به عنوان یک کلید در "
-"آرگومان های کلیدواژه ای مجاز می کند::"
+"اما با استفاده از ``/`` (آرگومان های فقط مکانی)، این امکان وجود دارد زیرا به"
+" ``name`` به عنوان یک آرگومان مکانی و ``'name'`` به عنوان یک کلید در آرگومان"
+" های کلیدواژه ای اجازه می دهد::"
 
 #: ../../tutorial/controlflow.rst:883
 #, fuzzy
@@ -2081,7 +2089,7 @@ msgstr ""
 "...     return 'name' in kwds\n"
 "...\n"
 ">>> foo(1, **{'name': 2})\n"
-"True"
+"درست"
 
 #: ../../tutorial/controlflow.rst:889
 #, fuzzy
@@ -2089,8 +2097,8 @@ msgid ""
 "In other words, the names of positional-only parameters can be used in "
 "``**kwds`` without ambiguity."
 msgstr ""
-"به عبارت دیگر، نام های پارامترهای فقط موقعیتی را می توان در ``**kwds`` بدون "
-"ابهام استفاده کرد."
+"به عبارت دیگر، نام پارامترهای فقط-موضعی می تواند در ``**kwds`` بدون ابهام "
+"استفاده شود."
 
 #: ../../tutorial/controlflow.rst:894
 #, fuzzy
@@ -2103,29 +2111,18 @@ msgid ""
 "The use case will determine which parameters to use in the function "
 "definition::"
 msgstr ""
-"مورد استفاده تعیین خواهد کرد که کدام پارامترها را در تعریف تابع مورد استفاده"
-" قرار دهید::"
+"موارد استفاده تعیین می کنند که از کدام پارامترها در تعریف تابع استفاده شود:"
 
 #: ../../tutorial/controlflow.rst:898
 #, fuzzy
 msgid "def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):"
 msgstr ""
-"تعریف یک تابع می تواند شامل انواع مختلفی از آرگومان ها باشد. در تابعی که در زیر تعریف شده، از چهار نوع آرگومان استفاده شده است:\n"
-"\n"
-"1. \"positional-only\" آرگومان ها: `pos1` و `pos2` آرگومان هایی هستند که تنها می توان آن ها را با استفاده از موقعیت آن ها فراخوانی کرد.\n"
-"\n"
-"2. ترکیبی از \"positional\" و \"keyword\" آرگومان: `pos_or_kwd` را می توان به صورت موقعیتی یا به عنوان کلیدواژه فراخوانی کرد.\n"
-"\n"
-"3. \"keyword-only\" آرگومان ها: `kwd1` و `kwd2` فقط می توانند با کلیدواژه نام گذاری شوند.\n"
-"\n"
-"استفاده از خط های مورب `/` و `*` به طور خاص برای مشخص کردن نوع آرگومان ها به کار می رود. تابعی که مشاهده می کنید ممکن است به عنوان مثال برای نشان دادن این مفهوم به کار رود::\n"
-"\n"
-"def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):"
+"تابع f دارای پارامترهای pos1, pos2، /، pos_or_kwd، *، kwd1 و kwd2 است."
 
 #: ../../tutorial/controlflow.rst:900
 #, fuzzy
 msgid "As guidance:"
-msgstr "به عنوان راهنما:"
+msgstr "به عنوان راهنمایی:"
 
 #: ../../tutorial/controlflow.rst:902
 #, fuzzy
@@ -2136,10 +2133,10 @@ msgid ""
 " is called or if you need to take some positional parameters and arbitrary "
 "keywords."
 msgstr ""
-"از پارامترهای تنها موقعیتی استفاده کنید اگر می خواهید نام پارامترها برای "
-"کاربر قابل دسترسی نباشد. این روش زمانی مفید است که نام های پارامترها معنای "
-"خاصی ندارند، اگر می خواهید ترتیب آرگومان ها را هنگام فراخوانی تابع تحمیل "
-"کنید یا اگر نیاز دارید تعدادی پارامتر موقعیتی و کلمات کلیدی دلخواه بگیرید."
+"از پارامترهای فقط-مکانی استفاده کنید اگر می خواهید نام پارامترها برای کاربر "
+"در دسترس نباشد. این مورد زمانی مفید است که نام پارامتر معنی خاصی ندارد، اگر "
+"می خواهید ترتیب آرگومان ها به هنگام فراخوانی تابع رعایت شود یا اگر نیاز "
+"دارید تعدادی پارامتر مکانی و کلیدواژه های دلخواه را بپذیرید."
 
 #: ../../tutorial/controlflow.rst:907
 #, fuzzy
@@ -2148,9 +2145,9 @@ msgid ""
 " understandable by being explicit with names or you want to prevent users "
 "relying on the position of the argument being passed."
 msgstr ""
-"از کلمه کلیدی when استفاده کنید زمانی که نام ها معنا دارند و تعریف تابع با "
-"صراحت بیشتری از طریق نام ها قابل درک است یا می خواهید از تکیه کاربران بر "
-"موقعیت آرگومان هایی که ارسال می شوند جلوگیری کنید."
+"از کلیدواژه فقط زمانی استفاده کنید که نام ها دارای معنا هستند و تعریف تابع "
+"با واضح کردن نام ها قابل فهم تر می شود یا می خواهید از وابستگی کاربران به "
+"موقعیت استدلالی که ارجاع می شود جلوگیری کنید."
 
 #: ../../tutorial/controlflow.rst:910
 #, fuzzy
@@ -2158,13 +2155,13 @@ msgid ""
 "For an API, use positional-only to prevent breaking API changes if the "
 "parameter's name is modified in the future."
 msgstr ""
-"برای یک API، از پارامترهای فقط-موضعی استفاده کنید تا از ایجاد تغییرات مخرب "
-"در API در صورت تغییر نام پارامتر در آینده جلوگیری کنید."
+"برای یک API، از فقط موقعیتی استفاده کنید تا از ایجاد تغییرات شکستی در API "
+"جلوگیری کنید اگر نام پارامتر در آینده تغییر کند."
 
 #: ../../tutorial/controlflow.rst:916
 #, fuzzy
 msgid "Arbitrary Argument Lists"
-msgstr "فهرست های آرگومان دلخواه"
+msgstr "لیست های آرگومان دلخواه"
 
 #: ../../tutorial/controlflow.rst:921
 #, fuzzy
@@ -2175,9 +2172,9 @@ msgid ""
 "of arguments, zero or more normal arguments may occur. ::"
 msgstr ""
 "در نهایت، کمترین گزینه مورد استفاده این است که مشخص کنید یک تابع می تواند با"
-" تعداد دلخواهی از آرگومان ها فراخوانی شود. این آرگومان ها در یک `tuple` بسته"
-" بندی می شوند (به :ref:`tut-tuples` مراجعه کنید). قبل از آرگومان های متغیر، "
-"ممکن است صفر یا بیشتر آرگومان های عادی رخ دهند. ::"
+" تعداد نامشخصی از آرگومان ها فراخوانی شود. این آرگومان ها در یک تاپل قرار "
+"خواهند گرفت (به :ref:`tut-tuples` مراجعه کنید). قبل از آرگومان های با تعداد "
+"متغیر، ممکن است هیچ یا چند آرگومان عادی نیز وجود داشته باشد."
 
 #: ../../tutorial/controlflow.rst:926
 #, fuzzy
@@ -2185,6 +2182,7 @@ msgid ""
 "def write_multiple_items(file, separator, *args):\n"
 "    file.write(separator.join(args))"
 msgstr ""
+"\n"
 "def write_multiple_items(file, separator, *args):\n"
 "    file.write(separator.join(args))"
 
@@ -2197,11 +2195,11 @@ msgid ""
 "``*args`` parameter are 'keyword-only' arguments, meaning that they can only"
 " be used as keywords rather than positional arguments. ::"
 msgstr ""
-"به طور معمول، این آرگومان های *variadic* در انتهای لیست پارامترهای رسمی قرار"
-" می گیرند، زیرا تمامی آرگومان های ورودی باقی مانده که به تابع ارسال می شوند "
-"را جمع آوری می کنند. هر پارامتر رسمی که بعد از پارامتر ``*args`` قرار گیرد "
-"به عنوان آرگومان های 'فقط-کلید واژه' تلقی می شود، به این معنا که تنها می "
-"توانند به صورت کلید واژه ای استفاده شوند و نه به شکل آرگومان  مکانی. ::"
+"معمولاً، این آرگومان های *variadic* در انتهای لیست پارامترهای رسمی قرار می "
+"گیرند، زیرا همه آرگومان های ورودی باقیمانده که به تابع ارسال می شوند را در "
+"بر می گیرند. هر پارامتر رسمی که بعد از پارامتر ``*args`` قرار گیرد، آرگومان "
+"«فقط کلیدی» شناخته می شود، که به این معنی است که آن ها فقط می توانند به صورت"
+" کلیدواژه ها استفاده شوند و نه به عنوان آرگومان موقعیتی. ::"
 
 #: ../../tutorial/controlflow.rst:936
 #, fuzzy
@@ -2225,23 +2223,7 @@ msgstr ""
 #: ../../tutorial/controlflow.rst:947
 #, fuzzy
 msgid "Unpacking Argument Lists"
-msgstr ""
-"باز کردن لیست آرگومان ها\n"
-"\n"
-"در مواردی که توابع زیادی از نیازی به استفاده می شود، از توانایی بسته بندی و باز کردن لیست آرگومان ها استفاده شود که می تواند بسیار مفید باشد. برای مثال، تابع `range()` تابعی است که انتظار دارد آرگومان هایش جداگانه و به عنوان پارامترهای مستقل فرستاده شوند::\n"
-"\n"
-"```python\n"
-">>> list(range(3, 6))    # معمولی\n"
-"[3, 4, 5]\n"
-"```\n"
-"\n"
-"اگر لیستی از آرگومان ها وجود داشته باشد، می توان از عملگر `*` برای باز کردن لیست به داخل آرگومان های جداگانه استفاده کرد::\n"
-"\n"
-"```python\n"
-">>> args = [3, 6]\n"
-">>> list(range(*args)) # بازکردن لیست به آرگومان های منفرد\n"
-"[3, 4, 5]\n"
-"```"
+msgstr "باز کردن لیست آرگومان ها"
 
 #: ../../tutorial/controlflow.rst:949
 #, fuzzy
@@ -2253,12 +2235,12 @@ msgid ""
 "separately, write the function call with the  ``*``\\ -operator to unpack "
 "the arguments out of a list or tuple::"
 msgstr ""
-"وضعیت معکوس زمانی رخ می دهد که آرگومان ها به صورت یک لیست یا تاپل هستند، اما"
-" لازم است برای فراخوانی تابعی که به آرگومان های موقعیتی جداگانه نیاز دارد، "
-"آن ها باز شوند. برای مثال، تابع داخلی :func:`range` انتظار دارد که آرگومان "
-"های *start* و *stop* به صورت جداگانه ارائه شوند. اگر آن ها به صورت جداگانه "
-"موجود نباشند، فراخوانی تابع را با عملگر ``*``\\ برای باز کردن آرگومان ها از "
-"یک لیست یا تاپل بنویسید::"
+"وضعیت معکوس زمانی اتفاق می افتد که آرگومان ها در یک لیست یا تاپل هستند اما "
+"نیاز به جداسازی برای یک فراخوانی تابع که به آرگومان های موقعیتی جداگانه نیاز"
+" دارد، دارند. به عنوان مثال، تابع ساخته شده :func:`range` انتظار آرگومان های"
+" *start* و *stop* جداگانه را دارد. اگر آنها به صورت جداگانه در دسترس نباشند،"
+" فراخوانی تابع را با استفاده از عملگر ``*``\\ بنویسید تا آرگومان ها از یک "
+"لیست یا تاپل جدا شوند:"
 
 #: ../../tutorial/controlflow.rst:956
 #, fuzzy
@@ -2269,10 +2251,10 @@ msgid ""
 ">>> list(range(*args))            # call with arguments unpacked from a list\n"
 "[3, 4, 5]"
 msgstr ""
-">>> list(range(3, 6))            # normal call with separate arguments\n"
+">>> list(range(3, 6))            # فراخوانی عادی با آرگومان های جداگانه\n"
 "[3, 4, 5]\n"
 ">>> args = [3, 6]\n"
-">>> list(range(*args))            # call with arguments unpacked from a list\n"
+">>> list(range(*args))            # فراخوانی با باز کردن آرگومان ها از یک لیست\n"
 "[3, 4, 5]"
 
 #: ../../tutorial/controlflow.rst:965
@@ -2281,8 +2263,8 @@ msgid ""
 "In the same fashion, dictionaries can deliver keyword arguments with the "
 "``**``\\ -operator::"
 msgstr ""
-"به همین ترتیب، دیکشنری ها می توانند آرگومان های کلیدی را با عملگر ``**``\\ "
-"ارائه دهند::"
+"به همان شکل، دیکشنری ها می توانند آرگومان های کلیدواژه ای را با عملگر "
+"``**``\\ ارائه دهند::"
 
 #: ../../tutorial/controlflow.rst:968
 #, fuzzy
@@ -2297,18 +2279,18 @@ msgid ""
 "-- This parrot wouldn't VOOM if you put four million volts through it. E's bleedin' demised !"
 msgstr ""
 ">>> def parrot(voltage, state='a stiff', action='voom'):\n"
-"...     print(\"-- این طوطی نمی خواهد\", action, end=' ')\n"
-"...     print(\"اگر شما\", voltage, \"ولت از آن عبور دهید.\", end=' ')\n"
+"...     print(\"-- این طوطی\", action, end=' ')\n"
+"...     print(\"نخواهد کرد اگر\", voltage, \"ولت از آن عبور دهید.\", end=' ')\n"
 "...     print(\"او\", state, \"است!\")\n"
 "...\n"
-">>> d = {\"voltage\": \"چهار میلیون\", \"state\": \"مرده و بی حرکت\", \"action\": \"VOOM\"}\n"
+">>> d = {\"voltage\": \"چهار میلیون\", \"state\": \"کاملاً مرده\", \"action\": \"حرکت\"}\n"
 ">>> parrot(**d)\n"
-"-- این طوطی نمی خواهد VOOM اگر شما چهار میلیون ولت از آن عبور دهید. او مرده و بی حرکت است!"
+"-- این طوطی حرکت نخواهد کرد اگر چهار میلیون ولت از آن عبور دهید. او کاملاً مرده است!"
 
 #: ../../tutorial/controlflow.rst:981
 #, fuzzy
 msgid "Lambda Expressions"
-msgstr "عبارات لمبدا"
+msgstr "عبارات لامبدا"
 
 #: ../../tutorial/controlflow.rst:983
 #, fuzzy
@@ -2321,12 +2303,13 @@ msgid ""
 "function definitions, lambda functions can reference variables from the "
 "containing scope::"
 msgstr ""
-"تابع های ناشناس کوچک را می توان با کلمه کلیدی :keyword:`lambda` ایجاد کرد. "
-"این تابع جمع دو آرگومان خود را برمی گرداند: ``lambda a, b: a+b``. تابع های "
-"لامبدا را می توان در هر جایی که اشیاء تابع مورد نیاز باشند استفاده کرد. این "
-"تابع ها به لحاظ نحوی به یک عبارت واحد محدود می شوند. از نظر معنایی، آنها فقط"
-" یک میانبر نحوی برای تعریف تابع عادی هستند. همانند تعریف تابع های تو در تو، "
-"تابع های لامبدا می توانند به متغیرهای موجود در حوزه حاوی خود مراجعه کنند::"
+"توابع کوچک ناشناس را می توان با استفاده از کلمه کلیدی :keyword:`lambda` "
+"ایجاد کرد. این تابع مجموع دو آرگومان خود را برمی گرداند: ``lambda a, b: "
+"a+b``. توابع لامبدا هر جا که اشیاء تابع مورد نیاز باشند، می توانند استفاده "
+"شوند. این توابع به لحاظ نحوی به یک عبارت واحد محدود می شوند. به لحاظ معنایی،"
+" آن ها تنها به عنوان یک میانبر نحوی برای تعریف تابع عادی عمل می کنند. مانند "
+"تعریف توابع تو در تو، توابع لامبدا می توانند به متغیرهای موجود در حوزه "
+"شاملشان ارجاع دهند::"
 
 #: ../../tutorial/controlflow.rst:991
 #, fuzzy
@@ -2347,7 +2330,7 @@ msgstr ""
 ">>> f(0)\n"
 "42\n"
 ">>> f(1)\n"
-"43"
+"43\n"
 
 #: ../../tutorial/controlflow.rst:1000
 #, fuzzy
@@ -2355,8 +2338,8 @@ msgid ""
 "The above example uses a lambda expression to return a function.  Another "
 "use is to pass a small function as an argument::"
 msgstr ""
-"مثال بالا از یک عبارت لامبدا برای بازگرداندن یک تابع استفاده می کند. یک "
-"کاربرد دیگر این است که یک تابع کوچک را به عنوان آرگومان ارسال کنید::"
+"مثال بالا از یک عبارت lambda برای بازگرداندن یک تابع استفاده می کند. استفاده"
+" دیگری این است که یک تابع کوچک را به عنوان یک آرگومان پاس دهید::"
 
 #: ../../tutorial/controlflow.rst:1003
 #, fuzzy
@@ -2382,8 +2365,8 @@ msgid ""
 "Here are some conventions about the content and formatting of documentation "
 "strings."
 msgstr ""
-"در اینجا برخی قواعد مربوط به محتوا و قالب بندی رشته های مستندات آورده شده "
-"است."
+"در اینجا برخی از قراردادها درباره محتوا و قالب بندی رشته های مستندات آورده "
+"شده است."
 
 #: ../../tutorial/controlflow.rst:1022
 #, fuzzy
@@ -2394,10 +2377,10 @@ msgid ""
 "to be a verb describing a function's operation).  This line should begin "
 "with a capital letter and end with a period."
 msgstr ""
-"اولین خط باید همیشه یک خلاصه کوتاه و مختصر از هدف شیء باشد. به دلیل اختصار، "
-"نباید به صورت صریح نام یا نوع شیء را بیان کند، زیرا این اطلاعات از طریق روش "
-"های دیگر در دسترس است (مگر در مواردی که نام, یک فعل توصیف کننده عملکرد یک "
-"تابع باشد). این خط باید با حرف بزرگ شروع شود و با نقطه پایان یابد."
+"اولین خط باید همیشه یک خلاصه کوتاه و واضح از هدف شیء باشد. برای اختصار، "
+"نباید به طور صریح نام یا نوع شیء را بیان کند، زیرا این اطلاعات به روش های "
+"دیگر در دسترس است (مگر اینکه نام، یک فعل توصیفی از عملکرد تابع باشد). این خط"
+" باید با حرف بزرگ شروع شده و با نقطه پایان یابد."
 
 #: ../../tutorial/controlflow.rst:1028
 #, fuzzy
@@ -2407,9 +2390,9 @@ msgid ""
 "  The following lines should be one or more paragraphs describing the "
 "object's calling conventions, its side effects, etc."
 msgstr ""
-"اگر در رشته مستندات خطوط بیشتری وجود داشته باشد، خط دوم باید خالی باشد تا "
-"خلاصه را به صورت بصری از بقیه توضیحات جدا کند. خطوط بعدی باید یک یا چند "
-"پاراگراف باشد که روش های فراخوانی شی، اثرات جانبی آن و غیره را توضیح دهد."
+"اگر تعداد خطوط در رشته مستندات بیشتر باشد، باید خط دوم خالی باشد و به صورت بصری خلاصه را از بقیه توضیحات جدا کند.\n"
+"\n"
+"خطوط بعدی باید یک یا چند پاراگراف باشند که کنوانسیون های فراخوانی شی، اثرات جانبی آن و غیره را توضیح می دهند."
 
 #: ../../tutorial/controlflow.rst:1033
 #, fuzzy
@@ -2426,21 +2409,21 @@ msgid ""
 "they occur all their leading whitespace should be stripped.  Equivalence of "
 "whitespace should be tested after expansion of tabs (to 8 spaces, normally)."
 msgstr ""
-"تجزیه کننده پایتون از تو رفتگی در رشته های چند خطی در پایتون چشم پوشی نمی "
-"کند، بنابراین ابزارهایی که مستندات را پردازش می کنند باید در صورت نیاز تو "
-"رفتگی را حذف کنند. این کار با استفاده از قرارداد زیر انجام می شود: اولین خط "
-"غیرخالی از خطوط اول رشته، مقدار تو رفتگی برای کل رشته مستندات را تعیین می "
-"کند. (ما نمی توانیم از خط اول استفاده کنیم زیرا معمولاً در کنار علامت های "
-"نقل قول باز رشته است و تو رفتگی آن در رشته مشخص نیست.) سپس فاصله \"معادل\" "
-"با این تو رفتگی از ابتدای تمام خطوط رشته حذف می شود. خطوطی که کم تر تو رفته "
-"باشند، نباید وجود داشته باشند، اما اگر وجود داشتند، تمام فاصله های ابتدایی "
-"آن ها باید حذف شوند. معادل بودن فاصله باید پس از گسترش تب ها (معمولاً به 8 "
-"فاصله) بررسی شود."
+"تجزیه کننده ی پایتون فرورفتگی را از رشته های چندخطی در پایتون حذف نمی کند، "
+"بنابراین ابزارهایی که مستندات را پردازش می کنند، باید در صورت نیاز فرورفتگی "
+"را حذف کنند. این کار با استفاده از استاندارد زیر انجام می شود. اولین خط غیر "
+"خالی *after* اولین خط رشته، مقدار فرورفتگی برای کل رشته ی مستندات را تعیین "
+"می کند. (ما نمی توانیم از خط اول استفاده کنیم زیرا به طور کلی مجاور به نقل "
+"قول های ابتدایی رشته است، بنابراین فرورفتگی آن در رشته ی ظاهری مشخص نیست.) "
+"فاصله ی \"معادل\" با این فرورفتگی سپس از ابتدای تمام خطوط رشته حذف می شود. "
+"خطوطی که فرورفتگی کمتری دارند نباید اتفاق بیافتد، اما اگر اتفاق افتاد، باید "
+"تمامی فاصله های پیشرو آن ها حذف شود. معادل بودن فاصله ها باید بعد از تعویض "
+"تب ها (به ۸ فاصله، معمولاً) بررسی شود."
 
 #: ../../tutorial/controlflow.rst:1045
 #, fuzzy
 msgid "Here is an example of a multi-line docstring::"
-msgstr "در اینجا یک نمونه از یک ``docstring`` چند خطی آورده شده است::"
+msgstr "در اینجا یک مثال از یک رشته توضیح چند خطی ارائه شده است:"
 
 #: ../../tutorial/controlflow.rst:1047
 #, fuzzy
@@ -2458,21 +2441,21 @@ msgid ""
 "    No, really, it doesn't do anything."
 msgstr ""
 ">>> def my_function():\n"
-"...     \"\"\"هیچ کاری انجام نمی دهد، اما مستندش می کند.\n"
+"...     \"\"\"هیچ کاری انجام نمی دهد، اما آن را مستند می کند.\n"
 "...\n"
-"...     نه، واقعاً هیچ کاری انجام نمی دهد.\n"
+"...     نه، واقعاً، هیچ کاری انجام نمی دهد.\n"
 "...     \"\"\"\n"
 "...     pass\n"
 "...\n"
 ">>> print(my_function.__doc__)\n"
-"هیچ کاری انجام نمی دهد، اما مستندش می کند.\n"
+"هیچ کاری انجام نمی دهد، اما آن را مستند می کند.\n"
 "\n"
-"    نه، واقعاً هیچ کاری انجام نمی دهد."
+"    نه، واقعاً، هیچ کاری انجام نمی دهد."
 
 #: ../../tutorial/controlflow.rst:1063
 #, fuzzy
 msgid "Function Annotations"
-msgstr "توضیحات تابع"
+msgstr "حاشیه نویسی توابع"
 
 #: ../../tutorial/controlflow.rst:1071
 #, fuzzy
@@ -2481,8 +2464,8 @@ msgid ""
 "information about the types used by user-defined functions (see :pep:`3107` "
 "and :pep:`484` for more information)."
 msgstr ""
-"اطلاعات متا :ref:`Function annotations <function>` در مورد انواع استفاده شده"
-" توسط توابع تعریف شده توسط کاربر به طور کامل اختیاری هستند (برای اطلاعات "
+":ref:`Function annotations <function>` اطلاعات متادیتای کاملاً اختیاری "
+"درباره انواع استفاده شده توسط توابع تعریف شده توسط کاربر است (برای اطلاعات "
 "بیشتر به :pep:`3107` و :pep:`484` مراجعه کنید)."
 
 #: ../../tutorial/controlflow.rst:1075
@@ -2498,13 +2481,14 @@ msgid ""
 "following example has a required argument, an optional argument, and the "
 "return value annotated::"
 msgstr ""
-":term:`Annotations <function annotation>` به صورت یک دیکشنری در خصوصیت "
-":attr:`!__annotations__` تابع ذخیره می شوند و بر هیچ بخش دیگری از تابع "
-"تأثیری ندارند. توضیحات پارامترها با یک دو نقطه بعد از نام پارامتر تعریف می "
-"شوند که با یک عبارت برای ارزیابی به مقدار توضیح ارائه می شوند. توضیحات "
-"بازگشتی با یک ``->`` به همراه یک عبارت، بین لیست پارامتر و دو نقطه ای که "
-"پایان دستور :keyword:`def` را نشان می دهد، تعریف می شوند. مثال زیر دارای یک "
-"آرگومان اجباری، یک آرگومان اختیاری و مقدار بازگشتی توضیح داده شده است::"
+":term:`Annotations <function annotation>` در ویژگی :attr:`!__annotations__` "
+"تابع به صورت یک دیکشنری ذخیره می شوند و هیچ تأثیری بر سایر قسمت های تابع "
+"ندارند. حاشیه نویسی پارامترها با یک دو نقطه پس از نام پارامتر، به دنبال آن "
+"یک عبارت که به مقدار حاشیه نویسی ارزیابی می شود، تعریف می شود. حاشیه نویسی "
+"بازگشتی با یک ``->`` لیتری، به دنبال آن یک عبارت، بین لیست پارامترها و دو "
+"نقطه که پایان بیانیه :keyword:`def` را نشان می دهد، تعریف می شود. مثال زیر "
+"یک آرگومان ضروری، یک آرگومان اختیاری و مقدار بازگشتی را حاشیه نویسی کرده "
+"است:"
 
 #: ../../tutorial/controlflow.rst:1084
 #, fuzzy
@@ -2543,11 +2527,11 @@ msgid ""
 "than others. Making it easy for others to read your code is always a good "
 "idea, and adopting a nice coding style helps tremendously for that."
 msgstr ""
-"حالا که قرار است قطعات طولانی تر و پیچیده تری از پایتون بنویسید، زمان خوبی "
-"است برای صحبت درباره ی *coding style*. بیشتر زبان ها را می توان به سبک های "
-"مختلف نوشت (یا به طور خلاصه تر, *formatted*)؛ برخی از این سبک ها نسبت به "
-"بقیه خواناتر هستند. راحت کردن خواندن کد شما برای دیگران همیشه ایده ی خوبی "
-"است و اتخاذ یک سبک کدنویسی خوب برای این امر بسیار کمک کننده خواهد بود."
+"اکنون که قصد دارید کدهای پیچیده تر و طولانی تری از پایتون بنویسید، زمان "
+"مناسبی است که درباره ی *coding style* صحبت کنیم. اکثر زبان ها می توانند به "
+"سبک های مختلف نوشته شوند (یا به بیان دقیق تر، *formatted*)؛ برخی از آنها "
+"خواناتر از بقیه هستند. این که کار دیگران برای خواندن کد شما آسان باشد همیشه "
+"ایده خوبی است و پیروی از یک سبک کدنویسی مناسب در این زمینه بسیار کمک می کند."
 
 #: ../../tutorial/controlflow.rst:1108
 #, fuzzy
@@ -2557,33 +2541,26 @@ msgid ""
 " Python developer should read it at some point; here are the most important "
 "points extracted for you:"
 msgstr ""
-"برای پایتون، :pep:`8` به عنوان راهنمای سبک که اکثر پروژه ها از آن پیروی می "
-"کنند ظهور کرده است؛ این راهنما یک سبک کدنویسی بسیار خوانا و چشم نواز را "
-"ترویج می دهد. هر توسعه دهنده ی پایتون باید در مقطعی آن را بخواند؛ در اینجا "
-"مهم ترین نکات برای شما استخراج شده اند:"
+"برای پایتون، :pep:`8` به عنوان راهنمای سبکی به وجود آمده است که بیشتر پروژه "
+"ها از آن پیروی می کنند؛ این راهنما یک سبک کدنویسی بسیار خوانا و جذاب را "
+"ترویج می کند. هر برنامه نویس پایتون باید در مقطعی آن را مطالعه کند؛ در اینجا"
+" مهم ترین نکات استخراج  شده برای شما آورده شده است:"
 
 #: ../../tutorial/controlflow.rst:1113
 #, fuzzy
 msgid "Use 4-space indentation, and no tabs."
 msgstr ""
-"متد های تعریف شده در یک بدنه کلاس تعریف کننده رفتار اشیاء آن کلاس هستند. وقتی یک متد در زمینه یک شیء قابل اجرا باشد، متد نامیده می شود: \n"
+"متغیرها در پایتون به صورت خودکار تایپ بندی می شوند. وقتی یک مقدار به یک متغیر اختصاص داده می شود، پایتون به صورت خودکار نوع داده های آن متغیر را تعیین می کند. به عنوان مثال، اگر یک عدد صحیح به متغیری داده شود، پایتون به صورت خودکار آن متغیر را از نوع \"int\" در نظر می گیرد.\n"
 "\n"
-"    x.f()\n"
+"بخشی از کد که متغیرها را مقداردهی می کند به صورت زیر است:\n"
 "\n"
-"در اصطلاح: روش دریافت پیام f با پارامترهایی که در پرانتز بعدی تابع فراخوانی می شود. \n"
+"    x = 5\n"
+"    y = \"Hello, World!\"\n"
 "\n"
-"متد شیئی که در آن تعریف شده اند را به عنوان اولین آرگومانشان می گیرند، که به طور معمول self نامیده می شود. \n"
+"اینجا 'x' یک متغیر از نوع عدد صحیح و 'y' یک متغیر از نوع رشته است. اگر می خواهید متغیرها را با نوع داده ای مشخص ایجاد کنید، می توانید از تبدیل نوع استفاده کنید:\n"
 "\n"
-"متدها می توانند به طور مستقیم با کلاس هایی به شکلی فراخوانی شوند که در دسترس ماژول محلی هستند:\n"
-"\n"
-"    class C:\n"
-"        def f(self, x):\n"
-"            return (self, x)\n"
-"\n"
-"هنگامی که یک روش فراخوانی شود، میدان تهی شده با ارزیابی یک شیء مشخص، نشانگر شیء تازه ساخته شده می شود. برای نمونه:\n"
-"\n"
-"    x = C()\n"
-"    print(x.f(1))"
+"    x = int(5)\n"
+"    y = str(\"Hello, World!\")"
 
 #: ../../tutorial/controlflow.rst:1115
 #, fuzzy
@@ -2592,45 +2569,21 @@ msgid ""
 "nesting depth) and large indentation (easier to read).  Tabs introduce "
 "confusion, and are best left out."
 msgstr ""
-"استفاده از ۴ فاصله یک توافق خوب بین تورفتگی کوچک (که عمق تو در تویی بیشتری "
-"را اجازه می دهد) و تورفتگی بزرگ (که خواندن را آسان تر می کند) است. استفاده "
-"از تب ها باعث سردرگمی می شود و بهتر است از آن ها اجتناب شود."
+"۴ فاصله، هم زمان تعادلی مناسب بین تورفتگی کم (که عمق لایه بندی بیشتری را "
+"ممکن می سازد) و تورفتگی زیاد (که خواندن را ساده تر می سازد) ایجاد می کند. "
+"استفاده از تب ها می تواند گیج کننده باشد و بهتر است از آنها اجتناب شود."
 
 #: ../../tutorial/controlflow.rst:1119
 #, fuzzy
 msgid "Wrap lines so that they don't exceed 79 characters."
 msgstr ""
-"متغیرهای محلی به صورت پیش فرض در اسکوپ توابع تعریف می شوند. برای ایجاد  \n"
-"متغیرهای در سطح ماژول، یا باید متغیر را در خارج از هر تابعی تعریف کنید،  \n"
-"یا از کلمه کلیدی ``global`` استفاده کنید. هیچ اسکوپی در سطح کلاس وجود ندارد.  \n"
-"با این حال، یک تعریف کلاس با یک اسکوپ توابع محصور می شود::\n"
-"\n"
-"```python\n"
-"class B:\n"
-"    b = 4\n"
-"```\n"
-"\n"
-"متغیرهایی که درون یک تعریف کلاس به آنها ارجاع داده  می شود، باید یا  \n"
-"به عنوان پارامتر تابع استفاده شوند یا به عنوان متغیرهای سراسری باشند.  \n"
-"عملگر `.` در دسترسی به متغیرهای تعریف شده در فضای خارجی به کار می رود::\n"
-"\n"
-"```python\n"
-"a = 3\n"
-"\n"
-"class C:\n"
-"    a = 5  # Shadows module variable 'a'\n"
-"    \n"
-"    def f(self):\n"
-"        print(a)\n"
-"        print(self.a)\n"
-"\n"
-"c = C()\n"
-"c.f()\n"
-"print(a)\n"
-"```\n"
-"\n"
-"در این مثال، خروجی 3 و 5 خواهد بود، چون ``a`` داخل کلاس یک فضای اسکوپ محلی  \n"
-"می سازد که سایه ای بر روی متغیر ``a`` در سطح ماژول می اندازد."
+"به منظور دستیابی به حداکثر قابلیت استفاده و سازگاری با دیگر سیستم های \n"
+"برنامه نویسی، معمولاً توصیه می شود از متدهای مشخصی تبعیت کنید. برای \n"
+"مثال، همیشه از خطوط فضا (space) به جای تب (tab) استفاده کنید تا مطمئن \n"
+"شوید که کد شما در تمامی محیط های توسعه دیده می شود. همچنین به صورت \n"
+"استاندارد عبارات و نام گذاری که شامل ترکیبی از حروف بزرگ و کوچک است \n"
+"را رعایت کنید، مانند این که از camelCase برای نام گذاری متغیرها و \n"
+"از PascalCase برای نام گذاری کلاس ها استفاده کنید.\""
 
 #: ../../tutorial/controlflow.rst:1121
 #, fuzzy
@@ -2638,8 +2591,8 @@ msgid ""
 "This helps users with small displays and makes it possible to have several "
 "code files side-by-side on larger displays."
 msgstr ""
-"این به کاربران با نمایشگرهای کوچک کمک می کند و امکان داشتن چندین فایل کد "
-"کنار هم بر روی نمایشگرهای بزرگتر را فراهم می سازد."
+"این به کاربران با نمایشگرهای کوچک کمک می کند و امکان قرار دادن چندین فایل کد"
+" به صورت کنار هم روی نمایشگرهای بزرگ تر را فراهم می سازد."
 
 #: ../../tutorial/controlflow.rst:1124
 #, fuzzy
@@ -2647,35 +2600,29 @@ msgid ""
 "Use blank lines to separate functions and classes, and larger blocks of code"
 " inside functions."
 msgstr ""
-"برای دستیابی و مدیریت فایل ها در پایتون، می توانید از کتابخانه ی استاندارد استفاده کنید. تابع ``open()`` که در پایتون وجود دارد، ابزاری قدرتمند برای خواندن و نوشتن فایل ها است. با استفاده از این تابع، می توانید فایل ها را به حالت مختلفی مانند 'خواندن' و 'نوشتن' باز کنید.\n"
+"متغیرها در پایتون محلی (locally) یا سراسری (globally) هستند. اگر یک متغیر درون یک تابع تعریف شود، آن متغیر محلی به نظر می رسد. اگر خارج از تابع تعریف شده باشد، سراسری است.\n"
 "\n"
-"برای باز کردن یک فایل، می توانید از تابع ``open()`` ، همراه با آرگومان های ('نام فایل', 'حالت') استفاده کنید.\n"
+"متغیرهای محلی فقط درون تابعی که تعریف شده اند قابل دسترسی هستند، در حالی که متغیرهای سراسری می توانند از هر جایی در برنامه در هر تابعی مورد استفاده قرار گیرند.\n"
 "\n"
-"مثال::\n"
+"CODE_BLOCK_01\n"
 "\n"
-"    file = open('example.txt', 'r')\n"
+"در این مثال، x یک متغیر سراسری است، در حالی که y یک متغیر محلی است. می توانید از دستور global درون یک تابع استفاده کنید تا به طور صریح به متغیری به عنوان سراسری اشاره کنید، این به شما اجازه می دهد تا مقدار یک متغیر سراسری را در داخل یک تابع تغییر دهید.\n"
 "\n"
-"در این مثال، ما پرونده ای به نام 'example.txt' را در حالت خواندن باز می کنیم.\n"
+"مثال استفاده از کلمه کلیدی global:\n"
 "\n"
-"پایتون همچنین مفهوم 'مدیریت محتویات' را معرفی کرده است که استفاده از آن با بیان 'with' یا 'همراه با' امکان پذیر است. این روش، منابع را به هنگام اتمام استفاده آزاد می کند.\n"
+"CODE_BLOCK_02\n"
 "\n"
-"مثال::\n"
-"\n"
-"    with open('example.txt', 'r') as file:\n"
-"        contents = file.read()\n"
-"        print(contents)\n"
-"\n"
-"در این قطعه کد، 'example.txt' باز می شود و محتوای آن خوانده و چاپ می گردد. پس از اتمام بلوک 'with', فایل به طور خودکار بسته می شود."
+"به خاطر داشته باشید، اگر سعی کنید مقداری را به یک متغیر قبل از تعریف صریح آن داخل تابع تخصیص دهید، ممکن است با خطای UnboundLocalError مواجه شوید."
 
 #: ../../tutorial/controlflow.rst:1127
 #, fuzzy
 msgid "When possible, put comments on a line of their own."
-msgstr "وقتی ممکن است، نظرات را در خط خودشان قرار دهید."
+msgstr "هنگامی که ممکن است، نظرات را در یک خط جداگانه قرار دهید."
 
 #: ../../tutorial/controlflow.rst:1129
 #, fuzzy
 msgid "Use docstrings."
-msgstr "از رشته های مستندات استفاده کنید."
+msgstr "از docstring ها استفاده کنید."
 
 #: ../../tutorial/controlflow.rst:1131
 #, fuzzy
@@ -2683,8 +2630,8 @@ msgid ""
 "Use spaces around operators and after commas, but not directly inside "
 "bracketing constructs: ``a = f(1, 2) + g(3, 4)``."
 msgstr ""
-"از فاصله گذاری اطراف عملگرها و بعد از کاماها استفاده کنید، اما مستقیماً داخل"
-" سازه های براکتی فاصله گذاری نکنید: ``a = f(1, 2) + g(3, 4)``."
+"از فاصله ها در اطراف عملگر ها و بعد از کاماها استفاده کنید، اما نه مستقیماً "
+"درون ساختار های براکت دار: ``a = f(1, 2) + g(3, 4)``."
 
 #: ../../tutorial/controlflow.rst:1134
 #, fuzzy
@@ -2694,11 +2641,11 @@ msgid ""
 "functions and methods.  Always use ``self`` as the name for the first method"
 " argument (see :ref:`tut-firstclasses` for more on classes and methods)."
 msgstr ""
-"نام گذاری کلاس ها و توابع خود را به طور مداوم انجام دهید؛ عرف این است که "
-"برای کلاس ها از ``UpperCamelCase`` و برای توابع و متدها از "
-"``lowercase_with_underscores`` استفاده کنید. همیشه از ``self`` به عنوان نام "
-"اولین آرگومان متد استفاده کنید (برای اطلاعات بیشتر در مورد کلاس ها و متدها "
-"به :ref:`tut-firstclasses` مراجعه کنید)."
+"نام گذاری کلاس ها و توابع خود را به صورت منظم انجام دهید؛ کنوانسیون این است "
+"که از ``UpperCamelCase`` برای کلاس ها و از ``lowercase_with_underscores`` "
+"برای توابع و متدها استفاده کنید. همیشه از ``self`` به عنوان نام اولین "
+"آرگومان متد استفاده کنید (برای اطلاعات بیشتر در مورد کلاس ها و متدها به "
+":ref:`tut-firstclasses` مراجعه کنید)."
 
 #: ../../tutorial/controlflow.rst:1139
 #, fuzzy
@@ -2707,9 +2654,9 @@ msgid ""
 "environments.  Python's default, UTF-8, or even plain ASCII work best in any"
 " case."
 msgstr ""
-"در محیط های بین المللی، از کدگذاری های پیچیده استفاده نکنید. به طور کلی، "
-"مقدار پیش فرض پایتون، که UTF-8 است، و حتی ASCII ساده برای هر نوع استفاده "
-"بهترین کارایی را دارند."
+"از رمزگذاری های خاص استفاده نکنید اگر کد شما برای استفاده در محیط های بین "
+"المللی طراحی شده است. پیش فرض پایتون، یعنی UTF-8، و حتی ASCII ساده به بهترین"
+" شکل در هر شرایطی کار می کنند."
 
 #: ../../tutorial/controlflow.rst:1143
 #, fuzzy
@@ -2718,14 +2665,14 @@ msgid ""
 " slightest chance people speaking a different language will read or maintain"
 " the code."
 msgstr ""
-"به همین ترتیب، از کاراکترهای غیر از ASCII در شناسه ها استفاده نکنید اگر حتی "
-"به صورت جزئی احتمال دارد افرادی که به زبان های دیگر صحبت می کنند کد را "
-"بخوانند یا نگهداری کنند."
+"به همین ترتیب، اگر حتی کوچکترین احتمالی وجود داشته باشد که افرادی که به "
+"زبانی متفاوت صحبت می کنند، کد را بخوانند یا نگهداری کنند، از کاراکترهای "
+"غیرASCII در شناسه ها استفاده نکنید."
 
 #: ../../tutorial/controlflow.rst:1149
 #, fuzzy
 msgid "Footnotes"
-msgstr "پاورقی ها"
+msgstr "پانویس ها"
 
 #: ../../tutorial/controlflow.rst:1150
 #, fuzzy
@@ -2735,13 +2682,14 @@ msgid ""
 "makes to it (items inserted into a list)."
 msgstr ""
 "در واقع، *call by object reference* توصیف بهتری خواهد بود، زیرا اگر یک شیء "
-"قابل تغییر انتقال داده شود، فراخواننده هر تغییری را که فراخوانده شده در آن "
-"ایجاد کند، مشاهده خواهد کرد (موارد وارد شده در یک لیست)."
+"قابل تغییر ارسال شود، هرگونه تغییری که توسط تابع فراخوانی شده بر روی آن "
+"انجام گیرد (مواردی که در یک لیست درج می شوند)، توسط فردی که آن را فراخوانی "
+"می کند مشاهده خواهد شد."
 
 #: ../../tutorial/controlflow.rst:48
 #, fuzzy
 msgid "statement"
-msgstr "بیان"
+msgstr "بیانیه"
 
 #: ../../tutorial/controlflow.rst:48
 #, fuzzy
@@ -2751,60 +2699,48 @@ msgstr "برای"
 #: ../../tutorial/controlflow.rst:477 ../../tutorial/controlflow.rst:1014
 #, fuzzy
 msgid "documentation strings"
-msgstr "رشته های مستندات"
+msgstr ""
+"رشته های مستندات (documentation strings)، که به سادگی داک استرینگ (docstring) نیز نامیده می شوند، راهی برای استفاده از قابلیت های یادداشت گذاری در پایتون هستند. رشته های مستندات به طور مستقیم پس از تعریف ماژول، کلاس یا تابع قرار می گیرند. اگر رشته مستنداتی وجود داشته باشد، مشخصات در زمان اجرا قابل دستیابی هستند. به عنوان مثال:\n"
+"```python\n"
+"def kol_hajm_zekhira(tedad, andaze):\n"
+"    \"\"\"\n"
+"    محاسبه حجم کل.\n"
+"\n"
+"    پارامترها:\n"
+"    tedad -- تعداد اقلام\n"
+"    andaze -- اندازه هر قلم\n"
+"    \"\"\"\n"
+"    return tedad * andaze\n"
+"```\n"
+"در اینجا، داک استرینگ تابع kol_hajm_zekhira توضیحی مختصر از هدف تابع ارائه می دهد و اطلاعاتی درباره پارامترهای آن درج می کند."
 
 #: ../../tutorial/controlflow.rst:477 ../../tutorial/controlflow.rst:1014
 #, fuzzy
 msgid "docstrings"
-msgstr "دکسترینگ ها"
+msgstr "رشته های مستندات"
 
 #: ../../tutorial/controlflow.rst:477 ../../tutorial/controlflow.rst:1014
 #, fuzzy
 msgid "strings, documentation"
-msgstr "strings, documentation"
+msgstr "رشته ها، مستندات"
 
 #: ../../tutorial/controlflow.rst:918
 #, fuzzy
 msgid "* (asterisk)"
-msgstr ""
-"* (ستاره) در پایتون برای ایجاد یک لیست جدید از ترکیب دو یا چند IEnumerable استفاده می شود. برای استفاده از آن، کافیست به سادگی لیست های مورد نظر را با یک `*` در کنار هم قرار دهید تا لیست جدید شامل تمامی اعضای آن ها ایجاد شود. در ادامه یک مثال ساده آورده شده است:: \n"
-"\n"
-"```\n"
-"list1 = [1, 2, 3]\n"
-"list2 = [4, 5, 6]\n"
-"combined_list = [*list1, *list2]\n"
-"print(combined_list)  # خروجی: [1, 2, 3, 4, 5, 6]\n"
-"```\n"
-"\n"
-"به طور مشابه، `*` می تواند برای ترکیب کردن مجموعه ها (tuples) نیز به کار رود:: \n"
-"\n"
-"```\n"
-"tuple1 = (1, 2, 3)\n"
-"tuple2 = (4, 5, 6)\n"
-"combined_tuple = (*tuple1, *tuple2)\n"
-"print(combined_tuple)  # خروجی: (1, 2, 3, 4, 5, 6)\n"
-"```\n"
-"\n"
-"علاوه بر این، `*` می تواند برای باز کردن (unpacking) آرایه ها نیز مورد استفاده قرار گیرد. مثلا اگر یک تابع چندین مقدار بازگرداند، می توان آن مقادیر را درون متغیر های جداگانه ذخیره کرد که نشان می دهد چگونه داده های پیچیده با استفاده از این عملگر مدیریت شوند."
+msgstr "* (ستاره)"
 
 #: ../../tutorial/controlflow.rst:918 ../../tutorial/controlflow.rst:962
 #, fuzzy
 msgid "in function calls"
-msgstr "در فراخوانی تابع ها"
+msgstr "در فراخوانی توابع"
 
 #: ../../tutorial/controlflow.rst:962
 #, fuzzy
 msgid "**"
 msgstr ""
-"متد :: یکی از متدهای مهم در کلاس ها در پایتون `__init__` است که به عنوان سازنده ی کلاس شناخته می شود. این متد زمانی که یک شیء جدید از کلاس ایجاد می شود، به صورت خودکار اجرا می گردد و به شما اجازه می دهد تا مقداردهی اولیه متغیرهای شیء را انجام دهید و حالت شروع شیء را تنظیم کنید.\n"
-"\n"
-"به مثال زیر توجه کنید::\n"
-"\n"
-"class MyClass:\n"
-"    def __init__(self, name):\n"
-"        self.name = name\n"
-"\n"
-"در این مثال، زمانی که شما یک شیء جدید از `MyClass` را ایجاد می کنید، متد `__init__` فراخوانی شده و مقدار اولیه برای ویژگی `name` تنظیم می شود."
+"متاسفانه، من نمی توانم متنی را که به من داده اید ترجمه کنم، زیرا شما هیچ "
+"متنی برای ترجمه ارائه نکرده اید. لطفاً متن مورد نظر خود را برای ترجمه ارائه "
+"دهید تا بتوانم به شما در این زمینه کمک کنم."
 
 #: ../../tutorial/controlflow.rst:1066
 #, fuzzy
@@ -2814,58 +2750,38 @@ msgstr "تابع"
 #: ../../tutorial/controlflow.rst:1066
 #, fuzzy
 msgid "annotations"
-msgstr ""
-"annotations\n"
-"ترجمه به \"حاشیه نویسی\" یا \"تعلیقات\" بسته به زمینه است. در برنامه نویسی، اغلب به معنای حاشیه نویسی های توضیحی در مورد نوع داده ها یا مستند کردن موارد در کد استفاده می شود."
+msgstr "حاشیه نویسی ها"
 
 #: ../../tutorial/controlflow.rst:1066
 #, fuzzy
 msgid "->"
 msgstr ""
-"ماژول `textwrap` دارای دو کلاس برای قالب بندی پاراگراف است:\n"
+"ماژول `math` یک منبع ثابت از توابع ریاضی در پایتون است. این ماژول شامل توابعی برای انجام محاسبات علمی و مهندسی مانند سینوس، کسینوس و لگاریتم است.\n"
 "\n"
-"- `TextWrapper`: این کلاس برای بسته بندی و قالب بندی متن استفاده می شود. روش های مختلفی برای تنظیم پارامترهای بسته بندی دارد، از جمله تغییر طول خط و کنترل رفتار تقسیم جملات.\n"
+"متد 'ceil' یک عدد را به سمت بالا گرد می کند و نزدیک ترین عدد صحیح بزرگ تر از یا برابر با شماره داده شده را برمی گرداند.\n"
 "\n"
-"- `IndentedTextWrapper`: این کلاس مانند `TextWrapper` عمل می کند، با این تفاوت که می تواند تورفتگی برای خطوط بسته بندی شده و خطوط اولیه تنظیم کند. \n"
+"توابع دیگری مانند 'sqrt' برای پیدا کردن ریشه دوم یک عدد و 'factorial' برای محاسبه فاکتوریل یک عدد وجود دارند. برای استفاده از این ماژول، ابتدا باید آن را وارد برنامه خود کنید: \n"
 "\n"
-"مثال های زیر نشان می دهند که چگونه می توان از این روش ها استفاده کرد::\n"
-"\n"
-"    import textwrap\n"
-"\n"
-"    sample_text = '''\n"
-"    Python is a high-level, interpreted, interactive and object-oriented scripting language. \n"
-"    Python is designed to be highly readable. \n"
-"    '''\n"
-"\n"
-"    wrapper = textwrap.TextWrapper(width=50)\n"
-"\n"
-"    word_list = wrapper.wrap(text=sample_text)\n"
-"    for element in word_list:\n"
-"        print(element)\n"
-"\n"
-"برای تورفتگی متن، می توان از گزینه های `initial_indent` و `subsequent_indent` استفاده کرد::\n"
-"\n"
-"    wrapper = textwrap.TextWrapper(initial_indent='    ', subsequent_indent='    ', width=50)\n"
-"    output = wrapper.wrap(text=sample_text)\n"
-"    for element in output:\n"
-"        print(element)"
+"```\n"
+"import math\n"
+"```"
 
 #: ../../tutorial/controlflow.rst:1066
 #, fuzzy
 msgid "function annotations"
-msgstr "توضیحات تابع"
+msgstr "توضیحات توابع"
 
 #: ../../tutorial/controlflow.rst:1066
 #, fuzzy
 msgid ": (colon)"
-msgstr ": (دونقطه)"
+msgstr ": (کولون)"
 
 #: ../../tutorial/controlflow.rst:1100
 #, fuzzy
 msgid "coding"
-msgstr "کدنویسی"
+msgstr "کدگذاری"
 
 #: ../../tutorial/controlflow.rst:1100
 #, fuzzy
 msgid "style"
-msgstr "سبک"
+msgstr "استایل"
