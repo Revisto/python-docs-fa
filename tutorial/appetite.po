@@ -7,7 +7,6 @@
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 # Alireza Feyzabadi Farahani, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -23,12 +22,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/appetite.rst:5
-#, fuzzy
 msgid "Whetting Your Appetite"
 msgstr "اشتهایتان را تحریک کنید"
 
 #: ../../tutorial/appetite.rst:7
-#, fuzzy
 msgid ""
 "If you do much work on computers, eventually you find that there's some task"
 " you'd like to automate.  For example, you may wish to perform a search-and-"
@@ -44,7 +41,6 @@ msgstr ""
 "با رابط کاربری گرافیکی، یا یک بازی ساده ایجاد کنید."
 
 #: ../../tutorial/appetite.rst:13
-#, fuzzy
 msgid ""
 "If you're a professional software developer, you may have to work with "
 "several C/C++/Java libraries but find the usual write/compile/test/re-"
@@ -61,12 +57,10 @@ msgstr ""
 " و نمی خواهید برای برنامه خود یک زبان جدید طراحی و پیاده سازی کنید."
 
 #: ../../tutorial/appetite.rst:20
-#, fuzzy
 msgid "Python is just the language for you."
 msgstr "پایتون دقیقاً زبانی است که به دنبال آن هستید."
 
 #: ../../tutorial/appetite.rst:22
-#, fuzzy
 msgid ""
 "You could write a Unix shell script or Windows batch files for some of these"
 " tasks, but shell scripts are best at moving around files and changing text "
@@ -85,7 +79,6 @@ msgstr ""
 "\"Unix\" موجود است و به شما کمک می کند کار را سریع تر انجام دهید."
 
 #: ../../tutorial/appetite.rst:29
-#, fuzzy
 msgid ""
 "Python is simple to use, but it is a real programming language, offering "
 "much more structure and support for large programs than shell scripts or "
@@ -106,7 +99,6 @@ msgstr ""
 "به آسانی همان زبان ها در پایتون قابل انجام است."
 
 #: ../../tutorial/appetite.rst:37
-#, fuzzy
 msgid ""
 "Python allows you to split your program into modules that can be reused in "
 "other Python programs.  It comes with a large collection of standard modules"
@@ -124,7 +116,6 @@ msgstr ""
 "ابزار رابط کاربری گرافیکی مثل Tk ارائه می دهند."
 
 #: ../../tutorial/appetite.rst:44
-#, fuzzy
 msgid ""
 "Python is an interpreted language, which can save you considerable time "
 "during program development because no compilation and linking is necessary."
@@ -140,7 +131,6 @@ msgstr ""
 "همچنین، به عنوان یک ماشین حساب رومیزی کاربردی محسوب می شود."
 
 #: ../../tutorial/appetite.rst:50
-#, fuzzy
 msgid ""
 "Python enables programs to be written compactly and readably.  Programs "
 "written in Python are typically much shorter than equivalent C,  C++, or "
@@ -152,7 +142,6 @@ msgstr ""
 "دلیل:"
 
 #: ../../tutorial/appetite.rst:54
-#, fuzzy
 msgid ""
 "the high-level data types allow you to express complex operations in a "
 "single statement;"
@@ -161,7 +150,6 @@ msgstr ""
 "کنید؛"
 
 #: ../../tutorial/appetite.rst:57
-#, fuzzy
 msgid ""
 "statement grouping is done by indentation instead of beginning and ending "
 "brackets;"
@@ -170,12 +158,10 @@ msgstr ""
 "کروشه های آغاز و پایان؛"
 
 #: ../../tutorial/appetite.rst:60
-#, fuzzy
 msgid "no variable or argument declarations are necessary."
 msgstr "اعلان متغیر یا آرگومان لازم نیست."
 
 #: ../../tutorial/appetite.rst:62
-#, fuzzy
 msgid ""
 "Python is *extensible*: if you know how to program in C it is easy to add a "
 "new built-in function or module to the interpreter, either to perform "
@@ -194,7 +180,6 @@ msgstr ""
 " آن به عنوان یک زبان افزونه یا زبان دستوری برای آن برنامه استفاده کنید."
 
 #: ../../tutorial/appetite.rst:70
-#, fuzzy
 msgid ""
 "By the way, the language is named after the BBC show \"Monty Python's Flying"
 " Circus\" and has nothing to do with reptiles.  Making references to Monty "
@@ -206,7 +191,6 @@ msgstr ""
 "شود!"
 
 #: ../../tutorial/appetite.rst:74
-#, fuzzy
 msgid ""
 "Now that you are all excited about Python, you'll want to examine it in some"
 " more detail.  Since the best way to learn a language is to use it, the "
@@ -218,7 +202,6 @@ msgstr ""
 "مطالعه هستید، با \"Python interpreter\" بازی کنید."
 
 #: ../../tutorial/appetite.rst:78
-#, fuzzy
 msgid ""
 "In the next chapter, the mechanics of using the interpreter are explained.  "
 "This is rather mundane information, but essential for trying out the "
@@ -229,7 +212,6 @@ msgstr ""
 "بعداً نشان داده می شوند، ضروری است."
 
 #: ../../tutorial/appetite.rst:82
-#, fuzzy
 msgid ""
 "The rest of the tutorial introduces various features of the Python language "
 "and system through examples, beginning with simple expressions, statements "

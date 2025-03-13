@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,12 +21,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/interactive.rst:5
-#, fuzzy
 msgid "Interactive Input Editing and History Substitution"
 msgstr "ویرایش ورودی تعاملی و جایگزینی تاریخچه"
 
 #: ../../tutorial/interactive.rst:7
-#, fuzzy
 msgid ""
 "Some versions of the Python interpreter support editing of the current input"
 " line and history substitution, similar to facilities found in the Korn "
@@ -42,12 +39,10 @@ msgstr ""
 "مخصوص به خود است که در اینجا تکرار نمی کنیم."
 
 #: ../../tutorial/interactive.rst:17
-#, fuzzy
 msgid "Tab Completion and History Editing"
 msgstr "تکمیل خودکار و ویرایش تاریخچه"
 
 #: ../../tutorial/interactive.rst:19
-#, fuzzy
 msgid ""
 "Completion of variable and module names is :ref:`automatically enabled "
 "<rlcompleter-config>` at interpreter startup so that the :kbd:`Tab` key "
@@ -74,12 +69,10 @@ msgstr ""
 " دسترس خواهد بود."
 
 #: ../../tutorial/interactive.rst:36
-#, fuzzy
 msgid "Alternatives to the Interactive Interpreter"
 msgstr "گزینه هایی به جای مفسر تعاملی"
 
 #: ../../tutorial/interactive.rst:38
-#, fuzzy
 msgid ""
 "This facility is an enormous step forward compared to earlier versions of "
 "the interpreter; however, some wishes are left: It would be nice if the "
@@ -96,7 +89,6 @@ msgstr ""
 "باشند نیز مفید خواهد بود."
 
 #: ../../tutorial/interactive.rst:45
-#, fuzzy
 msgid ""
 "One alternative enhanced interactive interpreter that has been around for "
 "quite some time is IPython_, which features tab completion, object "

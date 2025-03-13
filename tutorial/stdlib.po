@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,24 +21,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/stdlib.rst:5
-#, fuzzy
 msgid "Brief Tour of the Standard Library"
 msgstr "مروری کوتاه بر کتابخانه استاندارد"
 
 #: ../../tutorial/stdlib.rst:11
-#, fuzzy
 msgid "Operating System Interface"
 msgstr "رابط کاربری سیستم عامل"
 
 #: ../../tutorial/stdlib.rst:13
-#, fuzzy
 msgid ""
 "The :mod:`os` module provides dozens of functions for interacting with the "
 "operating system::"
 msgstr "ماژول :mod:`os` ده ها تابع برای تعامل با سیستم عامل فراهم می کند::"
 
 #: ../../tutorial/stdlib.rst:16
-#, fuzzy
 msgid ""
 ">>> import os\n"
 ">>> os.getcwd()      # Return the current working directory\n"
@@ -56,7 +51,6 @@ msgstr ""
 "0"
 
 #: ../../tutorial/stdlib.rst:23
-#, fuzzy
 msgid ""
 "Be sure to use the ``import os`` style instead of ``from os import *``.  "
 "This will keep :func:`os.open` from shadowing the built-in :func:`open` "
@@ -67,7 +61,6 @@ msgstr ""
 "جلوگیری می کند که به شکل بسیار متفاوتی عمل می کند."
 
 #: ../../tutorial/stdlib.rst:29
-#, fuzzy
 msgid ""
 "The built-in :func:`dir` and :func:`help` functions are useful as "
 "interactive aids for working with large modules like :mod:`os`::"
@@ -76,7 +69,6 @@ msgstr ""
 "ماژول های بزرگ مانند :mod:`os` مفید هستند::"
 
 #: ../../tutorial/stdlib.rst:32
-#, fuzzy
 msgid ""
 ">>> import os\n"
 ">>> dir(os)\n"
@@ -91,7 +83,6 @@ msgstr ""
 "<یک صفحه راهنمای جامع که از مستندات داخلی ماژول ایجاد شده است را برمی گرداند>"
 
 #: ../../tutorial/stdlib.rst:38
-#, fuzzy
 msgid ""
 "For daily file and directory management tasks, the :mod:`shutil` module "
 "provides a higher level interface that is easier to use::"
@@ -100,7 +91,6 @@ msgstr ""
 " ارائه می دهد که استفاده از آن آسان تر است::"
 
 #: ../../tutorial/stdlib.rst:41
-#, fuzzy
 msgid ""
 ">>> import shutil\n"
 ">>> shutil.copyfile('data.db', 'archive.db')\n"
@@ -115,12 +105,10 @@ msgstr ""
 "'installdir'"
 
 #: ../../tutorial/stdlib.rst:51
-#, fuzzy
 msgid "File Wildcards"
 msgstr "کارت های جایگزین فایل"
 
 #: ../../tutorial/stdlib.rst:53
-#, fuzzy
 msgid ""
 "The :mod:`glob` module provides a function for making file lists from "
 "directory wildcard searches::"
@@ -129,7 +117,6 @@ msgstr ""
 "دایرکتوری فراهم می کند::"
 
 #: ../../tutorial/stdlib.rst:56
-#, fuzzy
 msgid ""
 ">>> import glob\n"
 ">>> glob.glob('*.py')\n"
@@ -140,12 +127,10 @@ msgstr ""
 "['primes.py', 'random.py', 'quote.py']"
 
 #: ../../tutorial/stdlib.rst:64
-#, fuzzy
 msgid "Command Line Arguments"
 msgstr "آرگومان های خط فرمان"
 
 #: ../../tutorial/stdlib.rst:66
-#, fuzzy
 msgid ""
 "Common utility scripts often need to process command line arguments. These "
 "arguments are stored in the :mod:`sys` module's *argv* attribute as a list."
@@ -156,7 +141,6 @@ msgstr ""
 "می شوند. به عنوان مثال، بیایید فایل زیر :file:`demo.py` را در نظر بگیریم::"
 
 #: ../../tutorial/stdlib.rst:70
-#, fuzzy
 msgid ""
 "# File demo.py\n"
 "import sys\n"
@@ -167,7 +151,6 @@ msgstr ""
 "print(sys.argv)"
 
 #: ../../tutorial/stdlib.rst:74
-#, fuzzy
 msgid ""
 "Here is the output from running ``python demo.py one two three`` at the "
 "command line::"
@@ -175,12 +158,10 @@ msgstr ""
 "در اینجا خروجی اجرای ``python demo.py one two three`` در خط فرمان آمده است::"
 
 #: ../../tutorial/stdlib.rst:77
-#, fuzzy
 msgid "['demo.py', 'one', 'two', 'three']"
 msgstr "['demo.py', 'one', 'two', 'three']"
 
 #: ../../tutorial/stdlib.rst:79
-#, fuzzy
 msgid ""
 "The :mod:`argparse` module provides a more sophisticated mechanism to "
 "process command line arguments.  The following script extracts one or more "
@@ -191,7 +172,6 @@ msgstr ""
 "نمایش استخراج می کند::"
 
 #: ../../tutorial/stdlib.rst:83
-#, fuzzy
 msgid ""
 "import argparse\n"
 "\n"
@@ -214,7 +194,6 @@ msgstr ""
 "print(args)"
 
 #: ../../tutorial/stdlib.rst:93
-#, fuzzy
 msgid ""
 "When run at the command line with ``python top.py --lines=5 alpha.txt "
 "beta.txt``, the script sets ``args.lines`` to ``5`` and ``args.filenames`` "
@@ -225,12 +204,10 @@ msgstr ""
 "``['alpha.txt', 'beta.txt']`` تنظیم می کند."
 
 #: ../../tutorial/stdlib.rst:101
-#, fuzzy
 msgid "Error Output Redirection and Program Termination"
 msgstr "انتقال خروجی خطا و خاتمه برنامه"
 
 #: ../../tutorial/stdlib.rst:103
-#, fuzzy
 msgid ""
 "The :mod:`sys` module also has attributes for *stdin*, *stdout*, and "
 "*stderr*. The latter is useful for emitting warnings and error messages to "
@@ -241,7 +218,6 @@ msgstr ""
 " *stdout* هدایت شده است قابل مشاهده کند::"
 
 #: ../../tutorial/stdlib.rst:107
-#, fuzzy
 msgid ""
 ">>> sys.stderr.write('Warning, log file not found starting a new one\\n')\n"
 "Warning, log file not found starting a new one"
@@ -250,18 +226,15 @@ msgstr ""
 "هشدار، فایل گزارش پیدا نشد، یک فایل جدید شروع می شود"
 
 #: ../../tutorial/stdlib.rst:110
-#, fuzzy
 msgid "The most direct way to terminate a script is to use ``sys.exit()``."
 msgstr ""
 "مستقیم ترین راه برای پایان دادن به یک اسکریپت استفاده از ``sys.exit()`` است."
 
 #: ../../tutorial/stdlib.rst:116
-#, fuzzy
 msgid "String Pattern Matching"
 msgstr "تطبیق الگوهای رشته ای"
 
 #: ../../tutorial/stdlib.rst:118
-#, fuzzy
 msgid ""
 "The :mod:`re` module provides regular expression tools for advanced string "
 "processing. For complex matching and manipulation, regular expressions offer"
@@ -272,7 +245,6 @@ msgstr ""
 "بهینه ارائه می دهند::"
 
 #: ../../tutorial/stdlib.rst:122
-#, fuzzy
 msgid ""
 ">>> import re\n"
 ">>> re.findall(r'\\bf[a-z]*', 'which foot or hand fell fastest')\n"
@@ -287,7 +259,6 @@ msgstr ""
 "'cat in the hat'"
 
 #: ../../tutorial/stdlib.rst:128
-#, fuzzy
 msgid ""
 "When only simple capabilities are needed, string methods are preferred "
 "because they are easier to read and debug::"
@@ -296,7 +267,6 @@ msgstr ""
 "خواندن و اشکال زدایی آن ها آسان تر است::"
 
 #: ../../tutorial/stdlib.rst:131
-#, fuzzy
 msgid ""
 ">>> 'tea for too'.replace('too', 'two')\n"
 "'tea for two'"
@@ -305,12 +275,10 @@ msgstr ""
 "'tea for two'"
 
 #: ../../tutorial/stdlib.rst:138
-#, fuzzy
 msgid "Mathematics"
 msgstr "ریاضیات"
 
 #: ../../tutorial/stdlib.rst:140
-#, fuzzy
 msgid ""
 "The :mod:`math` module gives access to the underlying C library functions "
 "for floating-point math::"
@@ -319,7 +287,6 @@ msgstr ""
 " دهد::"
 
 #: ../../tutorial/stdlib.rst:143
-#, fuzzy
 msgid ""
 ">>> import math\n"
 ">>> math.cos(math.pi / 4)\n"
@@ -334,13 +301,11 @@ msgstr ""
 "10.0"
 
 #: ../../tutorial/stdlib.rst:149
-#, fuzzy
 msgid "The :mod:`random` module provides tools for making random selections::"
 msgstr ""
 "ماژول :mod:`random` ابزارهایی را برای انجام انتخاب های تصادفی فراهم می کند::"
 
 #: ../../tutorial/stdlib.rst:151
-#, fuzzy
 msgid ""
 ">>> import random\n"
 ">>> random.choice(['apple', 'pear', 'banana'])\n"
@@ -363,7 +328,6 @@ msgstr ""
 "4"
 
 #: ../../tutorial/stdlib.rst:161
-#, fuzzy
 msgid ""
 "The :mod:`statistics` module calculates basic statistical properties (the "
 "mean, median, variance, etc.) of numeric data::"
@@ -372,7 +336,6 @@ msgstr ""
 "داده های عددی را محاسبه می کند::"
 
 #: ../../tutorial/stdlib.rst:164
-#, fuzzy
 msgid ""
 ">>> import statistics\n"
 ">>> data = [2.75, 1.75, 1.25, 0.25, 0.5, 1.25, 3.5]\n"
@@ -393,7 +356,6 @@ msgstr ""
 "1.3720238095238095"
 
 #: ../../tutorial/stdlib.rst:173
-#, fuzzy
 msgid ""
 "The SciPy project <https://scipy.org> has many other modules for numerical "
 "computations."
@@ -401,12 +363,10 @@ msgstr ""
 "پروژه SciPy <https://scipy.org> شامل ماژول های بسیاری برای محاسبات عددی است."
 
 #: ../../tutorial/stdlib.rst:179
-#, fuzzy
 msgid "Internet Access"
 msgstr "دسترسی به اینترنت"
 
 #: ../../tutorial/stdlib.rst:181
-#, fuzzy
 msgid ""
 "There are a number of modules for accessing the internet and processing "
 "internet protocols. Two of the simplest are :mod:`urllib.request` for "
@@ -417,7 +377,6 @@ msgstr ""
 "URLها و :mod:`smtplib` برای ارسال ایمیل هستند::"
 
 #: ../../tutorial/stdlib.rst:185
-#, fuzzy
 msgid ""
 ">>> from urllib.request import urlopen\n"
 ">>> with urlopen('http://worldtimeapi.org/api/timezone/etc/UTC.txt') as response:\n"
@@ -458,7 +417,6 @@ msgstr ""
 ">>> server.quit()"
 
 #: ../../tutorial/stdlib.rst:204
-#, fuzzy
 msgid ""
 "(Note that the second example needs a mailserver running on localhost.)"
 msgstr ""
@@ -466,12 +424,10 @@ msgstr ""
 "«localhost» نیاز دارد.)"
 
 #: ../../tutorial/stdlib.rst:210
-#, fuzzy
 msgid "Dates and Times"
 msgstr "Dates and Times"
 
 #: ../../tutorial/stdlib.rst:212
-#, fuzzy
 msgid ""
 "The :mod:`datetime` module supplies classes for manipulating dates and times"
 " in both simple and complex ways. While date and time arithmetic is "
@@ -485,7 +441,6 @@ msgstr ""
 "این ماژول همچنین از اشیایی که به منطقه زمانی آگاه هستند پشتیبانی می کند. ::"
 
 #: ../../tutorial/stdlib.rst:218
-#, fuzzy
 msgid ""
 ">>> # dates are easily constructed and formatted\n"
 ">>> from datetime import date\n"
@@ -516,12 +471,10 @@ msgstr ""
 "14368"
 
 #: ../../tutorial/stdlib.rst:236
-#, fuzzy
 msgid "Data Compression"
 msgstr "فشرده سازی داده ها"
 
 #: ../../tutorial/stdlib.rst:238
-#, fuzzy
 msgid ""
 "Common data archiving and compression formats are directly supported by "
 "modules including: :mod:`zlib`, :mod:`gzip`, :mod:`bz2`, :mod:`lzma`, "
@@ -532,7 +485,6 @@ msgstr ""
 ":mod:`tarfile` پشتیبانی می شوند. ::"
 
 #: ../../tutorial/stdlib.rst:242
-#, fuzzy
 msgid ""
 ">>> import zlib\n"
 ">>> s = b'witch which has which witches wrist watch'\n"
@@ -559,12 +511,10 @@ msgstr ""
 "226805979"
 
 #: ../../tutorial/stdlib.rst:258
-#, fuzzy
 msgid "Performance Measurement"
 msgstr "اندازه گیری عملکرد"
 
 #: ../../tutorial/stdlib.rst:260
-#, fuzzy
 msgid ""
 "Some Python users develop a deep interest in knowing the relative "
 "performance of different approaches to the same problem. Python provides a "
@@ -575,7 +525,6 @@ msgstr ""
 " به طور فوری پاسخ می دهد."
 
 #: ../../tutorial/stdlib.rst:264
-#, fuzzy
 msgid ""
 "For example, it may be tempting to use the tuple packing and unpacking "
 "feature instead of the traditional approach to swapping arguments. The "
@@ -586,7 +535,6 @@ msgstr ""
 " ماژول :mod:`timeit` به سرعت یک مزیت عملکردی نسبی را نشان می دهد::"
 
 #: ../../tutorial/stdlib.rst:268
-#, fuzzy
 msgid ""
 ">>> from timeit import Timer\n"
 ">>> Timer('t=a; a=b; b=t', 'a=1; b=2').timeit()\n"
@@ -601,7 +549,6 @@ msgstr ""
 "0.54962537085770791"
 
 #: ../../tutorial/stdlib.rst:274
-#, fuzzy
 msgid ""
 "In contrast to :mod:`timeit`'s fine level of granularity, the :mod:`profile`"
 " and :mod:`pstats` modules provide tools for identifying time critical "
@@ -612,12 +559,10 @@ msgstr ""
 "بزرگتر کد ارائه می دهند."
 
 #: ../../tutorial/stdlib.rst:282
-#, fuzzy
 msgid "Quality Control"
 msgstr "کنترل کیفیت"
 
 #: ../../tutorial/stdlib.rst:284
-#, fuzzy
 msgid ""
 "One approach for developing high quality software is to write tests for each"
 " function as it is developed and to run those tests frequently during the "
@@ -627,7 +572,6 @@ msgstr ""
 "زمان توسعه و اجرای مکرر آن ها در طی فرآیند توسعه است."
 
 #: ../../tutorial/stdlib.rst:288
-#, fuzzy
 msgid ""
 "The :mod:`doctest` module provides a tool for scanning a module and "
 "validating tests embedded in a program's docstrings.  Test construction is "
@@ -643,7 +587,6 @@ msgstr ""
 "مطمئن شود که کد همچنان با مستندات همخوانی دارد::"
 
 #: ../../tutorial/stdlib.rst:295
-#, fuzzy
 msgid ""
 "def average(values):\n"
 "    \"\"\"Computes the arithmetic mean of a list of numbers.\n"
@@ -668,7 +611,6 @@ msgstr ""
 "doctest.testmod()   # automatically validate the embedded tests"
 
 #: ../../tutorial/stdlib.rst:306
-#, fuzzy
 msgid ""
 "The :mod:`unittest` module is not as effortless as the :mod:`doctest` "
 "module, but it allows a more comprehensive set of tests to be maintained in "
@@ -678,7 +620,6 @@ msgstr ""
 "تا مجموعه جامع تری از تست ها را در یک فایل جداگانه نگهداری کنید::"
 
 #: ../../tutorial/stdlib.rst:310
-#, fuzzy
 msgid ""
 "import unittest\n"
 "\n"
@@ -709,12 +650,10 @@ msgstr ""
 "unittest.main()  # Calling from the command line invokes all tests"
 
 #: ../../tutorial/stdlib.rst:328
-#, fuzzy
 msgid "Batteries Included"
 msgstr "شامل بودن کتابخانه ها"
 
 #: ../../tutorial/stdlib.rst:330
-#, fuzzy
 msgid ""
 "Python has a \"batteries included\" philosophy.  This is best seen through "
 "the sophisticated and robust capabilities of its larger packages. For "
@@ -724,7 +663,6 @@ msgstr ""
 "قابلیت های پیشرفته و قوی بسته های بزرگ تر آن دیده می شود. برای مثال:"
 
 #: ../../tutorial/stdlib.rst:333
-#, fuzzy
 msgid ""
 "The :mod:`xmlrpc.client` and :mod:`xmlrpc.server` modules make implementing "
 "remote procedure calls into an almost trivial task.  Despite the modules' "
@@ -735,7 +673,6 @@ msgstr ""
 "ماژول ها، هیچ گونه دانش مستقیم یا مدیریت XML مورد نیاز نیست."
 
 #: ../../tutorial/stdlib.rst:337
-#, fuzzy
 msgid ""
 "The :mod:`email` package is a library for managing email messages, including"
 " MIME and other :rfc:`2822`-based message documents. Unlike :mod:`smtplib` "
@@ -751,7 +688,6 @@ msgstr ""
 "پیاده سازی پروتکل های رمزگذاری و سربرگ اینترنت دارد."
 
 #: ../../tutorial/stdlib.rst:344
-#, fuzzy
 msgid ""
 "The :mod:`json` package provides robust support for parsing this popular "
 "data interchange format.  The :mod:`csv` module supports direct reading and "
@@ -770,7 +706,6 @@ msgstr ""
 " ابزارها را به طور قابل توجهی ساده می کنند."
 
 #: ../../tutorial/stdlib.rst:353
-#, fuzzy
 msgid ""
 "The :mod:`sqlite3` module is a wrapper for the SQLite database library, "
 "providing a persistent database that can be updated and accessed using "
@@ -781,7 +716,6 @@ msgstr ""
 "غیر استاندارد به روزرسانی و دسترسی پیدا کرد."
 
 #: ../../tutorial/stdlib.rst:357
-#, fuzzy
 msgid ""
 "Internationalization is supported by a number of modules including "
 ":mod:`gettext`, :mod:`locale`, and the :mod:`codecs` package."
@@ -790,11 +724,9 @@ msgstr ""
 "بسته :mod:`codecs` پشتیبانی می شود."
 
 #: ../../tutorial/stdlib.rst:27
-#, fuzzy
 msgid "built-in function"
 msgstr "تابع داخلی"
 
 #: ../../tutorial/stdlib.rst:27
-#, fuzzy
 msgid "help"
 msgstr "کمک"

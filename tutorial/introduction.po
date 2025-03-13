@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,12 +21,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/introduction.rst:5
-#, fuzzy
 msgid "An Informal Introduction to Python"
 msgstr "یک معرفی غیررسمی به پایتون"
 
 #: ../../tutorial/introduction.rst:7
-#, fuzzy
 msgid ""
 "In the following examples, input and output are distinguished by the "
 "presence or absence of prompts (:term:`>>>` and :term:`...`): to repeat the "
@@ -44,7 +41,6 @@ msgstr ""
 "این برای پایان دادن به یک دستور چند خطی استفاده می شود."
 
 #: ../../tutorial/introduction.rst:16
-#, fuzzy
 msgid ""
 "You can toggle the display of prompts and output by clicking on ``>>>`` in "
 "the upper-right corner of an example box.  If you hide the prompts and "
@@ -57,7 +53,6 @@ msgstr ""
 "کنید."
 
 #: ../../tutorial/introduction.rst:23
-#, fuzzy
 msgid ""
 "Many of the examples in this manual, even those entered at the interactive "
 "prompt, include comments.  Comments in Python start with the hash character,"
@@ -76,12 +71,10 @@ msgstr ""
 "شوند."
 
 #: ../../tutorial/introduction.rst:31
-#, fuzzy
 msgid "Some examples::"
 msgstr "برخی از مثال ها::"
 
 #: ../../tutorial/introduction.rst:33
-#, fuzzy
 msgid ""
 "# this is the first comment\n"
 "spam = 1  # and this is the second comment\n"
@@ -94,12 +87,10 @@ msgstr ""
 "text = \"# This is not a comment because it's inside quotes.\""
 
 #: ../../tutorial/introduction.rst:42
-#, fuzzy
 msgid "Using Python as a Calculator"
 msgstr "استفاده از پایتون به عنوان یک ماشین حساب"
 
 #: ../../tutorial/introduction.rst:44
-#, fuzzy
 msgid ""
 "Let's try some simple Python commands.  Start the interpreter and wait for "
 "the primary prompt, ``>>>``.  (It shouldn't take long.)"
@@ -108,12 +99,10 @@ msgstr ""
 "اعلان اولیه، ``>>>`` بمانید. (نباید زمان زیادی ببرد.)"
 
 #: ../../tutorial/introduction.rst:51
-#, fuzzy
 msgid "Numbers"
 msgstr "اعداد"
 
 #: ../../tutorial/introduction.rst:53
-#, fuzzy
 msgid ""
 "The interpreter acts as a simple calculator: you can type an expression at "
 "it and it will write the value.  Expression syntax is straightforward: the "
@@ -126,7 +115,6 @@ msgstr ""
 "پرانتزها (``()``) می توانند برای گروه بندی به کار روند. برای مثال:"
 
 #: ../../tutorial/introduction.rst:59
-#, fuzzy
 msgid ""
 ">>> 2 + 2\n"
 "4\n"
@@ -147,7 +135,6 @@ msgstr ""
 "1.6"
 
 #: ../../tutorial/introduction.rst:68
-#, fuzzy
 msgid ""
 "The integer numbers (e.g. ``2``, ``4``, ``20``) have type :class:`int`, the "
 "ones with a fractional part (e.g. ``5.0``, ``1.6``) have type "
@@ -158,7 +145,6 @@ msgstr ""
 " ادامه آموزش، بیشتر درباره انواع عددی صحبت خواهیم کرد."
 
 #: ../../tutorial/introduction.rst:72
-#, fuzzy
 msgid ""
 "Division (``/``) always returns a float.  To do :term:`floor division` and "
 "get an integer result you can use the ``//`` operator; to calculate the "
@@ -169,7 +155,6 @@ msgstr ""
 "برای محاسبه باقیمانده می توانید از ``%`` استفاده کنید::"
 
 #: ../../tutorial/introduction.rst:76
-#, fuzzy
 msgid ""
 ">>> 17 / 3  # classic division returns a float\n"
 "5.666666666666667\n"
@@ -192,7 +177,6 @@ msgstr ""
 "17"
 
 #: ../../tutorial/introduction.rst:86
-#, fuzzy
 msgid ""
 "With Python, it is possible to use the ``**`` operator to calculate powers "
 "[#]_::"
@@ -201,7 +185,6 @@ msgstr ""
 " [#]_:"
 
 #: ../../tutorial/introduction.rst:88
-#, fuzzy
 msgid ""
 ">>> 5 ** 2  # 5 squared\n"
 "25\n"
@@ -214,7 +197,6 @@ msgstr ""
 "128"
 
 #: ../../tutorial/introduction.rst:93
-#, fuzzy
 msgid ""
 "The equal sign (``=``) is used to assign a value to a variable. Afterwards, "
 "no result is displayed before the next interactive prompt::"
@@ -223,7 +205,6 @@ msgstr ""
 " از آن، هیچ نتیجه ای قبل از اعلان تعاملی بعدی نمایش داده نمی شود::"
 
 #: ../../tutorial/introduction.rst:96
-#, fuzzy
 msgid ""
 ">>> width = 20\n"
 ">>> height = 5 * 9\n"
@@ -236,7 +217,6 @@ msgstr ""
 "900"
 
 #: ../../tutorial/introduction.rst:101
-#, fuzzy
 msgid ""
 "If a variable is not \"defined\" (assigned a value), trying to use it will "
 "give you an error::"
@@ -245,7 +225,6 @@ msgstr ""
 "برای استفاده از آن به شما یک خطا می دهد:"
 
 #: ../../tutorial/introduction.rst:104
-#, fuzzy
 msgid ""
 ">>> n  # try to access an undefined variable\n"
 "Traceback (most recent call last):\n"
@@ -258,7 +237,6 @@ msgstr ""
 "NameError: name 'n' is not defined"
 
 #: ../../tutorial/introduction.rst:109
-#, fuzzy
 msgid ""
 "There is full support for floating point; operators with mixed type operands"
 " convert the integer operand to floating point::"
@@ -267,7 +245,6 @@ msgstr ""
 " مختلف کار می کنند، عملوند صحیح را به عدد اعشاری تبدیل می کنند::"
 
 #: ../../tutorial/introduction.rst:112
-#, fuzzy
 msgid ""
 ">>> 4 * 3.75 - 1\n"
 "14.0"
@@ -276,7 +253,6 @@ msgstr ""
 "14.0"
 
 #: ../../tutorial/introduction.rst:115
-#, fuzzy
 msgid ""
 "In interactive mode, the last printed expression is assigned to the variable"
 " ``_``.  This means that when you are using Python as a desk calculator, it "
@@ -287,7 +263,6 @@ msgstr ""
 "کنید، ادامه محاسبات تا حدی آسان تر است، به عنوان مثال:"
 
 #: ../../tutorial/introduction.rst:119
-#, fuzzy
 msgid ""
 ">>> tax = 12.5 / 100\n"
 ">>> price = 100.50\n"
@@ -308,7 +283,6 @@ msgstr ""
 "113.06"
 
 #: ../../tutorial/introduction.rst:128
-#, fuzzy
 msgid ""
 "This variable should be treated as read-only by the user.  Don't explicitly "
 "assign a value to it --- you would create an independent local variable with"
@@ -319,7 +293,6 @@ msgstr ""
 "ایجاد می کنید که متغیر داخلی با رفتار خاصش را مخفی می کند."
 
 #: ../../tutorial/introduction.rst:132
-#, fuzzy
 msgid ""
 "In addition to :class:`int` and :class:`float`, Python supports other types "
 "of numbers, such as :class:`~decimal.Decimal` and "
@@ -334,12 +307,10 @@ msgstr ""
 " استفاده می کند (مثلاً ``3+5j``)."
 
 #: ../../tutorial/introduction.rst:142
-#, fuzzy
 msgid "Text"
 msgstr "متن"
 
 #: ../../tutorial/introduction.rst:144
-#, fuzzy
 msgid ""
 "Python can manipulate text (represented by type :class:`str`, so-called "
 "\"strings\") as well as numbers.  This includes characters \"``!``\", words "
@@ -354,7 +325,6 @@ msgstr ""
 "گیومه های دوتایی (``\"...\"``) قرار گیرند و نتیجه یکسانی داشته باشند [#]_."
 
 #: ../../tutorial/introduction.rst:157
-#, fuzzy
 msgid ""
 "To quote a quote, we need to \"escape\" it, by preceding it with ``\\``. "
 "Alternatively, we can use the other type of quotation marks::"
@@ -364,7 +334,6 @@ msgstr ""
 "کنیم::"
 
 #: ../../tutorial/introduction.rst:160
-#, fuzzy
 msgid ""
 ">>> 'doesn\\'t'  # use \\' to escape the single quote...\n"
 "\"doesn't\"\n"
@@ -389,7 +358,6 @@ msgstr ""
 "'\"Isn\\'t,\" they said.'"
 
 #: ../../tutorial/introduction.rst:171
-#, fuzzy
 msgid ""
 "In the Python shell, the string definition and output string can look "
 "different.  The :func:`print` function produces a more readable output, by "
@@ -401,7 +369,6 @@ msgstr ""
 "محصورکننده و با چاپ کاراکترهای خاص و فرار شده:"
 
 #: ../../tutorial/introduction.rst:175
-#, fuzzy
 msgid ""
 ">>> s = 'First line.\\nSecond line.'  # \\n means newline\n"
 ">>> s  # without print(), special characters are included in the string\n"
@@ -418,7 +385,6 @@ msgstr ""
 "دومین خط."
 
 #: ../../tutorial/introduction.rst:182
-#, fuzzy
 msgid ""
 "If you don't want characters prefaced by ``\\`` to be interpreted as special"
 " characters, you can use *raw strings* by adding an ``r`` before the first "
@@ -429,7 +395,6 @@ msgstr ""
 "اولین نقل قول استفاده کنید::"
 
 #: ../../tutorial/introduction.rst:186
-#, fuzzy
 msgid ""
 ">>> print('C:\\some\\name')  # here \\n means newline!\n"
 "C:\\some\n"
@@ -444,7 +409,6 @@ msgstr ""
 "C:\\some\\name"
 
 #: ../../tutorial/introduction.rst:192
-#, fuzzy
 msgid ""
 "There is one subtle aspect to raw strings: a raw string may not end in an "
 "odd number of ``\\`` characters; see :ref:`the FAQ entry <faq-programming-"
@@ -455,7 +419,6 @@ msgstr ""
 ":ref:`the FAQ entry <faq-programming-raw-string-backslash>` مراجعه کنید."
 
 #: ../../tutorial/introduction.rst:197
-#, fuzzy
 msgid ""
 "String literals can span multiple lines.  One way is using triple-quotes: "
 "``\"\"\"...\"\"\"`` or ``'''...'''``.  End-of-line characters are "
@@ -469,7 +432,6 @@ msgstr ""
 " توان از این کار جلوگیری کرد. در مثال زیر، خط جدید اولیه گنجانده نشده است::"
 
 #: ../../tutorial/introduction.rst:203
-#, fuzzy
 msgid ""
 ">>> print(\"\"\"\\\n"
 "... Usage: thingy [OPTIONS]\n"
@@ -494,7 +456,6 @@ msgstr ""
 ">>>"
 
 #: ../../tutorial/introduction.rst:214
-#, fuzzy
 msgid ""
 "Strings can be concatenated (glued together) with the ``+`` operator, and "
 "repeated with ``*``::"
@@ -502,7 +463,6 @@ msgstr ""
 "رشته ها می توانند با عملگر ``+`` به هم متصل شوند و با ``*`` تکرار شوند::"
 
 #: ../../tutorial/introduction.rst:217
-#, fuzzy
 msgid ""
 ">>> # 3 times 'un', followed by 'ium'\n"
 ">>> 3 * 'un' + 'ium'\n"
@@ -513,7 +473,6 @@ msgstr ""
 "'unununium'"
 
 #: ../../tutorial/introduction.rst:221
-#, fuzzy
 msgid ""
 "Two or more *string literals* (i.e. the ones enclosed between quotes) next "
 "to each other are automatically concatenated. ::"
@@ -522,7 +481,6 @@ msgstr ""
 "اند) که کنار هم هستند به صورت خودکار با یکدیگر ترکیب می شوند. ::"
 
 #: ../../tutorial/introduction.rst:224
-#, fuzzy
 msgid ""
 ">>> 'Py' 'thon'\n"
 "'Python'"
@@ -531,14 +489,12 @@ msgstr ""
 "'Python'"
 
 #: ../../tutorial/introduction.rst:227
-#, fuzzy
 msgid ""
 "This feature is particularly useful when you want to break long strings::"
 msgstr ""
 "این ویژگی به ویژه زمانی مفید است که می خواهید رشته های طولانی را بشکنید::"
 
 #: ../../tutorial/introduction.rst:229
-#, fuzzy
 msgid ""
 ">>> text = ('Put several strings within parentheses '\n"
 "...         'to have them joined together.')\n"
@@ -551,14 +507,12 @@ msgstr ""
 "'Put several strings within parentheses to have them joined together.'"
 
 #: ../../tutorial/introduction.rst:234
-#, fuzzy
 msgid ""
 "This only works with two literals though, not with variables or "
 "expressions::"
 msgstr "این تنها با دو مقدار ثابت کار می کند، نه با متغیرها یا عبارات::"
 
 #: ../../tutorial/introduction.rst:236
-#, fuzzy
 msgid ""
 ">>> prefix = 'Py'\n"
 ">>> prefix 'thon'  # can't concatenate a variable and a string literal\n"
@@ -585,7 +539,6 @@ msgstr ""
 "SyntaxError: invalid syntax"
 
 #: ../../tutorial/introduction.rst:248
-#, fuzzy
 msgid ""
 "If you want to concatenate variables or a variable and a literal, use "
 "``+``::"
@@ -594,7 +547,6 @@ msgstr ""
 "``+`` استفاده کنید::"
 
 #: ../../tutorial/introduction.rst:250
-#, fuzzy
 msgid ""
 ">>> prefix + 'thon'\n"
 "'Python'"
@@ -603,7 +555,6 @@ msgstr ""
 "'Python'"
 
 #: ../../tutorial/introduction.rst:253
-#, fuzzy
 msgid ""
 "Strings can be *indexed* (subscripted), with the first character having "
 "index 0. There is no separate character type; a character is simply a string"
@@ -614,7 +565,6 @@ msgstr ""
 " یک رشته با اندازه یک است::"
 
 #: ../../tutorial/introduction.rst:257
-#, fuzzy
 msgid ""
 ">>> word = 'Python'\n"
 ">>> word[0]  # character in position 0\n"
@@ -629,7 +579,6 @@ msgstr ""
 "'n'"
 
 #: ../../tutorial/introduction.rst:263
-#, fuzzy
 msgid ""
 "Indices may also be negative numbers, to start counting from the right::"
 msgstr ""
@@ -637,7 +586,6 @@ msgstr ""
 "کنند::"
 
 #: ../../tutorial/introduction.rst:265
-#, fuzzy
 msgid ""
 ">>> word[-1]  # last character\n"
 "'n'\n"
@@ -654,14 +602,12 @@ msgstr ""
 "'P'"
 
 #: ../../tutorial/introduction.rst:272
-#, fuzzy
 msgid "Note that since -0 is the same as 0, negative indices start from -1."
 msgstr ""
 "توجه داشته باشید که از آنجا که -0 با 0 برابر است، اندیس های منفی از -1 شروع "
 "می شوند."
 
 #: ../../tutorial/introduction.rst:274
-#, fuzzy
 msgid ""
 "In addition to indexing, *slicing* is also supported.  While indexing is "
 "used to obtain individual characters, *slicing* allows you to obtain a "
@@ -672,7 +618,6 @@ msgstr ""
 "دهد یک زیربرنامه به دست آورید::"
 
 #: ../../tutorial/introduction.rst:277
-#, fuzzy
 msgid ""
 ">>> word[0:2]  # characters from position 0 (included) to 2 (excluded)\n"
 "'Py'\n"
@@ -685,7 +630,6 @@ msgstr ""
 "'tho'"
 
 #: ../../tutorial/introduction.rst:282
-#, fuzzy
 msgid ""
 "Slice indices have useful defaults; an omitted first index defaults to zero,"
 " an omitted second index defaults to the size of the string being sliced. ::"
@@ -695,7 +639,6 @@ msgstr ""
 "فرض به اندازه ی رشته ای که در حال برش دادن است، تنظیم می شود."
 
 #: ../../tutorial/introduction.rst:285
-#, fuzzy
 msgid ""
 ">>> word[:2]   # character from the beginning to position 2 (excluded)\n"
 "'Py'\n"
@@ -712,7 +655,6 @@ msgstr ""
 "'on'"
 
 #: ../../tutorial/introduction.rst:292
-#, fuzzy
 msgid ""
 "Note how the start is always included, and the end always excluded.  This "
 "makes sure that ``s[:i] + s[i:]`` is always equal to ``s``::"
@@ -721,7 +663,6 @@ msgstr ""
 "موضوع تضمین می کند که ``s[:i] + s[i:]`` همیشه مساوی با ``s`` است::"
 
 #: ../../tutorial/introduction.rst:295
-#, fuzzy
 msgid ""
 ">>> word[:2] + word[2:]\n"
 "'Python'\n"
@@ -734,7 +675,6 @@ msgstr ""
 "'Python'"
 
 #: ../../tutorial/introduction.rst:300
-#, fuzzy
 msgid ""
 "One way to remember how slices work is to think of the indices as pointing "
 "*between* characters, with the left edge of the first character numbered 0. "
@@ -747,7 +687,6 @@ msgstr ""
 "اندیس *n* است، برای مثال:"
 
 #: ../../tutorial/introduction.rst:305
-#, fuzzy
 msgid ""
 " +---+---+---+---+---+---+\n"
 " | P | y | t | h | o | n |\n"
@@ -762,7 +701,6 @@ msgstr ""
 "-6  -5  -4  -3  -2  -1"
 
 #: ../../tutorial/introduction.rst:311
-#, fuzzy
 msgid ""
 "The first row of numbers gives the position of the indices 0...6 in the "
 "string; the second row gives the corresponding negative indices. The slice "
@@ -774,7 +712,6 @@ msgstr ""
 "است که بین لبه های برچسب گذاری شده *i* و *j* قرار دارند."
 
 #: ../../tutorial/introduction.rst:316
-#, fuzzy
 msgid ""
 "For non-negative indices, the length of a slice is the difference of the "
 "indices, if both are within bounds.  For example, the length of "
@@ -784,13 +721,11 @@ msgstr ""
 "هر دو در محدوده باشند. به عنوان مثال، طول ``word[1:3]`` برابر ۲ است."
 
 #: ../../tutorial/introduction.rst:320
-#, fuzzy
 msgid "Attempting to use an index that is too large will result in an error::"
 msgstr ""
 "استفاده از یک اندکس که بیش از حد بزرگ است منجر به ایجاد خطا خواهد شد::"
 
 #: ../../tutorial/introduction.rst:322
-#, fuzzy
 msgid ""
 ">>> word[42]  # the word only has 6 characters\n"
 "Traceback (most recent call last):\n"
@@ -803,7 +738,6 @@ msgstr ""
 "IndexError: string index out of range"
 
 #: ../../tutorial/introduction.rst:327
-#, fuzzy
 msgid ""
 "However, out of range slice indexes are handled gracefully when used for "
 "slicing::"
@@ -812,7 +746,6 @@ msgstr ""
 "به طور ملایم مدیریت می شوند::"
 
 #: ../../tutorial/introduction.rst:330
-#, fuzzy
 msgid ""
 ">>> word[4:42]\n"
 "'on'\n"
@@ -825,7 +758,6 @@ msgstr ""
 "''"
 
 #: ../../tutorial/introduction.rst:335
-#, fuzzy
 msgid ""
 "Python strings cannot be changed --- they are :term:`immutable`. Therefore, "
 "assigning to an indexed position in the string results in an error::"
@@ -834,7 +766,6 @@ msgstr ""
 "بنابراین، تخصیص به یک موقعیت معین در رشته منجر به خطا می شود::"
 
 #: ../../tutorial/introduction.rst:338
-#, fuzzy
 msgid ""
 ">>> word[0] = 'J'\n"
 "Traceback (most recent call last):\n"
@@ -855,12 +786,10 @@ msgstr ""
 "TypeError: 'str' object does not support item assignment"
 
 #: ../../tutorial/introduction.rst:347
-#, fuzzy
 msgid "If you need a different string, you should create a new one::"
 msgstr "اگر به یک رشته متفاوت نیاز دارید، باید یک رشته جدید ایجاد کنید::"
 
 #: ../../tutorial/introduction.rst:349
-#, fuzzy
 msgid ""
 ">>> 'J' + word[1:]\n"
 "'Jython'\n"
@@ -873,12 +802,10 @@ msgstr ""
 "'Pypy'"
 
 #: ../../tutorial/introduction.rst:354
-#, fuzzy
 msgid "The built-in function :func:`len` returns the length of a string::"
 msgstr "تابع داخلی :func:`len` طول یک رشته را برمی گرداند::"
 
 #: ../../tutorial/introduction.rst:356
-#, fuzzy
 msgid ""
 ">>> s = 'supercalifragilisticexpialidocious'\n"
 ">>> len(s)\n"
@@ -889,12 +816,10 @@ msgstr ""
 "34"
 
 #: ../../tutorial/introduction.rst:363
-#, fuzzy
 msgid ":ref:`textseq`"
 msgstr ":ref:`textseq`"
 
 #: ../../tutorial/introduction.rst:364
-#, fuzzy
 msgid ""
 "Strings are examples of *sequence types*, and support the common operations "
 "supported by such types."
@@ -903,12 +828,10 @@ msgstr ""
 " معمول است، پشتیبانی می کنند."
 
 #: ../../tutorial/introduction.rst:367
-#, fuzzy
 msgid ":ref:`string-methods`"
 msgstr ":ref:`string-methods`"
 
 #: ../../tutorial/introduction.rst:368
-#, fuzzy
 msgid ""
 "Strings support a large number of methods for basic transformations and "
 "searching."
@@ -916,32 +839,26 @@ msgstr ""
 "رشته ها از تعداد زیادی متد برای تغییرات پایه ای و جستجو پشتیبانی می کنند."
 
 #: ../../tutorial/introduction.rst:371
-#, fuzzy
 msgid ":ref:`f-strings`"
 msgstr ":ref:`f-strings`"
 
 #: ../../tutorial/introduction.rst:372
-#, fuzzy
 msgid "String literals that have embedded expressions."
 msgstr "رشته های متنی که شامل عبارات تعبیه شده هستند."
 
 #: ../../tutorial/introduction.rst:374
-#, fuzzy
 msgid ":ref:`formatstrings`"
 msgstr ":ref:`formatstrings`"
 
 #: ../../tutorial/introduction.rst:375
-#, fuzzy
 msgid "Information about string formatting with :meth:`str.format`."
 msgstr "اطلاعاتی درباره قالب بندی رشته با :meth:`str.format`."
 
 #: ../../tutorial/introduction.rst:377
-#, fuzzy
 msgid ":ref:`old-string-formatting`"
 msgstr ":ref:`old-string-formatting`"
 
 #: ../../tutorial/introduction.rst:378
-#, fuzzy
 msgid ""
 "The old formatting operations invoked when strings are the left operand of "
 "the ``%`` operator are described in more detail here."
@@ -950,12 +867,10 @@ msgstr ""
 "``%`` هستند، به طور کامل تر در اینجا توضیح داده شده اند."
 
 #: ../../tutorial/introduction.rst:385
-#, fuzzy
 msgid "Lists"
 msgstr "لیست ها"
 
 #: ../../tutorial/introduction.rst:387
-#, fuzzy
 msgid ""
 "Python knows a number of *compound* data types, used to group together other"
 " values.  The most versatile is the *list*, which can be written as a list "
@@ -970,7 +885,6 @@ msgstr ""
 "از یک نوع هستند."
 
 #: ../../tutorial/introduction.rst:392
-#, fuzzy
 msgid ""
 ">>> squares = [1, 4, 9, 16, 25]\n"
 ">>> squares\n"
@@ -981,7 +895,6 @@ msgstr ""
 "[1, 4, 9, 16, 25]"
 
 #: ../../tutorial/introduction.rst:396
-#, fuzzy
 msgid ""
 "Like strings (and all other built-in :term:`sequence` types), lists can be "
 "indexed and sliced::"
@@ -990,7 +903,6 @@ msgstr ""
 "فهرست بندی و برش داد::"
 
 #: ../../tutorial/introduction.rst:399
-#, fuzzy
 msgid ""
 ">>> squares[0]  # indexing returns the item\n"
 "1\n"
@@ -1007,12 +919,10 @@ msgstr ""
 "[9, 16, 25]"
 
 #: ../../tutorial/introduction.rst:406
-#, fuzzy
 msgid "Lists also support operations like concatenation::"
 msgstr "لیست ها همچنین عملیات هایی مانند الحاق را پشتیبانی می کنند::"
 
 #: ../../tutorial/introduction.rst:408
-#, fuzzy
 msgid ""
 ">>> squares + [36, 49, 64, 81, 100]\n"
 "[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]"
@@ -1021,7 +931,6 @@ msgstr ""
 "[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]"
 
 #: ../../tutorial/introduction.rst:411
-#, fuzzy
 msgid ""
 "Unlike strings, which are :term:`immutable`, lists are a :term:`mutable` "
 "type, i.e. it is possible to change their content::"
@@ -1030,7 +939,6 @@ msgstr ""
 "هستند، به این معنی که امکان تغییر محتوای آن ها وجود دارد::"
 
 #: ../../tutorial/introduction.rst:414
-#, fuzzy
 msgid ""
 ">>> cubes = [1, 8, 27, 65, 125]  # something's wrong here\n"
 ">>> 4 ** 3  # the cube of 4 is 64, not 65!\n"
@@ -1047,7 +955,6 @@ msgstr ""
 "[1, 8, 27, 64, 125]"
 
 #: ../../tutorial/introduction.rst:421
-#, fuzzy
 msgid ""
 "You can also add new items at the end of the list, by using the "
 ":meth:`!list.append` *method* (we will see more about methods later)::"
@@ -1056,7 +963,6 @@ msgstr ""
 ":meth:`!list.append` *method* (ما بعداً بیشتر در مورد متدها خواهیم دید)::"
 
 #: ../../tutorial/introduction.rst:424
-#, fuzzy
 msgid ""
 ">>> cubes.append(216)  # add the cube of 6\n"
 ">>> cubes.append(7 ** 3)  # and the cube of 7\n"
@@ -1069,7 +975,6 @@ msgstr ""
 "[1, 8, 27, 64, 125, 216, 343]"
 
 #: ../../tutorial/introduction.rst:429
-#, fuzzy
 msgid ""
 "Simple assignment in Python never copies data. When you assign a list to a "
 "variable, the variable refers to the *existing list*. Any changes you make "
@@ -1082,7 +987,6 @@ msgstr ""
 "اشاره دارند دیده می شود."
 
 #: ../../tutorial/introduction.rst:434
-#, fuzzy
 msgid ""
 ">>> rgb = [\"Red\", \"Green\", \"Blue\"]\n"
 ">>> rgba = rgb\n"
@@ -1101,7 +1005,6 @@ msgstr ""
 "[\"Red\", \"Green\", \"Blue\", \"Alph\"]"
 
 #: ../../tutorial/introduction.rst:442
-#, fuzzy
 msgid ""
 "All slice operations return a new list containing the requested elements.  "
 "This means that the following slice returns a :ref:`shallow copy "
@@ -1112,7 +1015,6 @@ msgstr ""
 " را بر می گرداند::"
 
 #: ../../tutorial/introduction.rst:446
-#, fuzzy
 msgid ""
 ">>> correct_rgba = rgba[:]\n"
 ">>> correct_rgba[-1] = \"Alpha\"\n"
@@ -1129,7 +1031,6 @@ msgstr ""
 "[\"Red\", \"Green\", \"Blue\", \"Alph\"]"
 
 #: ../../tutorial/introduction.rst:453
-#, fuzzy
 msgid ""
 "Assignment to slices is also possible, and this can even change the size of "
 "the list or clear it entirely::"
@@ -1138,7 +1039,6 @@ msgstr ""
 "آن را به طور کامل خالی کند:"
 
 #: ../../tutorial/introduction.rst:456
-#, fuzzy
 msgid ""
 ">>> letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']\n"
 ">>> letters\n"
@@ -1173,12 +1073,10 @@ msgstr ""
 "[]"
 
 #: ../../tutorial/introduction.rst:472
-#, fuzzy
 msgid "The built-in function :func:`len` also applies to lists::"
 msgstr "تابع داخلی :func:`len` همچنین برای لیست ها نیز اعمال می شود::"
 
 #: ../../tutorial/introduction.rst:474
-#, fuzzy
 msgid ""
 ">>> letters = ['a', 'b', 'c', 'd']\n"
 ">>> len(letters)\n"
@@ -1189,7 +1087,6 @@ msgstr ""
 "4"
 
 #: ../../tutorial/introduction.rst:478
-#, fuzzy
 msgid ""
 "It is possible to nest lists (create lists containing other lists), for "
 "example::"
@@ -1198,7 +1095,6 @@ msgstr ""
 "دیگر باشند)، به عنوان مثال:"
 
 #: ../../tutorial/introduction.rst:481
-#, fuzzy
 msgid ""
 ">>> a = ['a', 'b', 'c']\n"
 ">>> n = [1, 2, 3]\n"
@@ -1221,12 +1117,10 @@ msgstr ""
 "'b'"
 
 #: ../../tutorial/introduction.rst:494
-#, fuzzy
 msgid "First Steps Towards Programming"
 msgstr "اولین گام ها به سوی برنامه نویسی"
 
 #: ../../tutorial/introduction.rst:496
-#, fuzzy
 msgid ""
 "Of course, we can use Python for more complicated tasks than adding two and "
 "two together.  For instance, we can write an initial sub-sequence of the "
@@ -1239,7 +1133,6 @@ msgstr ""
 "بنویسیم::"
 
 #: ../../tutorial/introduction.rst:501
-#, fuzzy
 msgid ""
 ">>> # Fibonacci series:\n"
 ">>> # the sum of two elements defines the next\n"
@@ -1272,12 +1165,10 @@ msgstr ""
 "8"
 
 #: ../../tutorial/introduction.rst:516
-#, fuzzy
 msgid "This example introduces several new features."
 msgstr "این مثال چند ویژگی جدید را معرفی می کند."
 
 #: ../../tutorial/introduction.rst:518
-#, fuzzy
 msgid ""
 "The first line contains a *multiple assignment*: the variables ``a`` and "
 "``b`` simultaneously get the new values 0 and 1.  On the last line this is "
@@ -1292,7 +1183,6 @@ msgstr ""
 "راست ارزیابی می شوند."
 
 #: ../../tutorial/introduction.rst:524
-#, fuzzy
 msgid ""
 "The :keyword:`while` loop executes as long as the condition (here: ``a < "
 "10``) remains true.  In Python, like in C, any non-zero integer value is "
@@ -1313,7 +1203,6 @@ msgstr ""
 "(نامساوی)."
 
 #: ../../tutorial/introduction.rst:533
-#, fuzzy
 msgid ""
 "The *body* of the loop is *indented*: indentation is Python's way of "
 "grouping statements.  At the interactive prompt, you have to type a tab or "
@@ -1334,7 +1223,6 @@ msgstr ""
 " بلوک پایه باید به همان میزان تورفته باشد."
 
 #: ../../tutorial/introduction.rst:542
-#, fuzzy
 msgid ""
 "The :func:`print` function writes the value of the argument(s) it is given. "
 "It differs from just writing the expression you want to write (as we did "
@@ -1351,7 +1239,6 @@ msgstr ""
 "مانند زیر قالب بندی کنید:"
 
 #: ../../tutorial/introduction.rst:549
-#, fuzzy
 msgid ""
 ">>> i = 256*256\n"
 ">>> print('The value of i is', i)\n"
@@ -1362,7 +1249,6 @@ msgstr ""
 "The value of i is 65536"
 
 #: ../../tutorial/introduction.rst:553
-#, fuzzy
 msgid ""
 "The keyword argument *end* can be used to avoid the newline after the "
 "output, or end the output with a different string::"
@@ -1371,7 +1257,6 @@ msgstr ""
 "یا پایان دادن به خروجی با یک رشته متفاوت استفاده شود::"
 
 #: ../../tutorial/introduction.rst:556
-#, fuzzy
 msgid ""
 ">>> a, b = 0, 1\n"
 ">>> while a < 1000:\n"
@@ -1388,12 +1273,10 @@ msgstr ""
 "0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,"
 
 #: ../../tutorial/introduction.rst:565
-#, fuzzy
 msgid "Footnotes"
 msgstr "پانوشت ها"
 
 #: ../../tutorial/introduction.rst:566
-#, fuzzy
 msgid ""
 "Since ``**`` has higher precedence than ``-``, ``-3**2`` will be interpreted"
 " as ``-(3**2)`` and thus result in ``-9``.  To avoid this and get ``9``, you"
@@ -1404,7 +1287,6 @@ msgstr ""
 " و دریافت ``9``، می توانید از ``(-3)**2`` استفاده کنید."
 
 #: ../../tutorial/introduction.rst:570
-#, fuzzy
 msgid ""
 "Unlike other languages, special characters such as ``\\n`` have the same "
 "meaning with both single (``'...'``) and double (``\"...\"``) quotes. The "
@@ -1417,11 +1299,9 @@ msgstr ""
 "``\"`` را Escape کنید (اما باید ``\\'`` را Escape کنید) و بالعکس."
 
 #: ../../tutorial/introduction.rst:21
-#, fuzzy
 msgid "# (hash)"
 msgstr "# (hash)"
 
 #: ../../tutorial/introduction.rst:21
-#, fuzzy
 msgid "comment"
 msgstr "کامنت"

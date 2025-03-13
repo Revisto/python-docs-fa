@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,12 +21,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/errors.rst:5
-#, fuzzy
 msgid "Errors and Exceptions"
 msgstr "Errors and Exceptions"
 
 #: ../../tutorial/errors.rst:7
-#, fuzzy
 msgid ""
 "Until now error messages haven't been more than mentioned, but if you have "
 "tried out the examples you have probably seen some.  There are (at least) "
@@ -38,12 +35,10 @@ msgstr ""
 "قابل تمایز وجود دارد: *syntax errors* و *exceptions*."
 
 #: ../../tutorial/errors.rst:15
-#, fuzzy
 msgid "Syntax Errors"
 msgstr "خطاهای نحوی"
 
 #: ../../tutorial/errors.rst:17
-#, fuzzy
 msgid ""
 "Syntax errors, also known as parsing errors, are perhaps the most common "
 "kind of complaint you get while you are still learning Python::"
@@ -52,7 +47,6 @@ msgstr ""
 " شکایتی هستند که هنگام یادگیری پایتون دریافت می کنید::"
 
 #: ../../tutorial/errors.rst:20
-#, fuzzy
 msgid ""
 ">>> while True print('Hello world')\n"
 "  File \"<stdin>\", line 1\n"
@@ -67,7 +61,6 @@ msgstr ""
 "SyntaxError: syntax نامعتبر"
 
 #: ../../tutorial/errors.rst:26
-#, fuzzy
 msgid ""
 "The parser repeats the offending line and displays little arrows pointing at"
 " the token in the line where the error was detected.  The error may be "
@@ -84,12 +77,10 @@ msgstr ""
 "باید بررسی کنید، در صورتی که ورودی از یک اسکریپت آمده باشد."
 
 #: ../../tutorial/errors.rst:37
-#, fuzzy
 msgid "Exceptions"
 msgstr "استثناء ها"
 
 #: ../../tutorial/errors.rst:39
-#, fuzzy
 msgid ""
 "Even if a statement or expression is syntactically correct, it may cause an "
 "error when an attempt is made to execute it. Errors detected during "
@@ -106,7 +97,6 @@ msgstr ""
 "همانطور که اینجا نمایش داده شده است::"
 
 #: ../../tutorial/errors.rst:45
-#, fuzzy
 msgid ""
 ">>> 10 * (1/0)\n"
 "Traceback (most recent call last):\n"
@@ -147,7 +137,6 @@ msgstr ""
 "TypeError: can only concatenate str (not \"int\") to str"
 
 #: ../../tutorial/errors.rst:64
-#, fuzzy
 msgid ""
 "The last line of the error message indicates what happened. Exceptions come "
 "in different types, and the type is printed as part of the message: the "
@@ -168,7 +157,6 @@ msgstr ""
 " کلیدی رزرو شده)."
 
 #: ../../tutorial/errors.rst:72
-#, fuzzy
 msgid ""
 "The rest of the line provides detail based on the type of exception and what"
 " caused it."
@@ -176,7 +164,6 @@ msgstr ""
 "بقیه خط بر اساس نوع استثنا و چیزی که باعث آن شده است، جزئیات ارائه می دهد."
 
 #: ../../tutorial/errors.rst:75
-#, fuzzy
 msgid ""
 "The preceding part of the error message shows the context where the "
 "exception occurred, in the form of a stack traceback. In general it contains"
@@ -189,7 +176,6 @@ msgstr ""
 "دهد."
 
 #: ../../tutorial/errors.rst:80
-#, fuzzy
 msgid ""
 ":ref:`bltin-exceptions` lists the built-in exceptions and their meanings."
 msgstr ""
@@ -197,12 +183,10 @@ msgstr ""
 "دهد."
 
 #: ../../tutorial/errors.rst:86
-#, fuzzy
 msgid "Handling Exceptions"
 msgstr "مدیریت استثناها"
 
 #: ../../tutorial/errors.rst:88
-#, fuzzy
 msgid ""
 "It is possible to write programs that handle selected exceptions. Look at "
 "the following example, which asks the user for input until a valid integer "
@@ -219,7 +203,6 @@ msgstr ""
 ":exc:`KeyboardInterrupt` اعلام می شود. ::"
 
 #: ../../tutorial/errors.rst:94
-#, fuzzy
 msgid ""
 ">>> while True:\n"
 "...     try:\n"
@@ -238,12 +221,10 @@ msgstr ""
 "..."
 
 #: ../../tutorial/errors.rst:102
-#, fuzzy
 msgid "The :keyword:`try` statement works as follows."
 msgstr "بیانیه :keyword:`try` به صورت زیر کار می کند."
 
 #: ../../tutorial/errors.rst:104
-#, fuzzy
 msgid ""
 "First, the *try clause* (the statement(s) between the :keyword:`try` and "
 ":keyword:`except` keywords) is executed."
@@ -252,7 +233,6 @@ msgstr ""
 ":keyword:`except` قرار دارد) اجرا می شود."
 
 #: ../../tutorial/errors.rst:107
-#, fuzzy
 msgid ""
 "If no exception occurs, the *except clause* is skipped and execution of the "
 ":keyword:`try` statement is finished."
@@ -261,7 +241,6 @@ msgstr ""
 ":keyword:`try` به پایان می رسد."
 
 #: ../../tutorial/errors.rst:110
-#, fuzzy
 msgid ""
 "If an exception occurs during execution of the :keyword:`try` clause, the "
 "rest of the clause is skipped.  Then, if its type matches the exception "
@@ -274,7 +253,6 @@ msgstr ""
 " برنامه بعد از بلوک try/except ادامه می یابد."
 
 #: ../../tutorial/errors.rst:115
-#, fuzzy
 msgid ""
 "If an exception occurs which does not match the exception named in the "
 "*except clause*, it is passed on to outer :keyword:`try` statements; if no "
@@ -287,7 +265,6 @@ msgstr ""
 " می شود."
 
 #: ../../tutorial/errors.rst:119
-#, fuzzy
 msgid ""
 "A :keyword:`try` statement may have more than one *except clause*, to "
 "specify handlers for different exceptions.  At most one handler will be "
@@ -304,7 +281,6 @@ msgstr ""
 "ببرد، برای مثال::"
 
 #: ../../tutorial/errors.rst:125
-#, fuzzy
 msgid ""
 "... except (RuntimeError, TypeError, NameError):\n"
 "...     pass"
@@ -313,7 +289,6 @@ msgstr ""
 "...     عبور"
 
 #: ../../tutorial/errors.rst:128
-#, fuzzy
 msgid ""
 "A class in an :keyword:`except` clause matches exceptions which are "
 "instances of the class itself or one of its derived classes (but not the "
@@ -328,7 +303,6 @@ msgstr ""
 "خواهد کرد::"
 
 #: ../../tutorial/errors.rst:133
-#, fuzzy
 msgid ""
 "class B(Exception):\n"
 "    pass\n"
@@ -369,7 +343,6 @@ msgstr ""
 "        print(\"B\")"
 
 #: ../../tutorial/errors.rst:152
-#, fuzzy
 msgid ""
 "Note that if the *except clauses* were reversed (with ``except B`` first), "
 "it would have printed B, B, B --- the first matching *except clause* is "
@@ -380,7 +353,6 @@ msgstr ""
 "فعال می شود."
 
 #: ../../tutorial/errors.rst:155
-#, fuzzy
 msgid ""
 "When an exception occurs, it may have associated values, also known as the "
 "exception's *arguments*. The presence and types of the arguments depend on "
@@ -391,7 +363,6 @@ msgstr ""
 "بستگی دارد."
 
 #: ../../tutorial/errors.rst:159
-#, fuzzy
 msgid ""
 "The *except clause* may specify a variable after the exception name.  The "
 "variable is bound to the exception instance which typically has an ``args`` "
@@ -405,7 +376,6 @@ msgstr ""
 "تعریف می کنند تا همه آرگومان ها را بدون دسترسی صریح به ``.args`` چاپ کند.::"
 
 #: ../../tutorial/errors.rst:165
-#, fuzzy
 msgid ""
 ">>> try:\n"
 "...     raise Exception('spam', 'eggs')\n"
@@ -442,7 +412,6 @@ msgstr ""
 "y = eggs"
 
 #: ../../tutorial/errors.rst:182
-#, fuzzy
 msgid ""
 "The exception's :meth:`~object.__str__` output is printed as the last part "
 "('detail') of the message for unhandled exceptions."
@@ -451,7 +420,6 @@ msgstr ""
 "برای استثناهای مدیریت نشده چاپ می شود."
 
 #: ../../tutorial/errors.rst:185
-#, fuzzy
 msgid ""
 ":exc:`BaseException` is the common base class of all exceptions. One of its "
 "subclasses, :exc:`Exception`, is the base class of all the non-fatal "
@@ -470,7 +438,6 @@ msgstr ""
 "متوقف کند."
 
 #: ../../tutorial/errors.rst:193
-#, fuzzy
 msgid ""
 ":exc:`Exception` can be used as a wildcard that catches (almost) everything."
 " However, it is good practice to be as specific as possible with the types "
@@ -483,7 +450,6 @@ msgstr ""
 "غیرمنتظره ای به جلو برود."
 
 #: ../../tutorial/errors.rst:198
-#, fuzzy
 msgid ""
 "The most common pattern for handling :exc:`Exception` is to print or log the"
 " exception and then re-raise it (allowing a caller to handle the exception "
@@ -494,7 +460,6 @@ msgstr ""
 "که به خطا رسیدگی کند)::"
 
 #: ../../tutorial/errors.rst:202
-#, fuzzy
 msgid ""
 "import sys\n"
 "\n"
@@ -525,7 +490,6 @@ msgstr ""
 "    raise"
 
 #: ../../tutorial/errors.rst:216
-#, fuzzy
 msgid ""
 "The :keyword:`try` ... :keyword:`except` statement has an optional *else "
 "clause*, which, when present, must follow all *except clauses*.  It is "
@@ -538,7 +502,6 @@ msgstr ""
 " مثال::"
 
 #: ../../tutorial/errors.rst:221
-#, fuzzy
 msgid ""
 "for arg in sys.argv[1:]:\n"
 "    try:\n"
@@ -559,7 +522,6 @@ msgstr ""
 "        f.close()"
 
 #: ../../tutorial/errors.rst:230
-#, fuzzy
 msgid ""
 "The use of the :keyword:`!else` clause is better than adding additional code"
 " to the :keyword:`try` clause because it avoids accidentally catching an "
@@ -572,7 +534,6 @@ msgstr ""
 "می کند."
 
 #: ../../tutorial/errors.rst:235
-#, fuzzy
 msgid ""
 "Exception handlers do not handle only exceptions that occur immediately in "
 "the *try clause*, but also those that occur inside functions that are called"
@@ -583,7 +544,6 @@ msgstr ""
 "غیرمستقیم) در *try clause* فراخوانده می شوند نیز مدیریت می کنند. برای مثال::"
 
 #: ../../tutorial/errors.rst:239
-#, fuzzy
 msgid ""
 ">>> def this_fails():\n"
 "...     x = 1/0\n"
@@ -606,12 +566,10 @@ msgstr ""
 "Handling run-time error: division by zero"
 
 #: ../../tutorial/errors.rst:253
-#, fuzzy
 msgid "Raising Exceptions"
 msgstr "برخواستن استثنائات"
 
 #: ../../tutorial/errors.rst:255
-#, fuzzy
 msgid ""
 "The :keyword:`raise` statement allows the programmer to force a specified "
 "exception to occur. For example::"
@@ -620,7 +578,6 @@ msgstr ""
 "را وادار به وقوع کند. به عنوان مثال::"
 
 #: ../../tutorial/errors.rst:258
-#, fuzzy
 msgid ""
 ">>> raise NameError('HiThere')\n"
 "Traceback (most recent call last):\n"
@@ -635,7 +592,6 @@ msgstr ""
 "NameError: HiThere"
 
 #: ../../tutorial/errors.rst:264
-#, fuzzy
 msgid ""
 "The sole argument to :keyword:`raise` indicates the exception to be raised. "
 "This must be either an exception instance or an exception class (a class "
@@ -650,12 +606,10 @@ msgstr ""
 "سازنده اش بدون آرگومان نمونه سازی می شود::"
 
 #: ../../tutorial/errors.rst:270
-#, fuzzy
 msgid "raise ValueError  # shorthand for 'raise ValueError()'"
 msgstr "raise ValueError  # shorthand for 'raise ValueError()'"
 
 #: ../../tutorial/errors.rst:272
-#, fuzzy
 msgid ""
 "If you need to determine whether an exception was raised but don't intend to"
 " handle it, a simpler form of the :keyword:`raise` statement allows you to "
@@ -666,7 +620,6 @@ msgstr ""
 "می دهد استثنا را دوباره ایجاد کنید::"
 
 #: ../../tutorial/errors.rst:276
-#, fuzzy
 msgid ""
 ">>> try:\n"
 "...     raise NameError('HiThere')\n"
@@ -693,12 +646,10 @@ msgstr ""
 "NameError: HiThere"
 
 #: ../../tutorial/errors.rst:292
-#, fuzzy
 msgid "Exception Chaining"
 msgstr "زنجیره سازی استثنا ها"
 
 #: ../../tutorial/errors.rst:294
-#, fuzzy
 msgid ""
 "If an unhandled exception occurs inside an :keyword:`except` section, it "
 "will have the exception being handled attached to it and included in the "
@@ -708,7 +659,6 @@ msgstr ""
 "حال پردازش به آن متصل می شود و در پیام خطا درج می گردد::"
 
 #: ../../tutorial/errors.rst:298
-#, fuzzy
 msgid ""
 ">>> try:\n"
 "...     open(\"database.sqlite\")\n"
@@ -747,7 +697,6 @@ msgstr ""
 "RuntimeError: unable to handle error"
 
 #: ../../tutorial/errors.rst:316
-#, fuzzy
 msgid ""
 "To indicate that an exception is a direct consequence of another, the "
 ":keyword:`raise` statement allows an optional :keyword:`from<raise>` "
@@ -758,7 +707,6 @@ msgstr ""
 "دهد::"
 
 #: ../../tutorial/errors.rst:319
-#, fuzzy
 msgid ""
 "# exc must be exception instance or None.\n"
 "raise RuntimeError from exc"
@@ -767,13 +715,11 @@ msgstr ""
 "raise RuntimeError from exc"
 
 #: ../../tutorial/errors.rst:322
-#, fuzzy
 msgid "This can be useful when you are transforming exceptions. For example::"
 msgstr ""
 "این می تواند زمانی که شما در حال تبدیل استثناها هستید مفید باشد. برای مثال::"
 
 #: ../../tutorial/errors.rst:324
-#, fuzzy
 msgid ""
 ">>> def func():\n"
 "...     raise ConnectionError\n"
@@ -820,7 +766,6 @@ msgstr ""
 "RuntimeError: Failed to open database"
 
 #: ../../tutorial/errors.rst:346
-#, fuzzy
 msgid ""
 "It also allows disabling automatic exception chaining using the ``from "
 "None`` idiom::"
@@ -829,7 +774,6 @@ msgstr ""
 "ایدیوم ``from None``::"
 
 #: ../../tutorial/errors.rst:349
-#, fuzzy
 msgid ""
 ">>> try:\n"
 "...     open('database.sqlite')\n"
@@ -852,7 +796,6 @@ msgstr ""
 "RuntimeError"
 
 #: ../../tutorial/errors.rst:359
-#, fuzzy
 msgid ""
 "For more information about chaining mechanics, see :ref:`bltin-exceptions`."
 msgstr ""
@@ -860,12 +803,10 @@ msgstr ""
 "مراجعه کنید."
 
 #: ../../tutorial/errors.rst:365
-#, fuzzy
 msgid "User-defined Exceptions"
 msgstr "استثناهای تعریف شده توسط کاربر"
 
 #: ../../tutorial/errors.rst:367
-#, fuzzy
 msgid ""
 "Programs may name their own exceptions by creating a new exception class "
 "(see :ref:`tut-classes` for more about Python classes).  Exceptions should "
@@ -878,7 +819,6 @@ msgstr ""
 ":exc:`Exception` مشتق شوند."
 
 #: ../../tutorial/errors.rst:371
-#, fuzzy
 msgid ""
 "Exception classes can be defined which do anything any other class can do, "
 "but are usually kept simple, often only offering a number of attributes that"
@@ -891,7 +831,6 @@ msgstr ""
 "درباره خطا استخراج کنند."
 
 #: ../../tutorial/errors.rst:375
-#, fuzzy
 msgid ""
 "Most exceptions are defined with names that end in \"Error\", similar to the"
 " naming of the standard exceptions."
@@ -900,7 +839,6 @@ msgstr ""
 "نام گذاری استثناهای استاندارد."
 
 #: ../../tutorial/errors.rst:378
-#, fuzzy
 msgid ""
 "Many standard modules define their own exceptions to report errors that may "
 "occur in functions they define."
@@ -909,12 +847,10 @@ msgstr ""
 "ممکن است در توابعی که تعریف می کنند رخ دهند را گزارش دهند."
 
 #: ../../tutorial/errors.rst:385
-#, fuzzy
 msgid "Defining Clean-up Actions"
 msgstr "تعریف اقدامات پاکسازی"
 
 #: ../../tutorial/errors.rst:387
-#, fuzzy
 msgid ""
 "The :keyword:`try` statement has another optional clause which is intended "
 "to define clean-up actions that must be executed under all circumstances.  "
@@ -924,7 +860,6 @@ msgstr ""
 "برای پاکسازی است که باید تحت هر شرایطی اجرا شوند. برای مثال::"
 
 #: ../../tutorial/errors.rst:391
-#, fuzzy
 msgid ""
 ">>> try:\n"
 "...     raise KeyboardInterrupt\n"
@@ -949,7 +884,6 @@ msgstr ""
 "KeyboardInterrupt"
 
 #: ../../tutorial/errors.rst:402
-#, fuzzy
 msgid ""
 "If a :keyword:`finally` clause is present, the :keyword:`!finally` clause "
 "will execute as the last task before the :keyword:`try` statement completes."
@@ -964,7 +898,6 @@ msgstr ""
 "قرار می دهند:"
 
 #: ../../tutorial/errors.rst:408
-#, fuzzy
 msgid ""
 "If an exception occurs during execution of the :keyword:`!try` clause, the "
 "exception may be handled by an :keyword:`except` clause. If the exception is"
@@ -977,7 +910,6 @@ msgstr ""
 "شد."
 
 #: ../../tutorial/errors.rst:414
-#, fuzzy
 msgid ""
 "An exception could occur during execution of an :keyword:`!except` or "
 ":keyword:`!else` clause. Again, the exception is re-raised after the "
@@ -988,7 +920,6 @@ msgstr ""
 "شود."
 
 #: ../../tutorial/errors.rst:418
-#, fuzzy
 msgid ""
 "If the :keyword:`!finally` clause executes a :keyword:`break`, "
 ":keyword:`continue` or :keyword:`return` statement, exceptions are not re-"
@@ -998,7 +929,6 @@ msgstr ""
 "یا :keyword:`return` را اجرا کند، استثناها دوباره ایجاد نمی شوند."
 
 #: ../../tutorial/errors.rst:422
-#, fuzzy
 msgid ""
 "If the :keyword:`!try` statement reaches a :keyword:`break`, "
 ":keyword:`continue` or :keyword:`return` statement, the :keyword:`!finally` "
@@ -1011,7 +941,6 @@ msgstr ""
 "خواهد شد."
 
 #: ../../tutorial/errors.rst:428
-#, fuzzy
 msgid ""
 "If a :keyword:`!finally` clause includes a :keyword:`!return` statement, the"
 " returned value will be the one from the :keyword:`!finally` clause's "
@@ -1024,12 +953,10 @@ msgstr ""
 "عبارت :keyword:`!try`."
 
 #: ../../tutorial/errors.rst:434
-#, fuzzy
 msgid "For example::"
 msgstr "برای مثال::"
 
 #: ../../tutorial/errors.rst:436
-#, fuzzy
 msgid ""
 ">>> def bool_return():\n"
 "...     try:\n"
@@ -1050,12 +977,10 @@ msgstr ""
 "False"
 
 #: ../../tutorial/errors.rst:445
-#, fuzzy
 msgid "A more complicated example::"
 msgstr "یک مثال پیچیده تر::"
 
 #: ../../tutorial/errors.rst:447
-#, fuzzy
 msgid ""
 ">>> def divide(x, y):\n"
 "...     try:\n"
@@ -1112,7 +1037,6 @@ msgstr ""
 "TypeError: unsupported operand type(s) for /: 'str' and 'str'"
 
 #: ../../tutorial/errors.rst:474
-#, fuzzy
 msgid ""
 "As you can see, the :keyword:`finally` clause is executed in any event.  The"
 " :exc:`TypeError` raised by dividing two strings is not handled by the "
@@ -1125,7 +1049,6 @@ msgstr ""
 ":keyword:`!finally` دوباره منتشر می شود."
 
 #: ../../tutorial/errors.rst:479
-#, fuzzy
 msgid ""
 "In real world applications, the :keyword:`finally` clause is useful for "
 "releasing external resources (such as files or network connections), "
@@ -1136,12 +1059,10 @@ msgstr ""
 "استفاده از منبع موفقیت آمیز بوده است یا خیر."
 
 #: ../../tutorial/errors.rst:487
-#, fuzzy
 msgid "Predefined Clean-up Actions"
 msgstr "اقدامات پاک سازی از پیش تعریف شده"
 
 #: ../../tutorial/errors.rst:489
-#, fuzzy
 msgid ""
 "Some objects define standard clean-up actions to be undertaken when the "
 "object is no longer needed, regardless of whether or not the operation using"
@@ -1154,7 +1075,6 @@ msgstr ""
 "کند یک فایل را باز کرده و محتوای آن را به صفحه نمایش چاپ کند. ::"
 
 #: ../../tutorial/errors.rst:494
-#, fuzzy
 msgid ""
 "for line in open(\"myfile.txt\"):\n"
 "    print(line, end=\"\")"
@@ -1163,7 +1083,6 @@ msgstr ""
 "    print(line, end=\"\")"
 
 #: ../../tutorial/errors.rst:497
-#, fuzzy
 msgid ""
 "The problem with this code is that it leaves the file open for an "
 "indeterminate amount of time after this part of the code has finished "
@@ -1179,7 +1098,6 @@ msgstr ""
 "همواره به موقع و به درستی پاکسازی می شوند. ::"
 
 #: ../../tutorial/errors.rst:503
-#, fuzzy
 msgid ""
 "with open(\"myfile.txt\") as f:\n"
 "    for line in f:\n"
@@ -1190,7 +1108,6 @@ msgstr ""
 "        print(line, end=\"\")"
 
 #: ../../tutorial/errors.rst:507
-#, fuzzy
 msgid ""
 "After the statement is executed, the file *f* is always closed, even if a "
 "problem was encountered while processing the lines. Objects which, like "
@@ -1202,12 +1119,10 @@ msgstr ""
 "را ارائه می دهند، این را در مستندات خود نشان خواهند داد."
 
 #: ../../tutorial/errors.rst:515
-#, fuzzy
 msgid "Raising and Handling Multiple Unrelated Exceptions"
 msgstr "بالا بردن و مدیریت چندین استثنای نامرتبط"
 
 #: ../../tutorial/errors.rst:517
-#, fuzzy
 msgid ""
 "There are situations where it is necessary to report several exceptions that"
 " have occurred. This is often the case in concurrency frameworks, when "
@@ -1222,7 +1137,6 @@ msgstr ""
 "است."
 
 #: ../../tutorial/errors.rst:523
-#, fuzzy
 msgid ""
 "The builtin :exc:`ExceptionGroup` wraps a list of exception instances so "
 "that they can be raised together. It is an exception itself, so it can be "
@@ -1233,7 +1147,6 @@ msgstr ""
 "بنابراین می توان آن را مانند هر استثنای دیگری گرفت. ::"
 
 #: ../../tutorial/errors.rst:527
-#, fuzzy
 msgid ""
 ">>> def f():\n"
 "...     excs = [OSError('error 1'), SystemError('error 2')]\n"
@@ -1286,7 +1199,6 @@ msgstr ""
 ">>>"
 
 #: ../../tutorial/errors.rst:552
-#, fuzzy
 msgid ""
 "By using ``except*`` instead of ``except``, we can selectively handle only "
 "the exceptions in the group that match a certain type. In the following "
@@ -1302,7 +1214,6 @@ msgstr ""
 "::"
 
 #: ../../tutorial/errors.rst:559
-#, fuzzy
 msgid ""
 ">>> def f():\n"
 "...     raise ExceptionGroup(\n"
@@ -1387,7 +1298,6 @@ msgstr ""
 ">>>"
 
 #: ../../tutorial/errors.rst:600
-#, fuzzy
 msgid ""
 "Note that the exceptions nested in an exception group must be instances, not"
 " types. This is because in practice the exceptions would typically be ones "
@@ -1400,7 +1310,6 @@ msgstr ""
 "اعلام شده اند و روال کار معمولاً به صورت زیر است::"
 
 #: ../../tutorial/errors.rst:605
-#, fuzzy
 msgid ""
 ">>> excs = []\n"
 "... for test in tests:\n"
@@ -1425,12 +1334,10 @@ msgstr ""
 "..."
 
 #: ../../tutorial/errors.rst:620
-#, fuzzy
 msgid "Enriching Exceptions with Notes"
 msgstr "غنی سازی استثناها با یادداشت ها"
 
 #: ../../tutorial/errors.rst:622
-#, fuzzy
 msgid ""
 "When an exception is created in order to be raised, it is usually "
 "initialized with information that describes the error that has occurred. "
@@ -1448,7 +1355,6 @@ msgstr ""
 "یادداشت ها، به ترتیبی که اضافه شده اند، بعد از استثناء می باشد. ::"
 
 #: ../../tutorial/errors.rst:629
-#, fuzzy
 msgid ""
 ">>> try:\n"
 "...     raise TypeError('bad type')\n"
@@ -1481,7 +1387,6 @@ msgstr ""
 ">>>"
 
 #: ../../tutorial/errors.rst:644
-#, fuzzy
 msgid ""
 "For example, when collecting exceptions into an exception group, we may want"
 " to add context information for the individual errors. In the following each"
@@ -1494,7 +1399,6 @@ msgstr ""
 " ::"
 
 #: ../../tutorial/errors.rst:648
-#, fuzzy
 msgid ""
 ">>> def f():\n"
 "...     raise OSError('operation failed')\n"

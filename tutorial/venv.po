@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,17 +21,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/venv.rst:6
-#, fuzzy
 msgid "Virtual Environments and Packages"
 msgstr "محیط های مجازی و پکیج ها"
 
 #: ../../tutorial/venv.rst:9
-#, fuzzy
 msgid "Introduction"
 msgstr "مقدمه"
 
 #: ../../tutorial/venv.rst:11
-#, fuzzy
 msgid ""
 "Python applications will often use packages and modules that don't come as "
 "part of the standard library.  Applications will sometimes need a specific "
@@ -47,7 +43,6 @@ msgstr ""
 "کتابخانه نوشته شده باشد."
 
 #: ../../tutorial/venv.rst:17
-#, fuzzy
 msgid ""
 "This means it may not be possible for one Python installation to meet the "
 "requirements of every application.  If application A needs version 1.0 of a "
@@ -62,7 +57,6 @@ msgstr ""
 "شود."
 
 #: ../../tutorial/venv.rst:23
-#, fuzzy
 msgid ""
 "The solution for this problem is to create a :term:`virtual environment`, a "
 "self-contained directory tree that contains a Python installation for a "
@@ -73,7 +67,6 @@ msgstr ""
 "اضافی می باشد."
 
 #: ../../tutorial/venv.rst:27
-#, fuzzy
 msgid ""
 "Different applications can then use different virtual environments. To "
 "resolve the earlier example of conflicting requirements, application A can "
@@ -89,12 +82,10 @@ msgstr ""
 "موضوع بر محیط برنامه A تأثیری نخواهد داشت."
 
 #: ../../tutorial/venv.rst:36
-#, fuzzy
 msgid "Creating Virtual Environments"
 msgstr "ایجاد محیط های مجازی"
 
 #: ../../tutorial/venv.rst:38
-#, fuzzy
 msgid ""
 "The module used to create and manage virtual environments is called "
 ":mod:`venv`.  :mod:`venv` will install the Python version from which the "
@@ -108,7 +99,6 @@ msgstr ""
 "فرمان با ``python3.12`` نسخه 3.12 را نصب خواهد کرد."
 
 #: ../../tutorial/venv.rst:44
-#, fuzzy
 msgid ""
 "To create a virtual environment, decide upon a directory where you want to "
 "place it, and run the :mod:`venv` module as a script with the directory "
@@ -119,12 +109,10 @@ msgstr ""
 " اجرا کنید::"
 
 #: ../../tutorial/venv.rst:47
-#, fuzzy
 msgid "python -m venv tutorial-env"
 msgstr "پایتون -m venv tutorial-env"
 
 #: ../../tutorial/venv.rst:49
-#, fuzzy
 msgid ""
 "This will create the ``tutorial-env`` directory if it doesn't exist, and "
 "also create directories inside it containing a copy of the Python "
@@ -135,7 +123,6 @@ msgstr ""
 " Python و فایل های پشتیبانی مختلف هستند."
 
 #: ../../tutorial/venv.rst:53
-#, fuzzy
 msgid ""
 "A common directory location for a virtual environment is ``.venv``. This "
 "name keeps the directory typically hidden in your shell and thus out of the "
@@ -150,32 +137,26 @@ msgstr ""
 "آن ها پشتیبانی می کنند، جلوگیری می کند."
 
 #: ../../tutorial/venv.rst:59
-#, fuzzy
 msgid "Once you've created a virtual environment, you may activate it."
 msgstr "پس از ایجاد یک محیط مجازی، می توانید آن را فعال کنید."
 
 #: ../../tutorial/venv.rst:61
-#, fuzzy
 msgid "On Windows, run::"
 msgstr "در ویندوز، اجرا کنید::"
 
 #: ../../tutorial/venv.rst:63
-#, fuzzy
 msgid "tutorial-env\\Scripts\\activate"
 msgstr ""
 
 #: ../../tutorial/venv.rst:65
-#, fuzzy
 msgid "On Unix or MacOS, run::"
 msgstr "در Unix یا MacOS، اجرا کنید::"
 
 #: ../../tutorial/venv.rst:67
-#, fuzzy
 msgid "source tutorial-env/bin/activate"
 msgstr "source tutorial-env/bin/activate"
 
 #: ../../tutorial/venv.rst:69
-#, fuzzy
 msgid ""
 "(This script is written for the bash shell.  If you use the :program:`csh` "
 "or :program:`fish` shells, there are alternate ``activate.csh`` and "
@@ -186,7 +167,6 @@ msgstr ""
 "``activate.csh`` و ``activate.fish`` استفاده کنید.)"
 
 #: ../../tutorial/venv.rst:74
-#, fuzzy
 msgid ""
 "Activating the virtual environment will change your shell's prompt to show "
 "what virtual environment you're using, and modify the environment so that "
@@ -198,7 +178,6 @@ msgstr ""
 "نسخه و نصب خاصی از پایتون را برای شما فراهم کند. به عنوان مثال:"
 
 #: ../../tutorial/venv.rst:79
-#, fuzzy
 msgid ""
 "$ source ~/envs/tutorial-env/bin/activate\n"
 "(tutorial-env) $ python\n"
@@ -221,19 +200,16 @@ msgstr ""
 ">>>"
 
 #: ../../tutorial/venv.rst:91
-#, fuzzy
 msgid "To deactivate a virtual environment, type::"
 msgstr "برای غیرفعال کردن یک محیط مجازی، تایپ کنید::"
 
 #: ../../tutorial/venv.rst:93
-#, fuzzy
 msgid "deactivate"
 msgstr ""
 "\n"
 "غیرفعال کردن"
 
 #: ../../tutorial/venv.rst:95
-#, fuzzy
 msgid "into the terminal."
 msgstr ""
 "متغیرهای ``f-string`` در پایتون قابلیت قالب بندی رشته ها را با استفاده از مشخصات ارائه شده در قالب بندی ارائه می دهند. برای استفاده از این ویژگی، قبل از شروع یک رشته با استفاده از یک ``f``، شروع به معرفی یک ``f-string`` می کنیم. مقادیر دلخواه را می توان به راحتی توسط آکولادها محصور کرد که می توانند شامل هر بیان پایتون باشند. برای مثال::\n"
@@ -245,12 +221,10 @@ msgstr ""
 "این ویژگی قالب بندی را می توان برای اکثر اشیاء در پایتون به طور مستقیم استفاده کرد، تنها با اضافه کردن یک رشته قالب بندی مرتب در داخل آکولادها، مانند ``{value:.2f}`` برای قالب بندی اعداد اعشاری با دو رقم اعشار."
 
 #: ../../tutorial/venv.rst:98
-#, fuzzy
 msgid "Managing Packages with pip"
 msgstr "مدیریت بسته ها با استفاده از pip"
 
 #: ../../tutorial/venv.rst:100
-#, fuzzy
 msgid ""
 "You can install, upgrade, and remove packages using a program called "
 ":program:`pip`.  By default ``pip`` will install packages from the `Python "
@@ -263,7 +237,6 @@ msgstr ""
 "به فهرست بسته های پایتون دسترسی پیدا کنید."
 
 #: ../../tutorial/venv.rst:105
-#, fuzzy
 msgid ""
 "``pip`` has a number of subcommands: \"install\", \"uninstall\", \"freeze\","
 " etc.  (Consult the :ref:`installing-index` guide for complete documentation"
@@ -273,14 +246,12 @@ msgstr ""
 " (برای مستندات کامل ``pip`` به راهنمای :ref:`installing-index` مراجعه کنید.)"
 
 #: ../../tutorial/venv.rst:109
-#, fuzzy
 msgid ""
 "You can install the latest version of a package by specifying a package's "
 "name:"
 msgstr "می توانید جدیدترین نسخه یک بسته را با مشخص کردن نام بسته نصب کنید:"
 
 #: ../../tutorial/venv.rst:111
-#, fuzzy
 msgid ""
 "(tutorial-env) $ python -m pip install novas\n"
 "Collecting novas\n"
@@ -297,7 +268,6 @@ msgstr ""
 "Successfully installed novas-3.1.1.3"
 
 #: ../../tutorial/venv.rst:120
-#, fuzzy
 msgid ""
 "You can also install a specific version of a package by giving the package "
 "name  followed by ``==`` and the version number:"
@@ -306,7 +276,6 @@ msgstr ""
 "``==`` و شماره نسخه نصب کنید:"
 
 #: ../../tutorial/venv.rst:123
-#, fuzzy
 msgid ""
 "(tutorial-env) $ python -m pip install requests==2.6.0\n"
 "Collecting requests==2.6.0\n"
@@ -321,7 +290,6 @@ msgstr ""
 "requests-2.6.0 با موفقیت نصب شد"
 
 #: ../../tutorial/venv.rst:131
-#, fuzzy
 msgid ""
 "If you re-run this command, ``pip`` will notice that the requested version "
 "is already installed and do nothing.  You can supply a different version "
@@ -334,7 +302,6 @@ msgstr ""
 "install --upgrade`` بسته را به آخرین نسخه ارتقا دهید:"
 
 #: ../../tutorial/venv.rst:136
-#, fuzzy
 msgid ""
 "(tutorial-env) $ python -m pip install --upgrade requests\n"
 "Collecting requests\n"
@@ -353,7 +320,6 @@ msgstr ""
 "نصب موفقیت آمیز requests-2.7.0"
 
 #: ../../tutorial/venv.rst:146
-#, fuzzy
 msgid ""
 "``python -m pip uninstall`` followed by one or more package names will "
 "remove the packages from the virtual environment."
@@ -362,13 +328,11 @@ msgstr ""
 "بسته ها را از محیط مجازی حذف می کند."
 
 #: ../../tutorial/venv.rst:149
-#, fuzzy
 msgid ""
 "``python -m pip show`` will display information about a particular package:"
 msgstr "``python -m pip show`` اطلاعات مربوط به یک بسته خاص را نمایش می دهد:"
 
 #: ../../tutorial/venv.rst:151
-#, fuzzy
 msgid ""
 "(tutorial-env) $ python -m pip show requests\n"
 "---\n"
@@ -397,7 +361,6 @@ msgstr ""
 "نیازمندی ها:"
 
 #: ../../tutorial/venv.rst:166
-#, fuzzy
 msgid ""
 "``python -m pip list`` will display all of the packages installed in the "
 "virtual environment:"
@@ -405,7 +368,6 @@ msgstr ""
 "``python -m pip list`` تمامی بسته های نصب شده در محیط مجازی را نمایش می دهد:"
 
 #: ../../tutorial/venv.rst:169
-#, fuzzy
 msgid ""
 "(tutorial-env) $ python -m pip list\n"
 "novas (3.1.1.3)\n"
@@ -422,7 +384,6 @@ msgstr ""
 "setuptools (16.0)"
 
 #: ../../tutorial/venv.rst:178
-#, fuzzy
 msgid ""
 "``python -m pip freeze`` will produce a similar list of the installed "
 "packages, but the output uses the format that ``python -m pip install`` "
@@ -434,7 +395,6 @@ msgstr ""
 " که این فهرست را در یک فایل ``requirements.txt`` قرار دهید:"
 
 #: ../../tutorial/venv.rst:182
-#, fuzzy
 msgid ""
 "(tutorial-env) $ python -m pip freeze > requirements.txt\n"
 "(tutorial-env) $ cat requirements.txt\n"
@@ -449,7 +409,6 @@ msgstr ""
 "requests==2.7.0"
 
 #: ../../tutorial/venv.rst:190
-#, fuzzy
 msgid ""
 "The ``requirements.txt`` can then be committed to version control and "
 "shipped as part of an application.  Users can then install all the necessary"
@@ -460,7 +419,6 @@ msgstr ""
 "تمامی بسته های ضروری را نصب کنند:"
 
 #: ../../tutorial/venv.rst:194
-#, fuzzy
 msgid ""
 "(tutorial-env) $ python -m pip install -r requirements.txt\n"
 "Collecting novas==3.1.1.3 (from -r requirements.txt (line 1))\n"
@@ -485,7 +443,6 @@ msgstr ""
 "با موفقیت نصب شد: novas-3.1.1.3 numpy-1.9.2 requests-2.7.0"
 
 #: ../../tutorial/venv.rst:207
-#, fuzzy
 msgid ""
 "``pip`` has many more options.  Consult the :ref:`installing-index` guide "
 "for complete documentation for ``pip``.  When you've written a package and "

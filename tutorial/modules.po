@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,12 +21,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/modules.rst:5
-#, fuzzy
 msgid "Modules"
 msgstr "ماژول ها"
 
 #: ../../tutorial/modules.rst:7
-#, fuzzy
 msgid ""
 "If you quit from the Python interpreter and enter it again, the definitions "
 "you have made (functions and variables) are lost. Therefore, if you want to "
@@ -48,7 +45,6 @@ msgstr ""
 "اید استفاده کنید بدون اینکه تعریف آن را در هر برنامه کپی کنید."
 
 #: ../../tutorial/modules.rst:16
-#, fuzzy
 msgid ""
 "To support this, Python has a way to put definitions in a file and use them "
 "in a script or in an interactive instance of the interpreter. Such a file is"
@@ -64,7 +60,6 @@ msgstr ""
 "دارید)."
 
 #: ../../tutorial/modules.rst:22
-#, fuzzy
 msgid ""
 "A module is a file containing Python definitions and statements.  The file "
 "name is the module name with the suffix :file:`.py` appended.  Within a "
@@ -80,7 +75,6 @@ msgstr ""
 "دایرکتوری جاری با محتوای زیر ایجاد کنید::"
 
 #: ../../tutorial/modules.rst:28
-#, fuzzy
 msgid ""
 "# Fibonacci numbers module\n"
 "\n"
@@ -117,19 +111,16 @@ msgstr ""
 "    return result"
 
 #: ../../tutorial/modules.rst:45
-#, fuzzy
 msgid ""
 "Now enter the Python interpreter and import this module with the following "
 "command::"
 msgstr "حال وارد مفسر پایتون شوید و این ماژول را با فرمان زیر وارد کنید::"
 
 #: ../../tutorial/modules.rst:48
-#, fuzzy
 msgid ">>> import fibo"
 msgstr ">>> import fibo"
 
 #: ../../tutorial/modules.rst:50
-#, fuzzy
 msgid ""
 "This does not add the names of the functions defined in ``fibo``  directly "
 "to the current :term:`namespace` (see :ref:`tut-scopes` for more details); "
@@ -142,7 +133,6 @@ msgstr ""
 "توانید به توابع دسترسی پیدا کنید::"
 
 #: ../../tutorial/modules.rst:55
-#, fuzzy
 msgid ""
 ">>> fibo.fib(1000)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987\n"
@@ -159,7 +149,6 @@ msgstr ""
 "'fibo'"
 
 #: ../../tutorial/modules.rst:62
-#, fuzzy
 msgid ""
 "If you intend to use a function often you can assign it to a local name::"
 msgstr ""
@@ -167,7 +156,6 @@ msgstr ""
 " محلی اختصاص دهید::"
 
 #: ../../tutorial/modules.rst:64
-#, fuzzy
 msgid ""
 ">>> fib = fibo.fib\n"
 ">>> fib(500)\n"
@@ -178,12 +166,10 @@ msgstr ""
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 
 #: ../../tutorial/modules.rst:72
-#, fuzzy
 msgid "More on Modules"
 msgstr "بیشتر در مورد ماژول ها"
 
 #: ../../tutorial/modules.rst:74
-#, fuzzy
 msgid ""
 "A module can contain executable statements as well as function definitions. "
 "These statements are intended to initialize the module. They are executed "
@@ -196,7 +182,6 @@ msgstr ""
 "همچنین اگر فایل به صورت یک اسکریپت اجرا شود, نیز اجرا خواهند شد.)"
 
 #: ../../tutorial/modules.rst:79
-#, fuzzy
 msgid ""
 "Each module has its own private namespace, which is used as the global "
 "namespace by all functions defined in the module. Thus, the author of a "
@@ -213,7 +198,6 @@ msgstr ""
 "متغیرهای سراسری یک ماژول دسترسی پیدا کنید."
 
 #: ../../tutorial/modules.rst:86
-#, fuzzy
 msgid ""
 "Modules can import other modules.  It is customary but not required to place"
 " all :keyword:`import` statements at the beginning of a module (or script, "
@@ -228,7 +212,6 @@ msgstr ""
 "شوند."
 
 #: ../../tutorial/modules.rst:91
-#, fuzzy
 msgid ""
 "There is a variant of the :keyword:`import` statement that imports names "
 "from a module directly into the importing module's namespace.  For example::"
@@ -237,7 +220,6 @@ msgstr ""
 "به فضای نام ماژول واردکننده وارد می کند. برای مثال::"
 
 #: ../../tutorial/modules.rst:94
-#, fuzzy
 msgid ""
 ">>> from fibo import fib, fib2\n"
 ">>> fib(500)\n"
@@ -248,7 +230,6 @@ msgstr ""
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 
 #: ../../tutorial/modules.rst:98
-#, fuzzy
 msgid ""
 "This does not introduce the module name from which the imports are taken in "
 "the local namespace (so in the example, ``fibo`` is not defined)."
@@ -257,14 +238,12 @@ msgstr ""
 "کند (بنابراین در مثال, ``fibo`` تعریف نشده است)."
 
 #: ../../tutorial/modules.rst:101
-#, fuzzy
 msgid "There is even a variant to import all names that a module defines::"
 msgstr ""
 "حتی یک نوع خاص برای وارد کردن تمامی اسامی که یک ماژول تعریف می کند وجود "
 "دارد::"
 
 #: ../../tutorial/modules.rst:103
-#, fuzzy
 msgid ""
 ">>> from fibo import *\n"
 ">>> fib(500)\n"
@@ -275,7 +254,6 @@ msgstr ""
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 
 #: ../../tutorial/modules.rst:107
-#, fuzzy
 msgid ""
 "This imports all names except those beginning with an underscore (``_``). In"
 " most cases Python programmers do not use this facility since it introduces "
@@ -288,7 +266,6 @@ msgstr ""
 " شدن بعضی از چیزهایی شود که شما قبلاً تعریف کرده اید."
 
 #: ../../tutorial/modules.rst:112
-#, fuzzy
 msgid ""
 "Note that in general the practice of importing ``*`` from a module or "
 "package is frowned upon, since it often causes poorly readable code. "
@@ -300,7 +277,6 @@ msgstr ""
 "ندارد."
 
 #: ../../tutorial/modules.rst:116
-#, fuzzy
 msgid ""
 "If the module name is followed by :keyword:`!as`, then the name following "
 ":keyword:`!as` is bound directly to the imported module."
@@ -309,7 +285,6 @@ msgstr ""
 "دنبال می شود به طور مستقیم به ماژول وارد شده متصل می شود."
 
 #: ../../tutorial/modules.rst:121
-#, fuzzy
 msgid ""
 ">>> import fibo as fib\n"
 ">>> fib.fib(500)\n"
@@ -320,7 +295,6 @@ msgstr ""
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 
 #: ../../tutorial/modules.rst:125
-#, fuzzy
 msgid ""
 "This is effectively importing the module in the same way that ``import "
 "fibo`` will do, with the only difference of it being available as ``fib``."
@@ -329,7 +303,6 @@ msgstr ""
 "می کند، با تنها تفاوت آن که به عنوان ``fib`` در دسترس است."
 
 #: ../../tutorial/modules.rst:128
-#, fuzzy
 msgid ""
 "It can also be used when utilising :keyword:`from` with similar effects::"
 msgstr ""
@@ -337,7 +310,6 @@ msgstr ""
 "استفاده قرار گیرد::"
 
 #: ../../tutorial/modules.rst:130
-#, fuzzy
 msgid ""
 ">>> from fibo import fib as fibonacci\n"
 ">>> fibonacci(500)\n"
@@ -348,7 +320,6 @@ msgstr ""
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 
 #: ../../tutorial/modules.rst:137
-#, fuzzy
 msgid ""
 "For efficiency reasons, each module is only imported once per interpreter "
 "session.  Therefore, if you change your modules, you must restart the "
@@ -363,22 +334,18 @@ msgstr ""
 "importlib.reload(modulename)``."
 
 #: ../../tutorial/modules.rst:147
-#, fuzzy
 msgid "Executing modules as scripts"
 msgstr "اجرای ماژول ها به صورت اسکریپت"
 
 #: ../../tutorial/modules.rst:149
-#, fuzzy
 msgid "When you run a Python module with ::"
 msgstr "وقتی یک ماژول پایتون را اجرا می کنید با ::"
 
 #: ../../tutorial/modules.rst:151
-#, fuzzy
 msgid "python fibo.py <arguments>"
 msgstr "python fibo.py <arguments>"
 
 #: ../../tutorial/modules.rst:153
-#, fuzzy
 msgid ""
 "the code in the module will be executed, just as if you imported it, but "
 "with the ``__name__`` set to ``\"__main__\"``.  That means that by adding "
@@ -389,7 +356,6 @@ msgstr ""
 "در انتهای ماژول خود::"
 
 #: ../../tutorial/modules.rst:157
-#, fuzzy
 msgid ""
 "if __name__ == \"__main__\":\n"
 "    import sys\n"
@@ -400,7 +366,6 @@ msgstr ""
 "    fib(int(sys.argv[1]))"
 
 #: ../../tutorial/modules.rst:161
-#, fuzzy
 msgid ""
 "you can make the file usable as a script as well as an importable module, "
 "because the code that parses the command line only runs if the module is "
@@ -412,7 +377,6 @@ msgstr ""
 " شود:"
 
 #: ../../tutorial/modules.rst:165
-#, fuzzy
 msgid ""
 "$ python fibo.py 50\n"
 "0 1 1 2 3 5 8 13 21 34"
@@ -421,12 +385,10 @@ msgstr ""
 "0 1 1 2 3 5 8 13 21 34"
 
 #: ../../tutorial/modules.rst:170
-#, fuzzy
 msgid "If the module is imported, the code is not run::"
 msgstr "اگر ماژول ایمپورت شده باشد، کد اجرا نمی شود::"
 
 #: ../../tutorial/modules.rst:172
-#, fuzzy
 msgid ""
 ">>> import fibo\n"
 ">>>"
@@ -435,7 +397,6 @@ msgstr ""
 ">>>"
 
 #: ../../tutorial/modules.rst:175
-#, fuzzy
 msgid ""
 "This is often used either to provide a convenient user interface to a "
 "module, or for testing purposes (running the module as a script executes a "
@@ -446,12 +407,10 @@ msgstr ""
 "شود."
 
 #: ../../tutorial/modules.rst:182
-#, fuzzy
 msgid "The Module Search Path"
 msgstr "مسیر جستجوی ماژول"
 
 #: ../../tutorial/modules.rst:186
-#, fuzzy
 msgid ""
 "When a module named :mod:`!spam` is imported, the interpreter first searches"
 " for a built-in module with that name. These module names are listed in "
@@ -467,7 +426,6 @@ msgstr ""
 "مقداردهی اولیه می شود:"
 
 #: ../../tutorial/modules.rst:192
-#, fuzzy
 msgid ""
 "The directory containing the input script (or the current directory when no "
 "file is specified)."
@@ -476,7 +434,6 @@ msgstr ""
 "مشخص نشده است)."
 
 #: ../../tutorial/modules.rst:194
-#, fuzzy
 msgid ""
 ":envvar:`PYTHONPATH` (a list of directory names, with the same syntax as the"
 " shell variable :envvar:`PATH`)."
@@ -485,7 +442,6 @@ msgstr ""
 "شِل :envvar:`PATH`)."
 
 #: ../../tutorial/modules.rst:196
-#, fuzzy
 msgid ""
 "The installation-dependent default (by convention including a ``site-"
 "packages`` directory, handled by the :mod:`site` module)."
@@ -494,12 +450,10 @@ msgstr ""
 "توسط ماژول :mod:`site` مدیریت می شود)."
 
 #: ../../tutorial/modules.rst:199
-#, fuzzy
 msgid "More details are at :ref:`sys-path-init`."
 msgstr "جزئیات بیشتر در :ref:`sys-path-init` قرار دارد."
 
 #: ../../tutorial/modules.rst:202
-#, fuzzy
 msgid ""
 "On file systems which support symlinks, the directory containing the input "
 "script is calculated after the symlink is followed. In other words the "
@@ -510,7 +464,6 @@ msgstr ""
 " سیملینک به مسیر جستجوی ماژول اضافه می شود."
 
 #: ../../tutorial/modules.rst:206
-#, fuzzy
 msgid ""
 "After initialization, Python programs can modify :data:`sys.path`.  The "
 "directory containing the script being run is placed at the beginning of the "
@@ -527,12 +480,10 @@ msgstr ""
 " بخش :ref:`tut-standardmodules` مراجعه کنید."
 
 #: ../../tutorial/modules.rst:219
-#, fuzzy
 msgid "\"Compiled\" Python files"
 msgstr "فایل های پایتون \"کامپایل شده\""
 
 #: ../../tutorial/modules.rst:221
-#, fuzzy
 msgid ""
 "To speed up loading modules, Python caches the compiled version of each "
 "module in the ``__pycache__`` directory under the name "
@@ -552,7 +503,6 @@ msgstr ""
 "می دهد که در کنار هم وجود داشته باشند."
 
 #: ../../tutorial/modules.rst:229
-#, fuzzy
 msgid ""
 "Python checks the modification date of the source against the compiled "
 "version to see if it's out of date and needs to be recompiled.  This is a "
@@ -567,7 +517,6 @@ msgstr ""
 "شود."
 
 #: ../../tutorial/modules.rst:234
-#, fuzzy
 msgid ""
 "Python does not check the cache in two circumstances.  First, it always "
 "recompiles and does not store the result for the module that's loaded "
@@ -583,12 +532,10 @@ msgstr ""
 "شده باید در دایرکتوری منبع باشد و نباید ماژول منبعی وجود داشته باشد."
 
 #: ../../tutorial/modules.rst:241
-#, fuzzy
 msgid "Some tips for experts:"
 msgstr "نکاتی برای متخصصان:"
 
 #: ../../tutorial/modules.rst:243
-#, fuzzy
 msgid ""
 "You can use the :option:`-O` or :option:`-OO` switches on the Python command"
 " to reduce the size of a compiled module.  The ``-O`` switch removes assert "
@@ -608,7 +555,6 @@ msgstr ""
 "بهینه سازی را تغییر دهند."
 
 #: ../../tutorial/modules.rst:251
-#, fuzzy
 msgid ""
 "A program doesn't run any faster when it is read from a ``.pyc`` file than "
 "when it is read from a ``.py`` file; the only thing that's faster about "
@@ -619,7 +565,6 @@ msgstr ""
 "``.pyc`` سریع تر است، سرعت بارگذاری آنهاست."
 
 #: ../../tutorial/modules.rst:255
-#, fuzzy
 msgid ""
 "The module :mod:`compileall` can create .pyc files for all modules in a "
 "directory."
@@ -628,7 +573,6 @@ msgstr ""
 "دایرکتوری ایجاد کند."
 
 #: ../../tutorial/modules.rst:258
-#, fuzzy
 msgid ""
 "There is more detail on this process, including a flow chart of the "
 "decisions, in :pep:`3147`."
@@ -637,12 +581,10 @@ msgstr ""
 ":pep:`3147` وجود دارد."
 
 #: ../../tutorial/modules.rst:265
-#, fuzzy
 msgid "Standard Modules"
 msgstr "ماژول های استاندارد"
 
 #: ../../tutorial/modules.rst:269
-#, fuzzy
 msgid ""
 "Python comes with a library of standard modules, described in a separate "
 "document, the Python Library Reference (\"Library Reference\" hereafter).  "
@@ -668,7 +610,6 @@ msgstr ""
 "به عنوان پرامپت اولیه و ثانویه مورد استفاده قرار می گیرند را تعریف می کنند::"
 
 #: ../../tutorial/modules.rst:281
-#, fuzzy
 msgid ""
 ">>> import sys\n"
 ">>> sys.ps1\n"
@@ -691,14 +632,12 @@ msgstr ""
 "C>"
 
 #: ../../tutorial/modules.rst:292
-#, fuzzy
 msgid ""
 "These two variables are only defined if the interpreter is in interactive "
 "mode."
 msgstr "این دو متغیر تنها زمانی تعریف می شوند که مفسر در حالت تعاملی باشد."
 
 #: ../../tutorial/modules.rst:294
-#, fuzzy
 msgid ""
 "The variable ``sys.path`` is a list of strings that determines the "
 "interpreter's search path for modules. It is initialized to a default path "
@@ -713,7 +652,6 @@ msgstr ""
 "استفاده از عملیات استاندارد لیست آن را تغییر دهید::"
 
 #: ../../tutorial/modules.rst:300
-#, fuzzy
 msgid ""
 ">>> import sys\n"
 ">>> sys.path.append('/ufs/guido/lib/python')"
@@ -722,12 +660,10 @@ msgstr ""
 ">>> sys.path.append('/ufs/guido/lib/python')"
 
 #: ../../tutorial/modules.rst:307
-#, fuzzy
 msgid "The :func:`dir` Function"
 msgstr "تابع :func:`dir`"
 
 #: ../../tutorial/modules.rst:309
-#, fuzzy
 msgid ""
 "The built-in function :func:`dir` is used to find out which names a module "
 "defines.  It returns a sorted list of strings::"
@@ -736,7 +672,6 @@ msgstr ""
 "استفاده می شود. این تابع یک لیست مرتب شده از رشته ها را برمی گرداند::"
 
 #: ../../tutorial/modules.rst:312
-#, fuzzy
 msgid ""
 ">>> import fibo, sys\n"
 ">>> dir(fibo)\n"
@@ -791,7 +726,6 @@ msgstr ""
 " 'warnoptions']"
 
 #: ../../tutorial/modules.rst:338
-#, fuzzy
 msgid ""
 "Without arguments, :func:`dir` lists the names you have defined currently::"
 msgstr ""
@@ -799,7 +733,6 @@ msgstr ""
 "کند::"
 
 #: ../../tutorial/modules.rst:340
-#, fuzzy
 msgid ""
 ">>> a = [1, 2, 3, 4, 5]\n"
 ">>> import fibo\n"
@@ -814,7 +747,6 @@ msgstr ""
 "['__builtins__', '__name__', 'a', 'fib', 'fibo', 'sys']"
 
 #: ../../tutorial/modules.rst:346
-#, fuzzy
 msgid ""
 "Note that it lists all types of names: variables, modules, functions, etc."
 msgstr ""
@@ -822,7 +754,6 @@ msgstr ""
 "و غیره."
 
 #: ../../tutorial/modules.rst:350
-#, fuzzy
 msgid ""
 ":func:`dir` does not list the names of built-in functions and variables.  If"
 " you want a list of those, they are defined in the standard module "
@@ -832,7 +763,6 @@ msgstr ""
 " از آن ها هستید، آن ها در ماژول استاندارد :mod:`builtins` تعریف شده اند::"
 
 #: ../../tutorial/modules.rst:354
-#, fuzzy
 msgid ""
 ">>> import builtins\n"
 ">>> dir(builtins)\n"
@@ -899,12 +829,10 @@ msgstr ""
 " 'zip']"
 
 #: ../../tutorial/modules.rst:389
-#, fuzzy
 msgid "Packages"
 msgstr "بسته ها"
 
 #: ../../tutorial/modules.rst:391
-#, fuzzy
 msgid ""
 "Packages are a way of structuring Python's module namespace by using "
 "\"dotted module names\".  For example, the module name :mod:`!A.B` "
@@ -923,7 +851,6 @@ msgstr ""
 "های ماژول یکدیگر بی نیاز می کند."
 
 #: ../../tutorial/modules.rst:399
-#, fuzzy
 msgid ""
 "Suppose you want to design a collection of modules (a \"package\") for the "
 "uniform handling of sound files and sound data.  There are many different "
@@ -950,7 +877,6 @@ msgstr ""
 "است):"
 
 #: ../../tutorial/modules.rst:410
-#, fuzzy
 msgid ""
 "sound/                          Top-level package\n"
 "      __init__.py               Initialize the sound package\n"
@@ -1001,7 +927,6 @@ msgstr ""
 "              ..."
 
 #: ../../tutorial/modules.rst:436
-#, fuzzy
 msgid ""
 "When importing the package, Python searches through the directories on "
 "``sys.path`` looking for the package subdirectory."
@@ -1010,7 +935,6 @@ msgstr ""
 "جستجو می کند تا زیردایرکتوری بسته را پیدا کند."
 
 #: ../../tutorial/modules.rst:439
-#, fuzzy
 msgid ""
 "The :file:`__init__.py` files are required to make Python treat directories "
 "containing the file as packages (unless using a :term:`namespace package`, a"
@@ -1030,7 +954,6 @@ msgstr ""
 "داده خواهد شد ست کند."
 
 #: ../../tutorial/modules.rst:447
-#, fuzzy
 msgid ""
 "Users of the package can import individual modules from the package, for "
 "example::"
@@ -1039,12 +962,10 @@ msgstr ""
 " به عنوان مثال::"
 
 #: ../../tutorial/modules.rst:450
-#, fuzzy
 msgid "import sound.effects.echo"
 msgstr "import sound.effects.echo"
 
 #: ../../tutorial/modules.rst:452
-#, fuzzy
 msgid ""
 "This loads the submodule :mod:`!sound.effects.echo`.  It must be referenced "
 "with its full name. ::"
@@ -1053,22 +974,18 @@ msgstr ""
 " به آن ارجاع داده شود. ::"
 
 #: ../../tutorial/modules.rst:455
-#, fuzzy
 msgid "sound.effects.echo.echofilter(input, output, delay=0.7, atten=4)"
 msgstr "sound.effects.echo.echofilter(input, output, delay=0.7, atten=4)"
 
 #: ../../tutorial/modules.rst:457
-#, fuzzy
 msgid "An alternative way of importing the submodule is::"
 msgstr "راه دیگری برای وارد کردن زیرماژول وجود دارد::"
 
 #: ../../tutorial/modules.rst:459
-#, fuzzy
 msgid "from sound.effects import echo"
 msgstr "from sound.effects import echo"
 
 #: ../../tutorial/modules.rst:461
-#, fuzzy
 msgid ""
 "This also loads the submodule :mod:`!echo`, and makes it available without "
 "its package prefix, so it can be used as follows::"
@@ -1077,12 +994,10 @@ msgstr ""
 "را در دسترس قرار می دهد، بنابراین می توان به صورت زیر از آن استفاده کرد::"
 
 #: ../../tutorial/modules.rst:464
-#, fuzzy
 msgid "echo.echofilter(input, output, delay=0.7, atten=4)"
 msgstr "echo.echofilter(input, output, delay=0.7, atten=4)"
 
 #: ../../tutorial/modules.rst:466
-#, fuzzy
 msgid ""
 "Yet another variation is to import the desired function or variable "
 "directly::"
@@ -1090,12 +1005,10 @@ msgstr ""
 "یک تغییر دیگر این است که تابع یا متغیر مورد نظر را به طور مستقیم وارد کنید::"
 
 #: ../../tutorial/modules.rst:468
-#, fuzzy
 msgid "from sound.effects.echo import echofilter"
 msgstr "from sound.effects.echo import echofilter"
 
 #: ../../tutorial/modules.rst:470
-#, fuzzy
 msgid ""
 "Again, this loads the submodule :mod:`!echo`, but this makes its function "
 ":func:`!echofilter` directly available::"
@@ -1104,12 +1017,10 @@ msgstr ""
 ":func:`!echofilter` به طور مستقیم در دسترس قرار می گیرد::"
 
 #: ../../tutorial/modules.rst:473
-#, fuzzy
 msgid "echofilter(input, output, delay=0.7, atten=4)"
 msgstr "echofilter(input, output, delay=0.7, atten=4)"
 
 #: ../../tutorial/modules.rst:475
-#, fuzzy
 msgid ""
 "Note that when using ``from package import item``, the item can be either a "
 "submodule (or subpackage) of the package, or some  other name defined in the"
@@ -1126,7 +1037,6 @@ msgstr ""
 ":exc:`ImportError` ایجاد می شود."
 
 #: ../../tutorial/modules.rst:482
-#, fuzzy
 msgid ""
 "Contrarily, when using syntax like ``import item.subitem.subsubitem``, each "
 "item except for the last must be a package; the last item can be a module or"
@@ -1139,12 +1049,10 @@ msgstr ""
 "باشد."
 
 #: ../../tutorial/modules.rst:491
-#, fuzzy
 msgid "Importing \\* From a Package"
 msgstr "وارد کردن \\* از یک بسته"
 
 #: ../../tutorial/modules.rst:495
-#, fuzzy
 msgid ""
 "Now what happens when the user writes ``from sound.effects import *``?  "
 "Ideally, one would hope that this somehow goes out to the filesystem, finds "
@@ -1160,7 +1068,6 @@ msgstr ""
 "است، رخ دهند."
 
 #: ../../tutorial/modules.rst:501
-#, fuzzy
 msgid ""
 "The only solution is for the package author to provide an explicit index of "
 "the package.  The :keyword:`import` statement uses the following convention:"
@@ -1183,12 +1090,10 @@ msgstr ""
 "شامل شود::"
 
 #: ../../tutorial/modules.rst:511
-#, fuzzy
 msgid "__all__ = [\"echo\", \"surround\", \"reverse\"]"
 msgstr "__all__ = [\"echo\", \"surround\", \"reverse\"]"
 
 #: ../../tutorial/modules.rst:513
-#, fuzzy
 msgid ""
 "This would mean that ``from sound.effects import *`` would import the three "
 "named submodules of the :mod:`!sound.effects` package."
@@ -1197,7 +1102,6 @@ msgstr ""
 " گذاری شده از بسته :mod:`!sound.effects` را وارد می کند."
 
 #: ../../tutorial/modules.rst:516
-#, fuzzy
 msgid ""
 "Be aware that submodules might become shadowed by locally defined names. For"
 " example, if you added a ``reverse`` function to the "
@@ -1214,7 +1118,6 @@ msgstr ""
 "تعریف شده، تحت الشعاع قرار گرفته است::"
 
 #: ../../tutorial/modules.rst:523
-#, fuzzy
 msgid ""
 "__all__ = [\n"
 "    \"echo\",      # refers to the 'echo.py' file\n"
@@ -1235,7 +1138,6 @@ msgstr ""
 "    return msg[::-1]    #     in the case of a 'from sound.effects import *'"
 
 #: ../../tutorial/modules.rst:532
-#, fuzzy
 msgid ""
 "If ``__all__`` is not defined, the statement ``from sound.effects import *``"
 " does *not* import all submodules from the package :mod:`!sound.effects` "
@@ -1258,7 +1160,6 @@ msgstr ""
 "بگیرید::"
 
 #: ../../tutorial/modules.rst:541
-#, fuzzy
 msgid ""
 "import sound.effects.echo\n"
 "import sound.effects.surround\n"
@@ -1269,7 +1170,6 @@ msgstr ""
 "from sound.effects import *"
 
 #: ../../tutorial/modules.rst:545
-#, fuzzy
 msgid ""
 "In this example, the :mod:`!echo` and :mod:`!surround` modules are imported "
 "in the current namespace because they are defined in the "
@@ -1282,7 +1182,6 @@ msgstr ""
 "تعریف شده باشد کار می کند.)"
 
 #: ../../tutorial/modules.rst:550
-#, fuzzy
 msgid ""
 "Although certain modules are designed to export only names that follow "
 "certain patterns when you use ``import *``, it is still considered bad "
@@ -1293,7 +1192,6 @@ msgstr ""
 " از این روش در کد تولیدی همچنان به عنوان یک عمل نامناسب در نظر گرفته می شود."
 
 #: ../../tutorial/modules.rst:554
-#, fuzzy
 msgid ""
 "Remember, there is nothing wrong with using ``from package import "
 "specific_submodule``!  In fact, this is the recommended notation unless the "
@@ -1306,12 +1204,10 @@ msgstr ""
 " باشد."
 
 #: ../../tutorial/modules.rst:563
-#, fuzzy
 msgid "Intra-package References"
 msgstr "ارجاعات درون بسته ای"
 
 #: ../../tutorial/modules.rst:565
-#, fuzzy
 msgid ""
 "When packages are structured into subpackages (as with the :mod:`!sound` "
 "package in the example), you can use absolute imports to refer to submodules"
@@ -1327,7 +1223,6 @@ msgstr ""
 "تواند از ``from sound.effects import echo`` استفاده کند."
 
 #: ../../tutorial/modules.rst:571
-#, fuzzy
 msgid ""
 "You can also write relative imports, with the ``from module import name`` "
 "form of import statement.  These imports use leading dots to indicate the "
@@ -1340,7 +1235,6 @@ msgstr ""
 "ماژول :mod:`!surround`، ممکن است استفاده کنید::"
 
 #: ../../tutorial/modules.rst:576
-#, fuzzy
 msgid ""
 "from . import echo\n"
 "from .. import formats\n"
@@ -1351,7 +1245,6 @@ msgstr ""
 "from ..filters import equalizer"
 
 #: ../../tutorial/modules.rst:580
-#, fuzzy
 msgid ""
 "Note that relative imports are based on the name of the current module.  "
 "Since the name of the main module is always ``\"__main__\"``, modules "
@@ -1364,12 +1257,10 @@ msgstr ""
 "واردات مطلق استفاده کنند."
 
 #: ../../tutorial/modules.rst:586
-#, fuzzy
 msgid "Packages in Multiple Directories"
 msgstr "پکیج ها در چندین دایرکتوری"
 
 #: ../../tutorial/modules.rst:588
-#, fuzzy
 msgid ""
 "Packages support one more special attribute, :attr:`~module.__path__`.  This"
 " is initialized to be a :term:`sequence` of strings containing the name of "
@@ -1384,7 +1275,6 @@ msgstr ""
 "برای ماژول ها و زیربسته های موجود در بسته را تحت تأثیر قرار می دهد."
 
 #: ../../tutorial/modules.rst:595
-#, fuzzy
 msgid ""
 "While this feature is not often needed, it can be used to extend the set of "
 "modules found in a package."
@@ -1393,12 +1283,10 @@ msgstr ""
 "های موجود در یک پکیج استفاده شود."
 
 #: ../../tutorial/modules.rst:600
-#, fuzzy
 msgid "Footnotes"
 msgstr "پاورقی ها"
 
 #: ../../tutorial/modules.rst:601
-#, fuzzy
 msgid ""
 "In fact function definitions are also 'statements' that are 'executed'; the "
 "execution of a module-level function definition adds the function name to "
@@ -1409,22 +1297,18 @@ msgstr ""
 
 #: ../../tutorial/modules.rst:184 ../../tutorial/modules.rst:267
 #: ../../tutorial/modules.rst:348
-#, fuzzy
 msgid "module"
 msgstr "ماژول"
 
 #: ../../tutorial/modules.rst:184
-#, fuzzy
 msgid "search"
 msgstr "جستجو"
 
 #: ../../tutorial/modules.rst:184
-#, fuzzy
 msgid "path"
 msgstr "مسیر"
 
 #: ../../tutorial/modules.rst:267
-#, fuzzy
 msgid "sys"
 msgstr ""
 "سیستم: ماژولی در پایتون که به شما اجازه می دهد با ویژگی های مختلف سیستم در تعامل باشید.\n"
@@ -1432,13 +1316,11 @@ msgstr ""
 "ماژول `sys` تعدادی پارامتر و توابع را تعریف می کند که می توانید برای دسترسی و کنترل اپلیکیشن های پایتون از آنها استفاده کنید. برخی از آنها عبارتند از: `sys.argv` که لیستی از آرگومان های خط فرمان را برمی گرداند، و ویژگی `sys.exit()` که اجرا را خاتمه می دهد و وضعیت خروج را تعیین می کند."
 
 #: ../../tutorial/modules.rst:348
-#, fuzzy
 msgid "builtins"
 msgstr ""
 "تابع های داخلی Python که به صورت پیش فرض در تمام محیط های Python در دسترس "
 "هستند و نیازی به وارد کردن ماژول خاصی ندارند."
 
 #: ../../tutorial/modules.rst:493
-#, fuzzy
 msgid "__all__"
 msgstr "__all__"

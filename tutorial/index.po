@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,12 +21,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/index.rst:5
-#, fuzzy
 msgid "The Python Tutorial"
 msgstr "راهنمای پایتون"
 
 #: ../../tutorial/index.rst:7
-#, fuzzy
 msgid ""
 "Python is an easy to learn, powerful programming language. It has efficient "
 "high-level data structures and a simple but effective approach to object-"
@@ -42,7 +39,6 @@ msgstr ""
 "برنامه ها در بسیاری از حوزه ها و بر روی اکثر پلتفرم ها تبدیل کرده است."
 
 #: ../../tutorial/index.rst:13
-#, fuzzy
 msgid ""
 "The Python interpreter and the extensive standard library are freely "
 "available in source or binary form for all major platforms from the Python "
@@ -57,7 +53,6 @@ msgstr ""
 "پایتون شخص ثالث رایگان، برنامه ها و ابزارها و مستندات اضافی است."
 
 #: ../../tutorial/index.rst:19
-#, fuzzy
 msgid ""
 "The Python interpreter is easily extended with new functions and data types "
 "implemented in C or C++ (or other languages callable from C). Python is also"
@@ -68,7 +63,6 @@ msgstr ""
 "همچنین به عنوان یک زبان الحاقی برای برنامه های قابل تنظیم مناسب است."
 
 #: ../../tutorial/index.rst:23
-#, fuzzy
 msgid ""
 "This tutorial introduces the reader informally to the basic concepts and "
 "features of the Python language and system. It helps to have a Python "
@@ -81,7 +75,6 @@ msgstr ""
 "به صورت آفلاین نیز خواند."
 
 #: ../../tutorial/index.rst:28
-#, fuzzy
 msgid ""
 "For a description of standard objects and modules, see :ref:`library-index`."
 " :ref:`reference-index` gives a more formal definition of the language.  To "
@@ -95,7 +88,6 @@ msgstr ""
 "پرداخته اند."
 
 #: ../../tutorial/index.rst:33
-#, fuzzy
 msgid ""
 "This tutorial does not attempt to be comprehensive and cover every single "
 "feature, or even every commonly used feature. Instead, it introduces many of"
@@ -112,6 +104,5 @@ msgstr ""
 "داده شده اند، بیشتر یاد بگیرید."
 
 #: ../../tutorial/index.rst:40
-#, fuzzy
 msgid "The :ref:`glossary` is also worth going through."
 msgstr "عبور از :ref:`glossary` نیز ارزش خود را دارد."

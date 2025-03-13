@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,17 +21,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/interpreter.rst:5
-#, fuzzy
 msgid "Using the Python Interpreter"
 msgstr "استفاده از مفسر پایتون"
 
 #: ../../tutorial/interpreter.rst:11
-#, fuzzy
 msgid "Invoking the Interpreter"
 msgstr "اجرا کردن مفسر"
 
 #: ../../tutorial/interpreter.rst:13
-#, fuzzy
 msgid ""
 "The Python interpreter is usually installed as "
 "|usr_local_bin_python_x_dot_y_literal| on those machines where it is "
@@ -45,12 +41,10 @@ msgstr ""
 "کنید:"
 
 #: ../../tutorial/interpreter.rst:17
-#, fuzzy
 msgid "python3.13"
 msgstr "پایتون3.13"
 
 #: ../../tutorial/interpreter.rst:21
-#, fuzzy
 msgid ""
 "to the shell. [#]_ Since the choice of the directory where the interpreter "
 "lives is an installation option, other places are possible; check with your "
@@ -63,7 +57,6 @@ msgstr ""
 ":file:`/usr/local/python` یک مکان جایگزین محبوب است.)"
 
 #: ../../tutorial/interpreter.rst:26
-#, fuzzy
 msgid ""
 "On Windows machines where you have installed Python from the :ref:`Microsoft"
 " Store <windows-store>`, the |python_x_dot_y_literal| command will be "
@@ -78,7 +71,6 @@ msgstr ""
 ":ref:`setting-envvars` مراجعه کنید."
 
 #: ../../tutorial/interpreter.rst:31
-#, fuzzy
 msgid ""
 "Typing an end-of-file character (:kbd:`Control-D` on Unix, :kbd:`Control-Z` "
 "on Windows) at the primary prompt causes the interpreter to exit with a zero"
@@ -91,7 +83,6 @@ msgstr ""
 "شوید: ``quit()``."
 
 #: ../../tutorial/interpreter.rst:36
-#, fuzzy
 msgid ""
 "The interpreter's line-editing features include interactive editing, history"
 " substitution and code completion on systems that support the `GNU Readline "
@@ -114,7 +105,6 @@ msgstr ""
 "برای حذف کاراکترها از خط جاری استفاده کنید."
 
 #: ../../tutorial/interpreter.rst:46
-#, fuzzy
 msgid ""
 "The interpreter operates somewhat like the Unix shell: when called with "
 "standard input connected to a tty device, it reads and executes commands "
@@ -128,7 +118,6 @@ msgstr ""
 "می کند."
 
 #: ../../tutorial/interpreter.rst:51
-#, fuzzy
 msgid ""
 "A second way of starting the interpreter is ``python -c command [arg] ...``,"
 " which executes the statement(s) in *command*, analogous to the shell's "
@@ -142,7 +131,6 @@ msgstr ""
 "معمولاً توصیه می شود که *command* را به طور کامل نقل قول کنید."
 
 #: ../../tutorial/interpreter.rst:57
-#, fuzzy
 msgid ""
 "Some Python modules are also useful as scripts.  These can be invoked using "
 "``python -m module [arg] ...``, which executes the source file for *module* "
@@ -154,7 +142,6 @@ msgstr ""
 "اید."
 
 #: ../../tutorial/interpreter.rst:61
-#, fuzzy
 msgid ""
 "When a script file is used, it is sometimes useful to be able to run the "
 "script and enter interactive mode afterwards.  This can be done by passing "
@@ -165,18 +152,15 @@ msgstr ""
 ":option:`-i` قبل از اسکریپت انجام می شود."
 
 #: ../../tutorial/interpreter.rst:65
-#, fuzzy
 msgid "All command line options are described in :ref:`using-on-general`."
 msgstr ""
 "تمام گزینه های خط فرمان در :ref:`using-on-general` توضیح داده شده اند."
 
 #: ../../tutorial/interpreter.rst:71
-#, fuzzy
 msgid "Argument Passing"
 msgstr "انتقال آرگومان ها"
 
 #: ../../tutorial/interpreter.rst:73
-#, fuzzy
 msgid ""
 "When known to the interpreter, the script name and additional arguments "
 "thereafter are turned into a list of strings and assigned to the ``argv`` "
@@ -205,12 +189,10 @@ msgstr ""
 "فرمان یا ماژول پردازش شوند."
 
 #: ../../tutorial/interpreter.rst:89
-#, fuzzy
 msgid "Interactive Mode"
 msgstr "حالت تعاملی"
 
 #: ../../tutorial/interpreter.rst:91
-#, fuzzy
 msgid ""
 "When commands are read from a tty, the interpreter is said to be in "
 "*interactive mode*.  In this mode it prompts for the next command with the "
@@ -227,7 +209,6 @@ msgstr ""
 "آمدگویی که شامل شماره نسخه و اطلاعیه حق تکثیر است را چاپ می کند."
 
 #: ../../tutorial/interpreter.rst:98
-#, fuzzy
 msgid ""
 "$ python3.13\n"
 "Python 3.13 (default, April 4 2023, 09:25:04)\n"
@@ -242,7 +223,6 @@ msgstr ""
 ">>>"
 
 #: ../../tutorial/interpreter.rst:108
-#, fuzzy
 msgid ""
 "Continuation lines are needed when entering a multi-line construct. As an "
 "example, take a look at this :keyword:`if` statement::"
@@ -251,7 +231,6 @@ msgstr ""
 "مثال، به این دستور :keyword:`if` نگاه کنید::"
 
 #: ../../tutorial/interpreter.rst:111
-#, fuzzy
 msgid ""
 ">>> the_world_is_flat = True\n"
 ">>> if the_world_is_flat:\n"
@@ -266,23 +245,19 @@ msgstr ""
 "مراقب باشید که نیفتید!"
 
 #: ../../tutorial/interpreter.rst:118
-#, fuzzy
 msgid "For more on interactive mode, see :ref:`tut-interac`."
 msgstr ""
 "برای اطلاعات بیشتر در مورد حالت تعاملی، به :ref:`tut-interac` مراجعه کنید."
 
 #: ../../tutorial/interpreter.rst:124
-#, fuzzy
 msgid "The Interpreter and Its Environment"
 msgstr "مترجم و محیط آن"
 
 #: ../../tutorial/interpreter.rst:130
-#, fuzzy
 msgid "Source Code Encoding"
 msgstr "کدگذاری سورس کد"
 
 #: ../../tutorial/interpreter.rst:132
-#, fuzzy
 msgid ""
 "By default, Python source files are treated as encoded in UTF-8.  In that "
 "encoding, characters of most languages in the world can be used "
@@ -301,7 +276,6 @@ msgstr ""
 "فونتی استفاده کند که از همه کاراکترهای موجود در فایل پشتیبانی کند."
 
 #: ../../tutorial/interpreter.rst:140
-#, fuzzy
 msgid ""
 "To declare an encoding other than the default one, a special comment line "
 "should be added as the *first* line of the file.  The syntax is as follows::"
@@ -310,12 +284,10 @@ msgstr ""
 "خط *first* فایل اضافه شود. نحوه نوشتن آن به صورت زیر است::"
 
 #: ../../tutorial/interpreter.rst:143
-#, fuzzy
 msgid "# -*- coding: encoding -*-"
 msgstr "# -*- coding: encoding -*-"
 
 #: ../../tutorial/interpreter.rst:145
-#, fuzzy
 msgid ""
 "where *encoding* is one of the valid :mod:`codecs` supported by Python."
 msgstr ""
@@ -323,7 +295,6 @@ msgstr ""
 "شود."
 
 #: ../../tutorial/interpreter.rst:147
-#, fuzzy
 msgid ""
 "For example, to declare that Windows-1252 encoding is to be used, the first "
 "line of your source code file should be::"
@@ -332,12 +303,10 @@ msgstr ""
 " کد منبع شما باید به صورت زیر باشد::"
 
 #: ../../tutorial/interpreter.rst:150
-#, fuzzy
 msgid "# -*- coding: cp1252 -*-"
 msgstr "# -*- coding: cp1252 -*-"
 
 #: ../../tutorial/interpreter.rst:152
-#, fuzzy
 msgid ""
 "One exception to the *first line* rule is when the source code starts with a"
 " :ref:`UNIX \"shebang\" line <tut-scripts>`.  In this case, the encoding "
@@ -348,7 +317,6 @@ msgstr ""
 "باید به عنوان خط دوم فایل اضافه شود. به عنوان مثال::"
 
 #: ../../tutorial/interpreter.rst:156
-#, fuzzy
 msgid ""
 "#!/usr/bin/env python3\n"
 "# -*- coding: cp1252 -*-"
@@ -357,12 +325,10 @@ msgstr ""
 "# -*- coding: cp1252 -*-"
 
 #: ../../tutorial/interpreter.rst:160
-#, fuzzy
 msgid "Footnotes"
 msgstr "پاورقی ها"
 
 #: ../../tutorial/interpreter.rst:161
-#, fuzzy
 msgid ""
 "On Unix, the Python 3.x interpreter is by default not installed with the "
 "executable named ``python``, so that it does not conflict with a "

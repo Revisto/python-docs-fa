@@ -8,7 +8,6 @@
 # mohammadreza aghababei, 2025
 # shahab sakha, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -24,12 +23,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../bugs.rst:5
-#, fuzzy
 msgid "Dealing with Bugs"
 msgstr "مدیریت باگ ها"
 
 #: ../../bugs.rst:7
-#, fuzzy
 msgid ""
 "Python is a mature programming language which has established a reputation "
 "for stability.  In order to maintain this reputation, the developers would "
@@ -40,7 +37,6 @@ msgstr ""
 "پیدا می کنید، مطلع شوند."
 
 #: ../../bugs.rst:11
-#, fuzzy
 msgid ""
 "It can be sometimes faster to fix bugs yourself and contribute patches to "
 "Python as it streamlines the process and involves less people. Learn how to "
@@ -52,12 +48,10 @@ msgstr ""
 "to-python>`."
 
 #: ../../bugs.rst:16
-#, fuzzy
 msgid "Documentation bugs"
 msgstr "ایرادات مستندات"
 
 #: ../../bugs.rst:18
-#, fuzzy
 msgid ""
 "If you find a bug in this documentation or would like to propose an "
 "improvement, please submit a bug report on the :ref:`tracker <using-the-"
@@ -68,7 +62,6 @@ msgstr ""
 "برای رفع آن دارید، آن را نیز ضمیمه کنید."
 
 #: ../../bugs.rst:22
-#, fuzzy
 msgid ""
 "You can also open a discussion item on our `Documentation Discourse forum "
 "<https://discuss.python.org/c/documentation/26>`_."
@@ -77,7 +70,6 @@ msgstr ""
 "<https://discuss.python.org/c/documentation/26>`_ باز کنید."
 
 #: ../../bugs.rst:25
-#, fuzzy
 msgid ""
 "If you find a bug in the theme (HTML / CSS / JavaScript) of the "
 "documentation, please submit a bug report on the `python-doc-theme bug "
@@ -88,7 +80,6 @@ msgstr ""
 "<https://github.com/python/python-docs-theme>`_ ارسال کنید."
 
 #: ../../bugs.rst:29
-#, fuzzy
 msgid ""
 "If you're short on time, you can also email documentation bug reports to "
 "docs@python.org (behavioral bugs can be sent to python-list@python.org). "
@@ -102,19 +93,16 @@ msgstr ""
 "تا پردازش شود."
 
 #: ../../bugs.rst:36
-#, fuzzy
 msgid "`Documentation bugs`_"
 msgstr ""
 
 #: ../../bugs.rst:37
-#, fuzzy
 msgid ""
 "A list of documentation bugs that have been submitted to the Python issue "
 "tracker."
 msgstr "فهرستی از اشکالات مستنداتی که به ردیاب اشکال Python ارسال شده اند."
 
 #: ../../bugs.rst:39
-#, fuzzy
 msgid "`Issue Tracking <https://devguide.python.org/tracker/>`_"
 msgstr ""
 "متنی که ارائه دادید به نظر نمی رسد که بخشی از مستندات رسمی پایتون باشد و "
@@ -122,13 +110,11 @@ msgstr ""
 "ترجمه دارید، لطفاً ارائه دهید."
 
 #: ../../bugs.rst:40
-#, fuzzy
 msgid ""
 "Overview of the process involved in reporting an improvement on the tracker."
 msgstr "نمای کلی از فرآیند مربوط به گزارش یک بهبود در پیگیری."
 
 #: ../../bugs.rst:42
-#, fuzzy
 msgid ""
 "`Helping with Documentation "
 "<https://devguide.python.org/docquality/#helping-with-documentation>`_"
@@ -137,7 +123,6 @@ msgstr ""
 "متن خود را بررسی کرده و مجدداً ارسال کنید."
 
 #: ../../bugs.rst:43
-#, fuzzy
 msgid ""
 "Comprehensive guide for individuals that are interested in contributing to "
 "Python documentation."
@@ -145,7 +130,6 @@ msgstr ""
 "راهنمای جامع برای افرادی که علاقه مند به مشارکت در مستندات Python هستند."
 
 #: ../../bugs.rst:45
-#, fuzzy
 msgid ""
 "`Documentation Translations "
 "<https://devguide.python.org/documentation/translating/>`_"
@@ -154,19 +138,16 @@ msgstr ""
 "ترجمه شود، بارگذاری کنید."
 
 #: ../../bugs.rst:46
-#, fuzzy
 msgid ""
 "A list of GitHub pages for documentation translation and their primary "
 "contacts."
 msgstr "فهرستی از صفحات GitHub برای ترجمه مستندات و اطلاعات تماس اصلی آن ها."
 
 #: ../../bugs.rst:52
-#, fuzzy
 msgid "Using the Python issue tracker"
 msgstr "استفاده از پیگیری کننده مشکلات پایتون"
 
 #: ../../bugs.rst:54
-#, fuzzy
 msgid ""
 "Issue reports for Python itself should be submitted via the GitHub issues "
 "tracker (https://github.com/python/cpython/issues). The GitHub issues "
@@ -179,7 +160,6 @@ msgstr ""
 "برای توسعه دهندگان ارسال کنید."
 
 #: ../../bugs.rst:59
-#, fuzzy
 msgid ""
 "The first step in filing a report is to determine whether the problem has "
 "already been reported.  The advantage in doing so, aside from saving the "
@@ -197,7 +177,6 @@ msgstr ""
 " باکس جستجو در بالای صفحه را جهت جستجو در ردیاب استفاده کنید."
 
 #: ../../bugs.rst:66
-#, fuzzy
 msgid ""
 "If the problem you're reporting is not already in the list, log in to "
 "GitHub. If you don't already have a GitHub account, create a new account "
@@ -209,7 +188,6 @@ msgstr ""
 "ارسال گزارش باگ به صورت ناشناس امکان پذیر نیست."
 
 #: ../../bugs.rst:71
-#, fuzzy
 msgid ""
 "Being now logged in, you can submit an issue. Click on the \"New issue\" "
 "button in the top bar to report a new issue."
@@ -218,12 +196,10 @@ msgstr ""
 "جدید، روی دکمه \"New issue\" در نوار بالا کلیک کنید."
 
 #: ../../bugs.rst:74
-#, fuzzy
 msgid "The submission form has two fields, \"Title\" and \"Comment\"."
 msgstr "فرم ارسال شامل دو فیلد است، \"Title\" و \"Comment\"."
 
 #: ../../bugs.rst:76
-#, fuzzy
 msgid ""
 "For the \"Title\" field, enter a *very* short description of the problem; "
 "fewer than ten words is good."
@@ -232,7 +208,6 @@ msgstr ""
 "است."
 
 #: ../../bugs.rst:79
-#, fuzzy
 msgid ""
 "In the \"Comment\" field, describe the problem in detail, including what you"
 " expected to happen and what did happen.  Be sure to include whether any "
@@ -245,7 +220,6 @@ msgstr ""
 "استفاده می کردید (شامل اطلاعات مربوط به نسخه در صورت لزوم)."
 
 #: ../../bugs.rst:84
-#, fuzzy
 msgid ""
 "Each issue report will be reviewed by a developer who will determine what "
 "needs to be done to correct the problem. You will receive an update each "
@@ -256,7 +230,6 @@ msgstr ""
 "خواهید کرد."
 
 #: ../../bugs.rst:91
-#, fuzzy
 msgid ""
 "`How to Report Bugs Effectively "
 "<https://www.chiark.greenend.org.uk/~sgtatham/bugs.html>`_"
@@ -266,7 +239,6 @@ msgstr ""
 "ترجمه کنم."
 
 #: ../../bugs.rst:92
-#, fuzzy
 msgid ""
 "Article which goes into some detail about how to create a useful bug report."
 " This describes what kind of information is useful and why it is useful."
@@ -276,7 +248,6 @@ msgstr ""
 "مفید می باشند."
 
 #: ../../bugs.rst:95
-#, fuzzy
 msgid ""
 "`Bug Writing Guidelines <https://bugzilla.mozilla.org/page.cgi?id=bug-"
 "writing.html>`_"
@@ -285,7 +256,6 @@ msgstr ""
 "برای ترجمه ارسال کنید."
 
 #: ../../bugs.rst:96
-#, fuzzy
 msgid ""
 "Information about writing a good bug report.  Some of this is specific to "
 "the Mozilla project, but describes general good practices."
@@ -294,12 +264,10 @@ msgstr ""
 " پروژه موزیلا است، اما اصول کلی خوبی را توصیف می کند."
 
 #: ../../bugs.rst:102
-#, fuzzy
 msgid "Getting started contributing to Python yourself"
 msgstr "شروع به مشارکت در پایتون توسط خودتان"
 
 #: ../../bugs.rst:104
-#, fuzzy
 msgid ""
 "Beyond just reporting bugs that you find, you are also welcome to submit "
 "patches to fix them.  You can find more information on how to get started "

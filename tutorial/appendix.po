@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,17 +21,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/appendix.rst:5
-#, fuzzy
 msgid "Appendix"
 msgstr "پیوست"
 
 #: ../../tutorial/appendix.rst:11
-#, fuzzy
 msgid "Interactive Mode"
 msgstr "حالت تعاملی"
 
 #: ../../tutorial/appendix.rst:13
-#, fuzzy
 msgid ""
 "There are two variants of the interactive :term:`REPL`.  The classic basic "
 "interpreter is supported on all platforms with minimal line control "
@@ -42,7 +38,6 @@ msgstr ""
 " با قابلیت های کنترل خطی حداقلی پشتیبانی می شود."
 
 #: ../../tutorial/appendix.rst:17
-#, fuzzy
 msgid ""
 "On Windows, or Unix-like systems with :mod:`curses` support, a new "
 "interactive shell is used by default. This one supports color, multiline "
@@ -65,7 +60,6 @@ msgstr ""
 "به اعلان معمولی، :kbd:`F3` را فشار دهید."
 
 #: ../../tutorial/appendix.rst:28
-#, fuzzy
 msgid ""
 "When using the new interactive shell, exit the shell by typing :kbd:`exit` "
 "or :kbd:`quit`. Adding call parentheses after those commands is not "
@@ -76,7 +70,6 @@ msgstr ""
 " نیست."
 
 #: ../../tutorial/appendix.rst:32
-#, fuzzy
 msgid ""
 "If the new interactive shell is not desired, it can be disabled via the "
 ":envvar:`PYTHON_BASIC_REPL` environment variable."
@@ -85,12 +78,10 @@ msgstr ""
 ":envvar:`PYTHON_BASIC_REPL` غیرفعال کرد."
 
 #: ../../tutorial/appendix.rst:38
-#, fuzzy
 msgid "Error Handling"
 msgstr "مدیریت خطاها"
 
 #: ../../tutorial/appendix.rst:40
-#, fuzzy
 msgid ""
 "When an error occurs, the interpreter prints an error message and a stack "
 "trace. In interactive mode, it then returns to the primary prompt; when "
@@ -113,7 +104,6 @@ msgstr ""
 "شود."
 
 #: ../../tutorial/appendix.rst:50
-#, fuzzy
 msgid ""
 "Typing the interrupt character (usually :kbd:`Control-C` or :kbd:`Delete`) "
 "to the primary or secondary prompt cancels the input and returns to the "
@@ -127,12 +117,10 @@ msgstr ""
 " ایجاد می کند که ممکن است توسط یک عبارت :keyword:`try` مدیریت شود."
 
 #: ../../tutorial/appendix.rst:60
-#, fuzzy
 msgid "Executable Python Scripts"
 msgstr "اسکریپت های اجرایی پایتون"
 
 #: ../../tutorial/appendix.rst:62
-#, fuzzy
 msgid ""
 "On BSD'ish Unix systems, Python scripts can be made directly executable, "
 "like shell scripts, by putting the line ::"
@@ -141,12 +129,10 @@ msgstr ""
 "اسکریپت های شل به صورت مستقیم اجرایی شوند، با قرار دادن خط ::"
 
 #: ../../tutorial/appendix.rst:65
-#, fuzzy
 msgid "#!/usr/bin/env python3"
 msgstr "#!/usr/bin/env python3"
 
 #: ../../tutorial/appendix.rst:67
-#, fuzzy
 msgid ""
 "(assuming that the interpreter is on the user's :envvar:`PATH`) at the "
 "beginning of the script and giving the file an executable mode.  The ``#!`` "
@@ -162,7 +148,6 @@ msgstr ""
 "یا پوند، ``'#'``، برای شروع یک نظر در پایتون استفاده می شود."
 
 #: ../../tutorial/appendix.rst:74
-#, fuzzy
 msgid ""
 "The script can be given an executable mode, or permission, using the "
 ":program:`chmod` command."
@@ -171,12 +156,10 @@ msgstr ""
 "مجوز داده شود."
 
 #: ../../tutorial/appendix.rst:77
-#, fuzzy
 msgid "$ chmod +x myscript.py"
 msgstr "$ chmod +x myscript.py"
 
 #: ../../tutorial/appendix.rst:81
-#, fuzzy
 msgid ""
 "On Windows systems, there is no notion of an \"executable mode\".  The "
 "Python installer automatically associates ``.py`` files with ``python.exe`` "
@@ -191,12 +174,10 @@ msgstr ""
 " شود، حذف می شود."
 
 #: ../../tutorial/appendix.rst:91
-#, fuzzy
 msgid "The Interactive Startup File"
 msgstr "فایل شروع تعاملی"
 
 #: ../../tutorial/appendix.rst:93
-#, fuzzy
 msgid ""
 "When you use Python interactively, it is frequently handy to have some "
 "standard commands executed every time the interpreter is started.  You can "
@@ -211,7 +192,6 @@ msgstr ""
 "در شل های یونیکس است."
 
 #: ../../tutorial/appendix.rst:99
-#, fuzzy
 msgid ""
 "This file is only read in interactive sessions, not when Python reads "
 "commands from a script, and not when :file:`/dev/tty` is given as the "
@@ -230,7 +210,6 @@ msgstr ""
 "``sys.ps2`` را نیز در این فایل تغییر دهید."
 
 #: ../../tutorial/appendix.rst:107
-#, fuzzy
 msgid ""
 "If you want to read an additional start-up file from the current directory, "
 "you can program this in the global start-up file using code like ``if "
@@ -245,7 +224,6 @@ msgstr ""
 " این کار را به طور صریح در اسکریپت انجام دهید:"
 
 #: ../../tutorial/appendix.rst:113
-#, fuzzy
 msgid ""
 "import os\n"
 "filename = os.environ.get('PYTHONSTARTUP')\n"
@@ -262,12 +240,10 @@ msgstr ""
 "    exec(startup_file)"
 
 #: ../../tutorial/appendix.rst:124
-#, fuzzy
 msgid "The Customization Modules"
 msgstr "ماژول های سفارشی سازی"
 
 #: ../../tutorial/appendix.rst:126
-#, fuzzy
 msgid ""
 "Python provides two hooks to let you customize it: :index:`sitecustomize` "
 "and :index:`usercustomize`.  To see how it works, you need first to find the"
@@ -280,7 +256,6 @@ msgstr ""
 "را اجرا کنید:"
 
 #: ../../tutorial/appendix.rst:130
-#, fuzzy
 msgid ""
 ">>> import site\n"
 ">>> site.getusersitepackages()\n"
@@ -291,7 +266,6 @@ msgstr ""
 "'/home/user/.local/lib/python3.x/site-packages'"
 
 #: ../../tutorial/appendix.rst:134
-#, fuzzy
 msgid ""
 "Now you can create a file named :file:`usercustomize.py` in that directory "
 "and put anything you want in it.  It will affect every invocation of Python,"
@@ -304,7 +278,6 @@ msgstr ""
 "کردن خودکار است، آغاز شود."
 
 #: ../../tutorial/appendix.rst:138
-#, fuzzy
 msgid ""
 ":index:`sitecustomize` works in the same way, but is typically created by an"
 " administrator of the computer in the global site-packages directory, and is"
@@ -317,11 +290,9 @@ msgstr ""
 ":mod:`site` مراجعه کنید."
 
 #: ../../tutorial/appendix.rst:145
-#, fuzzy
 msgid "Footnotes"
 msgstr "پاورقی ها"
 
 #: ../../tutorial/appendix.rst:146
-#, fuzzy
 msgid "A problem with the GNU Readline package may prevent this."
 msgstr "مشکلی در بسته GNU Readline ممکن است از این جلوگیری کند."

@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,12 +21,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../library/functions.rst:5 ../../library/functions.rst:11
-#, fuzzy
 msgid "Built-in Functions"
 msgstr "توابع داخلی"
 
 #: ../../library/functions.rst:7
-#, fuzzy
 msgid ""
 "The Python interpreter has a number of functions and types built into it "
 "that are always available.  They are listed here in alphabetical order."
@@ -36,464 +33,372 @@ msgstr ""
 " ها به ترتیب حروف الفبا در اینجا فهرست شده اند."
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**A**"
 msgstr "**A**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`abs`"
 msgstr ":func:`abs`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`aiter`"
 msgstr ":func:`aiter`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`all`"
 msgstr ":func:`all`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`anext`"
 msgstr ":func:`anext`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`any`"
 msgstr ":func:`any`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`ascii`"
 msgstr ":func:`ascii`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**B**"
 msgstr "**B**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`bin`"
 msgstr ""
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`bool`"
 msgstr ":func:`bool`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`breakpoint`"
 msgstr ":func:`breakpoint`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-bytearray|_"
 msgstr "|func-bytearray|_"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-bytes|_"
 msgstr "|func-bytes|_"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**C**"
 msgstr "**C**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`callable`"
 msgstr ":func:`callable`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`chr`"
 msgstr ":func:`chr`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`classmethod`"
 msgstr ":func:`classmethod`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`compile`"
 msgstr ":func:`compile`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`complex`"
 msgstr ":func:`complex`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**D**"
 msgstr "**D**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`delattr`"
 msgstr ":func:`delattr`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-dict|_"
 msgstr "|func-dict|_"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`dir`"
 msgstr ":func:`dir`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`divmod`"
 msgstr ":func:`divmod`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**E**"
 msgstr "**E**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`enumerate`"
 msgstr ":func:`enumerate`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`eval`"
 msgstr ":func:`eval`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`exec`"
 msgstr ":func:`exec`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**F**"
 msgstr "**F**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`filter`"
 msgstr ":func:`filter`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`float`"
 msgstr ":func:`float`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`format`"
 msgstr ":func:`format`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-frozenset|_"
 msgstr "|func-frozenset|_"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**G**"
 msgstr "**G**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`getattr`"
 msgstr ":func:`getattr`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`globals`"
 msgstr ":func:`globals`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**H**"
 msgstr "**H**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`hasattr`"
 msgstr ":func:`hasattr`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`hash`"
 msgstr ":func:`hash`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`help`"
 msgstr ":func:`help`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`hex`"
 msgstr ":func:`hex`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**I**"
 msgstr "**I**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`id`"
 msgstr ":func:`id`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`input`"
 msgstr ":func:`input`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`int`"
 msgstr ":func:`int`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`isinstance`"
 msgstr ":func:`isinstance`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`issubclass`"
 msgstr ":func:`issubclass`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`iter`"
 msgstr ":func:`iter`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**L**"
 msgstr "**L**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`len`"
 msgstr ":func:`len`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-list|_"
 msgstr "|func-list|_"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`locals`"
 msgstr ":func:`locals`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**M**"
 msgstr "**M**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`map`"
 msgstr ":func:`map`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`max`"
 msgstr ":func:`max`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-memoryview|_"
 msgstr "|func-memoryview|_"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`min`"
 msgstr ":func:`min`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**N**"
 msgstr "**N**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`next`"
 msgstr ":func:`next`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**O**"
 msgstr "**O**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`object`"
 msgstr ":func:`object`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`oct`"
 msgstr ":func:`oct`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`open`"
 msgstr ":func:`open`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`ord`"
 msgstr ":func:`ord`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**P**"
 msgstr "**P**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`pow`"
 msgstr ":func:`pow`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`print`"
 msgstr ":func:`print`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`property`"
 msgstr ":func:`property`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**R**"
 msgstr ""
 "\n"
 "**R**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-range|_"
 msgstr "|func-range|_"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`repr`"
 msgstr ":func:`repr`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`reversed`"
 msgstr ":func:`reversed`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`round`"
 msgstr ":func:`round`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**S**"
 msgstr "**S**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-set|_"
 msgstr ""
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`setattr`"
 msgstr ":func:`setattr`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`slice`"
 msgstr ":func:`slice`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`sorted`"
 msgstr ":func:`sorted`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`staticmethod`"
 msgstr ":func:`staticmethod`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-str|_"
 msgstr ""
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`sum`"
 msgstr ":func:`sum`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`super`"
 msgstr ":func:`super`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**T**"
 msgstr "**T**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-tuple|_"
 msgstr "|func-tuple|_"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`type`"
 msgstr ":func:`type`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**V**"
 msgstr "**V**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`vars`"
 msgstr ":func:`vars`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**Z**"
 msgstr "**Z**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`zip`"
 msgstr ":func:`zip`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "**_**"
 msgstr "**_**"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`__import__`"
 msgstr ":func:`__import__`"
 
 #: ../../library/functions.rst:59
-#, fuzzy
 msgid ""
 "Return the absolute value of a number.  The argument may be an integer, a "
 "floating-point number, or an object implementing :meth:`~object.__abs__`. If"
@@ -504,7 +409,6 @@ msgstr ""
 " استدلال یک عدد مختلط باشد، بزرگی آن بازگردانده می شود."
 
 #: ../../library/functions.rst:67
-#, fuzzy
 msgid ""
 "Return an :term:`asynchronous iterator` for an :term:`asynchronous "
 "iterable`. Equivalent to calling ``x.__aiter__()``."
@@ -513,12 +417,10 @@ msgstr ""
 "iterable`. معادل فراخوانی ``x.__aiter__()`` است."
 
 #: ../../library/functions.rst:70
-#, fuzzy
 msgid "Note: Unlike :func:`iter`, :func:`aiter` has no 2-argument variant."
 msgstr "توجه: برخلاف :func:`iter`، :func:`aiter` نسخه دو آرگومانی ندارد."
 
 #: ../../library/functions.rst:76
-#, fuzzy
 msgid ""
 "Return ``True`` if all elements of the *iterable* are true (or if the "
 "iterable is empty).  Equivalent to::"
@@ -527,7 +429,6 @@ msgstr ""
 "``True`` را برمی گرداند. معادل با::"
 
 #: ../../library/functions.rst:79
-#, fuzzy
 msgid ""
 "def all(iterable):\n"
 "    for element in iterable:\n"
@@ -542,7 +443,6 @@ msgstr ""
 "    return True"
 
 #: ../../library/functions.rst:89
-#, fuzzy
 msgid ""
 "When awaited, return the next item from the given :term:`asynchronous "
 "iterator`, or *default* if given and the iterator is exhausted."
@@ -551,14 +451,12 @@ msgstr ""
 "شده برگردانید، یا *default* اگر داده شده و پیمایش گر تمام شده باشد."
 
 #: ../../library/functions.rst:92
-#, fuzzy
 msgid ""
 "This is the async variant of the :func:`next` builtin, and behaves "
 "similarly."
 msgstr "این نسخه ناهمگام از :func:`next` ساخته شده و به طور مشابه عمل می کند."
 
 #: ../../library/functions.rst:95
-#, fuzzy
 msgid ""
 "This calls the :meth:`~object.__anext__` method of *async_iterator*, "
 "returning an :term:`awaitable`. Awaiting this returns the next value of the "
@@ -571,7 +469,6 @@ msgstr ""
 "می شود و در غیر این صورت :exc:`StopAsyncIteration` برانگیخته می شود."
 
 #: ../../library/functions.rst:104
-#, fuzzy
 msgid ""
 "Return ``True`` if any element of the *iterable* is true.  If the iterable "
 "is empty, return ``False``.  Equivalent to::"
@@ -580,7 +477,6 @@ msgstr ""
 "خالی باشد، ``False`` را برگردانید. معادل با::"
 
 #: ../../library/functions.rst:107
-#, fuzzy
 msgid ""
 "def any(iterable):\n"
 "    for element in iterable:\n"
@@ -595,7 +491,6 @@ msgstr ""
 "    return False"
 
 #: ../../library/functions.rst:116
-#, fuzzy
 msgid ""
 "As :func:`repr`, return a string containing a printable representation of an"
 " object, but escape the non-ASCII characters in the string returned by "
@@ -608,7 +503,6 @@ msgstr ""
 "توسط :func:`repr` در پایتون 2 برگردانده می شود را تولید می کند."
 
 #: ../../library/functions.rst:124
-#, fuzzy
 msgid ""
 "Convert an integer number to a binary string prefixed with \"0b\". The "
 "result is a valid Python expression. If *x* is not a Python :class:`int` "
@@ -621,7 +515,6 @@ msgstr ""
 "برخی مثال ها:"
 
 #: ../../library/functions.rst:134
-#, fuzzy
 msgid ""
 "If the prefix \"0b\" is desired or not, you can use either of the following "
 "ways."
@@ -631,12 +524,10 @@ msgstr ""
 
 #: ../../library/functions.rst:141 ../../library/functions.rst:942
 #: ../../library/functions.rst:1323
-#, fuzzy
 msgid "See also :func:`format` for more information."
 msgstr "برای اطلاعات بیشتر به :func:`format` مراجعه کنید."
 
 #: ../../library/functions.rst:146
-#, fuzzy
 msgid ""
 "Return a Boolean value, i.e. one of ``True`` or ``False``.  The argument is "
 "converted using the standard :ref:`truth testing procedure <truth>`. If the "
@@ -654,12 +545,10 @@ msgstr ""
 ":ref:`typebool`)."
 
 #: ../../library/functions.rst:156 ../../library/functions.rst:807
-#, fuzzy
 msgid "The parameter is now positional-only."
 msgstr "این پارامتر اکنون فقط به صورت موقعیتی می باشد."
 
 #: ../../library/functions.rst:161
-#, fuzzy
 msgid ""
 "This function drops you into the debugger at the call site.  Specifically, "
 "it calls :func:`sys.breakpointhook`, passing ``args`` and ``kws`` straight "
@@ -683,7 +572,6 @@ msgstr ""
 "در دسترس نباشد، این تابع :exc:`RuntimeError` را ایجاد خواهد کرد."
 
 #: ../../library/functions.rst:173
-#, fuzzy
 msgid ""
 "By default, the behavior of :func:`breakpoint` can be changed with the "
 ":envvar:`PYTHONBREAKPOINT` environment variable. See "
@@ -694,7 +582,6 @@ msgstr ""
 ":func:`sys.breakpointhook` مراجعه کنید."
 
 #: ../../library/functions.rst:177
-#, fuzzy
 msgid ""
 "Note that this is not guaranteed if :func:`sys.breakpointhook` has been "
 "replaced."
@@ -703,7 +590,6 @@ msgstr ""
 "جایگزین شده باشد."
 
 #: ../../library/functions.rst:180
-#, fuzzy
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``builtins.breakpoint`` with "
 "argument ``breakpointhook``."
@@ -712,7 +598,6 @@ msgstr ""
 "``breakpointhook`` ایجاد می کند."
 
 #: ../../library/functions.rst:190
-#, fuzzy
 msgid ""
 "Return a new array of bytes.  The :class:`bytearray` class is a mutable "
 "sequence of integers in the range 0 <= x < 256.  It has most of the usual "
@@ -726,7 +611,6 @@ msgstr ""
 ":ref:`bytes-methods` مراجعه کنید."
 
 #: ../../library/functions.rst:195
-#, fuzzy
 msgid ""
 "The optional *source* parameter can be used to initialize the array in a few"
 " different ways:"
@@ -735,7 +619,6 @@ msgstr ""
 " استفاده شود:"
 
 #: ../../library/functions.rst:198
-#, fuzzy
 msgid ""
 "If it is a *string*, you must also give the *encoding* (and optionally, "
 "*errors*) parameters; :func:`bytearray` then converts the string to bytes "
@@ -746,7 +629,6 @@ msgstr ""
 "از :meth:`str.encode` به بایت تبدیل می کند."
 
 #: ../../library/functions.rst:202
-#, fuzzy
 msgid ""
 "If it is an *integer*, the array will have that size and will be initialized"
 " with null bytes."
@@ -755,7 +637,6 @@ msgstr ""
 "مقداردهی اولیه می شود."
 
 #: ../../library/functions.rst:205
-#, fuzzy
 msgid ""
 "If it is an object conforming to the :ref:`buffer interface "
 "<bufferobjects>`, a read-only buffer of the object will be used to "
@@ -765,7 +646,6 @@ msgstr ""
 "بافر فقط خواندنی از شیء برای مقداردهی اولیه آرایه bytes استفاده خواهد شد."
 
 #: ../../library/functions.rst:208
-#, fuzzy
 msgid ""
 "If it is an *iterable*, it must be an iterable of integers in the range ``0 "
 "<= x < 256``, which are used as the initial contents of the array."
@@ -774,17 +654,14 @@ msgstr ""
 "256`` باشد که به عنوان محتوای اولیه آرایه استفاده می شود."
 
 #: ../../library/functions.rst:211
-#, fuzzy
 msgid "Without an argument, an array of size 0 is created."
 msgstr "بدون آرگومان، یک آرایه با اندازه 0 ایجاد می شود."
 
 #: ../../library/functions.rst:213
-#, fuzzy
 msgid "See also :ref:`binaryseq` and :ref:`typebytearray`."
 msgstr "همچنین ببینید :ref:`binaryseq` و :ref:`typebytearray`."
 
 #: ../../library/functions.rst:222
-#, fuzzy
 msgid ""
 "Return a new \"bytes\" object which is an immutable sequence of integers in "
 "the range ``0 <= x < 256``.  :class:`bytes` is an immutable version of "
@@ -797,26 +674,22 @@ msgstr ""
 "ایندکس بندی و برش است."
 
 #: ../../library/functions.rst:227
-#, fuzzy
 msgid ""
 "Accordingly, constructor arguments are interpreted as for :func:`bytearray`."
 msgstr "بنابراین، آرگومان های سازنده مثل :func:`bytearray` تفسیر می شوند."
 
 #: ../../library/functions.rst:229
-#, fuzzy
 msgid "Bytes objects can also be created with literals, see :ref:`strings`."
 msgstr ""
 "شیء های بایت همچنین می توانند با استفاده از لیترال ها ایجاد شوند، به "
 ":ref:`strings` مراجعه کنید."
 
 #: ../../library/functions.rst:231
-#, fuzzy
 msgid "See also :ref:`binaryseq`, :ref:`typebytes`, and :ref:`bytes-methods`."
 msgstr ""
 "همچنین ببینید :ref:`binaryseq`، :ref:`typebytes`، و :ref:`bytes-methods`."
 
 #: ../../library/functions.rst:236
-#, fuzzy
 msgid ""
 "Return :const:`True` if the *object* argument appears callable, "
 ":const:`False` if not.  If this returns ``True``, it is still possible that "
@@ -832,7 +705,6 @@ msgstr ""
 "متد :meth:`~object.__call__` داشته باشد."
 
 #: ../../library/functions.rst:242
-#, fuzzy
 msgid ""
 "This function was first removed in Python 3.0 and then brought back in "
 "Python 3.2."
@@ -840,7 +712,6 @@ msgstr ""
 "این تابع ابتدا در پایتون 3.0 حذف شد و سپس در پایتون 3.2 بازگردانده شد."
 
 #: ../../library/functions.rst:249
-#, fuzzy
 msgid ""
 "Return the string representing a character whose Unicode code point is the "
 "integer *i*.  For example, ``chr(97)`` returns the string ``'a'``, while "
@@ -852,7 +723,6 @@ msgstr ""
 "``chr(8364)`` رشته ``'€'`` را برمی گرداند. این عملکرد معکوس :func:`ord` است."
 
 #: ../../library/functions.rst:253
-#, fuzzy
 msgid ""
 "The valid range for the argument is from 0 through 1,114,111 (0x10FFFF in "
 "base 16).  :exc:`ValueError` will be raised if *i* is outside that range."
@@ -861,12 +731,10 @@ msgstr ""
 ":exc:`ValueError` زمانی که *i* خارج از آن محدوده باشد، ایجاد خواهد شد."
 
 #: ../../library/functions.rst:259
-#, fuzzy
 msgid "Transform a method into a class method."
 msgstr "تبدیل یک متد به یک متد کلاسی."
 
 #: ../../library/functions.rst:261
-#, fuzzy
 msgid ""
 "A class method receives the class as an implicit first argument, just like "
 "an instance method receives the instance. To declare a class method, use "
@@ -877,7 +745,6 @@ msgstr ""
 "استفاده کنید:"
 
 #: ../../library/functions.rst:265
-#, fuzzy
 msgid ""
 "class C:\n"
 "    @classmethod\n"
@@ -888,7 +755,6 @@ msgstr ""
 "    def f(cls, arg1, arg2): ..."
 
 #: ../../library/functions.rst:269
-#, fuzzy
 msgid ""
 "The ``@classmethod`` form is a function :term:`decorator` -- see "
 ":ref:`function` for details."
@@ -897,7 +763,6 @@ msgstr ""
 ":ref:`function` مراجعه کنید."
 
 #: ../../library/functions.rst:272
-#, fuzzy
 msgid ""
 "A class method can be called either on the class (such as ``C.f()``) or on "
 "an instance (such as ``C().f()``).  The instance is ignored except for its "
@@ -910,7 +775,6 @@ msgstr ""
 "عنوان آرگومان اول ضمنی ارسال می شود."
 
 #: ../../library/functions.rst:277
-#, fuzzy
 msgid ""
 "Class methods are different than C++ or Java static methods. If you want "
 "those, see :func:`staticmethod` in this section. For more information on "
@@ -921,7 +785,6 @@ msgstr ""
 " مورد متدهای کلاس، به :ref:`types` مراجعه کنید."
 
 #: ../../library/functions.rst:281
-#, fuzzy
 msgid ""
 "Class methods can now wrap other :term:`descriptors <descriptor>` such as "
 ":func:`property`."
@@ -930,7 +793,6 @@ msgstr ""
 ":func:`property` را پوشش دهند."
 
 #: ../../library/functions.rst:285
-#, fuzzy
 msgid ""
 "Class methods now inherit the method attributes "
 "(:attr:`~function.__module__`, :attr:`~function.__name__`, "
@@ -943,7 +805,6 @@ msgstr ""
 "برند و دارای ویژگی جدید ``__wrapped__`` می باشند."
 
 #: ../../library/functions.rst:292
-#, fuzzy
 msgid ""
 "Class methods can no longer wrap other :term:`descriptors <descriptor>` such"
 " as :func:`property`."
@@ -952,7 +813,6 @@ msgstr ""
 ":func:`property` را بپیچند."
 
 #: ../../library/functions.rst:299
-#, fuzzy
 msgid ""
 "Compile the *source* into a code or AST object.  Code objects can be "
 "executed by :func:`exec` or :func:`eval`.  *source* can either be a normal "
@@ -965,7 +825,6 @@ msgstr ""
 "درباره نحوه کار با اشیاء AST مراجعه کنید."
 
 #: ../../library/functions.rst:304
-#, fuzzy
 msgid ""
 "The *filename* argument should give the file from which the code was read; "
 "pass some recognizable value if it wasn't read from a file (``'<string>'`` "
@@ -976,7 +835,6 @@ msgstr ""
 "``'<string>'`` استفاده می شود)."
 
 #: ../../library/functions.rst:308
-#, fuzzy
 msgid ""
 "The *mode* argument specifies what kind of code must be compiled; it can be "
 "``'exec'`` if *source* consists of a sequence of statements, ``'eval'`` if "
@@ -991,7 +849,6 @@ msgstr ""
 " شوند چاپ خواهند شد)."
 
 #: ../../library/functions.rst:314
-#, fuzzy
 msgid ""
 "The optional arguments *flags* and *dont_inherit* control which "
 ":ref:`compiler options <ast-compiler-flags>` should be activated and which "
@@ -1016,7 +873,6 @@ msgstr ""
 "کامپایلر) در کد اطراف نادیده گرفته می شوند."
 
 #: ../../library/functions.rst:325
-#, fuzzy
 msgid ""
 "Compiler options and future statements are specified by bits which can be "
 "bitwise ORed together to specify multiple options. The bitfield required to "
@@ -1035,7 +891,6 @@ msgstr ""
 "``PyCF_`` یافت می شود."
 
 #: ../../library/functions.rst:333
-#, fuzzy
 msgid ""
 "The argument *optimize* specifies the optimization level of the compiler; "
 "the default value of ``-1`` selects the optimization level of the "
@@ -1050,7 +905,6 @@ msgstr ""
 "یا ``2`` (docstrings نیز حذف می شوند)."
 
 #: ../../library/functions.rst:339
-#, fuzzy
 msgid ""
 "This function raises :exc:`SyntaxError` if the compiled source is invalid, "
 "and :exc:`ValueError` if the source contains null bytes."
@@ -1059,7 +913,6 @@ msgstr ""
 " و :exc:`ValueError` را اگر منبع شامل بایت های null باشد، برمی گرداند."
 
 #: ../../library/functions.rst:342
-#, fuzzy
 msgid ""
 "If you want to parse Python code into its AST representation, see "
 ":func:`ast.parse`."
@@ -1068,7 +921,6 @@ msgstr ""
 "ببینید."
 
 #: ../../library/functions.rst:345 ../../library/functions.rst:347
-#, fuzzy
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``compile`` with arguments "
 "``source`` and ``filename``. This event may also be raised by implicit "
@@ -1079,7 +931,6 @@ msgstr ""
 "شود."
 
 #: ../../library/functions.rst:353
-#, fuzzy
 msgid ""
 "When compiling a string with multi-line code in ``'single'`` or ``'eval'`` "
 "mode, input must be terminated by at least one newline character.  This is "
@@ -1091,7 +942,6 @@ msgstr ""
 "تشخیص جملات ناقص و کامل در ماژول :mod:`code` است."
 
 #: ../../library/functions.rst:360
-#, fuzzy
 msgid ""
 "It is possible to crash the Python interpreter with a sufficiently "
 "large/complex string when compiling to an AST object due to stack depth "
@@ -1102,7 +952,6 @@ msgstr ""
 "بیاندازید."
 
 #: ../../library/functions.rst:364
-#, fuzzy
 msgid ""
 "Allowed use of Windows and Mac newlines.  Also, input in ``'exec'`` mode "
 "does not have to end in a newline anymore.  Added the *optimize* parameter."
@@ -1111,7 +960,6 @@ msgstr ""
 "لازم نیست با یک خط جدید پایان یابد. پارامتر *optimize* اضافه شده است."
 
 #: ../../library/functions.rst:368
-#, fuzzy
 msgid ""
 "Previously, :exc:`TypeError` was raised when null bytes were encountered in "
 "*source*."
@@ -1120,7 +968,6 @@ msgstr ""
 "مشاهده می شدند."
 
 #: ../../library/functions.rst:372
-#, fuzzy
 msgid ""
 "``ast.PyCF_ALLOW_TOP_LEVEL_AWAIT`` can now be passed in flags to enable "
 "support for top-level ``await``, ``async for``, and ``async with``."
@@ -1130,7 +977,6 @@ msgstr ""
 "گذراند."
 
 #: ../../library/functions.rst:381
-#, fuzzy
 msgid ""
 "Convert a single string or number to a complex number, or create a complex "
 "number from real and imaginary parts."
@@ -1140,12 +986,10 @@ msgstr ""
 
 #: ../../library/functions.rst:384 ../../library/functions.rst:752
 #: ../../library/functions.rst:998
-#, fuzzy
 msgid "Examples:"
 msgstr "مثال ها:"
 
 #: ../../library/functions.rst:386
-#, fuzzy
 msgid ""
 ">>> complex('+1.23')\n"
 "(1.23+0j)\n"
@@ -1182,7 +1026,6 @@ msgstr ""
 "(-۱.۲۳+۴.۵j)"
 
 #: ../../library/functions.rst:405
-#, fuzzy
 msgid ""
 "If the argument is a string, it must contain either a real part (in the same"
 " format as for :func:`float`) or an imaginary part (in the same format but "
@@ -1208,7 +1051,6 @@ msgstr ""
 "پرانتزها و فاصله های ابتدایی و انتهایی:"
 
 #: ../../library/functions.rst:424
-#, fuzzy
 msgid ""
 "If the argument is a number, the constructor serves as a numeric conversion "
 "like :class:`int` and :class:`float`. For a general Python object ``x``, "
@@ -1224,7 +1066,6 @@ msgstr ""
 "تعریف نشده باشد، سپس به :meth:`~object.__index__` بازمی گردد."
 
 #: ../../library/functions.rst:433
-#, fuzzy
 msgid ""
 "If two arguments are provided or keyword arguments are used, each argument "
 "may be any numeric type (including complex). If both arguments are real "
@@ -1243,23 +1084,19 @@ msgstr ""
 "استفاده می شود."
 
 #: ../../library/functions.rst:443
-#, fuzzy
 msgid "If all arguments are omitted, returns ``0j``."
 msgstr "اگر همهٔ آرگومان ها حذف شده باشند، ``0j`` را برمی گرداند."
 
 #: ../../library/functions.rst:445
-#, fuzzy
 msgid "The complex type is described in :ref:`typesnumeric`."
 msgstr "نوع complex در :ref:`typesnumeric` توضیح داده شده است."
 
 #: ../../library/functions.rst:447 ../../library/functions.rst:804
 #: ../../library/functions.rst:1047
-#, fuzzy
 msgid "Grouping digits with underscores as in code literals is allowed."
 msgstr "از خط تیره برای جداسازی اعداد در نمایه های کد می توان استفاده کرد."
 
 #: ../../library/functions.rst:450
-#, fuzzy
 msgid ""
 "Falls back to :meth:`~object.__index__` if :meth:`~object.__complex__` and "
 ":meth:`~object.__float__` are not defined."
@@ -1268,7 +1105,6 @@ msgstr ""
 ":meth:`~object.__float__` تعریف نشده باشند."
 
 #: ../../library/functions.rst:457
-#, fuzzy
 msgid ""
 "This is a relative of :func:`setattr`.  The arguments are an object and a "
 "string.  The string must be the name of one of the object's attributes.  The"
@@ -1283,7 +1119,6 @@ msgstr ""
 "پایتون باشد (به :func:`setattr` مراجعه کنید)."
 
 #: ../../library/functions.rst:470
-#, fuzzy
 msgid ""
 "Create a new dictionary.  The :class:`dict` object is the dictionary class. "
 "See :class:`dict` and :ref:`typesmapping` for documentation about this "
@@ -1293,7 +1128,6 @@ msgstr ""
 " مربوط به این کلاس به :class:`dict` و :ref:`typesmapping` مراجعه کنید."
 
 #: ../../library/functions.rst:473
-#, fuzzy
 msgid ""
 "For other containers see the built-in :class:`list`, :class:`set`, and "
 ":class:`tuple` classes, as well as the :mod:`collections` module."
@@ -1302,7 +1136,6 @@ msgstr ""
 ":class:`tuple`، و همچنین ماژول :mod:`collections` مراجعه کنید."
 
 #: ../../library/functions.rst:480
-#, fuzzy
 msgid ""
 "Without arguments, return the list of names in the current local scope.  "
 "With an argument, attempt to return a list of valid attributes for that "
@@ -1313,7 +1146,6 @@ msgstr ""
 "معتبر برای آن شی را برگرداند."
 
 #: ../../library/functions.rst:483
-#, fuzzy
 msgid ""
 "If the object has a method named :meth:`~object.__dir__`, this method will "
 "be called and must return the list of attributes. This allows objects that "
@@ -1328,7 +1160,6 @@ msgstr ""
 ":func:`dir` را سفارشی سازی کنند."
 
 #: ../../library/functions.rst:490
-#, fuzzy
 msgid ""
 "If the object does not provide :meth:`~object.__dir__`, the function tries "
 "its best to gather information from the object's :attr:`~object.__dict__` "
@@ -1343,7 +1174,6 @@ msgstr ""
 "نادرست باشد."
 
 #: ../../library/functions.rst:496
-#, fuzzy
 msgid ""
 "The default :func:`dir` mechanism behaves differently with different types "
 "of objects, as it attempts to produce the most relevant, rather than "
@@ -1353,14 +1183,12 @@ msgstr ""
 "کند، زیرا سعی دارد اطلاعات مرتبط تر (و نه کامل) را تولید کند:"
 
 #: ../../library/functions.rst:500
-#, fuzzy
 msgid ""
 "If the object is a module object, the list contains the names of the "
 "module's attributes."
 msgstr "اگر شیء یک شیء ماژول باشد، لیست شامل نام های ویژگی های ماژول است."
 
 #: ../../library/functions.rst:503
-#, fuzzy
 msgid ""
 "If the object is a type or class object, the list contains the names of its "
 "attributes, and recursively of the attributes of its bases."
@@ -1369,7 +1197,6 @@ msgstr ""
 "بازگشتی شامل ویژگی های مبناهای آن می باشد."
 
 #: ../../library/functions.rst:506
-#, fuzzy
 msgid ""
 "Otherwise, the list contains the object's attributes' names, the names of "
 "its class's attributes, and recursively of the attributes of its class's "
@@ -1379,12 +1206,10 @@ msgstr ""
 " و به صورت بازگشتی ویژگی های کلاس های پایه آن کلاس خواهد بود."
 
 #: ../../library/functions.rst:510
-#, fuzzy
 msgid "The resulting list is sorted alphabetically.  For example:"
 msgstr "لیست نهایی به صورت حروف الفبا مرتب می شود. برای مثال:"
 
 #: ../../library/functions.rst:530
-#, fuzzy
 msgid ""
 "Because :func:`dir` is supplied primarily as a convenience for use at an "
 "interactive prompt, it tries to supply an interesting set of names more than"
@@ -1399,7 +1224,6 @@ msgstr ""
 "آرگومان یک کلاس است، صفات متاکلاس در لیست نتیجه نیستند."
 
 #: ../../library/functions.rst:540
-#, fuzzy
 msgid ""
 "Take two (non-complex) numbers as arguments and return a pair of numbers "
 "consisting of their quotient and remainder when using integer division.  "
@@ -1419,7 +1243,6 @@ msgstr ""
 "b`` غیر صفر باشد همان علامت *b* را دارد، و ``0 <= abs(a % b) < abs(b)``."
 
 #: ../../library/functions.rst:552
-#, fuzzy
 msgid ""
 "Return an enumerate object. *iterable* must be a sequence, an "
 ":term:`iterator`, or some other object which supports iteration. The "
@@ -1434,12 +1257,10 @@ msgstr ""
 "از تکرار بر روی *iterable* به دست می آیند را بازمی گرداند."
 
 #: ../../library/functions.rst:564
-#, fuzzy
 msgid "Equivalent to::"
 msgstr "معادل با:"
 
 #: ../../library/functions.rst:566
-#, fuzzy
 msgid ""
 "def enumerate(iterable, start=0):\n"
 "    n = start\n"
@@ -1454,47 +1275,38 @@ msgstr ""
 "        n += 1"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "Parameters"
 msgstr "پارامترها"
 
 #: ../../library/functions.rst:576
-#, fuzzy
 msgid "A Python expression."
 msgstr "یک عبارت Python."
 
 #: ../../library/functions.rst:580
-#, fuzzy
 msgid "The global namespace (default: ``None``)."
 msgstr "فضای نام سراسری (پیش فرض: ``None``)."
 
 #: ../../library/functions.rst:584
-#, fuzzy
 msgid "The local namespace (default: ``None``)."
 msgstr "فضای نام محلی (پیش فرض: ``None``)."
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "Returns"
 msgstr "بازمی گرداند"
 
 #: ../../library/functions.rst:588
-#, fuzzy
 msgid "The result of the evaluated expression."
 msgstr "نتیجه ی عبارت ارزیابی شده."
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "raises"
 msgstr "بالا می برد"
 
 #: ../../library/functions.rst:589
-#, fuzzy
 msgid "Syntax errors are reported as exceptions."
 msgstr "خطاهای نحوی به صورت استثنا گزارش می شوند."
 
 #: ../../library/functions.rst:593 ../../library/functions.rst:654
-#, fuzzy
 msgid ""
 "This function executes arbitrary code. Calling it with user-supplied input "
 "may lead to security vulnerabilities."
@@ -1503,7 +1315,6 @@ msgstr ""
 "ارائه شده است ممکن است منجر به آسیب پذیری های امنیتی شود."
 
 #: ../../library/functions.rst:596
-#, fuzzy
 msgid ""
 "The *expression* argument is parsed and evaluated as a Python expression "
 "(technically speaking, a condition list) using the *globals* and *locals* "
@@ -1537,12 +1348,10 @@ msgstr ""
 ":keyword:`nonlocal`)."
 
 #: ../../library/functions.rst:612
-#, fuzzy
 msgid "Example:"
 msgstr "مثال:"
 
 #: ../../library/functions.rst:618
-#, fuzzy
 msgid ""
 "This function can also be used to execute arbitrary code objects (such as "
 "those created by :func:`compile`).  In this case, pass a code object instead"
@@ -1556,7 +1365,6 @@ msgstr ""
 "بود."
 
 #: ../../library/functions.rst:623
-#, fuzzy
 msgid ""
 "Hints: dynamic execution of statements is supported by the :func:`exec` "
 "function.  The :func:`globals` and :func:`locals` functions return the "
@@ -1569,7 +1377,6 @@ msgstr ""
 " باشد."
 
 #: ../../library/functions.rst:628
-#, fuzzy
 msgid ""
 "If the given source is a string, then leading and trailing spaces and tabs "
 "are stripped."
@@ -1578,7 +1385,6 @@ msgstr ""
 "می شوند."
 
 #: ../../library/functions.rst:631
-#, fuzzy
 msgid ""
 "See :func:`ast.literal_eval` for a function that can safely evaluate strings"
 " with expressions containing only literals."
@@ -1588,7 +1394,6 @@ msgstr ""
 
 #: ../../library/functions.rst:634 ../../library/functions.rst:636
 #: ../../library/functions.rst:696 ../../library/functions.rst:698
-#, fuzzy
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``exec`` with the code object as "
 "the argument. Code compilation events may also be raised."
@@ -1597,14 +1402,12 @@ msgstr ""
 "برمی انگیزد. رویدادهای کامپایل کد نیز ممکن است برانگیخته شوند."
 
 #: ../../library/functions.rst:641 ../../library/functions.rst:718
-#, fuzzy
 msgid "The *globals* and *locals* arguments can now be passed as keywords."
 msgstr ""
 "آرگومان های *globals* و *locals* اکنون می توانند به صورت کلیدواژه ها ارسال "
 "شوند."
 
 #: ../../library/functions.rst:645 ../../library/functions.rst:722
-#, fuzzy
 msgid ""
 "The semantics of the default *locals* namespace have been adjusted as "
 "described for the :func:`locals` builtin."
@@ -1613,7 +1416,6 @@ msgstr ""
 "توصیف شده تعدیل شده است."
 
 #: ../../library/functions.rst:657
-#, fuzzy
 msgid ""
 "This function supports dynamic execution of Python code. *source* must be "
 "either a string or a code object.  If it is a string, the string is parsed "
@@ -1636,7 +1438,6 @@ msgstr ""
 "استفاده نشوند. مقدار بازگشتی ``None`` است."
 
 #: ../../library/functions.rst:668
-#, fuzzy
 msgid ""
 "In all cases, if the optional parts are omitted, the code is executed in the"
 " current scope.  If only *globals* is provided, it must be a dictionary (and"
@@ -1654,7 +1455,6 @@ msgstr ""
 "سطح ماژول، سراسری ها و محلی ها یک دیکشنری هستند."
 
 #: ../../library/functions.rst:678
-#, fuzzy
 msgid ""
 "When ``exec`` gets two separate objects as *globals* and *locals*, the code "
 "will be executed as if it were embedded in a class definition. This means "
@@ -1670,7 +1470,6 @@ msgstr ""
 "شوند)."
 
 #: ../../library/functions.rst:684
-#, fuzzy
 msgid ""
 "If the *globals* dictionary does not contain a value for the key "
 "``__builtins__``, a reference to the dictionary of the built-in module "
@@ -1686,7 +1485,6 @@ msgstr ""
 "ساختارهای داخلی در کد اجرا شده در دسترس هستند."
 
 #: ../../library/functions.rst:690
-#, fuzzy
 msgid ""
 "The *closure* argument specifies a closure--a tuple of cellvars. It's only "
 "valid when the *object* is a code object containing :term:`free (closure) "
@@ -1699,7 +1497,6 @@ msgstr ""
 ":attr:`~codeobject.co_freevars` شی کد مطابقت داشته باشد."
 
 #: ../../library/functions.rst:703
-#, fuzzy
 msgid ""
 "The built-in functions :func:`globals` and :func:`locals` return the current"
 " global and local namespace, respectively, which may be useful to pass "
@@ -1710,7 +1507,6 @@ msgstr ""
 "دوم و سوم به :func:`exec` مفید باشند."
 
 #: ../../library/functions.rst:709
-#, fuzzy
 msgid ""
 "The default *locals* act as described for function :func:`locals` below. "
 "Pass an explicit *locals* dictionary if you need to see effects of the code "
@@ -1721,12 +1517,10 @@ msgstr ""
 "بازگشت تابع :func:`exec` ببینید، یک دیکشنری *locals* صریح ارسال کنید."
 
 #: ../../library/functions.rst:713
-#, fuzzy
 msgid "Added the *closure* parameter."
 msgstr "پارامتر *closure* اضافه شد."
 
 #: ../../library/functions.rst:728
-#, fuzzy
 msgid ""
 "Construct an iterator from those elements of *iterable* for which *function*"
 " is true.  *iterable* may be either a sequence, a container which supports "
@@ -1739,7 +1533,6 @@ msgstr ""
 "شود، یعنی همه عناصر *iterable* که نادرست هستند حذف می شوند."
 
 #: ../../library/functions.rst:734
-#, fuzzy
 msgid ""
 "Note that ``filter(function, iterable)`` is equivalent to the generator "
 "expression ``(item for item in iterable if function(item))`` if function is "
@@ -1752,7 +1545,6 @@ msgstr ""
 "با ``None`` باشد."
 
 #: ../../library/functions.rst:739
-#, fuzzy
 msgid ""
 "See :func:`itertools.filterfalse` for the complementary function that "
 "returns elements of *iterable* for which *function* is false."
@@ -1761,12 +1553,10 @@ msgstr ""
 "برمی گرداند که برای آن ها *function* نادرست است."
 
 #: ../../library/functions.rst:750
-#, fuzzy
 msgid "Return a floating-point number constructed from a number or a string."
 msgstr "بازگشت یک عدد اعشاری که از یک عدد یا یک رشته ساخته شده است."
 
 #: ../../library/functions.rst:754
-#, fuzzy
 msgid ""
 ">>> float('+1.23')\n"
 "1.23\n"
@@ -1791,7 +1581,6 @@ msgstr ""
 "-inf"
 
 #: ../../library/functions.rst:767
-#, fuzzy
 msgid ""
 "If the argument is a string, it should contain a decimal number, optionally "
 "preceded by a sign, and optionally embedded in whitespace.  The optional "
@@ -1810,7 +1599,6 @@ msgstr ""
 "کاراکترهای فضای خالی اول و آخر حذف شدند:"
 
 #: ../../library/functions.rst:788
-#, fuzzy
 msgid ""
 "Case is not significant, so, for example, \"inf\", \"Inf\", \"INFINITY\", "
 "and \"iNfINity\" are all acceptable spellings for positive infinity."
@@ -1820,7 +1608,6 @@ msgstr ""
 "هستند."
 
 #: ../../library/functions.rst:791
-#, fuzzy
 msgid ""
 "Otherwise, if the argument is an integer or a floating-point number, a "
 "floating-point number with the same value (within Python's floating-point "
@@ -1833,7 +1620,6 @@ msgstr ""
 "خواهد شد."
 
 #: ../../library/functions.rst:796
-#, fuzzy
 msgid ""
 "For a general Python object ``x``, ``float(x)`` delegates to "
 "``x.__float__()``.  If :meth:`~object.__float__` is not defined then it "
@@ -1844,17 +1630,14 @@ msgstr ""
 ":meth:`~object.__index__` باز می گردد."
 
 #: ../../library/functions.rst:800
-#, fuzzy
 msgid "If no argument is given, ``0.0`` is returned."
 msgstr "اگر هیچ آرگومانی داده نشود، ``0.0`` بازگردانده می شود."
 
 #: ../../library/functions.rst:802
-#, fuzzy
 msgid "The float type is described in :ref:`typesnumeric`."
 msgstr "نوع float در :ref:`typesnumeric` توضیح داده شده است."
 
 #: ../../library/functions.rst:810
-#, fuzzy
 msgid ""
 "Falls back to :meth:`~object.__index__` if :meth:`~object.__float__` is not "
 "defined."
@@ -1863,7 +1646,6 @@ msgstr ""
 ":meth:`~object.__index__` بازگشت می کند."
 
 #: ../../library/functions.rst:820
-#, fuzzy
 msgid ""
 "Convert a *value* to a \"formatted\" representation, as controlled by "
 "*format_spec*.  The interpretation of *format_spec* will depend on the type "
@@ -1876,7 +1658,6 @@ msgstr ""
 "مورد استفاده قرار می گیرد: :ref:`formatspec`."
 
 #: ../../library/functions.rst:825
-#, fuzzy
 msgid ""
 "The default *format_spec* is an empty string which usually gives the same "
 "effect as calling :func:`str(value) <str>`."
@@ -1885,7 +1666,6 @@ msgstr ""
 "فراخوانی :func:`str(value) <str>` به دست می آید."
 
 #: ../../library/functions.rst:828
-#, fuzzy
 msgid ""
 "A call to ``format(value, format_spec)`` is translated to "
 "``type(value).__format__(value, format_spec)`` which bypasses the instance "
@@ -1902,7 +1682,6 @@ msgstr ""
 "مقدار بازگشتی رشته نباشند."
 
 #: ../../library/functions.rst:835
-#, fuzzy
 msgid ""
 "``object().__format__(format_spec)`` raises :exc:`TypeError` if "
 "*format_spec* is not an empty string."
@@ -1911,7 +1690,6 @@ msgstr ""
 "اگر *format_spec* یک رشته خالی نباشد."
 
 #: ../../library/functions.rst:844
-#, fuzzy
 msgid ""
 "Return a new :class:`frozenset` object, optionally with elements taken from "
 "*iterable*.  ``frozenset`` is a built-in class.  See :class:`frozenset` and "
@@ -1922,7 +1700,6 @@ msgstr ""
 "به این کلاس به :class:`frozenset` و :ref:`types-set` مراجعه کنید."
 
 #: ../../library/functions.rst:848
-#, fuzzy
 msgid ""
 "For other containers see the built-in :class:`set`, :class:`list`, "
 ":class:`tuple`, and :class:`dict` classes, as well as the :mod:`collections`"
@@ -1933,7 +1710,6 @@ msgstr ""
 "کنید."
 
 #: ../../library/functions.rst:856
-#, fuzzy
 msgid ""
 "Return the value of the named attribute of *object*.  *name* must be a "
 "string. If the string is the name of one of the object's attributes, the "
@@ -1950,7 +1726,6 @@ msgstr ""
 "پایتون باشد (به :func:`setattr` مراجعه کنید)."
 
 #: ../../library/functions.rst:865
-#, fuzzy
 msgid ""
 "Since :ref:`private name mangling <private-name-mangling>` happens at "
 "compilation time, one must manually mangle a private attribute's (attributes"
@@ -1962,7 +1737,6 @@ msgstr ""
 "با دو خط تیره آغاز می شوند) را برای بازیابی با :func:`getattr` تغییر دهید."
 
 #: ../../library/functions.rst:873
-#, fuzzy
 msgid ""
 "Return the dictionary implementing the current module namespace. For code "
 "within functions, this is set when the function is defined and remains the "
@@ -1973,7 +1747,6 @@ msgstr ""
 "بدون توجه به محلی که تابع فراخوانی می شود، ثابت می ماند."
 
 #: ../../library/functions.rst:880
-#, fuzzy
 msgid ""
 "The arguments are an object and a string.  The result is ``True`` if the "
 "string is the name of one of the object's attributes, ``False`` if not. "
@@ -1986,7 +1759,6 @@ msgstr ""
 ":exc:`AttributeError` ایجاد می شود یا خیر.)"
 
 #: ../../library/functions.rst:888
-#, fuzzy
 msgid ""
 "Return the hash value of the object (if it has one).  Hash values are "
 "integers.  They are used to quickly compare dictionary keys during a "
@@ -1999,7 +1771,6 @@ msgstr ""
 "هستند (حتی اگر از انواع مختلف باشند، مانند 1 و 1.0)."
 
 #: ../../library/functions.rst:895
-#, fuzzy
 msgid ""
 "For objects with custom :meth:`~object.__hash__` methods, note that "
 ":func:`hash` truncates the return value based on the bit width of the host "
@@ -2010,7 +1781,6 @@ msgstr ""
 "کوتاه می کند."
 
 #: ../../library/functions.rst:902
-#, fuzzy
 msgid ""
 "Invoke the built-in help system.  (This function is intended for interactive"
 " use.)  If no argument is given, the interactive help system starts on the "
@@ -2028,7 +1798,6 @@ msgstr ""
 "آن شیء تولید می شود."
 
 #: ../../library/functions.rst:909
-#, fuzzy
 msgid ""
 "Note that if a slash(/) appears in the parameter list of a function when "
 "invoking :func:`help`, it means that the parameters prior to the slash are "
@@ -2041,13 +1810,11 @@ msgstr ""
 "only parameters <faq-positional-only-arguments>` مراجعه کنید."
 
 #: ../../library/functions.rst:914
-#, fuzzy
 msgid ""
 "This function is added to the built-in namespace by the :mod:`site` module."
 msgstr "این تابع توسط ماژول :mod:`site` به فضای نام داخلی اضافه شده است."
 
 #: ../../library/functions.rst:916
-#, fuzzy
 msgid ""
 "Changes to :mod:`pydoc` and :mod:`inspect` mean that the reported signatures"
 " for callables are now more comprehensive and consistent."
@@ -2056,7 +1823,6 @@ msgstr ""
 "برای فراخوان ها اکنون جامع تر و سازگارتر هستند."
 
 #: ../../library/functions.rst:923
-#, fuzzy
 msgid ""
 "Convert an integer number to a lowercase hexadecimal string prefixed with "
 "\"0x\". If *x* is not a Python :class:`int` object, it has to define an "
@@ -2067,7 +1833,6 @@ msgstr ""
 ":meth:`~object.__index__` تعریف کند که یک عدد صحیح را برگرداند. چند مثال:"
 
 #: ../../library/functions.rst:932
-#, fuzzy
 msgid ""
 "If you want to convert an integer number to an uppercase or lower "
 "hexadecimal string with prefix or not, you can use either of the following "
@@ -2077,7 +1842,6 @@ msgstr ""
 "پیشوند یا بدون آن تبدیل کنید، می توانید از روش های زیر استفاده کنید:"
 
 #: ../../library/functions.rst:944
-#, fuzzy
 msgid ""
 "See also :func:`int` for converting a hexadecimal string to an integer using"
 " a base of 16."
@@ -2086,7 +1850,6 @@ msgstr ""
 " استفاده از مبنای 16."
 
 #: ../../library/functions.rst:949
-#, fuzzy
 msgid ""
 "To obtain a hexadecimal string representation for a float, use the "
 ":meth:`float.hex` method."
@@ -2095,7 +1858,6 @@ msgstr ""
 ":meth:`float.hex` استفاده کنید."
 
 #: ../../library/functions.rst:955
-#, fuzzy
 msgid ""
 "Return the \"identity\" of an object.  This is an integer which is "
 "guaranteed to be unique and constant for this object during its lifetime. "
@@ -2107,12 +1869,10 @@ msgstr ""
 "ندارند ممکن است مقدار :func:`id` یکسانی داشته باشند."
 
 #: ../../library/functions.rst:960
-#, fuzzy
 msgid "This is the address of the object in memory."
 msgstr "این آدرس شیء در حافظه است."
 
 #: ../../library/functions.rst:962
-#, fuzzy
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``builtins.id`` with argument "
 "``id``."
@@ -2121,7 +1881,6 @@ msgstr ""
 "گرداند."
 
 #: ../../library/functions.rst:968
-#, fuzzy
 msgid ""
 "If the *prompt* argument is present, it is written to standard output "
 "without a trailing newline.  The function then reads a line from input, "
@@ -2134,7 +1893,6 @@ msgstr ""
 ":exc:`EOFError` تولید می شود. مثال::"
 
 #: ../../library/functions.rst:973
-#, fuzzy
 msgid ""
 ">>> s = input('--> ')\n"
 "--> Monty Python's Flying Circus\n"
@@ -2147,7 +1905,6 @@ msgstr ""
 "\"Monty Python's Flying Circus\""
 
 #: ../../library/functions.rst:978
-#, fuzzy
 msgid ""
 "If the :mod:`readline` module was loaded, then :func:`input` will use it to "
 "provide elaborate line editing and history features."
@@ -2156,7 +1913,6 @@ msgstr ""
 " خواهد کرد تا ویژگی های ویرایش خط و تاریخچه پیشرفته ای را فراهم کند."
 
 #: ../../library/functions.rst:981 ../../library/functions.rst:983
-#, fuzzy
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``builtins.input`` with argument "
 "``prompt`` before reading input"
@@ -2165,7 +1921,6 @@ msgstr ""
 "با آرگومان ``prompt`` ایجاد می کند."
 
 #: ../../library/functions.rst:986 ../../library/functions.rst:988
-#, fuzzy
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``builtins.input/result`` with "
 "the result after successfully reading input."
@@ -2174,7 +1929,6 @@ msgstr ""
 " از خواندن موفقیت آمیز ورودی ایجاد می کند."
 
 #: ../../library/functions.rst:995
-#, fuzzy
 msgid ""
 "Return an integer object constructed from a number or a string, or return "
 "``0`` if no arguments are given."
@@ -2183,7 +1937,6 @@ msgstr ""
 "هیچ آرگومانی داده نشود، ``0`` را بازمی گرداند."
 
 #: ../../library/functions.rst:1000
-#, fuzzy
 msgid ""
 ">>> int(123.45)\n"
 "123\n"
@@ -2212,7 +1965,6 @@ msgstr ""
 "115"
 
 #: ../../library/functions.rst:1015
-#, fuzzy
 msgid ""
 "If the argument defines :meth:`~object.__int__`, ``int(x)`` returns "
 "``x.__int__()``.  If the argument defines :meth:`~object.__index__`, it "
@@ -2227,7 +1979,6 @@ msgstr ""
 "صفر مدور می کند."
 
 #: ../../library/functions.rst:1021
-#, fuzzy
 msgid ""
 "If the argument is not a number or if *base* is given, then it must be a "
 "string, :class:`bytes`, or :class:`bytearray` instance representing an "
@@ -2242,7 +1993,6 @@ msgstr ""
 "احاطه شده باشد، و خط زیرین های تکی در بین ارقام داشته باشد."
 
 #: ../../library/functions.rst:1027
-#, fuzzy
 msgid ""
 "A base-n integer string contains digits, each representing a value from 0 to"
 " n-1. The values 0--9 can be represented by any Unicode decimal digit. The "
@@ -2268,12 +2018,10 @@ msgstr ""
 "``int('010', 8)`` قانونی هستند."
 
 #: ../../library/functions.rst:1038
-#, fuzzy
 msgid "The integer type is described in :ref:`typesnumeric`."
 msgstr "نوع عدد صحیح در :ref:`typesnumeric` توصیف شده است."
 
 #: ../../library/functions.rst:1040
-#, fuzzy
 msgid ""
 "If *base* is not an instance of :class:`int` and the *base* object has a "
 ":meth:`base.__index__ <object.__index__>` method, that method is called to "
@@ -2287,12 +2035,10 @@ msgstr ""
 "<object.__index__>` استفاده می کردند."
 
 #: ../../library/functions.rst:1050
-#, fuzzy
 msgid "The first parameter is now positional-only."
 msgstr "اولین پارامتر اکنون فقط موقعیتی است."
 
 #: ../../library/functions.rst:1053
-#, fuzzy
 msgid ""
 "Falls back to :meth:`~object.__index__` if :meth:`~object.__int__` is not "
 "defined."
@@ -2301,12 +2047,10 @@ msgstr ""
 "بازمی گردد."
 
 #: ../../library/functions.rst:1056
-#, fuzzy
 msgid "The delegation to :meth:`~object.__trunc__` is deprecated."
 msgstr "واگذاری به :meth:`~object.__trunc__` منسوخ شده است."
 
 #: ../../library/functions.rst:1059
-#, fuzzy
 msgid ""
 ":class:`int` string inputs and string representations can be limited to help"
 " avoid denial of service attacks. A :exc:`ValueError` is raised when the "
@@ -2317,7 +2061,6 @@ msgid ""
 msgstr ""
 
 #: ../../library/functions.rst:1069
-#, fuzzy
 msgid ""
 "Return ``True`` if the *object* argument is an instance of the *classinfo* "
 "argument, or of a (direct, indirect, or :term:`virtual <abstract base "
@@ -2340,12 +2083,10 @@ msgstr ""
 "بررسی زودتری موفق باشد."
 
 #: ../../library/functions.rst:1080 ../../library/functions.rst:1094
-#, fuzzy
 msgid "*classinfo* can be a :ref:`types-union`."
 msgstr "*classinfo* می تواند یک :ref:`types-union` باشد."
 
 #: ../../library/functions.rst:1086
-#, fuzzy
 msgid ""
 "Return ``True`` if *class* is a subclass (direct, indirect, or "
 ":term:`virtual <abstract base class>`) of *classinfo*.  A class is "
@@ -2363,7 +2104,6 @@ msgstr ""
 "شود."
 
 #: ../../library/functions.rst:1101
-#, fuzzy
 msgid ""
 "Return an :term:`iterator` object.  The first argument is interpreted very "
 "differently depending on the presence of the second argument. Without a "
@@ -2392,12 +2132,10 @@ msgstr ""
 "صورت مقدار بازگردانده خواهد شد."
 
 #: ../../library/functions.rst:1115
-#, fuzzy
 msgid "See also :ref:`typeiter`."
 msgstr "همچنین به :ref:`typeiter` مراجعه کنید."
 
 #: ../../library/functions.rst:1117
-#, fuzzy
 msgid ""
 "One useful application of the second form of :func:`iter` is to build a "
 "block-reader. For example, reading fixed-width blocks from a binary database"
@@ -2408,7 +2146,6 @@ msgstr ""
 "به انتهای فایل برسید:"
 
 #: ../../library/functions.rst:1121
-#, fuzzy
 msgid ""
 "from functools import partial\n"
 "with open('mydata.db', 'rb') as f:\n"
@@ -2421,7 +2158,6 @@ msgstr ""
 "        process_block را روی block فراخوانی کنید"
 
 #: ../../library/functions.rst:1129
-#, fuzzy
 msgid ""
 "Return the length (the number of items) of an object.  The argument may be a"
 " sequence (such as a string, bytes, tuple, list, or range) or a collection "
@@ -2432,7 +2168,6 @@ msgstr ""
 " set، یا frozen set) باشد."
 
 #: ../../library/functions.rst:1135
-#, fuzzy
 msgid ""
 "``len`` raises :exc:`OverflowError` on lengths larger than "
 ":data:`sys.maxsize`, such as :class:`range(2 ** 100) <range>`."
@@ -2441,7 +2176,6 @@ msgstr ""
 ":data:`sys.maxsize`، مانند :class:`range(2 ** 100) <range>`، ایجاد می کند."
 
 #: ../../library/functions.rst:1144
-#, fuzzy
 msgid ""
 "Rather than being a function, :class:`list` is actually a mutable sequence "
 "type, as documented in :ref:`typesseq-list` and :ref:`typesseq`."
@@ -2450,7 +2184,6 @@ msgstr ""
 " همان طور که در :ref:`typesseq-list` و :ref:`typesseq` مستند شده است."
 
 #: ../../library/functions.rst:1150
-#, fuzzy
 msgid ""
 "Return a mapping object representing the current local symbol table, with "
 "variable names as the keys, and their currently bound references as the "
@@ -2461,7 +2194,6 @@ msgstr ""
 "مقدارها قرار داده شده اند."
 
 #: ../../library/functions.rst:1154
-#, fuzzy
 msgid ""
 "At module scope, as well as when using :func:`exec` or :func:`eval` with a "
 "single namespace, this function returns the same namespace as "
@@ -2471,7 +2203,6 @@ msgstr ""
 "فضای نام واحد، این تابع همان فضای نام :func:`globals` را برمی گرداند."
 
 #: ../../library/functions.rst:1158
-#, fuzzy
 msgid ""
 "At class scope, it returns the namespace that will be passed to the "
 "metaclass constructor."
@@ -2479,7 +2210,6 @@ msgstr ""
 "در سطح کلاس، فضای نامی که به سازنده متاکلاس ارسال خواهد شد را برمی گرداند."
 
 #: ../../library/functions.rst:1161
-#, fuzzy
 msgid ""
 "When using ``exec()`` or ``eval()`` with separate local and global "
 "arguments, it returns the local namespace passed in to the function call."
@@ -2488,7 +2218,6 @@ msgstr ""
 "جداگانه، نام فضای محلی که در فراخوانی تابع ارسال شده است را برمی گرداند."
 
 #: ../../library/functions.rst:1164
-#, fuzzy
 msgid ""
 "In all of the above cases, each call to ``locals()`` in a given frame of "
 "execution will return the *same* mapping object. Changes made through the "
@@ -2504,7 +2233,6 @@ msgstr ""
 "محتوای شیء نگاشت بازگشت داده شده فوراً تأثیر می گذارد."
 
 #: ../../library/functions.rst:1171
-#, fuzzy
 msgid ""
 "In an :term:`optimized scope` (including functions, generators, and "
 "coroutines), each call to ``locals()`` instead returns a fresh dictionary "
@@ -2524,7 +2252,6 @@ msgstr ""
 " دیکشنری های بازگردانده شده قبلی *not* تأثیری نمی گذارد."
 
 #: ../../library/functions.rst:1180
-#, fuzzy
 msgid ""
 "Calling ``locals()`` as part of a comprehension in a function, generator, or"
 " coroutine is equivalent to calling it in the containing scope, except that "
@@ -2539,7 +2266,6 @@ msgstr ""
 "شود."
 
 #: ../../library/functions.rst:1186
-#, fuzzy
 msgid ""
 "Calling ``locals()`` as part of a generator expression is equivalent to "
 "calling it in a nested generator function."
@@ -2548,7 +2274,6 @@ msgstr ""
 "آن در یک تابع مولد تو در تو."
 
 #: ../../library/functions.rst:1189
-#, fuzzy
 msgid ""
 "The behaviour of ``locals()`` in a comprehension has been updated as "
 "described in :pep:`709`."
@@ -2557,7 +2282,6 @@ msgstr ""
 "توضیح داده شده است."
 
 #: ../../library/functions.rst:1193
-#, fuzzy
 msgid ""
 "As part of :pep:`667`, the semantics of mutating the mapping objects "
 "returned from this function are now defined. The behavior in "
@@ -2572,7 +2296,6 @@ msgstr ""
 "مانده است."
 
 #: ../../library/functions.rst:1203
-#, fuzzy
 msgid ""
 "Return an iterator that applies *function* to every item of *iterable*, "
 "yielding the results.  If additional *iterables* arguments are passed, "
@@ -2590,7 +2313,6 @@ msgstr ""
 ":func:`itertools.starmap` مراجعه کنید."
 
 #: ../../library/functions.rst:1215
-#, fuzzy
 msgid ""
 "Return the largest item in an iterable or the largest of two or more "
 "arguments."
@@ -2599,7 +2321,6 @@ msgstr ""
 "بازمی گرداند."
 
 #: ../../library/functions.rst:1218
-#, fuzzy
 msgid ""
 "If one positional argument is provided, it should be an :term:`iterable`. "
 "The largest item in the iterable is returned.  If two or more positional "
@@ -2610,7 +2331,6 @@ msgstr ""
 "بزرگترین آرگومان مکانی بازگردانده می شود."
 
 #: ../../library/functions.rst:1223 ../../library/functions.rst:1261
-#, fuzzy
 msgid ""
 "There are two optional keyword-only arguments. The *key* argument specifies "
 "a one-argument ordering function like that used for :meth:`list.sort`. The "
@@ -2625,7 +2345,6 @@ msgstr ""
 ":exc:`ValueError` ایجاد می شود."
 
 #: ../../library/functions.rst:1229
-#, fuzzy
 msgid ""
 "If multiple items are maximal, the function returns the first one "
 "encountered.  This is consistent with other sort-stability preserving tools "
@@ -2638,17 +2357,14 @@ msgstr ""
 "iterable, key=keyfunc)`` سازگار است."
 
 #: ../../library/functions.rst:1234 ../../library/functions.rst:1272
-#, fuzzy
 msgid "Added the *default* keyword-only parameter."
 msgstr "افزوده شدن پارامتر فقط-کلیدواژه *default*."
 
 #: ../../library/functions.rst:1237 ../../library/functions.rst:1275
-#, fuzzy
 msgid "The *key* can be ``None``."
 msgstr "  *key* می تواند ``None`` باشد."
 
 #: ../../library/functions.rst:1245
-#, fuzzy
 msgid ""
 "Return a \"memory view\" object created from the given argument.  See "
 ":ref:`typememoryview` for more information."
@@ -2657,7 +2373,6 @@ msgstr ""
 "اطلاعات بیشتر به :ref:`typememoryview` مراجعه کنید."
 
 #: ../../library/functions.rst:1253
-#, fuzzy
 msgid ""
 "Return the smallest item in an iterable or the smallest of two or more "
 "arguments."
@@ -2665,7 +2380,6 @@ msgstr ""
 "کوچکترین مورد را در یک iterable یا کوچکترینِ دو یا چند آرگومان بازمی گرداند."
 
 #: ../../library/functions.rst:1256
-#, fuzzy
 msgid ""
 "If one positional argument is provided, it should be an :term:`iterable`. "
 "The smallest item in the iterable is returned.  If two or more positional "
@@ -2677,7 +2391,6 @@ msgstr ""
 "کوچک ترین آرگومان موضعی بازگردانده می شود."
 
 #: ../../library/functions.rst:1267
-#, fuzzy
 msgid ""
 "If multiple items are minimal, the function returns the first one "
 "encountered.  This is consistent with other sort-stability preserving tools "
@@ -2690,7 +2403,6 @@ msgstr ""
 "key=keyfunc)`` سازگار است."
 
 #: ../../library/functions.rst:1282
-#, fuzzy
 msgid ""
 "Retrieve the next item from the :term:`iterator` by calling its "
 ":meth:`~iterator.__next__` method.  If *default* is given, it is returned if"
@@ -2702,7 +2414,6 @@ msgstr ""
 "برافراشته می شود."
 
 #: ../../library/functions.rst:1289
-#, fuzzy
 msgid ""
 "This is the ultimate base class of all other classes. It has methods that "
 "are common to all instances of Python classes. When the constructor is "
@@ -2714,14 +2425,12 @@ msgstr ""
 "بدون ویژگی برمی گرداند. سازنده هیچ آرگومانی را قبول نمی کند."
 
 #: ../../library/functions.rst:1296
-#, fuzzy
 msgid ""
 ":class:`object` instances do *not* have :attr:`~object.__dict__` attributes,"
 " so you can't assign arbitrary attributes to an instance of :class:`object`."
 msgstr ""
 
 #: ../../library/functions.rst:1303
-#, fuzzy
 msgid ""
 "Convert an integer number to an octal string prefixed with \"0o\".  The "
 "result is a valid Python expression. If *x* is not a Python :class:`int` "
@@ -2730,7 +2439,6 @@ msgid ""
 msgstr ""
 
 #: ../../library/functions.rst:1313
-#, fuzzy
 msgid ""
 "If you want to convert an integer number to an octal string either with the "
 "prefix \"0o\" or not, you can use either of the following ways."
@@ -2739,7 +2447,6 @@ msgstr ""
 "تبدیل کنید، می توانید از یکی از روش های زیر استفاده کنید."
 
 #: ../../library/functions.rst:1330
-#, fuzzy
 msgid ""
 "Open *file* and return a corresponding :term:`file object`.  If the file "
 "cannot be opened, an :exc:`OSError` is raised. See :ref:`tut-files` for more"
@@ -2750,7 +2457,6 @@ msgstr ""
 "استفاده از این تابع، به :ref:`tut-files` مراجعه کنید."
 
 #: ../../library/functions.rst:1334
-#, fuzzy
 msgid ""
 "*file* is a :term:`path-like object` giving the pathname (absolute or "
 "relative to the current working directory) of the file to be opened or an "
@@ -2765,7 +2471,6 @@ msgstr ""
 "*closefd* به ``False`` تنظیم شود.)"
 
 #: ../../library/functions.rst:1340
-#, fuzzy
 msgid ""
 "*mode* is an optional string that specifies the mode in which the file is "
 "opened.  It defaults to ``'r'`` which means open for reading in text mode. "
@@ -2789,89 +2494,72 @@ msgstr ""
 " دودویی استفاده کنید و *encoding* را مشخص نکنید.) حالت های موجود عبارتند از:"
 
 #: ../../library/functions.rst:1357
-#, fuzzy
 msgid "Character"
 msgstr "کاراکتر"
 
 #: ../../library/functions.rst:1357
-#, fuzzy
 msgid "Meaning"
 msgstr "معنی"
 
 #: ../../library/functions.rst:1359
-#, fuzzy
 msgid "``'r'``"
 msgstr "``'r'``"
 
 #: ../../library/functions.rst:1359
-#, fuzzy
 msgid "open for reading (default)"
 msgstr "باز برای خواندن (پیش فرض)"
 
 #: ../../library/functions.rst:1360
-#, fuzzy
 msgid "``'w'``"
 msgstr "``'w'``"
 
 #: ../../library/functions.rst:1360
-#, fuzzy
 msgid "open for writing, truncating the file first"
 msgstr "برای نوشتن، ابتدا فایل را کوتاه کنید."
 
 #: ../../library/functions.rst:1361
-#, fuzzy
 msgid "``'x'``"
 msgstr "متن مشخص نشده است برای ترجمه. لطفاً متن اصلی را برای ترجمه وارد کنید."
 
 #: ../../library/functions.rst:1361
-#, fuzzy
 msgid "open for exclusive creation, failing if the file already exists"
 msgstr ""
 "برای ایجاد انحصاری باز کنید، اگر فایل از قبل وجود داشته باشد، عملیات ناموفق "
 "خواهد بود."
 
 #: ../../library/functions.rst:1362
-#, fuzzy
 msgid "``'a'``"
 msgstr "``'a'``"
 
 #: ../../library/functions.rst:1362
-#, fuzzy
 msgid "open for writing, appending to the end of file if it exists"
 msgstr "باز کردن برای نوشتن، افزودن به انتهای فایل در صورت وجود فایل"
 
 #: ../../library/functions.rst:1363
-#, fuzzy
 msgid "``'b'``"
 msgstr "``'b'``"
 
 #: ../../library/functions.rst:1363 ../../library/functions.rst:1507
-#, fuzzy
 msgid "binary mode"
 msgstr "حالت دودویی"
 
 #: ../../library/functions.rst:1364
-#, fuzzy
 msgid "``'t'``"
 msgstr "``'t'``"
 
 #: ../../library/functions.rst:1364
-#, fuzzy
 msgid "text mode (default)"
 msgstr "حالت متنی (پیش فرض)"
 
 #: ../../library/functions.rst:1365
-#, fuzzy
 msgid "``'+'``"
 msgstr "``'+'``"
 
 #: ../../library/functions.rst:1365
-#, fuzzy
 msgid "open for updating (reading and writing)"
 msgstr "باز برای به روزرسانی (خواندن و نوشتن)"
 
 #: ../../library/functions.rst:1368
-#, fuzzy
 msgid ""
 "The default mode is ``'r'`` (open for reading text, a synonym of ``'rt'``). "
 "Modes ``'w+'`` and ``'w+b'`` open and truncate the file.  Modes ``'r+'`` and"
@@ -2882,7 +2570,6 @@ msgstr ""
 "``'r+'`` و ``'r+b'`` فایل را بدون کوتاه کردن باز می کنند."
 
 #: ../../library/functions.rst:1372
-#, fuzzy
 msgid ""
 "As mentioned in the :ref:`io-overview`, Python distinguishes between binary "
 "and text I/O.  Files opened in binary mode (including ``'b'`` in the *mode* "
@@ -2901,7 +2588,6 @@ msgstr ""
 "*encoding* مشخص شده، اگر داده شود، رمزگشایی شده اند."
 
 #: ../../library/functions.rst:1382
-#, fuzzy
 msgid ""
 "Python doesn't depend on the underlying operating system's notion of text "
 "files; all the processing is done by Python itself, and is therefore "
@@ -2911,7 +2597,6 @@ msgstr ""
 "ها توسط خود پایتون انجام می شود و بنابراین مستقل از پلتفرم است."
 
 #: ../../library/functions.rst:1386
-#, fuzzy
 msgid ""
 "*buffering* is an optional integer used to set the buffering policy.  Pass 0"
 " to switch buffering off (only allowed in binary mode), 1 to select line "
@@ -2936,7 +2621,6 @@ msgstr ""
 "*buffering* ارائه نشده، سیاست پیش فرض بافرینگ به صورت زیر کار می کند:"
 
 #: ../../library/functions.rst:1396
-#, fuzzy
 msgid ""
 "Binary files are buffered in fixed-size chunks; the size of the buffer is "
 "chosen using a heuristic trying to determine the underlying device's \"block"
@@ -2950,7 +2634,6 @@ msgstr ""
 " خواهد بود."
 
 #: ../../library/functions.rst:1401
-#, fuzzy
 msgid ""
 "\"Interactive\" text files (files for which :meth:`~io.IOBase.isatty` "
 "returns ``True``) use line buffering.  Other text files use the policy "
@@ -2961,7 +2644,6 @@ msgstr ""
 "بالا برای فایل های باینری توصیف شد، استفاده می کنند."
 
 #: ../../library/functions.rst:1405
-#, fuzzy
 msgid ""
 "*encoding* is the name of the encoding used to decode or encode the file. "
 "This should only be used in text mode.  The default encoding is platform "
@@ -2976,7 +2658,6 @@ msgstr ""
 "کدگذاری های پشتیبانی شده به ماژول :mod:`codecs` مراجعه کنید."
 
 #: ../../library/functions.rst:1411
-#, fuzzy
 msgid ""
 "*errors* is an optional string that specifies how encoding and decoding "
 "errors are to be handled—this cannot be used in binary mode. A variety of "
@@ -2991,7 +2672,6 @@ msgstr ""
 "ثبت شده نیز معتبر است. نام های استاندارد شامل:"
 
 #: ../../library/functions.rst:1419
-#, fuzzy
 msgid ""
 "``'strict'`` to raise a :exc:`ValueError` exception if there is an encoding "
 "error.  The default value of ``None`` has the same effect."
@@ -3000,7 +2680,6 @@ msgstr ""
 "وجود داشته باشد. مقدار پیش فرض ``None`` همان اثر را دارد."
 
 #: ../../library/functions.rst:1423
-#, fuzzy
 msgid ""
 "``'ignore'`` ignores errors.  Note that ignoring encoding errors can lead to"
 " data loss."
@@ -3009,7 +2688,6 @@ msgstr ""
 "خطاهای رمزگذاری می تواند به از دست رفتن داده ها منجر شود."
 
 #: ../../library/functions.rst:1426
-#, fuzzy
 msgid ""
 "``'replace'`` causes a replacement marker (such as ``'?'``) to be inserted "
 "where there is malformed data."
@@ -3018,7 +2696,6 @@ msgstr ""
 "های ناقص وجود دارد، درج شود."
 
 #: ../../library/functions.rst:1429
-#, fuzzy
 msgid ""
 "``'surrogateescape'`` will represent any incorrect bytes as low surrogate "
 "code units ranging from U+DC80 to U+DCFF. These surrogate code units will "
@@ -3032,7 +2709,6 @@ msgstr ""
 "ها استفاده شود. این روش برای پردازش فایل ها در یک کدگذاری ناشناخته مفید است."
 
 #: ../../library/functions.rst:1436
-#, fuzzy
 msgid ""
 "``'xmlcharrefreplace'`` is only supported when writing to a file. Characters"
 " not supported by the encoding are replaced with the appropriate XML "
@@ -3043,7 +2719,6 @@ msgstr ""
 " جایگزین می شوند :samp:`&#{nnn};`."
 
 #: ../../library/functions.rst:1440
-#, fuzzy
 msgid ""
 "``'backslashreplace'`` replaces malformed data by Python's backslashed "
 "escape sequences."
@@ -3052,7 +2727,6 @@ msgstr ""
 "پایتون جایگزین می کند."
 
 #: ../../library/functions.rst:1443
-#, fuzzy
 msgid ""
 "``'namereplace'`` (also only supported when writing) replaces unsupported "
 "characters with ``\\N{...}`` escape sequences."
@@ -3061,7 +2735,6 @@ msgstr ""
 "پشتیبانی نشده را با توالی فرار ``\\N{...}`` جایگزین می کند."
 
 #: ../../library/functions.rst:1451
-#, fuzzy
 msgid ""
 "*newline* determines how to parse newline characters from the stream. It can"
 " be ``None``, ``''``, ``'\\n'``, ``'\\r'``, and ``'\\r\\n'``.  It works as "
@@ -3072,7 +2745,6 @@ msgstr ""
 "به صورت زیر است:"
 
 #: ../../library/functions.rst:1455
-#, fuzzy
 msgid ""
 "When reading input from the stream, if *newline* is ``None``, universal "
 "newlines mode is enabled.  Lines in the input can end in ``'\\n'``, "
@@ -3091,7 +2763,6 @@ msgstr ""
 "خط بدون ترجمه به فراخوان بازگردانده می شود."
 
 #: ../../library/functions.rst:1463
-#, fuzzy
 msgid ""
 "When writing output to the stream, if *newline* is ``None``, any ``'\\n'`` "
 "characters written are translated to the system default line separator, "
@@ -3106,7 +2777,6 @@ msgstr ""
 "``'\\n'`` نوشته شده به رشته داده شده ترجمه می شود."
 
 #: ../../library/functions.rst:1469
-#, fuzzy
 msgid ""
 "If *closefd* is ``False`` and a file descriptor rather than a filename was "
 "given, the underlying file descriptor will be kept open when the file is "
@@ -3119,7 +2789,6 @@ msgstr ""
 " فرض)؛ در غیر این صورت، خطا ایجاد خواهد شد."
 
 #: ../../library/functions.rst:1474
-#, fuzzy
 msgid ""
 "A custom opener can be used by passing a callable as *opener*. The "
 "underlying file descriptor for the file object is then obtained by calling "
@@ -3134,12 +2803,10 @@ msgstr ""
 "ارسال ``None`` می شود)."
 
 #: ../../library/functions.rst:1480
-#, fuzzy
 msgid "The newly created file is :ref:`non-inheritable <fd_inheritance>`."
 msgstr "فایل تازه ایجاد شده :ref:`non-inheritable <fd_inheritance>` است."
 
 #: ../../library/functions.rst:1482
-#, fuzzy
 msgid ""
 "The following example uses the :ref:`dir_fd <dir_fd>` parameter of the "
 ":func:`os.open` function to open a file relative to a given directory::"
@@ -3148,7 +2815,6 @@ msgstr ""
 "کردن یک فایل نسبت به یک دایرکتوری داده شده استفاده می کند::"
 
 #: ../../library/functions.rst:1485
-#, fuzzy
 msgid ""
 ">>> import os\n"
 ">>> dir_fd = os.open('somedir', os.O_RDONLY)\n"
@@ -3171,7 +2837,6 @@ msgstr ""
 ">>> os.close(dir_fd)  # نگذارید یک فایل دیسکریپتور نشت کند"
 
 #: ../../library/functions.rst:1495
-#, fuzzy
 msgid ""
 "The type of :term:`file object` returned by the :func:`open` function "
 "depends on the mode.  When :func:`open` is used to open a file in a text "
@@ -3198,7 +2863,6 @@ msgstr ""
 ":class:`io.RawIOBase`، :class:`io.FileIO` است، بازگردانده می شود."
 
 #: ../../library/functions.rst:1516
-#, fuzzy
 msgid ""
 "See also the file handling modules, such as :mod:`fileinput`, :mod:`io` "
 "(where :func:`open` is declared), :mod:`os`, :mod:`os.path`, "
@@ -3209,7 +2873,6 @@ msgstr ""
 ":mod:`tempfile` و :mod:`shutil`."
 
 #: ../../library/functions.rst:1520
-#, fuzzy
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``open`` with arguments ``path``,"
 " ``mode``, ``flags``."
@@ -3218,7 +2881,6 @@ msgstr ""
 "``mode``، ``flags`` ایجاد می کند."
 
 #: ../../library/functions.rst:1522
-#, fuzzy
 msgid ""
 "The ``mode`` and ``flags`` arguments may have been modified or inferred from"
 " the original call."
@@ -3227,23 +2889,19 @@ msgstr ""
 "استنباط شده باشند."
 
 #: ../../library/functions.rst:1527
-#, fuzzy
 msgid "The *opener* parameter was added."
 msgstr "پارامتر *opener* اضافه شد."
 
 #: ../../library/functions.rst:1528
-#, fuzzy
 msgid "The ``'x'`` mode was added."
 msgstr "حالت ``'x'`` اضافه شد."
 
 #: ../../library/functions.rst:1529
-#, fuzzy
 msgid ""
 ":exc:`IOError` used to be raised, it is now an alias of :exc:`OSError`."
 msgstr ":exc:`IOError` قبلاً مطرح می شد، اکنون معادل :exc:`OSError` است."
 
 #: ../../library/functions.rst:1530
-#, fuzzy
 msgid ""
 ":exc:`FileExistsError` is now raised if the file opened in exclusive "
 "creation mode (``'x'``) already exists."
@@ -3252,12 +2910,10 @@ msgstr ""
 "باشد، اکنون :exc:`FileExistsError` برانگیخته می شود."
 
 #: ../../library/functions.rst:1535
-#, fuzzy
 msgid "The file is now non-inheritable."
 msgstr "فایل اکنون غیرقابل ارث بری است."
 
 #: ../../library/functions.rst:1539
-#, fuzzy
 msgid ""
 "If the system call is interrupted and the signal handler does not raise an "
 "exception, the function now retries the system call instead of raising an "
@@ -3268,19 +2924,16 @@ msgstr ""
 "مجدداً امتحان می کند (برای دلایل مربوطه، به :pep:`475` مراجعه کنید)."
 
 #: ../../library/functions.rst:1542
-#, fuzzy
 msgid "The ``'namereplace'`` error handler was added."
 msgstr "مدبر خطای ``'namereplace'`` اضافه شد."
 
 #: ../../library/functions.rst:1546
-#, fuzzy
 msgid "Support added to accept objects implementing :class:`os.PathLike`."
 msgstr ""
 "پشتیبانی برای پذیرش اشیایی که :class:`os.PathLike` را پیاده سازی می کنند "
 "اضافه شد."
 
 #: ../../library/functions.rst:1547
-#, fuzzy
 msgid ""
 "On Windows, opening a console buffer may return a subclass of "
 ":class:`io.RawIOBase` other than :class:`io.FileIO`."
@@ -3289,12 +2942,10 @@ msgstr ""
 " را به جای :class:`io.FileIO` برگرداند."
 
 #: ../../library/functions.rst:1550
-#, fuzzy
 msgid "The ``'U'`` mode has been removed."
 msgstr "حالت ``'U'`` حذف شده است."
 
 #: ../../library/functions.rst:1555
-#, fuzzy
 msgid ""
 "Given a string representing one Unicode character, return an integer "
 "representing the Unicode code point of that character.  For example, "
@@ -3307,7 +2958,6 @@ msgstr ""
 "``8364`` را برمی گرداند. این عملکرد عکس :func:`chr` است."
 
 #: ../../library/functions.rst:1563
-#, fuzzy
 msgid ""
 "Return *base* to the power *exp*; if *mod* is present, return *base* to the "
 "power *exp*, modulo *mod* (computed more efficiently than ``pow(base, exp) %"
@@ -3320,7 +2970,6 @@ msgstr ""
 "توان است: ``base**exp``."
 
 #: ../../library/functions.rst:1568
-#, fuzzy
 msgid ""
 "The arguments must have numeric types.  With mixed operand types, the "
 "coercion rules for binary arithmetic operators apply.  For :class:`int` "
@@ -3347,7 +2996,6 @@ msgstr ""
 "2.0)`` نتیجه ``81.0`` را برمی گرداند."
 
 #: ../../library/functions.rst:1580
-#, fuzzy
 msgid ""
 "For :class:`int` operands *base* and *exp*, if *mod* is present, *mod* must "
 "also be of integer type and *mod* must be nonzero. If *mod* is present and "
@@ -3362,13 +3010,11 @@ msgstr ""
 " معکوس *base* به پیمانه *mod* است."
 
 #: ../../library/functions.rst:1586
-#, fuzzy
 msgid "Here's an example of computing an inverse for ``38`` modulo ``97``::"
 msgstr ""
 "در اینجا یک مثال از محاسبه معکوس برای ``38`` مدولوی ``97`` ارائه شده است::"
 
 #: ../../library/functions.rst:1588
-#, fuzzy
 msgid ""
 ">>> pow(38, -1, mod=97)\n"
 "23\n"
@@ -3381,7 +3027,6 @@ msgstr ""
 "True"
 
 #: ../../library/functions.rst:1593
-#, fuzzy
 msgid ""
 "For :class:`int` operands, the three-argument form of ``pow`` now allows the"
 " second argument to be negative, permitting computation of modular inverses."
@@ -3390,7 +3035,6 @@ msgstr ""
 "آرگومان دوم منفی باشد، که این به محاسبه معکوس های مدولار کمک می کند."
 
 #: ../../library/functions.rst:1598
-#, fuzzy
 msgid ""
 "Allow keyword arguments.  Formerly, only positional arguments were "
 "supported."
@@ -3399,7 +3043,6 @@ msgstr ""
 "پشتیبانی می شدند."
 
 #: ../../library/functions.rst:1605
-#, fuzzy
 msgid ""
 "Print *objects* to the text stream *file*, separated by *sep* and followed "
 "by *end*.  *sep*, *end*, *file*, and *flush*, if present, must be given as "
@@ -3410,7 +3053,6 @@ msgstr ""
 "به عنوان آرگومان های کلیدی ارائه شوند."
 
 #: ../../library/functions.rst:1609
-#, fuzzy
 msgid ""
 "All non-keyword arguments are converted to strings like :func:`str` does and"
 " written to the stream, separated by *sep* and followed by *end*.  Both "
@@ -3425,7 +3067,6 @@ msgstr ""
 " :func:`print` فقط *end* را خواهد نوشت."
 
 #: ../../library/functions.rst:1615
-#, fuzzy
 msgid ""
 "The *file* argument must be an object with a ``write(string)`` method; if it"
 " is not present or ``None``, :data:`sys.stdout` will be used.  Since printed"
@@ -3439,7 +3080,6 @@ msgstr ""
 " ``file.write(...)`` استفاده کنید."
 
 #: ../../library/functions.rst:1620
-#, fuzzy
 msgid ""
 "Output buffering is usually determined by *file*. However, if *flush* is "
 "true, the stream is forcibly flushed."
@@ -3448,17 +3088,14 @@ msgstr ""
 "باشد، جریان به طور اجباری تخلیه می شود."
 
 #: ../../library/functions.rst:1624
-#, fuzzy
 msgid "Added the *flush* keyword argument."
 msgstr "آرگومان کلیدواژه *flush* اضافه شد."
 
 #: ../../library/functions.rst:1630
-#, fuzzy
 msgid "Return a property attribute."
 msgstr "یک ویژگی property را بازمی گرداند."
 
 #: ../../library/functions.rst:1632
-#, fuzzy
 msgid ""
 "*fget* is a function for getting an attribute value.  *fset* is a function "
 "for setting an attribute value. *fdel* is a function for deleting an "
@@ -3469,12 +3106,10 @@ msgstr ""
 "docstring برای ویژگی ایجاد می کند."
 
 #: ../../library/functions.rst:1636
-#, fuzzy
 msgid "A typical use is to define a managed attribute ``x``::"
 msgstr "یک استفاده معمول این است که یک ویژگی مدیریت شده ``x`` تعریف کنید::"
 
 #: ../../library/functions.rst:1638
-#, fuzzy
 msgid ""
 "class C:\n"
 "    def __init__(self):\n"
@@ -3507,7 +3142,6 @@ msgstr ""
 "    x = property(getx, setx, delx, \"من ویژگی 'x' هستم.\")"
 
 #: ../../library/functions.rst:1653
-#, fuzzy
 msgid ""
 "If *c* is an instance of *C*, ``c.x`` will invoke the getter, ``c.x = "
 "value`` will invoke the setter, and ``del c.x`` the deleter."
@@ -3517,7 +3151,6 @@ msgstr ""
 "بود."
 
 #: ../../library/functions.rst:1656
-#, fuzzy
 msgid ""
 "If given, *doc* will be the docstring of the property attribute. Otherwise, "
 "the property will copy *fget*'s docstring (if it exists).  This makes it "
@@ -3530,7 +3163,6 @@ msgstr ""
 ":term:`decorator` استفاده کنید و ویژگی های فقط خواندنی ایجاد نمایید::"
 
 #: ../../library/functions.rst:1660
-#, fuzzy
 msgid ""
 "class Parrot:\n"
 "    def __init__(self):\n"
@@ -3551,7 +3183,6 @@ msgstr ""
 "        return self._voltage"
 
 #: ../../library/functions.rst:1669
-#, fuzzy
 msgid ""
 "The ``@property`` decorator turns the :meth:`!voltage` method into a "
 "\"getter\" for a read-only attribute with the same name, and it sets the "
@@ -3562,7 +3193,6 @@ msgstr ""
 " به \"Get the current voltage.\" تنظیم می کند."
 
 #: ../../library/functions.rst:1677
-#, fuzzy
 msgid ""
 "A property object has ``getter``, ``setter``, and ``deleter`` methods usable"
 " as decorators that create a copy of the property with the corresponding "
@@ -3575,7 +3205,6 @@ msgstr ""
 "مثال بهتر توضیح داده می شود:"
 
 #: ../../library/functions.rst:1682
-#, fuzzy
 msgid ""
 "class C:\n"
 "    def __init__(self):\n"
@@ -3612,7 +3241,6 @@ msgstr ""
 "        del self._x"
 
 #: ../../library/functions.rst:1701
-#, fuzzy
 msgid ""
 "This code is exactly equivalent to the first example.  Be sure to give the "
 "additional functions the same name as the original property (``x`` in this "
@@ -3622,7 +3250,6 @@ msgstr ""
 " اصلی (در اینجا ``x``) را داشته باشند."
 
 #: ../../library/functions.rst:1705
-#, fuzzy
 msgid ""
 "The returned property object also has the attributes ``fget``, ``fset``, and"
 " ``fdel`` corresponding to the constructor arguments."
@@ -3631,12 +3258,10 @@ msgstr ""
 "است که معادل با آرگومان های سازنده هستند."
 
 #: ../../library/functions.rst:1708
-#, fuzzy
 msgid "The docstrings of property objects are now writeable."
 msgstr "رشته های مستندات اشیاء ویژگی اکنون قابل نوشتن هستند."
 
 #: ../../library/functions.rst:1713
-#, fuzzy
 msgid ""
 "Attribute holding the name of the property. The name of the property can be "
 "changed at runtime."
@@ -3645,7 +3270,6 @@ msgstr ""
 "تغییر کند."
 
 #: ../../library/functions.rst:1724
-#, fuzzy
 msgid ""
 "Rather than being a function, :class:`range` is actually an immutable "
 "sequence type, as documented in :ref:`typesseq-range` and :ref:`typesseq`."
@@ -3654,7 +3278,6 @@ msgstr ""
 "همان طور که در :ref:`typesseq-range` و :ref:`typesseq` مستند شده است."
 
 #: ../../library/functions.rst:1730
-#, fuzzy
 msgid ""
 "Return a string containing a printable representation of an object.  For "
 "many types, this function makes an attempt to return a string that would "
@@ -3676,12 +3299,10 @@ msgstr ""
 " تابع :exc:`RuntimeError` را ایجاد می کند."
 
 #: ../../library/functions.rst:1741
-#, fuzzy
 msgid "This class has a custom representation that can be evaluated::"
 msgstr "این کلاس یک نمایش سفارشی دارد که می تواند ارزیابی شود::"
 
 #: ../../library/functions.rst:1743
-#, fuzzy
 msgid ""
 "class Person:\n"
 "   def __init__(self, name, age):\n"
@@ -3700,7 +3321,6 @@ msgstr ""
 "      return f\"Person('{self.name}', {self.age})\""
 
 #: ../../library/functions.rst:1754
-#, fuzzy
 msgid ""
 "Return a reverse :term:`iterator`.  *seq* must be an object which has a "
 ":meth:`~object.__reversed__` method or supports the sequence protocol (the "
@@ -3713,7 +3333,6 @@ msgstr ""
 " صحیح که از ``0`` شروع می شوند)."
 
 #: ../../library/functions.rst:1762
-#, fuzzy
 msgid ""
 "Return *number* rounded to *ndigits* precision after the decimal point.  If "
 "*ndigits* is omitted or is ``None``, it returns the nearest integer to its "
@@ -3723,7 +3342,6 @@ msgstr ""
 " شود یا ``None`` باشد، نزدیک ترین عدد صحیح به ورودی بازگردانده می شود."
 
 #: ../../library/functions.rst:1766
-#, fuzzy
 msgid ""
 "For the built-in types supporting :func:`round`, values are rounded to the "
 "closest multiple of 10 to the power minus *ndigits*; if two multiples are "
@@ -3742,7 +3360,6 @@ msgstr ""
 " در غیر این صورت، مقدار بازگشتی از همان نوع *number* خواهد بود."
 
 #: ../../library/functions.rst:1775
-#, fuzzy
 msgid ""
 "For a general Python object ``number``, ``round`` delegates to "
 "``number.__round__``."
@@ -3751,7 +3368,6 @@ msgstr ""
 "واگذار می شود."
 
 #: ../../library/functions.rst:1780
-#, fuzzy
 msgid ""
 "The behavior of :func:`round` for floats can be surprising: for example, "
 "``round(2.675, 2)`` gives ``2.67`` instead of the expected ``2.68``. This is"
@@ -3766,7 +3382,6 @@ msgstr ""
 "fp-issues` مراجعه کنید."
 
 #: ../../library/functions.rst:1792
-#, fuzzy
 msgid ""
 "Return a new :class:`set` object, optionally with elements taken from "
 "*iterable*.  ``set`` is a built-in class.  See :class:`set` and :ref:`types-"
@@ -3777,7 +3392,6 @@ msgstr ""
 "این کلاس به :class:`set` و :ref:`types-set` مراجعه کنید."
 
 #: ../../library/functions.rst:1796
-#, fuzzy
 msgid ""
 "For other containers see the built-in :class:`frozenset`, :class:`list`, "
 ":class:`tuple`, and :class:`dict` classes, as well as the :mod:`collections`"
@@ -3788,7 +3402,6 @@ msgstr ""
 ":mod:`collections` مراجعه نمایید."
 
 #: ../../library/functions.rst:1803
-#, fuzzy
 msgid ""
 "This is the counterpart of :func:`getattr`.  The arguments are an object, a "
 "string, and an arbitrary value.  The string may name an existing attribute "
@@ -3803,7 +3416,6 @@ msgstr ""
 "است."
 
 #: ../../library/functions.rst:1809
-#, fuzzy
 msgid ""
 "*name* need not be a Python identifier as defined in :ref:`identifiers` "
 "unless the object chooses to enforce that, for example in a custom "
@@ -3819,7 +3431,6 @@ msgstr ""
 "است."
 
 #: ../../library/functions.rst:1817
-#, fuzzy
 msgid ""
 "Since :ref:`private name mangling <private-name-mangling>` happens at "
 "compilation time, one must manually mangle a private attribute's (attributes"
@@ -3831,7 +3442,6 @@ msgstr ""
 "تنظیم کنید."
 
 #: ../../library/functions.rst:1826
-#, fuzzy
 msgid ""
 "Return a :term:`slice` object representing the set of indices specified by "
 "``range(start, stop, step)``.  The *start* and *step* arguments default to "
@@ -3842,7 +3452,6 @@ msgstr ""
 " صورت پیش فرض به ``None`` تنظیم شده اند."
 
 #: ../../library/functions.rst:1834
-#, fuzzy
 msgid ""
 "Slice objects have read-only data attributes :attr:`!start`, :attr:`!stop`, "
 "and :attr:`!step` which merely return the argument values (or their "
@@ -3855,7 +3464,6 @@ msgstr ""
 "حال، توسط NumPy و سایر بسته های شخص ثالث استفاده می شوند."
 
 #: ../../library/functions.rst:1839
-#, fuzzy
 msgid ""
 "Slice objects are also generated when extended indexing syntax is used.  For"
 " example: ``a[start:stop:step]`` or ``a[start:stop, i]``.  See "
@@ -3868,7 +3476,6 @@ msgstr ""
 ":func:`itertools.islice` مراجعه کنید."
 
 #: ../../library/functions.rst:1844
-#, fuzzy
 msgid ""
 "Slice objects are now :term:`hashable` (provided :attr:`~slice.start`, "
 ":attr:`~slice.stop`, and :attr:`~slice.step` are hashable)."
@@ -3877,19 +3484,16 @@ msgstr ""
 ":attr:`~slice.stop` و :attr:`~slice.step` قابل هَش باشند)."
 
 #: ../../library/functions.rst:1850
-#, fuzzy
 msgid "Return a new sorted list from the items in *iterable*."
 msgstr "یک لیست جدید مرتب شده از آیتم های موجود در *iterable* بازگردانید."
 
 #: ../../library/functions.rst:1852
-#, fuzzy
 msgid ""
 "Has two optional arguments which must be specified as keyword arguments."
 msgstr ""
 "دارای دو آرگومان اختیاری است که باید به صورت آرگومان های کلیدی تعیین شوند."
 
 #: ../../library/functions.rst:1854
-#, fuzzy
 msgid ""
 "*key* specifies a function of one argument that is used to extract a "
 "comparison key from each element in *iterable* (for example, "
@@ -3901,7 +3505,6 @@ msgstr ""
 "پیش فرض ``None`` است (عناصر را مستقیماً مقایسه کنید)."
 
 #: ../../library/functions.rst:1858
-#, fuzzy
 msgid ""
 "*reverse* is a boolean value.  If set to ``True``, then the list elements "
 "are sorted as if each comparison were reversed."
@@ -3910,7 +3513,6 @@ msgstr ""
 "ای مرتب می شوند که گویی هر مقایسه معکوس شده است."
 
 #: ../../library/functions.rst:1861
-#, fuzzy
 msgid ""
 "Use :func:`functools.cmp_to_key` to convert an old-style *cmp* function to a"
 " *key* function."
@@ -3919,7 +3521,6 @@ msgstr ""
 " تابع *key* تبدیل کنید."
 
 #: ../../library/functions.rst:1864
-#, fuzzy
 msgid ""
 "The built-in :func:`sorted` function is guaranteed to be stable. A sort is "
 "stable if it guarantees not to change the relative order of elements that "
@@ -3932,7 +3533,6 @@ msgstr ""
 "و سپس بر اساس درجه حقوق مرتب سازی شود)."
 
 #: ../../library/functions.rst:1869
-#, fuzzy
 msgid ""
 "The sort algorithm uses only ``<`` comparisons between items.  While "
 "defining an :meth:`~object.__lt__` method will suffice for sorting, :PEP:`8`"
@@ -3953,7 +3553,6 @@ msgstr ""
 "فراخوانی کنند، کمک می کند."
 
 #: ../../library/functions.rst:1878
-#, fuzzy
 msgid ""
 "For sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`."
 msgstr ""
@@ -3961,12 +3560,10 @@ msgstr ""
 "مراجعه کنید."
 
 #: ../../library/functions.rst:1882
-#, fuzzy
 msgid "Transform a method into a static method."
 msgstr "تبدیل یک متد به یک متد ایستا."
 
 #: ../../library/functions.rst:1884
-#, fuzzy
 msgid ""
 "A static method does not receive an implicit first argument. To declare a "
 "static method, use this idiom::"
@@ -3975,7 +3572,6 @@ msgstr ""
 " یک متد استاتیک از این روش استفاده کنید::"
 
 #: ../../library/functions.rst:1887
-#, fuzzy
 msgid ""
 "class C:\n"
 "    @staticmethod\n"
@@ -3986,7 +3582,6 @@ msgstr ""
 "    def f(arg1, arg2, argN): ..."
 
 #: ../../library/functions.rst:1891
-#, fuzzy
 msgid ""
 "The ``@staticmethod`` form is a function :term:`decorator` -- see "
 ":ref:`function` for details."
@@ -3995,7 +3590,6 @@ msgstr ""
 ":ref:`function` مراجعه کنید."
 
 #: ../../library/functions.rst:1894
-#, fuzzy
 msgid ""
 "A static method can be called either on the class (such as ``C.f()``) or on "
 "an instance (such as ``C().f()``). Moreover, the static method "
@@ -4008,7 +3602,6 @@ msgstr ""
 "(مانند ``f()``) استفاده شود."
 
 #: ../../library/functions.rst:1899
-#, fuzzy
 msgid ""
 "Static methods in Python are similar to those found in Java or C++. Also, "
 "see :func:`classmethod` for a variant that is useful for creating alternate "
@@ -4019,7 +3612,6 @@ msgstr ""
 "های کلاس جایگزین مفید است."
 
 #: ../../library/functions.rst:1903
-#, fuzzy
 msgid ""
 "Like all decorators, it is also possible to call ``staticmethod`` as a "
 "regular function and do something with its result.  This is needed in some "
@@ -4033,7 +3625,6 @@ msgstr ""
 "متد نمونه جلوگیری کنید، لازم است. برای این موارد، از این روش استفاده کنید::"
 
 #: ../../library/functions.rst:1909
-#, fuzzy
 msgid ""
 "def regular_function():\n"
 "    ...\n"
@@ -4048,12 +3639,10 @@ msgstr ""
 "    method = staticmethod(regular_function)"
 
 #: ../../library/functions.rst:1915
-#, fuzzy
 msgid "For more information on static methods, see :ref:`types`."
 msgstr "برای اطلاعات بیشتر در مورد متدهای ایستا، به :ref:`types` مراجعه کنید."
 
 #: ../../library/functions.rst:1917
-#, fuzzy
 msgid ""
 "Static methods now inherit the method attributes "
 "(:attr:`~function.__module__`, :attr:`~function.__name__`, "
@@ -4068,13 +3657,11 @@ msgstr ""
 "معمولی قابل فراخوانی هستند."
 
 #: ../../library/functions.rst:1933
-#, fuzzy
 msgid ""
 "Return a :class:`str` version of *object*.  See :func:`str` for details."
 msgstr ""
 
 #: ../../library/functions.rst:1935
-#, fuzzy
 msgid ""
 "``str`` is the built-in string :term:`class`.  For general information about"
 " strings, see :ref:`textseq`."
@@ -4083,7 +3670,6 @@ msgstr ""
 " :ref:`textseq` مراجعه کنید."
 
 #: ../../library/functions.rst:1941
-#, fuzzy
 msgid ""
 "Sums *start* and the items of an *iterable* from left to right and returns "
 "the total.  The *iterable*'s items are normally numbers, and the start value"
@@ -4094,7 +3680,6 @@ msgstr ""
 "تواند یک رشته باشد."
 
 #: ../../library/functions.rst:1945
-#, fuzzy
 msgid ""
 "For some use cases, there are good alternatives to :func:`sum`. The "
 "preferred, fast way to concatenate a sequence of strings is by calling "
@@ -4109,12 +3694,10 @@ msgstr ""
 " داشته باشید که از :func:`itertools.chain` استفاده کنید."
 
 #: ../../library/functions.rst:1951
-#, fuzzy
 msgid "The *start* parameter can be specified as a keyword argument."
 msgstr "پارامتر *start* می تواند به عنوان یک آرگومان کلیدواژه مشخص شود."
 
 #: ../../library/functions.rst:1954
-#, fuzzy
 msgid ""
 "Summation of floats switched to an algorithm that gives higher accuracy and "
 "better commutativity on most builds."
@@ -4123,7 +3706,6 @@ msgstr ""
 "ها قابلیت جایگشت بهتری ارائه می دهد."
 
 #: ../../library/functions.rst:1961
-#, fuzzy
 msgid ""
 "Return a proxy object that delegates method calls to a parent or sibling "
 "class of *type*.  This is useful for accessing inherited methods that have "
@@ -4134,7 +3716,6 @@ msgstr ""
 "که در یک کلاس بازنویسی شده اند مفید است."
 
 #: ../../library/functions.rst:1965
-#, fuzzy
 msgid ""
 "The *object_or_type* determines the :term:`method resolution order` to be "
 "searched.  The search starts from the class right after the *type*."
@@ -4143,7 +3724,6 @@ msgstr ""
 " است. جستجو از کلاسی که بلافاصله پس از *type* قرار دارد شروع می شود."
 
 #: ../../library/functions.rst:1969
-#, fuzzy
 msgid ""
 "For example, if :attr:`~type.__mro__` of *object_or_type* is ``D -> B -> C "
 "-> A -> object`` and the value of *type* is ``B``, then :func:`super` "
@@ -4154,7 +3734,6 @@ msgstr ""
 ":func:`super` به دنبال ``C -> A -> object`` می گردد."
 
 #: ../../library/functions.rst:1973
-#, fuzzy
 msgid ""
 "The :attr:`~type.__mro__` attribute of the class corresponding to "
 "*object_or_type* lists the method resolution search order used by both "
@@ -4167,7 +3746,6 @@ msgstr ""
 "تواند تغییر کند."
 
 #: ../../library/functions.rst:1978
-#, fuzzy
 msgid ""
 "If the second argument is omitted, the super object returned is unbound.  If"
 " the second argument is an object, ``isinstance(obj, type)`` must be true.  "
@@ -4180,7 +3758,6 @@ msgstr ""
 "برای classmethods مفید است)."
 
 #: ../../library/functions.rst:1983
-#, fuzzy
 msgid ""
 "When called directly within an ordinary method of a class, both arguments "
 "may be omitted (\"zero-argument :func:`!super`\"). In this case, *type* will"
@@ -4197,7 +3774,6 @@ msgstr ""
 "در تو ایجاد می کنند، به درستی کار نخواهد کرد.)"
 
 #: ../../library/functions.rst:1990
-#, fuzzy
 msgid ""
 "There are two typical use cases for *super*.  In a class hierarchy with "
 "single inheritance, *super* can be used to refer to parent classes without "
@@ -4210,7 +3786,6 @@ msgstr ""
 "نزدیک با استفاده از *super* در زبان های برنامه نویسی دیگر مشابه است."
 
 #: ../../library/functions.rst:1995
-#, fuzzy
 msgid ""
 "The second use case is to support cooperative multiple inheritance in a "
 "dynamic execution environment.  This use case is unique to Python and is not"
@@ -4233,13 +3808,11 @@ msgstr ""
 "تواند شامل کلاس های هم رده ای باشد که قبل از زمان اجرا ناشناخته هستند)."
 
 #: ../../library/functions.rst:2005
-#, fuzzy
 msgid "For both use cases, a typical superclass call looks like this::"
 msgstr ""
 "برای هر دو مورد استفاده، یک فراخوانی معمولی به ابرکلاس به این صورت است::"
 
 #: ../../library/functions.rst:2007
-#, fuzzy
 msgid ""
 "class C(B):\n"
 "    def method(self, arg):\n"
@@ -4252,7 +3825,6 @@ msgstr ""
 "                               # super(C, self).method(arg)"
 
 #: ../../library/functions.rst:2012
-#, fuzzy
 msgid ""
 "In addition to method lookups, :func:`super` also works for attribute "
 "lookups.  One possible use case for this is calling :term:`descriptors "
@@ -4263,7 +3835,6 @@ msgstr ""
 "<descriptor>` در یک کلاس والد یا خواهر و برادر است."
 
 #: ../../library/functions.rst:2016
-#, fuzzy
 msgid ""
 "Note that :func:`super` is implemented as part of the binding process for "
 "explicit dotted attribute lookups such as ``super().__getitem__(name)``. It "
@@ -4280,7 +3851,6 @@ msgstr ""
 " با استفاده از عبارات یا عملگرهایی مانند ``super()[name]`` تعریف نشده است."
 
 #: ../../library/functions.rst:2024
-#, fuzzy
 msgid ""
 "Also note that, aside from the zero argument form, :func:`super` is not "
 "limited to use inside methods.  The two argument form specifies the "
@@ -4296,7 +3866,6 @@ msgstr ""
 "همچنین دسترسی به نمونه فعلی برای متدهای معمولی کامل می کند."
 
 #: ../../library/functions.rst:2031
-#, fuzzy
 msgid ""
 "For practical suggestions on how to design cooperative classes using "
 ":func:`super`, see `guide to using super() "
@@ -4308,7 +3877,6 @@ msgstr ""
 "مراجعه کنید."
 
 #: ../../library/functions.rst:2041
-#, fuzzy
 msgid ""
 "Rather than being a function, :class:`tuple` is actually an immutable "
 "sequence type, as documented in :ref:`typesseq-tuple` and :ref:`typesseq`."
@@ -4318,7 +3886,6 @@ msgstr ""
 "است."
 
 #: ../../library/functions.rst:2050
-#, fuzzy
 msgid ""
 "With one argument, return the type of an *object*.  The return value is a "
 "type object and generally the same object as returned by "
@@ -4329,7 +3896,6 @@ msgstr ""
 "می شود."
 
 #: ../../library/functions.rst:2054
-#, fuzzy
 msgid ""
 "The :func:`isinstance` built-in function is recommended for testing the type"
 " of an object, because it takes subclasses into account."
@@ -4338,7 +3904,6 @@ msgstr ""
 "زیرکلاس ها را نیز در نظر می گیرد."
 
 #: ../../library/functions.rst:2057
-#, fuzzy
 msgid ""
 "With three arguments, return a new type object.  This is essentially a "
 "dynamic form of the :keyword:`class` statement. The *name* string is the "
@@ -4360,12 +3925,10 @@ msgstr ""
 ":class:`!type` یکسانی ایجاد می کنند:"
 
 #: ../../library/functions.rst:2072
-#, fuzzy
 msgid "See also:"
 msgstr "همچنین ببینید:"
 
 #: ../../library/functions.rst:2074
-#, fuzzy
 msgid ""
 ":ref:`Documentation on attributes and methods on classes <class-attrs-and-"
 "methods>`."
@@ -4374,12 +3937,10 @@ msgstr ""
 "methods>`."
 
 #: ../../library/functions.rst:2075
-#, fuzzy
 msgid ":ref:`bltin-type-objects`"
 msgstr ":ref:`bltin-type-objects`"
 
 #: ../../library/functions.rst:2077
-#, fuzzy
 msgid ""
 "Keyword arguments provided to the three argument form are passed to the "
 "appropriate metaclass machinery (usually :meth:`~object.__init_subclass__`) "
@@ -4392,12 +3953,10 @@ msgstr ""
 " شوند."
 
 #: ../../library/functions.rst:2082
-#, fuzzy
 msgid "See also :ref:`class-customization`."
 msgstr "همچنین ببینید :ref:`class-customization`."
 
 #: ../../library/functions.rst:2084
-#, fuzzy
 msgid ""
 "Subclasses of :class:`!type` which don't override ``type.__new__`` may no "
 "longer use the one-argument form to get the type of an object."
@@ -4406,7 +3965,6 @@ msgstr ""
 "دیگر نتوانند از فرم یک پارامتری برای گرفتن نوع یک شیء استفاده کنند."
 
 #: ../../library/functions.rst:2091
-#, fuzzy
 msgid ""
 "Return the :attr:`~object.__dict__` attribute for a module, class, instance,"
 " or any other object with a :attr:`!__dict__` attribute."
@@ -4415,7 +3973,6 @@ msgstr ""
 "دیگری که ویژگی :attr:`!__dict__` را دارد، بازگردانید."
 
 #: ../../library/functions.rst:2094
-#, fuzzy
 msgid ""
 "Objects such as modules and instances have an updateable "
 ":attr:`~object.__dict__` attribute; however, other objects may have write "
@@ -4429,12 +3986,10 @@ msgstr ""
 "دیکشنری جلوگیری کنند)."
 
 #: ../../library/functions.rst:2099
-#, fuzzy
 msgid "Without an argument, :func:`vars` acts like :func:`locals`."
 msgstr "بدون آرگومان، :func:`vars` به صورت :func:`locals` عمل می کند."
 
 #: ../../library/functions.rst:2101
-#, fuzzy
 msgid ""
 "A :exc:`TypeError` exception is raised if an object is specified but it "
 "doesn't have a :attr:`~object.__dict__` attribute (for example, if its class"
@@ -4445,7 +4000,6 @@ msgstr ""
 "استثناء :exc:`TypeError` برانگیخته می شود."
 
 #: ../../library/functions.rst:2107
-#, fuzzy
 msgid ""
 "The result of calling this function without an argument has been updated as "
 "described for the :func:`locals` builtin."
@@ -4454,7 +4008,6 @@ msgstr ""
 ":func:`locals` builtin توصیف شد."
 
 #: ../../library/functions.rst:2113
-#, fuzzy
 msgid ""
 "Iterate over several iterables in parallel, producing tuples with an item "
 "from each one."
@@ -4463,12 +4016,10 @@ msgstr ""
 "آیتمی از هر یک از آن ها باشد."
 
 #: ../../library/functions.rst:2116
-#, fuzzy
 msgid "Example::"
 msgstr "مثال::"
 
 #: ../../library/functions.rst:2118
-#, fuzzy
 msgid ""
 ">>> for item in zip([1, 2, 3], ['sugar', 'spice', 'everything nice']):\n"
 "...     print(item)\n"
@@ -4485,7 +4036,6 @@ msgstr ""
 "(3, 'everything nice')"
 
 #: ../../library/functions.rst:2125
-#, fuzzy
 msgid ""
 "More formally: :func:`zip` returns an iterator of tuples, where the *i*-th "
 "tuple contains the *i*-th element from each of the argument iterables."
@@ -4494,7 +4044,6 @@ msgstr ""
 "مرتب *i* شامل عنصر *i* از هر یک از پیمایش پذیرهای آرگومان ها است."
 
 #: ../../library/functions.rst:2128
-#, fuzzy
 msgid ""
 "Another way to think of :func:`zip` is that it turns rows into columns, and "
 "columns into rows.  This is similar to `transposing a matrix "
@@ -4505,7 +4054,6 @@ msgstr ""
 "<https://en.wikipedia.org/wiki/Transpose>`_ است."
 
 #: ../../library/functions.rst:2132
-#, fuzzy
 msgid ""
 ":func:`zip` is lazy: The elements won't be processed until the iterable is "
 "iterated on, e.g. by a :keyword:`!for` loop or by wrapping in a "
@@ -4516,7 +4064,6 @@ msgstr ""
 ":class:`list`."
 
 #: ../../library/functions.rst:2136
-#, fuzzy
 msgid ""
 "One thing to consider is that the iterables passed to :func:`zip` could have"
 " different lengths; sometimes by design, and sometimes because of a bug in "
@@ -4529,7 +4076,6 @@ msgstr ""
 "است. پایتون سه روش مختلف برای مقابله با این مسئله ارائه می دهد:"
 
 #: ../../library/functions.rst:2141
-#, fuzzy
 msgid ""
 "By default, :func:`zip` stops when the shortest iterable is exhausted. It "
 "will ignore the remaining items in the longer iterables, cutting off the "
@@ -4540,7 +4086,6 @@ msgstr ""
 "نتیجه را به طول کوتاه ترین iterable محدود می کند::"
 
 #: ../../library/functions.rst:2145
-#, fuzzy
 msgid ""
 ">>> list(zip(range(3), ['fee', 'fi', 'fo', 'fum']))\n"
 "[(0, 'fee'), (1, 'fi'), (2, 'fo')]"
@@ -4549,7 +4094,6 @@ msgstr ""
 "[(0, 'fee'), (1, 'fi'), (2, 'fo')]"
 
 #: ../../library/functions.rst:2148
-#, fuzzy
 msgid ""
 ":func:`zip` is often used in cases where the iterables are assumed to be of "
 "equal length.  In such cases, it's recommended to use the ``strict=True`` "
@@ -4560,7 +4104,6 @@ msgstr ""
 "``strict=True`` استفاده کنید. خروجی آن همانند :func:`zip` معمولی می باشد::"
 
 #: ../../library/functions.rst:2152
-#, fuzzy
 msgid ""
 ">>> list(zip(('a', 'b', 'c'), (1, 2, 3), strict=True))\n"
 "[('a', 1), ('b', 2), ('c', 3)]"
@@ -4569,7 +4112,6 @@ msgstr ""
 "[('a', 1), ('b', 2), ('c', 3)]"
 
 #: ../../library/functions.rst:2155
-#, fuzzy
 msgid ""
 "Unlike the default behavior, it raises a :exc:`ValueError` if one iterable "
 "is exhausted before the others:"
@@ -4578,7 +4120,6 @@ msgstr ""
 ":exc:`ValueError` ایجاد می کند:"
 
 #: ../../library/functions.rst:2173
-#, fuzzy
 msgid ""
 "Without the ``strict=True`` argument, any bug that results in iterables of "
 "different lengths will be silenced, possibly manifesting as a hard-to-find "
@@ -4589,7 +4130,6 @@ msgstr ""
 " بخش دیگری از برنامه ظاهر شود."
 
 #: ../../library/functions.rst:2177
-#, fuzzy
 msgid ""
 "Shorter iterables can be padded with a constant value to make all the "
 "iterables have the same length.  This is done by "
@@ -4599,7 +4139,6 @@ msgstr ""
 " به طول یکسان برسند. این کار با :func:`itertools.zip_longest` انجام می شود."
 
 #: ../../library/functions.rst:2181
-#, fuzzy
 msgid ""
 "Edge cases: With a single iterable argument, :func:`zip` returns an iterator"
 " of 1-tuples.  With no arguments, it returns an empty iterator."
@@ -4608,12 +4147,10 @@ msgstr ""
 "بازمی گرداند. بدون هیچ آرگومانی، یک تکرارگر خالی را برمی گرداند."
 
 #: ../../library/functions.rst:2184
-#, fuzzy
 msgid "Tips and tricks:"
 msgstr "نکات و ترفندها:"
 
 #: ../../library/functions.rst:2186
-#, fuzzy
 msgid ""
 "The left-to-right evaluation order of the iterables is guaranteed. This "
 "makes possible an idiom for clustering a data series into n-length groups "
@@ -4628,7 +4165,6 @@ msgstr ""
 " داشته باشد. این کار اثر تقسیم ورودی به قطعات n تایی را دارد."
 
 #: ../../library/functions.rst:2192
-#, fuzzy
 msgid ""
 ":func:`zip` in conjunction with the ``*`` operator can be used to unzip a "
 "list::"
@@ -4636,7 +4172,6 @@ msgstr ""
 ":func:`zip` همراه با عملگر ``*`` می تواند برای استخراج لیست استفاده شود::"
 
 #: ../../library/functions.rst:2195
-#, fuzzy
 msgid ""
 ">>> x = [1, 2, 3]\n"
 ">>> y = [4, 5, 6]\n"
@@ -4655,12 +4190,10 @@ msgstr ""
 "True"
 
 #: ../../library/functions.rst:2203
-#, fuzzy
 msgid "Added the ``strict`` argument."
 msgstr "آرگومان ``strict`` اضافه شد."
 
 #: ../../library/functions.rst:2215
-#, fuzzy
 msgid ""
 "This is an advanced function that is not needed in everyday Python "
 "programming, unlike :func:`importlib.import_module`."
@@ -4669,7 +4202,6 @@ msgstr ""
 "نویسی روزمره پایتون نیازی به آن نیست."
 
 #: ../../library/functions.rst:2218
-#, fuzzy
 msgid ""
 "This function is invoked by the :keyword:`import` statement.  It can be "
 "replaced (by importing the :mod:`builtins` module and assigning to "
@@ -4690,7 +4222,6 @@ msgstr ""
 ":func:`importlib.import_module` توصیه نمی شود."
 
 #: ../../library/functions.rst:2227
-#, fuzzy
 msgid ""
 "The function imports the module *name*, potentially using the given "
 "*globals* and *locals* to determine how to interpret the name in a package "
@@ -4707,7 +4238,6 @@ msgstr ""
 "کند."
 
 #: ../../library/functions.rst:2234
-#, fuzzy
 msgid ""
 "*level* specifies whether to use absolute or relative imports. ``0`` (the "
 "default) means only perform absolute imports.  Positive values for *level* "
@@ -4722,7 +4252,6 @@ msgstr ""
 "(برای جزئیات به :pep:`328` مراجعه کنید)."
 
 #: ../../library/functions.rst:2240
-#, fuzzy
 msgid ""
 "When the *name* variable is of the form ``package.module``, normally, the "
 "top-level package (the name up till the first dot) is returned, *not* the "
@@ -4735,7 +4264,6 @@ msgstr ""
 "ماژول با نام *name* بازگردانده می شود."
 
 #: ../../library/functions.rst:2245
-#, fuzzy
 msgid ""
 "For example, the statement ``import spam`` results in bytecode resembling "
 "the following code::"
@@ -4744,22 +4272,18 @@ msgstr ""
 " است:"
 
 #: ../../library/functions.rst:2248
-#, fuzzy
 msgid "spam = __import__('spam', globals(), locals(), [], 0)"
 msgstr "spam = __import__('spam', globals(), locals(), [], 0)"
 
 #: ../../library/functions.rst:2250
-#, fuzzy
 msgid "The statement ``import spam.ham`` results in this call::"
 msgstr "عبارت ``import spam.ham`` منجر به این فراخوانی می شود::"
 
 #: ../../library/functions.rst:2252
-#, fuzzy
 msgid "spam = __import__('spam.ham', globals(), locals(), [], 0)"
 msgstr "spam = __import__('spam.ham', globals(), locals(), [], 0)"
 
 #: ../../library/functions.rst:2254
-#, fuzzy
 msgid ""
 "Note how :func:`__import__` returns the toplevel module here because this is"
 " the object that is bound to a name by the :keyword:`import` statement."
@@ -4768,7 +4292,6 @@ msgstr ""
 "این همان شی ء است که توسط عبارت :keyword:`import` به یک نام متصل شده است."
 
 #: ../../library/functions.rst:2257
-#, fuzzy
 msgid ""
 "On the other hand, the statement ``from spam.ham import eggs, sausage as "
 "saus`` results in ::"
@@ -4777,7 +4300,6 @@ msgstr ""
 "می رسد به ::"
 
 #: ../../library/functions.rst:2260
-#, fuzzy
 msgid ""
 "_temp = __import__('spam.ham', globals(), locals(), ['eggs', 'sausage'], 0)\n"
 "eggs = _temp.eggs\n"
@@ -4788,7 +4310,6 @@ msgstr ""
 "saus = _temp.sausage"
 
 #: ../../library/functions.rst:2264
-#, fuzzy
 msgid ""
 "Here, the ``spam.ham`` module is returned from :func:`__import__`.  From "
 "this object, the names to import are retrieved and assigned to their "
@@ -4799,7 +4320,6 @@ msgstr ""
 "داده می شوند."
 
 #: ../../library/functions.rst:2268
-#, fuzzy
 msgid ""
 "If you simply want to import a module (potentially within a package) by "
 "name, use :func:`importlib.import_module`."
@@ -4808,7 +4328,6 @@ msgstr ""
 ":func:`importlib.import_module` استفاده کنید."
 
 #: ../../library/functions.rst:2271
-#, fuzzy
 msgid ""
 "Negative values for *level* are no longer supported (which also changes the "
 "default value to 0)."
@@ -4817,7 +4336,6 @@ msgstr ""
 "به 0 تغییر می دهد)."
 
 #: ../../library/functions.rst:2275
-#, fuzzy
 msgid ""
 "When the command line options :option:`-E` or :option:`-I` are being used, "
 "the environment variable :envvar:`PYTHONCASEOK` is now ignored."
@@ -4826,12 +4344,10 @@ msgstr ""
 "متغیر محیطی :envvar:`PYTHONCASEOK` دیگر نادیده گرفته می شود."
 
 #: ../../library/functions.rst:2280
-#, fuzzy
 msgid "Footnotes"
 msgstr "پاورقی ها"
 
 #: ../../library/functions.rst:2281
-#, fuzzy
 msgid ""
 "Note that the parser only accepts the Unix-style end of line convention. If "
 "you are reading the code from a file, make sure to use newline conversion "
@@ -4842,136 +4358,109 @@ msgstr ""
 "تبدیل خط های جدید به سبک ویندوز یا مک استفاده کنید."
 
 #: ../../library/functions.rst:154
-#, fuzzy
 msgid "Boolean"
 msgstr "بولین"
 
 #: ../../library/functions.rst:154 ../../library/functions.rst:2048
-#, fuzzy
 msgid "type"
 msgstr "نوع"
 
 #: ../../library/functions.rst:648
-#, fuzzy
 msgid "built-in function"
 msgstr "تابع داخلی"
 
 #: ../../library/functions.rst:648
-#, fuzzy
 msgid "exec"
 msgstr "اجرا کردن"
 
 #: ../../library/functions.rst:746
-#, fuzzy
 msgid "NaN"
 msgstr "NaN"
 
 #: ../../library/functions.rst:746
-#, fuzzy
 msgid "Infinity"
 msgstr "بی نهایت"
 
 #: ../../library/functions.rst:814
-#, fuzzy
 msgid "__format__"
 msgstr "__فرمت__"
 
 #: ../../library/functions.rst:814 ../../library/functions.rst:1925
-#, fuzzy
 msgid "string"
 msgstr "رشته"
 
 #: ../../library/functions.rst:814
-#, fuzzy
 msgid "format() (built-in function)"
 msgstr "تابع format() (توکار)"
 
 #: ../../library/functions.rst:1325
-#, fuzzy
 msgid "file object"
 msgstr "شیء پرونده"
 
 #: ../../library/functions.rst:1325 ../../library/functions.rst:1446
-#, fuzzy
 msgid "open() built-in function"
 msgstr "تابع داخلی open()"
 
 #: ../../library/functions.rst:1353
-#, fuzzy
 msgid "file"
 msgstr "فایل"
 
 #: ../../library/functions.rst:1353
-#, fuzzy
 msgid "modes"
 msgstr "مدها"
 
 #: ../../library/functions.rst:1446
-#, fuzzy
 msgid "universal newlines"
 msgstr "خطوط جدید جهانی"
 
 #: ../../library/functions.rst:1507
-#, fuzzy
 msgid "line-buffered I/O"
 msgstr "ورودی/خروجی بافر خطی"
 
 #: ../../library/functions.rst:1507
-#, fuzzy
 msgid "unbuffered I/O"
 msgstr "ورودی/خروجی بدون بافر"
 
 #: ../../library/functions.rst:1507
-#, fuzzy
 msgid "buffer size, I/O"
 msgstr "اندازه بافر، ورودی/خروجی"
 
 #: ../../library/functions.rst:1507
-#, fuzzy
 msgid "I/O control"
 msgstr "کنترل I/O"
 
 #: ../../library/functions.rst:1507
-#, fuzzy
 msgid "buffering"
 msgstr "بافرینگ"
 
 #: ../../library/functions.rst:1507
-#, fuzzy
 msgid "text mode"
 msgstr "حالت متنی"
 
 #: ../../library/functions.rst:1507 ../../library/functions.rst:2209
-#, fuzzy
 msgid "module"
 msgstr "ماژول"
 
 #: ../../library/functions.rst:1507
-#, fuzzy
 msgid "sys"
 msgstr "سیستم"
 
 #: ../../library/functions.rst:1925
-#, fuzzy
 msgid "str() (built-in function)"
 msgstr "تابع (built-in function) str()"
 
 #: ../../library/functions.rst:2048
-#, fuzzy
 msgid "object"
 msgstr "شیء"
 
 #: ../../library/functions.rst:2209
-#, fuzzy
 msgid "statement"
 msgstr "بیانیه"
 
 #: ../../library/functions.rst:2209
-#, fuzzy
 msgid "import"
 msgstr "وارد کردن"
 
 #: ../../library/functions.rst:2209
-#, fuzzy
 msgid "builtins"
 msgstr "توکارها"

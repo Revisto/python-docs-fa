@@ -6,7 +6,6 @@
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
@@ -22,12 +21,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../tutorial/inputoutput.rst:5
-#, fuzzy
 msgid "Input and Output"
 msgstr "Input and Output"
 
 #: ../../tutorial/inputoutput.rst:7
-#, fuzzy
 msgid ""
 "There are several ways to present the output of a program; data can be "
 "printed in a human-readable form, or written to a file for future use. This "
@@ -38,12 +35,10 @@ msgstr ""
 "شود. این فصل به برخی از این امکانات خواهد پرداخت."
 
 #: ../../tutorial/inputoutput.rst:15
-#, fuzzy
 msgid "Fancier Output Formatting"
 msgstr "قالب بندی خروجی جذاب تر"
 
 #: ../../tutorial/inputoutput.rst:17
-#, fuzzy
 msgid ""
 "So far we've encountered two ways of writing values: *expression statements*"
 " and the :func:`print` function.  (A third way is using the "
@@ -58,7 +53,6 @@ msgstr ""
 "Reference.)"
 
 #: ../../tutorial/inputoutput.rst:22
-#, fuzzy
 msgid ""
 "Often you'll want more control over the formatting of your output than "
 "simply printing space-separated values. There are several ways to format "
@@ -69,7 +63,6 @@ msgstr ""
 " کردن خروجی وجود دارد."
 
 #: ../../tutorial/inputoutput.rst:25
-#, fuzzy
 msgid ""
 "To use :ref:`formatted string literals <tut-f-strings>`, begin a string with"
 " ``f`` or ``F`` before the opening quotation mark or triple quotation mark. "
@@ -82,7 +75,6 @@ msgstr ""
 "که می تواند به متغیرها یا مقادیر صریح اشاره کند."
 
 #: ../../tutorial/inputoutput.rst:32
-#, fuzzy
 msgid ""
 ">>> year = 2016\n"
 ">>> event = 'Referendum'\n"
@@ -95,7 +87,6 @@ msgstr ""
 "'Results of the 2016 Referendum'"
 
 #: ../../tutorial/inputoutput.rst:37
-#, fuzzy
 msgid ""
 "The :meth:`str.format` method of strings requires more manual effort.  "
 "You'll still use ``{`` and ``}`` to mark where a variable will be "
@@ -110,7 +101,6 @@ msgstr ""
 "چگونگی قالب بندی متغیرها وجود دارد:"
 
 #: ../../tutorial/inputoutput.rst:46
-#, fuzzy
 msgid ""
 ">>> yes_votes = 42_572_654\n"
 ">>> total_votes = 85_705_149\n"
@@ -125,7 +115,6 @@ msgstr ""
 "' 42572654 YES votes  49.67%'"
 
 #: ../../tutorial/inputoutput.rst:52
-#, fuzzy
 msgid ""
 "Notice how the ``yes_votes`` are padded with spaces and a negative sign only"
 " for negative numbers. The example also prints ``percentage`` multiplied by "
@@ -138,7 +127,6 @@ msgstr ""
 " ببینید)."
 
 #: ../../tutorial/inputoutput.rst:57
-#, fuzzy
 msgid ""
 "Finally, you can do all the string handling yourself by using string slicing"
 " and concatenation operations to create any layout you can imagine.  The "
@@ -151,7 +139,6 @@ msgstr ""
 "ها به عرض یک ستون مشخص انجام می دهند."
 
 #: ../../tutorial/inputoutput.rst:62
-#, fuzzy
 msgid ""
 "When you don't need fancy output but just want a quick display of some "
 "variables for debugging purposes, you can convert any value to a string with"
@@ -159,7 +146,6 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/inputoutput.rst:66
-#, fuzzy
 msgid ""
 "The :func:`str` function is meant to return representations of values which "
 "are fairly human-readable, while :func:`repr` is meant to generate "
@@ -180,12 +166,10 @@ msgstr ""
 "متمایز دارند."
 
 #: ../../tutorial/inputoutput.rst:75
-#, fuzzy
 msgid "Some examples::"
 msgstr "چند مثال::"
 
 #: ../../tutorial/inputoutput.rst:77
-#, fuzzy
 msgid ""
 ">>> s = 'Hello, world.'\n"
 ">>> str(s)\n"
@@ -230,7 +214,6 @@ msgstr ""
 "\"(32.5, 40000, ('spam', 'eggs'))\""
 
 #: ../../tutorial/inputoutput.rst:98
-#, fuzzy
 msgid ""
 "The :mod:`string` module contains a :class:`~string.Template` class that "
 "offers yet another way to substitute values into strings, using placeholders"
@@ -243,12 +226,10 @@ msgstr ""
 "کنترل بسیار کمتری بر قالب بندی ارائه می دهد."
 
 #: ../../tutorial/inputoutput.rst:114
-#, fuzzy
 msgid "Formatted String Literals"
 msgstr "رشته های قالب بندی شده (Formatted String Literals)"
 
 #: ../../tutorial/inputoutput.rst:116
-#, fuzzy
 msgid ""
 ":ref:`Formatted string literals <f-strings>` (also called f-strings for "
 "short) let you include the value of Python expressions inside a string by "
@@ -261,7 +242,6 @@ msgstr ""
 "``F`` به رشته و نوشتن عبارات به صورت ``{expression}`` انجام می دهید."
 
 #: ../../tutorial/inputoutput.rst:121
-#, fuzzy
 msgid ""
 "An optional format specifier can follow the expression. This allows greater "
 "control over how the value is formatted. The following example rounds pi to "
@@ -272,7 +252,6 @@ msgstr ""
 "اعشار گرد می کند::"
 
 #: ../../tutorial/inputoutput.rst:125
-#, fuzzy
 msgid ""
 ">>> import math\n"
 ">>> print(f'The value of pi is approximately {math.pi:.3f}.')\n"
@@ -283,7 +262,6 @@ msgstr ""
 "مقدار pi تقریباً 3.142 است."
 
 #: ../../tutorial/inputoutput.rst:129
-#, fuzzy
 msgid ""
 "Passing an integer after the ``':'`` will cause that field to be a minimum "
 "number of characters wide.  This is useful for making columns line up. ::"
@@ -292,7 +270,6 @@ msgstr ""
 " کاراکتر داشته باشد. این قابلیت برای هم تراز کردن ستون ها مفید است. ::"
 
 #: ../../tutorial/inputoutput.rst:132
-#, fuzzy
 msgid ""
 ">>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}\n"
 ">>> for name, phone in table.items():\n"
@@ -311,7 +288,6 @@ msgstr ""
 "Dcab       ==>       7678"
 
 #: ../../tutorial/inputoutput.rst:140
-#, fuzzy
 msgid ""
 "Other modifiers can be used to convert the value before it is formatted. "
 "``'!a'`` applies :func:`ascii`, ``'!s'`` applies :func:`str`, and ``'!r'`` "
@@ -322,7 +298,6 @@ msgstr ""
 " را اعمال می کند، و ``'!r'`` تابع :func:`repr` را اعمال می کند::"
 
 #: ../../tutorial/inputoutput.rst:144
-#, fuzzy
 msgid ""
 ">>> animals = 'eels'\n"
 ">>> print(f'My hovercraft is full of {animals}.')\n"
@@ -337,7 +312,6 @@ msgstr ""
 "هاورکرافت من پر از 'eels' است."
 
 #: ../../tutorial/inputoutput.rst:150
-#, fuzzy
 msgid ""
 "The ``=`` specifier can be used to expand an expression to the text of the "
 "expression, an equal sign, then the representation of the evaluated "
@@ -347,7 +321,6 @@ msgstr ""
 "نمایش عبارت ارزیابی شده استفاده شود:"
 
 #: ../../tutorial/inputoutput.rst:159
-#, fuzzy
 msgid ""
 "See :ref:`self-documenting expressions <bpo-36817-whatsnew>` for more "
 "information on the ``=`` specifier. For a reference on these format "
@@ -358,17 +331,14 @@ msgstr ""
 "راهنمای مرجع :ref:`formatspec` مراجعه کنید."
 
 #: ../../tutorial/inputoutput.rst:166
-#, fuzzy
 msgid "The String format() Method"
 msgstr "متد String `format()`"
 
 #: ../../tutorial/inputoutput.rst:168
-#, fuzzy
 msgid "Basic usage of the :meth:`str.format` method looks like this::"
 msgstr "استفاده ی پایه از روش :meth:`str.format` به این صورت است::"
 
 #: ../../tutorial/inputoutput.rst:170
-#, fuzzy
 msgid ""
 ">>> print('We are the {} who say \"{}!\"'.format('knights', 'Ni'))\n"
 "We are the knights who say \"Ni!\""
@@ -377,7 +347,6 @@ msgstr ""
 "We are the knights who say \"Ni!\""
 
 #: ../../tutorial/inputoutput.rst:173
-#, fuzzy
 msgid ""
 "The brackets and characters within them (called format fields) are replaced "
 "with the objects passed into the :meth:`str.format` method.  A number in the"
@@ -390,7 +359,6 @@ msgstr ""
 ":meth:`str.format` استفاده شود. ::"
 
 #: ../../tutorial/inputoutput.rst:178
-#, fuzzy
 msgid ""
 ">>> print('{0} and {1}'.format('spam', 'eggs'))\n"
 "spam and eggs\n"
@@ -403,7 +371,6 @@ msgstr ""
 "eggs and spam"
 
 #: ../../tutorial/inputoutput.rst:183
-#, fuzzy
 msgid ""
 "If keyword arguments are used in the :meth:`str.format` method, their values"
 " are referred to by using the name of the argument. ::"
@@ -412,7 +379,6 @@ msgstr ""
 " با استفاده از نام آرگومان ارجاع داده می شوند. ::"
 
 #: ../../tutorial/inputoutput.rst:186
-#, fuzzy
 msgid ""
 ">>> print('This {food} is {adjective}.'.format(\n"
 "...       food='spam', adjective='absolutely horrible'))\n"
@@ -423,12 +389,10 @@ msgstr ""
 "This spam is absolutely horrible."
 
 #: ../../tutorial/inputoutput.rst:190
-#, fuzzy
 msgid "Positional and keyword arguments can be arbitrarily combined::"
 msgstr "آرگومان های مکانی و کلیدی می توانند به صورت دلخواه ترکیب شوند::"
 
 #: ../../tutorial/inputoutput.rst:192
-#, fuzzy
 msgid ""
 ">>> print('The story of {0}, {1}, and {other}.'.format('Bill', 'Manfred',\n"
 "...                                                    other='Georg'))\n"
@@ -439,7 +403,6 @@ msgstr ""
 "داستان Bill, Manfred و Georg."
 
 #: ../../tutorial/inputoutput.rst:196
-#, fuzzy
 msgid ""
 "If you have a really long format string that you don't want to split up, it "
 "would be nice if you could reference the variables to be formatted by name "
@@ -452,7 +415,6 @@ msgstr ""
 "دسترسی به کلیدها انجام می شود. ::"
 
 #: ../../tutorial/inputoutput.rst:201
-#, fuzzy
 msgid ""
 ">>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}\n"
 ">>> print('Jack: {0[Jack]:d}; Sjoerd: {0[Sjoerd]:d}; '\n"
@@ -465,7 +427,6 @@ msgstr ""
 "Jack: 4098; Sjoerd: 4127; Dcab: 8637678"
 
 #: ../../tutorial/inputoutput.rst:206
-#, fuzzy
 msgid ""
 "This could also be done by passing the ``table`` dictionary as keyword "
 "arguments with the ``**`` notation. ::"
@@ -474,7 +435,6 @@ msgstr ""
 " کلیدی با نوتیشن ``**`` انجام شود. ::"
 
 #: ../../tutorial/inputoutput.rst:209
-#, fuzzy
 msgid ""
 ">>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}\n"
 ">>> print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'.format(**table))\n"
@@ -485,7 +445,6 @@ msgstr ""
 "Jack: 4098; Sjoerd: 4127; Dcab: 8637678"
 
 #: ../../tutorial/inputoutput.rst:213
-#, fuzzy
 msgid ""
 "This is particularly useful in combination with the built-in function "
 ":func:`vars`, which returns a dictionary containing all local variables::"
@@ -494,7 +453,6 @@ msgstr ""
 "تمام متغیرهای محلی را برمی گرداند::"
 
 #: ../../tutorial/inputoutput.rst:216
-#, fuzzy
 msgid ""
 ">>> table = {k: str(v) for k, v in vars().items()}\n"
 ">>> message = \" \".join([f'{k}: ' + '{' + k +'};' for k in table.keys()])\n"
@@ -507,7 +465,6 @@ msgstr ""
 "__name__: __main__; __doc__: None; __package__: None; __loader__: ..."
 
 #: ../../tutorial/inputoutput.rst:221
-#, fuzzy
 msgid ""
 "As an example, the following lines produce a tidily aligned set of columns "
 "giving integers and their squares and cubes::"
@@ -516,7 +473,6 @@ msgstr ""
 " کنند که عددهای صحیح و توان دوم و سوم آن ها را نشان می دهد::"
 
 #: ../../tutorial/inputoutput.rst:224
-#, fuzzy
 msgid ""
 ">>> for x in range(1, 11):\n"
 "...     print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))\n"
@@ -534,7 +490,6 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/inputoutput.rst:238
-#, fuzzy
 msgid ""
 "For a complete overview of string formatting with :meth:`str.format`, see "
 ":ref:`formatstrings`."
@@ -543,19 +498,16 @@ msgstr ""
 ":ref:`formatstrings` مراجعه کنید."
 
 #: ../../tutorial/inputoutput.rst:243
-#, fuzzy
 msgid "Manual String Formatting"
 msgstr "فرمت بندی رشته به صورت دستی"
 
 #: ../../tutorial/inputoutput.rst:245
-#, fuzzy
 msgid "Here's the same table of squares and cubes, formatted manually::"
 msgstr ""
 "در اینجا همان جدول مربعات و مکعب ها قرار دارد که به صورت دستی قالب بندی شده "
 "است::"
 
 #: ../../tutorial/inputoutput.rst:247
-#, fuzzy
 msgid ""
 ">>> for x in range(1, 11):\n"
 "...     print(repr(x).rjust(2), repr(x*x).rjust(3), end=' ')\n"
@@ -590,7 +542,6 @@ msgstr ""
 "10 100 1000"
 
 #: ../../tutorial/inputoutput.rst:263
-#, fuzzy
 msgid ""
 "(Note that the one space between each column was added by the way "
 ":func:`print` works: it always adds spaces between its arguments.)"
@@ -599,7 +550,6 @@ msgstr ""
 "این همیشه بین آرگومان هایش فاصله ایجاد می کند.)"
 
 #: ../../tutorial/inputoutput.rst:266
-#, fuzzy
 msgid ""
 "The :meth:`str.rjust` method of string objects right-justifies a string in a"
 " field of a given width by padding it with spaces on the left. There are "
@@ -621,7 +571,6 @@ msgstr ""
 "``x.ljust(n)[:n]``.)"
 
 #: ../../tutorial/inputoutput.rst:275
-#, fuzzy
 msgid ""
 "There is another method, :meth:`str.zfill`, which pads a numeric string on "
 "the left with zeros.  It understands about plus and minus signs::"
@@ -630,7 +579,6 @@ msgstr ""
 " صفرها پر می کند. این روش علامت های مثبت و منفی را می فهمد::"
 
 #: ../../tutorial/inputoutput.rst:278
-#, fuzzy
 msgid ""
 ">>> '12'.zfill(5)\n"
 "'00012'\n"
@@ -647,12 +595,10 @@ msgstr ""
 "'3.14159265359'"
 
 #: ../../tutorial/inputoutput.rst:287
-#, fuzzy
 msgid "Old string formatting"
 msgstr "قالب بندی رشته ای قدیمی"
 
 #: ../../tutorial/inputoutput.rst:289
-#, fuzzy
 msgid ""
 "The % operator (modulo) can also be used for string formatting. Given "
 "``format % values`` (where *format* is a string), ``%`` conversion "
@@ -666,7 +612,6 @@ msgstr ""
 "شناخته می شود. به عنوان مثال::"
 
 #: ../../tutorial/inputoutput.rst:296
-#, fuzzy
 msgid ""
 ">>> import math\n"
 ">>> print('The value of pi is approximately %5.3f.' % math.pi)\n"
@@ -677,19 +622,16 @@ msgstr ""
 "مقدار pi تقریباً برابر با 3.142 است."
 
 #: ../../tutorial/inputoutput.rst:300
-#, fuzzy
 msgid ""
 "More information can be found in the :ref:`old-string-formatting` section."
 msgstr ""
 "اطلاعات بیشتر را می توانید در بخش :ref:`old-string-formatting` پیدا کنید."
 
 #: ../../tutorial/inputoutput.rst:306
-#, fuzzy
 msgid "Reading and Writing Files"
 msgstr "خواندن و نوشتن فایل ها"
 
 #: ../../tutorial/inputoutput.rst:312
-#, fuzzy
 msgid ""
 ":func:`open` returns a :term:`file object`, and is most commonly used with "
 "two positional arguments and one keyword argument: ``open(filename, mode, "
@@ -700,12 +642,10 @@ msgstr ""
 "encoding=None)``"
 
 #: ../../tutorial/inputoutput.rst:318
-#, fuzzy
 msgid ">>> f = open('workfile', 'w', encoding=\"utf-8\")"
 msgstr ">>> f = open('workfile', 'w', encoding=\"utf-8\")"
 
 #: ../../tutorial/inputoutput.rst:325
-#, fuzzy
 msgid ""
 "The first argument is a string containing the filename.  The second argument"
 " is another string containing a few characters describing the way in which "
@@ -725,7 +665,6 @@ msgstr ""
 " اختیاری است؛ اگر حذف شود، ``'r'`` در نظر گرفته خواهد شد."
 
 #: ../../tutorial/inputoutput.rst:334
-#, fuzzy
 msgid ""
 "Normally, files are opened in :dfn:`text mode`, that means, you read and "
 "write strings from and to the file, which are encoded in a specific "
@@ -747,7 +686,6 @@ msgstr ""
 "باینری مشخص کنید."
 
 #: ../../tutorial/inputoutput.rst:344
-#, fuzzy
 msgid ""
 "In text mode, the default when reading is to convert platform-specific line "
 "endings (``\\n`` on Unix, ``\\r\\n`` on Windows) to just ``\\n``.  When "
@@ -766,7 +704,6 @@ msgstr ""
 "فایل هایی از حالت باینری استفاده کنید."
 
 #: ../../tutorial/inputoutput.rst:352
-#, fuzzy
 msgid ""
 "It is good practice to use the :keyword:`with` keyword when dealing with "
 "file objects.  The advantage is that the file is properly closed after its "
@@ -781,7 +718,6 @@ msgstr ""
 ":keyword:`finally` بلوک های معادل است::"
 
 #: ../../tutorial/inputoutput.rst:358
-#, fuzzy
 msgid ""
 ">>> with open('workfile', encoding=\"utf-8\") as f:\n"
 "...     read_data = f.read()\n"
@@ -798,7 +734,6 @@ msgstr ""
 "True"
 
 #: ../../tutorial/inputoutput.rst:365
-#, fuzzy
 msgid ""
 "If you're not using the :keyword:`with` keyword, then you should call "
 "``f.close()`` to close the file and immediately free up any system resources"
@@ -809,7 +744,6 @@ msgstr ""
 "استفاده آن فراخوانی کنید."
 
 #: ../../tutorial/inputoutput.rst:370
-#, fuzzy
 msgid ""
 "Calling ``f.write()`` without using the :keyword:`!with` keyword or calling "
 "``f.close()`` **might** result in the arguments of ``f.write()`` not being "
@@ -820,7 +754,6 @@ msgstr ""
 "طور کامل روی دیسک نوشته نشوند، حتی اگر برنامه با موفقیت خارج شود."
 
 #: ../../tutorial/inputoutput.rst:378
-#, fuzzy
 msgid ""
 "After a file object is closed, either by a :keyword:`with` statement or by "
 "calling ``f.close()``, attempts to use the file object will automatically "
@@ -830,7 +763,6 @@ msgstr ""
 "``f.close()``، تلاش برای استفاده از شیء فایل به طور خودکار شکست می خورد. ::"
 
 #: ../../tutorial/inputoutput.rst:382
-#, fuzzy
 msgid ""
 ">>> f.close()\n"
 ">>> f.read()\n"
@@ -840,12 +772,10 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial/inputoutput.rst:392
-#, fuzzy
 msgid "Methods of File Objects"
 msgstr "روش های اشیاء فایل"
 
 #: ../../tutorial/inputoutput.rst:394
-#, fuzzy
 msgid ""
 "The rest of the examples in this section will assume that a file object "
 "called ``f`` has already been created."
@@ -854,7 +784,6 @@ msgstr ""
 "شده است."
 
 #: ../../tutorial/inputoutput.rst:397
-#, fuzzy
 msgid ""
 "To read a file's contents, call ``f.read(size)``, which reads some quantity "
 "of data and returns it as a string (in text mode) or bytes object (in binary"
@@ -875,7 +804,6 @@ msgstr ""
 "(``''``) برمی گرداند.  ::"
 
 #: ../../tutorial/inputoutput.rst:406
-#, fuzzy
 msgid ""
 ">>> f.read()\n"
 "'This is the entire file.\\n'\n"
@@ -888,7 +816,6 @@ msgstr ""
 "''"
 
 #: ../../tutorial/inputoutput.rst:411
-#, fuzzy
 msgid ""
 "``f.readline()`` reads a single line from the file; a newline character "
 "(``\\n``) is left at the end of the string, and is only omitted on the last "
@@ -905,7 +832,6 @@ msgstr ""
 "یک خط جدید دارد. ::"
 
 #: ../../tutorial/inputoutput.rst:418
-#, fuzzy
 msgid ""
 ">>> f.readline()\n"
 "'This is the first line of the file.\\n'\n"
@@ -922,7 +848,6 @@ msgstr ""
 "''"
 
 #: ../../tutorial/inputoutput.rst:425
-#, fuzzy
 msgid ""
 "For reading lines from a file, you can loop over the file object. This is "
 "memory efficient, fast, and leads to simple code::"
@@ -931,7 +856,6 @@ msgstr ""
 "نظر حافظه بهینه، سریع و منجر به کد ساده می شود::"
 
 #: ../../tutorial/inputoutput.rst:428
-#, fuzzy
 msgid ""
 ">>> for line in f:\n"
 "...     print(line, end='')\n"
@@ -946,7 +870,6 @@ msgstr ""
 "خط دوم فایل"
 
 #: ../../tutorial/inputoutput.rst:434
-#, fuzzy
 msgid ""
 "If you want to read all the lines of a file in a list you can also use "
 "``list(f)`` or ``f.readlines()``."
@@ -955,7 +878,6 @@ msgstr ""
 "``list(f)`` یا ``f.readlines()`` استفاده کنید."
 
 #: ../../tutorial/inputoutput.rst:437
-#, fuzzy
 msgid ""
 "``f.write(string)`` writes the contents of *string* to the file, returning "
 "the number of characters written. ::"
@@ -964,7 +886,6 @@ msgstr ""
 "نوشته شده را برمی گرداند. ::"
 
 #: ../../tutorial/inputoutput.rst:440
-#, fuzzy
 msgid ""
 ">>> f.write('This is a test\\n')\n"
 "15"
@@ -973,7 +894,6 @@ msgstr ""
 "15"
 
 #: ../../tutorial/inputoutput.rst:443
-#, fuzzy
 msgid ""
 "Other types of objects need to be converted -- either to a string (in text "
 "mode) or a bytes object (in binary mode) -- before writing them::"
@@ -982,7 +902,6 @@ msgstr ""
 "شیء بایت (در حالت باینری) -- تبدیل شوند::"
 
 #: ../../tutorial/inputoutput.rst:446
-#, fuzzy
 msgid ""
 ">>> value = ('the answer', 42)\n"
 ">>> s = str(value)  # convert the tuple to string\n"
@@ -995,7 +914,6 @@ msgstr ""
 "18"
 
 #: ../../tutorial/inputoutput.rst:451
-#, fuzzy
 msgid ""
 "``f.tell()`` returns an integer giving the file object's current position in"
 " the file represented as number of bytes from the beginning of the file when"
@@ -1006,7 +924,6 @@ msgstr ""
 "نامشخص در حالت متنی ارائه می شود."
 
 #: ../../tutorial/inputoutput.rst:455
-#, fuzzy
 msgid ""
 "To change the file object's position, use ``f.seek(offset, whence)``.  The "
 "position is computed from adding *offset* to a reference point; the "
@@ -1024,7 +941,6 @@ msgstr ""
 "ابتدای فایل به عنوان نقطه مرجع استفاده می کند. ::"
 
 #: ../../tutorial/inputoutput.rst:462
-#, fuzzy
 msgid ""
 ">>> f = open('workfile', 'rb+')\n"
 ">>> f.write(b'0123456789abcdef')\n"
@@ -1051,7 +967,6 @@ msgstr ""
 "b'd'"
 
 #: ../../tutorial/inputoutput.rst:474
-#, fuzzy
 msgid ""
 "In text files (those opened without a ``b`` in the mode string), only seeks "
 "relative to the beginning of the file are allowed (the exception being "
@@ -1066,7 +981,6 @@ msgstr ""
 "نامشخصی تولید می کند."
 
 #: ../../tutorial/inputoutput.rst:480
-#, fuzzy
 msgid ""
 "File objects have some additional methods, such as :meth:`~io.IOBase.isatty`"
 " and :meth:`~io.IOBase.truncate` which are less frequently used; consult the"
@@ -1077,12 +991,10 @@ msgstr ""
 "راهنمای کامل در مورد کائنات فایل به مرجع کتابخانه مراجعه کنید."
 
 #: ../../tutorial/inputoutput.rst:488
-#, fuzzy
 msgid "Saving structured data with :mod:`json`"
 msgstr "ذخیره داده های ساختاریافته با :mod:`json`"
 
 #: ../../tutorial/inputoutput.rst:492
-#, fuzzy
 msgid ""
 "Strings can easily be written to and read from a file.  Numbers take a bit "
 "more effort, since the :meth:`~io.TextIOBase.read` method only returns "
@@ -1099,7 +1011,6 @@ msgstr ""
 " تجزیه و تحلیل و سریال سازی به صورت دستی پیچیده می شود."
 
 #: ../../tutorial/inputoutput.rst:499
-#, fuzzy
 msgid ""
 "Rather than having users constantly writing and debugging code to save "
 "complicated data types to files, Python allows you to use the popular data "
@@ -1123,7 +1034,6 @@ msgstr ""
 " از طریق اتصال شبکه به دستگاهی دور ارسال شده باشد."
 
 #: ../../tutorial/inputoutput.rst:510
-#, fuzzy
 msgid ""
 "The JSON format is commonly used by modern applications to allow for data "
 "exchange.  Many programmers are already familiar with it, which makes it a "
@@ -1134,7 +1044,6 @@ msgstr ""
 "همکاری بین سیستم ها تبدیل می کند."
 
 #: ../../tutorial/inputoutput.rst:514
-#, fuzzy
 msgid ""
 "If you have an object ``x``, you can view its JSON string representation "
 "with a simple line of code::"
@@ -1143,7 +1052,6 @@ msgstr ""
 " ساده مشاهده کنید::"
 
 #: ../../tutorial/inputoutput.rst:517
-#, fuzzy
 msgid ""
 ">>> import json\n"
 ">>> x = [1, 'simple', 'list']\n"
@@ -1156,7 +1064,6 @@ msgstr ""
 "'[1, \"simple\", \"list\"]'"
 
 #: ../../tutorial/inputoutput.rst:522
-#, fuzzy
 msgid ""
 "Another variant of the :func:`~json.dumps` function, called "
 ":func:`~json.dump`, simply serializes the object to a :term:`text file`.  So"
@@ -1168,12 +1075,10 @@ msgstr ""
 "انجام دهیم::"
 
 #: ../../tutorial/inputoutput.rst:526
-#, fuzzy
 msgid "json.dump(x, f)"
 msgstr "json.dump(x, f)"
 
 #: ../../tutorial/inputoutput.rst:528
-#, fuzzy
 msgid ""
 "To decode the object again, if ``f`` is a :term:`binary file` or :term:`text"
 " file` object which has been opened for reading::"
@@ -1182,12 +1087,10 @@ msgstr ""
 ":term:`text file` است که برای خواندن باز شده است::"
 
 #: ../../tutorial/inputoutput.rst:531
-#, fuzzy
 msgid "x = json.load(f)"
 msgstr "x = json.load(f)"
 
 #: ../../tutorial/inputoutput.rst:534
-#, fuzzy
 msgid ""
 "JSON files must be encoded in UTF-8. Use ``encoding=\"utf-8\"`` when opening"
 " JSON file as a :term:`text file` for both of reading and writing."
@@ -1197,7 +1100,6 @@ msgstr ""
 " و نوشتن استفاده کنید."
 
 #: ../../tutorial/inputoutput.rst:537
-#, fuzzy
 msgid ""
 "This simple serialization technique can handle lists and dictionaries, but "
 "serializing arbitrary class instances in JSON requires a bit of extra "
@@ -1209,12 +1111,10 @@ msgstr ""
 "ماژول :mod:`json` شامل توضیحی در مورد این موضوع است."
 
 #: ../../tutorial/inputoutput.rst:543
-#, fuzzy
 msgid ":mod:`pickle` - the pickle module"
 msgstr ":mod:`pickle` - ماژول pickle"
 
 #: ../../tutorial/inputoutput.rst:545
-#, fuzzy
 msgid ""
 "Contrary to :ref:`JSON <tut-json>`, *pickle* is a protocol which allows the "
 "serialization of arbitrarily complex Python objects.  As such, it is "
@@ -1231,32 +1131,26 @@ msgstr ""
 "کند، اگر داده ها توسط یک مهاجم ماهر ساخته شده باشند."
 
 #: ../../tutorial/inputoutput.rst:103
-#, fuzzy
 msgid "formatted string literal"
 msgstr "رشته قالب بندی شده"
 
 #: ../../tutorial/inputoutput.rst:103
-#, fuzzy
 msgid "interpolated string literal"
 msgstr "رشته متنی درونیابی شده"
 
 #: ../../tutorial/inputoutput.rst:103
-#, fuzzy
 msgid "string"
 msgstr "رشته"
 
 #: ../../tutorial/inputoutput.rst:103
-#, fuzzy
 msgid "formatted literal"
 msgstr "رشته قالب بندی شده"
 
 #: ../../tutorial/inputoutput.rst:103
-#, fuzzy
 msgid "interpolated literal"
 msgstr "رشته های متفاوت pítonیزه (interpolated literal)"
 
 #: ../../tutorial/inputoutput.rst:103
-#, fuzzy
 msgid "f-string"
 msgstr ""
 "رشته های f یا `f-string` در نسخه ی 3.6 پایتون معرفی شدند و روشی ساده و خوانا"
@@ -1268,7 +1162,6 @@ msgstr ""
 "حاوی نمایش محاسبه شده ی عبارت هاست."
 
 #: ../../tutorial/inputoutput.rst:103
-#, fuzzy
 msgid "fstring"
 msgstr ""
 "رشته های قالب بندی شده (fstring) در پایتون به شما این امکان را می دهند که تعابیر را به آسانی درون رشته ها قرار دهید. این امر با پیشوند قرار دادن حرف `f` یا `F` قبل از رشته و استفاده از آکولاد های `{}` برای قرار دادن تعابیر امکان پذیر است. تعابیر داخل آکولاد ها ارزیابی شده، تبدیل به رشته می شوند، و در جای خود قرار می گیرند. \n"
@@ -1283,32 +1176,26 @@ msgstr ""
 "در این کد، مقدار `name` و `age` به صورت مستقیم در رشته ای که به متغیر `greeting` اختصاص داده شده است، تزریق می شوند."
 
 #: ../../tutorial/inputoutput.rst:308
-#, fuzzy
 msgid "built-in function"
 msgstr "تابع داخلی"
 
 #: ../../tutorial/inputoutput.rst:308
-#, fuzzy
 msgid "open"
 msgstr "باز کردن"
 
 #: ../../tutorial/inputoutput.rst:308
-#, fuzzy
 msgid "object"
 msgstr "شیء"
 
 #: ../../tutorial/inputoutput.rst:308
-#, fuzzy
 msgid "file"
 msgstr "فایل"
 
 #: ../../tutorial/inputoutput.rst:490
-#, fuzzy
 msgid "module"
 msgstr "ماژول"
 
 #: ../../tutorial/inputoutput.rst:490
-#, fuzzy
 msgid "json"
 msgstr ""
 "جیسون یا «جاوا اسکریپت آبجکت نوتیشن» یک فرمت انتقال داده است که به سادگی خوانده و نوشته می شود. اصولا برای ارسال داده ها در وب استفاده می شود. جیسون ساختاری شبیه به یک دیکشنری در پایتون دارد و می تواند توسط اکثر زبان های برنامه نویسی قابل درک باشد.\n"
