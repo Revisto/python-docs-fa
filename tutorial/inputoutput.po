@@ -157,9 +157,6 @@ msgid ""
 "variables for debugging purposes, you can convert any value to a string with"
 " the :func:`repr` or :func:`str` functions."
 msgstr ""
-"وقتی که نیازی به خروجی پیچیده ندارید و فقط می خواهید نمایش سریعی از برخی "
-"متغیرها برای اشکال زدایی داشته باشید، می توانید هر مقداری را با استفاده از "
-"توابع `:func:`repr` یا `:func:`str` به یک رشته تبدیل کنید."
 
 #: ../../tutorial/inputoutput.rst:66
 #, fuzzy
@@ -535,21 +532,6 @@ msgid ""
 " 9  81  729\n"
 "10 100 1000"
 msgstr ""
-"```python\n"
-">>> for x in range(1, 11):\n"
-"...     print('{0:2d} {1:3d} {2:4d}'.format(x, x**2, x**3))\n"
-"...\n"
-" 1   1    1\n"
-" 2   4    8\n"
-" 3   9   27\n"
-" 4  16   64\n"
-" 5  25  125\n"
-" 6  36  216\n"
-" 7  49  343\n"
-" 8  64  512\n"
-" 9  81  729\n"
-"10 100 1000\n"
-"```"
 
 #: ../../tutorial/inputoutput.rst:238
 #, fuzzy
@@ -856,11 +838,6 @@ msgid ""
 "  File \"<stdin>\", line 1, in <module>\n"
 "ValueError: I/O operation on closed file."
 msgstr ""
-"```f.close()``` \n"
-"```f.read()```\n"
-"آخرین خطاها (Traceback):\n"
-"  فایل \"<stdin>\", خط 1، در <module>\n"
-"ValueError: عملیات ورودی/خروجی بر روی فایل بسته انجام شد."
 
 #: ../../tutorial/inputoutput.rst:392
 #, fuzzy

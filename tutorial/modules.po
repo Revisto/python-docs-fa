@@ -375,7 +375,7 @@ msgstr "وقتی یک ماژول پایتون را اجرا می کنید با :
 #: ../../tutorial/modules.rst:151
 #, fuzzy
 msgid "python fibo.py <arguments>"
-msgstr "`python fibo.py <arguments>`"
+msgstr "python fibo.py <arguments>"
 
 #: ../../tutorial/modules.rst:153
 #, fuzzy

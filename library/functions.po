@@ -535,10 +535,11 @@ msgid ""
 "            return False\n"
 "    return True"
 msgstr ""
-"تابع all(iterable) برای بررسی این است که آیا همه عناصر در یک ساختار قابل "
-"تکرار (iterable)، ارزیابی به True دارند. برای هر عنصر در ساختار قابل تکرار، "
-"اگر عنصری پیدا شود که ارزیابی به False شود، تابع نتیجه False را برمی گرداند."
-" اگر همه عناصر ارزیابی به True شوند، تابع نتیجه True را برمی گرداند."
+"def all(iterable):\n"
+"    for element in iterable:\n"
+"        if not element:\n"
+"            return False\n"
+"    return True"
 
 #: ../../library/functions.rst:89
 #, fuzzy
@@ -587,9 +588,11 @@ msgid ""
 "            return True\n"
 "    return False"
 msgstr ""
-"تابع any یک مقدار iterable می گیرد و برای هر المنت در آن چک می کند. اگر "
-"حداقل یکی از المنت ها مقدار True داشته باشد، مقدار True را برمی گرداند و اگر"
-" نه، مقدار False را برمی گرداند."
+"def any(iterable):\n"
+"    for element in iterable:\n"
+"        if element:\n"
+"            return True\n"
+"    return False"
 
 #: ../../library/functions.rst:116
 #, fuzzy
@@ -1444,11 +1447,11 @@ msgid ""
 "        yield n, elem\n"
 "        n += 1"
 msgstr ""
-"تابع enumerate یک شیء قابل تکرار و یک مقدار شروع را به عنوان ورودی می پذیرد "
-"و در هر مرحله، شماره ی اندیس فعلی و عنصر مربوطه را بازمی گرداند. به صورت پیش"
-" فرض، شمارش از صفر شروع می شود، اما می توان با تنظیم پارامتر start، مقدار "
-"شروع را تغییر داد. در حلقه ی بازگشتی، ابتدا مقدار n و elem برای هر عنصر "
-"بازگشته و سپس n به اندازه ی یک واحد افزایش می یابد."
+"def enumerate(iterable, start=0):\n"
+"    n = start\n"
+"    for elem in iterable:\n"
+"        yield n, elem\n"
+"        n += 1"
 
 #: ../../library/functions.rst:0
 #, fuzzy

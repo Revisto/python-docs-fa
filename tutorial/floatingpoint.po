@@ -642,7 +642,7 @@ msgstr ""
 #: ../../tutorial/floatingpoint.rst:280
 #, fuzzy
 msgid "1 / 10 ~= J / (2**N)"
-msgstr "۱‏/‏۱۰ ~= J / (2**N)"
+msgstr "1 / 10 ~= J / (2**N)"
 
 #: ../../tutorial/floatingpoint.rst:282
 #, fuzzy

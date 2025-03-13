@@ -2118,8 +2118,7 @@ msgstr ""
 #: ../../tutorial/controlflow.rst:898
 #, fuzzy
 msgid "def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):"
-msgstr ""
-"تابع f دارای پارامترهای pos1, pos2، /، pos_or_kwd، *، kwd1 و kwd2 است."
+msgstr "def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):"
 
 #: ../../tutorial/controlflow.rst:900
 #, fuzzy

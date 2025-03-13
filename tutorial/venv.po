@@ -163,10 +163,6 @@ msgstr "در ویندوز، اجرا کنید::"
 #, fuzzy
 msgid "tutorial-env\\Scripts\\activate"
 msgstr ""
-"```plaintext\n"
-"اجرا:\n"
-"tutorial-env\\Scripts\\activate\n"
-"```"
 
 #: ../../tutorial/venv.rst:65
 #, fuzzy
