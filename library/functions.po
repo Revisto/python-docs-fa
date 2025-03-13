@@ -78,7 +78,7 @@ msgstr "**B**"
 #: ../../library/functions.rst:0
 #, fuzzy
 msgid ":func:`bin`"
-msgstr "متن قابل ترجمه ای موجود نیست. لطفاً متن دیگری ارائه دهید."
+msgstr ""
 
 #: ../../library/functions.rst:0
 #, fuzzy
@@ -410,7 +410,7 @@ msgstr "**S**"
 #: ../../library/functions.rst:0
 #, fuzzy
 msgid "|func-set|_"
-msgstr "|تابع-مجموعه|_"
+msgstr ""
 
 #: ../../library/functions.rst:0
 #, fuzzy
@@ -435,7 +435,7 @@ msgstr ":func:`staticmethod`"
 #: ../../library/functions.rst:0
 #, fuzzy
 msgid "|func-str|_"
-msgstr "|تابع-رشته ای|_"
+msgstr ""
 
 #: ../../library/functions.rst:0
 #, fuzzy
@@ -2312,11 +2312,6 @@ msgid ""
 ":ref:`integer string conversion length limitation <int_max_str_digits>` "
 "documentation."
 msgstr ""
-"ورودی های رشته ای و نمایش های رشته ای می توانند محدود شوند تا به جلوگیری از "
-"حملات انکار خدمات کمک کنند. زمانی که محدودیت در هنگام تبدیل یک رشته به یک "
-":class:`int` یا هنگامی که تبدیل یک :class:`int` به رشته ای از محدودیت بیشتر "
-"شود، یک :exc:`ValueError` برانگیخته می شود. به مستندات :ref:`integer string "
-"conversion length limitation <int_max_str_digits>` مراجعه کنید."
 
 #: ../../library/functions.rst:1069
 #, fuzzy
@@ -2721,8 +2716,6 @@ msgid ""
 ":class:`object` instances do *not* have :attr:`~object.__dict__` attributes,"
 " so you can't assign arbitrary attributes to an instance of :class:`object`."
 msgstr ""
-"نمونه های :class:`object` دارای ویژگی های *not* نیستند، بنابراین نمی توانید "
-"ویژگی های دلخواه را به یک نمونه از :class:`object` اختصاص دهید."
 
 #: ../../library/functions.rst:1303
 #, fuzzy
@@ -2732,9 +2725,6 @@ msgid ""
 "object, it has to define an :meth:`~object.__index__` method that returns an"
 " integer. For example:"
 msgstr ""
-"تبدیل یک عدد صحیح به یک رشته اکتال که با \"0o\" پیشوند شده است. نتیجه یک "
-"عبارت معتبر در Python است. اگر *x* یک شیء Python نباشد، باید یک متد "
-":meth:`~object.__index__` تعریف کند که یک عدد صحیح را بازگرداند. برای مثال:"
 
 #: ../../library/functions.rst:1313
 #, fuzzy
@@ -4079,7 +4069,6 @@ msgstr ""
 msgid ""
 "Return a :class:`str` version of *object*.  See :func:`str` for details."
 msgstr ""
-"نسخه ای از *object* برگشت دهید. برای جزئیات به :func:`str` مراجعه کنید."
 
 #: ../../library/functions.rst:1935
 #, fuzzy
