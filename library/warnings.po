@@ -5,6 +5,7 @@
 #
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2025
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-07 14:18+0000\n"
 "PO-Revision-Date: 2021-06-28 01:17+0000\n"
-"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
