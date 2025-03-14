@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Alireza Feyzabadi Farahani, 2025
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
 #, fuzzy
