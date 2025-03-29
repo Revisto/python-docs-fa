@@ -11,3 +11,4 @@
 locales/
 venv/
 __pycache__/
+transifex_cookies.json
