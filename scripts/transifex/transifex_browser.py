@@ -26,6 +26,7 @@ def is_logged_in(driver):
 def login_transifex(driver, username, password):
     driver.get("https://app.transifex.com/signin/")
     sleep(5)
+    click("Allow all")
     try:
         write(username, into="Email")
         write(password, into="Password")
