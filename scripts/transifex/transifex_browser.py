@@ -36,7 +36,7 @@ def login_transifex(driver, username, password):
 
 
 def get_driver_with_login(username, password):
-    driver = start_chrome(headless=False)  # FIXME
+    driver = start_chrome(headless=True)
     driver.get(TRANSIFEX_URL)
     sleep(5)
     login_transifex(driver, username, password)
