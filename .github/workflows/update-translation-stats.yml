@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '0 0 * * 6'  # Run at midnight on Saturdays
   workflow_dispatch:  # Allow manual trigger
+  pull_request:
 
 jobs:
   update-stats:
