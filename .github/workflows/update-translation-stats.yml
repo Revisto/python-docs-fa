@@ -1,4 +1,4 @@
-name: Update Translation Statistics
+name: "Update Translation Statistics"
 
 on:
   schedule:
