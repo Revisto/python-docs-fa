@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+          fetch-depth: 0
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -45,9 +48,10 @@ jobs:
         run: python scripts/transifex/update_readme.py
         
       - name: Commit and push changes
+        if: ${{ github.event_name != 'pull_request' }}
         run: |
           git config --local user.email "github-actions@github.com"
           git config --local user.name "GitHub Action"
           git add reports/ README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "Update translation statistics"
-          git push
+          git push origin ${{ github.ref_name }}
