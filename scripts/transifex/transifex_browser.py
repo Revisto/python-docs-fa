@@ -45,6 +45,7 @@ def login_transifex(driver, username, password):
 
 def get_driver_with_login(username, password):
     driver = start_chrome(headless=True)
+    driver.set_window_size(1920, 1080)
     driver.get(TRANSIFEX_URL)
     sleep(5)
     login_transifex(driver, username, password)
