@@ -26,20 +26,27 @@ def is_logged_in(driver):
 def login_transifex(driver, username, password):
     driver.get("https://app.transifex.com/signin/")
     sleep(5)
-    click("Allow all")
+    try:
+        click("Allow all")
+    except:
+        pass
     write(username, into="Email")
     write(password, into="Password")
     click("Log in")  # Adjust selector if needed.
     # Allow time for login and cookie propagation.
-    driver.implicitly_wait(10)
+    sleep(5)
+    try:
+        click("I agree, let's go!")
+    except:
+        pass
+    driver.refresh()
+    sleep(5)
     save_cookies(driver)
     return driver
 
 
 def get_driver_with_login(username, password):
-    driver = start_chrome(headless=True)
+    driver = start_chrome(headless=False)
     driver.set_window_size(1920, 1080)
-    driver.get(TRANSIFEX_URL)
-    sleep(5)
     login_transifex(driver, username, password)
     return driver

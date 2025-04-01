@@ -134,7 +134,7 @@ def get_user_contributions(days=7):
         ("reviewed", fetch_reviewed_strings),
         ("unreviewed", fetch_unreviewed_strings),
     ]:
-        strings = fetch_function()[:100]
+        strings = fetch_function()
         print(f"Processing {category} strings (sorted by most recently updated)...")
         stop_processing = False
 

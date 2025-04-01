@@ -27,9 +27,9 @@ def main():
     driver.implicitly_wait(10)
     # Update cookies after visiting the page.
     save_cookies(driver)
+    kill_browser()
     visualize_user_contributions()
     visualize_string_counts()
-    kill_browser()
 
 
 if __name__ == "__main__":
