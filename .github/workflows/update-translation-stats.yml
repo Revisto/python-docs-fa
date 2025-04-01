@@ -35,15 +35,7 @@ jobs:
         run: |
           cd scripts/transifex
           python main.py
-
-      - name: Upload error screenshots
-        if: ${{ failure() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: error-screenshots
-          path: scripts/transifex/login_error.png
-          if-no-files-found: ignore
-
+      
       - name: Update README
         run: python scripts/transifex/update_readme.py
         

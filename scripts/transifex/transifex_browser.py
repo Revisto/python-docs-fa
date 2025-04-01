@@ -27,17 +27,10 @@ def login_transifex(driver, username, password):
     driver.get("https://app.transifex.com/signin/")
     sleep(5)
     click("Allow all")
-    try:
-        write(username, into="Email")
-        write(password, into="Password")
-        click("Log in")
-
-    except Exception as e:
-        print(f"Login failed: {e}")
-        # Take screenshot for debugging
-        driver.save_screenshot("login_error.png")
-        raise
-
+    write(username, into="Email")
+    write(password, into="Password")
+    click("Log in")  # Adjust selector if needed.
+    # Allow time for login and cookie propagation.
     driver.implicitly_wait(10)
     save_cookies(driver)
     return driver
