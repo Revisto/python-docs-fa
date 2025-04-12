@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-28 14:18+0000\n"
+"POT-Creation-Date: 2025-04-11 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -39,115 +39,115 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: ../../tools/templates/download.html:16
+#: ../../tools/templates/download.html:30
 msgid "Download Python %(dl_version)s Documentation"
 msgstr ""
 
-#: ../../tools/templates/download.html:18
+#: ../../tools/templates/download.html:32
 msgid "Last updated on: %(last_updated)s."
 msgstr ""
 
-#: ../../tools/templates/download.html:20
+#: ../../tools/templates/download.html:34
 msgid ""
 "To download an archive containing all the documents for this version of\n"
 "Python in one of various formats, follow one of links in this table."
 msgstr ""
 
-#: ../../tools/templates/download.html:25
+#: ../../tools/templates/download.html:39
 msgid "Format"
 msgstr ""
 
-#: ../../tools/templates/download.html:26
+#: ../../tools/templates/download.html:40
 msgid "Packed as .zip"
 msgstr ""
 
-#: ../../tools/templates/download.html:27
+#: ../../tools/templates/download.html:41
 msgid "Packed as .tar.bz2"
 msgstr ""
 
-#: ../../tools/templates/download.html:30
+#: ../../tools/templates/download.html:44
 msgid "PDF"
 msgstr ""
 
-#: ../../tools/templates/download.html:31
+#: ../../tools/templates/download.html:45
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-pdf-a4.zip\">Download</a> "
 "(ca. %(download_size)s MiB)"
 msgstr ""
 
-#: ../../tools/templates/download.html:32
+#: ../../tools/templates/download.html:46
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-pdf-a4.tar.bz2\">Download</"
 "a> (ca. %(download_size)s MiB)"
 msgstr ""
 
-#: ../../tools/templates/download.html:35
+#: ../../tools/templates/download.html:49
 msgid "HTML"
 msgstr ""
 
-#: ../../tools/templates/download.html:36
+#: ../../tools/templates/download.html:50
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.zip\">Download</a> "
 "(ca. %(download_size)s MiB)"
 msgstr ""
 
-#: ../../tools/templates/download.html:37
+#: ../../tools/templates/download.html:51
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-html.tar.bz2\">Download</a> "
 "(ca. %(download_size)s MiB)"
 msgstr ""
 
-#: ../../tools/templates/download.html:40
+#: ../../tools/templates/download.html:54
 msgid "Plain text"
 msgstr ""
 
-#: ../../tools/templates/download.html:41
+#: ../../tools/templates/download.html:55
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.zip\">Download</a> "
 "(ca. %(download_size)s MiB)"
 msgstr ""
 
-#: ../../tools/templates/download.html:42
+#: ../../tools/templates/download.html:56
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-text.tar.bz2\">Download</a> "
 "(ca. %(download_size)s MiB)"
 msgstr ""
 
-#: ../../tools/templates/download.html:45
+#: ../../tools/templates/download.html:59
 msgid "Texinfo"
 msgstr ""
 
-#: ../../tools/templates/download.html:46
+#: ../../tools/templates/download.html:60
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.zip\">Download</a> "
 "(ca. %(download_size)s MiB)"
 msgstr ""
 
-#: ../../tools/templates/download.html:47
+#: ../../tools/templates/download.html:61
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs-texinfo.tar.bz2\">Download</"
 "a> (ca. %(download_size)s MiB)"
 msgstr ""
 
-#: ../../tools/templates/download.html:50
+#: ../../tools/templates/download.html:64
 msgid "EPUB"
 msgstr ""
 
-#: ../../tools/templates/download.html:51
+#: ../../tools/templates/download.html:65
 msgid ""
 "<a href=\"%(dl_base)s/python-%(dl_version)s-docs.epub\">Download</a> (ca. "
 "%(download_size)s MiB)"
 msgstr ""
 
-#: ../../tools/templates/download.html:56
+#: ../../tools/templates/download.html:70
 msgid "These archives contain all the content in the documentation."
 msgstr ""
 
-#: ../../tools/templates/download.html:59
+#: ../../tools/templates/download.html:73
 msgid "Unpacking"
 msgstr ""
 
-#: ../../tools/templates/download.html:61
+#: ../../tools/templates/download.html:75
 msgid ""
 "Unix users should download the .tar.bz2 archives; these are bzipped tar\n"
 "archives and can be handled in the usual way using tar and the bzip2\n"
@@ -158,17 +158,17 @@ msgid ""
 "best compression and fastest download times."
 msgstr ""
 
-#: ../../tools/templates/download.html:67
+#: ../../tools/templates/download.html:81
 msgid ""
 "Windows users can use the ZIP archives since those are customary on that\n"
 "platform. These are created on Unix using the Info-ZIP zip program."
 msgstr ""
 
-#: ../../tools/templates/download.html:71
+#: ../../tools/templates/download.html:85
 msgid "Problems"
 msgstr ""
 
-#: ../../tools/templates/download.html:73
+#: ../../tools/templates/download.html:87
 msgid ""
 "If you have comments or suggestions for the Python documentation, please "
 "send\n"
@@ -264,181 +264,181 @@ msgstr ""
 msgid "EOL"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:8
+#: ../../tools/templates/indexcontent.html:21
 msgid "Welcome! This is the official documentation for Python %(release)s."
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:10
+#: ../../tools/templates/indexcontent.html:23
 msgid "Documentation sections:"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:13
+#: ../../tools/templates/indexcontent.html:26
 msgid "What's new in Python %(version)s?"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:14
+#: ../../tools/templates/indexcontent.html:27
 msgid ""
 "Or <a href=\"%(whatsnew_index)s\">all \"What's new\" documents since Python "
 "2.0</a>"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:15
+#: ../../tools/templates/indexcontent.html:28
 msgid "Tutorial"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:16
+#: ../../tools/templates/indexcontent.html:29
 msgid "Start here: a tour of Python's syntax and features"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:17
+#: ../../tools/templates/indexcontent.html:30
 msgid "Library reference"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:18
+#: ../../tools/templates/indexcontent.html:31
 msgid "Standard library and builtins"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:19
+#: ../../tools/templates/indexcontent.html:32
 msgid "Language reference"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:20
+#: ../../tools/templates/indexcontent.html:33
 msgid "Syntax and language elements"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:21
+#: ../../tools/templates/indexcontent.html:34
 msgid "Python setup and usage"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:22
+#: ../../tools/templates/indexcontent.html:35
 msgid "How to install, configure, and use Python"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:23
+#: ../../tools/templates/indexcontent.html:36
 msgid "Python HOWTOs"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:24
+#: ../../tools/templates/indexcontent.html:37
 msgid "In-depth topic manuals"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:26
+#: ../../tools/templates/indexcontent.html:39
 msgid "Installing Python modules"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:27
+#: ../../tools/templates/indexcontent.html:40
 msgid "Third-party modules and PyPI.org"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:28
+#: ../../tools/templates/indexcontent.html:41
 msgid "Distributing Python modules"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:29
+#: ../../tools/templates/indexcontent.html:42
 msgid "Publishing modules for use by other people"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:30
+#: ../../tools/templates/indexcontent.html:43
 msgid "Extending and embedding"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:31
+#: ../../tools/templates/indexcontent.html:44
 msgid "For C/C++ programmers"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:32
+#: ../../tools/templates/indexcontent.html:45
 msgid "Python's C API"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:33
+#: ../../tools/templates/indexcontent.html:46
 msgid "C API reference"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:34
+#: ../../tools/templates/indexcontent.html:47
 msgid "FAQs"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:35
+#: ../../tools/templates/indexcontent.html:48
 msgid "Frequently asked questions (with answers!)"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:36
+#: ../../tools/templates/indexcontent.html:49
 msgid "Deprecations"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:37
+#: ../../tools/templates/indexcontent.html:50
 msgid "Deprecated functionality"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:41
+#: ../../tools/templates/indexcontent.html:54
 msgid "Indices, glossary, and search:"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:44
+#: ../../tools/templates/indexcontent.html:57
 msgid "Global module index"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:45
+#: ../../tools/templates/indexcontent.html:58
 msgid "All modules and libraries"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:46
+#: ../../tools/templates/indexcontent.html:59
 msgid "General index"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:47
+#: ../../tools/templates/indexcontent.html:60
 msgid "All functions, classes, and terms"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:48
+#: ../../tools/templates/indexcontent.html:61
 msgid "Glossary"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:49
+#: ../../tools/templates/indexcontent.html:62
 msgid "Terms explained"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:51
+#: ../../tools/templates/indexcontent.html:64
 msgid "Search page"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:52
+#: ../../tools/templates/indexcontent.html:65
 msgid "Search this documentation"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:53
+#: ../../tools/templates/indexcontent.html:66
 msgid "Complete table of contents"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:54
+#: ../../tools/templates/indexcontent.html:67
 msgid "Lists all sections and subsections"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:58
+#: ../../tools/templates/indexcontent.html:71
 msgid "Project information:"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:61
+#: ../../tools/templates/indexcontent.html:74
 msgid "Reporting issues"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:62
+#: ../../tools/templates/indexcontent.html:75
 msgid "Contributing to Docs"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:63
+#: ../../tools/templates/indexcontent.html:76
 msgid "Download the documentation"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:65
+#: ../../tools/templates/indexcontent.html:78
 msgid "History and license of Python"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:66
+#: ../../tools/templates/indexcontent.html:79
 msgid "Copyright"
 msgstr ""
 
-#: ../../tools/templates/indexcontent.html:67
+#: ../../tools/templates/indexcontent.html:80
 msgid "About the documentation"
 msgstr ""
 

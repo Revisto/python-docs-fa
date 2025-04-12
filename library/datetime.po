@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-28 14:18+0000\n"
+"POT-Creation-Date: 2025-04-11 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 01:04+0000\n"
 "Last-Translator: Parham Forati, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -1037,8 +1037,8 @@ msgstr ""
 
 #: ../../library/datetime.rst:669
 msgid ""
-"Return a date with the same value, except for those parameters given new "
-"values by whichever keyword arguments are specified."
+"Return a new :class:`date` object with the same values, but with specified "
+"parameters updated."
 msgstr ""
 
 #: ../../library/datetime.rst:672 ../../library/datetime.rst:1937
@@ -1055,8 +1055,8 @@ msgstr ""
 
 #: ../../library/datetime.rst:679
 msgid ""
-":class:`date` objects are also supported by generic function :func:`copy."
-"replace`."
+"The generic function :func:`copy.replace` also supports :class:`date` "
+"objects."
 msgstr ""
 
 #: ../../library/datetime.rst:685 ../../library/datetime.rst:1405
@@ -1856,10 +1856,10 @@ msgstr ""
 
 #: ../../library/datetime.rst:1318
 msgid ""
-"Return a datetime with the same attributes, except for those attributes "
-"given new values by whichever keyword arguments are specified. Note that "
-"``tzinfo=None`` can be specified to create a naive datetime from an aware "
-"datetime with no conversion of date and time data."
+"Return a new :class:`datetime` object with the same attributes, but with "
+"specified parameters updated. Note that ``tzinfo=None`` can be specified to "
+"create a naive datetime from an aware datetime with no conversion of date "
+"and time data."
 msgstr ""
 
 #: ../../library/datetime.rst:1323
@@ -2537,10 +2537,10 @@ msgstr ""
 
 #: ../../library/datetime.rst:1896
 msgid ""
-"Return a :class:`.time` with the same value, except for those attributes "
-"given new values by whichever keyword arguments are specified. Note that "
-"``tzinfo=None`` can be specified to create a naive :class:`.time` from an "
-"aware :class:`.time`, without conversion of the time data."
+"Return a new :class:`.time` with the same values, but with specified "
+"parameters updated. Note that ``tzinfo=None`` can be specified to create a "
+"naive :class:`.time` from an aware :class:`.time`, without conversion of the "
+"time data."
 msgstr ""
 
 #: ../../library/datetime.rst:1901
