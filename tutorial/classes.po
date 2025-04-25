@@ -6,6 +6,7 @@
 # Translators:
 # Alireza Feyzabadi Farahani, 2025
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
+# AmirHossein SAMIMI, 2025
 #
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-18 14:18+0000\n"
 "PO-Revision-Date: 2021-06-28 01:49+0000\n"
-"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
+"Last-Translator: AmirHossein SAMIMI, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +26,7 @@ msgstr ""
 
 #: ../../tutorial/classes.rst:5
 msgid "Classes"
-msgstr ""
+msgstr "کلاس ها"
 
 #: ../../tutorial/classes.rst:7
 msgid ""
@@ -35,6 +36,11 @@ msgid ""
 "attributes attached to it for maintaining its state.  Class instances can "
 "also have methods (defined by its class) for modifying its state."
 msgstr ""
+"کلاس ها وسیله ای را برای بسته بندی کردن داده و عملکرد با هم فراهم می کنند. "
+"ایجاد یک کلاس جدید، نوع جدیدی ایجاد می کند که اجازه می دهد موارد جدیدی از آن "
+"نوع ساخته شود. هر نمونه از کلاس می تواند صفاتی داشته باشد که به آن متصل شده "
+"اند تا وضعیت آن را حفظ کنند. نمونه های کلاس می توانند همچنین متدهایی (که "
+"توسط کلاس تعریف شده اند) داشته باشند تا وضعیت آن را تغییر دهند."
 
 #: ../../tutorial/classes.rst:13
 msgid ""
@@ -49,6 +55,16 @@ msgid ""
 "nature of Python: they are created at runtime, and can be modified further "
 "after creation."
 msgstr ""
+"در مقایسه با دیگر زبان های برنامه نویسی، مکانیزم کلاس در پایتون کلاس ها را "
+"با حداقل قواعد و معناشناسی جدید اضافه می کند. این مکانیزم ترکیبی از مکانیزم "
+"های کلاسی است که در C++ و Modula-3 یافت می شود. کلاس های پایتون تمام ویژگی "
+"های استاندارد برنامه نویسی شی گرا را فراهم می کنند: مکانیزم ارث بری کلاس ها "
+"اجازه می دهد کلاس های پایه متعددی داشته باشید، یک کلاس مشتق می تواند هر یک "
+"از متدهای کلاس های پایه خود را بازنویسی کند و یک متد می تواند متدی از کلاس "
+"پایه با همان نام را فراخوانی کند. اشیاء می توانند حاوی مقادیر و انواع داده "
+"ای دلخواه باشند. همان طور که برای ماژول ها صادق است، کلاس ها نیز از طبیعت "
+"پویا در پایتون برخوردارند: آن ها در زمان اجرا ایجاد می شوند و می توانند پس "
+"از ایجاد بیشتر تغییر داده شوند."
 
 #: ../../tutorial/classes.rst:23
 msgid ""
@@ -64,6 +80,16 @@ msgid ""
 "(arithmetic operators, subscripting etc.) can be redefined for class "
 "instances."
 msgstr ""
+"در اصطلاحات C++، معمولاً اعضای کلاس (از جمله اعضای داده) *public* هستند (به "
+"جز موردی که در پایین :ref:`tut-private` ذکر شده است)، و تمامی توابع عضو "
+"مجازی  هستند. همان طور که در Modula-3، هیچ میانبرهایی برای ارجاع به اعضای "
+"شیء از متدهای آن وجود ندارد: تابع متد با یک آرگومان اول صریح که نمایانگر شیء "
+"است، اعلام می شود که این آرگومان به صورت ضمنی توسط فراخوانی فراهم می شود. "
+"همان طور که در Smalltalk، خود کلاس ها اشیاء هستند. این ویژگی معناشناسی برای "
+"وارد کردن و تغییر نام را فراهم می آورد. برخلاف C++ و Modula-3، نوع های داخلی "
+"می توانند به عنوان کلاس های پایه برای توسعه توسط کاربر استفاده شوند. همچنین، "
+"مانند C++، بیشتر عملگرهای داخلی با نحوی خاص (عملگرهای ریاضی، زیرنویسی و "
+"غیره) می توانند برای نمونه های کلاس بازتعریف شوند."
 
 #: ../../tutorial/classes.rst:34
 msgid ""
@@ -95,7 +121,7 @@ msgstr ""
 
 #: ../../tutorial/classes.rst:61
 msgid "Python Scopes and Namespaces"
-msgstr ""
+msgstr "محدوده ها و فضای نام ها در پایتون"
 
 #: ../../tutorial/classes.rst:63
 msgid ""
@@ -184,7 +210,7 @@ msgstr ""
 
 #: ../../tutorial/classes.rst:120
 msgid "the innermost scope, which is searched first, contains the local names"
-msgstr ""
+msgstr "درونی ترین حوزه، که ابتدا جستجو می شود، شامل نام های محلی است"
 
 #: ../../tutorial/classes.rst:121
 msgid ""
@@ -194,7 +220,7 @@ msgstr ""
 
 #: ../../tutorial/classes.rst:123
 msgid "the next-to-last scope contains the current module's global names"
-msgstr ""
+msgstr "حوزه قبل از آخر شامل نام های عمومی ماژول جاری است."
 
 #: ../../tutorial/classes.rst:124
 msgid ""
@@ -317,21 +343,23 @@ msgstr ""
 
 #: ../../tutorial/classes.rst:212
 msgid "A First Look at Classes"
-msgstr ""
+msgstr "در نگاه اول به کلاس ها"
 
 #: ../../tutorial/classes.rst:214
 msgid ""
 "Classes introduce a little bit of new syntax, three new object types, and "
 "some new semantics."
 msgstr ""
+"کلاس ها اندکی سینتکس جدید، سه نوع شئ جدید و برخی مفاهیم معنایی جدید معرفی می "
+"کنند."
 
 #: ../../tutorial/classes.rst:221
 msgid "Class Definition Syntax"
-msgstr ""
+msgstr "قواعد تعریف کلاس"
 
 #: ../../tutorial/classes.rst:223
 msgid "The simplest form of class definition looks like this::"
-msgstr ""
+msgstr "ساده ترین شکل تعریف کلاس به این صورت است:"
 
 #: ../../tutorial/classes.rst:225
 msgid ""
@@ -1193,6 +1221,13 @@ msgid ""
 "the data values and which statement was last executed).  An example shows "
 "that generators can be trivially easy to create::"
 msgstr ""
+":term:`Generators <generator>` یک ابزار ساده و قدرتمند برای ایجاد "
+"اینتراتورها هستند. آنها مانند توابع عادی نوشته می شوند اما هر زمان که می "
+"خواهند داده ای را بازگردانند از دستور :keyword:`yield` استفاده می کنند. هر "
+"بار که :func:`next` بر روی آن فراخوانی می شود، مولد از جایی که متوقف شده "
+"ادامه می یابد (تمام مقادیر داده ها و اینکه آخرین دستور اجرا شده چه بوده را "
+"به خاطر می آورد). یک مثال نشان می دهد که ایجاد مولدها می تواند به طرز "
+"باورنکردنی ساده باشد::"
 
 #: ../../tutorial/classes.rst:869
 msgid ""
@@ -1200,6 +1235,9 @@ msgid ""
 "    for index in range(len(data)-1, -1, -1):\n"
 "        yield data[index]"
 msgstr ""
+"def reverse(data):\n"
+"    for index in range(len(data)-1, -1, -1):\n"
+"        yield data[index]"
 
 #: ../../tutorial/classes.rst:875
 msgid ""
@@ -1211,6 +1249,13 @@ msgid ""
 "o\n"
 "g"
 msgstr ""
+">>> for char in reverse('golf'):\n"
+"...     print(char)\n"
+"...\n"
+"f\n"
+"l\n"
+"o\n"
+"g"
 
 #: ../../tutorial/classes.rst:883
 msgid ""
@@ -1219,6 +1264,10 @@ msgid ""
 "compact is that the :meth:`~iterator.__iter__` and :meth:`~generator."
 "__next__` methods are created automatically."
 msgstr ""
+"هر چیزی که با تولیدکننده ها (generators) قابل انجام است، می تواند با استفاده "
+"از تکرارگرهای مبتنی بر کلاس نیز انجام شود، همانطور که در بخش قبلی توضیح داده "
+"شد. آنچه تولیدکننده ها را فشرده می کند، این است که روش های :meth:`~iterator."
+"__iter__` و :meth:`~generator.__next__` به طور خودکار ایجاد می شوند."
 
 #: ../../tutorial/classes.rst:888
 msgid ""
@@ -1227,6 +1276,10 @@ msgid ""
 "and much more clear than an approach using instance variables like ``self."
 "index`` and ``self.data``."
 msgstr ""
+"یکی دیگر از ویژگی های کلیدی این است که متغیرهای محلی و وضعیت اجرا به طور "
+"خودکار بین فراخوانی ها ذخیره می شوند. این امر نوشتن تابع را آسان تر و خیلی "
+"واضح تر از رویکردی که از متغیرهای نمونه ای مانند ``self.index`` و ``self."
+"data`` استفاده می کند، کرده است."
 
 #: ../../tutorial/classes.rst:893
 msgid ""
@@ -1235,6 +1288,10 @@ msgid ""
 "combination, these features make it easy to create iterators with no more "
 "effort than writing a regular function."
 msgstr ""
+"علاوه بر ایجاد خودکار متدها و ذخیره سازی وضعیت برنامه، زمانی که جنراتورها "
+"خاتمه می یابند، به طور خودکار :exc:`StopIteration` را ایجاد می کنند. این "
+"ویژگی ها به صورت ترکیبی، ساختن تکرارگرها را به همان سادگی نوشتن یک تابع عادی "
+"امکان پذیر می سازند."
 
 #: ../../tutorial/classes.rst:902
 msgid "Generator Expressions"
