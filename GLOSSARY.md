@@ -57,3 +57,4 @@
 | runtime       | ران‌تایم                 |
 | dependency    | وابستگی                  |
 | community     | کامیونیتی                |
+| namespace      | نام‌فضا                   |
