@@ -1,7 +1,7 @@
 # ترجمه مستندات پایتون به فارسی 🐍💛
 
 [![discord](https://img.shields.io/badge/Discord-python--docs--fa-5865F2?style=for-the-badge&logo=Discord)](https://discord.gg/yeqtNeaFYf)
-[![youtube](https://img.shields.io/badge/Youtube-Contribution--Guide-CD201F?style=for-the-badge&logo=Youtube)](https://discord.gg/yeqtNeaFYf)
+[![youtube](https://img.shields.io/badge/Youtube-Contribution--Guide-CD201F?style=for-the-badge&logo=Youtube)](https://www.youtube.com/watch?v=DH5c5ZutTCo)
 
 ## درباره پروژه
 
