@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-02 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 01:14+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -723,15 +723,15 @@ msgstr ""
 msgid "Return the path of :file:`Makefile`."
 msgstr ""
 
-#: ../../library/sysconfig.rst:434
-msgid "Using :mod:`sysconfig` as a script"
+#: ../../library/sysconfig.rst:435
+msgid "Command-line usage"
 msgstr ""
 
-#: ../../library/sysconfig.rst:436
+#: ../../library/sysconfig.rst:437
 msgid "You can use :mod:`sysconfig` as a script with Python's *-m* option:"
 msgstr ""
 
-#: ../../library/sysconfig.rst:438
+#: ../../library/sysconfig.rst:439
 msgid ""
 "$ python -m sysconfig\n"
 "Platform: \"macosx-10.4-i386\"\n"
@@ -756,7 +756,7 @@ msgid ""
 "        ..."
 msgstr ""
 
-#: ../../library/sysconfig.rst:462
+#: ../../library/sysconfig.rst:463
 msgid ""
 "This call will print in the standard output the information returned by :"
 "func:`get_platform`, :func:`get_python_version`, :func:`get_path` and :func:"

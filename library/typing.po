@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-02 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 01:16+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../library/typing.rst:3
-msgid ":mod:`typing` --- Support for type hints"
+msgid ":mod:`!typing` --- Support for type hints"
 msgstr ""
 
 #: ../../library/typing.rst:16
@@ -967,9 +967,9 @@ msgid ""
 "User-defined generics for parameter expressions are also supported via "
 "parameter specification variables in the form ``[**P]``.  The behavior is "
 "consistent with type variables' described above as parameter specification "
-"variables are treated by the typing module as a specialized type variable.  "
-"The one exception to this is that a list of types can be used to substitute "
-"a :class:`ParamSpec`::"
+"variables are treated by the :mod:`!typing` module as a specialized type "
+"variable.  The one exception to this is that a list of types can be used to "
+"substitute a :class:`ParamSpec`::"
 msgstr ""
 
 #: ../../library/typing.rst:671
@@ -1032,8 +1032,8 @@ msgstr ""
 msgid ""
 "A user-defined generic class can have ABCs as base classes without a "
 "metaclass conflict. Generic metaclasses are not supported. The outcome of "
-"parameterizing generics is cached, and most types in the typing module are :"
-"term:`hashable` and comparable for equality."
+"parameterizing generics is cached, and most types in the :mod:`!typing` "
+"module are :term:`hashable` and comparable for equality."
 msgstr ""
 
 #: ../../library/typing.rst:714
@@ -3725,8 +3725,8 @@ msgstr ""
 
 #: ../../library/typing.rst:2688
 msgid ""
-"The following protocols are provided by the typing module. All are decorated "
-"with :func:`@runtime_checkable <runtime_checkable>`."
+"The following protocols are provided by the :mod:`!typing` module. All are "
+"decorated with :func:`@runtime_checkable <runtime_checkable>`."
 msgstr ""
 
 #: ../../library/typing.rst:2693
@@ -4636,10 +4636,10 @@ msgstr ""
 #: ../../library/typing.rst:3386
 msgid ""
 "This module defines several deprecated aliases to pre-existing standard "
-"library classes. These were originally included in the typing module in "
-"order to support parameterizing these generic classes using ``[]``. However, "
-"the aliases became redundant in Python 3.9 when the corresponding pre-"
-"existing classes were enhanced to support ``[]`` (see :pep:`585`)."
+"library classes. These were originally included in the :mod:`!typing` module "
+"in order to support parameterizing these generic classes using ``[]``. "
+"However, the aliases became redundant in Python 3.9 when the corresponding "
+"pre-existing classes were enhanced to support ``[]`` (see :pep:`585`)."
 msgstr ""
 
 #: ../../library/typing.rst:3393
@@ -4654,8 +4654,8 @@ msgstr ""
 msgid ""
 "If at some point it is decided to remove these deprecated aliases, a "
 "deprecation warning will be issued by the interpreter for at least two "
-"releases prior to removal. The aliases are guaranteed to remain in the "
-"typing module without deprecation warnings until at least Python 3.14."
+"releases prior to removal. The aliases are guaranteed to remain in the :mod:"
+"`!typing` module without deprecation warnings until at least Python 3.14."
 msgstr ""
 
 #: ../../library/typing.rst:3403
