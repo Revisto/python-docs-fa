@@ -4,12 +4,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 # pourya salimi, 2025
 # Ashkan Tavassoli, 2025
 # Hesam Ghasemi, 2025
 # Ramiz karimian, 2025
 # khosro azimi, 2025
+# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-02 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
-"Last-Translator: khosro azimi, 2025\n"
+"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../bugs.rst:36
 msgid "`Documentation bugs`_"
-msgstr "'اشکالات مستندات'_"
+msgstr "`اشکالات مستندات`_"
 
 #: ../../bugs.rst:37
 msgid ""
@@ -137,8 +137,7 @@ msgid ""
 "`Documentation Translations <https://devguide.python.org/documentation/"
 "translating/>`_"
 msgstr ""
-"`ترجمه های مستندات <https://devguide.python.org/documentation/translating/"
-">`_'"
+"`ترجمه های مستندات <https://devguide.python.org/documentation/translating/>`_"
 
 #: ../../bugs.rst:46
 msgid ""
@@ -238,8 +237,8 @@ msgid ""
 "`How to Report Bugs Effectively <https://www.chiark.greenend.org.uk/"
 "~sgtatham/bugs.html>`_"
 msgstr ""
-"`نحوه گزارش اشکالات به طور موثر '<https://www.chiark.greenend.org.uk/"
-"~sgtatham/bugs.html>`_'"
+"`نحوه گزارش اشکالات به طور موثر <https://www.chiark.greenend.org.uk/"
+"~sgtatham/bugs.html>`_"
 
 #: ../../bugs.rst:92
 msgid ""
@@ -254,7 +253,7 @@ msgid ""
 "`Bug Writing Guidelines <https://bugzilla.mozilla.org/page.cgi?id=bug-"
 "writing.html>`_"
 msgstr ""
-"`راهنمای نوشتن گزارش خطا<https://bugzilla.mozilla.org/page.cgi?id=bug-"
+"`راهنمای نوشتن گزارش خطا <https://bugzilla.mozilla.org/page.cgi?id=bug-"
 "writing.html>`_"
 
 #: ../../bugs.rst:96
