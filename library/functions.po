@@ -4,10 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 # AmirHossein SAMIMI, 2025
 # taha haghgoo, 2025
 # sadra nobari, 2025
+# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-02 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 01:06+0000\n"
-"Last-Translator: sadra nobari, 2025\n"
+"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -417,8 +417,8 @@ msgid ""
 "Return an :term:`asynchronous iterator` for an :term:`asynchronous "
 "iterable`. Equivalent to calling ``x.__aiter__()``."
 msgstr ""
-"بازگرداندن یک 'term:'asynchronous iterator: برای یک 'term:`asynchronous "
-"iterable: معادل فراخوانی ``x.__aiter__()`` است."
+"بازگرداندن یک :term:`asynchronous iterator` برای یک :term:`asynchronous "
+"iterable` معادل فراخوانی ``x.__aiter__()`` است."
 
 #: ../../library/functions.rst:70
 msgid "Note: Unlike :func:`iter`, :func:`aiter` has no 2-argument variant."
