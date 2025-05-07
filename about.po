@@ -6,15 +6,16 @@
 # Translators:
 # Danial Behzadi <dani.behzi@ubuntu.com>, 2025
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
+# khosro azimi, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-02 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
-"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
+"Last-Translator: khosro azimi, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -73,7 +74,9 @@ msgid ""
 "Fredrik Lundh for his Alternative Python Reference project from which Sphinx "
 "got many good ideas."
 msgstr ""
-"فردریک لوند برای پروژهٔ مرجع جایگزین پایتون که Sphinx ایده‌های خوبی از آن گرفت."
+"فردریک لوند (Fredrik Lundh) برای پروژه‌ی \"Alternative Python "
+"Reference\" (مرجع جایگزین پایتون) که از آن بسیاری از ایده‌های خوب برای Sphinx "
+"(اسفینکس) گرفته شد."
 
 #: ../../about.rst:32
 msgid "Contributors to the Python documentation"
@@ -94,5 +97,5 @@ msgid ""
 "It is only with the input and contributions of the Python community that "
 "Python has such wonderful documentation -- Thank You!"
 msgstr ""
-"پایتون تنها با مشارکت‌های اجتماعش چنین مستندات فوق‌العاده‌ای دارد -- سپاس از "
-"شما!"
+"فقط با مشارکت‌ها و کمک‌های جامعه پایتون است که پایتون چنین مستندات فوق‌العاده‌ای "
+"دارد -- سپاس از شما!"
