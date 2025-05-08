@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../../bugs.rst:39
 msgid "`Issue Tracking <https://devguide.python.org/tracker/>`_"
-msgstr "`پیگیری مشکل <https://devguide.python.org/tracker/>`_'"
+msgstr "`پیگیری مشکل <https://devguide.python.org/tracker/>`_"
 
 #: ../../bugs.rst:40
 msgid ""
