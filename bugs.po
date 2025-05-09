@@ -7,17 +7,17 @@
 # Ashkan Tavassoli, 2025
 # Ramiz karimian, 2025
 # khosro azimi, 2025
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2025
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
-# Ariyan Bolandi, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-08 02:53-0300\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
-"Last-Translator: Ariyan Bolandi, 2025\n"
+"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../../bugs.rst:5
 msgid "Dealing with Bugs"
-msgstr "مقابله با باگ‌ها"
+msgstr "کنار آمدن با مشکلات"
 
 #: ../../bugs.rst:7
 msgid ""
@@ -36,9 +36,8 @@ msgid ""
 "for stability.  In order to maintain this reputation, the developers would "
 "like to know of any deficiencies you find in Python."
 msgstr ""
-"پایتون یک زبان برنامه نویسی بالغ است که به خاطر پایداری‌اش مشهور شده است.  "
-"برای حفظ این شهرت، توسعه‌دهندگان آن مایلند از هر گونه نواقصی که در پایتون "
-"پیدا می‌کنید آگاه شوند."
+"پایتون زبان برنامه نویسی بالغیست که پایداریش شهرتی به هم زده. توسعه‌دهندگانش "
+"مایلند برای حفظ این شهرت از هر نقصی که در پایتون می‌یابید آگاه شوند."
 
 #: ../../bugs.rst:11
 msgid ""
@@ -46,14 +45,13 @@ msgid ""
 "Python as it streamlines the process and involves less people. Learn how to :"
 "ref:`contribute <contributing-to-python>`."
 msgstr ""
-"برخی مواقع، درست کردن باگ‌ها به دست خودتان و اضافه کردن پچ‌ها به پایتون "
-"می‌تواند فرآیند را موثر تر کند، زیرا این کار تعداد افراد دخیل را کاهش می‌دهد و "
-"فرآیند را ساده تر می‌کند. یاد بگیرید چگونه انجام دهید در :ref:`contribute "
-"<contributing-to-python>`."
+"گاهی حل مشکل به دست خودتان و فرستادن وصله به پایتون سریع‌تر است؛ زیرا فرایند "
+"را یکسره کرده و افراد کم‌تری را درگیر می‌کند. آموختن چگونگی مشارکت در :ref:"
+"`contribute <contributing-to-python>`."
 
 #: ../../bugs.rst:16
 msgid "Documentation bugs"
-msgstr "ایرادات مستندات"
+msgstr "مشکلات مستندات"
 
 #: ../../bugs.rst:18
 msgid ""
@@ -62,14 +60,17 @@ msgid ""
 "the-tracker>`.  If you have a suggestion on how to fix it, include that as "
 "well."
 msgstr ""
+"اگر مشکلی در این مستندات یافته یا می‌خواهید بهبودی را پیشنهاد دهید، گزارش "
+"مشکلی روی :ref:`issue tracker <using-the-tracker>`. ثبت کنید. اگر برای حلش "
+"پیشنهادی دارید، آن را هم بنویسید."
 
 #: ../../bugs.rst:22
 msgid ""
 "You can also open a discussion item on our `Documentation Discourse forum "
 "<https://discuss.python.org/c/documentation/26>`_."
 msgstr ""
-"همچنین می‌توانید یک مباحثه را در `انجمن مباحثه در خصوص اسناد <https://discuss."
-"python.org/c/documentation/26>`_ ما باز کنید."
+"همچنین می‌توانید گفت‌وگویی در `انجمن‌های گفتمان مستندات <https://discuss.python."
+"org/c/documentation/26>`_ بگشایید."
 
 #: ../../bugs.rst:25
 msgid ""
@@ -78,7 +79,7 @@ msgid ""
 "tracker <https://github.com/python/python-docs-theme>`_."
 msgstr ""
 "اگر شما یک باگ در نحوه نمایش تم ها (اچ تی ام ال - سی اس اس - جاوا اسکریپت) "
-"در مستندات پیدا کردید, لطفا یک گزارش باگ بر روی آدرس <https://github.com/"
+"در مستندات پیدا کردید, لطفا یک گزارش باگ بر روی `آدرس <https://github.com/"
 "python/python-docs-theme>`_ ثبت کنید."
 
 #: ../../bugs.rst:31

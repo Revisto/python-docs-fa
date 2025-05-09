@@ -9,15 +9,16 @@
 # AmirHossein SAMIMI, 2025
 # khosro azimi, 2025
 # Ariyan Bolandi, 2025
+# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-08 02:53-0300\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
-"Last-Translator: Ariyan Bolandi, 2025\n"
+"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +64,7 @@ msgid ""
 "`Py_TPFLAGS_HAVE_GC` set. For such objects, use :c:func:`PyObject_GC_New` "
 "instead."
 msgstr ""
-"توجه داشته باشید که اگر *typeobj* دارای:c:macro:`Py_TPFLAGS_HAVE_GC` مجموعه "
+"توجه داشته باشید که اگر *typeobj* دارای :c:macro:`Py_TPFLAGS_HAVE_GC` مجموعه "
 "باشد، این تابع نامناسب است. برای چنین اشیایی به جای آن از :c:func:"
 "`PyObject_GC_New` استفاده کنید."
 

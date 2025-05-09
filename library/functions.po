@@ -8,15 +8,16 @@
 # taha haghgoo, 2025
 # sadra nobari, 2025
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
+# Ramiz karimian, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-08 02:53-0300\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 01:06+0000\n"
-"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
+"Last-Translator: Ramiz karimian, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -144,263 +145,263 @@ msgstr ":func:`enumerate`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`eval`"
-msgstr ""
+msgstr ":func:`eval`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`exec`"
-msgstr ""
+msgstr ":func:`exec`"
 
 #: ../../library/functions.rst:0
 msgid "**F**"
-msgstr ""
+msgstr "**F**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`filter`"
-msgstr ""
+msgstr ":func:`filter`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`float`"
-msgstr ""
+msgstr ":func:`float`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`format`"
-msgstr ""
+msgstr ":func:`format`"
 
 #: ../../library/functions.rst:0
 msgid "|func-frozenset|_"
-msgstr ""
+msgstr "|func-frozenset|_"
 
 #: ../../library/functions.rst:0
 msgid "**G**"
-msgstr ""
+msgstr "**G**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`getattr`"
-msgstr ""
+msgstr ":func:`getattr`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`globals`"
-msgstr ""
+msgstr ":func:`globals`"
 
 #: ../../library/functions.rst:0
 msgid "**H**"
-msgstr ""
+msgstr "**H**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`hasattr`"
-msgstr ""
+msgstr ":func:`hasattr`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`hash`"
-msgstr ""
+msgstr ":func:`hash`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`help`"
-msgstr ""
+msgstr ":func:`help`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`hex`"
-msgstr ""
+msgstr ":func:`hex`"
 
 #: ../../library/functions.rst:0
 msgid "**I**"
-msgstr ""
+msgstr "**I**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`id`"
-msgstr ""
+msgstr ":func:`id`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`input`"
-msgstr ""
+msgstr ":func:`input`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`int`"
-msgstr ""
+msgstr ":func:`int`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`isinstance`"
-msgstr ""
+msgstr ":func:`isinstance`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`issubclass`"
-msgstr ""
+msgstr ":func:`issubclass`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`iter`"
-msgstr ""
+msgstr ":func:`iter`"
 
 #: ../../library/functions.rst:0
 msgid "**L**"
-msgstr ""
+msgstr "**L**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`len`"
-msgstr ""
+msgstr ":func:`len`"
 
 #: ../../library/functions.rst:0
 msgid "|func-list|_"
-msgstr ""
+msgstr "|func-list|_"
 
 #: ../../library/functions.rst:0
 msgid ":func:`locals`"
-msgstr ""
+msgstr ":func:`locals`"
 
 #: ../../library/functions.rst:0
 msgid "**M**"
-msgstr ""
+msgstr "**M**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`map`"
-msgstr ""
+msgstr ":func:`map`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`max`"
-msgstr ""
+msgstr ":func:`max`"
 
 #: ../../library/functions.rst:0
 msgid "|func-memoryview|_"
-msgstr ""
+msgstr "|func-memoryview|_"
 
 #: ../../library/functions.rst:0
 msgid ":func:`min`"
-msgstr ""
+msgstr ":func:`min`"
 
 #: ../../library/functions.rst:0
 msgid "**N**"
-msgstr ""
+msgstr "**N**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`next`"
-msgstr ""
+msgstr ":func:`next`"
 
 #: ../../library/functions.rst:0
 msgid "**O**"
-msgstr ""
+msgstr "**O**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`object`"
-msgstr ""
+msgstr ":func:`object`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`oct`"
-msgstr ""
+msgstr ":func:`oct`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`open`"
-msgstr ""
+msgstr ":func:`open`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`ord`"
-msgstr ""
+msgstr ":func:`ord`"
 
 #: ../../library/functions.rst:0
 msgid "**P**"
-msgstr ""
+msgstr "**P**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`pow`"
-msgstr ""
+msgstr ":func:`pow`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`print`"
-msgstr ""
+msgstr ":func:`print`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`property`"
-msgstr ""
+msgstr ":func:`property`"
 
 #: ../../library/functions.rst:0
 msgid "**R**"
-msgstr ""
+msgstr "**R**"
 
 #: ../../library/functions.rst:0
 msgid "|func-range|_"
-msgstr ""
+msgstr "|func-range|_"
 
 #: ../../library/functions.rst:0
 msgid ":func:`repr`"
-msgstr ""
+msgstr ":func:`repr`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`reversed`"
-msgstr ""
+msgstr ":func:`reversed`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`round`"
-msgstr ""
+msgstr ":func:`round`"
 
 #: ../../library/functions.rst:0
 msgid "**S**"
-msgstr ""
+msgstr "**S**"
 
 #: ../../library/functions.rst:0
 msgid "|func-set|_"
-msgstr ""
+msgstr "|func-set|_"
 
 #: ../../library/functions.rst:0
 msgid ":func:`setattr`"
-msgstr ""
+msgstr ":func:`setattr`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`slice`"
-msgstr ""
+msgstr ":func:`slice`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`sorted`"
-msgstr ""
+msgstr ":func:`sorted`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`staticmethod`"
-msgstr ""
+msgstr ":func:`staticmethod`"
 
 #: ../../library/functions.rst:0
 msgid "|func-str|_"
-msgstr ""
+msgstr "|func-str|_"
 
 #: ../../library/functions.rst:0
 msgid ":func:`sum`"
-msgstr ""
+msgstr ":func:`sum`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`super`"
-msgstr ""
+msgstr ":func:`super`"
 
 #: ../../library/functions.rst:0
 msgid "**T**"
-msgstr ""
+msgstr "**T**"
 
 #: ../../library/functions.rst:0
 msgid "|func-tuple|_"
-msgstr ""
+msgstr "|func-tuple|_"
 
 #: ../../library/functions.rst:0
 msgid ":func:`type`"
-msgstr ""
+msgstr ":func:`type`"
 
 #: ../../library/functions.rst:0
 msgid "**V**"
-msgstr ""
+msgstr "**V**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`vars`"
-msgstr ""
+msgstr ":func:`vars`"
 
 #: ../../library/functions.rst:0
 msgid "**Z**"
-msgstr ""
+msgstr "**Z**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`zip`"
-msgstr ""
+msgstr ":func:`zip`"
 
 #: ../../library/functions.rst:0
 msgid "**_**"
-msgstr ""
+msgstr "**_**"
 
 #: ../../library/functions.rst:0
 msgid ":func:`__import__`"
-msgstr ""
+msgstr ":func:`__import__`"
 
 #: ../../library/functions.rst:59
 msgid ""
@@ -408,9 +409,9 @@ msgid ""
 "floating-point number, or an object implementing :meth:`~object.__abs__`. If "
 "the argument is a complex number, its magnitude is returned."
 msgstr ""
-"مقدار قدر مطلق یک عدد را برمی گرداند. آرگومان می تواند یک عدد صحیح، یک عدد "
-"اعشاری، یا یک شیء که :meth:`~object.__abs__` را پیاده سازی می کند، باشد. اگر "
-"ارگومان یک عدد مختلط باشد، بزرگی آن بازگردانده می شود."
+"مقدار قدر مطلق یک عدد را برمی‌گرداند. آرگومان می تواند یک عدد صحیح، یک عدد "
+"اعشاری، یا یک شیء که :meth:`~object.__abs__` را پیاده سازی می‌کند، باشد. اگر "
+"ارگومان یک عدد مختلط باشد، بزرگی آن بازگردانده می‌شود."
 
 #: ../../library/functions.rst:67
 msgid ""
@@ -440,6 +441,11 @@ msgid ""
 "            return False\n"
 "    return True"
 msgstr ""
+"def all(iterable):\n"
+"    for element in iterable:\n"
+"        if not element:\n"
+"            return False\n"
+"    return True"
 
 #: ../../library/functions.rst:89
 msgid ""
@@ -450,7 +456,7 @@ msgstr ""
 #: ../../library/functions.rst:92
 msgid ""
 "This is the async variant of the :func:`next` builtin, and behaves similarly."
-msgstr ""
+msgstr "این نسخه ناهمگام از :func:`next` داخلی است، و به طور مشابه عمل می کند."
 
 #: ../../library/functions.rst:95
 msgid ""
@@ -459,12 +465,18 @@ msgid ""
 "iterator. If *default* is given, it is returned if the iterator is "
 "exhausted, otherwise :exc:`StopAsyncIteration` is raised."
 msgstr ""
+"این روش(متد) :meth:`~object.__anext__` از *async_iterator* را فراخوانی می "
+"کند و یک :term:`awaitable` را برمی گرداند. در انتظار این مقدار بعدی تکرار "
+"کننده را برمی گرداند. اگر *default* داده شود، اگر تکرار کننده تمام شده باشد، "
+"برگردانده می شود، در غیر این صورت :exc:`StopAsyncIteration` افزایش می یابد."
 
 #: ../../library/functions.rst:104
 msgid ""
 "Return ``True`` if any element of the *iterable* is true.  If the iterable "
 "is empty, return ``False``.  Equivalent to::"
 msgstr ""
+"اگر هر عنصری از *iterable* درست باشد، ``True`` را برگردانید. اگر iterable "
+"خالی باشد، ``False`` را برگردانید. معادل با::"
 
 #: ../../library/functions.rst:107
 msgid ""
@@ -474,6 +486,11 @@ msgid ""
 "            return True\n"
 "    return False"
 msgstr ""
+"def any(iterable):\n"
+"    for element in iterable:\n"
+"        if element:\n"
+"            return True\n"
+"    return False"
 
 #: ../../library/functions.rst:116
 msgid ""
@@ -490,6 +507,10 @@ msgid ""
 "object, it has to define an :meth:`~object.__index__` method that returns an "
 "integer. Some examples:"
 msgstr ""
+"تبدیل یک عدد صحیح به یک رشته باینری که با \"0b\" پیشوند شده است. نتیجه یک "
+"عبارت معتبر پایتون خواهد بود. اگر *x* یک شیء پایتون :class:`int` نباشد، لازم "
+"است یک روش(متد) :meth:`~object.__index__` تعریف کند که یک عدد صحیح برگرداند. "
+"برخی مثال ها:"
 
 #: ../../library/functions.rst:134
 msgid ""
