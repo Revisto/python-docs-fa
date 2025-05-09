@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-29 13:04+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -29,7 +29,7 @@ msgid ""
 "for anyone wishing to stay up-to-date after a new release."
 msgstr ""
 
-#: ../../whatsnew/index.rst:37
+#: ../../whatsnew/index.rst:38
 msgid ""
 "The \"Changelog\" is an HTML version of the :pypi:`file built<blurb>` from "
 "the contents of the :source:`Misc/NEWS.d` directory tree, which contains "

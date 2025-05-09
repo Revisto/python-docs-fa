@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-02 14:19+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 01:05+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -503,25 +503,33 @@ msgid "Creating a new Python thread."
 msgstr ""
 
 #: ../../library/exceptions.rst:431
+msgid ":meth:`Joining <threading.Thread.join>` a running daemon thread."
+msgstr ""
+
+#: ../../library/exceptions.rst:432
 msgid ":func:`os.fork`."
 msgstr ""
 
-#: ../../library/exceptions.rst:433
+#: ../../library/exceptions.rst:434
 msgid "See also the :func:`sys.is_finalizing` function."
 msgstr ""
 
-#: ../../library/exceptions.rst:435 ../../library/exceptions.rst:445
+#: ../../library/exceptions.rst:436 ../../library/exceptions.rst:449
 msgid "Previously, a plain :exc:`RuntimeError` was raised."
 msgstr ""
 
 #: ../../library/exceptions.rst:441
+msgid ":meth:`threading.Thread.join` can now raise this exception."
+msgstr ""
+
+#: ../../library/exceptions.rst:445
 msgid ""
 "This exception is derived from :exc:`RuntimeError`.  It is raised when the "
 "interpreter detects that the maximum recursion depth (see :func:`sys."
 "getrecursionlimit`) is exceeded."
 msgstr ""
 
-#: ../../library/exceptions.rst:451
+#: ../../library/exceptions.rst:455
 msgid ""
 "This exception is raised when a weak reference proxy, created by the :func:"
 "`weakref.proxy` function, is used to access an attribute of the referent "
@@ -529,66 +537,66 @@ msgid ""
 "references, see the :mod:`weakref` module."
 msgstr ""
 
-#: ../../library/exceptions.rst:459
+#: ../../library/exceptions.rst:463
 msgid ""
 "Raised when an error is detected that doesn't fall in any of the other "
 "categories.  The associated value is a string indicating what precisely went "
 "wrong."
 msgstr ""
 
-#: ../../library/exceptions.rst:466
+#: ../../library/exceptions.rst:470
 msgid ""
 "Raised by built-in function :func:`next` and an :term:`iterator`\\'s :meth:"
 "`~iterator.__next__` method to signal that there are no further items "
 "produced by the iterator."
 msgstr ""
 
-#: ../../library/exceptions.rst:472
+#: ../../library/exceptions.rst:476
 msgid ""
 "The exception object has a single attribute :attr:`!value`, which is given "
 "as an argument when constructing the exception, and defaults to :const:"
 "`None`."
 msgstr ""
 
-#: ../../library/exceptions.rst:476
+#: ../../library/exceptions.rst:480
 msgid ""
 "When a :term:`generator` or :term:`coroutine` function returns, a new :exc:"
 "`StopIteration` instance is raised, and the value returned by the function "
 "is used as the :attr:`value` parameter to the constructor of the exception."
 msgstr ""
 
-#: ../../library/exceptions.rst:481
+#: ../../library/exceptions.rst:485
 msgid ""
 "If a generator code directly or indirectly raises :exc:`StopIteration`, it "
 "is converted into a :exc:`RuntimeError` (retaining the :exc:`StopIteration` "
 "as the new exception's cause)."
 msgstr ""
 
-#: ../../library/exceptions.rst:485
+#: ../../library/exceptions.rst:489
 msgid ""
 "Added ``value`` attribute and the ability for generator functions to use it "
 "to return a value."
 msgstr ""
 
-#: ../../library/exceptions.rst:489
+#: ../../library/exceptions.rst:493
 msgid ""
 "Introduced the RuntimeError transformation via ``from __future__ import "
 "generator_stop``, see :pep:`479`."
 msgstr ""
 
-#: ../../library/exceptions.rst:493
+#: ../../library/exceptions.rst:497
 msgid ""
 "Enable :pep:`479` for all code by default: a :exc:`StopIteration` error "
 "raised in a generator is transformed into a :exc:`RuntimeError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:499
+#: ../../library/exceptions.rst:503
 msgid ""
 "Must be raised by :meth:`~object.__anext__` method of an :term:`asynchronous "
 "iterator` object to stop the iteration."
 msgstr ""
 
-#: ../../library/exceptions.rst:506
+#: ../../library/exceptions.rst:510
 msgid ""
 "Raised when the parser encounters a syntax error.  This may occur in an :"
 "keyword:`import` statement, in a call to the built-in functions :func:"
@@ -596,45 +604,45 @@ msgid ""
 "or standard input (also interactively)."
 msgstr ""
 
-#: ../../library/exceptions.rst:512
+#: ../../library/exceptions.rst:516
 msgid ""
 "The :func:`str` of the exception instance returns only the error message. "
 "Details is a tuple whose members are also available as separate attributes."
 msgstr ""
 
-#: ../../library/exceptions.rst:517
+#: ../../library/exceptions.rst:521
 msgid "The name of the file the syntax error occurred in."
 msgstr ""
 
-#: ../../library/exceptions.rst:521
+#: ../../library/exceptions.rst:525
 msgid ""
 "Which line number in the file the error occurred in. This is 1-indexed: the "
 "first line in the file has a ``lineno`` of 1."
 msgstr ""
 
-#: ../../library/exceptions.rst:526
+#: ../../library/exceptions.rst:530
 msgid ""
 "The column in the line where the error occurred. This is 1-indexed: the "
 "first character in the line has an ``offset`` of 1."
 msgstr ""
 
-#: ../../library/exceptions.rst:531
+#: ../../library/exceptions.rst:535
 msgid "The source code text involved in the error."
 msgstr ""
 
-#: ../../library/exceptions.rst:535
+#: ../../library/exceptions.rst:539
 msgid ""
 "Which line number in the file the error occurred ends in. This is 1-indexed: "
 "the first line in the file has a ``lineno`` of 1."
 msgstr ""
 
-#: ../../library/exceptions.rst:540
+#: ../../library/exceptions.rst:544
 msgid ""
 "The column in the end line where the error occurred finishes. This is 1-"
 "indexed: the first character in the line has an ``offset`` of 1."
 msgstr ""
 
-#: ../../library/exceptions.rst:543
+#: ../../library/exceptions.rst:547
 msgid ""
 "For errors in f-string fields, the message is prefixed by \"f-string: \" and "
 "the offsets are offsets in a text constructed from the replacement "
@@ -642,23 +650,23 @@ msgid ""
 "attribute: ('f-string: ...', ('', 1, 2, '(a b)\\n', 1, 5))."
 msgstr ""
 
-#: ../../library/exceptions.rst:548
+#: ../../library/exceptions.rst:552
 msgid "Added the :attr:`end_lineno` and :attr:`end_offset` attributes."
 msgstr ""
 
-#: ../../library/exceptions.rst:553
+#: ../../library/exceptions.rst:557
 msgid ""
 "Base class for syntax errors related to incorrect indentation.  This is a "
 "subclass of :exc:`SyntaxError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:559
+#: ../../library/exceptions.rst:563
 msgid ""
 "Raised when indentation contains an inconsistent use of tabs and spaces. "
 "This is a subclass of :exc:`IndentationError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:565
+#: ../../library/exceptions.rst:569
 msgid ""
 "Raised when the interpreter finds an internal error, but the situation does "
 "not look so serious to cause it to abandon all hope. The associated value is "
@@ -667,7 +675,7 @@ msgid ""
 "returning a ``NULL`` value without an exception set."
 msgstr ""
 
-#: ../../library/exceptions.rst:571
+#: ../../library/exceptions.rst:575
 msgid ""
 "If you're confident that this exception wasn't your fault, or the fault of a "
 "package you're using, you should report this to the author or maintainer of "
@@ -678,7 +686,7 @@ msgid ""
 "the error."
 msgstr ""
 
-#: ../../library/exceptions.rst:582
+#: ../../library/exceptions.rst:586
 msgid ""
 "This exception is raised by the :func:`sys.exit` function.  It inherits "
 "from :exc:`BaseException` instead of :exc:`Exception` so that it is not "
@@ -692,7 +700,7 @@ msgid ""
 "printed and the exit status is one."
 msgstr ""
 
-#: ../../library/exceptions.rst:593
+#: ../../library/exceptions.rst:597
 msgid ""
 "A call to :func:`sys.exit` is translated into an exception so that clean-up "
 "handlers (:keyword:`finally` clauses of :keyword:`try` statements) can be "
@@ -702,20 +710,20 @@ msgid ""
 "child process after a call to :func:`os.fork`)."
 msgstr ""
 
-#: ../../library/exceptions.rst:602
+#: ../../library/exceptions.rst:606
 msgid ""
 "The exit status or error message that is passed to the constructor. "
 "(Defaults to ``None``.)"
 msgstr ""
 
-#: ../../library/exceptions.rst:608
+#: ../../library/exceptions.rst:612
 msgid ""
 "Raised when an operation or function is applied to an object of "
 "inappropriate type.  The associated value is a string giving details about "
 "the type mismatch."
 msgstr ""
 
-#: ../../library/exceptions.rst:611
+#: ../../library/exceptions.rst:615
 msgid ""
 "This exception may be raised by user code to indicate that an attempted "
 "operation on an object is not supported, and is not meant to be. If an "
@@ -723,7 +731,7 @@ msgid ""
 "implementation, :exc:`NotImplementedError` is the proper exception to raise."
 msgstr ""
 
-#: ../../library/exceptions.rst:616
+#: ../../library/exceptions.rst:620
 msgid ""
 "Passing arguments of the wrong type (e.g. passing a :class:`list` when an :"
 "class:`int` is expected) should result in a :exc:`TypeError`, but passing "
@@ -731,99 +739,105 @@ msgid ""
 "should result in a :exc:`ValueError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:623
+#: ../../library/exceptions.rst:627
 msgid ""
 "Raised when a reference is made to a local variable in a function or method, "
 "but no value has been bound to that variable.  This is a subclass of :exc:"
 "`NameError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:630
+#: ../../library/exceptions.rst:634
 msgid ""
 "Raised when a Unicode-related encoding or decoding error occurs.  It is a "
 "subclass of :exc:`ValueError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:633
+#: ../../library/exceptions.rst:637
 msgid ""
 ":exc:`UnicodeError` has attributes that describe the encoding or decoding "
 "error.  For example, ``err.object[err.start:err.end]`` gives the particular "
 "invalid input that the codec failed on."
 msgstr ""
 
-#: ../../library/exceptions.rst:639
+#: ../../library/exceptions.rst:643
 msgid "The name of the encoding that raised the error."
 msgstr ""
 
-#: ../../library/exceptions.rst:643
+#: ../../library/exceptions.rst:647
 msgid "A string describing the specific codec error."
 msgstr ""
 
-#: ../../library/exceptions.rst:647
+#: ../../library/exceptions.rst:651
 msgid "The object the codec was attempting to encode or decode."
 msgstr ""
 
-#: ../../library/exceptions.rst:651
+#: ../../library/exceptions.rst:655
 msgid "The first index of invalid data in :attr:`object`."
 msgstr ""
 
-#: ../../library/exceptions.rst:655
+#: ../../library/exceptions.rst:657 ../../library/exceptions.rst:664
+msgid ""
+"This value should not be negative as it is interpreted as an absolute offset "
+"but this constraint is not enforced at runtime."
+msgstr ""
+
+#: ../../library/exceptions.rst:662
 msgid "The index after the last invalid data in :attr:`object`."
 msgstr ""
 
-#: ../../library/exceptions.rst:660
+#: ../../library/exceptions.rst:670
 msgid ""
 "Raised when a Unicode-related error occurs during encoding.  It is a "
 "subclass of :exc:`UnicodeError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:666
+#: ../../library/exceptions.rst:676
 msgid ""
 "Raised when a Unicode-related error occurs during decoding.  It is a "
 "subclass of :exc:`UnicodeError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:672
+#: ../../library/exceptions.rst:682
 msgid ""
 "Raised when a Unicode-related error occurs during translating.  It is a "
 "subclass of :exc:`UnicodeError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:678
+#: ../../library/exceptions.rst:688
 msgid ""
 "Raised when an operation or function receives an argument that has the right "
 "type but an inappropriate value, and the situation is not described by a "
 "more precise exception such as :exc:`IndexError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:685
+#: ../../library/exceptions.rst:695
 msgid ""
 "Raised when the second argument of a division or modulo operation is zero.  "
 "The associated value is a string indicating the type of the operands and the "
 "operation."
 msgstr ""
 
-#: ../../library/exceptions.rst:690
+#: ../../library/exceptions.rst:700
 msgid ""
 "The following exceptions are kept for compatibility with previous versions; "
 "starting from Python 3.3, they are aliases of :exc:`OSError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:699
+#: ../../library/exceptions.rst:709
 msgid "Only available on Windows."
 msgstr ""
 
-#: ../../library/exceptions.rst:703
+#: ../../library/exceptions.rst:713
 msgid "OS exceptions"
 msgstr ""
 
-#: ../../library/exceptions.rst:705
+#: ../../library/exceptions.rst:715
 msgid ""
 "The following exceptions are subclasses of :exc:`OSError`, they get raised "
 "depending on the system error code."
 msgstr ""
 
-#: ../../library/exceptions.rst:710
+#: ../../library/exceptions.rst:720
 msgid ""
 "Raised when an operation would block on an object (e.g. socket) set for non-"
 "blocking operation. Corresponds to :c:data:`errno` :py:const:`~errno."
@@ -831,36 +845,36 @@ msgid ""
 "const:`~errno.EINPROGRESS`."
 msgstr ""
 
-#: ../../library/exceptions.rst:715
+#: ../../library/exceptions.rst:725
 msgid ""
 "In addition to those of :exc:`OSError`, :exc:`BlockingIOError` can have one "
 "more attribute:"
 msgstr ""
 
-#: ../../library/exceptions.rst:720
+#: ../../library/exceptions.rst:730
 msgid ""
 "An integer containing the number of characters written to the stream before "
 "it blocked.  This attribute is available when using the buffered I/O classes "
 "from the :mod:`io` module."
 msgstr ""
 
-#: ../../library/exceptions.rst:726
+#: ../../library/exceptions.rst:736
 msgid ""
 "Raised when an operation on a child process failed. Corresponds to :c:data:"
 "`errno` :py:const:`~errno.ECHILD`."
 msgstr ""
 
-#: ../../library/exceptions.rst:731
+#: ../../library/exceptions.rst:741
 msgid "A base class for connection-related issues."
 msgstr ""
 
-#: ../../library/exceptions.rst:733
+#: ../../library/exceptions.rst:743
 msgid ""
 "Subclasses are :exc:`BrokenPipeError`, :exc:`ConnectionAbortedError`, :exc:"
 "`ConnectionRefusedError` and :exc:`ConnectionResetError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:738
+#: ../../library/exceptions.rst:748
 msgid ""
 "A subclass of :exc:`ConnectionError`, raised when trying to write on a pipe "
 "while the other end has been closed, or trying to write on a socket which "
@@ -868,58 +882,58 @@ msgid ""
 "`~errno.EPIPE` and :py:const:`~errno.ESHUTDOWN`."
 msgstr ""
 
-#: ../../library/exceptions.rst:745
+#: ../../library/exceptions.rst:755
 msgid ""
 "A subclass of :exc:`ConnectionError`, raised when a connection attempt is "
 "aborted by the peer. Corresponds to :c:data:`errno` :py:const:`~errno."
 "ECONNABORTED`."
 msgstr ""
 
-#: ../../library/exceptions.rst:751
+#: ../../library/exceptions.rst:761
 msgid ""
 "A subclass of :exc:`ConnectionError`, raised when a connection attempt is "
 "refused by the peer. Corresponds to :c:data:`errno` :py:const:`~errno."
 "ECONNREFUSED`."
 msgstr ""
 
-#: ../../library/exceptions.rst:757
+#: ../../library/exceptions.rst:767
 msgid ""
 "A subclass of :exc:`ConnectionError`, raised when a connection is reset by "
 "the peer. Corresponds to :c:data:`errno` :py:const:`~errno.ECONNRESET`."
 msgstr ""
 
-#: ../../library/exceptions.rst:763
+#: ../../library/exceptions.rst:773
 msgid ""
 "Raised when trying to create a file or directory which already exists. "
 "Corresponds to :c:data:`errno` :py:const:`~errno.EEXIST`."
 msgstr ""
 
-#: ../../library/exceptions.rst:768
+#: ../../library/exceptions.rst:778
 msgid ""
 "Raised when a file or directory is requested but doesn't exist. Corresponds "
 "to :c:data:`errno` :py:const:`~errno.ENOENT`."
 msgstr ""
 
-#: ../../library/exceptions.rst:773
+#: ../../library/exceptions.rst:783
 msgid ""
 "Raised when a system call is interrupted by an incoming signal. Corresponds "
 "to :c:data:`errno` :py:const:`~errno.EINTR`."
 msgstr ""
 
-#: ../../library/exceptions.rst:776
+#: ../../library/exceptions.rst:786
 msgid ""
 "Python now retries system calls when a syscall is interrupted by a signal, "
 "except if the signal handler raises an exception (see :pep:`475` for the "
 "rationale), instead of raising :exc:`InterruptedError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:783
+#: ../../library/exceptions.rst:793
 msgid ""
 "Raised when a file operation (such as :func:`os.remove`) is requested on a "
 "directory. Corresponds to :c:data:`errno` :py:const:`~errno.EISDIR`."
 msgstr ""
 
-#: ../../library/exceptions.rst:789
+#: ../../library/exceptions.rst:799
 msgid ""
 "Raised when a directory operation (such as :func:`os.listdir`) is requested "
 "on something which is not a directory.  On most POSIX platforms, it may also "
@@ -928,7 +942,7 @@ msgid ""
 "ENOTDIR`."
 msgstr ""
 
-#: ../../library/exceptions.rst:797
+#: ../../library/exceptions.rst:807
 msgid ""
 "Raised when trying to run an operation without the adequate access rights - "
 "for example filesystem permissions. Corresponds to :c:data:`errno` :py:const:"
@@ -936,131 +950,131 @@ msgid ""
 "ENOTCAPABLE`."
 msgstr ""
 
-#: ../../library/exceptions.rst:802
+#: ../../library/exceptions.rst:812
 msgid ""
 "WASI's :py:const:`~errno.ENOTCAPABLE` is now mapped to :exc:"
 "`PermissionError`."
 msgstr ""
 
-#: ../../library/exceptions.rst:808
+#: ../../library/exceptions.rst:818
 msgid ""
 "Raised when a given process doesn't exist. Corresponds to :c:data:`errno` :"
 "py:const:`~errno.ESRCH`."
 msgstr ""
 
-#: ../../library/exceptions.rst:813
+#: ../../library/exceptions.rst:823
 msgid ""
 "Raised when a system function timed out at the system level. Corresponds to :"
 "c:data:`errno` :py:const:`~errno.ETIMEDOUT`."
 msgstr ""
 
-#: ../../library/exceptions.rst:816
+#: ../../library/exceptions.rst:826
 msgid "All the above :exc:`OSError` subclasses were added."
 msgstr ""
 
-#: ../../library/exceptions.rst:822
+#: ../../library/exceptions.rst:832
 msgid ":pep:`3151` - Reworking the OS and IO exception hierarchy"
 msgstr ""
 
-#: ../../library/exceptions.rst:828
+#: ../../library/exceptions.rst:838
 msgid "Warnings"
 msgstr ""
 
-#: ../../library/exceptions.rst:830
+#: ../../library/exceptions.rst:840
 msgid ""
 "The following exceptions are used as warning categories; see the :ref:"
 "`warning-categories` documentation for more details."
 msgstr ""
 
-#: ../../library/exceptions.rst:835
+#: ../../library/exceptions.rst:845
 msgid "Base class for warning categories."
 msgstr ""
 
-#: ../../library/exceptions.rst:840
+#: ../../library/exceptions.rst:850
 msgid "Base class for warnings generated by user code."
 msgstr ""
 
-#: ../../library/exceptions.rst:845
+#: ../../library/exceptions.rst:855
 msgid ""
 "Base class for warnings about deprecated features when those warnings are "
 "intended for other Python developers."
 msgstr ""
 
-#: ../../library/exceptions.rst:848
+#: ../../library/exceptions.rst:858
 msgid ""
 "Ignored by the default warning filters, except in the ``__main__`` module (:"
 "pep:`565`). Enabling the :ref:`Python Development Mode <devmode>` shows this "
 "warning."
 msgstr ""
 
-#: ../../library/exceptions.rst:852 ../../library/exceptions.rst:868
+#: ../../library/exceptions.rst:862 ../../library/exceptions.rst:878
 msgid "The deprecation policy is described in :pep:`387`."
 msgstr ""
 
-#: ../../library/exceptions.rst:857
+#: ../../library/exceptions.rst:867
 msgid ""
 "Base class for warnings about features which are obsolete and expected to be "
 "deprecated in the future, but are not deprecated at the moment."
 msgstr ""
 
-#: ../../library/exceptions.rst:861
+#: ../../library/exceptions.rst:871
 msgid ""
 "This class is rarely used as emitting a warning about a possible upcoming "
 "deprecation is unusual, and :exc:`DeprecationWarning` is preferred for "
 "already active deprecations."
 msgstr ""
 
-#: ../../library/exceptions.rst:865 ../../library/exceptions.rst:891
-#: ../../library/exceptions.rst:918
+#: ../../library/exceptions.rst:875 ../../library/exceptions.rst:901
+#: ../../library/exceptions.rst:928
 msgid ""
 "Ignored by the default warning filters. Enabling the :ref:`Python "
 "Development Mode <devmode>` shows this warning."
 msgstr ""
 
-#: ../../library/exceptions.rst:873
+#: ../../library/exceptions.rst:883
 msgid "Base class for warnings about dubious syntax."
 msgstr ""
 
-#: ../../library/exceptions.rst:878
+#: ../../library/exceptions.rst:888
 msgid "Base class for warnings about dubious runtime behavior."
 msgstr ""
 
-#: ../../library/exceptions.rst:883
+#: ../../library/exceptions.rst:893
 msgid ""
 "Base class for warnings about deprecated features when those warnings are "
 "intended for end users of applications that are written in Python."
 msgstr ""
 
-#: ../../library/exceptions.rst:889
+#: ../../library/exceptions.rst:899
 msgid "Base class for warnings about probable mistakes in module imports."
 msgstr ""
 
-#: ../../library/exceptions.rst:897
+#: ../../library/exceptions.rst:907
 msgid "Base class for warnings related to Unicode."
 msgstr ""
 
-#: ../../library/exceptions.rst:902
+#: ../../library/exceptions.rst:912
 msgid "Base class for warnings related to encodings."
 msgstr ""
 
-#: ../../library/exceptions.rst:904
+#: ../../library/exceptions.rst:914
 msgid "See :ref:`io-encoding-warning` for details."
 msgstr ""
 
-#: ../../library/exceptions.rst:911
+#: ../../library/exceptions.rst:921
 msgid ""
 "Base class for warnings related to :class:`bytes` and :class:`bytearray`."
 msgstr ""
 
-#: ../../library/exceptions.rst:916
+#: ../../library/exceptions.rst:926
 msgid "Base class for warnings related to resource usage."
 msgstr ""
 
-#: ../../library/exceptions.rst:927
+#: ../../library/exceptions.rst:937
 msgid "Exception groups"
 msgstr ""
 
-#: ../../library/exceptions.rst:929
+#: ../../library/exceptions.rst:939
 msgid ""
 "The following are used when it is necessary to raise multiple unrelated "
 "exceptions. They are part of the exception hierarchy so they can be handled "
@@ -1069,7 +1083,7 @@ msgid ""
 "based on the types of the contained exceptions."
 msgstr ""
 
-#: ../../library/exceptions.rst:938
+#: ../../library/exceptions.rst:948
 msgid ""
 "Both of these exception types wrap the exceptions in the sequence ``excs``. "
 "The ``msg`` parameter must be a string. The difference between the two "
@@ -1080,7 +1094,7 @@ msgid ""
 "exc:`BaseExceptionGroup`."
 msgstr ""
 
-#: ../../library/exceptions.rst:946
+#: ../../library/exceptions.rst:956
 msgid ""
 "The :exc:`BaseExceptionGroup` constructor returns an :exc:`ExceptionGroup` "
 "rather than a :exc:`BaseExceptionGroup` if all contained exceptions are :exc:"
@@ -1089,23 +1103,23 @@ msgid ""
 "`TypeError` if any contained exception is not an :exc:`Exception` subclass."
 msgstr ""
 
-#: ../../library/exceptions.rst:955
+#: ../../library/exceptions.rst:965
 msgid "The ``msg`` argument to the constructor. This is a read-only attribute."
 msgstr ""
 
-#: ../../library/exceptions.rst:959
+#: ../../library/exceptions.rst:969
 msgid ""
 "A tuple of the exceptions in the ``excs`` sequence given to the constructor. "
 "This is a read-only attribute."
 msgstr ""
 
-#: ../../library/exceptions.rst:964
+#: ../../library/exceptions.rst:974
 msgid ""
 "Returns an exception group that contains only the exceptions from the "
 "current group that match *condition*, or ``None`` if the result is empty."
 msgstr ""
 
-#: ../../library/exceptions.rst:967
+#: ../../library/exceptions.rst:977
 msgid ""
 "The condition can be an exception type or tuple of exception types, in which "
 "case each exception is checked for a match using the same check that is used "
@@ -1114,7 +1128,7 @@ msgid ""
 "true for the exceptions that should be in the subgroup."
 msgstr ""
 
-#: ../../library/exceptions.rst:973
+#: ../../library/exceptions.rst:983
 msgid ""
 "The nesting structure of the current exception is preserved in the result, "
 "as are the values of its :attr:`message`, :attr:`~BaseException."
@@ -1123,31 +1137,31 @@ msgid ""
 "groups are omitted from the result."
 msgstr ""
 
-#: ../../library/exceptions.rst:980
+#: ../../library/exceptions.rst:990
 msgid ""
 "The condition is checked for all exceptions in the nested exception group, "
 "including the top-level and any nested exception groups. If the condition is "
 "true for such an exception group, it is included in the result in full."
 msgstr ""
 
-#: ../../library/exceptions.rst:984
+#: ../../library/exceptions.rst:994
 msgid "``condition`` can be any callable which is not a type object."
 msgstr ""
 
-#: ../../library/exceptions.rst:989
+#: ../../library/exceptions.rst:999
 msgid ""
 "Like :meth:`subgroup`, but returns the pair ``(match, rest)`` where "
 "``match`` is ``subgroup(condition)`` and ``rest`` is the remaining non-"
 "matching part."
 msgstr ""
 
-#: ../../library/exceptions.rst:995
+#: ../../library/exceptions.rst:1005
 msgid ""
 "Returns an exception group with the same :attr:`message`, but which wraps "
 "the exceptions in ``excs``."
 msgstr ""
 
-#: ../../library/exceptions.rst:998
+#: ../../library/exceptions.rst:1008
 msgid ""
 "This method is used by :meth:`subgroup` and :meth:`split`, which are used in "
 "various contexts to break up an exception group. A subclass needs to "
@@ -1155,7 +1169,7 @@ msgid ""
 "instances of the subclass rather than :exc:`ExceptionGroup`."
 msgstr ""
 
-#: ../../library/exceptions.rst:1004
+#: ../../library/exceptions.rst:1014
 msgid ""
 ":meth:`subgroup` and :meth:`split` copy the :attr:`~BaseException."
 "__traceback__`, :attr:`~BaseException.__cause__`, :attr:`~BaseException."
@@ -1164,7 +1178,7 @@ msgid ""
 "not need to be updated by :meth:`derive`."
 msgstr ""
 
-#: ../../library/exceptions.rst:1011
+#: ../../library/exceptions.rst:1021
 msgid ""
 ">>> class MyGroup(ExceptionGroup):\n"
 "...     def derive(self, excs):\n"
@@ -1193,7 +1207,7 @@ msgid ""
 "True"
 msgstr ""
 
-#: ../../library/exceptions.rst:1037
+#: ../../library/exceptions.rst:1047
 msgid ""
 "Note that :exc:`BaseExceptionGroup` defines :meth:`~object.__new__`, so "
 "subclasses that need a different constructor signature need to override that "
@@ -1202,7 +1216,7 @@ msgid ""
 "group's message from it. ::"
 msgstr ""
 
-#: ../../library/exceptions.rst:1043
+#: ../../library/exceptions.rst:1053
 msgid ""
 "class Errors(ExceptionGroup):\n"
 "   def __new__(cls, errors, exit_code):\n"
@@ -1214,22 +1228,22 @@ msgid ""
 "      return Errors(excs, self.exit_code)"
 msgstr ""
 
-#: ../../library/exceptions.rst:1052
+#: ../../library/exceptions.rst:1062
 msgid ""
 "Like :exc:`ExceptionGroup`, any subclass of :exc:`BaseExceptionGroup` which "
 "is also a subclass of :exc:`Exception` can only wrap instances of :exc:"
 "`Exception`."
 msgstr ""
 
-#: ../../library/exceptions.rst:1060
+#: ../../library/exceptions.rst:1070
 msgid "Exception hierarchy"
 msgstr ""
 
-#: ../../library/exceptions.rst:1062
+#: ../../library/exceptions.rst:1072
 msgid "The class hierarchy for built-in exceptions is:"
 msgstr ""
 
-#: ../../library/exceptions.rst:1064
+#: ../../library/exceptions.rst:1074
 msgid ""
 "BaseException\n"
 " ├── BaseExceptionGroup\n"

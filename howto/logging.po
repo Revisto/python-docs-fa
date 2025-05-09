@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 00:53+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -249,7 +249,7 @@ msgstr ""
 msgid ""
 "Notice that in this example, we use functions directly on the ``logging`` "
 "module, like ``logging.debug``, rather than creating a logger and calling "
-"functions on it. These functions operation on the root logger, but can be "
+"functions on it. These functions operate on the root logger, but can be "
 "useful as they will call :func:`~logging.basicConfig` for you if it has not "
 "been called yet, like in this example.  In larger programs you'll usually "
 "want to control the logging configuration explicitly however - so for that "

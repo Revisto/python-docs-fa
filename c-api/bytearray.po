@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -89,22 +89,29 @@ msgid ""
 msgstr ""
 
 #: ../../c-api/bytearray.rst:76
-msgid "Resize the internal buffer of *bytearray* to *len*."
+msgid ""
+"Resize the internal buffer of *bytearray* to *len*. Failure is a ``-1`` "
+"return with an exception set."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:79
+msgid ""
+"A negative *len* will now result in an exception being set and -1 returned."
+msgstr ""
+
+#: ../../c-api/bytearray.rst:84
 msgid "Macros"
 msgstr ""
 
-#: ../../c-api/bytearray.rst:81
+#: ../../c-api/bytearray.rst:86
 msgid "These macros trade safety for speed and they don't check pointers."
 msgstr ""
 
-#: ../../c-api/bytearray.rst:85
+#: ../../c-api/bytearray.rst:90
 msgid "Similar to :c:func:`PyByteArray_AsString`, but without error checking."
 msgstr ""
 
-#: ../../c-api/bytearray.rst:90
+#: ../../c-api/bytearray.rst:95
 msgid "Similar to :c:func:`PyByteArray_Size`, but without error checking."
 msgstr ""
 

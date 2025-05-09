@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2024-02-23 14:15+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -91,12 +91,34 @@ msgstr ""
 msgid "The function cannot fail: it cannot return ``-1``."
 msgstr ""
 
-#: ../../c-api/hash.rst:94
+#: ../../c-api/hash.rst:95
+msgid ""
+"Compute and return the hash value of a buffer of *len* bytes starting at "
+"address *ptr*. The hash is guaranteed to match that of :class:`bytes`, :"
+"class:`memoryview`, and other built-in objects that implement the :ref:"
+"`buffer protocol <bufferobjects>`."
+msgstr ""
+
+#: ../../c-api/hash.rst:100
+msgid ""
+"Use this function to implement hashing for immutable objects whose :c:member:"
+"`~PyTypeObject.tp_richcompare` function compares to another object's buffer."
+msgstr ""
+
+#: ../../c-api/hash.rst:104
+msgid "*len* must be greater than or equal to ``0``."
+msgstr ""
+
+#: ../../c-api/hash.rst:106
+msgid "This function always succeeds."
+msgstr ""
+
+#: ../../c-api/hash.rst:113
 msgid ""
 "Generic hashing function that is meant to be put into a type object's "
 "``tp_hash`` slot. Its result only depends on the object's identity."
 msgstr ""
 
-#: ../../c-api/hash.rst:99
+#: ../../c-api/hash.rst:118
 msgid "In CPython, it is equivalent to :c:func:`Py_HashPointer`."
 msgstr ""

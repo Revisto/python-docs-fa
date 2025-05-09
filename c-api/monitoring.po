@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2024-05-11 01:07+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -108,67 +108,71 @@ msgid "Fire a ``JUMP`` event."
 msgstr ""
 
 #: ../../c-api/monitoring.rst:80
-msgid "Fire a ``BRANCH`` event."
+msgid "Fire a ``BRANCH_LEFT`` event."
 msgstr ""
 
 #: ../../c-api/monitoring.rst:85
-msgid "Fire a ``C_RETURN`` event."
+msgid "Fire a ``BRANCH_RIGHT`` event."
 msgstr ""
 
 #: ../../c-api/monitoring.rst:90
+msgid "Fire a ``C_RETURN`` event."
+msgstr ""
+
+#: ../../c-api/monitoring.rst:95
 msgid ""
 "Fire a ``PY_THROW`` event with the current exception (as returned by :c:func:"
 "`PyErr_GetRaisedException`)."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:96
+#: ../../c-api/monitoring.rst:101
 msgid ""
 "Fire a ``RAISE`` event with the current exception (as returned by :c:func:"
 "`PyErr_GetRaisedException`)."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:102
+#: ../../c-api/monitoring.rst:107
 msgid ""
 "Fire a ``C_RAISE`` event with the current exception (as returned by :c:func:"
 "`PyErr_GetRaisedException`)."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:108
+#: ../../c-api/monitoring.rst:113
 msgid ""
 "Fire a ``RERAISE`` event with the current exception (as returned by :c:func:"
 "`PyErr_GetRaisedException`)."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:114
+#: ../../c-api/monitoring.rst:119
 msgid ""
 "Fire an ``EXCEPTION_HANDLED`` event with the current exception (as returned "
 "by :c:func:`PyErr_GetRaisedException`)."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:120
+#: ../../c-api/monitoring.rst:125
 msgid ""
 "Fire a ``PY_UNWIND`` event with the current exception (as returned by :c:"
 "func:`PyErr_GetRaisedException`)."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:126
+#: ../../c-api/monitoring.rst:131
 msgid ""
 "Fire a ``STOP_ITERATION`` event. If ``value`` is an instance of :exc:"
 "`StopIteration`, it is used. Otherwise, a new :exc:`StopIteration` instance "
 "is created with ``value`` as its argument."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:131
+#: ../../c-api/monitoring.rst:136
 msgid "Managing the Monitoring State"
 msgstr ""
 
-#: ../../c-api/monitoring.rst:133
+#: ../../c-api/monitoring.rst:138
 msgid ""
 "Monitoring states can be managed with the help of monitoring scopes. A scope "
 "would typically correspond to a python function."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:138
+#: ../../c-api/monitoring.rst:143
 msgid ""
 "Enter a monitored scope. ``event_types`` is an array of the event IDs for "
 "events that may be fired from the scope. For example, the ID of a "
@@ -181,7 +185,7 @@ msgid ""
 "``state_array``) is given in ``length``."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:148
+#: ../../c-api/monitoring.rst:153
 msgid ""
 "The ``version`` argument is a pointer to a value which should be allocated "
 "by the user together with ``state_array`` and initialized to 0, and then set "
@@ -190,7 +194,7 @@ msgid ""
 "to return quickly if they have not."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:154
+#: ../../c-api/monitoring.rst:159
 msgid ""
 "The scopes referred to here are lexical scopes: a function, class or "
 "method. :c:func:`!PyMonitoring_EnterScope` should be called whenever the "
@@ -200,97 +204,101 @@ msgid ""
 "emulating a generator, the scope needs to be exited and re-entered."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:161
+#: ../../c-api/monitoring.rst:166
 msgid "The macros for *event_types* are:"
 msgstr ""
 
-#: ../../c-api/monitoring.rst:169
+#: ../../c-api/monitoring.rst:174
 msgid "Macro"
 msgstr ""
 
-#: ../../c-api/monitoring.rst:169
+#: ../../c-api/monitoring.rst:174
 msgid "Event"
 msgstr ""
 
-#: ../../c-api/monitoring.rst:171
-msgid ":monitoring-event:`BRANCH`"
-msgstr ""
-
-#: ../../c-api/monitoring.rst:172
-msgid ":monitoring-event:`CALL`"
-msgstr ""
-
-#: ../../c-api/monitoring.rst:173
-msgid ":monitoring-event:`C_RAISE`"
-msgstr ""
-
-#: ../../c-api/monitoring.rst:174
-msgid ":monitoring-event:`C_RETURN`"
-msgstr ""
-
-#: ../../c-api/monitoring.rst:175
-msgid ":monitoring-event:`EXCEPTION_HANDLED`"
-msgstr ""
-
 #: ../../c-api/monitoring.rst:176
-msgid ":monitoring-event:`INSTRUCTION`"
+msgid ":monitoring-event:`BRANCH_LEFT`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:177
-msgid ":monitoring-event:`JUMP`"
+msgid ":monitoring-event:`BRANCH_RIGHT`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:178
-msgid ":monitoring-event:`LINE`"
+msgid ":monitoring-event:`CALL`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:179
-msgid ":monitoring-event:`PY_RESUME`"
+msgid ":monitoring-event:`C_RAISE`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:180
-msgid ":monitoring-event:`PY_RETURN`"
+msgid ":monitoring-event:`C_RETURN`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:181
-msgid ":monitoring-event:`PY_START`"
+msgid ":monitoring-event:`EXCEPTION_HANDLED`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:182
-msgid ":monitoring-event:`PY_THROW`"
+msgid ":monitoring-event:`INSTRUCTION`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:183
-msgid ":monitoring-event:`PY_UNWIND`"
+msgid ":monitoring-event:`JUMP`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:184
-msgid ":monitoring-event:`PY_YIELD`"
+msgid ":monitoring-event:`LINE`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:185
-msgid ":monitoring-event:`RAISE`"
+msgid ":monitoring-event:`PY_RESUME`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:186
-msgid ":monitoring-event:`RERAISE`"
+msgid ":monitoring-event:`PY_RETURN`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:187
-msgid ":monitoring-event:`STOP_ITERATION`"
+msgid ":monitoring-event:`PY_START`"
+msgstr ""
+
+#: ../../c-api/monitoring.rst:188
+msgid ":monitoring-event:`PY_THROW`"
+msgstr ""
+
+#: ../../c-api/monitoring.rst:189
+msgid ":monitoring-event:`PY_UNWIND`"
+msgstr ""
+
+#: ../../c-api/monitoring.rst:190
+msgid ":monitoring-event:`PY_YIELD`"
+msgstr ""
+
+#: ../../c-api/monitoring.rst:191
+msgid ":monitoring-event:`RAISE`"
 msgstr ""
 
 #: ../../c-api/monitoring.rst:192
+msgid ":monitoring-event:`RERAISE`"
+msgstr ""
+
+#: ../../c-api/monitoring.rst:193
+msgid ":monitoring-event:`STOP_ITERATION`"
+msgstr ""
+
+#: ../../c-api/monitoring.rst:198
 msgid ""
 "Exit the last scope that was entered with :c:func:`!PyMonitoring_EnterScope`."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:197
+#: ../../c-api/monitoring.rst:203
 msgid ""
 "Return true if the event corresponding to the event ID *ev* is a :ref:`local "
 "event <monitoring-event-local>`."
 msgstr ""
 
-#: ../../c-api/monitoring.rst:204
+#: ../../c-api/monitoring.rst:210
 msgid "This function is :term:`soft deprecated`."
 msgstr ""

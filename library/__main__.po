@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 00:54+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -440,17 +440,14 @@ msgid ""
 "    if not did_user_define_their_name():\n"
 "        raise ValueError('Define the variable `my_name`!')\n"
 "\n"
-"    if '__file__' in dir(__main__):\n"
-"        print(__main__.my_name, \"found in file\", __main__.__file__)\n"
-"    else:\n"
-"        print(__main__.my_name)"
+"    print(__main__.my_name)"
 msgstr ""
 
-#: ../../library/__main__.rst:300
+#: ../../library/__main__.rst:297
 msgid "Example usage of this module could be as follows::"
 msgstr ""
 
-#: ../../library/__main__.rst:302
+#: ../../library/__main__.rst:299
 msgid ""
 "# start.py\n"
 "\n"
@@ -470,30 +467,30 @@ msgid ""
 "    sys.exit(main())"
 msgstr ""
 
-#: ../../library/__main__.rst:319
+#: ../../library/__main__.rst:316
 msgid "Now, if we started our program, the result would look like this:"
 msgstr ""
 
-#: ../../library/__main__.rst:321
+#: ../../library/__main__.rst:318
 msgid ""
 "$ python start.py\n"
 "Define the variable `my_name`!"
 msgstr ""
 
-#: ../../library/__main__.rst:326
+#: ../../library/__main__.rst:323
 msgid ""
 "The exit code of the program would be 1, indicating an error. Uncommenting "
 "the line with ``my_name = \"Dinsdale\"`` fixes the program and now it exits "
 "with status code 0, indicating success:"
 msgstr ""
 
-#: ../../library/__main__.rst:330
+#: ../../library/__main__.rst:327
 msgid ""
 "$ python start.py\n"
-"Dinsdale found in file /path/to/start.py"
+"Dinsdale"
 msgstr ""
 
-#: ../../library/__main__.rst:335
+#: ../../library/__main__.rst:332
 msgid ""
 "Note that importing ``__main__`` doesn't cause any issues with "
 "unintentionally running top-level code meant for script use which is put in "
@@ -501,7 +498,7 @@ msgid ""
 "this work?"
 msgstr ""
 
-#: ../../library/__main__.rst:339
+#: ../../library/__main__.rst:336
 msgid ""
 "Python inserts an empty ``__main__`` module in :data:`sys.modules` at "
 "interpreter startup, and populates it by running top-level code. In our "
@@ -514,13 +511,13 @@ msgid ""
 "this works."
 msgstr ""
 
-#: ../../library/__main__.rst:348
+#: ../../library/__main__.rst:345
 msgid ""
 "The Python REPL is another example of a \"top-level environment\", so "
 "anything defined in the REPL becomes part of the ``__main__`` scope::"
 msgstr ""
 
-#: ../../library/__main__.rst:351
+#: ../../library/__main__.rst:348
 msgid ""
 ">>> import namely\n"
 ">>> namely.did_user_define_their_name()\n"
@@ -536,13 +533,7 @@ msgid ""
 "Jabberwocky"
 msgstr ""
 
-#: ../../library/__main__.rst:364
-msgid ""
-"Note that in this case the ``__main__`` scope doesn't contain a ``__file__`` "
-"attribute as it's interactive."
-msgstr ""
-
-#: ../../library/__main__.rst:367
+#: ../../library/__main__.rst:361
 msgid ""
 "The ``__main__`` scope is used in the implementation of :mod:`pdb` and :mod:"
 "`rlcompleter`."

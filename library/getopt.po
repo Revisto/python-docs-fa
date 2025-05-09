@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 01:06+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -64,32 +64,34 @@ msgid ""
 "to be parsed, without the leading reference to the running program. "
 "Typically, this means ``sys.argv[1:]``. *shortopts* is the string of option "
 "letters that the script wants to recognize, with options that require an "
-"argument followed by a colon (``':'``; i.e., the same format that Unix :c:"
-"func:`!getopt` uses)."
+"argument followed by a colon (``':'``) and options that accept an optional "
+"argument followed by two colons (``'::'``); i.e., the same format that Unix :"
+"c:func:`!getopt` uses."
 msgstr ""
 
-#: ../../library/getopt.rst:47
+#: ../../library/getopt.rst:48
 msgid ""
 "Unlike GNU :c:func:`!getopt`, after a non-option argument, all further "
 "arguments are considered also non-options. This is similar to the way non-"
 "GNU Unix systems work."
 msgstr ""
 
-#: ../../library/getopt.rst:51
+#: ../../library/getopt.rst:52
 msgid ""
 "*longopts*, if specified, must be a list of strings with the names of the "
 "long options which should be supported.  The leading ``'--'`` characters "
 "should not be included in the option name.  Long options which require an "
-"argument should be followed by an equal sign (``'='``).  Optional arguments "
-"are not supported.  To accept only long options, *shortopts* should be an "
-"empty string.  Long options on the command line can be recognized so long as "
-"they provide a prefix of the option name that matches exactly one of the "
-"accepted options.  For example, if *longopts* is ``['foo', 'frob']``, the "
-"option ``--fo`` will match as ``--foo``, but ``--f`` will not match "
-"uniquely, so :exc:`GetoptError` will be raised."
+"argument should be followed by an equal sign (``'='``). Long options which "
+"accept an optional argument should be followed by an equal sign and question "
+"mark (``'=?'``). To accept only long options, *shortopts* should be an empty "
+"string.  Long options on the command line can be recognized so long as they "
+"provide a prefix of the option name that matches exactly one of the accepted "
+"options.  For example, if *longopts* is ``['foo', 'frob']``, the option ``--"
+"fo`` will match as ``--foo``, but ``--f`` will not match uniquely, so :exc:"
+"`GetoptError` will be raised."
 msgstr ""
 
-#: ../../library/getopt.rst:62
+#: ../../library/getopt.rst:65
 msgid ""
 "The return value consists of two elements: the first is a list of ``(option, "
 "value)`` pairs; the second is the list of program arguments left after the "
@@ -103,6 +105,10 @@ msgid ""
 msgstr ""
 
 #: ../../library/getopt.rst:75
+msgid "Optional arguments are supported."
+msgstr ""
+
+#: ../../library/getopt.rst:81
 msgid ""
 "This function works like :func:`getopt`, except that GNU style scanning mode "
 "is used by default. This means that option and non-option arguments may be "
@@ -110,14 +116,28 @@ msgid ""
 "a non-option argument is encountered."
 msgstr ""
 
-#: ../../library/getopt.rst:80
+#: ../../library/getopt.rst:86
 msgid ""
 "If the first character of the option string is ``'+'``, or if the "
 "environment variable :envvar:`!POSIXLY_CORRECT` is set, then option "
 "processing stops as soon as a non-option argument is encountered."
 msgstr ""
 
-#: ../../library/getopt.rst:87
+#: ../../library/getopt.rst:90
+msgid ""
+"If the first character of the option string is ``'-'``, non-option arguments "
+"that are followed by options are added to the list of option-and-value pairs "
+"as a pair that has ``None`` as its first element and the list of non-option "
+"arguments as its second element. The second element of the :func:`!"
+"gnu_getopt` result is a list of program arguments after the last option."
+msgstr ""
+
+#: ../../library/getopt.rst:97
+msgid ""
+"Support for returning intermixed options and non-option arguments in order."
+msgstr ""
+
+#: ../../library/getopt.rst:103
 msgid ""
 "This is raised when an unrecognized option is found in the argument list or "
 "when an option requiring an argument is given none. The argument to the "
@@ -128,15 +148,15 @@ msgid ""
 "which the exception relates, :attr:`!opt` is an empty string."
 msgstr ""
 
-#: ../../library/getopt.rst:98
+#: ../../library/getopt.rst:114
 msgid "Alias for :exc:`GetoptError`; for backward compatibility."
 msgstr ""
 
-#: ../../library/getopt.rst:100
+#: ../../library/getopt.rst:116
 msgid "An example using only Unix style options:"
 msgstr ""
 
-#: ../../library/getopt.rst:102
+#: ../../library/getopt.rst:118
 msgid ""
 ">>> import getopt\n"
 ">>> args = '-a -b -cfoo -d bar a1 a2'.split()\n"
@@ -149,11 +169,11 @@ msgid ""
 "['a1', 'a2']"
 msgstr ""
 
-#: ../../library/getopt.rst:114
+#: ../../library/getopt.rst:130
 msgid "Using long option names is equally easy:"
 msgstr ""
 
-#: ../../library/getopt.rst:116
+#: ../../library/getopt.rst:132
 msgid ""
 ">>> s = '--condition=foo --testing --output-file abc.def -x a1 a2'\n"
 ">>> args = s.split()\n"
@@ -169,11 +189,45 @@ msgid ""
 "['a1', 'a2']"
 msgstr ""
 
-#: ../../library/getopt.rst:129
+#: ../../library/getopt.rst:145
+msgid "Optional arguments should be specified explicitly:"
+msgstr ""
+
+#: ../../library/getopt.rst:147
+msgid ""
+">>> s = '-Con -C --color=off --color a1 a2'\n"
+">>> args = s.split()\n"
+">>> args\n"
+"['-Con', '-C', '--color=off', '--color', 'a1', 'a2']\n"
+">>> optlist, args = getopt.getopt(args, 'C::', ['color=?'])\n"
+">>> optlist\n"
+"[('-C', 'on'), ('-C', ''), ('--color', 'off'), ('--color', '')]\n"
+">>> args\n"
+"['a1', 'a2']"
+msgstr ""
+
+#: ../../library/getopt.rst:159
+msgid "The order of options and non-option arguments can be preserved:"
+msgstr ""
+
+#: ../../library/getopt.rst:161
+msgid ""
+">>> s = 'a1 -x a2 a3 a4 --long a5 a6'\n"
+">>> args = s.split()\n"
+">>> args\n"
+"['a1', '-x', 'a2', 'a3', 'a4', '--long', 'a5', 'a6']\n"
+">>> optlist, args = getopt.gnu_getopt(args, '-x:', ['long='])\n"
+">>> optlist\n"
+"[(None, ['a1']), ('-x', 'a2'), (None, ['a3', 'a4']), ('--long', 'a5')]\n"
+">>> args\n"
+"['a6']"
+msgstr ""
+
+#: ../../library/getopt.rst:173
 msgid "In a script, typical usage is something like this:"
 msgstr ""
 
-#: ../../library/getopt.rst:131
+#: ../../library/getopt.rst:175
 msgid ""
 "import getopt, sys\n"
 "\n"
@@ -205,14 +259,14 @@ msgid ""
 "    main()"
 msgstr ""
 
-#: ../../library/getopt.rst:160
+#: ../../library/getopt.rst:204
 msgid ""
 "Note that an equivalent command line interface could be produced with less "
 "code and more informative help and error messages by using the :mod:"
 "`optparse` module:"
 msgstr ""
 
-#: ../../library/getopt.rst:163
+#: ../../library/getopt.rst:207
 msgid ""
 "import optparse\n"
 "\n"
@@ -224,13 +278,13 @@ msgid ""
 "    process(args, output=opts.output, verbose=opts.verbose)"
 msgstr ""
 
-#: ../../library/getopt.rst:174
+#: ../../library/getopt.rst:218
 msgid ""
 "A roughly equivalent command line interface for this case can also be "
 "produced by using the :mod:`argparse` module:"
 msgstr ""
 
-#: ../../library/getopt.rst:177
+#: ../../library/getopt.rst:221
 msgid ""
 "import argparse\n"
 "\n"
@@ -243,25 +297,25 @@ msgid ""
 "    process(args.rest, output=args.output, verbose=args.verbose)"
 msgstr ""
 
-#: ../../library/getopt.rst:189
+#: ../../library/getopt.rst:233
 msgid ""
 "See :ref:`choosing-an-argument-parser` for details on how the ``argparse`` "
 "version of this code differs in behaviour from the ``optparse`` (and "
 "``getopt``) version."
 msgstr ""
 
-#: ../../library/getopt.rst:195
+#: ../../library/getopt.rst:239
 msgid "Module :mod:`optparse`"
 msgstr ""
 
-#: ../../library/getopt.rst:196
+#: ../../library/getopt.rst:240
 msgid "Declarative command line option parsing."
 msgstr ""
 
-#: ../../library/getopt.rst:198
+#: ../../library/getopt.rst:242
 msgid "Module :mod:`argparse`"
 msgstr ""
 
-#: ../../library/getopt.rst:199
+#: ../../library/getopt.rst:243
 msgid "More opinionated command line option and argument parsing library."
 msgstr ""

@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 00:53+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -30,106 +30,110 @@ msgid ""
 "Reference."
 msgstr ""
 
-#: ../../howto/index.rst:38
+#: ../../howto/index.rst:39
 msgid "General:"
 msgstr ""
 
-#: ../../howto/index.rst:40
+#: ../../howto/index.rst:41
 msgid ":ref:`annotations-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:41
+#: ../../howto/index.rst:42
 msgid ":ref:`argparse-tutorial`"
 msgstr ""
 
-#: ../../howto/index.rst:42
+#: ../../howto/index.rst:43
 msgid ":ref:`descriptorhowto`"
 msgstr ""
 
-#: ../../howto/index.rst:43
+#: ../../howto/index.rst:44
 msgid ":ref:`enum-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:44
+#: ../../howto/index.rst:45
 msgid ":ref:`functional-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:45
+#: ../../howto/index.rst:46
 msgid ":ref:`ipaddress-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:46
+#: ../../howto/index.rst:47
 msgid ":ref:`logging-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:47
+#: ../../howto/index.rst:48
 msgid ":ref:`logging-cookbook`"
 msgstr ""
 
-#: ../../howto/index.rst:48
+#: ../../howto/index.rst:49
 msgid ":ref:`regex-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:49
+#: ../../howto/index.rst:50
 msgid ":ref:`sortinghowto`"
 msgstr ""
 
-#: ../../howto/index.rst:50
+#: ../../howto/index.rst:51
 msgid ":ref:`unicode-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:51
+#: ../../howto/index.rst:52
 msgid ":ref:`urllib-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:53
+#: ../../howto/index.rst:54
 msgid "Advanced development:"
 msgstr ""
 
-#: ../../howto/index.rst:55
+#: ../../howto/index.rst:56
 msgid ":ref:`curses-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:56
+#: ../../howto/index.rst:57
 msgid ":ref:`freethreading-python-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:57
+#: ../../howto/index.rst:58
 msgid ":ref:`freethreading-extensions-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:58
+#: ../../howto/index.rst:59
 msgid ":ref:`isolating-extensions-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:59
+#: ../../howto/index.rst:60
 msgid ":ref:`python_2.3_mro`"
 msgstr ""
 
-#: ../../howto/index.rst:60
+#: ../../howto/index.rst:61
 msgid ":ref:`socket-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:61
+#: ../../howto/index.rst:62
 msgid ":ref:`timerfd-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:62
+#: ../../howto/index.rst:63
 msgid ":ref:`cporting-howto`"
 msgstr ""
 
-#: ../../howto/index.rst:64
+#: ../../howto/index.rst:65
 msgid "Debugging and profiling:"
 msgstr ""
 
-#: ../../howto/index.rst:66
+#: ../../howto/index.rst:67
 msgid ":ref:`gdb`"
 msgstr ""
 
-#: ../../howto/index.rst:67
+#: ../../howto/index.rst:68
 msgid ":ref:`instrumentation`"
 msgstr ""
 
-#: ../../howto/index.rst:68
+#: ../../howto/index.rst:69
 msgid ":ref:`perf_profiling`"
+msgstr ""
+
+#: ../../howto/index.rst:70
+msgid ":ref:`remote-debugging`"
 msgstr ""

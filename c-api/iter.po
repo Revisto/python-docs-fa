@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 00:49+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -29,16 +29,30 @@ msgstr ""
 #: ../../c-api/iter.rst:12
 msgid ""
 "Return non-zero if the object *o* can be safely passed to :c:func:"
-"`PyIter_Next`, and ``0`` otherwise.  This function always succeeds."
+"`PyIter_NextItem` and ``0`` otherwise. This function always succeeds."
 msgstr ""
 
-#: ../../c-api/iter.rst:17
+#: ../../c-api/iter.rst:18
 msgid ""
 "Return non-zero if the object *o* provides the :class:`AsyncIterator` "
 "protocol, and ``0`` otherwise.  This function always succeeds."
 msgstr ""
 
-#: ../../c-api/iter.rst:24
+#: ../../c-api/iter.rst:25
+msgid ""
+"Return ``1`` and set *item* to a :term:`strong reference` of the next value "
+"of the iterator *iter* on success. Return ``0`` and set *item* to ``NULL`` "
+"if there are no remaining values. Return ``-1``, set *item* to ``NULL`` and "
+"set an exception on error."
+msgstr ""
+
+#: ../../c-api/iter.rst:34
+msgid ""
+"This is an older version of :c:func:`!PyIter_NextItem`, which is retained "
+"for backwards compatibility. Prefer :c:func:`PyIter_NextItem`."
+msgstr ""
+
+#: ../../c-api/iter.rst:38
 msgid ""
 "Return the next value from the iterator *o*.  The object must be an iterator "
 "according to :c:func:`PyIter_Check` (it is up to the caller to check this). "
@@ -47,58 +61,26 @@ msgid ""
 "the exception."
 msgstr ""
 
-#: ../../c-api/iter.rst:30
-msgid ""
-"To write a loop which iterates over an iterator, the C code should look "
-"something like this::"
-msgstr ""
-
-#: ../../c-api/iter.rst:33
-msgid ""
-"PyObject *iterator = PyObject_GetIter(obj);\n"
-"PyObject *item;\n"
-"\n"
-"if (iterator == NULL) {\n"
-"    /* propagate error */\n"
-"}\n"
-"\n"
-"while ((item = PyIter_Next(iterator))) {\n"
-"    /* do something with item */\n"
-"    ...\n"
-"    /* release reference when done */\n"
-"    Py_DECREF(item);\n"
-"}\n"
-"\n"
-"Py_DECREF(iterator);\n"
-"\n"
-"if (PyErr_Occurred()) {\n"
-"    /* propagate error */\n"
-"}\n"
-"else {\n"
-"    /* continue doing useful work */\n"
-"}"
-msgstr ""
-
-#: ../../c-api/iter.rst:59
+#: ../../c-api/iter.rst:46
 msgid ""
 "The enum value used to represent different results of :c:func:`PyIter_Send`."
 msgstr ""
 
-#: ../../c-api/iter.rst:66
+#: ../../c-api/iter.rst:53
 msgid "Sends the *arg* value into the iterator *iter*. Returns:"
 msgstr ""
 
-#: ../../c-api/iter.rst:68
+#: ../../c-api/iter.rst:55
 msgid ""
 "``PYGEN_RETURN`` if iterator returns. Return value is returned via *presult*."
 msgstr ""
 
-#: ../../c-api/iter.rst:69
+#: ../../c-api/iter.rst:56
 msgid ""
 "``PYGEN_NEXT`` if iterator yields. Yielded value is returned via *presult*."
 msgstr ""
 
-#: ../../c-api/iter.rst:70
+#: ../../c-api/iter.rst:57
 msgid ""
 "``PYGEN_ERROR`` if iterator has raised and exception. *presult* is set to "
 "``NULL``."

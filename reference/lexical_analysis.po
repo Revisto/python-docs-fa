@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 01:49+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -131,7 +131,8 @@ msgstr ""
 msgid ""
 "If no encoding declaration is found, the default encoding is UTF-8.  If the "
 "implicit or explicit encoding of a file is UTF-8, an initial UTF-8 byte-"
-"order mark (b'\\xef\\xbb\\xbf') is ignored rather than being a syntax error."
+"order mark (``b'\\xef\\xbb\\xbf'``) is ignored rather than being a syntax "
+"error."
 msgstr ""
 
 #: ../../reference/lexical_analysis.rst:104
@@ -427,7 +428,7 @@ msgstr ""
 #: ../../reference/lexical_analysis.rst:316
 msgid ""
 "*Other_ID_Start* - explicit list of characters in `PropList.txt <https://www."
-"unicode.org/Public/15.1.0/ucd/PropList.txt>`_ to support backwards "
+"unicode.org/Public/16.0.0/ucd/PropList.txt>`_ to support backwards "
 "compatibility"
 msgstr ""
 
@@ -444,7 +445,7 @@ msgstr ""
 #: ../../reference/lexical_analysis.rst:324
 msgid ""
 "A non-normative HTML file listing all valid identifier characters for "
-"Unicode 15.1.0 can be found at https://www.unicode.org/Public/15.1.0/ucd/"
+"Unicode 16.0.0 can be found at https://www.unicode.org/Public/16.0.0/ucd/"
 "DerivedCoreProperties.txt"
 msgstr ""
 
@@ -1358,7 +1359,7 @@ msgid "Footnotes"
 msgstr ""
 
 #: ../../reference/lexical_analysis.rst:1047
-msgid "https://www.unicode.org/Public/15.1.0/ucd/NameAliases.txt"
+msgid "https://www.unicode.org/Public/16.0.0/ucd/NameAliases.txt"
 msgstr ""
 
 #: ../../reference/lexical_analysis.rst:8

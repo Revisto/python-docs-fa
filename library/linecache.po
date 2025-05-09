@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 01:08+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -59,6 +59,13 @@ msgstr ""
 
 #: ../../library/linecache.rst:33
 msgid ""
+"If *filename* indicates a frozen module (starting with ``'<frozen '``), the "
+"function will attepmt to get the real file name from "
+"``module_globals['__file__']`` if *module_globals* is not ``None``."
+msgstr ""
+
+#: ../../library/linecache.rst:37
+msgid ""
 "If a file named *filename* is not found, the function first checks for a :"
 "pep:`302` ``__loader__`` in *module_globals*. If there is such a loader and "
 "it defines a ``get_source`` method, then that determines the source lines "
@@ -67,20 +74,24 @@ msgid ""
 "in the module search path, ``sys.path``."
 msgstr ""
 
-#: ../../library/linecache.rst:44
+#: ../../library/linecache.rst:47
+msgid "Support *filename* of frozen modules."
+msgstr ""
+
+#: ../../library/linecache.rst:52
 msgid ""
 "Clear the cache.  Use this function if you no longer need lines from files "
 "previously read using :func:`getline`."
 msgstr ""
 
-#: ../../library/linecache.rst:50
+#: ../../library/linecache.rst:58
 msgid ""
 "Check the cache for validity.  Use this function if files in the cache  may "
 "have changed on disk, and you require the updated version.  If *filename* is "
 "omitted, it will check all the entries in the cache."
 msgstr ""
 
-#: ../../library/linecache.rst:56
+#: ../../library/linecache.rst:64
 msgid ""
 "Capture enough detail about a non-file-based module to permit getting its "
 "lines later via :func:`getline` even if *module_globals* is ``None`` in the "
@@ -88,11 +99,11 @@ msgid ""
 "having to carry the module globals around indefinitely."
 msgstr ""
 
-#: ../../library/linecache.rst:63
+#: ../../library/linecache.rst:71
 msgid "Example::"
 msgstr ""
 
-#: ../../library/linecache.rst:65
+#: ../../library/linecache.rst:73
 msgid ""
 ">>> import linecache\n"
 ">>> linecache.getline(linecache.__file__, 8)\n"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 01:51+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -2502,7 +2502,7 @@ msgstr ""
 #: ../../whatsnew/2.6.rst:1749
 msgid ""
 "Two command-line options have been reserved for use by other Python "
-"implementations.  The :option:`-J` switch has been reserved for use by "
+"implementations.  The :option:`!-J` switch has been reserved for use by "
 "Jython for Jython-specific options, such as switches that are passed to the "
 "underlying JVM.  :option:`-X` has been reserved for options specific to a "
 "particular implementation of Python such as CPython, Jython, or IronPython.  "

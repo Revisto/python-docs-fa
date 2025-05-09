@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 01:08+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -313,6 +313,10 @@ msgstr ""
 msgid "it1, it2, ... itn  splits one iterator into n"
 msgstr ""
 
+#: ../../library/itertools.rst:61
+msgid "``tee('ABC', 2) → A B C, A B C``"
+msgstr ""
+
 #: ../../library/itertools.rst:62
 msgid ":func:`zip_longest`"
 msgstr ""
@@ -402,7 +406,7 @@ msgid "``AB AC AD BC BD CD``"
 msgstr ""
 
 #: ../../library/itertools.rst:82
-msgid "``combinations_with_replacement('ABCD', 2)``"
+msgid "``combinations_with_replacement('ABCD', 2)``"
 msgstr ""
 
 #: ../../library/itertools.rst:82

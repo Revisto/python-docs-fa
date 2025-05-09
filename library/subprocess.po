@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 01:14+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -56,7 +56,7 @@ msgstr ""
 #: ../../library/subprocess.rst:598 ../../library/subprocess.rst:605
 #: ../../library/subprocess.rst:615 ../../library/subprocess.rst:624
 #: ../../library/subprocess.rst:633 ../../library/subprocess.rst:639
-#: ../../library/subprocess.rst:1560 ../../library/subprocess.rst:1582
+#: ../../library/subprocess.rst:1494 ../../library/subprocess.rst:1516
 #: ../../includes/wasm-mobile-notavail.rst:3
 msgid "Availability"
 msgstr ""
@@ -384,8 +384,8 @@ msgid ""
 "binary streams. No encoding or line ending conversion is performed."
 msgstr ""
 
-#: ../../library/subprocess.rst:314 ../../library/subprocess.rst:1569
-#: ../../library/subprocess.rst:1587
+#: ../../library/subprocess.rst:314 ../../library/subprocess.rst:1503
+#: ../../library/subprocess.rst:1521
 msgid "Added the *encoding* and *errors* parameters."
 msgstr ""
 
@@ -1786,45 +1786,14 @@ msgid ""
 msgstr ""
 
 #: ../../library/subprocess.rst:1447
-msgid "Replacing :func:`os.popen`, :func:`os.popen2`, :func:`os.popen3`"
+msgid "Replacing :func:`os.popen`"
 msgstr ""
 
-#: ../../library/subprocess.rst:1451
-msgid ""
-"(child_stdin, child_stdout) = os.popen2(cmd, mode, bufsize)\n"
-"==>\n"
-"p = Popen(cmd, shell=True, bufsize=bufsize,\n"
-"          stdin=PIPE, stdout=PIPE, close_fds=True)\n"
-"(child_stdin, child_stdout) = (p.stdin, p.stdout)"
-msgstr ""
-
-#: ../../library/subprocess.rst:1459
-msgid ""
-"(child_stdin,\n"
-" child_stdout,\n"
-" child_stderr) = os.popen3(cmd, mode, bufsize)\n"
-"==>\n"
-"p = Popen(cmd, shell=True, bufsize=bufsize,\n"
-"          stdin=PIPE, stdout=PIPE, stderr=PIPE, close_fds=True)\n"
-"(child_stdin,\n"
-" child_stdout,\n"
-" child_stderr) = (p.stdin, p.stdout, p.stderr)"
-msgstr ""
-
-#: ../../library/subprocess.rst:1471
-msgid ""
-"(child_stdin, child_stdout_and_stderr) = os.popen4(cmd, mode, bufsize)\n"
-"==>\n"
-"p = Popen(cmd, shell=True, bufsize=bufsize,\n"
-"          stdin=PIPE, stdout=PIPE, stderr=STDOUT, close_fds=True)\n"
-"(child_stdin, child_stdout_and_stderr) = (p.stdin, p.stdout)"
-msgstr ""
-
-#: ../../library/subprocess.rst:1477
+#: ../../library/subprocess.rst:1449
 msgid "Return code handling translates as follows::"
 msgstr ""
 
-#: ../../library/subprocess.rst:1479
+#: ../../library/subprocess.rst:1451
 msgid ""
 "pipe = os.popen(cmd, 'w')\n"
 "...\n"
@@ -1839,65 +1808,11 @@ msgid ""
 "    print(\"There were some errors\")"
 msgstr ""
 
-#: ../../library/subprocess.rst:1493
-msgid "Replacing functions from the :mod:`!popen2` module"
-msgstr ""
-
-#: ../../library/subprocess.rst:1497
-msgid ""
-"If the cmd argument to popen2 functions is a string, the command is executed "
-"through /bin/sh.  If it is a list, the command is directly executed."
-msgstr ""
-
-#: ../../library/subprocess.rst:1502
-msgid ""
-"(child_stdout, child_stdin) = popen2.popen2(\"somestring\", bufsize, mode)\n"
-"==>\n"
-"p = Popen(\"somestring\", shell=True, bufsize=bufsize,\n"
-"          stdin=PIPE, stdout=PIPE, close_fds=True)\n"
-"(child_stdout, child_stdin) = (p.stdout, p.stdin)"
-msgstr ""
-
-#: ../../library/subprocess.rst:1510
-msgid ""
-"(child_stdout, child_stdin) = popen2.popen2([\"mycmd\", \"myarg\"], bufsize, "
-"mode)\n"
-"==>\n"
-"p = Popen([\"mycmd\", \"myarg\"], bufsize=bufsize,\n"
-"          stdin=PIPE, stdout=PIPE, close_fds=True)\n"
-"(child_stdout, child_stdin) = (p.stdout, p.stdin)"
-msgstr ""
-
-#: ../../library/subprocess.rst:1516
-msgid ""
-":class:`popen2.Popen3` and :class:`popen2.Popen4` basically work as :class:"
-"`subprocess.Popen`, except that:"
-msgstr ""
-
-#: ../../library/subprocess.rst:1519
-msgid ":class:`Popen` raises an exception if the execution fails."
-msgstr ""
-
-#: ../../library/subprocess.rst:1521
-msgid "The *capturestderr* argument is replaced with the *stderr* argument."
-msgstr ""
-
-#: ../../library/subprocess.rst:1523
-msgid "``stdin=PIPE`` and ``stdout=PIPE`` must be specified."
-msgstr ""
-
-#: ../../library/subprocess.rst:1525
-msgid ""
-"popen2 closes all file descriptors by default, but you have to specify "
-"``close_fds=True`` with :class:`Popen` to guarantee this behavior on all "
-"platforms or past Python versions."
-msgstr ""
-
-#: ../../library/subprocess.rst:1531
+#: ../../library/subprocess.rst:1465
 msgid "Legacy Shell Invocation Functions"
 msgstr ""
 
-#: ../../library/subprocess.rst:1533
+#: ../../library/subprocess.rst:1467
 msgid ""
 "This module also provides the following legacy functions from the 2.x "
 "``commands`` module. These operations implicitly invoke the system shell and "
@@ -1905,11 +1820,11 @@ msgid ""
 "handling consistency are valid for these functions."
 msgstr ""
 
-#: ../../library/subprocess.rst:1540
+#: ../../library/subprocess.rst:1474
 msgid "Return ``(exitcode, output)`` of executing *cmd* in a shell."
 msgstr ""
 
-#: ../../library/subprocess.rst:1542
+#: ../../library/subprocess.rst:1476
 msgid ""
 "Execute the string *cmd* in a shell with :meth:`Popen.check_output` and "
 "return a 2-tuple ``(exitcode, output)``. *encoding* and *errors* are used to "
@@ -1917,13 +1832,13 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../library/subprocess.rst:1547
+#: ../../library/subprocess.rst:1481
 msgid ""
 "A trailing newline is stripped from the output. The exit code for the "
 "command can be interpreted as the return code of subprocess.  Example::"
 msgstr ""
 
-#: ../../library/subprocess.rst:1551
+#: ../../library/subprocess.rst:1485
 msgid ""
 ">>> subprocess.getstatusoutput('ls /bin/ls')\n"
 "(0, '/bin/ls')\n"
@@ -1935,77 +1850,104 @@ msgid ""
 "(-15, '')"
 msgstr ""
 
-#: ../../library/subprocess.rst:1562
+#: ../../library/subprocess.rst:1496
 msgid "Windows support was added."
 msgstr ""
 
-#: ../../library/subprocess.rst:1565
+#: ../../library/subprocess.rst:1499
 msgid ""
 "The function now returns (exitcode, output) instead of (status, output) as "
 "it did in Python 3.3.3 and earlier.  exitcode has the same value as :attr:"
 "`~Popen.returncode`."
 msgstr ""
 
-#: ../../library/subprocess.rst:1574
+#: ../../library/subprocess.rst:1508
 msgid "Return output (stdout and stderr) of executing *cmd* in a shell."
 msgstr ""
 
-#: ../../library/subprocess.rst:1576
+#: ../../library/subprocess.rst:1510
 msgid ""
 "Like :func:`getstatusoutput`, except the exit code is ignored and the return "
 "value is a string containing the command's output.  Example::"
 msgstr ""
 
-#: ../../library/subprocess.rst:1579
+#: ../../library/subprocess.rst:1513
 msgid ""
 ">>> subprocess.getoutput('ls /bin/ls')\n"
 "'/bin/ls'"
 msgstr ""
 
-#: ../../library/subprocess.rst:1584
+#: ../../library/subprocess.rst:1518
 msgid "Windows support added"
 msgstr ""
 
-#: ../../library/subprocess.rst:1592
+#: ../../library/subprocess.rst:1526
 msgid "Notes"
 msgstr ""
 
-#: ../../library/subprocess.rst:1597
+#: ../../library/subprocess.rst:1531
+msgid "Timeout Behavior"
+msgstr ""
+
+#: ../../library/subprocess.rst:1533
+msgid ""
+"When using the ``timeout`` parameter in functions like :func:`run`, :meth:"
+"`Popen.wait`, or :meth:`Popen.communicate`, users should be aware of the "
+"following behaviors:"
+msgstr ""
+
+#: ../../library/subprocess.rst:1537
+msgid ""
+"**Process Creation Delay**: The initial process creation itself cannot be "
+"interrupted on many platform APIs. This means that even when specifying a "
+"timeout, you are not guaranteed to see a timeout exception until at least "
+"after however long process creation takes."
+msgstr ""
+
+#: ../../library/subprocess.rst:1542
+msgid ""
+"**Extremely Small Timeout Values**: Setting very small timeout values (such "
+"as a few milliseconds) may result in almost immediate :exc:`TimeoutExpired` "
+"exceptions because process creation and system scheduling inherently require "
+"time."
+msgstr ""
+
+#: ../../library/subprocess.rst:1549
 msgid "Converting an argument sequence to a string on Windows"
 msgstr ""
 
-#: ../../library/subprocess.rst:1599
+#: ../../library/subprocess.rst:1551
 msgid ""
 "On Windows, an *args* sequence is converted to a string that can be parsed "
 "using the following rules (which correspond to the rules used by the MS C "
 "runtime):"
 msgstr ""
 
-#: ../../library/subprocess.rst:1603
+#: ../../library/subprocess.rst:1555
 msgid ""
 "Arguments are delimited by white space, which is either a space or a tab."
 msgstr ""
 
-#: ../../library/subprocess.rst:1606
+#: ../../library/subprocess.rst:1558
 msgid ""
 "A string surrounded by double quotation marks is interpreted as a single "
 "argument, regardless of white space contained within.  A quoted string can "
 "be embedded in an argument."
 msgstr ""
 
-#: ../../library/subprocess.rst:1611
+#: ../../library/subprocess.rst:1563
 msgid ""
 "A double quotation mark preceded by a backslash is interpreted as a literal "
 "double quotation mark."
 msgstr ""
 
-#: ../../library/subprocess.rst:1614
+#: ../../library/subprocess.rst:1566
 msgid ""
 "Backslashes are interpreted literally, unless they immediately precede a "
 "double quotation mark."
 msgstr ""
 
-#: ../../library/subprocess.rst:1617
+#: ../../library/subprocess.rst:1569
 msgid ""
 "If backslashes immediately precede a double quotation mark, every pair of "
 "backslashes is interpreted as a literal backslash.  If the number of "
@@ -2013,69 +1955,46 @@ msgid ""
 "mark as described in rule 3."
 msgstr ""
 
-#: ../../library/subprocess.rst:1626
+#: ../../library/subprocess.rst:1578
 msgid ":mod:`shlex`"
 msgstr ""
 
-#: ../../library/subprocess.rst:1627
+#: ../../library/subprocess.rst:1579
 msgid "Module which provides function to parse and escape command lines."
 msgstr ""
 
-#: ../../library/subprocess.rst:1634
-msgid "Disabling use of ``vfork()`` or ``posix_spawn()``"
+#: ../../library/subprocess.rst:1585
+msgid "Disable use of ``posix_spawn()``"
 msgstr ""
 
-#: ../../library/subprocess.rst:1636
+#: ../../library/subprocess.rst:1587
 msgid ""
 "On Linux, :mod:`subprocess` defaults to using the ``vfork()`` system call "
 "internally when it is safe to do so rather than ``fork()``. This greatly "
 "improves performance."
 msgstr ""
 
-#: ../../library/subprocess.rst:1640
-msgid ""
-"If you ever encounter a presumed highly unusual situation where you need to "
-"prevent ``vfork()`` from being used by Python, you can set the :const:"
-"`subprocess._USE_VFORK` attribute to a false value."
-msgstr ""
-
-#: ../../library/subprocess.rst:1646
-msgid "subprocess._USE_VFORK = False  # See CPython issue gh-NNNNNN."
-msgstr ""
-
-#: ../../library/subprocess.rst:1648
-msgid ""
-"Setting this has no impact on use of ``posix_spawn()`` which could use "
-"``vfork()`` internally within its libc implementation.  There is a similar :"
-"const:`subprocess._USE_POSIX_SPAWN` attribute if you need to prevent use of "
-"that."
-msgstr ""
-
-#: ../../library/subprocess.rst:1655
+#: ../../library/subprocess.rst:1593
 msgid "subprocess._USE_POSIX_SPAWN = False  # See CPython issue gh-NNNNNN."
 msgstr ""
 
-#: ../../library/subprocess.rst:1657
+#: ../../library/subprocess.rst:1595
 msgid ""
-"It is safe to set these to false on any Python version. They will have no "
-"effect on older versions when unsupported. Do not assume the attributes are "
-"available to read. Despite their names, a true value does not indicate that "
-"the corresponding function will be used, only that it may be."
+"It is safe to set this to false on any Python version. It will have no "
+"effect on older or newer versions where unsupported. Do not assume the "
+"attribute is available to read. Despite the name, a true value does not "
+"indicate the corresponding function will be used, only that it may be."
 msgstr ""
 
-#: ../../library/subprocess.rst:1662
+#: ../../library/subprocess.rst:1600
 msgid ""
 "Please file issues any time you have to use these private knobs with a way "
 "to reproduce the issue you were seeing. Link to that issue from a comment in "
 "your code."
 msgstr ""
 
-#: ../../library/subprocess.rst:1666
+#: ../../library/subprocess.rst:1604
 msgid "``_USE_POSIX_SPAWN``"
-msgstr ""
-
-#: ../../library/subprocess.rst:1667
-msgid "``_USE_VFORK``"
 msgstr ""
 
 #: ../../library/subprocess.rst:296

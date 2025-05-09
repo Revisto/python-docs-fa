@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 14:18+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-29 13:04+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -1045,13 +1045,13 @@ msgstr ""
 msgid ""
 "A new type union operator was introduced which enables the syntax ``X | Y``. "
 "This provides a cleaner way of expressing 'either type X or type Y' instead "
-"of using :data:`typing.Union`, especially in type hints."
+"of using :class:`typing.Union`, especially in type hints."
 msgstr ""
 
 #: ../../whatsnew/3.10.rst:727
 msgid ""
 "In previous versions of Python, to apply a type hint for functions accepting "
-"arguments of multiple types, :data:`typing.Union` was used::"
+"arguments of multiple types, :class:`typing.Union` was used::"
 msgstr ""
 
 #: ../../whatsnew/3.10.rst:730

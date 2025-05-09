@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 01:08+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -179,16 +179,16 @@ msgid ""
 msgstr ""
 
 #: ../../library/json.rst:119
-msgid "Using :mod:`json.tool` from the shell to validate and pretty-print:"
+msgid "Using :mod:`json` from the shell to validate and pretty-print:"
 msgstr ""
 
 #: ../../library/json.rst:121
 msgid ""
-"$ echo '{\"json\":\"obj\"}' | python -m json.tool\n"
+"$ echo '{\"json\":\"obj\"}' | python -m json\n"
 "{\n"
 "    \"json\": \"obj\"\n"
 "}\n"
-"$ echo '{1.2:3.4}' | python -m json.tool\n"
+"$ echo '{1.2:3.4}' | python -m json\n"
 "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
 msgstr ""
 
@@ -999,7 +999,7 @@ msgid ""
 msgstr ""
 
 #: ../../library/json.rst:732
-msgid "Command Line Interface"
+msgid "Command-line interface"
 msgstr ""
 
 #: ../../library/json.rst:737
@@ -1008,43 +1008,51 @@ msgstr ""
 
 #: ../../library/json.rst:741
 msgid ""
-"The :mod:`json.tool` module provides a simple command line interface to "
-"validate and pretty-print JSON objects."
+"The :mod:`json` module can be invoked as a script via ``python -m json`` to "
+"validate and pretty-print JSON objects. The :mod:`json.tool` submodule "
+"implements this interface."
 msgstr ""
 
-#: ../../library/json.rst:744
+#: ../../library/json.rst:745
 msgid ""
 "If the optional ``infile`` and ``outfile`` arguments are not specified, :"
 "data:`sys.stdin` and :data:`sys.stdout` will be used respectively:"
 msgstr ""
 
-#: ../../library/json.rst:747
+#: ../../library/json.rst:748
 msgid ""
-"$ echo '{\"json\": \"obj\"}' | python -m json.tool\n"
+"$ echo '{\"json\": \"obj\"}' | python -m json\n"
 "{\n"
 "    \"json\": \"obj\"\n"
 "}\n"
-"$ echo '{1.2:3.4}' | python -m json.tool\n"
+"$ echo '{1.2:3.4}' | python -m json\n"
 "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
 msgstr ""
 
-#: ../../library/json.rst:756
+#: ../../library/json.rst:757
 msgid ""
 "The output is now in the same order as the input. Use the :option:`--sort-"
 "keys` option to sort the output of dictionaries alphabetically by key."
 msgstr ""
 
-#: ../../library/json.rst:763
-msgid "Command line options"
-msgstr ""
-
-#: ../../library/json.rst:767
-msgid "The JSON file to be validated or pretty-printed:"
+#: ../../library/json.rst:762
+msgid ""
+"The :mod:`json` module may now be directly executed as ``python -m json``. "
+"For backwards compatibility, invoking the CLI as ``python -m json.tool`` "
+"remains supported."
 msgstr ""
 
 #: ../../library/json.rst:769
+msgid "Command-line options"
+msgstr ""
+
+#: ../../library/json.rst:773
+msgid "The JSON file to be validated or pretty-printed:"
+msgstr ""
+
+#: ../../library/json.rst:775
 msgid ""
-"$ python -m json.tool mp_films.json\n"
+"$ python -m json mp_films.json\n"
 "[\n"
 "    {\n"
 "        \"title\": \"And Now for Something Completely Different\",\n"
@@ -1057,43 +1065,43 @@ msgid ""
 "]"
 msgstr ""
 
-#: ../../library/json.rst:783
+#: ../../library/json.rst:789
 msgid "If *infile* is not specified, read from :data:`sys.stdin`."
 msgstr ""
 
-#: ../../library/json.rst:787
+#: ../../library/json.rst:793
 msgid ""
 "Write the output of the *infile* to the given *outfile*. Otherwise, write it "
 "to :data:`sys.stdout`."
 msgstr ""
 
-#: ../../library/json.rst:792
+#: ../../library/json.rst:798
 msgid "Sort the output of dictionaries alphabetically by key."
 msgstr ""
 
-#: ../../library/json.rst:798
+#: ../../library/json.rst:804
 msgid ""
 "Disable escaping of non-ascii characters, see :func:`json.dumps` for more "
 "information."
 msgstr ""
 
-#: ../../library/json.rst:804
+#: ../../library/json.rst:810
 msgid "Parse every input line as separate JSON object."
 msgstr ""
 
-#: ../../library/json.rst:810
+#: ../../library/json.rst:816
 msgid "Mutually exclusive options for whitespace control."
 msgstr ""
 
-#: ../../library/json.rst:816
+#: ../../library/json.rst:822
 msgid "Show the help message."
 msgstr ""
 
-#: ../../library/json.rst:820
+#: ../../library/json.rst:826
 msgid "Footnotes"
 msgstr ""
 
-#: ../../library/json.rst:821
+#: ../../library/json.rst:827
 msgid ""
 "As noted in `the errata for RFC 7159 <https://www.rfc-editor.org/"
 "errata_search.php?rfc=7159>`_, JSON permits literal U+2028 (LINE SEPARATOR) "

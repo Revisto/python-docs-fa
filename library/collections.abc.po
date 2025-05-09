@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"POT-Creation-Date: 2025-05-08 02:53-0300\n"
 "PO-Revision-Date: 2021-06-28 00:56+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -229,7 +229,7 @@ msgstr ""
 msgid ":class:`Iterator`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:127 ../../library/collections.abc.rst:176
+#: ../../library/collections.abc.rst:127 ../../library/collections.abc.rst:173
 msgid "``send``, ``throw``"
 msgstr ""
 
@@ -261,12 +261,11 @@ msgstr ""
 msgid ":class:`Sized`, :class:`Iterable`, :class:`Container`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:130 ../../library/collections.abc.rst:146
+#: ../../library/collections.abc.rst:130 ../../library/collections.abc.rst:143
 msgid "``__contains__``, ``__iter__``, ``__len__``"
 msgstr ""
 
 #: ../../library/collections.abc.rst:134 ../../library/collections.abc.rst:137
-#: ../../library/collections.abc.rst:143
 msgid ":class:`Sequence`"
 msgstr ""
 
@@ -274,7 +273,7 @@ msgstr ""
 msgid ":class:`Reversible`, :class:`Collection`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:134 ../../library/collections.abc.rst:143
+#: ../../library/collections.abc.rst:134
 msgid "``__getitem__``, ``__len__``"
 msgstr ""
 
@@ -298,178 +297,170 @@ msgid ""
 "``extend``, ``pop``, ``remove``, and ``__iadd__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:143
-msgid ":class:`ByteString`"
-msgstr ""
-
-#: ../../library/collections.abc.rst:143
-msgid "Inherited :class:`Sequence` methods"
-msgstr ""
-
-#: ../../library/collections.abc.rst:146 ../../library/collections.abc.rst:151
+#: ../../library/collections.abc.rst:143 ../../library/collections.abc.rst:148
 msgid ":class:`Set`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:146 ../../library/collections.abc.rst:157
+#: ../../library/collections.abc.rst:143 ../../library/collections.abc.rst:154
 msgid ":class:`Collection`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:146
+#: ../../library/collections.abc.rst:143
 msgid ""
 "``__le__``, ``__lt__``, ``__eq__``, ``__ne__``, ``__gt__``, ``__ge__``, "
 "``__and__``, ``__or__``, ``__sub__``, ``__rsub__``, ``__xor__``, "
 "``__rxor__`` and ``isdisjoint``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:151
+#: ../../library/collections.abc.rst:148
 msgid ":class:`MutableSet`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:151
+#: ../../library/collections.abc.rst:148
 msgid "``__contains__``, ``__iter__``, ``__len__``, ``add``, ``discard``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:151
+#: ../../library/collections.abc.rst:148
 msgid ""
 "Inherited :class:`Set` methods and ``clear``, ``pop``, ``remove``, "
 "``__ior__``, ``__iand__``, ``__ixor__``, and ``__isub__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:157 ../../library/collections.abc.rst:161
+#: ../../library/collections.abc.rst:154 ../../library/collections.abc.rst:158
 msgid ":class:`Mapping`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:157
+#: ../../library/collections.abc.rst:154
 msgid "``__getitem__``, ``__iter__``, ``__len__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:157
+#: ../../library/collections.abc.rst:154
 msgid ""
 "``__contains__``, ``keys``, ``items``, ``values``, ``get``, ``__eq__``, and "
 "``__ne__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:161
+#: ../../library/collections.abc.rst:158
 msgid ":class:`MutableMapping`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:161
+#: ../../library/collections.abc.rst:158
 msgid ""
 "``__getitem__``, ``__setitem__``, ``__delitem__``, ``__iter__``, ``__len__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:161
+#: ../../library/collections.abc.rst:158
 msgid ""
 "Inherited :class:`Mapping` methods and ``pop``, ``popitem``, ``clear``, "
 "``update``, and ``setdefault``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:168
+#: ../../library/collections.abc.rst:165
 msgid ":class:`MappingView`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:168
+#: ../../library/collections.abc.rst:165
 msgid ":class:`Sized`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:168
+#: ../../library/collections.abc.rst:165
 msgid "``__init__``, ``__len__`` and ``__repr__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:169
+#: ../../library/collections.abc.rst:166
 msgid ":class:`ItemsView`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:169 ../../library/collections.abc.rst:171
+#: ../../library/collections.abc.rst:166 ../../library/collections.abc.rst:168
 msgid ":class:`MappingView`, :class:`Set`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:169 ../../library/collections.abc.rst:171
-#: ../../library/collections.abc.rst:173
+#: ../../library/collections.abc.rst:166 ../../library/collections.abc.rst:168
+#: ../../library/collections.abc.rst:170
 msgid "``__contains__``, ``__iter__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:171
+#: ../../library/collections.abc.rst:168
 msgid ":class:`KeysView`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:173
+#: ../../library/collections.abc.rst:170
 msgid ":class:`ValuesView`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:173
+#: ../../library/collections.abc.rst:170
 msgid ":class:`MappingView`, :class:`Collection`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:175
+#: ../../library/collections.abc.rst:172
 msgid ":class:`Awaitable` [1]_"
 msgstr ""
 
-#: ../../library/collections.abc.rst:175
+#: ../../library/collections.abc.rst:172
 msgid "``__await__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:176
+#: ../../library/collections.abc.rst:173
 msgid ":class:`Coroutine` [1]_"
 msgstr ""
 
-#: ../../library/collections.abc.rst:176
+#: ../../library/collections.abc.rst:173
 msgid ":class:`Awaitable`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:176
+#: ../../library/collections.abc.rst:173
 msgid "``close``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:177
+#: ../../library/collections.abc.rst:174
 msgid ":class:`AsyncIterable` [1]_"
 msgstr ""
 
-#: ../../library/collections.abc.rst:177 ../../library/collections.abc.rst:178
+#: ../../library/collections.abc.rst:174 ../../library/collections.abc.rst:175
 msgid "``__aiter__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:178
+#: ../../library/collections.abc.rst:175
 msgid ":class:`AsyncIterator` [1]_"
 msgstr ""
 
-#: ../../library/collections.abc.rst:178
+#: ../../library/collections.abc.rst:175
 msgid ":class:`AsyncIterable`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:178
+#: ../../library/collections.abc.rst:175
 msgid "``__anext__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:179
+#: ../../library/collections.abc.rst:176
 msgid ":class:`AsyncGenerator` [1]_"
 msgstr ""
 
-#: ../../library/collections.abc.rst:179
+#: ../../library/collections.abc.rst:176
 msgid ":class:`AsyncIterator`"
 msgstr ""
 
-#: ../../library/collections.abc.rst:179
+#: ../../library/collections.abc.rst:176
 msgid "``asend``, ``athrow``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:179
+#: ../../library/collections.abc.rst:176
 msgid "``aclose``, ``__aiter__``, ``__anext__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:180
+#: ../../library/collections.abc.rst:177
 msgid ":class:`Buffer` [1]_"
 msgstr ""
 
-#: ../../library/collections.abc.rst:180
+#: ../../library/collections.abc.rst:177
 msgid "``__buffer__``"
 msgstr ""
 
-#: ../../library/collections.abc.rst:185
+#: ../../library/collections.abc.rst:182
 msgid "Footnotes"
 msgstr ""
 
-#: ../../library/collections.abc.rst:186
+#: ../../library/collections.abc.rst:183
 msgid ""
 "These ABCs override :meth:`~abc.ABCMeta.__subclasshook__` to support testing "
 "an interface by verifying the required methods are present and have not been "
@@ -477,7 +468,7 @@ msgid ""
 "interfaces require registration or direct subclassing."
 msgstr ""
 
-#: ../../library/collections.abc.rst:192
+#: ../../library/collections.abc.rst:189
 msgid ""
 "Checking ``isinstance(obj, Iterable)`` detects classes that are registered "
 "as :class:`Iterable` or that have an :meth:`~container.__iter__` method, but "
@@ -486,37 +477,37 @@ msgid ""
 "`iterable` is to call ``iter(obj)``."
 msgstr ""
 
-#: ../../library/collections.abc.rst:200
+#: ../../library/collections.abc.rst:197
 msgid "Collections Abstract Base Classes -- Detailed Descriptions"
 msgstr ""
 
-#: ../../library/collections.abc.rst:205
+#: ../../library/collections.abc.rst:202
 msgid "ABC for classes that provide the :meth:`~object.__contains__` method."
 msgstr ""
 
-#: ../../library/collections.abc.rst:209
+#: ../../library/collections.abc.rst:206
 msgid "ABC for classes that provide the :meth:`~object.__hash__` method."
 msgstr ""
 
-#: ../../library/collections.abc.rst:213
+#: ../../library/collections.abc.rst:210
 msgid "ABC for classes that provide the :meth:`~object.__len__` method."
 msgstr ""
 
-#: ../../library/collections.abc.rst:217
+#: ../../library/collections.abc.rst:214
 msgid "ABC for classes that provide the :meth:`~object.__call__` method."
 msgstr ""
 
-#: ../../library/collections.abc.rst:219
+#: ../../library/collections.abc.rst:216
 msgid ""
 "See :ref:`annotating-callables` for details on how to use :class:`!Callable` "
 "in type annotations."
 msgstr ""
 
-#: ../../library/collections.abc.rst:224
+#: ../../library/collections.abc.rst:221
 msgid "ABC for classes that provide the :meth:`~container.__iter__` method."
 msgstr ""
 
-#: ../../library/collections.abc.rst:226
+#: ../../library/collections.abc.rst:223
 msgid ""
 "Checking ``isinstance(obj, Iterable)`` detects classes that are registered "
 "as :class:`Iterable` or that have an :meth:`~container.__iter__` method, but "
@@ -525,23 +516,23 @@ msgid ""
 "`iterable` is to call ``iter(obj)``."
 msgstr ""
 
-#: ../../library/collections.abc.rst:235
+#: ../../library/collections.abc.rst:232
 msgid "ABC for sized iterable container classes."
 msgstr ""
 
-#: ../../library/collections.abc.rst:241
+#: ../../library/collections.abc.rst:238
 msgid ""
 "ABC for classes that provide the :meth:`~iterator.__iter__` and :meth:"
 "`~iterator.__next__` methods.  See also the definition of :term:`iterator`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:247
+#: ../../library/collections.abc.rst:244
 msgid ""
 "ABC for iterable classes that also provide the :meth:`~object.__reversed__` "
 "method."
 msgstr ""
 
-#: ../../library/collections.abc.rst:254
+#: ../../library/collections.abc.rst:251
 msgid ""
 "ABC for :term:`generator` classes that implement the protocol defined in :"
 "pep:`342` that extends :term:`iterators <iterator>` with the :meth:"
@@ -549,17 +540,17 @@ msgid ""
 "methods."
 msgstr ""
 
-#: ../../library/collections.abc.rst:259
+#: ../../library/collections.abc.rst:256
 msgid ""
 "See :ref:`annotating-generators-and-coroutines` for details on using :class:"
 "`!Generator` in type annotations."
 msgstr ""
 
-#: ../../library/collections.abc.rst:268
+#: ../../library/collections.abc.rst:264
 msgid "ABCs for read-only and mutable :term:`sequences <sequence>`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:270
+#: ../../library/collections.abc.rst:266
 msgid ""
 "Implementation note: Some of the mixin methods, such as :meth:`~container."
 "__iter__`, :meth:`~object.__reversed__` and :meth:`index`, make repeated "
@@ -570,44 +561,37 @@ msgid ""
 "quadratic performance and will likely need to be overridden."
 msgstr ""
 
-#: ../../library/collections.abc.rst:279
+#: ../../library/collections.abc.rst:275
 msgid "The index() method added support for *stop* and *start* arguments."
 msgstr ""
 
-#: ../../library/collections.abc.rst:283
-msgid ""
-"The :class:`ByteString` ABC has been deprecated. For use in typing, prefer a "
-"union, like ``bytes | bytearray``, or :class:`collections.abc.Buffer`. For "
-"use as an ABC, prefer :class:`Sequence` or :class:`collections.abc.Buffer`."
-msgstr ""
-
-#: ../../library/collections.abc.rst:292
+#: ../../library/collections.abc.rst:282
 msgid "ABCs for read-only and mutable :ref:`sets <types-set>`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:297
+#: ../../library/collections.abc.rst:287
 msgid "ABCs for read-only and mutable :term:`mappings <mapping>`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:304
+#: ../../library/collections.abc.rst:294
 msgid ""
 "ABCs for mapping, items, keys, and values :term:`views <dictionary view>`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:308
+#: ../../library/collections.abc.rst:298
 msgid ""
 "ABC for :term:`awaitable` objects, which can be used in :keyword:`await` "
 "expressions.  Custom implementations must provide the :meth:`~object."
 "__await__` method."
 msgstr ""
 
-#: ../../library/collections.abc.rst:312
+#: ../../library/collections.abc.rst:302
 msgid ""
 ":term:`Coroutine <coroutine>` objects and instances of the :class:"
 "`~collections.abc.Coroutine` ABC are all instances of this ABC."
 msgstr ""
 
-#: ../../library/collections.abc.rst:316
+#: ../../library/collections.abc.rst:306
 msgid ""
 "In CPython, generator-based coroutines (:term:`generators <generator>` "
 "decorated with :func:`@types.coroutine <types.coroutine>`) are *awaitables*, "
@@ -616,7 +600,7 @@ msgid ""
 "`inspect.isawaitable` to detect them."
 msgstr ""
 
-#: ../../library/collections.abc.rst:326
+#: ../../library/collections.abc.rst:316
 msgid ""
 "ABC for :term:`coroutine` compatible classes.  These implement the following "
 "methods, defined in :ref:`coroutine-objects`: :meth:`~coroutine.send`, :meth:"
@@ -625,7 +609,7 @@ msgid ""
 "instances are also instances of :class:`Awaitable`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:334
+#: ../../library/collections.abc.rst:324
 msgid ""
 "In CPython, generator-based coroutines (:term:`generators <generator>` "
 "decorated with :func:`@types.coroutine <types.coroutine>`) are *awaitables*, "
@@ -634,61 +618,61 @@ msgid ""
 "`inspect.isawaitable` to detect them."
 msgstr ""
 
-#: ../../library/collections.abc.rst:340
+#: ../../library/collections.abc.rst:330
 msgid ""
 "See :ref:`annotating-generators-and-coroutines` for details on using :class:"
 "`!Coroutine` in type annotations. The variance and order of type parameters "
 "correspond to those of :class:`Generator`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:349
+#: ../../library/collections.abc.rst:339
 msgid ""
 "ABC for classes that provide an ``__aiter__`` method.  See also the "
 "definition of :term:`asynchronous iterable`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:356
+#: ../../library/collections.abc.rst:346
 msgid ""
 "ABC for classes that provide ``__aiter__`` and ``__anext__`` methods.  See "
 "also the definition of :term:`asynchronous iterator`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:363
+#: ../../library/collections.abc.rst:353
 msgid ""
 "ABC for :term:`asynchronous generator` classes that implement the protocol "
 "defined in :pep:`525` and :pep:`492`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:366
+#: ../../library/collections.abc.rst:356
 msgid ""
 "See :ref:`annotating-generators-and-coroutines` for details on using :class:"
 "`!AsyncGenerator` in type annotations."
 msgstr ""
 
-#: ../../library/collections.abc.rst:373
+#: ../../library/collections.abc.rst:363
 msgid ""
 "ABC for classes that provide the :meth:`~object.__buffer__` method, "
 "implementing the :ref:`buffer protocol <bufferobjects>`. See :pep:`688`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:379
+#: ../../library/collections.abc.rst:369
 msgid "Examples and Recipes"
 msgstr ""
 
-#: ../../library/collections.abc.rst:381
+#: ../../library/collections.abc.rst:371
 msgid ""
 "ABCs allow us to ask classes or instances if they provide particular "
 "functionality, for example::"
 msgstr ""
 
-#: ../../library/collections.abc.rst:384
+#: ../../library/collections.abc.rst:374
 msgid ""
 "size = None\n"
 "if isinstance(myvar, collections.abc.Sized):\n"
 "    size = len(myvar)"
 msgstr ""
 
-#: ../../library/collections.abc.rst:388
+#: ../../library/collections.abc.rst:378
 msgid ""
 "Several of the ABCs are also useful as mixins that make it easier to develop "
 "classes supporting container APIs.  For example, to write a class supporting "
@@ -698,7 +682,7 @@ msgid ""
 "methods such as :meth:`!__and__` and :meth:`~frozenset.isdisjoint`::"
 msgstr ""
 
-#: ../../library/collections.abc.rst:395
+#: ../../library/collections.abc.rst:385
 msgid ""
 "class ListBasedSet(collections.abc.Set):\n"
 "    ''' Alternate set implementation favoring space over speed\n"
@@ -724,11 +708,11 @@ msgid ""
 "automatically"
 msgstr ""
 
-#: ../../library/collections.abc.rst:417
+#: ../../library/collections.abc.rst:407
 msgid "Notes on using :class:`Set` and :class:`MutableSet` as a mixin:"
 msgstr ""
 
-#: ../../library/collections.abc.rst:420
+#: ../../library/collections.abc.rst:410
 msgid ""
 "Since some set operations create new sets, the default mixin methods need a "
 "way to create new instances from an :term:`iterable`. The class constructor "
@@ -741,14 +725,14 @@ msgid ""
 "iterable argument."
 msgstr ""
 
-#: ../../library/collections.abc.rst:431
+#: ../../library/collections.abc.rst:421
 msgid ""
 "To override the comparisons (presumably for speed, as the semantics are "
 "fixed), redefine :meth:`~object.__le__` and :meth:`~object.__ge__`, then the "
 "other operations will automatically follow suit."
 msgstr ""
 
-#: ../../library/collections.abc.rst:437
+#: ../../library/collections.abc.rst:427
 msgid ""
 "The :class:`Set` mixin provides a :meth:`!_hash` method to compute a hash "
 "value for the set; however, :meth:`~object.__hash__` is not defined because "
@@ -757,12 +741,12 @@ msgid ""
 "define ``__hash__ = Set._hash``."
 msgstr ""
 
-#: ../../library/collections.abc.rst:445
+#: ../../library/collections.abc.rst:435
 msgid ""
 "`OrderedSet recipe <https://code.activestate.com/recipes/576694/>`_ for an "
 "example built on :class:`MutableSet`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:448
+#: ../../library/collections.abc.rst:438
 msgid "For more about ABCs, see the :mod:`abc` module and :pep:`3119`."
 msgstr ""
