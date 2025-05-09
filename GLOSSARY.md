@@ -58,3 +58,4 @@
 | dependency    | وابستگی                  |
 | community     | کامیونیتی                |
 | namespace      | نام‌فضا                   |
+| Tracking       | پیگیری                   |
