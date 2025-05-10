@@ -57,4 +57,6 @@
 | runtime       | ران‌تایم                 |
 | dependency    | وابستگی                  |
 | community     | کامیونیتی                |
-| namespace      | نام‌فضا                   |
+| namespace     | نام‌فضا                   |
+| Tracking      | پیگیری                  |
+| method        | روش                 |
