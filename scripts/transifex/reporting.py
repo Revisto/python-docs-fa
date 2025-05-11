@@ -279,10 +279,7 @@ class ReadmeUpdaterReporter(ReportGenerator):
         pattern = str(
             chart_dir / f"{app_config.CONTRIBUTOR_CHART_FILENAME_PREFIX}*.png"
         )
-        print(chart_dir)
-        print(pattern)
         files = glob.glob(pattern)
-        print(files)
         if not files:
             return None
 
