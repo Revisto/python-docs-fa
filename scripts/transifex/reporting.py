@@ -302,16 +302,10 @@ class ReadmeUpdaterReporter(ReportGenerator):
 
         today_display = datetime.datetime.now().strftime("%Y-%m-%d")
 
-        # Construct the new stats section content
-        # For now, only contributor chart. Add progress chart later if needed.
         stats_section_content = (
             f"### {app_config.README_CONTRIBUTORS_HEADER}\n"
             f"![{app_config.README_CONTRIBUTORS_HEADER}]({latest_chart_path})\n"
             f"({app_config.README_UPDATED_ON}: {today_display})"
-            # Add progress chart here if you implement it:
-            # f"\n\n### {app_config.README_PROGRESS_HEADER}\n"
-            # f"![{app_config.README_PROGRESS_HEADER}]({latest_progress_chart_path})\n"
-            # f"({app_config.README_UPDATED_ON}: {today_display})"
         )
 
         full_replacement_text = (
@@ -332,9 +326,6 @@ class ReadmeUpdaterReporter(ReportGenerator):
             if pattern.search(content):
                 updated_content = pattern.sub(full_replacement_text, content)
             else:
-                # If markers are not found, append the new section.
-                # You might want a more sophisticated way to place it, e.g., before a specific header.
-                # For simplicity, appending if not found.
                 print(
                     f"Warning: Markers {app_config.README_STATS_START_MARKER} not found. Appending stats section."
                 )
