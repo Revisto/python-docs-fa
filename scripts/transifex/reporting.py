@@ -284,9 +284,10 @@ class ReadmeUpdaterReporter(ReportGenerator):
             return None
 
         # Sort files by name (timestamp ensures latest is last)
-        latest_file = sorted(files)[-1]
-        # Return path relative to README.md (which is at repo root)
-        return Path(latest_file).as_posix()
+        latest_file_path = Path(sorted(files)[-1])
+        # Return path relative to the project root
+        relative_path = latest_file_path.relative_to(app_config.PROJECT_ROOT)
+        return relative_path.as_posix()
 
     def generate(self) -> None:
         readme_path = app_config.README_PATH
