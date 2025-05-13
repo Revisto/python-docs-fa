@@ -180,22 +180,81 @@ class ResourceStatsMarkdownReporter(ReportGenerator):
 class TeamStatsMarkdownReporter(ReportGenerator):
     """Generates a Markdown file with team contribution statistics."""
 
+    def _parse_count_from_string(self, count_str: str) -> int:
+        """Extracts the base number from a count string like '123 (+4)'."""
+        match = re.match(r"(\d+)", count_str.strip())
+        if match:
+            return int(match.group(1))
+        return 0
+
+    def _format_count_with_diff(self, new_count: int, diff: int) -> str:
+        """Formats the count string to include the difference."""
+        if diff > 0:
+            return f"{new_count} (+{diff})"
+        return str(new_count)
+
     def generate(self) -> None:
         contributor_data = _get_processed_contributor_data()
-
         output_path = Path(app_config.TEAM_STATS_MD_PATH)
         headers_conf = app_config.REPORT_HEADERS["team_stats"]
         header_line = f"| {headers_conf['user']} | {headers_conf['role']} | {headers_conf['translated_count']} | {headers_conf['reviewed_count']} | {headers_conf['proofread_count']} |\n"
         alignment_line = headers_conf["alignment"]
 
-        # Sort by total contributions (descending)
+        old_stats = {}
+        if output_path.exists():
+            try:
+                with open(output_path, "r", encoding="utf-8") as f_old:
+                    lines = f_old.readlines()
+                    if (
+                        len(lines) > 2
+                    ):  # Check if there's data beyond header and alignment
+                        for line in lines[2:]:  # Skip header and alignment
+                            parts = [part.strip() for part in line.split("|")]
+                            if (
+                                len(parts) >= 6 and parts[1]
+                            ):  # Ensure valid row structure
+                                username = parts[1]
+                                old_stats[username] = {
+                                    "translated": self._parse_count_from_string(
+                                        parts[3]
+                                    ),
+                                    "reviewed": self._parse_count_from_string(parts[4]),
+                                    "proofread": self._parse_count_from_string(
+                                        parts[5]
+                                    ),
+                                }
+            except Exception as e:
+                print(f"Warning: Could not read or parse existing TEAM.md: {e}")
+                old_stats = {}  # Reset if parsing fails
+
         rows_sorted = sorted(contributor_data, key=lambda x: x["total"], reverse=True)
 
         with open(output_path, "w", encoding="utf-8") as fo:
             fo.writelines((header_line, alignment_line))
             for contributor in rows_sorted:
+                username = contributor["username"]
+                new_translated = contributor["translated"]
+                new_reviewed = contributor["reviewed"]
+                new_proofread = contributor["proofread"]
+
+                translated_str = str(new_translated)
+                reviewed_str = str(new_reviewed)
+                proofread_str = str(new_proofread)
+
+                if username in old_stats:
+                    prev_user_stats = old_stats[username]
+                    diff_t = new_translated - prev_user_stats.get("translated", 0)
+                    diff_r = new_reviewed - prev_user_stats.get("reviewed", 0)
+                    diff_p = new_proofread - prev_user_stats.get("proofread", 0)
+
+                    translated_str = self._format_count_with_diff(
+                        new_translated, diff_t
+                    )
+                    reviewed_str = self._format_count_with_diff(new_reviewed, diff_r)
+                    proofread_str = self._format_count_with_diff(new_proofread, diff_p)
+
                 fo.writelines(
-                    f"| {contributor['username']} | {contributor['role']} | {contributor['translated']} | {contributor['reviewed']} | {contributor['proofread']} |\n"
+                    f"| {username} | {contributor['role']} | {translated_str} | {reviewed_str} | {proofread_str} |\n"
                 )
         print(f"Generated team stats at {output_path}")
 
