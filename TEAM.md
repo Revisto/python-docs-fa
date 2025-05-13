@@ -1,6 +1,6 @@
 | User | Role | Translated Count | Reviewed Count | Proofread Count |
 |:-----|:------:|:------------------:|:-------------------:|:----------------------:|
-| Revisto | coordinator | 4028 | 26 | 0 |
+| Revisto | coordinator | 4028 | 28 (+2) | 0 |
 | danialbehzadi | reviewer | 740 | 5 | 0 |
 | Ramiz_222 | reviewer | 11 | 83 | 0 |
 | Ariyan_Bolandi | reviewer | 43 | 7 | 0 |

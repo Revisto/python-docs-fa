@@ -9,6 +9,7 @@
 | tutorial/appendix.po | 100.0% | 3.2% | 0.0% |
 | library/functions.po | 98.1% | 2.9% | 0.0% |
 | c-api/dict.po | 1.0% | 0.6% | 0.0% |
+| library/json.po | 0.4% | 0.1% | 0.0% |
 | tutorial/appetite.po | 100.0% | 0.0% | 0.0% |
 | tutorial/datastructures.po | 100.0% | 0.0% | 0.0% |
 | tutorial/floatingpoint.po | 100.0% | 0.0% | 0.0% |
@@ -92,7 +93,6 @@
 | library/functools.po | 0.4% | 0.0% | 0.0% |
 | library/gettext.po | 0.4% | 0.0% | 0.0% |
 | library/http_cookiejar.po | 0.4% | 0.0% | 0.0% |
-| library/json.po | 0.4% | 0.0% | 0.0% |
 | library/pyclbr.po | 0.4% | 0.0% | 0.0% |
 | library/rlcompleter.po | 0.4% | 0.0% | 0.0% |
 | library/selectors.po | 0.4% | 0.0% | 0.0% |
