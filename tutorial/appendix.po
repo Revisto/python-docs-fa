@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2025, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.13\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-02 14:19+0000\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 01:49+0000\n"
 "Last-Translator: khosro azimi, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../tutorial/appendix.rst:38
 msgid "Error Handling"
-msgstr ""
+msgstr "مدیریت خطاها"
 
 #: ../../tutorial/appendix.rst:40
 msgid ""
@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../../tutorial/appendix.rst:60
 msgid "Executable Python Scripts"
-msgstr ""
+msgstr "اسکریپت های اجرایی پایتون"
 
 #: ../../tutorial/appendix.rst:62
 msgid ""
@@ -136,7 +136,7 @@ msgstr ""
 
 #: ../../tutorial/appendix.rst:91
 msgid "The Interactive Startup File"
-msgstr ""
+msgstr "پروندهٔ آغازین تعاملی «The Interactive Startup File»"
 
 #: ../../tutorial/appendix.rst:93
 msgid ""
@@ -211,11 +211,15 @@ msgid ""
 "imported before :index:`usercustomize`.  See the documentation of the :mod:"
 "`site` module for more details."
 msgstr ""
+":index:`sitecustomize` به همان صورت کار می کند، اما به طور معمول توسط مدیر "
+"سیستم در دایرکتوری global site-packages ایجاد می شود و قبل از :index:"
+"`usercustomize` وارد می شود. برای جزئیات بیشتر به مستندات ماژول :mod:`site` "
+"مراجعه کنید."
 
 #: ../../tutorial/appendix.rst:145
 msgid "Footnotes"
-msgstr ""
+msgstr "پاورقی ها"
 
 #: ../../tutorial/appendix.rst:146
 msgid "A problem with the GNU Readline package may prevent this."
-msgstr ""
+msgstr "یک مشکل در بستهٔ «GNU Readline» ممکن است مانع این کار شود."
