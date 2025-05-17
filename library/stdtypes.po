@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-05-16 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 01:13+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -119,8 +119,8 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:86 ../../library/stdtypes.rst:282
 #: ../../library/stdtypes.rst:422 ../../library/stdtypes.rst:1007
-#: ../../library/stdtypes.rst:1212 ../../library/stdtypes.rst:2714
-#: ../../library/stdtypes.rst:3973
+#: ../../library/stdtypes.rst:1212 ../../library/stdtypes.rst:2726
+#: ../../library/stdtypes.rst:3985
 msgid "Notes"
 msgstr ""
 
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:88 ../../library/stdtypes.rst:1009
 #: ../../library/stdtypes.rst:1012 ../../library/stdtypes.rst:1223
-#: ../../library/stdtypes.rst:2720 ../../library/stdtypes.rst:3979
+#: ../../library/stdtypes.rst:2732 ../../library/stdtypes.rst:3991
 msgid "\\(1)"
 msgstr ""
 
@@ -148,8 +148,8 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:91 ../../library/stdtypes.rst:295
 #: ../../library/stdtypes.rst:315 ../../library/stdtypes.rst:1251
-#: ../../library/stdtypes.rst:2724 ../../library/stdtypes.rst:2726
-#: ../../library/stdtypes.rst:3983 ../../library/stdtypes.rst:3985
+#: ../../library/stdtypes.rst:2736 ../../library/stdtypes.rst:2738
+#: ../../library/stdtypes.rst:3995 ../../library/stdtypes.rst:3997
 msgid "\\(2)"
 msgstr ""
 
@@ -162,18 +162,18 @@ msgid "if *x* is false, then ``True``, else ``False``"
 msgstr ""
 
 #: ../../library/stdtypes.rst:94 ../../library/stdtypes.rst:1021
-#: ../../library/stdtypes.rst:1254 ../../library/stdtypes.rst:2728
-#: ../../library/stdtypes.rst:2730 ../../library/stdtypes.rst:2732
-#: ../../library/stdtypes.rst:2734 ../../library/stdtypes.rst:3987
-#: ../../library/stdtypes.rst:3989 ../../library/stdtypes.rst:3991
-#: ../../library/stdtypes.rst:3993
+#: ../../library/stdtypes.rst:1254 ../../library/stdtypes.rst:2740
+#: ../../library/stdtypes.rst:2742 ../../library/stdtypes.rst:2744
+#: ../../library/stdtypes.rst:2746 ../../library/stdtypes.rst:3999
+#: ../../library/stdtypes.rst:4001 ../../library/stdtypes.rst:4003
+#: ../../library/stdtypes.rst:4005
 msgid "\\(3)"
 msgstr ""
 
 #: ../../library/stdtypes.rst:103 ../../library/stdtypes.rst:326
 #: ../../library/stdtypes.rst:440 ../../library/stdtypes.rst:1058
-#: ../../library/stdtypes.rst:1263 ../../library/stdtypes.rst:2760
-#: ../../library/stdtypes.rst:4023
+#: ../../library/stdtypes.rst:1263 ../../library/stdtypes.rst:2772
+#: ../../library/stdtypes.rst:4035
 msgid "Notes:"
 msgstr ""
 
@@ -212,9 +212,9 @@ msgstr ""
 msgid "This table summarizes the comparison operations:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:144 ../../library/stdtypes.rst:2546
-#: ../../library/stdtypes.rst:2691 ../../library/stdtypes.rst:2714
-#: ../../library/stdtypes.rst:3950 ../../library/stdtypes.rst:3973
+#: ../../library/stdtypes.rst:144 ../../library/stdtypes.rst:2558
+#: ../../library/stdtypes.rst:2703 ../../library/stdtypes.rst:2726
+#: ../../library/stdtypes.rst:3962 ../../library/stdtypes.rst:3985
 msgid "Meaning"
 msgstr ""
 
@@ -512,7 +512,7 @@ msgid ""
 msgstr ""
 
 #: ../../library/stdtypes.rst:308 ../../library/stdtypes.rst:1244
-#: ../../library/stdtypes.rst:2722 ../../library/stdtypes.rst:4010
+#: ../../library/stdtypes.rst:2734 ../../library/stdtypes.rst:4022
 msgid "\\(6)"
 msgstr ""
 
@@ -550,9 +550,9 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:317 ../../library/stdtypes.rst:319
 #: ../../library/stdtypes.rst:1233 ../../library/stdtypes.rst:1236
-#: ../../library/stdtypes.rst:2747 ../../library/stdtypes.rst:2750
-#: ../../library/stdtypes.rst:2753 ../../library/stdtypes.rst:4006
-#: ../../library/stdtypes.rst:4013
+#: ../../library/stdtypes.rst:2759 ../../library/stdtypes.rst:2762
+#: ../../library/stdtypes.rst:2765 ../../library/stdtypes.rst:4018
+#: ../../library/stdtypes.rst:4025
 msgid "\\(5)"
 msgstr ""
 
@@ -691,8 +691,8 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:424 ../../library/stdtypes.rst:427
 #: ../../library/stdtypes.rst:430 ../../library/stdtypes.rst:1258
-#: ../../library/stdtypes.rst:2736 ../../library/stdtypes.rst:2740
-#: ../../library/stdtypes.rst:3995 ../../library/stdtypes.rst:3999
+#: ../../library/stdtypes.rst:2748 ../../library/stdtypes.rst:2752
+#: ../../library/stdtypes.rst:4007 ../../library/stdtypes.rst:4011
 msgid "\\(4)"
 msgstr ""
 
@@ -1503,7 +1503,7 @@ msgid ""
 "before index *j*)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:1034 ../../library/stdtypes.rst:3981
+#: ../../library/stdtypes.rst:1034 ../../library/stdtypes.rst:3993
 msgid "\\(8)"
 msgstr ""
 
@@ -2786,7 +2786,7 @@ msgstr ""
 msgid "Return the string encoded to :class:`bytes`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:1809 ../../library/stdtypes.rst:3146
+#: ../../library/stdtypes.rst:1809 ../../library/stdtypes.rst:3158
 msgid ""
 "*encoding* defaults to ``'utf-8'``; see :ref:`standard-encodings` for "
 "possible values."
@@ -2808,11 +2808,11 @@ msgid ""
 "ref:`debug build <debug-build>` is used."
 msgstr ""
 
-#: ../../library/stdtypes.rst:1824 ../../library/stdtypes.rst:3165
+#: ../../library/stdtypes.rst:1824 ../../library/stdtypes.rst:3177
 msgid "Added support for keyword arguments."
 msgstr ""
 
-#: ../../library/stdtypes.rst:1827 ../../library/stdtypes.rst:3168
+#: ../../library/stdtypes.rst:1827 ../../library/stdtypes.rst:3180
 msgid ""
 "The value of the *errors* argument is now checked in :ref:`devmode` and in :"
 "ref:`debug mode <debug-build>`."
@@ -3264,15 +3264,15 @@ msgid ""
 msgstr ""
 
 #: ../../library/stdtypes.rst:2245 ../../library/stdtypes.rst:2263
-#: ../../library/stdtypes.rst:2315 ../../library/stdtypes.rst:2383
-#: ../../library/stdtypes.rst:2451 ../../library/stdtypes.rst:3483
-#: ../../library/stdtypes.rst:3501 ../../library/stdtypes.rst:3592
-#: ../../library/stdtypes.rst:3608 ../../library/stdtypes.rst:3633
-#: ../../library/stdtypes.rst:3647 ../../library/stdtypes.rst:3675
-#: ../../library/stdtypes.rst:3689 ../../library/stdtypes.rst:3707
-#: ../../library/stdtypes.rst:3734 ../../library/stdtypes.rst:3757
-#: ../../library/stdtypes.rst:3784 ../../library/stdtypes.rst:3826
-#: ../../library/stdtypes.rst:3850
+#: ../../library/stdtypes.rst:2275 ../../library/stdtypes.rst:2327
+#: ../../library/stdtypes.rst:2395 ../../library/stdtypes.rst:2463
+#: ../../library/stdtypes.rst:3495 ../../library/stdtypes.rst:3513
+#: ../../library/stdtypes.rst:3604 ../../library/stdtypes.rst:3620
+#: ../../library/stdtypes.rst:3645 ../../library/stdtypes.rst:3659
+#: ../../library/stdtypes.rst:3687 ../../library/stdtypes.rst:3701
+#: ../../library/stdtypes.rst:3719 ../../library/stdtypes.rst:3746
+#: ../../library/stdtypes.rst:3769 ../../library/stdtypes.rst:3796
+#: ../../library/stdtypes.rst:3838 ../../library/stdtypes.rst:3862
 msgid "For example::"
 msgstr ""
 
@@ -3308,120 +3308,136 @@ msgid ""
 "['1', '2', '3']"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2278
+#: ../../library/stdtypes.rst:2272
+msgid ""
+"If *sep* is not specified or is ``None`` and  *maxsplit* is ``0``, only "
+"leading runs of consecutive whitespace are considered."
+msgstr ""
+
+#: ../../library/stdtypes.rst:2277
+msgid ""
+">>> \"\".split(None, 0)\n"
+"[]\n"
+">>> \"   \".split(None, 0)\n"
+"[]\n"
+">>> \"   foo   \".split(maxsplit=0)\n"
+"['foo   ']"
+msgstr ""
+
+#: ../../library/stdtypes.rst:2290
 msgid ""
 "Return a list of the lines in the string, breaking at line boundaries.  Line "
 "breaks are not included in the resulting list unless *keepends* is given and "
 "true."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2282
+#: ../../library/stdtypes.rst:2294
 msgid ""
 "This method splits on the following line boundaries.  In particular, the "
 "boundaries are a superset of :term:`universal newlines`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2286
+#: ../../library/stdtypes.rst:2298
 msgid "Representation"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2286
+#: ../../library/stdtypes.rst:2298
 msgid "Description"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2288
+#: ../../library/stdtypes.rst:2300
 msgid "``\\n``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2288
+#: ../../library/stdtypes.rst:2300
 msgid "Line Feed"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2290
+#: ../../library/stdtypes.rst:2302
 msgid "``\\r``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2290
+#: ../../library/stdtypes.rst:2302
 msgid "Carriage Return"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2292
+#: ../../library/stdtypes.rst:2304
 msgid "``\\r\\n``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2292
+#: ../../library/stdtypes.rst:2304
 msgid "Carriage Return + Line Feed"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2294
+#: ../../library/stdtypes.rst:2306
 msgid "``\\v`` or ``\\x0b``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2294
+#: ../../library/stdtypes.rst:2306
 msgid "Line Tabulation"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2296
+#: ../../library/stdtypes.rst:2308
 msgid "``\\f`` or ``\\x0c``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2296
+#: ../../library/stdtypes.rst:2308
 msgid "Form Feed"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2298
+#: ../../library/stdtypes.rst:2310
 msgid "``\\x1c``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2298
+#: ../../library/stdtypes.rst:2310
 msgid "File Separator"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2300
+#: ../../library/stdtypes.rst:2312
 msgid "``\\x1d``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2300
+#: ../../library/stdtypes.rst:2312
 msgid "Group Separator"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2302
+#: ../../library/stdtypes.rst:2314
 msgid "``\\x1e``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2302
+#: ../../library/stdtypes.rst:2314
 msgid "Record Separator"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2304
+#: ../../library/stdtypes.rst:2316
 msgid "``\\x85``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2304
+#: ../../library/stdtypes.rst:2316
 msgid "Next Line (C1 Control Code)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2306
+#: ../../library/stdtypes.rst:2318
 msgid "``\\u2028``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2306
+#: ../../library/stdtypes.rst:2318
 msgid "Line Separator"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2308
+#: ../../library/stdtypes.rst:2320
 msgid "``\\u2029``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2308
+#: ../../library/stdtypes.rst:2320
 msgid "Paragraph Separator"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2313
+#: ../../library/stdtypes.rst:2325
 msgid "``\\v`` and ``\\f`` added to list of line boundaries."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2317
+#: ../../library/stdtypes.rst:2329
 msgid ""
 ">>> 'ab c\\n\\nde fg\\rkl\\r\\n'.splitlines()\n"
 "['ab c', '', 'de fg', 'kl']\n"
@@ -3429,14 +3445,14 @@ msgid ""
 "['ab c\\n', '\\n', 'de fg\\r', 'kl\\r\\n']"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2322
+#: ../../library/stdtypes.rst:2334
 msgid ""
 "Unlike :meth:`~str.split` when a delimiter string *sep* is given, this "
 "method returns an empty list for the empty string, and a terminal line break "
 "does not result in an extra line::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2326
+#: ../../library/stdtypes.rst:2338
 msgid ""
 ">>> \"\".splitlines()\n"
 "[]\n"
@@ -3444,11 +3460,11 @@ msgid ""
 "['One line']"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2331
+#: ../../library/stdtypes.rst:2343
 msgid "For comparison, ``split('\\n')`` gives::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2333
+#: ../../library/stdtypes.rst:2345
 msgid ""
 ">>> ''.split('\\n')\n"
 "['']\n"
@@ -3456,7 +3472,7 @@ msgid ""
 "['Two lines', '']"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2341
+#: ../../library/stdtypes.rst:2353
 msgid ""
 "Return ``True`` if string starts with the *prefix*, otherwise return "
 "``False``. *prefix* can also be a tuple of prefixes to look for.  With "
@@ -3464,7 +3480,7 @@ msgid ""
 "*end*, stop comparing string at that position."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2349
+#: ../../library/stdtypes.rst:2361
 msgid ""
 "Return a copy of the string with the leading and trailing characters "
 "removed. The *chars* argument is a string specifying the set of characters "
@@ -3473,7 +3489,7 @@ msgid ""
 "all combinations of its values are stripped::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2355
+#: ../../library/stdtypes.rst:2367
 msgid ""
 ">>> '   spacious   '.strip()\n"
 "'spacious'\n"
@@ -3481,7 +3497,7 @@ msgid ""
 "'example'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2360
+#: ../../library/stdtypes.rst:2372
 msgid ""
 "The outermost leading and trailing *chars* argument values are stripped from "
 "the string. Characters are removed from the leading end until reaching a "
@@ -3489,33 +3505,33 @@ msgid ""
 "A similar action takes place on the trailing end. For example::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2366
+#: ../../library/stdtypes.rst:2378
 msgid ""
 ">>> comment_string = '#....... Section 3.2.1 Issue #32 .......'\n"
 ">>> comment_string.strip('.#! ')\n"
 "'Section 3.2.1 Issue #32'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2373
+#: ../../library/stdtypes.rst:2385
 msgid ""
 "Return a copy of the string with uppercase characters converted to lowercase "
 "and vice versa. Note that it is not necessarily true that ``s.swapcase()."
 "swapcase() == s``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2380
+#: ../../library/stdtypes.rst:2392
 msgid ""
 "Return a titlecased version of the string where words start with an "
 "uppercase character and the remaining characters are lowercase."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2385
+#: ../../library/stdtypes.rst:2397
 msgid ""
 ">>> 'Hello world'.title()\n"
 "'Hello World'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2388 ../../library/stdtypes.rst:3794
+#: ../../library/stdtypes.rst:2400 ../../library/stdtypes.rst:3806
 msgid ""
 "The algorithm uses a simple language-independent definition of a word as "
 "groups of consecutive letters.  The definition works in many contexts but it "
@@ -3523,25 +3539,25 @@ msgid ""
 "which may not be the desired result::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2393
+#: ../../library/stdtypes.rst:2405
 msgid ""
 ">>> \"they're bill's friends from the UK\".title()\n"
 "\"They'Re Bill'S Friends From The Uk\""
 msgstr ""
 
-#: ../../library/stdtypes.rst:2396
+#: ../../library/stdtypes.rst:2408
 msgid ""
 "The :func:`string.capwords` function does not have this problem, as it "
 "splits words on spaces only."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2399
+#: ../../library/stdtypes.rst:2411
 msgid ""
 "Alternatively, a workaround for apostrophes can be constructed using regular "
 "expressions::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2402
+#: ../../library/stdtypes.rst:2414
 msgid ""
 ">>> import re\n"
 ">>> def titlecase(s):\n"
@@ -3553,7 +3569,7 @@ msgid ""
 "\"They're Bill's Friends.\""
 msgstr ""
 
-#: ../../library/stdtypes.rst:2414
+#: ../../library/stdtypes.rst:2426
 msgid ""
 "Return a copy of the string in which each character has been mapped through "
 "the given translation table.  The table must be an object that implements "
@@ -3565,19 +3581,19 @@ msgid ""
 "exception, to map the character to itself."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2423
+#: ../../library/stdtypes.rst:2435
 msgid ""
 "You can use :meth:`str.maketrans` to create a translation map from character-"
 "to-character mappings in different formats."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2426
+#: ../../library/stdtypes.rst:2438
 msgid ""
 "See also the :mod:`codecs` module for a more flexible approach to custom "
 "character mappings."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2432
+#: ../../library/stdtypes.rst:2444
 msgid ""
 "Return a copy of the string with all the cased characters [4]_ converted to "
 "uppercase.  Note that ``s.upper().isupper()`` might be ``False`` if ``s`` "
@@ -3586,14 +3602,14 @@ msgid ""
 "titlecase)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2438
+#: ../../library/stdtypes.rst:2450
 msgid ""
 "The uppercasing algorithm used is `described in section 3.13 'Default Case "
 "Folding' of the Unicode Standard <https://www.unicode.org/versions/"
 "Unicode16.0.0/core-spec/chapter-3/#G33992>`__."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2445
+#: ../../library/stdtypes.rst:2457
 msgid ""
 "Return a copy of the string left filled with ASCII ``'0'`` digits to make a "
 "string of length *width*. A leading sign prefix (``'+'``/``'-'``) is handled "
@@ -3601,7 +3617,7 @@ msgid ""
 "original string is returned if *width* is less than or equal to ``len(s)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2453
+#: ../../library/stdtypes.rst:2465
 msgid ""
 ">>> \"42\".zfill(5)\n"
 "'00042'\n"
@@ -3609,27 +3625,27 @@ msgid ""
 "'-0042'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2474
+#: ../../library/stdtypes.rst:2486
 msgid "Formatted String Literals (f-strings)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2477
+#: ../../library/stdtypes.rst:2489
 msgid ""
 "The :keyword:`await` and :keyword:`async for` can be used in expressions "
 "within f-strings."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2480
+#: ../../library/stdtypes.rst:2492
 msgid "Added the debugging operator (``=``)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2482
+#: ../../library/stdtypes.rst:2494
 msgid ""
 "Many restrictions on expressions within f-strings have been removed. "
 "Notably, nested strings, comments, and backslashes are now permitted."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2486
+#: ../../library/stdtypes.rst:2498
 msgid ""
 "An :dfn:`f-string` (formally a :dfn:`formatted string literal`) is a string "
 "literal that is prefixed with ``f`` or ``F``. This type of string literal "
@@ -3639,7 +3655,7 @@ msgid ""
 "into regular :class:`str` objects. For example:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2494
+#: ../../library/stdtypes.rst:2506
 msgid ""
 ">>> who = 'nobody'\n"
 ">>> nationality = 'Spanish'\n"
@@ -3647,104 +3663,104 @@ msgid ""
 "'Nobody expects the Spanish Inquisition!'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2501
+#: ../../library/stdtypes.rst:2513
 msgid "It is also possible to use a multi line f-string:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2503
+#: ../../library/stdtypes.rst:2515
 msgid ""
 ">>> f'''This is a string\n"
 "... on two lines'''\n"
 "'This is a string\\non two lines'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2509
+#: ../../library/stdtypes.rst:2521
 msgid ""
 "A single opening curly bracket, ``'{'``, marks a *replacement field* that "
 "can contain any Python expression:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2512
+#: ../../library/stdtypes.rst:2524
 msgid ""
 ">>> nationality = 'Spanish'\n"
 ">>> f'The {nationality} Inquisition!'\n"
 "'The Spanish Inquisition!'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2518
+#: ../../library/stdtypes.rst:2530
 msgid "To include a literal ``{`` or ``}``, use a double bracket:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2520
+#: ../../library/stdtypes.rst:2532
 msgid ""
 ">>> x = 42\n"
 ">>> f'{{x}} is {x}'\n"
 "'{x} is 42'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2526
+#: ../../library/stdtypes.rst:2538
 msgid ""
 "Functions can also be used, and :ref:`format specifiers <formatstrings>`:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2528
+#: ../../library/stdtypes.rst:2540
 msgid ""
 ">>> from math import sqrt\n"
 ">>> f'√2 \\N{ALMOST EQUAL TO} {sqrt(2):.5f}'\n"
 "'√2 ≈ 1.41421'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2534
+#: ../../library/stdtypes.rst:2546
 msgid "Any non-string expression is converted using :func:`str`, by default:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2536
+#: ../../library/stdtypes.rst:2548
 msgid ""
 ">>> from fractions import Fraction\n"
 ">>> f'{Fraction(1, 3)}'\n"
 "'1/3'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2542
+#: ../../library/stdtypes.rst:2554
 msgid ""
 "To use an explicit conversion, use the ``!`` (exclamation mark) operator, "
 "followed by any of the valid formats, which are:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2546 ../../library/stdtypes.rst:2714
-#: ../../library/stdtypes.rst:3973
+#: ../../library/stdtypes.rst:2558 ../../library/stdtypes.rst:2726
+#: ../../library/stdtypes.rst:3985
 msgid "Conversion"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2548
+#: ../../library/stdtypes.rst:2560
 msgid "``!a``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2548
+#: ../../library/stdtypes.rst:2560
 msgid ":func:`ascii`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2549
+#: ../../library/stdtypes.rst:2561
 msgid "``!r``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2549
+#: ../../library/stdtypes.rst:2561
 msgid ":func:`repr`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2550
+#: ../../library/stdtypes.rst:2562
 msgid "``!s``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2550
+#: ../../library/stdtypes.rst:2562
 msgid ":func:`str`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2553
+#: ../../library/stdtypes.rst:2565
 msgid "For example:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2555
+#: ../../library/stdtypes.rst:2567
 msgid ""
 ">>> from fractions import Fraction\n"
 ">>> f'{Fraction(1, 3)!s}'\n"
@@ -3756,7 +3772,7 @@ msgid ""
 "'\\xbfD\\xf3nde est\\xe1 el Presidente?'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2566
+#: ../../library/stdtypes.rst:2578
 msgid ""
 "While debugging it may be helpful to see both the expression and its value, "
 "by using the equals sign (``=``) after the expression. This preserves spaces "
@@ -3764,7 +3780,7 @@ msgid ""
 "debugging operator uses the :func:`repr` (``!r``) conversion. For example:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2572
+#: ../../library/stdtypes.rst:2584
 msgid ""
 ">>> from fractions import Fraction\n"
 ">>> calculation = Fraction(1, 3)\n"
@@ -3776,7 +3792,7 @@ msgid ""
 "'calculation = 1/3'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2583
+#: ../../library/stdtypes.rst:2595
 msgid ""
 "Once the output has been evaluated, it can be formatted using a :ref:`format "
 "specifier <formatstrings>` following a colon (``':'``). After the expression "
@@ -3786,7 +3802,7 @@ msgid ""
 "used as the final value for the replacement field. For example:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2591
+#: ../../library/stdtypes.rst:2603
 msgid ""
 ">>> from fractions import Fraction\n"
 ">>> f'{Fraction(1, 7):.6f}'\n"
@@ -3795,11 +3811,11 @@ msgid ""
 "'___+1/7___'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2603
+#: ../../library/stdtypes.rst:2615
 msgid "``printf``-style String Formatting"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2616
+#: ../../library/stdtypes.rst:2628
 msgid ""
 "The formatting operations described here exhibit a variety of quirks that "
 "lead to a number of common errors (such as failing to display tuples and "
@@ -3810,7 +3826,7 @@ msgid ""
 "or extensibility."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2624
+#: ../../library/stdtypes.rst:2636
 msgid ""
 "String objects have one unique built-in operation: the ``%`` operator "
 "(modulo). This is also known as the string *formatting* or *interpolation* "
@@ -3820,13 +3836,13 @@ msgid ""
 "function in the C language. For example:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2631
+#: ../../library/stdtypes.rst:2643
 msgid ""
 ">>> print('%s has %d quote types.' % ('Python', 2))\n"
 "Python has 2 quote types."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2636
+#: ../../library/stdtypes.rst:2648
 msgid ""
 "If *format* requires a single argument, *values* may be a single non-tuple "
 "object. [5]_  Otherwise, *values* must be a tuple with exactly the number of "
@@ -3834,36 +3850,36 @@ msgid ""
 "example, a dictionary)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2646 ../../library/stdtypes.rst:3905
+#: ../../library/stdtypes.rst:2658 ../../library/stdtypes.rst:3917
 msgid ""
 "A conversion specifier contains two or more characters and has the following "
 "components, which must occur in this order:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2649 ../../library/stdtypes.rst:3908
+#: ../../library/stdtypes.rst:2661 ../../library/stdtypes.rst:3920
 msgid "The ``'%'`` character, which marks the start of the specifier."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2651 ../../library/stdtypes.rst:3910
+#: ../../library/stdtypes.rst:2663 ../../library/stdtypes.rst:3922
 msgid ""
 "Mapping key (optional), consisting of a parenthesised sequence of characters "
 "(for example, ``(somename)``)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2654 ../../library/stdtypes.rst:3913
+#: ../../library/stdtypes.rst:2666 ../../library/stdtypes.rst:3925
 msgid ""
 "Conversion flags (optional), which affect the result of some conversion "
 "types."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2657 ../../library/stdtypes.rst:3916
+#: ../../library/stdtypes.rst:2669 ../../library/stdtypes.rst:3928
 msgid ""
 "Minimum field width (optional).  If specified as an ``'*'`` (asterisk), the "
 "actual width is read from the next element of the tuple in *values*, and the "
 "object to convert comes after the minimum field width and optional precision."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2661 ../../library/stdtypes.rst:3920
+#: ../../library/stdtypes.rst:2673 ../../library/stdtypes.rst:3932
 msgid ""
 "Precision (optional), given as a ``'.'`` (dot) followed by the precision.  "
 "If specified as ``'*'`` (an asterisk), the actual precision is read from the "
@@ -3871,15 +3887,15 @@ msgid ""
 "the precision."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2666 ../../library/stdtypes.rst:3925
+#: ../../library/stdtypes.rst:2678 ../../library/stdtypes.rst:3937
 msgid "Length modifier (optional)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2668 ../../library/stdtypes.rst:3927
+#: ../../library/stdtypes.rst:2680 ../../library/stdtypes.rst:3939
 msgid "Conversion type."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2670
+#: ../../library/stdtypes.rst:2682
 msgid ""
 "When the right argument is a dictionary (or other mapping type), then the "
 "formats in the string *must* include a parenthesised mapping key into that "
@@ -3887,275 +3903,275 @@ msgid ""
 "selects the value to be formatted from the mapping.  For example:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2679 ../../library/stdtypes.rst:3938
+#: ../../library/stdtypes.rst:2691 ../../library/stdtypes.rst:3950
 msgid ""
 "In this case no ``*`` specifiers may occur in a format (since they require a "
 "sequential parameter list)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2682 ../../library/stdtypes.rst:3941
+#: ../../library/stdtypes.rst:2694 ../../library/stdtypes.rst:3953
 msgid "The conversion flag characters are:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2691 ../../library/stdtypes.rst:3950
+#: ../../library/stdtypes.rst:2703 ../../library/stdtypes.rst:3962
 msgid "Flag"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2693 ../../library/stdtypes.rst:3952
+#: ../../library/stdtypes.rst:2705 ../../library/stdtypes.rst:3964
 msgid "``'#'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2693 ../../library/stdtypes.rst:3952
+#: ../../library/stdtypes.rst:2705 ../../library/stdtypes.rst:3964
 msgid ""
 "The value conversion will use the \"alternate form\" (where defined below)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2696 ../../library/stdtypes.rst:3955
+#: ../../library/stdtypes.rst:2708 ../../library/stdtypes.rst:3967
 msgid "``'0'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2696 ../../library/stdtypes.rst:3955
+#: ../../library/stdtypes.rst:2708 ../../library/stdtypes.rst:3967
 msgid "The conversion will be zero padded for numeric values."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2698 ../../library/stdtypes.rst:3957
+#: ../../library/stdtypes.rst:2710 ../../library/stdtypes.rst:3969
 msgid "``'-'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2698 ../../library/stdtypes.rst:3957
+#: ../../library/stdtypes.rst:2710 ../../library/stdtypes.rst:3969
 msgid ""
 "The converted value is left adjusted (overrides the ``'0'`` conversion if "
 "both are given)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2701 ../../library/stdtypes.rst:3960
+#: ../../library/stdtypes.rst:2713 ../../library/stdtypes.rst:3972
 msgid "``' '``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2701 ../../library/stdtypes.rst:3960
+#: ../../library/stdtypes.rst:2713 ../../library/stdtypes.rst:3972
 msgid ""
 "(a space) A blank should be left before a positive number (or empty string) "
 "produced by a signed conversion."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2704 ../../library/stdtypes.rst:3963
+#: ../../library/stdtypes.rst:2716 ../../library/stdtypes.rst:3975
 msgid "``'+'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2704 ../../library/stdtypes.rst:3963
+#: ../../library/stdtypes.rst:2716 ../../library/stdtypes.rst:3975
 msgid ""
 "A sign character (``'+'`` or ``'-'``) will precede the conversion (overrides "
 "a \"space\" flag)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2708 ../../library/stdtypes.rst:3967
+#: ../../library/stdtypes.rst:2720 ../../library/stdtypes.rst:3979
 msgid ""
 "A length modifier (``h``, ``l``, or ``L``) may be present, but is ignored as "
 "it is not necessary for Python -- so e.g. ``%ld`` is identical to ``%d``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2711 ../../library/stdtypes.rst:3970
+#: ../../library/stdtypes.rst:2723 ../../library/stdtypes.rst:3982
 msgid "The conversion types are:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2716 ../../library/stdtypes.rst:3975
+#: ../../library/stdtypes.rst:2728 ../../library/stdtypes.rst:3987
 msgid "``'d'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2716 ../../library/stdtypes.rst:2718
-#: ../../library/stdtypes.rst:3975 ../../library/stdtypes.rst:3977
+#: ../../library/stdtypes.rst:2728 ../../library/stdtypes.rst:2730
+#: ../../library/stdtypes.rst:3987 ../../library/stdtypes.rst:3989
 msgid "Signed integer decimal."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2718 ../../library/stdtypes.rst:3977
+#: ../../library/stdtypes.rst:2730 ../../library/stdtypes.rst:3989
 msgid "``'i'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2720 ../../library/stdtypes.rst:3979
+#: ../../library/stdtypes.rst:2732 ../../library/stdtypes.rst:3991
 msgid "``'o'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2720 ../../library/stdtypes.rst:3979
+#: ../../library/stdtypes.rst:2732 ../../library/stdtypes.rst:3991
 msgid "Signed octal value."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2722 ../../library/stdtypes.rst:3981
+#: ../../library/stdtypes.rst:2734 ../../library/stdtypes.rst:3993
 msgid "``'u'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2722 ../../library/stdtypes.rst:3981
+#: ../../library/stdtypes.rst:2734 ../../library/stdtypes.rst:3993
 msgid "Obsolete type -- it is identical to ``'d'``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2724 ../../library/stdtypes.rst:3983
+#: ../../library/stdtypes.rst:2736 ../../library/stdtypes.rst:3995
 msgid "``'x'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2724 ../../library/stdtypes.rst:3983
+#: ../../library/stdtypes.rst:2736 ../../library/stdtypes.rst:3995
 msgid "Signed hexadecimal (lowercase)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2726 ../../library/stdtypes.rst:3985
+#: ../../library/stdtypes.rst:2738 ../../library/stdtypes.rst:3997
 msgid "``'X'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2726 ../../library/stdtypes.rst:3985
+#: ../../library/stdtypes.rst:2738 ../../library/stdtypes.rst:3997
 msgid "Signed hexadecimal (uppercase)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2728 ../../library/stdtypes.rst:3987
+#: ../../library/stdtypes.rst:2740 ../../library/stdtypes.rst:3999
 msgid "``'e'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2728 ../../library/stdtypes.rst:3987
+#: ../../library/stdtypes.rst:2740 ../../library/stdtypes.rst:3999
 msgid "Floating-point exponential format (lowercase)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2730 ../../library/stdtypes.rst:3989
+#: ../../library/stdtypes.rst:2742 ../../library/stdtypes.rst:4001
 msgid "``'E'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2730 ../../library/stdtypes.rst:3989
+#: ../../library/stdtypes.rst:2742 ../../library/stdtypes.rst:4001
 msgid "Floating-point exponential format (uppercase)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2732 ../../library/stdtypes.rst:3991
+#: ../../library/stdtypes.rst:2744 ../../library/stdtypes.rst:4003
 msgid "``'f'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2732 ../../library/stdtypes.rst:2734
-#: ../../library/stdtypes.rst:3991 ../../library/stdtypes.rst:3993
+#: ../../library/stdtypes.rst:2744 ../../library/stdtypes.rst:2746
+#: ../../library/stdtypes.rst:4003 ../../library/stdtypes.rst:4005
 msgid "Floating-point decimal format."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2734 ../../library/stdtypes.rst:3993
+#: ../../library/stdtypes.rst:2746 ../../library/stdtypes.rst:4005
 msgid "``'F'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2736 ../../library/stdtypes.rst:3995
+#: ../../library/stdtypes.rst:2748 ../../library/stdtypes.rst:4007
 msgid "``'g'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2736 ../../library/stdtypes.rst:3995
+#: ../../library/stdtypes.rst:2748 ../../library/stdtypes.rst:4007
 msgid ""
 "Floating-point format. Uses lowercase exponential format if exponent is less "
 "than -4 or not less than precision, decimal format otherwise."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2740 ../../library/stdtypes.rst:3999
+#: ../../library/stdtypes.rst:2752 ../../library/stdtypes.rst:4011
 msgid "``'G'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2740 ../../library/stdtypes.rst:3999
+#: ../../library/stdtypes.rst:2752 ../../library/stdtypes.rst:4011
 msgid ""
 "Floating-point format. Uses uppercase exponential format if exponent is less "
 "than -4 or not less than precision, decimal format otherwise."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2744 ../../library/stdtypes.rst:4003
+#: ../../library/stdtypes.rst:2756 ../../library/stdtypes.rst:4015
 msgid "``'c'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2744
+#: ../../library/stdtypes.rst:2756
 msgid "Single character (accepts integer or single character string)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2747 ../../library/stdtypes.rst:4016
+#: ../../library/stdtypes.rst:2759 ../../library/stdtypes.rst:4028
 msgid "``'r'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2747
+#: ../../library/stdtypes.rst:2759
 msgid "String (converts any Python object using :func:`repr`)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2750 ../../library/stdtypes.rst:4010
+#: ../../library/stdtypes.rst:2762 ../../library/stdtypes.rst:4022
 msgid "``'s'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2750
+#: ../../library/stdtypes.rst:2762
 msgid "String (converts any Python object using :func:`str`)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2753 ../../library/stdtypes.rst:4013
+#: ../../library/stdtypes.rst:2765 ../../library/stdtypes.rst:4025
 msgid "``'a'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2753
+#: ../../library/stdtypes.rst:2765
 msgid "String (converts any Python object using :func:`ascii`)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2756 ../../library/stdtypes.rst:4019
+#: ../../library/stdtypes.rst:2768 ../../library/stdtypes.rst:4031
 msgid "``'%'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2756 ../../library/stdtypes.rst:4019
+#: ../../library/stdtypes.rst:2768 ../../library/stdtypes.rst:4031
 msgid "No argument is converted, results in a ``'%'`` character in the result."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2763 ../../library/stdtypes.rst:4026
+#: ../../library/stdtypes.rst:2775 ../../library/stdtypes.rst:4038
 msgid ""
 "The alternate form causes a leading octal specifier (``'0o'``) to be "
 "inserted before the first digit."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2767 ../../library/stdtypes.rst:4030
+#: ../../library/stdtypes.rst:2779 ../../library/stdtypes.rst:4042
 msgid ""
 "The alternate form causes a leading ``'0x'`` or ``'0X'`` (depending on "
 "whether the ``'x'`` or ``'X'`` format was used) to be inserted before the "
 "first digit."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2771 ../../library/stdtypes.rst:4034
+#: ../../library/stdtypes.rst:2783 ../../library/stdtypes.rst:4046
 msgid ""
 "The alternate form causes the result to always contain a decimal point, even "
 "if no digits follow it."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2774 ../../library/stdtypes.rst:4037
+#: ../../library/stdtypes.rst:2786 ../../library/stdtypes.rst:4049
 msgid ""
 "The precision determines the number of digits after the decimal point and "
 "defaults to 6."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2778 ../../library/stdtypes.rst:4041
+#: ../../library/stdtypes.rst:2790 ../../library/stdtypes.rst:4053
 msgid ""
 "The alternate form causes the result to always contain a decimal point, and "
 "trailing zeroes are not removed as they would otherwise be."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2781 ../../library/stdtypes.rst:4044
+#: ../../library/stdtypes.rst:2793 ../../library/stdtypes.rst:4056
 msgid ""
 "The precision determines the number of significant digits before and after "
 "the decimal point and defaults to 6."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2785 ../../library/stdtypes.rst:4048
+#: ../../library/stdtypes.rst:2797 ../../library/stdtypes.rst:4060
 msgid "If precision is ``N``, the output is truncated to ``N`` characters."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2788 ../../library/stdtypes.rst:4057
+#: ../../library/stdtypes.rst:2800 ../../library/stdtypes.rst:4069
 msgid "See :pep:`237`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2790
+#: ../../library/stdtypes.rst:2802
 msgid ""
 "Since Python strings have an explicit length, ``%s`` conversions do not "
 "assume that ``'\\0'`` is the end of the string."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2795
+#: ../../library/stdtypes.rst:2807
 msgid ""
 "``%f`` conversions for numbers whose absolute value is over 1e50 are no "
 "longer replaced by ``%g`` conversions."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2806
+#: ../../library/stdtypes.rst:2818
 msgid ""
 "Binary Sequence Types --- :class:`bytes`, :class:`bytearray`, :class:"
 "`memoryview`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2814
+#: ../../library/stdtypes.rst:2826
 msgid ""
 "The core built-in types for manipulating binary data are :class:`bytes` and :"
 "class:`bytearray`. They are supported by :class:`memoryview` which uses the :"
@@ -4163,17 +4179,17 @@ msgid ""
 "objects without needing to make a copy."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2819
+#: ../../library/stdtypes.rst:2831
 msgid ""
 "The :mod:`array` module supports efficient storage of basic data types like "
 "32-bit integers and IEEE754 double-precision floating values."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2825
+#: ../../library/stdtypes.rst:2837
 msgid "Bytes Objects"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2829
+#: ../../library/stdtypes.rst:2841
 msgid ""
 "Bytes objects are immutable sequences of single bytes. Since many major "
 "binary protocols are based on the ASCII text encoding, bytes objects offer "
@@ -4181,40 +4197,40 @@ msgid ""
 "and are closely related to string objects in a variety of other ways."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2836
+#: ../../library/stdtypes.rst:2848
 msgid ""
 "Firstly, the syntax for bytes literals is largely the same as that for "
 "string literals, except that a ``b`` prefix is added:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2839
+#: ../../library/stdtypes.rst:2851
 msgid "Single quotes: ``b'still allows embedded \"double\" quotes'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2840
+#: ../../library/stdtypes.rst:2852
 msgid "Double quotes: ``b\"still allows embedded 'single' quotes\"``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2841
+#: ../../library/stdtypes.rst:2853
 msgid ""
 "Triple quoted: ``b'''3 single quotes'''``, ``b\"\"\"3 double quotes\"\"\"``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2843
+#: ../../library/stdtypes.rst:2855
 msgid ""
 "Only ASCII characters are permitted in bytes literals (regardless of the "
 "declared source code encoding). Any binary values over 127 must be entered "
 "into bytes literals using the appropriate escape sequence."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2847
+#: ../../library/stdtypes.rst:2859
 msgid ""
 "As with string literals, bytes literals may also use a ``r`` prefix to "
 "disable processing of escape sequences. See :ref:`strings` for more about "
 "the various forms of bytes literal, including supported escape sequences."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2851
+#: ../../library/stdtypes.rst:2863
 msgid ""
 "While bytes literals and representations are based on ASCII text, bytes "
 "objects actually behave like immutable sequences of integers, with each "
@@ -4227,29 +4243,29 @@ msgid ""
 "compatible will usually lead to data corruption)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2861
+#: ../../library/stdtypes.rst:2873
 msgid ""
 "In addition to the literal forms, bytes objects can be created in a number "
 "of other ways:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2864
+#: ../../library/stdtypes.rst:2876
 msgid "A zero-filled bytes object of a specified length: ``bytes(10)``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2865
+#: ../../library/stdtypes.rst:2877
 msgid "From an iterable of integers: ``bytes(range(20))``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2866
+#: ../../library/stdtypes.rst:2878
 msgid "Copying existing binary data via the buffer protocol:  ``bytes(obj)``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2868
+#: ../../library/stdtypes.rst:2880
 msgid "Also see the :ref:`bytes <func-bytes>` built-in."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2870
+#: ../../library/stdtypes.rst:2882
 msgid ""
 "Since 2 hexadecimal digits correspond precisely to a single byte, "
 "hexadecimal numbers are a commonly used format for describing binary data. "
@@ -4257,38 +4273,38 @@ msgid ""
 "that format:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2876
+#: ../../library/stdtypes.rst:2888
 msgid ""
 "This :class:`bytes` class method returns a bytes object, decoding the given "
 "string object.  The string must contain two hexadecimal digits per byte, "
 "with ASCII whitespace being ignored."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2883
+#: ../../library/stdtypes.rst:2895
 msgid ""
 ":meth:`bytes.fromhex` now skips all ASCII whitespace in the string, not just "
 "spaces."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2887
+#: ../../library/stdtypes.rst:2899
 msgid ""
 ":meth:`bytes.fromhex` now accepts ASCII :class:`bytes` and :term:`bytes-like "
 "objects <bytes-like object>` as input."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2891
+#: ../../library/stdtypes.rst:2903
 msgid ""
 "A reverse conversion function exists to transform a bytes object into its "
 "hexadecimal representation."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2896 ../../library/stdtypes.rst:2985
+#: ../../library/stdtypes.rst:2908 ../../library/stdtypes.rst:2997
 msgid ""
 "Return a string object containing two hexadecimal digits for each byte in "
 "the instance."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2902
+#: ../../library/stdtypes.rst:2914
 msgid ""
 "If you want to make the hex string easier to read, you can specify a single "
 "character separator *sep* parameter to include in the output. By default, "
@@ -4297,13 +4313,13 @@ msgid ""
 "the separator position from the right, negative values from the left."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2919
+#: ../../library/stdtypes.rst:2931
 msgid ""
 ":meth:`bytes.hex` now supports optional *sep* and *bytes_per_sep* parameters "
 "to insert separators between bytes in the hex output."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2923
+#: ../../library/stdtypes.rst:2935
 msgid ""
 "Since bytes objects are sequences of integers (akin to a tuple), for a bytes "
 "object *b*, ``b[0]`` will be an integer, while ``b[0:1]`` will be a bytes "
@@ -4311,58 +4327,58 @@ msgid ""
 "and slicing will produce a string of length 1)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2928
+#: ../../library/stdtypes.rst:2940
 msgid ""
 "The representation of bytes objects uses the literal format (``b'...'``) "
 "since it is often more useful than e.g. ``bytes([46, 46, 46])``.  You can "
 "always convert a bytes object into a list of integers using ``list(b)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2936
+#: ../../library/stdtypes.rst:2948
 msgid "Bytearray Objects"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2940
+#: ../../library/stdtypes.rst:2952
 msgid ""
 ":class:`bytearray` objects are a mutable counterpart to :class:`bytes` "
 "objects."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2945
+#: ../../library/stdtypes.rst:2957
 msgid ""
 "There is no dedicated literal syntax for bytearray objects, instead they are "
 "always created by calling the constructor:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2948
+#: ../../library/stdtypes.rst:2960
 msgid "Creating an empty instance: ``bytearray()``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2949
+#: ../../library/stdtypes.rst:2961
 msgid "Creating a zero-filled instance with a given length: ``bytearray(10)``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2950
+#: ../../library/stdtypes.rst:2962
 msgid "From an iterable of integers: ``bytearray(range(20))``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2951
+#: ../../library/stdtypes.rst:2963
 msgid ""
 "Copying existing binary data via the buffer protocol:  ``bytearray(b'Hi!')``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2953
+#: ../../library/stdtypes.rst:2965
 msgid ""
 "As bytearray objects are mutable, they support the :ref:`mutable <typesseq-"
 "mutable>` sequence operations in addition to the common bytes and bytearray "
 "operations described in :ref:`bytes-methods`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2957
+#: ../../library/stdtypes.rst:2969
 msgid "Also see the :ref:`bytearray <func-bytearray>` built-in."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2959
+#: ../../library/stdtypes.rst:2971
 msgid ""
 "Since 2 hexadecimal digits correspond precisely to a single byte, "
 "hexadecimal numbers are a commonly used format for describing binary data. "
@@ -4370,64 +4386,64 @@ msgid ""
 "in that format:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2965
+#: ../../library/stdtypes.rst:2977
 msgid ""
 "This :class:`bytearray` class method returns bytearray object, decoding the "
 "given string object.  The string must contain two hexadecimal digits per "
 "byte, with ASCII whitespace being ignored."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2972
+#: ../../library/stdtypes.rst:2984
 msgid ""
 ":meth:`bytearray.fromhex` now skips all ASCII whitespace in the string, not "
 "just spaces."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2976
+#: ../../library/stdtypes.rst:2988
 msgid ""
 ":meth:`bytearray.fromhex` now accepts ASCII :class:`bytes` and :term:`bytes-"
 "like objects <bytes-like object>` as input."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2980
+#: ../../library/stdtypes.rst:2992
 msgid ""
 "A reverse conversion function exists to transform a bytearray object into "
 "its hexadecimal representation."
 msgstr ""
 
-#: ../../library/stdtypes.rst:2993
+#: ../../library/stdtypes.rst:3005
 msgid ""
 "Similar to :meth:`bytes.hex`, :meth:`bytearray.hex` now supports optional "
 "*sep* and *bytes_per_sep* parameters to insert separators between bytes in "
 "the hex output."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3000
+#: ../../library/stdtypes.rst:3012
 msgid ""
 "Resize the :class:`bytearray` to contain *size* bytes. *size* must be "
 "greater than or equal to 0."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3003
+#: ../../library/stdtypes.rst:3015
 msgid ""
 "If the :class:`bytearray` needs to shrink, bytes beyond *size* are truncated."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3005
+#: ../../library/stdtypes.rst:3017
 msgid ""
 "If the :class:`bytearray` needs to grow, all new bytes, those beyond *size*, "
 "will be set to null bytes."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3009
+#: ../../library/stdtypes.rst:3021
 msgid "This is equivalent to:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3017
+#: ../../library/stdtypes.rst:3029
 msgid "Examples:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3030
+#: ../../library/stdtypes.rst:3042
 msgid ""
 "Since bytearray objects are sequences of integers (akin to a list), for a "
 "bytearray object *b*, ``b[0]`` will be an integer, while ``b[0:1]`` will be "
@@ -4435,7 +4451,7 @@ msgid ""
 "both indexing and slicing will produce a string of length 1)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3035
+#: ../../library/stdtypes.rst:3047
 msgid ""
 "The representation of bytearray objects uses the bytes literal format "
 "(``bytearray(b'...')``) since it is often more useful than e.g. "
@@ -4443,11 +4459,11 @@ msgid ""
 "a list of integers using ``list(b)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3044
+#: ../../library/stdtypes.rst:3056
 msgid "Bytes and Bytearray Operations"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3049
+#: ../../library/stdtypes.rst:3061
 msgid ""
 "Both bytes and bytearray objects support the :ref:`common <typesseq-common>` "
 "sequence operations. They interoperate not just with operands of the same "
@@ -4456,83 +4472,83 @@ msgid ""
 "return type of the result may depend on the order of operands."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3057
+#: ../../library/stdtypes.rst:3069
 msgid ""
 "The methods on bytes and bytearray objects don't accept strings as their "
 "arguments, just as the methods on strings don't accept bytes as their "
 "arguments.  For example, you have to write::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3061
+#: ../../library/stdtypes.rst:3073
 msgid ""
 "a = \"abc\"\n"
 "b = a.replace(\"a\", \"f\")"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3064
+#: ../../library/stdtypes.rst:3076
 msgid "and::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3066
+#: ../../library/stdtypes.rst:3078
 msgid ""
 "a = b\"abc\"\n"
 "b = a.replace(b\"a\", b\"f\")"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3069
+#: ../../library/stdtypes.rst:3081
 msgid ""
 "Some bytes and bytearray operations assume the use of ASCII compatible "
 "binary formats, and hence should be avoided when working with arbitrary "
 "binary data. These restrictions are covered below."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3074
+#: ../../library/stdtypes.rst:3086
 msgid ""
 "Using these ASCII based operations to manipulate binary data that is not "
 "stored in an ASCII based format may lead to data corruption."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3077
+#: ../../library/stdtypes.rst:3089
 msgid ""
 "The following methods on bytes and bytearray objects can be used with "
 "arbitrary binary data."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3083
+#: ../../library/stdtypes.rst:3095
 msgid ""
 "Return the number of non-overlapping occurrences of subsequence *sub* in the "
 "range [*start*, *end*].  Optional arguments *start* and *end* are "
 "interpreted as in slice notation."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3087 ../../library/stdtypes.rst:3192
-#: ../../library/stdtypes.rst:3214 ../../library/stdtypes.rst:3280
-#: ../../library/stdtypes.rst:3293
+#: ../../library/stdtypes.rst:3099 ../../library/stdtypes.rst:3204
+#: ../../library/stdtypes.rst:3226 ../../library/stdtypes.rst:3292
+#: ../../library/stdtypes.rst:3305
 msgid ""
 "The subsequence to search for may be any :term:`bytes-like object` or an "
 "integer in the range 0 to 255."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3090
+#: ../../library/stdtypes.rst:3102
 msgid ""
 "If *sub* is empty, returns the number of empty slices between characters "
 "which is the length of the bytes object plus one."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3093 ../../library/stdtypes.rst:3204
-#: ../../library/stdtypes.rst:3217 ../../library/stdtypes.rst:3283
-#: ../../library/stdtypes.rst:3296
+#: ../../library/stdtypes.rst:3105 ../../library/stdtypes.rst:3216
+#: ../../library/stdtypes.rst:3229 ../../library/stdtypes.rst:3295
+#: ../../library/stdtypes.rst:3308
 msgid "Also accept an integer in the range 0 to 255 as the subsequence."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3100
+#: ../../library/stdtypes.rst:3112
 msgid ""
 "If the binary data starts with the *prefix* string, return "
 "``bytes[len(prefix):]``. Otherwise, return a copy of the original binary "
 "data::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3104
+#: ../../library/stdtypes.rst:3116
 msgid ""
 ">>> b'TestHook'.removeprefix(b'Test')\n"
 "b'Hook'\n"
@@ -4540,32 +4556,32 @@ msgid ""
 "b'BaseTestCase'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3109
+#: ../../library/stdtypes.rst:3121
 msgid "The *prefix* may be any :term:`bytes-like object`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3113 ../../library/stdtypes.rst:3135
-#: ../../library/stdtypes.rst:3268 ../../library/stdtypes.rst:3361
-#: ../../library/stdtypes.rst:3375 ../../library/stdtypes.rst:3406
-#: ../../library/stdtypes.rst:3420 ../../library/stdtypes.rst:3462
-#: ../../library/stdtypes.rst:3533 ../../library/stdtypes.rst:3551
-#: ../../library/stdtypes.rst:3579 ../../library/stdtypes.rst:3718
-#: ../../library/stdtypes.rst:3773 ../../library/stdtypes.rst:3816
-#: ../../library/stdtypes.rst:3837 ../../library/stdtypes.rst:3859
-#: ../../library/stdtypes.rst:4061
+#: ../../library/stdtypes.rst:3125 ../../library/stdtypes.rst:3147
+#: ../../library/stdtypes.rst:3280 ../../library/stdtypes.rst:3373
+#: ../../library/stdtypes.rst:3387 ../../library/stdtypes.rst:3418
+#: ../../library/stdtypes.rst:3432 ../../library/stdtypes.rst:3474
+#: ../../library/stdtypes.rst:3545 ../../library/stdtypes.rst:3563
+#: ../../library/stdtypes.rst:3591 ../../library/stdtypes.rst:3730
+#: ../../library/stdtypes.rst:3785 ../../library/stdtypes.rst:3828
+#: ../../library/stdtypes.rst:3849 ../../library/stdtypes.rst:3871
+#: ../../library/stdtypes.rst:4073
 msgid ""
 "The bytearray version of this method does *not* operate in place - it always "
 "produces a new object, even if no changes were made."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3122
+#: ../../library/stdtypes.rst:3134
 msgid ""
 "If the binary data ends with the *suffix* string and that *suffix* is not "
 "empty, return ``bytes[:-len(suffix)]``.  Otherwise, return a copy of the "
 "original binary data::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3126
+#: ../../library/stdtypes.rst:3138
 msgid ""
 ">>> b'MiscTests'.removesuffix(b'Tests')\n"
 "b'Misc'\n"
@@ -4573,15 +4589,15 @@ msgid ""
 "b'TmpDirMixin'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3131
+#: ../../library/stdtypes.rst:3143
 msgid "The *suffix* may be any :term:`bytes-like object`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3144
+#: ../../library/stdtypes.rst:3156
 msgid "Return the bytes decoded to a :class:`str`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3149
+#: ../../library/stdtypes.rst:3161
 msgid ""
 "*errors* controls how decoding errors are handled. If ``'strict'`` (the "
 "default), a :exc:`UnicodeError` exception is raised. Other possible values "
@@ -4589,21 +4605,21 @@ msgid ""
 "`codecs.register_error`. See :ref:`error-handlers` for details."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3155
+#: ../../library/stdtypes.rst:3167
 msgid ""
 "For performance reasons, the value of *errors* is not checked for validity "
 "unless a decoding error actually occurs, :ref:`devmode` is enabled or a :ref:"
 "`debug build <debug-build>` is used."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3161
+#: ../../library/stdtypes.rst:3173
 msgid ""
 "Passing the *encoding* argument to :class:`str` allows decoding any :term:"
 "`bytes-like object` directly, without needing to make a temporary :class:`!"
 "bytes` or :class:`!bytearray` object."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3176
+#: ../../library/stdtypes.rst:3188
 msgid ""
 "Return ``True`` if the binary data ends with the specified *suffix*, "
 "otherwise return ``False``.  *suffix* can also be a tuple of suffixes to "
@@ -4611,11 +4627,11 @@ msgid ""
 "optional *end*, stop comparing at that position."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3181
+#: ../../library/stdtypes.rst:3193
 msgid "The suffix(es) to search for may be any :term:`bytes-like object`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3187
+#: ../../library/stdtypes.rst:3199
 msgid ""
 "Return the lowest index in the data where the subsequence *sub* is found, "
 "such that *sub* is contained in the slice ``s[start:end]``.  Optional "
@@ -4623,26 +4639,26 @@ msgid ""
 "``-1`` if *sub* is not found."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3197
+#: ../../library/stdtypes.rst:3209
 msgid ""
 "The :meth:`~bytes.find` method should be used only if you need to know the "
 "position of *sub*.  To check if *sub* is a substring or not, use the :"
 "keyword:`in` operator::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3201
+#: ../../library/stdtypes.rst:3213
 msgid ""
 ">>> b'Py' in b'Python'\n"
 "True"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3211
+#: ../../library/stdtypes.rst:3223
 msgid ""
 "Like :meth:`~bytes.find`, but raise :exc:`ValueError` when the subsequence "
 "is not found."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3224
+#: ../../library/stdtypes.rst:3236
 msgid ""
 "Return a bytes or bytearray object which is the concatenation of the binary "
 "data sequences in *iterable*.  A :exc:`TypeError` will be raised if there "
@@ -4652,7 +4668,7 @@ msgid ""
 "method."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3235
+#: ../../library/stdtypes.rst:3247
 msgid ""
 "This static method returns a translation table usable for :meth:`bytes."
 "translate` that will map each character in *from* into the character at the "
@@ -4660,7 +4676,7 @@ msgid ""
 "objects <bytes-like object>` and have the same length."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3246
+#: ../../library/stdtypes.rst:3258
 msgid ""
 "Split the sequence at the first occurrence of *sep*, and return a 3-tuple "
 "containing the part before the separator, the separator itself or its "
@@ -4669,24 +4685,24 @@ msgid ""
 "by two empty bytes or bytearray objects."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3253 ../../library/stdtypes.rst:3310
+#: ../../library/stdtypes.rst:3265 ../../library/stdtypes.rst:3322
 msgid "The separator to search for may be any :term:`bytes-like object`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3259
+#: ../../library/stdtypes.rst:3271
 msgid ""
 "Return a copy of the sequence with all occurrences of subsequence *old* "
 "replaced by *new*.  If the optional argument *count* is given, only the "
 "first *count* occurrences are replaced."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3263
+#: ../../library/stdtypes.rst:3275
 msgid ""
 "The subsequence to search for and its replacement may be any :term:`bytes-"
 "like object`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3275
+#: ../../library/stdtypes.rst:3287
 msgid ""
 "Return the highest index in the sequence where the subsequence *sub* is "
 "found, such that *sub* is contained within ``s[start:end]``.  Optional "
@@ -4694,13 +4710,13 @@ msgid ""
 "``-1`` on failure."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3290
+#: ../../library/stdtypes.rst:3302
 msgid ""
 "Like :meth:`~bytes.rfind` but raises :exc:`ValueError` when the subsequence "
 "*sub* is not found."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3303
+#: ../../library/stdtypes.rst:3315
 msgid ""
 "Split the sequence at the last occurrence of *sep*, and return a 3-tuple "
 "containing the part before the separator, the separator itself or its "
@@ -4709,7 +4725,7 @@ msgid ""
 "followed by a copy of the original sequence."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3316
+#: ../../library/stdtypes.rst:3328
 msgid ""
 "Return ``True`` if the binary data starts with the specified *prefix*, "
 "otherwise return ``False``.  *prefix* can also be a tuple of prefixes to "
@@ -4717,11 +4733,11 @@ msgid ""
 "optional *end*, stop comparing at that position."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3321
+#: ../../library/stdtypes.rst:3333
 msgid "The prefix(es) to search for may be any :term:`bytes-like object`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3327
+#: ../../library/stdtypes.rst:3339
 msgid ""
 "Return a copy of the bytes or bytearray object where all bytes occurring in "
 "the optional argument *delete* are removed, and the remaining bytes have "
@@ -4729,28 +4745,28 @@ msgid ""
 "object of length 256."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3332
+#: ../../library/stdtypes.rst:3344
 msgid ""
 "You can use the :func:`bytes.maketrans` method to create a translation table."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3335
+#: ../../library/stdtypes.rst:3347
 msgid ""
 "Set the *table* argument to ``None`` for translations that only delete "
 "characters::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3338
+#: ../../library/stdtypes.rst:3350
 msgid ""
 ">>> b'read this short text'.translate(None, b'aeiou')\n"
 "b'rd ths shrt txt'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3341
+#: ../../library/stdtypes.rst:3353
 msgid "*delete* is now supported as a keyword argument."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3345
+#: ../../library/stdtypes.rst:3357
 msgid ""
 "The following methods on bytes and bytearray objects have default behaviours "
 "that assume the use of ASCII compatible binary formats, but can still be "
@@ -4759,7 +4775,7 @@ msgid ""
 "instead produce new objects."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3354
+#: ../../library/stdtypes.rst:3366
 msgid ""
 "Return a copy of the object centered in a sequence of length *width*. "
 "Padding is done using the specified *fillbyte* (default is an ASCII space). "
@@ -4767,7 +4783,7 @@ msgid ""
 "less than or equal to ``len(s)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3368
+#: ../../library/stdtypes.rst:3380
 msgid ""
 "Return a copy of the object left justified in a sequence of length *width*. "
 "Padding is done using the specified *fillbyte* (default is an ASCII space). "
@@ -4775,7 +4791,7 @@ msgid ""
 "less than or equal to ``len(s)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3382
+#: ../../library/stdtypes.rst:3394
 msgid ""
 "Return a copy of the sequence with specified leading bytes removed.  The "
 "*chars* argument is a binary sequence specifying the set of byte values to "
@@ -4785,7 +4801,7 @@ msgid ""
 "all combinations of its values are stripped::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3389
+#: ../../library/stdtypes.rst:3401
 msgid ""
 ">>> b'   spacious   '.lstrip()\n"
 "b'spacious   '\n"
@@ -4793,14 +4809,14 @@ msgid ""
 "b'example.com'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3394
+#: ../../library/stdtypes.rst:3406
 msgid ""
 "The binary sequence of byte values to remove may be any :term:`bytes-like "
 "object`. See :meth:`~bytes.removeprefix` for a method that will remove a "
 "single prefix string rather than all of a set of characters.  For example::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3399
+#: ../../library/stdtypes.rst:3411
 msgid ""
 ">>> b'Arthur: three!'.lstrip(b'Arthur: ')\n"
 "b'ee!'\n"
@@ -4808,7 +4824,7 @@ msgid ""
 "b'three!'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3413
+#: ../../library/stdtypes.rst:3425
 msgid ""
 "Return a copy of the object right justified in a sequence of length *width*. "
 "Padding is done using the specified *fillbyte* (default is an ASCII space). "
@@ -4816,7 +4832,7 @@ msgid ""
 "less than or equal to ``len(s)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3427
+#: ../../library/stdtypes.rst:3439
 msgid ""
 "Split the binary sequence into subsequences of the same type, using *sep* as "
 "the delimiter string. If *maxsplit* is given, at most *maxsplit* splits are "
@@ -4826,7 +4842,7 @@ msgid ""
 "described in detail below."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3438
+#: ../../library/stdtypes.rst:3450
 msgid ""
 "Return a copy of the sequence with specified trailing bytes removed.  The "
 "*chars* argument is a binary sequence specifying the set of byte values to "
@@ -4836,7 +4852,7 @@ msgid ""
 "all combinations of its values are stripped::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3445
+#: ../../library/stdtypes.rst:3457
 msgid ""
 ">>> b'   spacious   '.rstrip()\n"
 "b'   spacious'\n"
@@ -4844,14 +4860,14 @@ msgid ""
 "b'mississ'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3450
+#: ../../library/stdtypes.rst:3462
 msgid ""
 "The binary sequence of byte values to remove may be any :term:`bytes-like "
 "object`. See :meth:`~bytes.removesuffix` for a method that will remove a "
 "single suffix string rather than all of a set of characters.  For example::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3455
+#: ../../library/stdtypes.rst:3467
 msgid ""
 ">>> b'Monty Python'.rstrip(b' Python')\n"
 "b'M'\n"
@@ -4859,7 +4875,7 @@ msgid ""
 "b'Monty'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3469
+#: ../../library/stdtypes.rst:3481
 msgid ""
 "Split the binary sequence into subsequences of the same type, using *sep* as "
 "the delimiter string. If *maxsplit* is given and non-negative, at most "
@@ -4868,7 +4884,7 @@ msgid ""
 "limit on the number of splits (all possible splits are made)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3475
+#: ../../library/stdtypes.rst:3487
 msgid ""
 "If *sep* is given, consecutive delimiters are not grouped together and are "
 "deemed to delimit empty subsequences (for example, ``b'1,,2'.split(b',')`` "
@@ -4879,7 +4895,7 @@ msgid ""
 "like object`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3485
+#: ../../library/stdtypes.rst:3497
 msgid ""
 ">>> b'1,2,3'.split(b',')\n"
 "[b'1', b'2', b'3']\n"
@@ -4891,7 +4907,7 @@ msgid ""
 "[b'1', b'2', b'3<4']"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3494
+#: ../../library/stdtypes.rst:3506
 msgid ""
 "If *sep* is not specified or is ``None``, a different splitting algorithm is "
 "applied: runs of consecutive ASCII whitespace are regarded as a single "
@@ -4901,7 +4917,7 @@ msgid ""
 "without a specified separator returns ``[]``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3504
+#: ../../library/stdtypes.rst:3516
 msgid ""
 ">>> b'1 2 3'.split()\n"
 "[b'1', b'2', b'3']\n"
@@ -4911,7 +4927,7 @@ msgid ""
 "[b'1', b'2', b'3']"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3515
+#: ../../library/stdtypes.rst:3527
 msgid ""
 "Return a copy of the sequence with specified leading and trailing bytes "
 "removed. The *chars* argument is a binary sequence specifying the set of "
@@ -4921,7 +4937,7 @@ msgid ""
 "a prefix or suffix; rather, all combinations of its values are stripped::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3523
+#: ../../library/stdtypes.rst:3535
 msgid ""
 ">>> b'   spacious   '.strip()\n"
 "b'spacious'\n"
@@ -4929,13 +4945,13 @@ msgid ""
 "b'example'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3528
+#: ../../library/stdtypes.rst:3540
 msgid ""
 "The binary sequence of byte values to remove may be any :term:`bytes-like "
 "object`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3537
+#: ../../library/stdtypes.rst:3549
 msgid ""
 "The following methods on bytes and bytearray objects assume the use of ASCII "
 "compatible binary formats and should not be applied to arbitrary binary "
@@ -4943,14 +4959,14 @@ msgid ""
 "operate in place, and instead produce new objects."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3545
+#: ../../library/stdtypes.rst:3557
 msgid ""
 "Return a copy of the sequence with each byte interpreted as an ASCII "
 "character, and the first byte capitalized and the rest lowercased. Non-ASCII "
 "byte values are passed through unchanged."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3558
+#: ../../library/stdtypes.rst:3570
 msgid ""
 "Return a copy of the sequence where all ASCII tab characters are replaced by "
 "one or more ASCII spaces, depending on the current column and the given tab "
@@ -4966,7 +4982,7 @@ msgid ""
 "by one regardless of how the byte value is represented when printed::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3572
+#: ../../library/stdtypes.rst:3584
 msgid ""
 ">>> b'01\\t012\\t0123\\t01234'.expandtabs()\n"
 "b'01      012     0123    01234'\n"
@@ -4974,7 +4990,7 @@ msgid ""
 "b'01  012 0123    01234'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3586
+#: ../../library/stdtypes.rst:3598
 msgid ""
 "Return ``True`` if all bytes in the sequence are alphabetical ASCII "
 "characters or ASCII decimal digits and the sequence is not empty, ``False`` "
@@ -4983,7 +4999,7 @@ msgid ""
 "digits are those byte values in the sequence ``b'0123456789'``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3594
+#: ../../library/stdtypes.rst:3606
 msgid ""
 ">>> b'ABCabc1'.isalnum()\n"
 "True\n"
@@ -4991,7 +5007,7 @@ msgid ""
 "False"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3603
+#: ../../library/stdtypes.rst:3615
 msgid ""
 "Return ``True`` if all bytes in the sequence are alphabetic ASCII characters "
 "and the sequence is not empty, ``False`` otherwise.  Alphabetic ASCII "
@@ -4999,7 +5015,7 @@ msgid ""
 "``b'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3610
+#: ../../library/stdtypes.rst:3622
 msgid ""
 ">>> b'ABCabc'.isalpha()\n"
 "True\n"
@@ -5007,20 +5023,20 @@ msgid ""
 "False"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3619
+#: ../../library/stdtypes.rst:3631
 msgid ""
 "Return ``True`` if the sequence is empty or all bytes in the sequence are "
 "ASCII, ``False`` otherwise. ASCII bytes are in the range 0-0x7F."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3629
+#: ../../library/stdtypes.rst:3641
 msgid ""
 "Return ``True`` if all bytes in the sequence are ASCII decimal digits and "
 "the sequence is not empty, ``False`` otherwise. ASCII decimal digits are "
 "those byte values in the sequence ``b'0123456789'``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3635
+#: ../../library/stdtypes.rst:3647
 msgid ""
 ">>> b'1234'.isdigit()\n"
 "True\n"
@@ -5028,13 +5044,13 @@ msgid ""
 "False"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3644
+#: ../../library/stdtypes.rst:3656
 msgid ""
 "Return ``True`` if there is at least one lowercase ASCII character in the "
 "sequence and no uppercase ASCII characters, ``False`` otherwise."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3649
+#: ../../library/stdtypes.rst:3661
 msgid ""
 ">>> b'hello world'.islower()\n"
 "True\n"
@@ -5042,16 +5058,16 @@ msgid ""
 "False"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3654 ../../library/stdtypes.rst:3696
-#: ../../library/stdtypes.rst:3712 ../../library/stdtypes.rst:3762
-#: ../../library/stdtypes.rst:3831
+#: ../../library/stdtypes.rst:3666 ../../library/stdtypes.rst:3708
+#: ../../library/stdtypes.rst:3724 ../../library/stdtypes.rst:3774
+#: ../../library/stdtypes.rst:3843
 msgid ""
 "Lowercase ASCII characters are those byte values in the sequence "
 "``b'abcdefghijklmnopqrstuvwxyz'``. Uppercase ASCII characters are those byte "
 "values in the sequence ``b'ABCDEFGHIJKLMNOPQRSTUVWXYZ'``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3662
+#: ../../library/stdtypes.rst:3674
 msgid ""
 "Return ``True`` if all bytes in the sequence are ASCII whitespace and the "
 "sequence is not empty, ``False`` otherwise.  ASCII whitespace characters are "
@@ -5059,14 +5075,14 @@ msgid ""
 "newline, carriage return, vertical tab, form feed)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3671
+#: ../../library/stdtypes.rst:3683
 msgid ""
 "Return ``True`` if the sequence is ASCII titlecase and the sequence is not "
 "empty, ``False`` otherwise. See :meth:`bytes.title` for more details on the "
 "definition of \"titlecase\"."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3677
+#: ../../library/stdtypes.rst:3689
 msgid ""
 ">>> b'Hello World'.istitle()\n"
 "True\n"
@@ -5074,14 +5090,14 @@ msgid ""
 "False"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3686
+#: ../../library/stdtypes.rst:3698
 msgid ""
 "Return ``True`` if there is at least one uppercase alphabetic ASCII "
 "character in the sequence and no lowercase ASCII characters, ``False`` "
 "otherwise."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3691
+#: ../../library/stdtypes.rst:3703
 msgid ""
 ">>> b'HELLO WORLD'.isupper()\n"
 "True\n"
@@ -5089,19 +5105,19 @@ msgid ""
 "False"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3704
+#: ../../library/stdtypes.rst:3716
 msgid ""
 "Return a copy of the sequence with all the uppercase ASCII characters "
 "converted to their corresponding lowercase counterpart."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3709
+#: ../../library/stdtypes.rst:3721
 msgid ""
 ">>> b'Hello World'.lower()\n"
 "b'hello world'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3729
+#: ../../library/stdtypes.rst:3741
 msgid ""
 "Return a list of the lines in the binary sequence, breaking at ASCII line "
 "boundaries. This method uses the :term:`universal newlines` approach to "
@@ -5109,7 +5125,7 @@ msgid ""
 "*keepends* is given and true."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3736
+#: ../../library/stdtypes.rst:3748
 msgid ""
 ">>> b'ab c\\n\\nde fg\\rkl\\r\\n'.splitlines()\n"
 "[b'ab c', b'', b'de fg', b'kl']\n"
@@ -5117,14 +5133,14 @@ msgid ""
 "[b'ab c\\n', b'\\n', b'de fg\\r', b'kl\\r\\n']"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3741
+#: ../../library/stdtypes.rst:3753
 msgid ""
 "Unlike :meth:`~bytes.split` when a delimiter string *sep* is given, this "
 "method returns an empty list for the empty string, and a terminal line break "
 "does not result in an extra line::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3745
+#: ../../library/stdtypes.rst:3757
 msgid ""
 ">>> b\"\".split(b'\\n'), b\"Two lines\\n\".split(b'\\n')\n"
 "([b''], [b'Two lines', b''])\n"
@@ -5132,19 +5148,19 @@ msgid ""
 "([], [b'One line'])"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3754
+#: ../../library/stdtypes.rst:3766
 msgid ""
 "Return a copy of the sequence with all the lowercase ASCII characters "
 "converted to their corresponding uppercase counterpart and vice-versa."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3759
+#: ../../library/stdtypes.rst:3771
 msgid ""
 ">>> b'Hello World'.swapcase()\n"
 "b'hELLO wORLD'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3766
+#: ../../library/stdtypes.rst:3778
 msgid ""
 "Unlike :func:`str.swapcase`, it is always the case that ``bin.swapcase()."
 "swapcase() == bin`` for the binary versions. Case conversions are "
@@ -5152,20 +5168,20 @@ msgid ""
 "Unicode code points."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3780
+#: ../../library/stdtypes.rst:3792
 msgid ""
 "Return a titlecased version of the binary sequence where words start with an "
 "uppercase ASCII character and the remaining characters are lowercase. "
 "Uncased byte values are left unmodified."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3786
+#: ../../library/stdtypes.rst:3798
 msgid ""
 ">>> b'Hello world'.title()\n"
 "b'Hello World'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3789
+#: ../../library/stdtypes.rst:3801
 msgid ""
 "Lowercase ASCII characters are those byte values in the sequence "
 "``b'abcdefghijklmnopqrstuvwxyz'``. Uppercase ASCII characters are those byte "
@@ -5173,18 +5189,18 @@ msgid ""
 "values are uncased."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3799
+#: ../../library/stdtypes.rst:3811
 msgid ""
 ">>> b\"they're bill's friends from the UK\".title()\n"
 "b\"They'Re Bill'S Friends From The Uk\""
 msgstr ""
 
-#: ../../library/stdtypes.rst:3802
+#: ../../library/stdtypes.rst:3814
 msgid ""
 "A workaround for apostrophes can be constructed using regular expressions::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3804
+#: ../../library/stdtypes.rst:3816
 msgid ""
 ">>> import re\n"
 ">>> def titlecase(s):\n"
@@ -5197,19 +5213,19 @@ msgid ""
 "b\"They're Bill's Friends.\""
 msgstr ""
 
-#: ../../library/stdtypes.rst:3823
+#: ../../library/stdtypes.rst:3835
 msgid ""
 "Return a copy of the sequence with all the lowercase ASCII characters "
 "converted to their corresponding uppercase counterpart."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3828
+#: ../../library/stdtypes.rst:3840
 msgid ""
 ">>> b'Hello World'.upper()\n"
 "b'HELLO WORLD'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3844
+#: ../../library/stdtypes.rst:3856
 msgid ""
 "Return a copy of the sequence left filled with ASCII ``b'0'`` digits to make "
 "a sequence of length *width*. A leading sign prefix (``b'+'``/ ``b'-'``) is "
@@ -5218,7 +5234,7 @@ msgid ""
 "*width* is less than or equal to ``len(seq)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3852
+#: ../../library/stdtypes.rst:3864
 msgid ""
 ">>> b\"42\".zfill(5)\n"
 "b'00042'\n"
@@ -5226,11 +5242,11 @@ msgid ""
 "b'-0042'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3866
+#: ../../library/stdtypes.rst:3878
 msgid "``printf``-style Bytes Formatting"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3883
+#: ../../library/stdtypes.rst:3895
 msgid ""
 "The formatting operations described here exhibit a variety of quirks that "
 "lead to a number of common errors (such as failing to display tuples and "
@@ -5238,7 +5254,7 @@ msgid ""
 "dictionary, wrap it in a tuple."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3888
+#: ../../library/stdtypes.rst:3900
 msgid ""
 "Bytes objects (``bytes``/``bytearray``) have one unique built-in operation: "
 "the ``%`` operator (modulo). This is also known as the bytes *formatting* or "
@@ -5248,7 +5264,7 @@ msgid ""
 "func:`sprintf` in the C language."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3895
+#: ../../library/stdtypes.rst:3907
 msgid ""
 "If *format* requires a single argument, *values* may be a single non-tuple "
 "object. [5]_  Otherwise, *values* must be a tuple with exactly the number of "
@@ -5256,7 +5272,7 @@ msgid ""
 "example, a dictionary)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:3929
+#: ../../library/stdtypes.rst:3941
 msgid ""
 "When the right argument is a dictionary (or other mapping type), then the "
 "formats in the bytes object *must* include a parenthesised mapping key into "
@@ -5264,73 +5280,73 @@ msgid ""
 "mapping key selects the value to be formatted from the mapping.  For example:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4003
+#: ../../library/stdtypes.rst:4015
 msgid "Single byte (accepts integer or single byte objects)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4006
+#: ../../library/stdtypes.rst:4018
 msgid "``'b'``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4006
+#: ../../library/stdtypes.rst:4018
 msgid ""
 "Bytes (any object that follows the :ref:`buffer protocol <bufferobjects>` or "
 "has :meth:`~object.__bytes__`)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4010
+#: ../../library/stdtypes.rst:4022
 msgid ""
 "``'s'`` is an alias for ``'b'`` and should only be used for Python2/3 code "
 "bases."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4013
+#: ../../library/stdtypes.rst:4025
 msgid ""
 "Bytes (converts any Python object using ``repr(obj).encode('ascii', "
 "'backslashreplace')``)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4016
+#: ../../library/stdtypes.rst:4028
 msgid ""
 "``'r'`` is an alias for ``'a'`` and should only be used for Python2/3 code "
 "bases."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4016
+#: ../../library/stdtypes.rst:4028
 msgid "\\(7)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4051
+#: ../../library/stdtypes.rst:4063
 msgid "``b'%s'`` is deprecated, but will not be removed during the 3.x series."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4054
+#: ../../library/stdtypes.rst:4066
 msgid "``b'%r'`` is deprecated, but will not be removed during the 3.x series."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4066
+#: ../../library/stdtypes.rst:4078
 msgid ":pep:`461` - Adding % formatting to bytes and bytearray"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4073
+#: ../../library/stdtypes.rst:4085
 msgid "Memory Views"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4075
+#: ../../library/stdtypes.rst:4087
 msgid ""
 ":class:`memoryview` objects allow Python code to access the internal data of "
 "an object that supports the :ref:`buffer protocol <bufferobjects>` without "
 "copying."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4081
+#: ../../library/stdtypes.rst:4093
 msgid ""
 "Create a :class:`memoryview` that references *object*.  *object* must "
 "support the buffer protocol.  Built-in objects that support the buffer "
 "protocol include :class:`bytes` and :class:`bytearray`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4085
+#: ../../library/stdtypes.rst:4097
 msgid ""
 "A :class:`memoryview` has the notion of an *element*, which is the atomic "
 "memory unit handled by the originating *object*.  For many simple types such "
@@ -5338,32 +5354,32 @@ msgid ""
 "other types such as :class:`array.array` may have bigger elements."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4090
+#: ../../library/stdtypes.rst:4102
 msgid ""
 "``len(view)`` is equal to the length of :class:`~memoryview.tolist`, which "
 "is the nested list representation of the view. If ``view.ndim = 1``, this is "
 "equal to the number of elements in the view."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4094
+#: ../../library/stdtypes.rst:4106
 msgid ""
 "If ``view.ndim == 0``, ``len(view)`` now raises :exc:`TypeError` instead of "
 "returning 1."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4097
+#: ../../library/stdtypes.rst:4109
 msgid ""
 "The :class:`~memoryview.itemsize` attribute will give you the number of "
 "bytes in a single element."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4100
+#: ../../library/stdtypes.rst:4112
 msgid ""
 "A :class:`memoryview` supports slicing and indexing to expose its data. One-"
 "dimensional slicing will result in a subview::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4103
+#: ../../library/stdtypes.rst:4115
 msgid ""
 ">>> v = memoryview(b'abcefg')\n"
 ">>> v[1]\n"
@@ -5376,7 +5392,7 @@ msgid ""
 "b'bce'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4113
+#: ../../library/stdtypes.rst:4125
 msgid ""
 "If :class:`~memoryview.format` is one of the native format specifiers from "
 "the :mod:`struct` module, indexing with an integer or a tuple of integers is "
@@ -5387,11 +5403,11 @@ msgid ""
 "memoryviews can be indexed with the empty tuple."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4122
+#: ../../library/stdtypes.rst:4134
 msgid "Here is an example with a non-byte format::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4124
+#: ../../library/stdtypes.rst:4136
 msgid ""
 ">>> import array\n"
 ">>> a = array.array('l', [-11111111, 22222222, -33333333, 44444444])\n"
@@ -5404,13 +5420,13 @@ msgid ""
 "[-11111111, -33333333]"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4134
+#: ../../library/stdtypes.rst:4146
 msgid ""
 "If the underlying object is writable, the memoryview supports one-"
 "dimensional slice assignment. Resizing is not allowed::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4137
+#: ../../library/stdtypes.rst:4149
 msgid ""
 ">>> data = bytearray(b'abcefg')\n"
 ">>> v = memoryview(data)\n"
@@ -5432,14 +5448,14 @@ msgid ""
 "bytearray(b'z1spam')"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4155
+#: ../../library/stdtypes.rst:4167
 msgid ""
 "One-dimensional memoryviews of :term:`hashable` (read-only) types with "
 "formats 'B', 'b' or 'c' are also hashable. The hash is defined as ``hash(m) "
 "== hash(m.tobytes())``::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4159
+#: ../../library/stdtypes.rst:4171
 msgid ""
 ">>> v = memoryview(b'abcefg')\n"
 ">>> hash(v) == hash(b'abcefg')\n"
@@ -5450,44 +5466,44 @@ msgid ""
 "True"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4167
+#: ../../library/stdtypes.rst:4179
 msgid ""
 "One-dimensional memoryviews can now be sliced. One-dimensional memoryviews "
 "with formats 'B', 'b' or 'c' are now :term:`hashable`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4171
+#: ../../library/stdtypes.rst:4183
 msgid ""
 "memoryview is now registered automatically with :class:`collections.abc."
 "Sequence`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4175
+#: ../../library/stdtypes.rst:4187
 msgid "memoryviews can now be indexed with tuple of integers."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4178
+#: ../../library/stdtypes.rst:4190
 msgid "memoryview is now a :term:`generic type`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4181
+#: ../../library/stdtypes.rst:4193
 msgid ":class:`memoryview` has several methods:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4185
+#: ../../library/stdtypes.rst:4197
 msgid ""
 "A memoryview and a :pep:`3118` exporter are equal if their shapes are "
 "equivalent and if all corresponding values are equal when the operands' "
 "respective format codes are interpreted using :mod:`struct` syntax."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4189
+#: ../../library/stdtypes.rst:4201
 msgid ""
 "For the subset of :mod:`struct` format strings currently supported by :meth:"
 "`tolist`, ``v`` and ``w`` are equal if ``v.tolist() == w.tolist()``::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4192
+#: ../../library/stdtypes.rst:4204
 msgid ""
 ">>> import array\n"
 ">>> a = array.array('I', [1, 2, 3, 4, 5])\n"
@@ -5506,14 +5522,14 @@ msgid ""
 "True"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4208
+#: ../../library/stdtypes.rst:4220
 msgid ""
 "If either format string is not supported by the :mod:`struct` module, then "
 "the objects will always compare as unequal (even if the format strings and "
 "buffer contents are identical)::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4212
+#: ../../library/stdtypes.rst:4224
 msgid ""
 ">>> from ctypes import BigEndianStructure, c_long\n"
 ">>> class BEPoint(BigEndianStructure):\n"
@@ -5528,25 +5544,25 @@ msgid ""
 "False"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4224
+#: ../../library/stdtypes.rst:4236
 msgid ""
 "Note that, as with floating-point numbers, ``v is w`` does *not* imply ``v "
 "== w`` for memoryview objects."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4227
+#: ../../library/stdtypes.rst:4239
 msgid ""
 "Previous versions compared the raw memory disregarding the item format and "
 "the logical array structure."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4233
+#: ../../library/stdtypes.rst:4245
 msgid ""
 "Return the data in the buffer as a bytestring.  This is equivalent to "
 "calling the :class:`bytes` constructor on the memoryview. ::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4236
+#: ../../library/stdtypes.rst:4248
 msgid ""
 ">>> m = memoryview(b\"abc\")\n"
 ">>> m.tobytes()\n"
@@ -5555,7 +5571,7 @@ msgid ""
 "b'abc'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4242
+#: ../../library/stdtypes.rst:4254
 msgid ""
 "For non-contiguous arrays the result is equal to the flattened list "
 "representation with all elements converted to bytes. :meth:`tobytes` "
@@ -5563,7 +5579,7 @@ msgid ""
 "module syntax."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4247
+#: ../../library/stdtypes.rst:4259
 msgid ""
 "*order* can be {'C', 'F', 'A'}.  When *order* is 'C' or 'F', the data of the "
 "original array is converted to C or Fortran order. For contiguous views, 'A' "
@@ -5572,31 +5588,31 @@ msgid ""
 "to C first. *order=None* is the same as *order='C'*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4256
+#: ../../library/stdtypes.rst:4268
 msgid ""
 "Return a string object containing two hexadecimal digits for each byte in "
 "the buffer. ::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4259
+#: ../../library/stdtypes.rst:4271
 msgid ""
 ">>> m = memoryview(b\"abc\")\n"
 ">>> m.hex()\n"
 "'616263'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4265
+#: ../../library/stdtypes.rst:4277
 msgid ""
 "Similar to :meth:`bytes.hex`, :meth:`memoryview.hex` now supports optional "
 "*sep* and *bytes_per_sep* parameters to insert separators between bytes in "
 "the hex output."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4272
+#: ../../library/stdtypes.rst:4284
 msgid "Return the data in the buffer as a list of elements. ::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4274
+#: ../../library/stdtypes.rst:4286
 msgid ""
 ">>> memoryview(b'abc').tolist()\n"
 "[97, 98, 99]\n"
@@ -5607,19 +5623,19 @@ msgid ""
 "[1.1, 2.2, 3.3]"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4282
+#: ../../library/stdtypes.rst:4294
 msgid ""
 ":meth:`tolist` now supports all single character native formats in :mod:"
 "`struct` module syntax as well as multi-dimensional representations."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4289
+#: ../../library/stdtypes.rst:4301
 msgid ""
 "Return a readonly version of the memoryview object.  The original memoryview "
 "object is unchanged. ::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4292
+#: ../../library/stdtypes.rst:4304
 msgid ""
 ">>> m = memoryview(bytearray(b'abc'))\n"
 ">>> mm = m.toreadonly()\n"
@@ -5634,7 +5650,7 @@ msgid ""
 "[43, 98, 99]"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4308
+#: ../../library/stdtypes.rst:4320
 msgid ""
 "Release the underlying buffer exposed by the memoryview object.  Many "
 "objects take special actions when a view is held on them (for example, a :"
@@ -5643,14 +5659,14 @@ msgid ""
 "resources) as soon as possible."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4314
+#: ../../library/stdtypes.rst:4326
 msgid ""
 "After this method has been called, any further operation on the view raises "
 "a :class:`ValueError` (except :meth:`release` itself which can be called "
 "multiple times)::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4318
+#: ../../library/stdtypes.rst:4330
 msgid ""
 ">>> m = memoryview(b'abc')\n"
 ">>> m.release()\n"
@@ -5660,13 +5676,13 @@ msgid ""
 "ValueError: operation forbidden on released memoryview object"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4325
+#: ../../library/stdtypes.rst:4337
 msgid ""
 "The context management protocol can be used for a similar effect, using the "
 "``with`` statement::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4328
+#: ../../library/stdtypes.rst:4340
 msgid ""
 ">>> with memoryview(b'abc') as m:\n"
 "...     m[0]\n"
@@ -5678,7 +5694,7 @@ msgid ""
 "ValueError: operation forbidden on released memoryview object"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4341
+#: ../../library/stdtypes.rst:4353
 msgid ""
 "Cast a memoryview to a new format or shape. *shape* defaults to "
 "``[byte_length//new_itemsize]``, which means that the result view will be "
@@ -5687,7 +5703,7 @@ msgid ""
 "contiguous -> 1D."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4347
+#: ../../library/stdtypes.rst:4359
 msgid ""
 "The destination format is restricted to a single element native format in :"
 "mod:`struct` syntax. One of the formats must be a byte format ('B', 'b' or "
@@ -5695,11 +5711,11 @@ msgid ""
 "Note that all byte lengths may depend on the operating system."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4353
+#: ../../library/stdtypes.rst:4365
 msgid "Cast 1D/long to 1D/unsigned bytes::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4355
+#: ../../library/stdtypes.rst:4367
 msgid ""
 ">>> import array\n"
 ">>> a = array.array('l', [1,2,3])\n"
@@ -5723,11 +5739,11 @@ msgid ""
 "24"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4376
+#: ../../library/stdtypes.rst:4388
 msgid "Cast 1D/unsigned bytes to 1D/char::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4378
+#: ../../library/stdtypes.rst:4390
 msgid ""
 ">>> b = bytearray(b'zyz')\n"
 ">>> x = memoryview(b)\n"
@@ -5741,11 +5757,11 @@ msgid ""
 "bytearray(b'ayz')"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4389
+#: ../../library/stdtypes.rst:4401
 msgid "Cast 1D/bytes to 3D/ints to 1D/signed char::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4391
+#: ../../library/stdtypes.rst:4403
 msgid ""
 ">>> import struct\n"
 ">>> buf = struct.pack(\"i\"*12, *list(range(12)))\n"
@@ -5772,11 +5788,11 @@ msgid ""
 "48"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4415
+#: ../../library/stdtypes.rst:4427
 msgid "Cast 1D/unsigned long to 2D/unsigned long::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4417
+#: ../../library/stdtypes.rst:4429
 msgid ""
 ">>> buf = struct.pack(\"L\"*6, *list(range(6)))\n"
 ">>> x = memoryview(buf)\n"
@@ -5789,33 +5805,33 @@ msgid ""
 "[[0, 1, 2], [3, 4, 5]]"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4429
+#: ../../library/stdtypes.rst:4441
 msgid "The source format is no longer restricted when casting to a byte view."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4434
+#: ../../library/stdtypes.rst:4446
 msgid "Count the number of occurrences of *value*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4440
+#: ../../library/stdtypes.rst:4452
 msgid ""
 "Return the index of the first occurrence of *value* (at or after index "
 "*start* and before index *stop*)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4443
+#: ../../library/stdtypes.rst:4455
 msgid "Raises a :exc:`ValueError` if *value* cannot be found."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4447
+#: ../../library/stdtypes.rst:4459
 msgid "There are also several readonly attributes available:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4451
+#: ../../library/stdtypes.rst:4463
 msgid "The underlying object of the memoryview::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4453
+#: ../../library/stdtypes.rst:4465
 msgid ""
 ">>> b  = bytearray(b'xyz')\n"
 ">>> m = memoryview(b)\n"
@@ -5823,14 +5839,14 @@ msgid ""
 "True"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4462
+#: ../../library/stdtypes.rst:4474
 msgid ""
 "``nbytes == product(shape) * itemsize == len(m.tobytes())``. This is the "
 "amount of space in bytes that the array would use in a contiguous "
 "representation. It is not necessarily equal to ``len(m)``::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4466
+#: ../../library/stdtypes.rst:4478
 msgid ""
 ">>> import array\n"
 ">>> a = array.array('i', [1,2,3,4,5])\n"
@@ -5848,11 +5864,11 @@ msgid ""
 "12"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4481
+#: ../../library/stdtypes.rst:4493
 msgid "Multi-dimensional arrays::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4483
+#: ../../library/stdtypes.rst:4495
 msgid ""
 ">>> import struct\n"
 ">>> buf = struct.pack(\"d\"*12, *[1.5*x for x in range(12)])\n"
@@ -5866,11 +5882,11 @@ msgid ""
 "96"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4498
+#: ../../library/stdtypes.rst:4510
 msgid "A bool indicating whether the memory is read only."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4502
+#: ../../library/stdtypes.rst:4514
 msgid ""
 "A string containing the format (in :mod:`struct` module style) for each "
 "element in the view. A memoryview can be created from exporters with "
@@ -5878,17 +5894,17 @@ msgid ""
 "restricted to native single element formats."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4507
+#: ../../library/stdtypes.rst:4519
 msgid ""
 "format ``'B'`` is now handled according to the struct module syntax. This "
 "means that ``memoryview(b'abc')[0] == b'abc'[0] == 97``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4513
+#: ../../library/stdtypes.rst:4525
 msgid "The size in bytes of each element of the memoryview::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4515
+#: ../../library/stdtypes.rst:4527
 msgid ""
 ">>> import array, struct\n"
 ">>> m = memoryview(array.array('H', [32000, 32001, 32002]))\n"
@@ -5900,49 +5916,49 @@ msgid ""
 "True"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4526
+#: ../../library/stdtypes.rst:4538
 msgid ""
 "An integer indicating how many dimensions of a multi-dimensional array the "
 "memory represents."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4531
+#: ../../library/stdtypes.rst:4543
 msgid ""
 "A tuple of integers the length of :attr:`ndim` giving the shape of the "
 "memory as an N-dimensional array."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4534 ../../library/stdtypes.rst:4542
+#: ../../library/stdtypes.rst:4546 ../../library/stdtypes.rst:4554
 msgid "An empty tuple instead of ``None`` when ndim = 0."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4539
+#: ../../library/stdtypes.rst:4551
 msgid ""
 "A tuple of integers the length of :attr:`ndim` giving the size in bytes to "
 "access each element for each dimension of the array."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4547
+#: ../../library/stdtypes.rst:4559
 msgid "Used internally for PIL-style arrays. The value is informational only."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4551
+#: ../../library/stdtypes.rst:4563
 msgid "A bool indicating whether the memory is C-:term:`contiguous`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4557
+#: ../../library/stdtypes.rst:4569
 msgid "A bool indicating whether the memory is Fortran :term:`contiguous`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4563
+#: ../../library/stdtypes.rst:4575
 msgid "A bool indicating whether the memory is :term:`contiguous`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4571
+#: ../../library/stdtypes.rst:4583
 msgid "Set Types --- :class:`set`, :class:`frozenset`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4575
+#: ../../library/stdtypes.rst:4587
 msgid ""
 "A :dfn:`set` object is an unordered collection of distinct :term:`hashable` "
 "objects. Common uses include membership testing, removing duplicates from a "
@@ -5952,7 +5968,7 @@ msgid ""
 "`collections` module.)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4582
+#: ../../library/stdtypes.rst:4594
 msgid ""
 "Like other collections, sets support ``x in set``, ``len(set)``, and ``for x "
 "in set``.  Being an unordered collection, sets do not record element "
@@ -5960,7 +5976,7 @@ msgid ""
 "slicing, or other sequence-like behavior."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4587
+#: ../../library/stdtypes.rst:4599
 msgid ""
 "There are currently two built-in set types, :class:`set` and :class:"
 "`frozenset`. The :class:`set` type is mutable --- the contents can be "
@@ -5972,18 +5988,18 @@ msgid ""
 "of another set."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4595
+#: ../../library/stdtypes.rst:4607
 msgid ""
 "Non-empty sets (not frozensets) can be created by placing a comma-separated "
 "list of elements within braces, for example: ``{'jack', 'sjoerd'}``, in "
 "addition to the :class:`set` constructor."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4599
+#: ../../library/stdtypes.rst:4611
 msgid "The constructors for both classes work the same:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4604
+#: ../../library/stdtypes.rst:4616
 msgid ""
 "Return a new set or frozenset object whose elements are taken from "
 "*iterable*.  The elements of a set must be :term:`hashable`.  To represent "
@@ -5991,92 +6007,92 @@ msgid ""
 "*iterable* is not specified, a new empty set is returned."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4610
+#: ../../library/stdtypes.rst:4622
 msgid "Sets can be created by several means:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4612
+#: ../../library/stdtypes.rst:4624
 msgid ""
 "Use a comma-separated list of elements within braces: ``{'jack', 'sjoerd'}``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4613
+#: ../../library/stdtypes.rst:4625
 msgid ""
 "Use a set comprehension: ``{c for c in 'abracadabra' if c not in 'abc'}``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4614
+#: ../../library/stdtypes.rst:4626
 msgid ""
 "Use the type constructor: ``set()``, ``set('foobar')``, ``set(['a', 'b', "
 "'foo'])``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4616
+#: ../../library/stdtypes.rst:4628
 msgid ""
 "Instances of :class:`set` and :class:`frozenset` provide the following "
 "operations:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4621
+#: ../../library/stdtypes.rst:4633
 msgid "Return the number of elements in set *s* (cardinality of *s*)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4625
+#: ../../library/stdtypes.rst:4637
 msgid "Test *x* for membership in *s*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4629
+#: ../../library/stdtypes.rst:4641
 msgid "Test *x* for non-membership in *s*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4633
+#: ../../library/stdtypes.rst:4645
 msgid ""
 "Return ``True`` if the set has no elements in common with *other*.  Sets are "
 "disjoint if and only if their intersection is the empty set."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4639
+#: ../../library/stdtypes.rst:4651
 msgid "Test whether every element in the set is in *other*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4643
+#: ../../library/stdtypes.rst:4655
 msgid ""
 "Test whether the set is a proper subset of *other*, that is, ``set <= other "
 "and set != other``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4649
+#: ../../library/stdtypes.rst:4661
 msgid "Test whether every element in *other* is in the set."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4653
+#: ../../library/stdtypes.rst:4665
 msgid ""
 "Test whether the set is a proper superset of *other*, that is, ``set >= "
 "other and set != other``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4659
+#: ../../library/stdtypes.rst:4671
 msgid "Return a new set with elements from the set and all others."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4664
+#: ../../library/stdtypes.rst:4676
 msgid "Return a new set with elements common to the set and all others."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4669
+#: ../../library/stdtypes.rst:4681
 msgid "Return a new set with elements in the set that are not in the others."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4674
+#: ../../library/stdtypes.rst:4686
 msgid ""
 "Return a new set with elements in either the set or *other* but not both."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4678
+#: ../../library/stdtypes.rst:4690
 msgid "Return a shallow copy of the set."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4681
+#: ../../library/stdtypes.rst:4693
 msgid ""
 "Note, the non-operator versions of :meth:`union`, :meth:`intersection`, :"
 "meth:`difference`, :meth:`symmetric_difference`, :meth:`issubset`, and :meth:"
@@ -6086,7 +6102,7 @@ msgid ""
 "the more readable ``set('abc').intersection('cbs')``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4688
+#: ../../library/stdtypes.rst:4700
 msgid ""
 "Both :class:`set` and :class:`frozenset` support set to set comparisons. Two "
 "sets are equal if and only if every element of each set is contained in the "
@@ -6096,14 +6112,14 @@ msgid ""
 "set is a proper superset of the second set (is a superset, but is not equal)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4695
+#: ../../library/stdtypes.rst:4707
 msgid ""
 "Instances of :class:`set` are compared to instances of :class:`frozenset` "
 "based on their members.  For example, ``set('abc') == frozenset('abc')`` "
 "returns ``True`` and so does ``set('abc') in set([frozenset('abc')])``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4699
+#: ../../library/stdtypes.rst:4711
 msgid ""
 "The subset and equality comparisons do not generalize to a total ordering "
 "function.  For example, any two nonempty disjoint sets are not equal and are "
@@ -6111,71 +6127,71 @@ msgid ""
 "``a<b``, ``a==b``, or ``a>b``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4704
+#: ../../library/stdtypes.rst:4716
 msgid ""
 "Since sets only define partial ordering (subset relationships), the output "
 "of the :meth:`list.sort` method is undefined for lists of sets."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4707
+#: ../../library/stdtypes.rst:4719
 msgid "Set elements, like dictionary keys, must be :term:`hashable`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4709
+#: ../../library/stdtypes.rst:4721
 msgid ""
 "Binary operations that mix :class:`set` instances with :class:`frozenset` "
 "return the type of the first operand.  For example: ``frozenset('ab') | "
 "set('bc')`` returns an instance of :class:`frozenset`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4713
+#: ../../library/stdtypes.rst:4725
 msgid ""
 "The following table lists operations available for :class:`set` that do not "
 "apply to immutable instances of :class:`frozenset`:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4719
+#: ../../library/stdtypes.rst:4731
 msgid "Update the set, adding elements from all others."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4724
+#: ../../library/stdtypes.rst:4736
 msgid "Update the set, keeping only elements found in it and all others."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4729
+#: ../../library/stdtypes.rst:4741
 msgid "Update the set, removing elements found in others."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4734
+#: ../../library/stdtypes.rst:4746
 msgid ""
 "Update the set, keeping only elements found in either set, but not in both."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4738
+#: ../../library/stdtypes.rst:4750
 msgid "Add element *elem* to the set."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4742
+#: ../../library/stdtypes.rst:4754
 msgid ""
 "Remove element *elem* from the set.  Raises :exc:`KeyError` if *elem* is not "
 "contained in the set."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4747
+#: ../../library/stdtypes.rst:4759
 msgid "Remove element *elem* from the set if it is present."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4751
+#: ../../library/stdtypes.rst:4763
 msgid ""
 "Remove and return an arbitrary element from the set.  Raises :exc:`KeyError` "
 "if the set is empty."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4756
+#: ../../library/stdtypes.rst:4768
 msgid "Remove all elements from the set."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4759
+#: ../../library/stdtypes.rst:4771
 msgid ""
 "Note, the non-operator versions of the :meth:`update`, :meth:"
 "`intersection_update`, :meth:`difference_update`, and :meth:"
@@ -6183,18 +6199,18 @@ msgid ""
 "argument."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4764
+#: ../../library/stdtypes.rst:4776
 msgid ""
 "Note, the *elem* argument to the :meth:`~object.__contains__`, :meth:"
 "`remove`, and :meth:`discard` methods may be a set.  To support searching "
 "for an equivalent frozenset, a temporary one is created from *elem*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4773
+#: ../../library/stdtypes.rst:4785
 msgid "Mapping Types --- :class:`dict`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4783
+#: ../../library/stdtypes.rst:4795
 msgid ""
 "A :term:`mapping` object maps :term:`hashable` values to arbitrary objects. "
 "Mappings are mutable objects.  There is currently only one standard mapping "
@@ -6203,7 +6219,7 @@ msgid ""
 "module.)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4789
+#: ../../library/stdtypes.rst:4801
 msgid ""
 "A dictionary's keys are *almost* arbitrary values.  Values that are not :"
 "term:`hashable`, that is, values containing lists, dictionaries or other "
@@ -6212,33 +6228,33 @@ msgid ""
 "and ``True``) can be used interchangeably to index the same dictionary entry."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4800
+#: ../../library/stdtypes.rst:4812
 msgid ""
 "Return a new dictionary initialized from an optional positional argument and "
 "a possibly empty set of keyword arguments."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4803
+#: ../../library/stdtypes.rst:4815
 msgid "Dictionaries can be created by several means:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4805
+#: ../../library/stdtypes.rst:4817
 msgid ""
 "Use a comma-separated list of ``key: value`` pairs within braces: ``{'jack': "
 "4098, 'sjoerd': 4127}`` or ``{4098: 'jack', 4127: 'sjoerd'}``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4807
+#: ../../library/stdtypes.rst:4819
 msgid "Use a dict comprehension: ``{}``, ``{x: x ** 2 for x in range(10)}``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4808
+#: ../../library/stdtypes.rst:4820
 msgid ""
 "Use the type constructor: ``dict()``, ``dict([('foo', 100), ('bar', "
 "200)])``, ``dict(foo=100, bar=200)``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4811
+#: ../../library/stdtypes.rst:4823
 msgid ""
 "If no positional argument is given, an empty dictionary is created. If a "
 "positional argument is given and it defines a ``keys()`` method, a "
@@ -6251,7 +6267,7 @@ msgid ""
 "that key becomes the corresponding value in the new dictionary."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4821
+#: ../../library/stdtypes.rst:4833
 msgid ""
 "If keyword arguments are given, the keyword arguments and their values are "
 "added to the dictionary created from the positional argument.  If a key "
@@ -6259,13 +6275,13 @@ msgid ""
 "the value from the positional argument."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4826 ../../library/stdtypes.rst:4844
+#: ../../library/stdtypes.rst:4838 ../../library/stdtypes.rst:4856
 msgid ""
 "Providing keyword arguments as in the first example only works for keys that "
 "are valid Python identifiers.  Otherwise, any valid keys can be used."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4829
+#: ../../library/stdtypes.rst:4841
 msgid ""
 "Dictionaries compare equal if and only if they have the same ``(key, "
 "value)`` pairs (regardless of ordering). Order comparisons ('<', '<=', '>=', "
@@ -6274,7 +6290,7 @@ msgid ""
 "``{\"one\": 1, \"two\": 2, \"three\": 3}``::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4835
+#: ../../library/stdtypes.rst:4847
 msgid ""
 ">>> a = dict(one=1, two=2, three=3)\n"
 ">>> b = {'one': 1, 'two': 2, 'three': 3}\n"
@@ -6286,13 +6302,13 @@ msgid ""
 "True"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4847
+#: ../../library/stdtypes.rst:4859
 msgid ""
 "Dictionaries preserve insertion order.  Note that updating a key does not "
 "affect the order.  Keys added after deletion are inserted at the end. ::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4850
+#: ../../library/stdtypes.rst:4862
 msgid ""
 ">>> d = {\"one\": 1, \"two\": 2, \"three\": 3, \"four\": 4}\n"
 ">>> d\n"
@@ -6310,33 +6326,33 @@ msgid ""
 "{'one': 42, 'three': 3, 'four': 4, 'two': None}"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4865
+#: ../../library/stdtypes.rst:4877
 msgid ""
 "Dictionary order is guaranteed to be insertion order.  This behavior was an "
 "implementation detail of CPython from 3.6."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4869
+#: ../../library/stdtypes.rst:4881
 msgid ""
 "These are the operations that dictionaries support (and therefore, custom "
 "mapping types should support too):"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4874
+#: ../../library/stdtypes.rst:4886
 msgid "Return a list of all the keys used in the dictionary *d*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4878
+#: ../../library/stdtypes.rst:4890
 msgid "Return the number of items in the dictionary *d*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4882
+#: ../../library/stdtypes.rst:4894
 msgid ""
 "Return the item of *d* with key *key*.  Raises a :exc:`KeyError` if *key* is "
 "not in the map."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4887
+#: ../../library/stdtypes.rst:4899
 msgid ""
 "If a subclass of dict defines a method :meth:`__missing__` and *key* is not "
 "present, the ``d[key]`` operation calls that method with the key *key* as "
@@ -6347,7 +6363,7 @@ msgid ""
 "an instance variable::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4895
+#: ../../library/stdtypes.rst:4907
 msgid ""
 ">>> class Counter(dict):\n"
 "...     def __missing__(self, key):\n"
@@ -6361,51 +6377,51 @@ msgid ""
 "1"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4906
+#: ../../library/stdtypes.rst:4918
 msgid ""
 "The example above shows part of the implementation of :class:`collections."
 "Counter`.  A different ``__missing__`` method is used by :class:`collections."
 "defaultdict`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4912
+#: ../../library/stdtypes.rst:4924
 msgid "Set ``d[key]`` to *value*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4916
+#: ../../library/stdtypes.rst:4928
 msgid ""
 "Remove ``d[key]`` from *d*.  Raises a :exc:`KeyError` if *key* is not in the "
 "map."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4921
+#: ../../library/stdtypes.rst:4933
 msgid "Return ``True`` if *d* has a key *key*, else ``False``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4925
+#: ../../library/stdtypes.rst:4937
 msgid "Equivalent to ``not key in d``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4929
+#: ../../library/stdtypes.rst:4941
 msgid ""
 "Return an iterator over the keys of the dictionary.  This is a shortcut for "
 "``iter(d.keys())``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4934
+#: ../../library/stdtypes.rst:4946
 msgid "Remove all items from the dictionary."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4938
+#: ../../library/stdtypes.rst:4950
 msgid "Return a shallow copy of the dictionary."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4942
+#: ../../library/stdtypes.rst:4954
 msgid ""
 "Create a new dictionary with keys from *iterable* and values set to *value*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4944
+#: ../../library/stdtypes.rst:4956
 msgid ""
 ":meth:`fromkeys` is a class method that returns a new dictionary. *value* "
 "defaults to ``None``.  All of the values refer to just a single instance, so "
@@ -6414,70 +6430,70 @@ msgid ""
 "<dict>` instead."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4952
+#: ../../library/stdtypes.rst:4964
 msgid ""
 "Return the value for *key* if *key* is in the dictionary, else *default*. If "
 "*default* is not given, it defaults to ``None``, so that this method never "
 "raises a :exc:`KeyError`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4958
+#: ../../library/stdtypes.rst:4970
 msgid ""
 "Return a new view of the dictionary's items (``(key, value)`` pairs). See "
 "the :ref:`documentation of view objects <dict-views>`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4963
+#: ../../library/stdtypes.rst:4975
 msgid ""
 "Return a new view of the dictionary's keys.  See the :ref:`documentation of "
 "view objects <dict-views>`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4968
+#: ../../library/stdtypes.rst:4980
 msgid ""
 "If *key* is in the dictionary, remove it and return its value, else return "
 "*default*.  If *default* is not given and *key* is not in the dictionary, a :"
 "exc:`KeyError` is raised."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4974
+#: ../../library/stdtypes.rst:4986
 msgid ""
 "Remove and return a ``(key, value)`` pair from the dictionary. Pairs are "
 "returned in :abbr:`LIFO (last-in, first-out)` order."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4977
+#: ../../library/stdtypes.rst:4989
 msgid ""
 ":meth:`popitem` is useful to destructively iterate over a dictionary, as "
 "often used in set algorithms.  If the dictionary is empty, calling :meth:"
 "`popitem` raises a :exc:`KeyError`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4981
+#: ../../library/stdtypes.rst:4993
 msgid ""
 "LIFO order is now guaranteed. In prior versions, :meth:`popitem` would "
 "return an arbitrary key/value pair."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4987
+#: ../../library/stdtypes.rst:4999
 msgid ""
 "Return a reverse iterator over the keys of the dictionary. This is a "
 "shortcut for ``reversed(d.keys())``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4994
+#: ../../library/stdtypes.rst:5006
 msgid ""
 "If *key* is in the dictionary, return its value.  If not, insert *key* with "
 "a value of *default* and return *default*.  *default* defaults to ``None``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5000
+#: ../../library/stdtypes.rst:5012
 msgid ""
 "Update the dictionary with the key/value pairs from *other*, overwriting "
 "existing keys.  Return ``None``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5003
+#: ../../library/stdtypes.rst:5015
 msgid ""
 ":meth:`update` accepts either another object with a ``keys()`` method (in "
 "which case :meth:`~object.__getitem__` is called with every key returned "
@@ -6486,45 +6502,45 @@ msgid ""
 "is then updated with those key/value pairs: ``d.update(red=1, blue=2)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5011
+#: ../../library/stdtypes.rst:5023
 msgid ""
 "Return a new view of the dictionary's values.  See the :ref:`documentation "
 "of view objects <dict-views>`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5014
+#: ../../library/stdtypes.rst:5026
 msgid ""
 "An equality comparison between one ``dict.values()`` view and another will "
 "always return ``False``. This also applies when comparing ``dict.values()`` "
 "to itself::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5018
+#: ../../library/stdtypes.rst:5030
 msgid ""
 ">>> d = {'a': 1}\n"
 ">>> d.values() == d.values()\n"
 "False"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5024
+#: ../../library/stdtypes.rst:5036
 msgid ""
 "Create a new dictionary with the merged keys and values of *d* and *other*, "
 "which must both be dictionaries. The values of *other* take priority when "
 "*d* and *other* share keys."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5032
+#: ../../library/stdtypes.rst:5044
 msgid ""
 "Update the dictionary *d* with keys and values from *other*, which may be "
 "either a :term:`mapping` or an :term:`iterable` of key/value pairs. The "
 "values of *other* take priority when *d* and *other* share keys."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5038
+#: ../../library/stdtypes.rst:5050
 msgid "Dictionaries and dictionary views are reversible. ::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5040
+#: ../../library/stdtypes.rst:5052
 msgid ""
 ">>> d = {\"one\": 1, \"two\": 2, \"three\": 3, \"four\": 4}\n"
 ">>> d\n"
@@ -6537,21 +6553,21 @@ msgid ""
 "[('four', 4), ('three', 3), ('two', 2), ('one', 1)]"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5050
+#: ../../library/stdtypes.rst:5062
 msgid "Dictionaries are now reversible."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5055
+#: ../../library/stdtypes.rst:5067
 msgid ""
 ":class:`types.MappingProxyType` can be used to create a read-only view of a :"
 "class:`dict`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5062
+#: ../../library/stdtypes.rst:5074
 msgid "Dictionary view objects"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5064
+#: ../../library/stdtypes.rst:5076
 msgid ""
 "The objects returned by :meth:`dict.keys`, :meth:`dict.values` and :meth:"
 "`dict.items` are *view objects*.  They provide a dynamic view on the "
@@ -6559,23 +6575,23 @@ msgid ""
 "reflects these changes."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5069
+#: ../../library/stdtypes.rst:5081
 msgid ""
 "Dictionary views can be iterated over to yield their respective data, and "
 "support membership tests:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5074
+#: ../../library/stdtypes.rst:5086
 msgid "Return the number of entries in the dictionary."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5078
+#: ../../library/stdtypes.rst:5090
 msgid ""
 "Return an iterator over the keys, values or items (represented as tuples of "
 "``(key, value)``) in the dictionary."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5081
+#: ../../library/stdtypes.rst:5093
 msgid ""
 "Keys and values are iterated over in insertion order. This allows the "
 "creation of ``(value, key)`` pairs using :func:`zip`: ``pairs = zip(d."
@@ -6583,39 +6599,39 @@ msgid ""
 "[(v, k) for (k, v) in d.items()]``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5086
+#: ../../library/stdtypes.rst:5098
 msgid ""
 "Iterating views while adding or deleting entries in the dictionary may raise "
 "a :exc:`RuntimeError` or fail to iterate over all entries."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5089
+#: ../../library/stdtypes.rst:5101
 msgid "Dictionary order is guaranteed to be insertion order."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5094
+#: ../../library/stdtypes.rst:5106
 msgid ""
 "Return ``True`` if *x* is in the underlying dictionary's keys, values or "
 "items (in the latter case, *x* should be a ``(key, value)`` tuple)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5099
+#: ../../library/stdtypes.rst:5111
 msgid ""
 "Return a reverse iterator over the keys, values or items of the dictionary. "
 "The view will be iterated in reverse order of the insertion."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5102
+#: ../../library/stdtypes.rst:5114
 msgid "Dictionary views are now reversible."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5107
+#: ../../library/stdtypes.rst:5119
 msgid ""
 "Return a :class:`types.MappingProxyType` that wraps the original dictionary "
 "to which the view refers."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5112
+#: ../../library/stdtypes.rst:5124
 msgid ""
 "Keys views are set-like since their entries are unique and :term:`hashable`. "
 "Items views also have set-like operations since the (key, value) pairs are "
@@ -6629,11 +6645,11 @@ msgid ""
 "input."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5124
+#: ../../library/stdtypes.rst:5136
 msgid "An example of dictionary view usage::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5126
+#: ../../library/stdtypes.rst:5138
 msgid ""
 ">>> dishes = {'eggs': 2, 'sausage': 1, 'bacon': 1, 'spam': 500}\n"
 ">>> keys = dishes.keys()\n"
@@ -6674,11 +6690,11 @@ msgid ""
 "500"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5168
+#: ../../library/stdtypes.rst:5180
 msgid "Context Manager Types"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5175
+#: ../../library/stdtypes.rst:5187
 msgid ""
 "Python's :keyword:`with` statement supports the concept of a runtime context "
 "defined by a context manager.  This is implemented using a pair of methods "
@@ -6686,7 +6702,7 @@ msgid ""
 "before the statement body is executed and exited when the statement ends:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5183
+#: ../../library/stdtypes.rst:5195
 msgid ""
 "Enter the runtime context and return either this object or another object "
 "related to the runtime context. The value returned by this method is bound "
@@ -6694,14 +6710,14 @@ msgid ""
 "using this context manager."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5188
+#: ../../library/stdtypes.rst:5200
 msgid ""
 "An example of a context manager that returns itself is a :term:`file "
 "object`. File objects return themselves from __enter__() to allow :func:"
 "`open` to be used as the context expression in a :keyword:`with` statement."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5192
+#: ../../library/stdtypes.rst:5204
 msgid ""
 "An example of a context manager that returns a related object is the one "
 "returned by :func:`decimal.localcontext`. These managers set the active "
@@ -6711,7 +6727,7 @@ msgid ""
 "the :keyword:`!with` statement."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5202
+#: ../../library/stdtypes.rst:5214
 msgid ""
 "Exit the runtime context and return a Boolean flag indicating if any "
 "exception that occurred should be suppressed. If an exception occurred while "
@@ -6720,7 +6736,7 @@ msgid ""
 "arguments are ``None``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5207
+#: ../../library/stdtypes.rst:5219
 msgid ""
 "Returning a true value from this method will cause the :keyword:`with` "
 "statement to suppress the exception and continue execution with the "
@@ -6731,7 +6747,7 @@ msgid ""
 "statement."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5214
+#: ../../library/stdtypes.rst:5226
 msgid ""
 "The exception passed in should never be reraised explicitly - instead, this "
 "method should return a false value to indicate that the method completed "
@@ -6740,7 +6756,7 @@ msgid ""
 "__exit__` method has actually failed."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5220
+#: ../../library/stdtypes.rst:5232
 msgid ""
 "Python defines several context managers to support easy thread "
 "synchronisation, prompt closure of files or other objects, and simpler "
@@ -6749,7 +6765,7 @@ msgid ""
 "management protocol. See the :mod:`contextlib` module for some examples."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5226
+#: ../../library/stdtypes.rst:5238
 msgid ""
 "Python's :term:`generator`\\s and the :class:`contextlib.contextmanager` "
 "decorator provide a convenient way to implement these protocols.  If a "
@@ -6759,7 +6775,7 @@ msgid ""
 "rather than the iterator produced by an undecorated generator function."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5233
+#: ../../library/stdtypes.rst:5245
 msgid ""
 "Note that there is no specific slot for any of these methods in the type "
 "structure for Python objects in the Python/C API. Extension types wanting to "
@@ -6768,23 +6784,23 @@ msgid ""
 "a single class dictionary lookup is negligible."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5241
+#: ../../library/stdtypes.rst:5253
 msgid ""
 "Type Annotation Types --- :ref:`Generic Alias <types-genericalias>`, :ref:"
 "`Union <types-union>`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5246
+#: ../../library/stdtypes.rst:5258
 msgid ""
 "The core built-in types for :term:`type annotations <annotation>` are :ref:"
 "`Generic Alias <types-genericalias>` and :ref:`Union <types-union>`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5253
+#: ../../library/stdtypes.rst:5265
 msgid "Generic Alias Type"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5259
+#: ../../library/stdtypes.rst:5271
 msgid ""
 "``GenericAlias`` objects are generally created by :ref:`subscripting "
 "<subscriptions>` a class. They are most often used with :ref:`container "
@@ -6794,19 +6810,19 @@ msgid ""
 "are intended primarily for use with :term:`type annotations <annotation>`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5269
+#: ../../library/stdtypes.rst:5281
 msgid ""
 "It is generally only possible to subscript a class if the class implements "
 "the special method :meth:`~object.__class_getitem__`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5272
+#: ../../library/stdtypes.rst:5284
 msgid ""
 "A ``GenericAlias`` object acts as a proxy for a :term:`generic type`, "
 "implementing *parameterized generics*."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5275
+#: ../../library/stdtypes.rst:5287
 msgid ""
 "For a container class, the argument(s) supplied to a :ref:`subscription "
 "<subscriptions>` of the class may indicate the type(s) of the elements an "
@@ -6815,7 +6831,7 @@ msgid ""
 "`bytes`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5281
+#: ../../library/stdtypes.rst:5293
 msgid ""
 "For a class which defines :meth:`~object.__class_getitem__` but is not a "
 "container, the argument(s) supplied to a subscription of the class will "
@@ -6824,7 +6840,7 @@ msgid ""
 "the :class:`str` data type and the :class:`bytes` data type:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5287
+#: ../../library/stdtypes.rst:5299
 msgid ""
 "If ``x = re.search('foo', 'foo')``, ``x`` will be a :ref:`re.Match <match-"
 "objects>` object where the return values of ``x.group(0)`` and ``x[0]`` will "
@@ -6832,7 +6848,7 @@ msgid ""
 "annotations with the ``GenericAlias`` ``re.Match[str]``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5293
+#: ../../library/stdtypes.rst:5305
 msgid ""
 "If ``y = re.search(b'bar', b'bar')``, (note the ``b`` for :class:`bytes`), "
 "``y`` will also be an instance of ``re.Match``, but the return values of ``y."
@@ -6841,27 +6857,27 @@ msgid ""
 "objects>` objects with ``re.Match[bytes]``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5299
+#: ../../library/stdtypes.rst:5311
 msgid ""
 "``GenericAlias`` objects are instances of the class :class:`types."
 "GenericAlias`, which can also be used to create ``GenericAlias`` objects "
 "directly."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5305
+#: ../../library/stdtypes.rst:5317
 msgid ""
 "Creates a ``GenericAlias`` representing a type ``T`` parameterized by types "
 "*X*, *Y*, and more depending on the ``T`` used. For example, a function "
 "expecting a :class:`list` containing :class:`float` elements::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5310
+#: ../../library/stdtypes.rst:5322
 msgid ""
 "def average(values: list[float]) -> float:\n"
 "    return sum(values) / len(values)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5313
+#: ../../library/stdtypes.rst:5325
 msgid ""
 "Another example for :term:`mapping` objects, using a :class:`dict`, which is "
 "a generic type expecting two type parameters representing the key type and "
@@ -6869,19 +6885,19 @@ msgid ""
 "of type :class:`str` and values of type :class:`int`::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5318
+#: ../../library/stdtypes.rst:5330
 msgid ""
 "def send_post_request(url: str, body: dict[str, int]) -> None:\n"
 "    ..."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5321
+#: ../../library/stdtypes.rst:5333
 msgid ""
 "The builtin functions :func:`isinstance` and :func:`issubclass` do not "
 "accept ``GenericAlias`` types for their second argument::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5324
+#: ../../library/stdtypes.rst:5336
 msgid ""
 ">>> isinstance([1, 2], list[str])\n"
 "Traceback (most recent call last):\n"
@@ -6889,7 +6905,7 @@ msgid ""
 "TypeError: isinstance() argument 2 cannot be a parameterized generic"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5329
+#: ../../library/stdtypes.rst:5341
 msgid ""
 "The Python runtime does not enforce :term:`type annotations <annotation>`. "
 "This extends to generic types and their type parameters. When creating a "
@@ -6898,20 +6914,20 @@ msgid ""
 "discouraged, but will run without errors::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5335
+#: ../../library/stdtypes.rst:5347
 msgid ""
 ">>> t = list[str]\n"
 ">>> t([1, 2, 3])\n"
 "[1, 2, 3]"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5339
+#: ../../library/stdtypes.rst:5351
 msgid ""
 "Furthermore, parameterized generics erase type parameters during object "
 "creation::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5342
+#: ../../library/stdtypes.rst:5354
 msgid ""
 ">>> t = list[str]\n"
 ">>> type(t)\n"
@@ -6922,13 +6938,13 @@ msgid ""
 "<class 'list'>"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5350
+#: ../../library/stdtypes.rst:5362
 msgid ""
 "Calling :func:`repr` or :func:`str` on a generic shows the parameterized "
 "type::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5352
+#: ../../library/stdtypes.rst:5364
 msgid ""
 ">>> repr(list[int])\n"
 "'list[int]'\n"
@@ -6937,13 +6953,13 @@ msgid ""
 "'list[int]'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5358
+#: ../../library/stdtypes.rst:5370
 msgid ""
 "The :meth:`~object.__getitem__` method of generic containers will raise an "
 "exception to disallow mistakes like ``dict[str][str]``::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5361
+#: ../../library/stdtypes.rst:5373
 msgid ""
 ">>> dict[str][str]\n"
 "Traceback (most recent call last):\n"
@@ -6951,14 +6967,14 @@ msgid ""
 "TypeError: dict[str] is not a generic class"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5366
+#: ../../library/stdtypes.rst:5378
 msgid ""
 "However, such expressions are valid when :ref:`type variables <generics>` "
 "are used.  The index must have as many elements as there are type variable "
 "items in the ``GenericAlias`` object's :attr:`~genericalias.__args__`. ::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5370
+#: ../../library/stdtypes.rst:5382
 msgid ""
 ">>> from typing import TypeVar\n"
 ">>> Y = TypeVar('Y')\n"
@@ -6966,274 +6982,274 @@ msgid ""
 "dict[str, int]"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5377
+#: ../../library/stdtypes.rst:5389
 msgid "Standard Generic Classes"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5379
+#: ../../library/stdtypes.rst:5391
 msgid ""
 "The following standard library classes support parameterized generics. This "
 "list is non-exhaustive."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5382
+#: ../../library/stdtypes.rst:5394
 msgid ":class:`tuple`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5383
+#: ../../library/stdtypes.rst:5395
 msgid ":class:`list`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5384
+#: ../../library/stdtypes.rst:5396
 msgid ":class:`dict`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5385
+#: ../../library/stdtypes.rst:5397
 msgid ":class:`set`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5386
+#: ../../library/stdtypes.rst:5398
 msgid ":class:`frozenset`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5387
+#: ../../library/stdtypes.rst:5399
 msgid ":class:`type`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5388
+#: ../../library/stdtypes.rst:5400
 msgid ":class:`asyncio.Future`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5389
+#: ../../library/stdtypes.rst:5401
 msgid ":class:`asyncio.Task`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5390
+#: ../../library/stdtypes.rst:5402
 msgid ":class:`collections.deque`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5391
+#: ../../library/stdtypes.rst:5403
 msgid ":class:`collections.defaultdict`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5392
+#: ../../library/stdtypes.rst:5404
 msgid ":class:`collections.OrderedDict`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5393
+#: ../../library/stdtypes.rst:5405
 msgid ":class:`collections.Counter`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5394
+#: ../../library/stdtypes.rst:5406
 msgid ":class:`collections.ChainMap`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5395
+#: ../../library/stdtypes.rst:5407
 msgid ":class:`collections.abc.Awaitable`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5396
+#: ../../library/stdtypes.rst:5408
 msgid ":class:`collections.abc.Coroutine`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5397
+#: ../../library/stdtypes.rst:5409
 msgid ":class:`collections.abc.AsyncIterable`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5398
+#: ../../library/stdtypes.rst:5410
 msgid ":class:`collections.abc.AsyncIterator`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5399
+#: ../../library/stdtypes.rst:5411
 msgid ":class:`collections.abc.AsyncGenerator`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5400
+#: ../../library/stdtypes.rst:5412
 msgid ":class:`collections.abc.Iterable`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5401
+#: ../../library/stdtypes.rst:5413
 msgid ":class:`collections.abc.Iterator`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5402
+#: ../../library/stdtypes.rst:5414
 msgid ":class:`collections.abc.Generator`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5403
+#: ../../library/stdtypes.rst:5415
 msgid ":class:`collections.abc.Reversible`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5404
+#: ../../library/stdtypes.rst:5416
 msgid ":class:`collections.abc.Container`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5405
+#: ../../library/stdtypes.rst:5417
 msgid ":class:`collections.abc.Collection`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5406
+#: ../../library/stdtypes.rst:5418
 msgid ":class:`collections.abc.Callable`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5407
+#: ../../library/stdtypes.rst:5419
 msgid ":class:`collections.abc.Set`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5408
+#: ../../library/stdtypes.rst:5420
 msgid ":class:`collections.abc.MutableSet`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5409
+#: ../../library/stdtypes.rst:5421
 msgid ":class:`collections.abc.Mapping`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5410
+#: ../../library/stdtypes.rst:5422
 msgid ":class:`collections.abc.MutableMapping`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5411
+#: ../../library/stdtypes.rst:5423
 msgid ":class:`collections.abc.Sequence`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5412
+#: ../../library/stdtypes.rst:5424
 msgid ":class:`collections.abc.MutableSequence`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5413
+#: ../../library/stdtypes.rst:5425
 msgid ":class:`collections.abc.MappingView`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5414
+#: ../../library/stdtypes.rst:5426
 msgid ":class:`collections.abc.KeysView`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5415
+#: ../../library/stdtypes.rst:5427
 msgid ":class:`collections.abc.ItemsView`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5416
+#: ../../library/stdtypes.rst:5428
 msgid ":class:`collections.abc.ValuesView`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5417
+#: ../../library/stdtypes.rst:5429
 msgid ":class:`contextlib.AbstractContextManager`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5418
+#: ../../library/stdtypes.rst:5430
 msgid ":class:`contextlib.AbstractAsyncContextManager`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5419
+#: ../../library/stdtypes.rst:5431
 msgid ":class:`dataclasses.Field`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5420
+#: ../../library/stdtypes.rst:5432
 msgid ":class:`functools.cached_property`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5421
+#: ../../library/stdtypes.rst:5433
 msgid ":class:`functools.partialmethod`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5422
+#: ../../library/stdtypes.rst:5434
 msgid ":class:`os.PathLike`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5423
+#: ../../library/stdtypes.rst:5435
 msgid ":class:`queue.LifoQueue`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5424
+#: ../../library/stdtypes.rst:5436
 msgid ":class:`queue.Queue`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5425
+#: ../../library/stdtypes.rst:5437
 msgid ":class:`queue.PriorityQueue`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5426
+#: ../../library/stdtypes.rst:5438
 msgid ":class:`queue.SimpleQueue`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5427
+#: ../../library/stdtypes.rst:5439
 msgid ":ref:`re.Pattern <re-objects>`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5428
+#: ../../library/stdtypes.rst:5440
 msgid ":ref:`re.Match <match-objects>`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5429
+#: ../../library/stdtypes.rst:5441
 msgid ":class:`shelve.BsdDbShelf`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5430
+#: ../../library/stdtypes.rst:5442
 msgid ":class:`shelve.DbfilenameShelf`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5431
+#: ../../library/stdtypes.rst:5443
 msgid ":class:`shelve.Shelf`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5432
+#: ../../library/stdtypes.rst:5444
 msgid ":class:`types.MappingProxyType`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5433
+#: ../../library/stdtypes.rst:5445
 msgid ":class:`weakref.WeakKeyDictionary`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5434
+#: ../../library/stdtypes.rst:5446
 msgid ":class:`weakref.WeakMethod`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5435
+#: ../../library/stdtypes.rst:5447
 msgid ":class:`weakref.WeakSet`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5436
+#: ../../library/stdtypes.rst:5448
 msgid ":class:`weakref.WeakValueDictionary`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5441
+#: ../../library/stdtypes.rst:5453
 msgid "Special Attributes of ``GenericAlias`` objects"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5443
+#: ../../library/stdtypes.rst:5455
 msgid "All parameterized generics implement special read-only attributes."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5447
+#: ../../library/stdtypes.rst:5459
 msgid "This attribute points at the non-parameterized generic class::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5449
+#: ../../library/stdtypes.rst:5461
 msgid ""
 ">>> list[int].__origin__\n"
 "<class 'list'>"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5455
+#: ../../library/stdtypes.rst:5467
 msgid ""
 "This attribute is a :class:`tuple` (possibly of length 1) of generic types "
 "passed to the original :meth:`~object.__class_getitem__` of the generic "
 "class::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5459
+#: ../../library/stdtypes.rst:5471
 msgid ""
 ">>> dict[str, list[int]].__args__\n"
 "(<class 'str'>, list[int])"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5465
+#: ../../library/stdtypes.rst:5477
 msgid ""
 "This attribute is a lazily computed tuple (possibly empty) of unique type "
 "variables found in ``__args__``::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5468
+#: ../../library/stdtypes.rst:5480
 msgid ""
 ">>> from typing import TypeVar\n"
 "\n"
@@ -7242,55 +7258,55 @@ msgid ""
 "(~T,)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5476
+#: ../../library/stdtypes.rst:5488
 msgid ""
 "A ``GenericAlias`` object with :class:`typing.ParamSpec` parameters may not "
 "have correct ``__parameters__`` after substitution because :class:`typing."
 "ParamSpec` is intended primarily for static type checking."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5483
+#: ../../library/stdtypes.rst:5495
 msgid ""
 "A boolean that is true if the alias has been unpacked using the ``*`` "
 "operator (see :data:`~typing.TypeVarTuple`)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5491
+#: ../../library/stdtypes.rst:5503
 msgid ":pep:`484` - Type Hints"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5492
+#: ../../library/stdtypes.rst:5504
 msgid "Introducing Python's framework for type annotations."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5494
+#: ../../library/stdtypes.rst:5506
 msgid ":pep:`585` - Type Hinting Generics In Standard Collections"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5495
+#: ../../library/stdtypes.rst:5507
 msgid ""
 "Introducing the ability to natively parameterize standard-library classes, "
 "provided they implement the special class method :meth:`~object."
 "__class_getitem__`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5499
+#: ../../library/stdtypes.rst:5511
 msgid ""
 ":ref:`Generics`, :ref:`user-defined generics <user-defined-generics>` and :"
 "class:`typing.Generic`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5500
+#: ../../library/stdtypes.rst:5512
 msgid ""
 "Documentation on how to implement generic classes that can be parameterized "
 "at runtime and understood by static type-checkers."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5509
+#: ../../library/stdtypes.rst:5521
 msgid "Union Type"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5515
+#: ../../library/stdtypes.rst:5527
 msgid ""
 "A union object holds the value of the ``|`` (bitwise or) operation on "
 "multiple :ref:`type objects <bltin-type-objects>`.  These types are intended "
@@ -7299,7 +7315,7 @@ msgid ""
 "class:`typing.Union`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5522
+#: ../../library/stdtypes.rst:5534
 msgid ""
 "Defines a union object which holds types *X*, *Y*, and so forth. ``X | Y`` "
 "means either X or Y.  It is equivalent to ``typing.Union[X, Y]``. For "
@@ -7307,13 +7323,13 @@ msgid ""
 "class:`float`::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5527
+#: ../../library/stdtypes.rst:5539
 msgid ""
 "def square(number: int | float) -> int | float:\n"
 "    return number ** 2"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5532
+#: ../../library/stdtypes.rst:5544
 msgid ""
 "The ``|`` operand cannot be used at runtime to define unions where one or "
 "more members is a forward reference. For example, ``int | \"Foo\"``, where "
@@ -7322,72 +7338,72 @@ msgid ""
 "a string, e.g. ``\"int | Foo\"``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5540
+#: ../../library/stdtypes.rst:5552
 msgid ""
 "Union objects can be tested for equality with other union objects.  Details:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5542
+#: ../../library/stdtypes.rst:5554
 msgid "Unions of unions are flattened::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5544
+#: ../../library/stdtypes.rst:5556
 msgid "(int | str) | float == int | str | float"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5546
+#: ../../library/stdtypes.rst:5558
 msgid "Redundant types are removed::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5548
+#: ../../library/stdtypes.rst:5560
 msgid "int | str | int == int | str"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5550
+#: ../../library/stdtypes.rst:5562
 msgid "When comparing unions, the order is ignored::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5552
+#: ../../library/stdtypes.rst:5564
 msgid "int | str == str | int"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5554
+#: ../../library/stdtypes.rst:5566
 msgid "It creates instances of :class:`typing.Union`::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5556
+#: ../../library/stdtypes.rst:5568
 msgid ""
 "int | str == typing.Union[int, str]\n"
 "type(int | str) is typing.Union"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5559
+#: ../../library/stdtypes.rst:5571
 msgid "Optional types can be spelled as a union with ``None``::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5561
+#: ../../library/stdtypes.rst:5573
 msgid "str | None == typing.Optional[str]"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5566
+#: ../../library/stdtypes.rst:5578
 msgid ""
 "Calls to :func:`isinstance` and :func:`issubclass` are also supported with a "
 "union object::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5569
+#: ../../library/stdtypes.rst:5581
 msgid ""
 ">>> isinstance(\"\", int | str)\n"
 "True"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5572
+#: ../../library/stdtypes.rst:5584
 msgid ""
 "However, :ref:`parameterized generics <types-genericalias>` in union objects "
 "cannot be checked::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5575
+#: ../../library/stdtypes.rst:5587
 msgid ""
 ">>> isinstance(1, int | list[int])  # short-circuit evaluation\n"
 "True\n"
@@ -7397,13 +7413,13 @@ msgid ""
 "TypeError: isinstance() argument 2 cannot be a parameterized generic"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5582
+#: ../../library/stdtypes.rst:5594
 msgid ""
 "The user-exposed type for the union object can be accessed from :class:"
 "`typing.Union` and used for :func:`isinstance` checks::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5585
+#: ../../library/stdtypes.rst:5597
 msgid ""
 ">>> import typing\n"
 ">>> isinstance(int | str, typing.Union)\n"
@@ -7414,14 +7430,14 @@ msgid ""
 "TypeError: cannot create 'typing.Union' instances"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5594
+#: ../../library/stdtypes.rst:5606
 msgid ""
 "The :meth:`!__or__` method for type objects was added to support the syntax "
 "``X | Y``.  If a metaclass implements :meth:`!__or__`, the Union may "
 "override it:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5598
+#: ../../library/stdtypes.rst:5610
 msgid ""
 ">>> class M(type):\n"
 "...     def __or__(self, other):\n"
@@ -7436,32 +7452,32 @@ msgid ""
 "int | C"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5614
+#: ../../library/stdtypes.rst:5626
 msgid ":pep:`604` -- PEP proposing the ``X | Y`` syntax and the Union type."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5620
+#: ../../library/stdtypes.rst:5632
 msgid ""
 "Union objects are now instances of :class:`typing.Union`. Previously, they "
 "were instances of :class:`types.UnionType`, which remains an alias for :"
 "class:`typing.Union`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5627
+#: ../../library/stdtypes.rst:5639
 msgid "Other Built-in Types"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5629
+#: ../../library/stdtypes.rst:5641
 msgid ""
 "The interpreter supports several other kinds of objects. Most of these "
 "support only one or two operations."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5636
+#: ../../library/stdtypes.rst:5648
 msgid "Modules"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5638
+#: ../../library/stdtypes.rst:5650
 msgid ""
 "The only special operation on a module is attribute access: ``m.name``, "
 "where *m* is a module and *name* accesses a name defined in *m*'s symbol "
@@ -7472,7 +7488,7 @@ msgid ""
 "*foo* somewhere.)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5645
+#: ../../library/stdtypes.rst:5657
 msgid ""
 "A special attribute of every module is :attr:`~object.__dict__`. This is the "
 "dictionary containing the module's symbol table. Modifying this dictionary "
@@ -7483,32 +7499,32 @@ msgid ""
 "recommended."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5653
+#: ../../library/stdtypes.rst:5665
 msgid ""
 "Modules built into the interpreter are written like this: ``<module "
 "'sys' (built-in)>``.  If loaded from a file, they are written as ``<module "
 "'os' from '/usr/local/lib/pythonX.Y/os.pyc'>``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5661
+#: ../../library/stdtypes.rst:5673
 msgid "Classes and Class Instances"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5663
+#: ../../library/stdtypes.rst:5675
 msgid "See :ref:`objects` and :ref:`class` for these."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5669
+#: ../../library/stdtypes.rst:5681
 msgid "Functions"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5671
+#: ../../library/stdtypes.rst:5683
 msgid ""
 "Function objects are created by function definitions.  The only operation on "
 "a function object is to call it: ``func(argument-list)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5674
+#: ../../library/stdtypes.rst:5686
 msgid ""
 "There are really two flavors of function objects: built-in functions and "
 "user-defined functions.  Both support the same operation (to call the "
@@ -7516,15 +7532,15 @@ msgid ""
 "types."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5678
+#: ../../library/stdtypes.rst:5690
 msgid "See :ref:`function` for more information."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5684
+#: ../../library/stdtypes.rst:5696
 msgid "Methods"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5688
+#: ../../library/stdtypes.rst:5700
 msgid ""
 "Methods are functions that are called using the attribute notation. There "
 "are two flavors: :ref:`built-in methods <builtin-methods>` (such as :meth:"
@@ -7532,7 +7548,7 @@ msgid ""
 "Built-in methods are described with the types that support them."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5693
+#: ../../library/stdtypes.rst:5705
 msgid ""
 "If you access a method (a function defined in a class namespace) through an "
 "instance, you get a special object: a :dfn:`bound method` (also called :ref:"
@@ -7545,7 +7561,7 @@ msgid ""
 "arg-2, ..., arg-n)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5704
+#: ../../library/stdtypes.rst:5716
 msgid ""
 "Like :ref:`function objects <user-defined-funcs>`, bound method objects "
 "support getting arbitrary attributes.  However, since method attributes are "
@@ -7556,7 +7572,7 @@ msgid ""
 "underlying function object:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5712
+#: ../../library/stdtypes.rst:5724
 msgid ""
 ">>> class C:\n"
 "...     def method(self):\n"
@@ -7572,15 +7588,15 @@ msgid ""
 "'my name is method'"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5727
+#: ../../library/stdtypes.rst:5739
 msgid "See :ref:`instance-methods` for more information."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5735
+#: ../../library/stdtypes.rst:5747
 msgid "Code Objects"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5741
+#: ../../library/stdtypes.rst:5753
 msgid ""
 "Code objects are used by the implementation to represent \"pseudo-compiled\" "
 "executable Python code such as a function body. They differ from function "
@@ -7590,28 +7606,28 @@ msgid ""
 "`~function.__code__` attribute. See also the :mod:`code` module."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5748
+#: ../../library/stdtypes.rst:5760
 msgid ""
 "Accessing :attr:`~function.__code__` raises an :ref:`auditing event "
 "<auditing>` ``object.__getattr__`` with arguments ``obj`` and "
 "``\"__code__\"``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5755
+#: ../../library/stdtypes.rst:5767
 msgid ""
 "A code object can be executed or evaluated by passing it (instead of a "
 "source string) to the :func:`exec` or :func:`eval`  built-in functions."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5758
+#: ../../library/stdtypes.rst:5770
 msgid "See :ref:`types` for more information."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5764
+#: ../../library/stdtypes.rst:5776
 msgid "Type Objects"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5770
+#: ../../library/stdtypes.rst:5782
 msgid ""
 "Type objects represent the various object types.  An object's type is "
 "accessed by the built-in function :func:`type`.  There are no special "
@@ -7619,30 +7635,30 @@ msgid ""
 "standard built-in types."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5775
+#: ../../library/stdtypes.rst:5787
 msgid "Types are written like this: ``<class 'int'>``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5781
+#: ../../library/stdtypes.rst:5793
 msgid "The Null Object"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5783
+#: ../../library/stdtypes.rst:5795
 msgid ""
 "This object is returned by functions that don't explicitly return a value.  "
 "It supports no special operations.  There is exactly one null object, named "
 "``None`` (a built-in name).  ``type(None)()`` produces the same singleton."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5787
+#: ../../library/stdtypes.rst:5799
 msgid "It is written as ``None``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5794
+#: ../../library/stdtypes.rst:5806
 msgid "The Ellipsis Object"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5796
+#: ../../library/stdtypes.rst:5808
 msgid ""
 "This object is commonly used by slicing (see :ref:`slicings`).  It supports "
 "no special operations.  There is exactly one ellipsis object, named :const:"
@@ -7650,15 +7666,15 @@ msgid ""
 "`Ellipsis` singleton."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5801
+#: ../../library/stdtypes.rst:5813
 msgid "It is written as ``Ellipsis`` or ``...``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5807
+#: ../../library/stdtypes.rst:5819
 msgid "The NotImplemented Object"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5809
+#: ../../library/stdtypes.rst:5821
 msgid ""
 "This object is returned from comparisons and binary operations when they are "
 "asked to operate on types they don't support. See :ref:`comparisons` for "
@@ -7666,64 +7682,64 @@ msgid ""
 "`type(NotImplemented)()` produces the singleton instance."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5814
+#: ../../library/stdtypes.rst:5826
 msgid "It is written as :code:`NotImplemented`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5820
+#: ../../library/stdtypes.rst:5832
 msgid "Internal Objects"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5822
+#: ../../library/stdtypes.rst:5834
 msgid ""
 "See :ref:`types` for this information.  It describes :ref:`stack frame "
 "objects <frame-objects>`, :ref:`traceback objects <traceback-objects>`, and "
 "slice objects."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5830
+#: ../../library/stdtypes.rst:5842
 msgid "Special Attributes"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5832
+#: ../../library/stdtypes.rst:5844
 msgid ""
 "The implementation adds a few special read-only attributes to several object "
 "types, where they are relevant.  Some of these are not reported by the :func:"
 "`dir` built-in function."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5839
+#: ../../library/stdtypes.rst:5851
 msgid ""
 "The name of the class, function, method, descriptor, or generator instance."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5845
+#: ../../library/stdtypes.rst:5857
 msgid ""
 "The :term:`qualified name` of the class, function, method, descriptor, or "
 "generator instance."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5853
+#: ../../library/stdtypes.rst:5865
 msgid "The name of the module in which a class or function was defined."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5858
+#: ../../library/stdtypes.rst:5870
 msgid ""
 "The documentation string of a class or function, or ``None`` if undefined."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5863
+#: ../../library/stdtypes.rst:5875
 msgid ""
 "The :ref:`type parameters <type-params>` of generic classes, functions, and :"
 "ref:`type aliases <type-aliases>`. For classes and functions that are not "
 "generic, this will be an empty tuple."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5873
+#: ../../library/stdtypes.rst:5885
 msgid "Integer string conversion length limitation"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5875
+#: ../../library/stdtypes.rst:5887
 msgid ""
 "CPython has a global limit for converting between :class:`int` and :class:"
 "`str` to mitigate denial of service attacks. This limit *only* applies to "
@@ -7731,7 +7747,7 @@ msgid ""
 "binary conversions are unlimited. The limit can be configured."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5880
+#: ../../library/stdtypes.rst:5892
 msgid ""
 "The :class:`int` type in CPython is an arbitrary length number stored in "
 "binary form (commonly known as a \"bignum\"). There exists no algorithm that "
@@ -7741,24 +7757,24 @@ msgid ""
 "value such as ``int('1' * 500_000)`` can take over a second on a fast CPU."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5887
+#: ../../library/stdtypes.rst:5899
 msgid ""
 "Limiting conversion size offers a practical way to avoid :cve:`2020-10735`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5889
+#: ../../library/stdtypes.rst:5901
 msgid ""
 "The limit is applied to the number of digit characters in the input or "
 "output string when a non-linear conversion algorithm would be involved.  "
 "Underscores and the sign are not counted towards the limit."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5893
+#: ../../library/stdtypes.rst:5905
 msgid ""
 "When an operation would exceed the limit, a :exc:`ValueError` is raised:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5895
+#: ../../library/stdtypes.rst:5907
 msgid ""
 ">>> import sys\n"
 ">>> sys.set_int_max_str_digits(4300)  # Illustrative, this is the default.\n"
@@ -7782,7 +7798,7 @@ msgid ""
 ">>> assert int(hex(i_squared), base=16) == i*i  # Hexadecimal is unlimited."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5915
+#: ../../library/stdtypes.rst:5927
 msgid ""
 "The default limit is 4300 digits as provided in :data:`sys.int_info."
 "default_max_str_digits <sys.int_info>`. The lowest limit that can be "
@@ -7790,11 +7806,11 @@ msgid ""
 "str_digits_check_threshold <sys.int_info>`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5920
+#: ../../library/stdtypes.rst:5932
 msgid "Verification:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5922
+#: ../../library/stdtypes.rst:5934
 msgid ""
 ">>> import sys\n"
 ">>> assert sys.int_info.default_max_str_digits == 4300, sys.int_info\n"
@@ -7805,90 +7821,90 @@ msgid ""
 "..."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5935
+#: ../../library/stdtypes.rst:5947
 msgid "Affected APIs"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5937
+#: ../../library/stdtypes.rst:5949
 msgid ""
 "The limitation only applies to potentially slow conversions between :class:"
 "`int` and :class:`str` or :class:`bytes`:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5940
+#: ../../library/stdtypes.rst:5952
 msgid "``int(string)`` with default base 10."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5941
+#: ../../library/stdtypes.rst:5953
 msgid "``int(string, base)`` for all bases that are not a power of 2."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5942
+#: ../../library/stdtypes.rst:5954
 msgid "``str(integer)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5943
+#: ../../library/stdtypes.rst:5955
 msgid "``repr(integer)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5944
+#: ../../library/stdtypes.rst:5956
 msgid ""
 "any other string conversion to base 10, for example ``f\"{integer}\"``, "
 "``\"{}\".format(integer)``, or ``b\"%d\" % integer``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5947
+#: ../../library/stdtypes.rst:5959
 msgid "The limitations do not apply to functions with a linear algorithm:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5949
+#: ../../library/stdtypes.rst:5961
 msgid "``int(string, base)`` with base 2, 4, 8, 16, or 32."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5950
+#: ../../library/stdtypes.rst:5962
 msgid ":func:`int.from_bytes` and :func:`int.to_bytes`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5951
+#: ../../library/stdtypes.rst:5963
 msgid ":func:`hex`, :func:`oct`, :func:`bin`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5952
+#: ../../library/stdtypes.rst:5964
 msgid ":ref:`formatspec` for hex, octal, and binary numbers."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5953
+#: ../../library/stdtypes.rst:5965
 msgid ":class:`str` to :class:`float`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5954
+#: ../../library/stdtypes.rst:5966
 msgid ":class:`str` to :class:`decimal.Decimal`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5957
+#: ../../library/stdtypes.rst:5969
 msgid "Configuring the limit"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5959
+#: ../../library/stdtypes.rst:5971
 msgid ""
 "Before Python starts up you can use an environment variable or an "
 "interpreter command line flag to configure the limit:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5962
+#: ../../library/stdtypes.rst:5974
 msgid ""
 ":envvar:`PYTHONINTMAXSTRDIGITS`, e.g. ``PYTHONINTMAXSTRDIGITS=640 python3`` "
 "to set the limit to 640 or ``PYTHONINTMAXSTRDIGITS=0 python3`` to disable "
 "the limitation."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5965
+#: ../../library/stdtypes.rst:5977
 msgid ""
 ":option:`-X int_max_str_digits <-X>`, e.g. ``python3 -X "
 "int_max_str_digits=640``"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5967
+#: ../../library/stdtypes.rst:5979
 msgid ""
 ":data:`sys.flags.int_max_str_digits` contains the value of :envvar:"
 "`PYTHONINTMAXSTRDIGITS` or :option:`-X int_max_str_digits <-X>`. If both the "
@@ -7897,38 +7913,38 @@ msgid ""
 "int_info.default_max_str_digits` was used during initialization."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5973
+#: ../../library/stdtypes.rst:5985
 msgid ""
 "From code, you can inspect the current limit and set a new one using these :"
 "mod:`sys` APIs:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5976
+#: ../../library/stdtypes.rst:5988
 msgid ""
 ":func:`sys.get_int_max_str_digits` and :func:`sys.set_int_max_str_digits` "
 "are a getter and setter for the interpreter-wide limit. Subinterpreters have "
 "their own limit."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5980
+#: ../../library/stdtypes.rst:5992
 msgid ""
 "Information about the default and minimum can be found in :data:`sys."
 "int_info`:"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5982
+#: ../../library/stdtypes.rst:5994
 msgid ""
 ":data:`sys.int_info.default_max_str_digits <sys.int_info>` is the compiled-"
 "in default limit."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5984
+#: ../../library/stdtypes.rst:5996
 msgid ""
 ":data:`sys.int_info.str_digits_check_threshold <sys.int_info>` is the lowest "
 "accepted value for the limit (other than 0 which disables it)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5991
+#: ../../library/stdtypes.rst:6003
 msgid ""
 "Setting a low limit *can* lead to problems. While rare, code exists that "
 "contains integer constants in decimal in their source that exceed the "
@@ -7940,7 +7956,7 @@ msgid ""
 "constants is to convert them to ``0x`` hexadecimal form as it has no limit."
 msgstr ""
 
-#: ../../library/stdtypes.rst:6000
+#: ../../library/stdtypes.rst:6012
 msgid ""
 "Test your application thoroughly if you use a low limit. Ensure your tests "
 "run with the limit set early via the environment or flag so that it applies "
@@ -7948,11 +7964,11 @@ msgid ""
 "to precompile ``.py`` sources to ``.pyc`` files."
 msgstr ""
 
-#: ../../library/stdtypes.rst:6006
+#: ../../library/stdtypes.rst:6018
 msgid "Recommended configuration"
 msgstr ""
 
-#: ../../library/stdtypes.rst:6008
+#: ../../library/stdtypes.rst:6020
 msgid ""
 "The default :data:`sys.int_info.default_max_str_digits` is expected to be "
 "reasonable for most applications. If your application requires a different "
@@ -7960,11 +7976,11 @@ msgid ""
 "as these APIs were added in security patch releases in versions before 3.12."
 msgstr ""
 
-#: ../../library/stdtypes.rst:6013
+#: ../../library/stdtypes.rst:6025
 msgid "Example::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:6015
+#: ../../library/stdtypes.rst:6027
 msgid ""
 ">>> import sys\n"
 ">>> if hasattr(sys, \"set_int_max_str_digits\"):\n"
@@ -7977,38 +7993,38 @@ msgid ""
 "...         sys.set_int_max_str_digits(lower_bound)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:6025
+#: ../../library/stdtypes.rst:6037
 msgid "If you need to disable it entirely, set it to ``0``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:6029
+#: ../../library/stdtypes.rst:6041
 msgid "Footnotes"
 msgstr ""
 
-#: ../../library/stdtypes.rst:6030
+#: ../../library/stdtypes.rst:6042
 msgid ""
 "Additional information on these special methods may be found in the Python "
 "Reference Manual (:ref:`customization`)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:6033
+#: ../../library/stdtypes.rst:6045
 msgid ""
 "As a consequence, the list ``[1, 2]`` is considered equal to ``[1.0, 2.0]``, "
 "and similarly for tuples."
 msgstr ""
 
-#: ../../library/stdtypes.rst:6036
+#: ../../library/stdtypes.rst:6048
 msgid "They must have since the parser can't tell the type of the operands."
 msgstr ""
 
-#: ../../library/stdtypes.rst:6038
+#: ../../library/stdtypes.rst:6050
 msgid ""
 "Cased characters are those with general category property being one of "
 "\"Lu\" (Letter, uppercase), \"Ll\" (Letter, lowercase), or \"Lt\" (Letter, "
 "titlecase)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:6041
+#: ../../library/stdtypes.rst:6053
 msgid ""
 "To format only a tuple you should therefore provide a singleton tuple whose "
 "only element is the tuple to be formatted."
@@ -8021,13 +8037,13 @@ msgstr ""
 #: ../../library/stdtypes.rst:13 ../../library/stdtypes.rst:322
 #: ../../library/stdtypes.rst:399 ../../library/stdtypes.rst:992
 #: ../../library/stdtypes.rst:1159 ../../library/stdtypes.rst:1181
-#: ../../library/stdtypes.rst:1196 ../../library/stdtypes.rst:4775
-#: ../../library/stdtypes.rst:5766
+#: ../../library/stdtypes.rst:1196 ../../library/stdtypes.rst:4787
+#: ../../library/stdtypes.rst:5778
 msgid "types"
 msgstr ""
 
 #: ../../library/stdtypes.rst:34 ../../library/stdtypes.rst:1196
-#: ../../library/stdtypes.rst:4775
+#: ../../library/stdtypes.rst:4787
 msgid "statement"
 msgstr ""
 
@@ -8149,11 +8165,11 @@ msgstr ""
 #: ../../library/stdtypes.rst:1181 ../../library/stdtypes.rst:1302
 #: ../../library/stdtypes.rst:1381 ../../library/stdtypes.rst:1425
 #: ../../library/stdtypes.rst:1546 ../../library/stdtypes.rst:1676
-#: ../../library/stdtypes.rst:2808 ../../library/stdtypes.rst:2827
-#: ../../library/stdtypes.rst:2938 ../../library/stdtypes.rst:4573
-#: ../../library/stdtypes.rst:4775 ../../library/stdtypes.rst:5255
-#: ../../library/stdtypes.rst:5511 ../../library/stdtypes.rst:5686
-#: ../../library/stdtypes.rst:5730
+#: ../../library/stdtypes.rst:2820 ../../library/stdtypes.rst:2839
+#: ../../library/stdtypes.rst:2950 ../../library/stdtypes.rst:4585
+#: ../../library/stdtypes.rst:4787 ../../library/stdtypes.rst:5267
+#: ../../library/stdtypes.rst:5523 ../../library/stdtypes.rst:5698
+#: ../../library/stdtypes.rst:5742
 msgid "object"
 msgstr ""
 
@@ -8245,9 +8261,9 @@ msgid "arithmetic"
 msgstr ""
 
 #: ../../library/stdtypes.rst:249 ../../library/stdtypes.rst:992
-#: ../../library/stdtypes.rst:1159 ../../library/stdtypes.rst:4775
-#: ../../library/stdtypes.rst:5737 ../../library/stdtypes.rst:5751
-#: ../../library/stdtypes.rst:5766
+#: ../../library/stdtypes.rst:1159 ../../library/stdtypes.rst:4787
+#: ../../library/stdtypes.rst:5749 ../../library/stdtypes.rst:5763
+#: ../../library/stdtypes.rst:5778
 msgid "built-in function"
 msgstr ""
 
@@ -8263,8 +8279,8 @@ msgstr ""
 msgid "complex"
 msgstr ""
 
-#: ../../library/stdtypes.rst:249 ../../library/stdtypes.rst:2684
-#: ../../library/stdtypes.rst:3943
+#: ../../library/stdtypes.rst:249 ../../library/stdtypes.rst:2696
+#: ../../library/stdtypes.rst:3955
 msgid "+ (plus)"
 msgstr ""
 
@@ -8276,13 +8292,13 @@ msgstr ""
 msgid "binary operator"
 msgstr ""
 
-#: ../../library/stdtypes.rst:249 ../../library/stdtypes.rst:2684
-#: ../../library/stdtypes.rst:3943
+#: ../../library/stdtypes.rst:249 ../../library/stdtypes.rst:2696
+#: ../../library/stdtypes.rst:3955
 msgid "- (minus)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:249 ../../library/stdtypes.rst:2641
-#: ../../library/stdtypes.rst:3900
+#: ../../library/stdtypes.rst:249 ../../library/stdtypes.rst:2653
+#: ../../library/stdtypes.rst:3912
 msgid "* (asterisk)"
 msgstr ""
 
@@ -8294,8 +8310,8 @@ msgstr ""
 msgid "//"
 msgstr ""
 
-#: ../../library/stdtypes.rst:249 ../../library/stdtypes.rst:2605
-#: ../../library/stdtypes.rst:3868
+#: ../../library/stdtypes.rst:249 ../../library/stdtypes.rst:2617
+#: ../../library/stdtypes.rst:3880
 msgid "% (percent)"
 msgstr ""
 
@@ -8305,7 +8321,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:322 ../../library/stdtypes.rst:399
 #: ../../library/stdtypes.rst:992 ../../library/stdtypes.rst:1196
-#: ../../library/stdtypes.rst:4775
+#: ../../library/stdtypes.rst:4787
 msgid "operations on"
 msgstr ""
 
@@ -8314,7 +8330,7 @@ msgid "conjugate() (complex number method)"
 msgstr ""
 
 #: ../../library/stdtypes.rst:341 ../../library/stdtypes.rst:1742
-#: ../../library/stdtypes.rst:2808 ../../library/stdtypes.rst:5766
+#: ../../library/stdtypes.rst:2820 ../../library/stdtypes.rst:5778
 msgid "module"
 msgstr ""
 
@@ -8382,7 +8398,7 @@ msgstr ""
 msgid "iterator protocol"
 msgstr ""
 
-#: ../../library/stdtypes.rst:889 ../../library/stdtypes.rst:5170
+#: ../../library/stdtypes.rst:889 ../../library/stdtypes.rst:5182
 msgid "protocol"
 msgstr ""
 
@@ -8408,7 +8424,7 @@ msgstr ""
 msgid "iteration over"
 msgstr ""
 
-#: ../../library/stdtypes.rst:992 ../../library/stdtypes.rst:4775
+#: ../../library/stdtypes.rst:992 ../../library/stdtypes.rst:4787
 msgid "len"
 msgstr ""
 
@@ -8485,14 +8501,14 @@ msgstr ""
 msgid "list"
 msgstr ""
 
-#: ../../library/stdtypes.rst:1181 ../../library/stdtypes.rst:2808
-#: ../../library/stdtypes.rst:2938 ../../library/stdtypes.rst:3046
-#: ../../library/stdtypes.rst:3868
+#: ../../library/stdtypes.rst:1181 ../../library/stdtypes.rst:2820
+#: ../../library/stdtypes.rst:2950 ../../library/stdtypes.rst:3058
+#: ../../library/stdtypes.rst:3880
 msgid "bytearray"
 msgstr ""
 
-#: ../../library/stdtypes.rst:1196 ../../library/stdtypes.rst:4775
-#: ../../library/stdtypes.rst:5511 ../../library/stdtypes.rst:5766
+#: ../../library/stdtypes.rst:1196 ../../library/stdtypes.rst:4787
+#: ../../library/stdtypes.rst:5523 ../../library/stdtypes.rst:5778
 msgid "type"
 msgstr ""
 
@@ -8500,7 +8516,7 @@ msgstr ""
 msgid "assignment"
 msgstr ""
 
-#: ../../library/stdtypes.rst:1196 ../../library/stdtypes.rst:4775
+#: ../../library/stdtypes.rst:1196 ../../library/stdtypes.rst:4787
 msgid "del"
 msgstr ""
 
@@ -8541,8 +8557,8 @@ msgid "range"
 msgstr ""
 
 #: ../../library/stdtypes.rst:1546 ../../library/stdtypes.rst:1689
-#: ../../library/stdtypes.rst:1734 ../../library/stdtypes.rst:2459
-#: ../../library/stdtypes.rst:2605
+#: ../../library/stdtypes.rst:1734 ../../library/stdtypes.rst:2471
+#: ../../library/stdtypes.rst:2617
 msgid "string"
 msgstr ""
 
@@ -8563,17 +8579,17 @@ msgstr ""
 msgid "io.StringIO"
 msgstr ""
 
-#: ../../library/stdtypes.rst:1707 ../../library/stdtypes.rst:2800
+#: ../../library/stdtypes.rst:1707 ../../library/stdtypes.rst:2812
 msgid "buffer protocol"
 msgstr ""
 
-#: ../../library/stdtypes.rst:1707 ../../library/stdtypes.rst:2808
-#: ../../library/stdtypes.rst:2827 ../../library/stdtypes.rst:3046
-#: ../../library/stdtypes.rst:3868
+#: ../../library/stdtypes.rst:1707 ../../library/stdtypes.rst:2820
+#: ../../library/stdtypes.rst:2839 ../../library/stdtypes.rst:3058
+#: ../../library/stdtypes.rst:3880
 msgid "bytes"
 msgstr ""
 
-#: ../../library/stdtypes.rst:1734 ../../library/stdtypes.rst:3046
+#: ../../library/stdtypes.rst:1734 ../../library/stdtypes.rst:3058
 msgid "methods"
 msgstr ""
 
@@ -8581,239 +8597,239 @@ msgstr ""
 msgid "re"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2273 ../../library/stdtypes.rst:3722
+#: ../../library/stdtypes.rst:2285 ../../library/stdtypes.rst:3734
 msgid "universal newlines"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2273
+#: ../../library/stdtypes.rst:2285
 msgid "str.splitlines method"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "! formatted string literal"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "formatted string literals"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "! f-string"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "f-strings"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "fstring"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "interpolated string literal"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "formatted literal"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "interpolated literal"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "{} (curly brackets)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "in formatted string literal"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "! (exclamation mark)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid ": (colon)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "= (equals)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2459
+#: ../../library/stdtypes.rst:2471
 msgid "for help in debugging using string literals"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2605
+#: ../../library/stdtypes.rst:2617
 msgid "formatting, string (%)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2605
+#: ../../library/stdtypes.rst:2617
 msgid "interpolation, string (%)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2605
+#: ../../library/stdtypes.rst:2617
 msgid "formatting, printf"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2605
+#: ../../library/stdtypes.rst:2617
 msgid "interpolation, printf"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2605 ../../library/stdtypes.rst:3868
+#: ../../library/stdtypes.rst:2617 ../../library/stdtypes.rst:3880
 msgid "printf-style formatting"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2605 ../../library/stdtypes.rst:3868
+#: ../../library/stdtypes.rst:2617 ../../library/stdtypes.rst:3880
 msgid "sprintf-style formatting"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2641 ../../library/stdtypes.rst:3900
+#: ../../library/stdtypes.rst:2653 ../../library/stdtypes.rst:3912
 msgid "() (parentheses)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2641 ../../library/stdtypes.rst:2684
-#: ../../library/stdtypes.rst:3900 ../../library/stdtypes.rst:3943
+#: ../../library/stdtypes.rst:2653 ../../library/stdtypes.rst:2696
+#: ../../library/stdtypes.rst:3912 ../../library/stdtypes.rst:3955
 msgid "in printf-style formatting"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2641 ../../library/stdtypes.rst:3900
+#: ../../library/stdtypes.rst:2653 ../../library/stdtypes.rst:3912
 msgid ". (dot)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2684 ../../library/stdtypes.rst:3943
+#: ../../library/stdtypes.rst:2696 ../../library/stdtypes.rst:3955
 msgid "# (hash)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2684 ../../library/stdtypes.rst:3943
+#: ../../library/stdtypes.rst:2696 ../../library/stdtypes.rst:3955
 msgid "space"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2800
+#: ../../library/stdtypes.rst:2812
 msgid "binary sequence types"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2808
+#: ../../library/stdtypes.rst:2820
 msgid "memoryview"
 msgstr ""
 
-#: ../../library/stdtypes.rst:2808
+#: ../../library/stdtypes.rst:2820
 msgid "array"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3722
+#: ../../library/stdtypes.rst:3734
 msgid "bytes.splitlines method"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3722
+#: ../../library/stdtypes.rst:3734
 msgid "bytearray.splitlines method"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3868
+#: ../../library/stdtypes.rst:3880
 msgid "formatting"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3868
+#: ../../library/stdtypes.rst:3880
 msgid "bytes (%)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3868
+#: ../../library/stdtypes.rst:3880
 msgid "bytearray (%)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:3868
+#: ../../library/stdtypes.rst:3880
 msgid "interpolation"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4573
+#: ../../library/stdtypes.rst:4585
 msgid "set"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4775
+#: ../../library/stdtypes.rst:4787
 msgid "mapping"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4775
+#: ../../library/stdtypes.rst:4787
 msgid "dictionary"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4885
+#: ../../library/stdtypes.rst:4897
 msgid "__missing__()"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5170
+#: ../../library/stdtypes.rst:5182
 msgid "context manager"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5170
+#: ../../library/stdtypes.rst:5182
 msgid "context management protocol"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5170
+#: ../../library/stdtypes.rst:5182
 msgid "context management"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5243
+#: ../../library/stdtypes.rst:5255
 msgid "annotation"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5243
+#: ../../library/stdtypes.rst:5255
 msgid "type annotation; type hint"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5255
+#: ../../library/stdtypes.rst:5267
 msgid "GenericAlias"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5255
+#: ../../library/stdtypes.rst:5267
 msgid "Generic"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5255
+#: ../../library/stdtypes.rst:5267
 msgid "Alias"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5511
+#: ../../library/stdtypes.rst:5523
 msgid "Union"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5511
+#: ../../library/stdtypes.rst:5523
 msgid "union"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5686
+#: ../../library/stdtypes.rst:5698
 msgid "method"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5730
+#: ../../library/stdtypes.rst:5742
 msgid "code"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5730
+#: ../../library/stdtypes.rst:5742
 msgid "code object"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5737
+#: ../../library/stdtypes.rst:5749
 msgid "compile"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5737
+#: ../../library/stdtypes.rst:5749
 msgid "__code__ (function object attribute)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5751
+#: ../../library/stdtypes.rst:5763
 msgid "exec"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5751
+#: ../../library/stdtypes.rst:5763
 msgid "eval"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5790
+#: ../../library/stdtypes.rst:5802
 msgid "..."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5790
+#: ../../library/stdtypes.rst:5802
 msgid "ellipsis literal"
 msgstr ""
