@@ -5,8 +5,8 @@
 | c-api/abstract.po | 100.0% | 100.0% | 0.0% |
 | tutorial/index.po | 100.0% | 100.0% | 0.0% |
 | c-api/allocation.po | 100.0% | 43.0% | 0.0% |
+| tutorial/appendix.po | 100.0% | 10.3% | 0.0% |
 | tutorial/classes.po | 98.9% | 10.1% | 0.0% |
-| tutorial/appendix.po | 100.0% | 3.2% | 0.0% |
 | library/functions.po | 98.1% | 2.9% | 0.0% |
 | c-api/dict.po | 1.0% | 0.6% | 0.0% |
 | library/json.po | 0.4% | 0.1% | 0.0% |
@@ -23,7 +23,7 @@
 | tutorial/interpreter.po | 97.4% | 0.0% | 0.0% |
 | tutorial/inputoutput.po | 96.8% | 0.0% | 0.0% |
 | tutorial/stdlib2.po | 94.3% | 0.0% | 0.0% |
-| library/stdtypes.po | 94.1% | 0.0% | 0.0% |
+| library/stdtypes.po | 94.0% | 0.0% | 0.0% |
 | tutorial/interactive.po | 77.2% | 0.0% | 0.0% |
 | c-api/apiabiversion.po | 58.4% | 0.0% | 0.0% |
 | extending/newtypes_tutorial.po | 6.3% | 0.0% | 0.0% |
@@ -41,9 +41,9 @@
 | library/tomllib.po | 1.9% | 0.0% | 0.0% |
 | library/internet.po | 1.8% | 0.0% | 0.0% |
 | reference/toplevel_components.po | 1.6% | 0.0% | 0.0% |
+| glossary.po | 1.5% | 0.0% | 0.0% |
 | c-api/method.po | 1.5% | 0.0% | 0.0% |
 | c-api/none.po | 1.5% | 0.0% | 0.0% |
-| glossary.po | 1.4% | 0.0% | 0.0% |
 | c-api/bytearray.po | 1.3% | 0.0% | 0.0% |
 | library/array.po | 1.3% | 0.0% | 0.0% |
 | library/io.po | 1.3% | 0.0% | 0.0% |
@@ -241,6 +241,7 @@
 | library/subprocess.po | 0.1% | 0.0% | 0.0% |
 | library/sys.po | 0.1% | 0.0% | 0.0% |
 | library/tempfile.po | 0.1% | 0.0% | 0.0% |
+| library/threading.po | 0.1% | 0.0% | 0.0% |
 | library/timeit.po | 0.1% | 0.0% | 0.0% |
 | library/traceback.po | 0.1% | 0.0% | 0.0% |
 | library/tracemalloc.po | 0.1% | 0.0% | 0.0% |
@@ -405,7 +406,6 @@
 | library/tarfile.po | 0.0% | 0.0% | 0.0% |
 | library/test.po | 0.0% | 0.0% | 0.0% |
 | library/text.po | 0.0% | 0.0% | 0.0% |
-| library/threading.po | 0.0% | 0.0% | 0.0% |
 | library/tk.po | 0.0% | 0.0% | 0.0% |
 | library/tkinter_colorchooser.po | 0.0% | 0.0% | 0.0% |
 | library/tkinter_dnd.po | 0.0% | 0.0% | 0.0% |

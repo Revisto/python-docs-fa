@@ -1,16 +1,17 @@
 | User | Role | Translated Count | Reviewed Count | Proofread Count |
 |:-----|:------:|:------------------:|:-------------------:|:----------------------:|
-| Revisto | coordinator | 4028 | 28 (+2) | 0 |
+| Revisto | coordinator | 4027 | 28 | 0 |
 | danialbehzadi | reviewer | 740 | 5 | 0 |
 | Ramiz_222 | reviewer | 11 | 83 | 0 |
-| Ariyan_Bolandi | reviewer | 43 | 7 | 0 |
+| Ariyan_Bolandi | reviewer | 41 | 7 | 0 |
 | ParhamF | translator | 41 | 0 | 0 |
-| khosro_o | reviewer | 17 | 16 | 0 |
+| khosro_o | reviewer | 19 (+2) | 22 (+6) | 0 |
 | mdflx | reviewer | 1 | 30 | 0 |
 | aimer.hs872 | reviewer | 9 | 18 | 0 |
 | nikovinix7878 | translator | 14 | 0 | 0 |
-| thaghgoo | translator | 12 | 0 | 0 |
+| thaghgoo | translator | 13 (+1) | 0 | 0 |
 | arfa79lg | translator | 7 | 0 | 0 |
+| shahriaarrr | translator | 2 (+2) | 0 | 0 |
 | ashykng | translator | 1 | 0 | 0 |
 | aryasadeghy | translator | 0 | 0 | 0 |
 | pouya.abbassi | translator | 0 | 0 | 0 |
@@ -33,7 +34,6 @@
 | revistology | translator | 0 | 0 | 0 |
 | revistola | translator | 0 | 0 | 0 |
 | shahabworks | translator | 0 | 0 | 0 |
-| shahriaarrr | translator | 0 | 0 | 0 |
 | mohammadreza13842018 | translator | 0 | 0 | 0 |
 | mjavadf | translator | 0 | 0 | 0 |
 | ArminTM | translator | 0 | 0 | 0 |
@@ -47,3 +47,4 @@
 | ftgupp | translator | 0 | 0 | 0 |
 | petrudi | reviewer | 0 | 0 | 0 |
 | mmdbalkhi | reviewer | 0 | 0 | 0 |
+| naweex | translator | 0 | 0 | 0 |
