@@ -6,15 +6,16 @@
 # Translators:
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 # Ariyan Bolandi, 2025
+# khosro azimi, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-08 02:53-0300\n"
+"POT-Creation-Date: 2025-05-16 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 01:50+0000\n"
-"Last-Translator: Ariyan Bolandi, 2025\n"
+"Last-Translator: khosro azimi, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +26,7 @@ msgstr ""
 
 #: ../../tutorial/errors.rst:5
 msgid "Errors and Exceptions"
-msgstr ""
+msgstr "خطاها و استثناها"
 
 #: ../../tutorial/errors.rst:7
 msgid ""
@@ -33,16 +34,22 @@ msgid ""
 "tried out the examples you have probably seen some.  There are (at least) "
 "two distinguishable kinds of errors: *syntax errors* and *exceptions*."
 msgstr ""
+"تا اینجا پیام‌های خطا فقط به صورت کوتاه ذکر شده‌اند، اما اگر مثال‌ها را امتحان "
+"کرده باشید احتمالاً برخی از آن‌ها را دیده‌اید. حداقل دو نوع متمایز از خطا وجود "
+"دارد: *خطاهای دستوری* «syntax errors» و *استثناها* «exceptions»."
 
 #: ../../tutorial/errors.rst:15
 msgid "Syntax Errors"
-msgstr ""
+msgstr "خطاهای دستوری"
 
 #: ../../tutorial/errors.rst:17
 msgid ""
 "Syntax errors, also known as parsing errors, are perhaps the most common "
 "kind of complaint you get while you are still learning Python::"
 msgstr ""
+"خطاهای دستوری، که به‌عنوان خطاهای تجزیه‌گر «parsing errors» نیز شناخته می‌شوند، "
+"شاید رایج‌ترین نوع خطاهایی باشند که هنگام یادگیری پایتون با آن‌ها مواجه "
+"می‌شوید::"
 
 #: ../../tutorial/errors.rst:20
 msgid ""
@@ -52,6 +59,11 @@ msgid ""
 "               ^^^^^\n"
 "SyntaxError: invalid syntax"
 msgstr ""
+">>> while True print('Hello world')\n"
+"  File \"<stdin>\", line 1\n"
+"    while True print('Hello world')\n"
+"               ^^^^^\n"
+"SyntaxError: invalid syntax"
 
 #: ../../tutorial/errors.rst:26
 msgid ""
@@ -60,16 +72,23 @@ msgid ""
 "place that needs to be fixed.  In the example, the error is detected at the "
 "function :func:`print`, since a colon (``':'``) is missing just before it."
 msgstr ""
+"تجزیه‌گر «parser» خط مشکل‌دار را تکرار می‌کند و فلش‌های کوچکی را نشان می‌دهد که "
+"به جایی اشاره دارند که خطا در آن شناسایی شده است.\n"
+"توجه داشته باشید که این همیشه همان جایی نیست که باید اصلاح شود.\n"
+"در این مثال، خطا در تابع :func:`print`شناسایی شده است، زیرا دو نقطه "
+"(``':'``) درست قبل از آن وجود ندارد."
 
 #: ../../tutorial/errors.rst:31
 msgid ""
 "The file name (``<stdin>`` in our example) and line number are printed so "
 "you know where to look in case the input came from a file."
 msgstr ""
+"نام فایل (در مثال ما ``<stdin>``) و شماره خط چاپ می‌ شوند تا اگر ورودی از یک "
+"فایل آمده باشد، بدانید باید کجا را بررسی کنید."
 
 #: ../../tutorial/errors.rst:38
 msgid "Exceptions"
-msgstr ""
+msgstr "استثناء ها"
 
 #: ../../tutorial/errors.rst:40
 msgid ""
@@ -80,6 +99,12 @@ msgid ""
 "not handled by programs, however, and result in error messages as shown "
 "here::"
 msgstr ""
+"حتی اگر یک دستور یا عبارت از نظر دستوری «syntactically» درست باشد، ممکن است "
+"هنگام اجرای آن خطایی رخ دهد. خطاهایی که هنگام اجرا شناسایی می‌شوند «استثنا» "
+"«*exceptions*» نام دارند و الزاماً باعث توقف برنامه نمی‌شوند؛ به‌زودی خواهید "
+"آموخت چگونه آن‌ها را در برنامه‌های پایتون مدیریت کنید. با این حال، بیشتر "
+"استثناها در برنامه‌ها مدیریت نمی‌شوند و به پیام‌های خطا ختم می‌شوند، مانند چیزی "
+"که در اینجا نمایش داده شده است::"
 
 #: ../../tutorial/errors.rst:46
 msgid ""
@@ -102,6 +127,24 @@ msgid ""
 "    ~~~~^~~\n"
 "TypeError: can only concatenate str (not \"int\") to str"
 msgstr ""
+">>> 10 * (1/0)\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"    10 * (1/0)\n"
+"          ~^~\n"
+"ZeroDivisionError: division by zero\n"
+">>> 4 + spam*3\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"    4 + spam*3\n"
+"        ^^^^\n"
+"NameError: name 'spam' is not defined\n"
+">>> '2' + 2\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"    '2' + 2\n"
+"    ~~~~^~~\n"
+"TypeError: can only concatenate str (not \"int\") to str"
 
 #: ../../tutorial/errors.rst:65
 msgid ""
