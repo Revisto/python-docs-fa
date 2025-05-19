@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 # Ariyan Bolandi, 2025
 # khosro azimi, 2025
+# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 01:50+0000\n"
-"Last-Translator: khosro azimi, 2025\n"
+"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgstr ""
 "تجزیه‌گر «parser» خط مشکل‌دار را تکرار می‌کند و فلش‌های کوچکی را نشان می‌دهد که "
 "به جایی اشاره دارند که خطا در آن شناسایی شده است.\n"
 "توجه داشته باشید که این همیشه همان جایی نیست که باید اصلاح شود.\n"
-"در این مثال، خطا در تابع :func:`print`شناسایی شده است، زیرا دو نقطه "
+"در این مثال، خطا در تابع :func:`print` شناسایی شده است، زیرا دو نقطه "
 "(``':'``) درست قبل از آن وجود ندارد."
 
 #: ../../tutorial/errors.rst:31
