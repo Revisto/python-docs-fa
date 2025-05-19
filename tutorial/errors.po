@@ -157,12 +157,22 @@ msgid ""
 "convention). Standard exception names are built-in identifiers (not reserved "
 "keywords)."
 msgstr ""
+"آخرین خط از پیام خطا نشان می دهد که چه اتفاقی افتاده است. استثناها دارای "
+"انواع مختلفی هستند و نوع آنها به عنوان بخشی از پیام چاپ می شود: انواع موجود "
+"در مثال عبارتند از :exc:`ZeroDivisionError`، :exc:`NameError` و :exc:"
+"`TypeError`. رشته ای که به عنوان نوع استثنا چاپ می شود، نام استثنای داخلی "
+"است که رخ داده است. این موضوع برای تمام استثناهای داخلی صدق می کند، اما برای "
+"استثناهای تعریف شده توسط کاربر لزوماً صحیح نیست (گرچه این یک قاعدهٔ مفید محسوب "
+"می‌شود). نام های استثنای استاندارد شناسه های داخلی هستند (نه کلمات کلیدی رزرو "
+"شده)."
 
 #: ../../tutorial/errors.rst:73
 msgid ""
 "The rest of the line provides detail based on the type of exception and what "
 "caused it."
 msgstr ""
+"بخش باقی‌ماندهٔ خط، جزئیاتی را بسته به نوع استثنا «exception» و علت وقوع آن "
+"ارائه می‌دهد."
 
 #: ../../tutorial/errors.rst:76
 msgid ""
@@ -171,15 +181,21 @@ msgid ""
 "a stack traceback listing source lines; however, it will not display lines "
 "read from standard input."
 msgstr ""
+"بخش قبلی پیام خطا، زمینه‌ای را نشان می‌دهد که در آن استثنا رخ داده است، به‌صورت "
+"یک ردگیری پشته «stack traceback». به‌طور کلی، این بخش شامل ردگیری پشته‌ای است "
+"که خطوطی از کد منبع را فهرست می‌کند؛ با این حال، خطوطی که از ورودی استاندارد "
+"«standard input» خوانده شده‌اند در آن نمایش داده نمی‌شوند."
 
 #: ../../tutorial/errors.rst:81
 msgid ""
 ":ref:`bltin-exceptions` lists the built-in exceptions and their meanings."
 msgstr ""
+":ref:`bltin-exceptions` لیستی از استثناهای داخلی و معانی آن ها را ارائه می "
+"دهد."
 
 #: ../../tutorial/errors.rst:87
 msgid "Handling Exceptions"
-msgstr ""
+msgstr "مدیریت استثناها"
 
 #: ../../tutorial/errors.rst:89
 msgid ""
@@ -190,6 +206,11 @@ msgid ""
 "generated interruption is signalled by raising the :exc:`KeyboardInterrupt` "
 "exception. ::"
 msgstr ""
+"امکان نوشتن برنامه‌هایی وجود دارد که برخی از استثناها را مدیریت می‌کنند. به "
+"مثال زیر نگاه کنید که از کاربر ورودی می‌خواهد تا زمانی که یک عدد صحیح معتبر "
+"وارد شود، اما به کاربر اجازه می‌دهد برنامه را قطع کند (با فشردن :kbd:`Control-"
+"C` یا هر روشی که سیستم‌عامل پشتیبانی می‌کند)؛ توجه داشته باشید که قطع برنامه "
+"توسط کاربر با ایجاد استثنای :exc:`KeyboardInterrupt` مشخص می‌شود. ::"
 
 #: ../../tutorial/errors.rst:95
 msgid ""
@@ -201,22 +222,33 @@ msgid ""
 "...         print(\"Oops!  That was no valid number.  Try again...\")\n"
 "..."
 msgstr ""
+">>> while True:\n"
+"...     try:\n"
+"...         x = int(input(\"Please enter a number: \"))\n"
+"...         break\n"
+"...     except ValueError:\n"
+"...         print(\"Oops!  That was no valid number.  Try again...\")\n"
+"..."
 
 #: ../../tutorial/errors.rst:103
 msgid "The :keyword:`try` statement works as follows."
-msgstr ""
+msgstr "دستور :keyword:`try` به شکل زیر عمل می‌کند."
 
 #: ../../tutorial/errors.rst:105
 msgid ""
 "First, the *try clause* (the statement(s) between the :keyword:`try` and :"
 "keyword:`except` keywords) is executed."
 msgstr ""
+"ابتدا بخش *try clause* (دستوری که بین کلیدواژه های :keyword:`try` و :keyword:"
+"`except` قرار دارد) اجرا می شود."
 
 #: ../../tutorial/errors.rst:108
 msgid ""
 "If no exception occurs, the *except clause* is skipped and execution of the :"
 "keyword:`try` statement is finished."
 msgstr ""
+"اگر هیچ استثنایی رخ ندهد، *بخش except* نادیده گرفته می‌شود و اجرای دستور :"
+"keyword:`try` به پایان می‌رسد."
 
 #: ../../tutorial/errors.rst:111
 msgid ""
@@ -225,6 +257,10 @@ msgid ""
 "named after the :keyword:`except` keyword, the *except clause* is executed, "
 "and then execution continues after the try/except block."
 msgstr ""
+"اگر در طول اجرای بخش :keyword:`try` استثنایی رخ دهد، بقیه آن بخش نادیده "
+"گرفته می‌شود. سپس، اگر نوع استثنا با استثنایی که بعد از کلیدواژه :keyword:"
+"`except` آمده مطابقت داشته باشد، *بخش except* اجرا می‌شود و پس از آن اجرای "
+"برنامه بعد از بلوک try/except ادامه می‌یابد."
 
 #: ../../tutorial/errors.rst:116
 msgid ""
