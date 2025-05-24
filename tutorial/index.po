@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-05-23 14:20+0000\n"
 "PO-Revision-Date: 2021-06-28 01:50+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -28,6 +28,12 @@ msgstr "راهنمای پایتون"
 
 #: ../../tutorial/index.rst:7
 msgid ""
+"This tutorial is designed for *programmers* that are new to the Python "
+"language, **not** *beginners* who are new to programming."
+msgstr ""
+
+#: ../../tutorial/index.rst:11
+msgid ""
 "Python is an easy to learn, powerful programming language. It has efficient "
 "high-level data structures and a simple but effective approach to object-"
 "oriented programming. Python's elegant syntax and dynamic typing, together "
@@ -40,7 +46,7 @@ msgstr ""
 "تفسیری آن، این زبان را به گزینه ای ایده‌آل برای اسکریپت‌نویسی و توسعه سریع "
 "برنامه ها در بسیاری از حوزه ها و بر روی اکثر پلتفرم ها تبدیل کرده است."
 
-#: ../../tutorial/index.rst:13
+#: ../../tutorial/index.rst:17
 msgid ""
 "The Python interpreter and the extensive standard library are freely "
 "available in source or binary form for all major platforms from the Python "
@@ -54,7 +60,7 @@ msgstr ""
 "کرد. همین وب‌سایت همچنین شامل توزیع‌هایی از ماژول‌ها، برنامه‌ها و ابزارهای "
 "رایگان شخص ثالث پایتون، به‌همراه مستندات تکمیلی، می‌باشد."
 
-#: ../../tutorial/index.rst:19
+#: ../../tutorial/index.rst:23
 msgid ""
 "The Python interpreter is easily extended with new functions and data types "
 "implemented in C or C++ (or other languages callable from C). Python is also "
@@ -64,19 +70,16 @@ msgstr ""
 "زبان‌های C یا C++ (یا زبان‌های دیگر قابل فراخوانی از C) پیاده‌سازی شده‌اند. "
 "پایتون همچنین به‌عنوان یک زبان توسعه برای برنامه‌های قابل تنظیم مناسب است."
 
-#: ../../tutorial/index.rst:23
+#: ../../tutorial/index.rst:27
 msgid ""
 "This tutorial introduces the reader informally to the basic concepts and "
-"features of the Python language and system. It helps to have a Python "
-"interpreter handy for hands-on experience, but all examples are self-"
+"features of the Python language and system. Be aware that it expects you to "
+"have a basic understanding of programming in general. It helps to have a "
+"Python interpreter handy for hands-on experience, but all examples are self-"
 "contained, so the tutorial can be read off-line as well."
 msgstr ""
-"این آموزش به‌طور غیررسمی مفاهیم و ویژگی‌های پایه‌ای زبان و سیستم پایتون را به "
-"خواننده معرفی می‌کند. داشتن مفسر پایتون برای تجربه‌ی عملی مفید است، اما همه‌ی "
-"مثال‌ها به صورت مستقل هستند، بنابراین این آموزش را می‌توان به‌صورت آفلاین نیز "
-"مطالعه کرد."
 
-#: ../../tutorial/index.rst:28
+#: ../../tutorial/index.rst:33
 msgid ""
 "For a description of standard objects and modules, see :ref:`library-"
 "index`. :ref:`reference-index` gives a more formal definition of the "
@@ -89,7 +92,7 @@ msgstr ""
 "مطالعه کنید. همچنین چندین کتاب وجود دارد که به طور عمیق به زبان پایتون "
 "پرداخته‌اند."
 
-#: ../../tutorial/index.rst:33
+#: ../../tutorial/index.rst:38
 msgid ""
 "This tutorial does not attempt to be comprehensive and cover every single "
 "feature, or even every commonly used feature. Instead, it introduces many of "
@@ -105,6 +108,6 @@ msgstr ""
 "مورد ماژول‌های کتابخانه مختلف پایتون که در :ref:`library-index` توضیح داده "
 "شده‌اند، بیشتر یاد بگیرید."
 
-#: ../../tutorial/index.rst:40
+#: ../../tutorial/index.rst:45
 msgid "The :ref:`glossary` is also worth going through."
 msgstr ":ref:`glossary` نیز ارزش مرور کردن دارد."

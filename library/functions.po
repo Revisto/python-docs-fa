@@ -9,15 +9,16 @@
 # sadra nobari, 2025
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 # Ramiz karimian, 2025
+# khosro azimi, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-05-23 14:20+0000\n"
 "PO-Revision-Date: 2021-06-28 01:06+0000\n"
-"Last-Translator: Ramiz karimian, 2025\n"
+"Last-Translator: khosro azimi, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -452,11 +453,15 @@ msgid ""
 "When awaited, return the next item from the given :term:`asynchronous "
 "iterator`, or *default* if given and the iterator is exhausted."
 msgstr ""
+"هنگام اِنتظار (await)، عنصر بعدی را از :term:`asynchronous iterator`داده شده "
+"برمی‌گرداند، یا اگر آرگومان *default* ارائه شده و تکرارکننده به پایان رسیده "
+"باشد، مقدار *default* را برمی‌گرداند."
 
 #: ../../library/functions.rst:92
 msgid ""
 "This is the async variant of the :func:`next` builtin, and behaves similarly."
-msgstr "این نسخه ناهمگام از :func:`next` داخلی است، و به طور مشابه عمل می کند."
+msgstr ""
+"این، نسخه ناهمگامِ تابع داخلی :func:`next` است و به طور مشابه عمل می‌کند."
 
 #: ../../library/functions.rst:95
 msgid ""
@@ -499,6 +504,11 @@ msgid ""
 "`repr` using ``\\x``, ``\\u``, or ``\\U`` escapes.  This generates a string "
 "similar to that returned by :func:`repr` in Python 2."
 msgstr ""
+"مانند تابع :func:`repr`، رشته‌ای حاوی نمایش قابل چاپ یک شیء را برمی‌گرداند، "
+"اما کاراکترهای غیر اَسکی (non-ASCII) را در رشته‌ی بازگردانده‌شده توسط تابع :"
+"func:`repr`، با استفاده از توالی‌های گریز (escapes) ``\\x``، ``\\u`` یا "
+"``\\U`` اِسکِیپ (escape) می‌کند. این عمل، رشته‌ای مشابه آنچه تابع :func:`repr` "
+"در پایتون ۲ بازمی‌گرداند، تولید می‌کند."
 
 #: ../../library/functions.rst:124
 msgid ""
@@ -517,11 +527,13 @@ msgid ""
 "If the prefix \"0b\" is desired or not, you can use either of the following "
 "ways."
 msgstr ""
+"چنانچه پیشوند \"0b\" مطلوب باشد یا نباشد، می‌توانید از یکی از روش‌های زیر "
+"استفاده کنید."
 
 #: ../../library/functions.rst:141 ../../library/functions.rst:950
 #: ../../library/functions.rst:1335
 msgid "See also :func:`format` for more information."
-msgstr ""
+msgstr "همچنین برای اطلاعات بیشتر، به تابع :func:`format` مراجعه کنید."
 
 #: ../../library/functions.rst:146
 msgid ""
@@ -532,10 +544,17 @@ msgid ""
 "`typesnumeric`). It cannot be subclassed further.  Its only instances are "
 "``False`` and ``True`` (see :ref:`typebool`)."
 msgstr ""
+"یک مقدار بولی، یعنی یکی از ``True`` یا ``False`` را برگردانید.  آرگومان با "
+"استفاده از استاندارد :ref:`truth testing procedure ` تبدیل می شود. اگر "
+"آرگومان نادرست یا حذف شده باشد، ``False`` را برمی گرداند. در غیر این صورت، "
+"``True`` را برمی گرداند.  کلاس :class:`bool` یک زیر کلاس از :class:`int` است "
+"(به :ref:`typesnumeric` مراجعه کنید). این کلاس دیگر قابل زیرکلاس‌بندی نیست. "
+"تنها نمونه های آن ``False`` و ``True`` هستند (به :ref:`typebool` مراجعه "
+"کنید)."
 
 #: ../../library/functions.rst:156 ../../library/functions.rst:815
 msgid "The parameter is now positional-only."
-msgstr ""
+msgstr "این آرگومان اکنون صرفاً جایگاهی (positional-only) است."
 
 #: ../../library/functions.rst:161
 msgid ""
@@ -549,6 +568,18 @@ msgid ""
 "you to drop into the debugger of choice. If :func:`sys.breakpointhook` is "
 "not accessible, this function will raise :exc:`RuntimeError`."
 msgstr ""
+"این تابع، اجرای برنامه را در محل فراخوانی متوقف کرده و شما را وارد محیط "
+"اشکال‌زدا (debugger) می‌کند. به طور خاص، این تابع، تابع:func:`sys."
+"breakpointhook` را فراخوانی کرده و مقادیر ``args`` و ``kws`` مستقیماً به آن "
+"ارسال (pass) می‌کند. به طور پیش‌فرض، تابع ``sys.breakpointhook()`` بدون نیاز "
+"به هیچ آرگومانی :func:`pdb.set_trace` را فراخوانی می کند.  در این حالت، این "
+"صرفاً یک تابع کمکی (convenience function) است تا مجبور نباشید ماژول :mod:"
+"`pdb` را به صراحت ایمپورت (import) کنید یا برای ورود به اشکال‌زدا، کد زیادی "
+"بنویسید. با این حال، می‌توان تابع  :func:`sys.breakpointhook` را روی تابع "
+"دیگری تنظیم کرد و در این صورت، تابع:func:`breakpoint` به طور خودکار آن را "
+"فراخوانی می کند و به شما این امکان را می دهد که به اشکال‌زدای مورد نظر خود "
+"وارد شوید. اگر :func:`sys.breakpointhook` قابل دسترسی نباشد، این تابع، "
+"استثنای :exc:`RuntimeError` را ایجاد خواهد کرد."
 
 #: ../../library/functions.rst:173
 msgid ""
@@ -556,18 +587,25 @@ msgid ""
 "envvar:`PYTHONBREAKPOINT` environment variable. See :func:`sys."
 "breakpointhook` for usage details."
 msgstr ""
+"به طور پیش‌فرض، رفتار تابع :func:`breakpoint` را می‌توان با متغیر محیطی :"
+"envvar:`PYTHONBREAKPOINT` تغییر داد. برای جزئیات استفاده، به تابع :func:`sys."
+"breakpointhook` مراجعه کنید."
 
 #: ../../library/functions.rst:177
 msgid ""
 "Note that this is not guaranteed if :func:`sys.breakpointhook` has been "
 "replaced."
 msgstr ""
+"توجه داشته باشید که این امر تضمین نمی‌شود اگر تابع :func:`sys.breakpointhook` "
+"جایگزین شده باشد."
 
 #: ../../library/functions.rst:180
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``builtins.breakpoint`` with "
 "argument ``breakpointhook``."
 msgstr ""
+"یک :ref:`auditing event <auditing>` ``builtins.breakpoint`` با آرگومان "
+"``breakpointhook`` ایجاد می کند."
 
 #: ../../library/functions.rst:190
 msgid ""
