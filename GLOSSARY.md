@@ -60,3 +60,14 @@
 | namespace     | نام‌فضا                   |
 | Tracking      | پیگیری                  |
 | method        | روش                 |
+| parameter      | پارامتر                     |
+| iterator       | تکرارگر                     |
+| generator      | مولد، تولیدگر               |
+| decorator      | دکوراتور، آراینده           |
+| keyword        | کلیدواژه                    |
+| operator       | عملگر                       |
+| interpreter    | مفسر                       |
+| mutable        | تغییرپذیر                   |
+| immutable      | تغییرناپذیر                 |
+| callback       | کال‌بک، فراخوانی بازگشتی   |
+| deprecated     | منسوخ، از رده خارج شده     |
