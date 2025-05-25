@@ -7,9 +7,9 @@
 # AmirHossein SAMIMI, 2025
 # taha haghgoo, 2025
 # sadra nobari, 2025
-# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 # Ramiz karimian, 2025
 # khosro azimi, 2025
+# Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 14:20+0000\n"
 "PO-Revision-Date: 2021-06-28 01:06+0000\n"
-"Last-Translator: khosro azimi, 2025\n"
+"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -453,7 +453,7 @@ msgid ""
 "When awaited, return the next item from the given :term:`asynchronous "
 "iterator`, or *default* if given and the iterator is exhausted."
 msgstr ""
-"هنگام اِنتظار (await)، عنصر بعدی را از :term:`asynchronous iterator`داده شده "
+"هنگام اِنتظار (await)، عنصر بعدی را از :term:`asynchronous iterator` داده شده "
 "برمی‌گرداند، یا اگر آرگومان *default* ارائه شده و تکرارکننده به پایان رسیده "
 "باشد، مقدار *default* را برمی‌گرداند."
 
@@ -545,7 +545,7 @@ msgid ""
 "``False`` and ``True`` (see :ref:`typebool`)."
 msgstr ""
 "یک مقدار بولی، یعنی یکی از ``True`` یا ``False`` را برگردانید.  آرگومان با "
-"استفاده از استاندارد :ref:`truth testing procedure ` تبدیل می شود. اگر "
+"استفاده از استاندارد :ref:`truth testing procedure <truth> تبدیل می شود. اگر "
 "آرگومان نادرست یا حذف شده باشد، ``False`` را برمی گرداند. در غیر این صورت، "
 "``True`` را برمی گرداند.  کلاس :class:`bool` یک زیر کلاس از :class:`int` است "
 "(به :ref:`typesnumeric` مراجعه کنید). این کلاس دیگر قابل زیرکلاس‌بندی نیست. "
@@ -569,17 +569,17 @@ msgid ""
 "not accessible, this function will raise :exc:`RuntimeError`."
 msgstr ""
 "این تابع، اجرای برنامه را در محل فراخوانی متوقف کرده و شما را وارد محیط "
-"اشکال‌زدا (debugger) می‌کند. به طور خاص، این تابع، تابع:func:`sys."
-"breakpointhook` را فراخوانی کرده و مقادیر ``args`` و ``kws`` مستقیماً به آن "
-"ارسال (pass) می‌کند. به طور پیش‌فرض، تابع ``sys.breakpointhook()`` بدون نیاز "
-"به هیچ آرگومانی :func:`pdb.set_trace` را فراخوانی می کند.  در این حالت، این "
-"صرفاً یک تابع کمکی (convenience function) است تا مجبور نباشید ماژول :mod:"
-"`pdb` را به صراحت ایمپورت (import) کنید یا برای ورود به اشکال‌زدا، کد زیادی "
-"بنویسید. با این حال، می‌توان تابع  :func:`sys.breakpointhook` را روی تابع "
-"دیگری تنظیم کرد و در این صورت، تابع:func:`breakpoint` به طور خودکار آن را "
-"فراخوانی می کند و به شما این امکان را می دهد که به اشکال‌زدای مورد نظر خود "
-"وارد شوید. اگر :func:`sys.breakpointhook` قابل دسترسی نباشد، این تابع، "
-"استثنای :exc:`RuntimeError` را ایجاد خواهد کرد."
+"اشکال‌زدا (debugger) می‌کند. به طور خاص، این تابع، :func:`sys.breakpointhook` "
+"را فراخوانی کرده و مقادیر ``args`` و ``kws`` مستقیماً به آن ارسال (pass) "
+"می‌کند. به طور پیش‌فرض، تابع ``sys.breakpointhook()`` بدون نیاز به هیچ "
+"آرگومانی :func:`pdb.set_trace` را فراخوانی می کند. در این حالت، این صرفاً یک "
+"تابع کمکی (convenience function) است تا مجبور نباشید ماژول :mod:`pdb` را به "
+"صراحت ایمپورت (import) کنید یا برای ورود به اشکال‌زدا، کد زیادی بنویسید. با "
+"این حال، می‌توان :func:`sys.breakpointhook` را روی تابع دیگری تنظیم کرد و در "
+"این صورت، :func:`breakpoint` به طور خودکار آن را فراخوانی می کند و به شما "
+"این امکان را می دهد که به اشکال‌زدای مورد نظر خود وارد شوید. اگر :func:`sys."
+"breakpointhook` قابل دسترسی نباشد، این تابع، استثنای :exc:`RuntimeError` را "
+"ایجاد خواهد کرد."
 
 #: ../../library/functions.rst:173
 msgid ""
