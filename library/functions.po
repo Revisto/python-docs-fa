@@ -8,8 +8,8 @@
 # taha haghgoo, 2025
 # sadra nobari, 2025
 # Ramiz karimian, 2025
-# khosro azimi, 2025
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
+# khosro azimi, 2025
 #
 #, fuzzy
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 14:20+0000\n"
 "PO-Revision-Date: 2021-06-28 01:06+0000\n"
-"Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
+"Last-Translator: khosro azimi, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -614,12 +614,19 @@ msgid ""
 "methods of mutable sequences, described in :ref:`typesseq-mutable`, as well "
 "as most methods that the :class:`bytes` type has, see :ref:`bytes-methods`."
 msgstr ""
+"یک آرایه بایتی جدید برمی گرداند. کلاس :class:`bytearray` یک دنباله قابل "
+"تغییر از اعداد صحیح در محدوده 0 <= x < 256 است. این کلاس اکثر روش های معمول "
+"دنباله های قابل تغییر را دارد که در :ref:`typesseq-mutable` توضیح داده شده "
+"اند و همچنین بیشتر روش هایی که نوع :class:`bytes` دارد را داراست، به :ref:"
+"`bytes-methods` مراجعه کنید."
 
 #: ../../library/functions.rst:195
 msgid ""
 "The optional *source* parameter can be used to initialize the array in a few "
 "different ways:"
 msgstr ""
+"از پارامتر اختیاری *source* می‌توان برای مقداردهی اولیه آرایه به چند روش "
+"مختلف استفاده کرد:"
 
 #: ../../library/functions.rst:198
 msgid ""
@@ -627,12 +634,17 @@ msgid ""
 "*errors*) parameters; :func:`bytearray` then converts the string to bytes "
 "using :meth:`str.encode`."
 msgstr ""
+"اگر *source* یک *رشته* «*string*» باشد، باید پارامترهای *encoding* و (به‌صورت "
+"اختیاری) *errors* را نیز مشخص کنید؛ سپس تابع :func:`bytearray` آن رشته را با "
+"استفاده از متد :meth:`str.encode` به بایت‌ها تبدیل می‌کند."
 
 #: ../../library/functions.rst:202
 msgid ""
 "If it is an *integer*, the array will have that size and will be initialized "
 "with null bytes."
 msgstr ""
+"اگر «*source*» یک *عدد صحیح* «integer» باشد، آرایه به اندازه همان عدد ایجاد "
+"شده و با بایت‌های تهی «null byte» مقداردهی اولیه خواهد شد."
 
 #: ../../library/functions.rst:205
 msgid ""
@@ -640,20 +652,26 @@ msgid ""
 "<bufferobjects>`, a read-only buffer of the object will be used to "
 "initialize the bytes array."
 msgstr ""
+"اگر «*source*» یک *شیء* باشد که از  \\:ref\\:`buffer interface "
+"<bufferobjects>`, رابط بافر پیروی می‌کند، از یک بافر فقط-خواندنیِ آن شیء برای "
+"مقداردهی اولیه آرایه بایت‌ها استفاده خواهد شد."
 
 #: ../../library/functions.rst:208
 msgid ""
 "If it is an *iterable*, it must be an iterable of integers in the range ``0 "
 "<= x < 256``, which are used as the initial contents of the array."
 msgstr ""
+"اگر «*source*» یک *تکرارپذیر* «iterable» باشد، باید یک تکرارپذیر از اعداد "
+"صحیح در بازه ``0 <= x < 256`` باشد، که این اعداد به عنوان محتویات اولیه "
+"آرایه استفاده می‌شوند."
 
 #: ../../library/functions.rst:211
 msgid "Without an argument, an array of size 0 is created."
-msgstr ""
+msgstr "بدون آرگومان، یک آرایه با اندازه صفر «0» ایجاد می شود."
 
 #: ../../library/functions.rst:213
 msgid "See also :ref:`binaryseq` and :ref:`typebytearray`."
-msgstr ""
+msgstr "همچنین به :ref:`binaryseq` و :ref:`typebytearray` مراجعه کنید."
 
 #: ../../library/functions.rst:222
 msgid ""
