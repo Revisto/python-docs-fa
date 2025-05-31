@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"POT-Creation-Date: 2025-05-30 14:22+0000\n"
 "PO-Revision-Date: 2021-06-28 01:10+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -1476,7 +1476,7 @@ msgstr ""
 #: ../../library/multiprocessing.rst:1083
 msgid ""
 "Add support for when a program which uses :mod:`multiprocessing` has been "
-"frozen to produce a Windows executable.  (Has been tested with **py2exe**, "
+"frozen to produce an executable.  (Has been tested with **py2exe**, "
 "**PyInstaller** and **cx_Freeze**.)"
 msgstr ""
 
@@ -1506,10 +1506,10 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:1102
 msgid ""
-"Calling ``freeze_support()`` has no effect when invoked on any operating "
-"system other than Windows.  In addition, if the module is being run normally "
-"by the Python interpreter on Windows (the program has not been frozen), then "
-"``freeze_support()`` has no effect."
+"Calling ``freeze_support()`` has no effect when the start method is not "
+"*spawn*. In addition, if the module is being run normally by the Python "
+"interpreter (the program has not been frozen), then ``freeze_support()`` has "
+"no effect."
 msgstr ""
 
 #: ../../library/multiprocessing.rst:1109

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-05-30 14:22+0000\n"
 "PO-Revision-Date: 2021-06-28 00:52+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -55,30 +55,16 @@ msgstr ""
 #: ../../extending/index.rst:28
 msgid ""
 "This guide only covers the basic tools for creating extensions provided as "
-"part of this version of CPython. Third party tools like `Cython <https://"
-"cython.org/>`_, `cffi <https://cffi.readthedocs.io>`_, `SWIG <https://www."
-"swig.org>`_ and `Numba <https://numba.pydata.org/>`_ offer both simpler and "
-"more sophisticated approaches to creating C and C++ extensions for Python."
+"part of this version of CPython. Some :ref:`third party tools <c-api-tools>` "
+"offer both simpler and more sophisticated approaches to creating C and C++ "
+"extensions for Python."
 msgstr ""
 
-#: ../../extending/index.rst:37
-msgid ""
-"`Python Packaging User Guide: Binary Extensions <https://packaging.python."
-"org/guides/packaging-binary-extensions/>`_"
-msgstr ""
-
-#: ../../extending/index.rst:38
-msgid ""
-"The Python Packaging User Guide not only covers several available tools that "
-"simplify the creation of binary extensions, but also discusses the various "
-"reasons why creating an extension module may be desirable in the first place."
-msgstr ""
-
-#: ../../extending/index.rst:45
+#: ../../extending/index.rst:35
 msgid "Creating extensions without third party tools"
 msgstr ""
 
-#: ../../extending/index.rst:47
+#: ../../extending/index.rst:37
 msgid ""
 "This section of the guide covers creating C and C++ extensions without "
 "assistance from third party tools. It is intended primarily for creators of "
@@ -86,11 +72,15 @@ msgid ""
 "extensions."
 msgstr ""
 
-#: ../../extending/index.rst:63
+#: ../../extending/index.rst:44
+msgid ":pep:`489` -- Multi-phase extension module initialization"
+msgstr ""
+
+#: ../../extending/index.rst:57
 msgid "Embedding the CPython runtime in a larger application"
 msgstr ""
 
-#: ../../extending/index.rst:65
+#: ../../extending/index.rst:59
 msgid ""
 "Sometimes, rather than creating an extension that runs inside the Python "
 "interpreter as the main application, it is desirable to instead embed the "

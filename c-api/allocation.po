@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"POT-Creation-Date: 2025-05-30 14:22+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -202,8 +202,8 @@ msgstr ""
 "این شی ارزیابی می شود، دسترسی پیدا کند."
 
 #: ../../c-api/allocation.rst:156
-msgid ":c:func:`PyModule_Create`"
-msgstr ":c:func:`PyModule_Create`"
+msgid ":ref:`moduleobjects`"
+msgstr ""
 
 #: ../../c-api/allocation.rst:157
 msgid "To allocate and create extension modules."

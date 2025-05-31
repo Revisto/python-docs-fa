@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-05-30 14:22+0000\n"
 "PO-Revision-Date: 2021-06-28 01:03+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -173,11 +173,11 @@ msgid ""
 "with values from *changes*."
 msgstr ""
 
-#: ../../library/copy.rst:128
+#: ../../library/copy.rst:130
 msgid "Module :mod:`pickle`"
 msgstr ""
 
-#: ../../library/copy.rst:129
+#: ../../library/copy.rst:131
 msgid ""
 "Discussion of the special methods used to support object state retrieval and "
 "restoration."

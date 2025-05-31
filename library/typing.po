@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"POT-Creation-Date: 2025-05-30 14:22+0000\n"
 "PO-Revision-Date: 2021-06-28 01:16+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -421,7 +421,7 @@ msgid ""
 "ReturnType]`` respectively."
 msgstr ""
 
-#: ../../library/typing.rst:285 ../../library/typing.rst:3970
+#: ../../library/typing.rst:285 ../../library/typing.rst:3965
 msgid ""
 "``Callable`` now supports :class:`ParamSpec` and :data:`Concatenate`. See :"
 "pep:`612` for more details."
@@ -3256,7 +3256,7 @@ msgid "Typed version of :func:`collections.namedtuple`."
 msgstr ""
 
 #: ../../library/typing.rst:2355 ../../library/typing.rst:2451
-#: ../../library/typing.rst:3544
+#: ../../library/typing.rst:3545
 msgid "Usage::"
 msgstr ""
 
@@ -4807,46 +4807,24 @@ msgstr ""
 #: ../../library/typing.rst:3502
 msgid ""
 "This is similar to calling :meth:`annotationlib.ForwardRef.evaluate`, but "
-"unlike that method, :func:`!evaluate_forward_ref` also:"
-msgstr ""
-
-#: ../../library/typing.rst:3505
-msgid "Recursively evaluates forward references nested within the type hint."
+"unlike that method, :func:`!evaluate_forward_ref` also recursively evaluates "
+"forward references nested within the type hint."
 msgstr ""
 
 #: ../../library/typing.rst:3506
 msgid ""
-"Raises :exc:`TypeError` when it encounters certain objects that are not "
-"valid type hints."
-msgstr ""
-
-#: ../../library/typing.rst:3508
-msgid ""
-"Replaces type hints that evaluate to :const:`!None` with :class:`types."
-"NoneType`."
-msgstr ""
-
-#: ../../library/typing.rst:3510
-msgid ""
-"Supports the :attr:`~annotationlib.Format.FORWARDREF` and :attr:"
-"`~annotationlib.Format.STRING` formats."
+"See the documentation for :meth:`annotationlib.ForwardRef.evaluate` for the "
+"meaning of the *owner*, *globals*, *locals*, *type_params*, and *format* "
+"parameters."
 msgstr ""
 
 #: ../../library/typing.rst:3513
-msgid ""
-"See the documentation for :meth:`annotationlib.ForwardRef.evaluate` for the "
-"meaning of the *owner*, *globals*, *locals*, and *type_params* parameters. "
-"*format* specifies the format of the annotation and is a member of the :"
-"class:`annotationlib.Format` enum."
-msgstr ""
-
-#: ../../library/typing.rst:3522
 msgid ""
 "A sentinel object used to indicate that a type parameter has no default "
 "value. For example:"
 msgstr ""
 
-#: ../../library/typing.rst:3525
+#: ../../library/typing.rst:3516
 msgid ""
 ">>> T = TypeVar(\"T\")\n"
 ">>> T.__default__ is typing.NoDefault\n"
@@ -4856,46 +4834,51 @@ msgid ""
 "True"
 msgstr ""
 
-#: ../../library/typing.rst:3537
+#: ../../library/typing.rst:3528
 msgid "Constant"
 msgstr ""
 
-#: ../../library/typing.rst:3541
+#: ../../library/typing.rst:3532
 msgid ""
 "A special constant that is assumed to be ``True`` by 3rd party static type "
-"checkers. It is ``False`` at runtime."
+"checkers. It's ``False`` at runtime."
 msgstr ""
 
-#: ../../library/typing.rst:3546
+#: ../../library/typing.rst:3535
+msgid ""
+"A module which is expensive to import, and which only contain types used for "
+"typing annotations, can be safely imported inside an ``if TYPE_CHECKING:`` "
+"block.  This prevents the module from actually being imported at runtime; "
+"annotations aren't eagerly evaluated (see :pep:`649`) so using undefined "
+"symbols in annotations is harmless--as long as you don't later examine them. "
+"Your static type analysis tool will set ``TYPE_CHECKING`` to ``True`` during "
+"static type analysis, which means the module will be imported and the types "
+"will be checked properly during such analysis."
+msgstr ""
+
+#: ../../library/typing.rst:3547
 msgid ""
 "if TYPE_CHECKING:\n"
 "    import expensive_mod\n"
 "\n"
-"def fun(arg: 'expensive_mod.SomeType') -> None:\n"
+"def fun(arg: expensive_mod.SomeType) -> None:\n"
 "    local_var: expensive_mod.AnotherType = other_fun()"
 msgstr ""
 
-#: ../../library/typing.rst:3552
+#: ../../library/typing.rst:3553
 msgid ""
-"The first type annotation must be enclosed in quotes, making it a \"forward "
-"reference\", to hide the ``expensive_mod`` reference from the interpreter "
-"runtime.  Type annotations for local variables are not evaluated, so the "
-"second annotation does not need to be enclosed in quotes."
+"If you occasionally need to examine type annotations at runtime which may "
+"contain undefined symbols, use :meth:`annotationlib.get_annotations` with a "
+"``format`` parameter of :attr:`annotationlib.Format.STRING` or :attr:"
+"`annotationlib.Format.FORWARDREF` to safely retrieve the annotations without "
+"raising :exc:`NameError`."
 msgstr ""
 
-#: ../../library/typing.rst:3559
-msgid ""
-"If ``from __future__ import annotations`` is used, annotations are not "
-"evaluated at function definition time. Instead, they are stored as strings "
-"in ``__annotations__``. This makes it unnecessary to use quotes around the "
-"annotation (see :pep:`563`)."
-msgstr ""
-
-#: ../../library/typing.rst:3571
+#: ../../library/typing.rst:3566
 msgid "Deprecated aliases"
 msgstr ""
 
-#: ../../library/typing.rst:3573
+#: ../../library/typing.rst:3568
 msgid ""
 "This module defines several deprecated aliases to pre-existing standard "
 "library classes. These were originally included in the :mod:`!typing` module "
@@ -4904,7 +4887,7 @@ msgid ""
 "pre-existing classes were enhanced to support ``[]`` (see :pep:`585`)."
 msgstr ""
 
-#: ../../library/typing.rst:3580
+#: ../../library/typing.rst:3575
 msgid ""
 "The redundant types are deprecated as of Python 3.9. However, while the "
 "aliases may be removed at some point, removal of these aliases is not "
@@ -4912,7 +4895,7 @@ msgid ""
 "the interpreter for these aliases."
 msgstr ""
 
-#: ../../library/typing.rst:3585
+#: ../../library/typing.rst:3580
 msgid ""
 "If at some point it is decided to remove these deprecated aliases, a "
 "deprecation warning will be issued by the interpreter for at least two "
@@ -4920,38 +4903,38 @@ msgid ""
 "`!typing` module without deprecation warnings until at least Python 3.14."
 msgstr ""
 
-#: ../../library/typing.rst:3590
+#: ../../library/typing.rst:3585
 msgid ""
 "Type checkers are encouraged to flag uses of the deprecated types if the "
 "program they are checking targets a minimum Python version of 3.9 or newer."
 msgstr ""
 
-#: ../../library/typing.rst:3596
+#: ../../library/typing.rst:3591
 msgid "Aliases to built-in types"
 msgstr ""
 
-#: ../../library/typing.rst:3600
+#: ../../library/typing.rst:3595
 msgid "Deprecated alias to :class:`dict`."
 msgstr ""
 
-#: ../../library/typing.rst:3602
+#: ../../library/typing.rst:3597
 msgid ""
 "Note that to annotate arguments, it is preferred to use an abstract "
 "collection type such as :class:`~collections.abc.Mapping` rather than to "
 "use :class:`dict` or :class:`!typing.Dict`."
 msgstr ""
 
-#: ../../library/typing.rst:3606
+#: ../../library/typing.rst:3601
 msgid ""
 ":class:`builtins.dict <dict>` now supports subscripting (``[]``). See :pep:"
 "`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3612
+#: ../../library/typing.rst:3607
 msgid "Deprecated alias to :class:`list`."
 msgstr ""
 
-#: ../../library/typing.rst:3614
+#: ../../library/typing.rst:3609
 msgid ""
 "Note that to annotate arguments, it is preferred to use an abstract "
 "collection type such as :class:`~collections.abc.Sequence` or :class:"
@@ -4959,136 +4942,136 @@ msgid ""
 "typing.List`."
 msgstr ""
 
-#: ../../library/typing.rst:3619
+#: ../../library/typing.rst:3614
 msgid ""
 ":class:`builtins.list <list>` now supports subscripting (``[]``). See :pep:"
 "`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3625
+#: ../../library/typing.rst:3620
 msgid "Deprecated alias to :class:`builtins.set <set>`."
 msgstr ""
 
-#: ../../library/typing.rst:3627
+#: ../../library/typing.rst:3622
 msgid ""
 "Note that to annotate arguments, it is preferred to use an abstract "
 "collection type such as :class:`collections.abc.Set` rather than to use :"
 "class:`set` or :class:`typing.Set`."
 msgstr ""
 
-#: ../../library/typing.rst:3631
+#: ../../library/typing.rst:3626
 msgid ""
 ":class:`builtins.set <set>` now supports subscripting (``[]``). See :pep:"
 "`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3637
+#: ../../library/typing.rst:3632
 msgid "Deprecated alias to :class:`builtins.frozenset <frozenset>`."
 msgstr ""
 
-#: ../../library/typing.rst:3639
+#: ../../library/typing.rst:3634
 msgid ""
 ":class:`builtins.frozenset <frozenset>` now supports subscripting (``[]``). "
 "See :pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3646
+#: ../../library/typing.rst:3641
 msgid "Deprecated alias for :class:`tuple`."
 msgstr ""
 
-#: ../../library/typing.rst:3648
+#: ../../library/typing.rst:3643
 msgid ""
 ":class:`tuple` and ``Tuple`` are special-cased in the type system; see :ref:"
 "`annotating-tuples` for more details."
 msgstr ""
 
-#: ../../library/typing.rst:3651
+#: ../../library/typing.rst:3646
 msgid ""
 ":class:`builtins.tuple <tuple>` now supports subscripting (``[]``). See :pep:"
 "`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3657
+#: ../../library/typing.rst:3652
 msgid "Deprecated alias to :class:`type`."
 msgstr ""
 
-#: ../../library/typing.rst:3659
+#: ../../library/typing.rst:3654
 msgid ""
 "See :ref:`type-of-class-objects` for details on using :class:`type` or "
 "``typing.Type`` in type annotations."
 msgstr ""
 
-#: ../../library/typing.rst:3664
+#: ../../library/typing.rst:3659
 msgid ""
 ":class:`builtins.type <type>` now supports subscripting (``[]``). See :pep:"
 "`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3671
+#: ../../library/typing.rst:3666
 msgid "Aliases to types in :mod:`collections`"
 msgstr ""
 
-#: ../../library/typing.rst:3675
+#: ../../library/typing.rst:3670
 msgid "Deprecated alias to :class:`collections.defaultdict`."
 msgstr ""
 
-#: ../../library/typing.rst:3679
+#: ../../library/typing.rst:3674
 msgid ""
 ":class:`collections.defaultdict` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3685
+#: ../../library/typing.rst:3680
 msgid "Deprecated alias to :class:`collections.OrderedDict`."
 msgstr ""
 
-#: ../../library/typing.rst:3689
+#: ../../library/typing.rst:3684
 msgid ""
 ":class:`collections.OrderedDict` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3695
+#: ../../library/typing.rst:3690
 msgid "Deprecated alias to :class:`collections.ChainMap`."
 msgstr ""
 
-#: ../../library/typing.rst:3699
+#: ../../library/typing.rst:3694
 msgid ""
 ":class:`collections.ChainMap` now supports subscripting (``[]``). See :pep:"
 "`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3705
+#: ../../library/typing.rst:3700
 msgid "Deprecated alias to :class:`collections.Counter`."
 msgstr ""
 
-#: ../../library/typing.rst:3709
+#: ../../library/typing.rst:3704
 msgid ""
 ":class:`collections.Counter` now supports subscripting (``[]``). See :pep:"
 "`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3715
+#: ../../library/typing.rst:3710
 msgid "Deprecated alias to :class:`collections.deque`."
 msgstr ""
 
-#: ../../library/typing.rst:3719
+#: ../../library/typing.rst:3714
 msgid ""
 ":class:`collections.deque` now supports subscripting (``[]``). See :pep:"
 "`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3726
+#: ../../library/typing.rst:3721
 msgid "Aliases to other concrete types"
 msgstr ""
 
-#: ../../library/typing.rst:3731
+#: ../../library/typing.rst:3726
 msgid ""
 "Deprecated aliases corresponding to the return types from :func:`re.compile` "
 "and :func:`re.match`."
 msgstr ""
 
-#: ../../library/typing.rst:3734
+#: ../../library/typing.rst:3729
 msgid ""
 "These types (and the corresponding functions) are generic over :data:"
 "`AnyStr`. ``Pattern`` can be specialised as ``Pattern[str]`` or "
@@ -5096,331 +5079,331 @@ msgid ""
 "``Match[bytes]``."
 msgstr ""
 
-#: ../../library/typing.rst:3739
+#: ../../library/typing.rst:3734
 msgid ""
 "Classes ``Pattern`` and ``Match`` from :mod:`re` now support ``[]``. See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3745
+#: ../../library/typing.rst:3740
 msgid "Deprecated alias for :class:`str`."
 msgstr ""
 
-#: ../../library/typing.rst:3747
+#: ../../library/typing.rst:3742
 msgid ""
 "``Text`` is provided to supply a forward compatible path for Python 2 code: "
 "in Python 2, ``Text`` is an alias for ``unicode``."
 msgstr ""
 
-#: ../../library/typing.rst:3751
+#: ../../library/typing.rst:3746
 msgid ""
 "Use ``Text`` to indicate that a value must contain a unicode string in a "
 "manner that is compatible with both Python 2 and Python 3::"
 msgstr ""
 
-#: ../../library/typing.rst:3754
+#: ../../library/typing.rst:3749
 msgid ""
 "def add_unicode_checkmark(text: Text) -> Text:\n"
 "    return text + u' \\u2713'"
 msgstr ""
 
-#: ../../library/typing.rst:3759
+#: ../../library/typing.rst:3754
 msgid ""
 "Python 2 is no longer supported, and most type checkers also no longer "
 "support type checking Python 2 code. Removal of the alias is not currently "
 "planned, but users are encouraged to use :class:`str` instead of ``Text``."
 msgstr ""
 
-#: ../../library/typing.rst:3769
+#: ../../library/typing.rst:3764
 msgid "Aliases to container ABCs in :mod:`collections.abc`"
 msgstr ""
 
-#: ../../library/typing.rst:3773
+#: ../../library/typing.rst:3768
 msgid "Deprecated alias to :class:`collections.abc.Set`."
 msgstr ""
 
-#: ../../library/typing.rst:3775
+#: ../../library/typing.rst:3770
 msgid ""
 ":class:`collections.abc.Set` now supports subscripting (``[]``). See :pep:"
 "`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3781
+#: ../../library/typing.rst:3776
 msgid "Deprecated alias to :class:`collections.abc.Collection`."
 msgstr ""
 
-#: ../../library/typing.rst:3785
+#: ../../library/typing.rst:3780
 msgid ""
 ":class:`collections.abc.Collection` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3791
+#: ../../library/typing.rst:3786
 msgid "Deprecated alias to :class:`collections.abc.Container`."
 msgstr ""
 
-#: ../../library/typing.rst:3793
+#: ../../library/typing.rst:3788
 msgid ""
 ":class:`collections.abc.Container` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3799
+#: ../../library/typing.rst:3794
 msgid "Deprecated alias to :class:`collections.abc.ItemsView`."
 msgstr ""
 
-#: ../../library/typing.rst:3801
+#: ../../library/typing.rst:3796
 msgid ""
 ":class:`collections.abc.ItemsView` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3807
+#: ../../library/typing.rst:3802
 msgid "Deprecated alias to :class:`collections.abc.KeysView`."
 msgstr ""
 
-#: ../../library/typing.rst:3809
+#: ../../library/typing.rst:3804
 msgid ""
 ":class:`collections.abc.KeysView` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3815
+#: ../../library/typing.rst:3810
 msgid "Deprecated alias to :class:`collections.abc.Mapping`."
 msgstr ""
 
-#: ../../library/typing.rst:3817
+#: ../../library/typing.rst:3812
 msgid ""
 ":class:`collections.abc.Mapping` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3823
+#: ../../library/typing.rst:3818
 msgid "Deprecated alias to :class:`collections.abc.MappingView`."
 msgstr ""
 
-#: ../../library/typing.rst:3825
+#: ../../library/typing.rst:3820
 msgid ""
 ":class:`collections.abc.MappingView` now supports subscripting (``[]``). "
 "See :pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3831
+#: ../../library/typing.rst:3826
 msgid "Deprecated alias to :class:`collections.abc.MutableMapping`."
 msgstr ""
 
-#: ../../library/typing.rst:3833
+#: ../../library/typing.rst:3828
 msgid ""
 ":class:`collections.abc.MutableMapping` now supports subscripting (``[]``). "
 "See :pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3840
+#: ../../library/typing.rst:3835
 msgid "Deprecated alias to :class:`collections.abc.MutableSequence`."
 msgstr ""
 
-#: ../../library/typing.rst:3842
+#: ../../library/typing.rst:3837
 msgid ""
 ":class:`collections.abc.MutableSequence` now supports subscripting (``[]``). "
 "See :pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3849
+#: ../../library/typing.rst:3844
 msgid "Deprecated alias to :class:`collections.abc.MutableSet`."
 msgstr ""
 
-#: ../../library/typing.rst:3851
+#: ../../library/typing.rst:3846
 msgid ""
 ":class:`collections.abc.MutableSet` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3857
+#: ../../library/typing.rst:3852
 msgid "Deprecated alias to :class:`collections.abc.Sequence`."
 msgstr ""
 
-#: ../../library/typing.rst:3859
+#: ../../library/typing.rst:3854
 msgid ""
 ":class:`collections.abc.Sequence` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3865
+#: ../../library/typing.rst:3860
 msgid "Deprecated alias to :class:`collections.abc.ValuesView`."
 msgstr ""
 
-#: ../../library/typing.rst:3867
+#: ../../library/typing.rst:3862
 msgid ""
 ":class:`collections.abc.ValuesView` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3874
+#: ../../library/typing.rst:3869
 msgid "Aliases to asynchronous ABCs in :mod:`collections.abc`"
 msgstr ""
 
-#: ../../library/typing.rst:3878
+#: ../../library/typing.rst:3873
 msgid "Deprecated alias to :class:`collections.abc.Coroutine`."
 msgstr ""
 
-#: ../../library/typing.rst:3880
+#: ../../library/typing.rst:3875
 msgid ""
 "See :ref:`annotating-generators-and-coroutines` for details on using :class:"
 "`collections.abc.Coroutine` and ``typing.Coroutine`` in type annotations."
 msgstr ""
 
-#: ../../library/typing.rst:3886
+#: ../../library/typing.rst:3881
 msgid ""
 ":class:`collections.abc.Coroutine` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3892
+#: ../../library/typing.rst:3887
 msgid "Deprecated alias to :class:`collections.abc.AsyncGenerator`."
 msgstr ""
 
-#: ../../library/typing.rst:3894
+#: ../../library/typing.rst:3889
 msgid ""
 "See :ref:`annotating-generators-and-coroutines` for details on using :class:"
 "`collections.abc.AsyncGenerator` and ``typing.AsyncGenerator`` in type "
 "annotations."
 msgstr ""
 
-#: ../../library/typing.rst:3900
+#: ../../library/typing.rst:3895
 msgid ""
 ":class:`collections.abc.AsyncGenerator` now supports subscripting (``[]``). "
 "See :pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3905
+#: ../../library/typing.rst:3900
 msgid "The ``SendType`` parameter now has a default."
 msgstr ""
 
-#: ../../library/typing.rst:3910
+#: ../../library/typing.rst:3905
 msgid "Deprecated alias to :class:`collections.abc.AsyncIterable`."
 msgstr ""
 
-#: ../../library/typing.rst:3914
+#: ../../library/typing.rst:3909
 msgid ""
 ":class:`collections.abc.AsyncIterable` now supports subscripting (``[]``). "
 "See :pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3920
+#: ../../library/typing.rst:3915
 msgid "Deprecated alias to :class:`collections.abc.AsyncIterator`."
 msgstr ""
 
-#: ../../library/typing.rst:3924
+#: ../../library/typing.rst:3919
 msgid ""
 ":class:`collections.abc.AsyncIterator` now supports subscripting (``[]``). "
 "See :pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3930
+#: ../../library/typing.rst:3925
 msgid "Deprecated alias to :class:`collections.abc.Awaitable`."
 msgstr ""
 
-#: ../../library/typing.rst:3934
+#: ../../library/typing.rst:3929
 msgid ""
 ":class:`collections.abc.Awaitable` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3941
+#: ../../library/typing.rst:3936
 msgid "Aliases to other ABCs in :mod:`collections.abc`"
 msgstr ""
 
-#: ../../library/typing.rst:3945
+#: ../../library/typing.rst:3940
 msgid "Deprecated alias to :class:`collections.abc.Iterable`."
 msgstr ""
 
-#: ../../library/typing.rst:3947
+#: ../../library/typing.rst:3942
 msgid ""
 ":class:`collections.abc.Iterable` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3953
+#: ../../library/typing.rst:3948
 msgid "Deprecated alias to :class:`collections.abc.Iterator`."
 msgstr ""
 
-#: ../../library/typing.rst:3955
+#: ../../library/typing.rst:3950
 msgid ""
 ":class:`collections.abc.Iterator` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3961
+#: ../../library/typing.rst:3956
 msgid "Deprecated alias to :class:`collections.abc.Callable`."
 msgstr ""
 
-#: ../../library/typing.rst:3963
+#: ../../library/typing.rst:3958
 msgid ""
 "See :ref:`annotating-callables` for details on how to use :class:"
 "`collections.abc.Callable` and ``typing.Callable`` in type annotations."
 msgstr ""
 
-#: ../../library/typing.rst:3966
+#: ../../library/typing.rst:3961
 msgid ""
 ":class:`collections.abc.Callable` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3976
+#: ../../library/typing.rst:3971
 msgid "Deprecated alias to :class:`collections.abc.Generator`."
 msgstr ""
 
-#: ../../library/typing.rst:3978
+#: ../../library/typing.rst:3973
 msgid ""
 "See :ref:`annotating-generators-and-coroutines` for details on using :class:"
 "`collections.abc.Generator` and ``typing.Generator`` in type annotations."
 msgstr ""
 
-#: ../../library/typing.rst:3982
+#: ../../library/typing.rst:3977
 msgid ""
 ":class:`collections.abc.Generator` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:3986
+#: ../../library/typing.rst:3981
 msgid "Default values for the send and return types were added."
 msgstr ""
 
-#: ../../library/typing.rst:3991
+#: ../../library/typing.rst:3986
 msgid "Deprecated alias to :class:`collections.abc.Hashable`."
 msgstr ""
 
-#: ../../library/typing.rst:3993
+#: ../../library/typing.rst:3988
 msgid "Use :class:`collections.abc.Hashable` directly instead."
 msgstr ""
 
-#: ../../library/typing.rst:3998
+#: ../../library/typing.rst:3993
 msgid "Deprecated alias to :class:`collections.abc.Reversible`."
 msgstr ""
 
-#: ../../library/typing.rst:4000
+#: ../../library/typing.rst:3995
 msgid ""
 ":class:`collections.abc.Reversible` now supports subscripting (``[]``). See :"
 "pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:4006
+#: ../../library/typing.rst:4001
 msgid "Deprecated alias to :class:`collections.abc.Sized`."
 msgstr ""
 
-#: ../../library/typing.rst:4008
+#: ../../library/typing.rst:4003
 msgid "Use :class:`collections.abc.Sized` directly instead."
 msgstr ""
 
-#: ../../library/typing.rst:4014
+#: ../../library/typing.rst:4009
 msgid "Aliases to :mod:`contextlib` ABCs"
 msgstr ""
 
-#: ../../library/typing.rst:4018
+#: ../../library/typing.rst:4013
 msgid "Deprecated alias to :class:`contextlib.AbstractContextManager`."
 msgstr ""
 
-#: ../../library/typing.rst:4020
+#: ../../library/typing.rst:4015
 msgid ""
 "The first type parameter, ``T_co``, represents the type returned by the :"
 "meth:`~object.__enter__` method. The optional second type parameter, "
@@ -5428,21 +5411,21 @@ msgid ""
 "returned by the :meth:`~object.__exit__` method."
 msgstr ""
 
-#: ../../library/typing.rst:4027
+#: ../../library/typing.rst:4022
 msgid ""
 ":class:`contextlib.AbstractContextManager` now supports subscripting "
 "(``[]``). See :pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:4032
+#: ../../library/typing.rst:4027
 msgid "Added the optional second type parameter, ``ExitT_co``."
 msgstr ""
 
-#: ../../library/typing.rst:4037
+#: ../../library/typing.rst:4032
 msgid "Deprecated alias to :class:`contextlib.AbstractAsyncContextManager`."
 msgstr ""
 
-#: ../../library/typing.rst:4039
+#: ../../library/typing.rst:4034
 msgid ""
 "The first type parameter, ``T_co``, represents the type returned by the :"
 "meth:`~object.__aenter__` method. The optional second type parameter, "
@@ -5450,21 +5433,21 @@ msgid ""
 "returned by the :meth:`~object.__aexit__` method."
 msgstr ""
 
-#: ../../library/typing.rst:4046
+#: ../../library/typing.rst:4041
 msgid ""
 ":class:`contextlib.AbstractAsyncContextManager` now supports subscripting "
 "(``[]``). See :pep:`585` and :ref:`types-genericalias`."
 msgstr ""
 
-#: ../../library/typing.rst:4051
+#: ../../library/typing.rst:4046
 msgid "Added the optional second type parameter, ``AExitT_co``."
 msgstr ""
 
-#: ../../library/typing.rst:4055
+#: ../../library/typing.rst:4050
 msgid "Deprecation Timeline of Major Features"
 msgstr ""
 
-#: ../../library/typing.rst:4057
+#: ../../library/typing.rst:4052
 msgid ""
 "Certain features in ``typing`` are deprecated and may be removed in a future "
 "version of Python. The following table summarizes major deprecations for "
@@ -5472,99 +5455,99 @@ msgid ""
 "listed."
 msgstr ""
 
-#: ../../library/typing.rst:4064
+#: ../../library/typing.rst:4059
 msgid "Feature"
 msgstr ""
 
-#: ../../library/typing.rst:4065
+#: ../../library/typing.rst:4060
 msgid "Deprecated in"
 msgstr ""
 
-#: ../../library/typing.rst:4066
+#: ../../library/typing.rst:4061
 msgid "Projected removal"
 msgstr ""
 
-#: ../../library/typing.rst:4067
+#: ../../library/typing.rst:4062
 msgid "PEP/issue"
 msgstr ""
 
-#: ../../library/typing.rst:4068
+#: ../../library/typing.rst:4063
 msgid "``typing`` versions of standard collections"
 msgstr ""
 
-#: ../../library/typing.rst:4069
+#: ../../library/typing.rst:4064
 msgid "3.9"
 msgstr ""
 
-#: ../../library/typing.rst:4070
+#: ../../library/typing.rst:4065
 msgid "Undecided (see :ref:`deprecated-aliases` for more information)"
 msgstr ""
 
-#: ../../library/typing.rst:4071
+#: ../../library/typing.rst:4066
 msgid ":pep:`585`"
 msgstr ""
 
-#: ../../library/typing.rst:4072
+#: ../../library/typing.rst:4067
 msgid ":data:`typing.Text`"
 msgstr ""
 
-#: ../../library/typing.rst:4073
+#: ../../library/typing.rst:4068
 msgid "3.11"
 msgstr ""
 
-#: ../../library/typing.rst:4074 ../../library/typing.rst:4078
-#: ../../library/typing.rst:4082
+#: ../../library/typing.rst:4069 ../../library/typing.rst:4073
+#: ../../library/typing.rst:4077
 msgid "Undecided"
 msgstr ""
 
-#: ../../library/typing.rst:4075
+#: ../../library/typing.rst:4070
 msgid ":gh:`92332`"
 msgstr ""
 
-#: ../../library/typing.rst:4076
+#: ../../library/typing.rst:4071
 msgid ":class:`typing.Hashable` and :class:`typing.Sized`"
 msgstr ""
 
-#: ../../library/typing.rst:4077 ../../library/typing.rst:4081
+#: ../../library/typing.rst:4072 ../../library/typing.rst:4076
 msgid "3.12"
 msgstr ""
 
-#: ../../library/typing.rst:4079
+#: ../../library/typing.rst:4074
 msgid ":gh:`94309`"
 msgstr ""
 
-#: ../../library/typing.rst:4080
+#: ../../library/typing.rst:4075
 msgid ":data:`typing.TypeAlias`"
 msgstr ""
 
-#: ../../library/typing.rst:4083
+#: ../../library/typing.rst:4078
 msgid ":pep:`695`"
 msgstr ""
 
-#: ../../library/typing.rst:4084
+#: ../../library/typing.rst:4079
 msgid ":func:`@typing.no_type_check_decorator <no_type_check_decorator>`"
 msgstr ""
 
-#: ../../library/typing.rst:4085 ../../library/typing.rst:4089
+#: ../../library/typing.rst:4080 ../../library/typing.rst:4084
 msgid "3.13"
 msgstr ""
 
-#: ../../library/typing.rst:4086
+#: ../../library/typing.rst:4081
 msgid "3.15"
 msgstr ""
 
-#: ../../library/typing.rst:4087
+#: ../../library/typing.rst:4082
 msgid ":gh:`106309`"
 msgstr ""
 
-#: ../../library/typing.rst:4088
+#: ../../library/typing.rst:4083
 msgid ":data:`typing.AnyStr`"
 msgstr ""
 
-#: ../../library/typing.rst:4090
+#: ../../library/typing.rst:4085
 msgid "3.18"
 msgstr ""
 
-#: ../../library/typing.rst:4091
+#: ../../library/typing.rst:4086
 msgid ":gh:`105578`"
 msgstr ""
