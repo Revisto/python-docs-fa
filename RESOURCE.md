@@ -5,10 +5,10 @@
 | c-api/abstract.po | 100.0% | 100.0% | 0.0% |
 | tutorial/index.po | 77.0% | 77.0% | 0.0% |
 | tutorial/errors.po | 98.9% | 18.8% | 0.0% |
-| c-api/allocation.po | 12.5% | 12.3% | 0.0% |
+| c-api/allocation.po | 12.3% | 12.1% | 0.0% |
 | tutorial/appendix.po | 100.0% | 10.3% | 0.0% |
 | tutorial/classes.po | 98.9% | 10.1% | 0.0% |
-| library/functions.po | 98.1% | 5.4% | 0.0% |
+| library/functions.po | 98.1% | 6.9% | 0.0% |
 | c-api/dict.po | 1.0% | 0.6% | 0.0% |
 | library/json.po | 0.4% | 0.1% | 0.0% |
 | tutorial/appetite.po | 100.0% | 0.0% | 0.0% |
@@ -26,7 +26,7 @@
 | library/stdtypes.po | 93.6% | 0.0% | 0.0% |
 | tutorial/interactive.po | 77.2% | 0.0% | 0.0% |
 | c-api/apiabiversion.po | 58.4% | 0.0% | 0.0% |
-| extending/newtypes_tutorial.po | 6.3% | 0.0% | 0.0% |
+| extending/newtypes_tutorial.po | 4.6% | 0.0% | 0.0% |
 | library/datetime.po | 3.3% | 0.0% | 0.0% |
 | library/pwd.po | 3.1% | 0.0% | 0.0% |
 | c-api/exceptions.po | 2.9% | 0.0% | 0.0% |
