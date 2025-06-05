@@ -7,15 +7,16 @@
 # Alireza Feyzabadi Farahani, 2025
 # Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025
 # AmirHossein SAMIMI, 2025
+# khosro azimi, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"POT-Creation-Date: 2025-05-30 14:22+0000\n"
 "PO-Revision-Date: 2021-06-28 01:49+0000\n"
-"Last-Translator: AmirHossein SAMIMI, 2025\n"
+"Last-Translator: khosro azimi, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
 "MIME-Version: 1.0\n"
@@ -98,10 +99,14 @@ msgid ""
 "since its object-oriented semantics are closer to those of Python than C++, "
 "but I expect that few readers have heard of it.)"
 msgstr ""
+"(با نبود اصطلاحات پذیرفته شده جهانی برای صحبت درباره کلاس‌ها، گاهی از "
+"اصطلاحات Smalltalk و C++ استفاده خواهم کرد. من از اصطلاحات Modula-3 استفاده "
+"می‌کردم، چون معنای شیءگرای آن به پایتون نزدیک‌تر از C++ است، اما انتظار دارم "
+"که تعداد کمی از خوانندگان با آن آشنا باشند.)"
 
 #: ../../tutorial/classes.rst:43
 msgid "A Word About Names and Objects"
-msgstr ""
+msgstr "سخنی درباره نام‌ها و اشیاء"
 
 #: ../../tutorial/classes.rst:45
 msgid ""
@@ -131,10 +136,15 @@ msgid ""
 "understand what's going on. Incidentally, knowledge about this subject is "
 "useful for any advanced Python programmer."
 msgstr ""
+"قبل از معرفی کلاس ها، ابتدا باید چیزی درباره قوانین حوزه  در پایتون به شما "
+"بگویم. تعریف کلاس ها چند ترفند جالب با فضاهای نام انجام می دهد و برای اینکه "
+"به طور کامل متوجه شوید چه می گذرد، باید بدانید که حوزه ها و فضاهای نام چگونه "
+"کار می کنند. ضمناً، آگاهی از این موضوع برای هر برنامه نویس پیشرفته پایتون "
+"مفید است."
 
 #: ../../tutorial/classes.rst:69
 msgid "Let's begin with some definitions."
-msgstr ""
+msgstr "بیایید با چند تعریف شروع کنیم."
 
 #: ../../tutorial/classes.rst:71
 msgid ""
@@ -150,6 +160,16 @@ msgid ""
 "may both define a function ``maximize`` without confusion --- users of the "
 "modules must prefix it with the module name."
 msgstr ""
+"«فضای نام»  *namespace* نگاشتی است از نام‌ها به اشیا. بیشتر فضای نام‌ها در حال "
+"حاضر به‌صورت دیکشنری‌های پایتون پیاده‌سازی شده‌اند، اما معمولاً این موضوع (به جز "
+"در بازدهی «performance» ) قابل مشاهده نیست و ممکن است در آینده تغییر کند. "
+"مثال‌هایی از فضای نام عبارت‌اند از: مجموعه نام‌های داخلی (که شامل توابعی مثل :"
+"func:`abs` و نام‌های استثنائات داخلی است)؛ نام‌های سراسری در یک ماژول؛ و "
+"نام‌های محلی در یک فراخوانی تابع. به نوعی، مجموعه صفات «attributes» یک شی نیز "
+"یک فضای نام را تشکیل می‌دهد. نکته مهم درباره فضای نام‌ها این است که هیچ "
+"ارتباطی بین نام‌ها در فضای نام‌های مختلف وجود ندارد؛ برای مثال، دو ماژول مختلف "
+"می‌توانند هر دو تابعی با نام ``maximize`` تعریف کنند بدون اینکه ابهامی پیش "
+"بیاید — استفاده‌کنندگان از ماژول‌ها باید نام ماژول را به عنوان پیشوند بیاورند."
 
 #: ../../tutorial/classes.rst:82
 msgid ""
