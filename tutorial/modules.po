@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 14:22+0000\n"
+"POT-Creation-Date: 2025-06-06 14:20+0000\n"
 "PO-Revision-Date: 2021-06-28 01:50+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -61,14 +61,16 @@ msgstr ""
 msgid ""
 "# Fibonacci numbers module\n"
 "\n"
-"def fib(n):    # write Fibonacci series up to n\n"
+"def fib(n):\n"
+"    \"\"\"Write Fibonacci series up to n.\"\"\"\n"
 "    a, b = 0, 1\n"
 "    while a < n:\n"
 "        print(a, end=' ')\n"
 "        a, b = b, a+b\n"
 "    print()\n"
 "\n"
-"def fib2(n):   # return Fibonacci series up to n\n"
+"def fib2(n):\n"
+"    \"\"\"Return Fibonacci series up to n.\"\"\"\n"
 "    result = []\n"
 "    a, b = 0, 1\n"
 "    while a < n:\n"
@@ -77,17 +79,17 @@ msgid ""
 "    return result"
 msgstr ""
 
-#: ../../tutorial/modules.rst:45
+#: ../../tutorial/modules.rst:47
 msgid ""
 "Now enter the Python interpreter and import this module with the following "
 "command::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:48
+#: ../../tutorial/modules.rst:50
 msgid ">>> import fibo"
 msgstr ""
 
-#: ../../tutorial/modules.rst:50
+#: ../../tutorial/modules.rst:52
 msgid ""
 "This does not add the names of the functions defined in ``fibo``  directly "
 "to the current :term:`namespace` (see :ref:`tut-scopes` for more details); "
@@ -95,7 +97,7 @@ msgid ""
 "access the functions::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:55
+#: ../../tutorial/modules.rst:57
 msgid ""
 ">>> fibo.fib(1000)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987\n"
@@ -105,23 +107,23 @@ msgid ""
 "'fibo'"
 msgstr ""
 
-#: ../../tutorial/modules.rst:62
+#: ../../tutorial/modules.rst:64
 msgid ""
 "If you intend to use a function often you can assign it to a local name::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:64
+#: ../../tutorial/modules.rst:66
 msgid ""
 ">>> fib = fibo.fib\n"
 ">>> fib(500)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 msgstr ""
 
-#: ../../tutorial/modules.rst:72
+#: ../../tutorial/modules.rst:74
 msgid "More on Modules"
 msgstr ""
 
-#: ../../tutorial/modules.rst:74
+#: ../../tutorial/modules.rst:76
 msgid ""
 "A module can contain executable statements as well as function definitions. "
 "These statements are intended to initialize the module. They are executed "
@@ -129,7 +131,7 @@ msgid ""
 "[#]_ (They are also run if the file is executed as a script.)"
 msgstr ""
 
-#: ../../tutorial/modules.rst:79
+#: ../../tutorial/modules.rst:81
 msgid ""
 "Each module has its own private namespace, which is used as the global "
 "namespace by all functions defined in the module. Thus, the author of a "
@@ -139,7 +141,7 @@ msgid ""
 "same notation used to refer to its functions, ``modname.itemname``."
 msgstr ""
 
-#: ../../tutorial/modules.rst:86
+#: ../../tutorial/modules.rst:88
 msgid ""
 "Modules can import other modules.  It is customary but not required to place "
 "all :keyword:`import` statements at the beginning of a module (or script, "
@@ -148,37 +150,37 @@ msgid ""
 "global namespace."
 msgstr ""
 
-#: ../../tutorial/modules.rst:91
+#: ../../tutorial/modules.rst:93
 msgid ""
 "There is a variant of the :keyword:`import` statement that imports names "
 "from a module directly into the importing module's namespace.  For example::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:94
+#: ../../tutorial/modules.rst:96
 msgid ""
 ">>> from fibo import fib, fib2\n"
 ">>> fib(500)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 msgstr ""
 
-#: ../../tutorial/modules.rst:98
+#: ../../tutorial/modules.rst:100
 msgid ""
 "This does not introduce the module name from which the imports are taken in "
 "the local namespace (so in the example, ``fibo`` is not defined)."
 msgstr ""
 
-#: ../../tutorial/modules.rst:101
+#: ../../tutorial/modules.rst:103
 msgid "There is even a variant to import all names that a module defines::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:103
+#: ../../tutorial/modules.rst:105
 msgid ""
 ">>> from fibo import *\n"
 ">>> fib(500)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 msgstr ""
 
-#: ../../tutorial/modules.rst:107
+#: ../../tutorial/modules.rst:109
 msgid ""
 "This imports all names except those beginning with an underscore (``_``). In "
 "most cases Python programmers do not use this facility since it introduces "
@@ -186,45 +188,45 @@ msgid ""
 "you have already defined."
 msgstr ""
 
-#: ../../tutorial/modules.rst:112
+#: ../../tutorial/modules.rst:114
 msgid ""
 "Note that in general the practice of importing ``*`` from a module or "
 "package is frowned upon, since it often causes poorly readable code. "
 "However, it is okay to use it to save typing in interactive sessions."
 msgstr ""
 
-#: ../../tutorial/modules.rst:116
+#: ../../tutorial/modules.rst:118
 msgid ""
 "If the module name is followed by :keyword:`!as`, then the name following :"
 "keyword:`!as` is bound directly to the imported module."
 msgstr ""
 
-#: ../../tutorial/modules.rst:121
+#: ../../tutorial/modules.rst:123
 msgid ""
 ">>> import fibo as fib\n"
 ">>> fib.fib(500)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 msgstr ""
 
-#: ../../tutorial/modules.rst:125
+#: ../../tutorial/modules.rst:127
 msgid ""
 "This is effectively importing the module in the same way that ``import "
 "fibo`` will do, with the only difference of it being available as ``fib``."
 msgstr ""
 
-#: ../../tutorial/modules.rst:128
+#: ../../tutorial/modules.rst:130
 msgid ""
 "It can also be used when utilising :keyword:`from` with similar effects::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:130
+#: ../../tutorial/modules.rst:132
 msgid ""
 ">>> from fibo import fib as fibonacci\n"
 ">>> fibonacci(500)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 msgstr ""
 
-#: ../../tutorial/modules.rst:137
+#: ../../tutorial/modules.rst:139
 msgid ""
 "For efficiency reasons, each module is only imported once per interpreter "
 "session.  Therefore, if you change your modules, you must restart the "
@@ -233,67 +235,67 @@ msgid ""
 "reload(modulename)``."
 msgstr ""
 
-#: ../../tutorial/modules.rst:147
+#: ../../tutorial/modules.rst:149
 msgid "Executing modules as scripts"
 msgstr ""
 
-#: ../../tutorial/modules.rst:149
+#: ../../tutorial/modules.rst:151
 msgid "When you run a Python module with ::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:151
+#: ../../tutorial/modules.rst:153
 msgid "python fibo.py <arguments>"
 msgstr ""
 
-#: ../../tutorial/modules.rst:153
+#: ../../tutorial/modules.rst:155
 msgid ""
 "the code in the module will be executed, just as if you imported it, but "
 "with the ``__name__`` set to ``\"__main__\"``.  That means that by adding "
 "this code at the end of your module::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:157
+#: ../../tutorial/modules.rst:159
 msgid ""
 "if __name__ == \"__main__\":\n"
 "    import sys\n"
 "    fib(int(sys.argv[1]))"
 msgstr ""
 
-#: ../../tutorial/modules.rst:161
+#: ../../tutorial/modules.rst:163
 msgid ""
 "you can make the file usable as a script as well as an importable module, "
 "because the code that parses the command line only runs if the module is "
 "executed as the \"main\" file:"
 msgstr ""
 
-#: ../../tutorial/modules.rst:165
+#: ../../tutorial/modules.rst:167
 msgid ""
 "$ python fibo.py 50\n"
 "0 1 1 2 3 5 8 13 21 34"
 msgstr ""
 
-#: ../../tutorial/modules.rst:170
+#: ../../tutorial/modules.rst:172
 msgid "If the module is imported, the code is not run::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:172
+#: ../../tutorial/modules.rst:174
 msgid ""
 ">>> import fibo\n"
 ">>>"
 msgstr ""
 
-#: ../../tutorial/modules.rst:175
+#: ../../tutorial/modules.rst:177
 msgid ""
 "This is often used either to provide a convenient user interface to a "
 "module, or for testing purposes (running the module as a script executes a "
 "test suite)."
 msgstr ""
 
-#: ../../tutorial/modules.rst:182
+#: ../../tutorial/modules.rst:184
 msgid "The Module Search Path"
 msgstr ""
 
-#: ../../tutorial/modules.rst:186
+#: ../../tutorial/modules.rst:188
 msgid ""
 "When a module named :mod:`!spam` is imported, the interpreter first searches "
 "for a built-in module with that name. These module names are listed in :data:"
@@ -302,36 +304,36 @@ msgid ""
 "path`.  :data:`sys.path` is initialized from these locations:"
 msgstr ""
 
-#: ../../tutorial/modules.rst:192
+#: ../../tutorial/modules.rst:194
 msgid ""
 "The directory containing the input script (or the current directory when no "
 "file is specified)."
 msgstr ""
 
-#: ../../tutorial/modules.rst:194
+#: ../../tutorial/modules.rst:196
 msgid ""
 ":envvar:`PYTHONPATH` (a list of directory names, with the same syntax as the "
 "shell variable :envvar:`PATH`)."
 msgstr ""
 
-#: ../../tutorial/modules.rst:196
+#: ../../tutorial/modules.rst:198
 msgid ""
 "The installation-dependent default (by convention including a ``site-"
 "packages`` directory, handled by the :mod:`site` module)."
 msgstr ""
 
-#: ../../tutorial/modules.rst:199
+#: ../../tutorial/modules.rst:201
 msgid "More details are at :ref:`sys-path-init`."
 msgstr ""
 
-#: ../../tutorial/modules.rst:202
+#: ../../tutorial/modules.rst:204
 msgid ""
 "On file systems which support symlinks, the directory containing the input "
 "script is calculated after the symlink is followed. In other words the "
 "directory containing the symlink is **not** added to the module search path."
 msgstr ""
 
-#: ../../tutorial/modules.rst:206
+#: ../../tutorial/modules.rst:208
 msgid ""
 "After initialization, Python programs can modify :data:`sys.path`.  The "
 "directory containing the script being run is placed at the beginning of the "
@@ -341,11 +343,11 @@ msgid ""
 "section :ref:`tut-standardmodules` for more information."
 msgstr ""
 
-#: ../../tutorial/modules.rst:219
+#: ../../tutorial/modules.rst:221
 msgid "\"Compiled\" Python files"
 msgstr ""
 
-#: ../../tutorial/modules.rst:221
+#: ../../tutorial/modules.rst:223
 msgid ""
 "To speed up loading modules, Python caches the compiled version of each "
 "module in the ``__pycache__`` directory under the name :file:`module."
@@ -356,7 +358,7 @@ msgid ""
 "different releases and different versions of Python to coexist."
 msgstr ""
 
-#: ../../tutorial/modules.rst:229
+#: ../../tutorial/modules.rst:231
 msgid ""
 "Python checks the modification date of the source against the compiled "
 "version to see if it's out of date and needs to be recompiled.  This is a "
@@ -365,7 +367,7 @@ msgid ""
 "architectures."
 msgstr ""
 
-#: ../../tutorial/modules.rst:234
+#: ../../tutorial/modules.rst:236
 msgid ""
 "Python does not check the cache in two circumstances.  First, it always "
 "recompiles and does not store the result for the module that's loaded "
@@ -375,11 +377,11 @@ msgid ""
 "must not be a source module."
 msgstr ""
 
-#: ../../tutorial/modules.rst:241
+#: ../../tutorial/modules.rst:243
 msgid "Some tips for experts:"
 msgstr ""
 
-#: ../../tutorial/modules.rst:243
+#: ../../tutorial/modules.rst:245
 msgid ""
 "You can use the :option:`-O` or :option:`-OO` switches on the Python command "
 "to reduce the size of a compiled module.  The ``-O`` switch removes assert "
@@ -390,30 +392,30 @@ msgid ""
 "the effects of optimization."
 msgstr ""
 
-#: ../../tutorial/modules.rst:251
+#: ../../tutorial/modules.rst:253
 msgid ""
 "A program doesn't run any faster when it is read from a ``.pyc`` file than "
 "when it is read from a ``.py`` file; the only thing that's faster about ``."
 "pyc`` files is the speed with which they are loaded."
 msgstr ""
 
-#: ../../tutorial/modules.rst:255
+#: ../../tutorial/modules.rst:257
 msgid ""
 "The module :mod:`compileall` can create .pyc files for all modules in a "
 "directory."
 msgstr ""
 
-#: ../../tutorial/modules.rst:258
+#: ../../tutorial/modules.rst:260
 msgid ""
 "There is more detail on this process, including a flow chart of the "
 "decisions, in :pep:`3147`."
 msgstr ""
 
-#: ../../tutorial/modules.rst:265
+#: ../../tutorial/modules.rst:267
 msgid "Standard Modules"
 msgstr ""
 
-#: ../../tutorial/modules.rst:269
+#: ../../tutorial/modules.rst:271
 msgid ""
 "Python comes with a library of standard modules, described in a separate "
 "document, the Python Library Reference (\"Library Reference\" hereafter).  "
@@ -428,7 +430,7 @@ msgid ""
 "define the strings used as primary and secondary prompts::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:281
+#: ../../tutorial/modules.rst:283
 msgid ""
 ">>> import sys\n"
 ">>> sys.ps1\n"
@@ -441,13 +443,13 @@ msgid ""
 "C>"
 msgstr ""
 
-#: ../../tutorial/modules.rst:292
+#: ../../tutorial/modules.rst:294
 msgid ""
 "These two variables are only defined if the interpreter is in interactive "
 "mode."
 msgstr ""
 
-#: ../../tutorial/modules.rst:294
+#: ../../tutorial/modules.rst:296
 msgid ""
 "The variable ``sys.path`` is a list of strings that determines the "
 "interpreter's search path for modules. It is initialized to a default path "
@@ -456,23 +458,23 @@ msgid ""
 "standard list operations::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:300
+#: ../../tutorial/modules.rst:302
 msgid ""
 ">>> import sys\n"
 ">>> sys.path.append('/ufs/guido/lib/python')"
 msgstr ""
 
-#: ../../tutorial/modules.rst:307
+#: ../../tutorial/modules.rst:309
 msgid "The :func:`dir` Function"
 msgstr ""
 
-#: ../../tutorial/modules.rst:309
+#: ../../tutorial/modules.rst:311
 msgid ""
 "The built-in function :func:`dir` is used to find out which names a module "
 "defines.  It returns a sorted list of strings::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:312
+#: ../../tutorial/modules.rst:314
 msgid ""
 ">>> import fibo, sys\n"
 ">>> dir(fibo)\n"
@@ -508,12 +510,12 @@ msgid ""
 " 'warnoptions']"
 msgstr ""
 
-#: ../../tutorial/modules.rst:338
+#: ../../tutorial/modules.rst:340
 msgid ""
 "Without arguments, :func:`dir` lists the names you have defined currently::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:340
+#: ../../tutorial/modules.rst:342
 msgid ""
 ">>> a = [1, 2, 3, 4, 5]\n"
 ">>> import fibo\n"
@@ -522,19 +524,19 @@ msgid ""
 "['__builtins__', '__name__', 'a', 'fib', 'fibo', 'sys']"
 msgstr ""
 
-#: ../../tutorial/modules.rst:346
+#: ../../tutorial/modules.rst:348
 msgid ""
 "Note that it lists all types of names: variables, modules, functions, etc."
 msgstr ""
 
-#: ../../tutorial/modules.rst:350
+#: ../../tutorial/modules.rst:352
 msgid ""
 ":func:`dir` does not list the names of built-in functions and variables.  If "
 "you want a list of those, they are defined in the standard module :mod:"
 "`builtins`::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:354
+#: ../../tutorial/modules.rst:356
 msgid ""
 ">>> import builtins\n"
 ">>> dir(builtins)\n"
@@ -570,11 +572,11 @@ msgid ""
 " 'zip']"
 msgstr ""
 
-#: ../../tutorial/modules.rst:389
+#: ../../tutorial/modules.rst:391
 msgid "Packages"
 msgstr ""
 
-#: ../../tutorial/modules.rst:391
+#: ../../tutorial/modules.rst:393
 msgid ""
 "Packages are a way of structuring Python's module namespace by using "
 "\"dotted module names\".  For example, the module name :mod:`!A.B` "
@@ -585,7 +587,7 @@ msgid ""
 "to worry about each other's module names."
 msgstr ""
 
-#: ../../tutorial/modules.rst:399
+#: ../../tutorial/modules.rst:401
 msgid ""
 "Suppose you want to design a collection of modules (a \"package\") for the "
 "uniform handling of sound files and sound data.  There are many different "
@@ -600,7 +602,7 @@ msgid ""
 "terms of a hierarchical filesystem):"
 msgstr ""
 
-#: ../../tutorial/modules.rst:410
+#: ../../tutorial/modules.rst:412
 msgid ""
 "sound/                          Top-level package\n"
 "      __init__.py               Initialize the sound package\n"
@@ -627,13 +629,13 @@ msgid ""
 "              ..."
 msgstr ""
 
-#: ../../tutorial/modules.rst:436
+#: ../../tutorial/modules.rst:438
 msgid ""
 "When importing the package, Python searches through the directories on ``sys."
 "path`` looking for the package subdirectory."
 msgstr ""
 
-#: ../../tutorial/modules.rst:439
+#: ../../tutorial/modules.rst:441
 msgid ""
 "The :file:`__init__.py` files are required to make Python treat directories "
 "containing the file as packages (unless using a :term:`namespace package`, a "
@@ -644,65 +646,65 @@ msgid ""
 "the package or set the ``__all__`` variable, described later."
 msgstr ""
 
-#: ../../tutorial/modules.rst:447
+#: ../../tutorial/modules.rst:449
 msgid ""
 "Users of the package can import individual modules from the package, for "
 "example::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:450
+#: ../../tutorial/modules.rst:452
 msgid "import sound.effects.echo"
 msgstr ""
 
-#: ../../tutorial/modules.rst:452
+#: ../../tutorial/modules.rst:454
 msgid ""
 "This loads the submodule :mod:`!sound.effects.echo`.  It must be referenced "
 "with its full name. ::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:455
+#: ../../tutorial/modules.rst:457
 msgid "sound.effects.echo.echofilter(input, output, delay=0.7, atten=4)"
 msgstr ""
 
-#: ../../tutorial/modules.rst:457
+#: ../../tutorial/modules.rst:459
 msgid "An alternative way of importing the submodule is::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:459
+#: ../../tutorial/modules.rst:461
 msgid "from sound.effects import echo"
 msgstr ""
 
-#: ../../tutorial/modules.rst:461
+#: ../../tutorial/modules.rst:463
 msgid ""
 "This also loads the submodule :mod:`!echo`, and makes it available without "
 "its package prefix, so it can be used as follows::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:464
+#: ../../tutorial/modules.rst:466
 msgid "echo.echofilter(input, output, delay=0.7, atten=4)"
 msgstr ""
 
-#: ../../tutorial/modules.rst:466
+#: ../../tutorial/modules.rst:468
 msgid ""
 "Yet another variation is to import the desired function or variable "
 "directly::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:468
+#: ../../tutorial/modules.rst:470
 msgid "from sound.effects.echo import echofilter"
 msgstr ""
 
-#: ../../tutorial/modules.rst:470
+#: ../../tutorial/modules.rst:472
 msgid ""
 "Again, this loads the submodule :mod:`!echo`, but this makes its function :"
 "func:`!echofilter` directly available::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:473
+#: ../../tutorial/modules.rst:475
 msgid "echofilter(input, output, delay=0.7, atten=4)"
 msgstr ""
 
-#: ../../tutorial/modules.rst:475
+#: ../../tutorial/modules.rst:477
 msgid ""
 "Note that when using ``from package import item``, the item can be either a "
 "submodule (or subpackage) of the package, or some  other name defined in the "
@@ -712,7 +714,7 @@ msgid ""
 "`ImportError` exception is raised."
 msgstr ""
 
-#: ../../tutorial/modules.rst:482
+#: ../../tutorial/modules.rst:484
 msgid ""
 "Contrarily, when using syntax like ``import item.subitem.subsubitem``, each "
 "item except for the last must be a package; the last item can be a module or "
@@ -720,11 +722,11 @@ msgid ""
 "previous item."
 msgstr ""
 
-#: ../../tutorial/modules.rst:491
+#: ../../tutorial/modules.rst:493
 msgid "Importing \\* From a Package"
 msgstr ""
 
-#: ../../tutorial/modules.rst:495
+#: ../../tutorial/modules.rst:497
 msgid ""
 "Now what happens when the user writes ``from sound.effects import *``?  "
 "Ideally, one would hope that this somehow goes out to the filesystem, finds "
@@ -733,7 +735,7 @@ msgid ""
 "effects that should only happen when the sub-module is explicitly imported."
 msgstr ""
 
-#: ../../tutorial/modules.rst:501
+#: ../../tutorial/modules.rst:503
 msgid ""
 "The only solution is for the package author to provide an explicit index of "
 "the package.  The :keyword:`import` statement uses the following convention: "
@@ -746,17 +748,17 @@ msgid ""
 "effects/__init__.py` could contain the following code::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:511
+#: ../../tutorial/modules.rst:513
 msgid "__all__ = [\"echo\", \"surround\", \"reverse\"]"
 msgstr ""
 
-#: ../../tutorial/modules.rst:513
+#: ../../tutorial/modules.rst:515
 msgid ""
 "This would mean that ``from sound.effects import *`` would import the three "
 "named submodules of the :mod:`!sound.effects` package."
 msgstr ""
 
-#: ../../tutorial/modules.rst:516
+#: ../../tutorial/modules.rst:518
 msgid ""
 "Be aware that submodules might become shadowed by locally defined names. For "
 "example, if you added a ``reverse`` function to the :file:`sound/effects/"
@@ -766,7 +768,7 @@ msgid ""
 "function::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:523
+#: ../../tutorial/modules.rst:525
 msgid ""
 "__all__ = [\n"
 "    \"echo\",      # refers to the 'echo.py' file\n"
@@ -778,7 +780,7 @@ msgid ""
 "    return msg[::-1]    #     in the case of a 'from sound.effects import *'"
 msgstr ""
 
-#: ../../tutorial/modules.rst:532
+#: ../../tutorial/modules.rst:534
 msgid ""
 "If ``__all__`` is not defined, the statement ``from sound.effects import *`` "
 "does *not* import all submodules from the package :mod:`!sound.effects` into "
@@ -791,14 +793,14 @@ msgid ""
 "this code::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:541
+#: ../../tutorial/modules.rst:543
 msgid ""
 "import sound.effects.echo\n"
 "import sound.effects.surround\n"
 "from sound.effects import *"
 msgstr ""
 
-#: ../../tutorial/modules.rst:545
+#: ../../tutorial/modules.rst:547
 msgid ""
 "In this example, the :mod:`!echo` and :mod:`!surround` modules are imported "
 "in the current namespace because they are defined in the :mod:`!sound."
@@ -806,14 +808,14 @@ msgid ""
 "also works when ``__all__`` is defined.)"
 msgstr ""
 
-#: ../../tutorial/modules.rst:550
+#: ../../tutorial/modules.rst:552
 msgid ""
 "Although certain modules are designed to export only names that follow "
 "certain patterns when you use ``import *``, it is still considered bad "
 "practice in production code."
 msgstr ""
 
-#: ../../tutorial/modules.rst:554
+#: ../../tutorial/modules.rst:556
 msgid ""
 "Remember, there is nothing wrong with using ``from package import "
 "specific_submodule``!  In fact, this is the recommended notation unless the "
@@ -821,11 +823,11 @@ msgid ""
 "packages."
 msgstr ""
 
-#: ../../tutorial/modules.rst:563
+#: ../../tutorial/modules.rst:565
 msgid "Intra-package References"
 msgstr ""
 
-#: ../../tutorial/modules.rst:565
+#: ../../tutorial/modules.rst:567
 msgid ""
 "When packages are structured into subpackages (as with the :mod:`!sound` "
 "package in the example), you can use absolute imports to refer to submodules "
@@ -834,7 +836,7 @@ msgid ""
 "package, it can use ``from sound.effects import echo``."
 msgstr ""
 
-#: ../../tutorial/modules.rst:571
+#: ../../tutorial/modules.rst:573
 msgid ""
 "You can also write relative imports, with the ``from module import name`` "
 "form of import statement.  These imports use leading dots to indicate the "
@@ -842,14 +844,14 @@ msgid ""
 "`!surround` module for example, you might use::"
 msgstr ""
 
-#: ../../tutorial/modules.rst:576
+#: ../../tutorial/modules.rst:578
 msgid ""
 "from . import echo\n"
 "from .. import formats\n"
 "from ..filters import equalizer"
 msgstr ""
 
-#: ../../tutorial/modules.rst:580
+#: ../../tutorial/modules.rst:582
 msgid ""
 "Note that relative imports are based on the name of the current module.  "
 "Since the name of the main module is always ``\"__main__\"``, modules "
@@ -857,11 +859,11 @@ msgid ""
 "absolute imports."
 msgstr ""
 
-#: ../../tutorial/modules.rst:586
+#: ../../tutorial/modules.rst:588
 msgid "Packages in Multiple Directories"
 msgstr ""
 
-#: ../../tutorial/modules.rst:588
+#: ../../tutorial/modules.rst:590
 msgid ""
 "Packages support one more special attribute, :attr:`~module.__path__`.  This "
 "is initialized to be a :term:`sequence` of strings containing the name of "
@@ -870,44 +872,44 @@ msgid ""
 "future searches for modules and subpackages contained in the package."
 msgstr ""
 
-#: ../../tutorial/modules.rst:595
+#: ../../tutorial/modules.rst:597
 msgid ""
 "While this feature is not often needed, it can be used to extend the set of "
 "modules found in a package."
 msgstr ""
 
-#: ../../tutorial/modules.rst:600
+#: ../../tutorial/modules.rst:602
 msgid "Footnotes"
 msgstr ""
 
-#: ../../tutorial/modules.rst:601
+#: ../../tutorial/modules.rst:603
 msgid ""
 "In fact function definitions are also 'statements' that are 'executed'; the "
 "execution of a module-level function definition adds the function name to "
 "the module's global namespace."
 msgstr ""
 
-#: ../../tutorial/modules.rst:184 ../../tutorial/modules.rst:267
-#: ../../tutorial/modules.rst:348
+#: ../../tutorial/modules.rst:186 ../../tutorial/modules.rst:269
+#: ../../tutorial/modules.rst:350
 msgid "module"
 msgstr ""
 
-#: ../../tutorial/modules.rst:184
+#: ../../tutorial/modules.rst:186
 msgid "search"
 msgstr ""
 
-#: ../../tutorial/modules.rst:184
+#: ../../tutorial/modules.rst:186
 msgid "path"
 msgstr ""
 
-#: ../../tutorial/modules.rst:267
+#: ../../tutorial/modules.rst:269
 msgid "sys"
 msgstr ""
 
-#: ../../tutorial/modules.rst:348
+#: ../../tutorial/modules.rst:350
 msgid "builtins"
 msgstr ""
 
-#: ../../tutorial/modules.rst:493
+#: ../../tutorial/modules.rst:495
 msgid "__all__"
 msgstr ""
