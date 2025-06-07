@@ -1,17 +1,18 @@
 | User | Role | Translated Count | Reviewed Count | Proofread Count |
 |:-----|:------:|:------------------:|:-------------------:|:----------------------:|
-| Revisto | coordinator | 4000 | 30 (+3) | 0 |
+| Revisto | coordinator | 3985 | 30 | 0 |
 | danialbehzadi | reviewer | 741 | 5 | 0 |
-| khosro_o | reviewer | 47 (+4) | 58 (+5) | 0 |
+| khosro_o | reviewer | 63 (+16) | 87 (+29) | 0 |
 | Ramiz_222 | reviewer | 10 | 82 | 0 |
 | ParhamF | translator | 41 | 0 | 0 |
 | Ariyan_Bolandi | reviewer | 37 | 4 | 0 |
 | mdflx | reviewer | 1 | 30 | 0 |
-| aimer.hs872 | reviewer | 9 | 18 | 0 |
+| aimer.hs872 | reviewer | 8 | 18 | 0 |
 | nikovinix7878 | translator | 13 | 0 | 0 |
 | thaghgoo | translator | 12 | 0 | 0 |
-| arfa79lg | translator | 7 | 0 | 0 |
+| arfa79lg | translator | 6 | 0 | 0 |
 | naweex | translator | 2 | 0 | 0 |
+| pangominn | translator | 2 | 0 | 0 |
 | ashykng | translator | 1 | 0 | 0 |
 | aryasadeghy | translator | 0 | 0 | 0 |
 | pouya.abbassi | translator | 0 | 0 | 0 |
