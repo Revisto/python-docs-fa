@@ -16,14 +16,14 @@
 | tutorial/floatingpoint.po | 100.0% | 0.0% | 0.0% |
 | tutorial/whatnow.po | 100.0% | 0.0% | 0.0% |
 | tutorial/venv.po | 99.9% | 0.0% | 0.0% |
-| tutorial/introduction.po | 98.7% | 0.0% | 0.0% |
 | tutorial/modules.po | 98.3% | 0.0% | 0.0% |
 | tutorial/stdlib.po | 97.7% | 0.0% | 0.0% |
+| tutorial/introduction.po | 97.5% | 0.0% | 0.0% |
 | tutorial/interpreter.po | 97.4% | 0.0% | 0.0% |
 | tutorial/controlflow.po | 97.0% | 0.0% | 0.0% |
 | tutorial/inputoutput.po | 96.8% | 0.0% | 0.0% |
 | tutorial/stdlib2.po | 94.3% | 0.0% | 0.0% |
-| library/stdtypes.po | 93.6% | 0.0% | 0.0% |
+| library/stdtypes.po | 93.0% | 0.0% | 0.0% |
 | tutorial/interactive.po | 77.2% | 0.0% | 0.0% |
 | c-api/apiabiversion.po | 58.4% | 0.0% | 0.0% |
 | extending/newtypes_tutorial.po | 4.6% | 0.0% | 0.0% |
@@ -86,6 +86,7 @@
 | library/pprint.po | 0.5% | 0.0% | 0.0% |
 | reference/datamodel.po | 0.5% | 0.0% | 0.0% |
 | using/unix.po | 0.5% | 0.0% | 0.0% |
+| library/concurrent_interpreters.po | 0.5% | 0.0% | 0.0% |
 | c-api/buffer.po | 0.4% | 0.0% | 0.0% |
 | c-api/file.po | 0.4% | 0.0% | 0.0% |
 | howto/curses.po | 0.4% | 0.0% | 0.0% |
