@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"POT-Creation-Date: 2025-06-13 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 00:48+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -1058,459 +1058,467 @@ msgid ""
 "all the variables:"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1040 ../../c-api/exceptions.rst:1175
-#: ../../c-api/exceptions.rst:1220
+#: ../../c-api/exceptions.rst:1041 ../../c-api/exceptions.rst:1181
+#: ../../c-api/exceptions.rst:1227
 msgid "C Name"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1040 ../../c-api/exceptions.rst:1220
+#: ../../c-api/exceptions.rst:1041 ../../c-api/exceptions.rst:1227
 msgid "Python Name"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1040 ../../c-api/exceptions.rst:1175
-#: ../../c-api/exceptions.rst:1220
+#: ../../c-api/exceptions.rst:1041 ../../c-api/exceptions.rst:1181
+#: ../../c-api/exceptions.rst:1227
 msgid "Notes"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1042
+#: ../../c-api/exceptions.rst:1043
 msgid ":c:data:`PyExc_BaseException`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1042
+#: ../../c-api/exceptions.rst:1043
 msgid ":exc:`BaseException`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1042 ../../c-api/exceptions.rst:1044
-#: ../../c-api/exceptions.rst:1046 ../../c-api/exceptions.rst:1092
-#: ../../c-api/exceptions.rst:1104
+#: ../../c-api/exceptions.rst:1043 ../../c-api/exceptions.rst:1045
+#: ../../c-api/exceptions.rst:1047 ../../c-api/exceptions.rst:1049
+#: ../../c-api/exceptions.rst:1095 ../../c-api/exceptions.rst:1107
 msgid "[1]_"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1044
+#: ../../c-api/exceptions.rst:1045
+msgid ":c:data:`PyExc_BaseExceptionGroup`"
+msgstr ""
+
+#: ../../c-api/exceptions.rst:1045
+msgid ":exc:`BaseExceptionGroup`"
+msgstr ""
+
+#: ../../c-api/exceptions.rst:1047
 msgid ":c:data:`PyExc_Exception`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1044
+#: ../../c-api/exceptions.rst:1047
 msgid ":exc:`Exception`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1046
+#: ../../c-api/exceptions.rst:1049
 msgid ":c:data:`PyExc_ArithmeticError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1046
+#: ../../c-api/exceptions.rst:1049
 msgid ":exc:`ArithmeticError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1048
+#: ../../c-api/exceptions.rst:1051
 msgid ":c:data:`PyExc_AssertionError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1048
+#: ../../c-api/exceptions.rst:1051
 msgid ":exc:`AssertionError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1050
+#: ../../c-api/exceptions.rst:1053
 msgid ":c:data:`PyExc_AttributeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1050
+#: ../../c-api/exceptions.rst:1053
 msgid ":exc:`AttributeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1052
+#: ../../c-api/exceptions.rst:1055
 msgid ":c:data:`PyExc_BlockingIOError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1052
+#: ../../c-api/exceptions.rst:1055
 msgid ":exc:`BlockingIOError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1054
+#: ../../c-api/exceptions.rst:1057
 msgid ":c:data:`PyExc_BrokenPipeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1054
+#: ../../c-api/exceptions.rst:1057
 msgid ":exc:`BrokenPipeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1056
+#: ../../c-api/exceptions.rst:1059
 msgid ":c:data:`PyExc_BufferError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1056
+#: ../../c-api/exceptions.rst:1059
 msgid ":exc:`BufferError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1058
+#: ../../c-api/exceptions.rst:1061
 msgid ":c:data:`PyExc_ChildProcessError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1058
+#: ../../c-api/exceptions.rst:1061
 msgid ":exc:`ChildProcessError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1060
+#: ../../c-api/exceptions.rst:1063
 msgid ":c:data:`PyExc_ConnectionAbortedError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1060
+#: ../../c-api/exceptions.rst:1063
 msgid ":exc:`ConnectionAbortedError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1062
+#: ../../c-api/exceptions.rst:1065
 msgid ":c:data:`PyExc_ConnectionError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1062
+#: ../../c-api/exceptions.rst:1065
 msgid ":exc:`ConnectionError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1064
+#: ../../c-api/exceptions.rst:1067
 msgid ":c:data:`PyExc_ConnectionRefusedError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1064
+#: ../../c-api/exceptions.rst:1067
 msgid ":exc:`ConnectionRefusedError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1066
+#: ../../c-api/exceptions.rst:1069
 msgid ":c:data:`PyExc_ConnectionResetError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1066
+#: ../../c-api/exceptions.rst:1069
 msgid ":exc:`ConnectionResetError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1068
+#: ../../c-api/exceptions.rst:1071
 msgid ":c:data:`PyExc_EOFError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1068
+#: ../../c-api/exceptions.rst:1071
 msgid ":exc:`EOFError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1070
+#: ../../c-api/exceptions.rst:1073
 msgid ":c:data:`PyExc_FileExistsError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1070
+#: ../../c-api/exceptions.rst:1073
 msgid ":exc:`FileExistsError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1072
+#: ../../c-api/exceptions.rst:1075
 msgid ":c:data:`PyExc_FileNotFoundError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1072
+#: ../../c-api/exceptions.rst:1075
 msgid ":exc:`FileNotFoundError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1074
+#: ../../c-api/exceptions.rst:1077
 msgid ":c:data:`PyExc_FloatingPointError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1074
+#: ../../c-api/exceptions.rst:1077
 msgid ":exc:`FloatingPointError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1076
+#: ../../c-api/exceptions.rst:1079
 msgid ":c:data:`PyExc_GeneratorExit`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1076
+#: ../../c-api/exceptions.rst:1079
 msgid ":exc:`GeneratorExit`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1078
+#: ../../c-api/exceptions.rst:1081
 msgid ":c:data:`PyExc_ImportError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1078
+#: ../../c-api/exceptions.rst:1081
 msgid ":exc:`ImportError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1080
+#: ../../c-api/exceptions.rst:1083
 msgid ":c:data:`PyExc_IndentationError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1080
+#: ../../c-api/exceptions.rst:1083
 msgid ":exc:`IndentationError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1082
+#: ../../c-api/exceptions.rst:1085
 msgid ":c:data:`PyExc_IndexError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1082
+#: ../../c-api/exceptions.rst:1085
 msgid ":exc:`IndexError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1084
+#: ../../c-api/exceptions.rst:1087
 msgid ":c:data:`PyExc_InterruptedError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1084
+#: ../../c-api/exceptions.rst:1087
 msgid ":exc:`InterruptedError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1086
+#: ../../c-api/exceptions.rst:1089
 msgid ":c:data:`PyExc_IsADirectoryError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1086
+#: ../../c-api/exceptions.rst:1089
 msgid ":exc:`IsADirectoryError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1088
+#: ../../c-api/exceptions.rst:1091
 msgid ":c:data:`PyExc_KeyError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1088
+#: ../../c-api/exceptions.rst:1091
 msgid ":exc:`KeyError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1090
+#: ../../c-api/exceptions.rst:1093
 msgid ":c:data:`PyExc_KeyboardInterrupt`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1090
+#: ../../c-api/exceptions.rst:1093
 msgid ":exc:`KeyboardInterrupt`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1092
+#: ../../c-api/exceptions.rst:1095
 msgid ":c:data:`PyExc_LookupError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1092
+#: ../../c-api/exceptions.rst:1095
 msgid ":exc:`LookupError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1094
+#: ../../c-api/exceptions.rst:1097
 msgid ":c:data:`PyExc_MemoryError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1094
+#: ../../c-api/exceptions.rst:1097
 msgid ":exc:`MemoryError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1096
+#: ../../c-api/exceptions.rst:1099
 msgid ":c:data:`PyExc_ModuleNotFoundError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1096
+#: ../../c-api/exceptions.rst:1099
 msgid ":exc:`ModuleNotFoundError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1098
+#: ../../c-api/exceptions.rst:1101
 msgid ":c:data:`PyExc_NameError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1098
+#: ../../c-api/exceptions.rst:1101
 msgid ":exc:`NameError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1100
+#: ../../c-api/exceptions.rst:1103
 msgid ":c:data:`PyExc_NotADirectoryError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1100
+#: ../../c-api/exceptions.rst:1103
 msgid ":exc:`NotADirectoryError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1102
+#: ../../c-api/exceptions.rst:1105
 msgid ":c:data:`PyExc_NotImplementedError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1102
+#: ../../c-api/exceptions.rst:1105
 msgid ":exc:`NotImplementedError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1104
+#: ../../c-api/exceptions.rst:1107
 msgid ":c:data:`PyExc_OSError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1104
+#: ../../c-api/exceptions.rst:1107
 msgid ":exc:`OSError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1106
+#: ../../c-api/exceptions.rst:1109
 msgid ":c:data:`PyExc_OverflowError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1106
+#: ../../c-api/exceptions.rst:1109
 msgid ":exc:`OverflowError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1108
+#: ../../c-api/exceptions.rst:1111
 msgid ":c:data:`PyExc_PermissionError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1108
+#: ../../c-api/exceptions.rst:1111
 msgid ":exc:`PermissionError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1110
+#: ../../c-api/exceptions.rst:1113
 msgid ":c:data:`PyExc_ProcessLookupError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1110
+#: ../../c-api/exceptions.rst:1113
 msgid ":exc:`ProcessLookupError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1112
+#: ../../c-api/exceptions.rst:1115
 msgid ":c:data:`PyExc_PythonFinalizationError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1112
+#: ../../c-api/exceptions.rst:1115
 msgid ":exc:`PythonFinalizationError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1114
+#: ../../c-api/exceptions.rst:1117
 msgid ":c:data:`PyExc_RecursionError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1114
+#: ../../c-api/exceptions.rst:1117
 msgid ":exc:`RecursionError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1116
+#: ../../c-api/exceptions.rst:1119
 msgid ":c:data:`PyExc_ReferenceError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1116
+#: ../../c-api/exceptions.rst:1119
 msgid ":exc:`ReferenceError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1118
+#: ../../c-api/exceptions.rst:1121
 msgid ":c:data:`PyExc_RuntimeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1118
+#: ../../c-api/exceptions.rst:1121
 msgid ":exc:`RuntimeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1120
+#: ../../c-api/exceptions.rst:1123
 msgid ":c:data:`PyExc_StopAsyncIteration`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1120
+#: ../../c-api/exceptions.rst:1123
 msgid ":exc:`StopAsyncIteration`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1122
+#: ../../c-api/exceptions.rst:1125
 msgid ":c:data:`PyExc_StopIteration`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1122
+#: ../../c-api/exceptions.rst:1125
 msgid ":exc:`StopIteration`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1124
+#: ../../c-api/exceptions.rst:1127
 msgid ":c:data:`PyExc_SyntaxError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1124
+#: ../../c-api/exceptions.rst:1127
 msgid ":exc:`SyntaxError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1126
+#: ../../c-api/exceptions.rst:1129
 msgid ":c:data:`PyExc_SystemError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1126
+#: ../../c-api/exceptions.rst:1129
 msgid ":exc:`SystemError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1128
+#: ../../c-api/exceptions.rst:1131
 msgid ":c:data:`PyExc_SystemExit`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1128
+#: ../../c-api/exceptions.rst:1131
 msgid ":exc:`SystemExit`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1130
+#: ../../c-api/exceptions.rst:1133
 msgid ":c:data:`PyExc_TabError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1130
+#: ../../c-api/exceptions.rst:1133
 msgid ":exc:`TabError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1132
+#: ../../c-api/exceptions.rst:1135
 msgid ":c:data:`PyExc_TimeoutError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1132
+#: ../../c-api/exceptions.rst:1135
 msgid ":exc:`TimeoutError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1134
+#: ../../c-api/exceptions.rst:1137
 msgid ":c:data:`PyExc_TypeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1134
+#: ../../c-api/exceptions.rst:1137
 msgid ":exc:`TypeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1136
+#: ../../c-api/exceptions.rst:1139
 msgid ":c:data:`PyExc_UnboundLocalError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1136
+#: ../../c-api/exceptions.rst:1139
 msgid ":exc:`UnboundLocalError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1138
+#: ../../c-api/exceptions.rst:1141
 msgid ":c:data:`PyExc_UnicodeDecodeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1138
+#: ../../c-api/exceptions.rst:1141
 msgid ":exc:`UnicodeDecodeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1140
+#: ../../c-api/exceptions.rst:1143
 msgid ":c:data:`PyExc_UnicodeEncodeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1140
+#: ../../c-api/exceptions.rst:1143
 msgid ":exc:`UnicodeEncodeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1142
+#: ../../c-api/exceptions.rst:1145
 msgid ":c:data:`PyExc_UnicodeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1142
+#: ../../c-api/exceptions.rst:1145
 msgid ":exc:`UnicodeError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1144
+#: ../../c-api/exceptions.rst:1147
 msgid ":c:data:`PyExc_UnicodeTranslateError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1144
+#: ../../c-api/exceptions.rst:1147
 msgid ":exc:`UnicodeTranslateError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1146
+#: ../../c-api/exceptions.rst:1149
 msgid ":c:data:`PyExc_ValueError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1146
+#: ../../c-api/exceptions.rst:1149
 msgid ":exc:`ValueError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1148
+#: ../../c-api/exceptions.rst:1151
 msgid ":c:data:`PyExc_ZeroDivisionError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1148
+#: ../../c-api/exceptions.rst:1151
 msgid ":exc:`ZeroDivisionError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1151
+#: ../../c-api/exceptions.rst:1154
 msgid ""
 ":c:data:`PyExc_BlockingIOError`, :c:data:`PyExc_BrokenPipeError`, :c:data:"
 "`PyExc_ChildProcessError`, :c:data:`PyExc_ConnectionError`, :c:data:"
@@ -1522,57 +1530,61 @@ msgid ""
 "`PyExc_TimeoutError` were introduced following :pep:`3151`."
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1161
+#: ../../c-api/exceptions.rst:1164
 msgid ":c:data:`PyExc_StopAsyncIteration` and :c:data:`PyExc_RecursionError`."
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1164
+#: ../../c-api/exceptions.rst:1167
 msgid ":c:data:`PyExc_ModuleNotFoundError`."
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1167
+#: ../../c-api/exceptions.rst:1170
+msgid ":c:data:`PyExc_BaseExceptionGroup`."
+msgstr ""
+
+#: ../../c-api/exceptions.rst:1173
 msgid "These are compatibility aliases to :c:data:`PyExc_OSError`:"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1177
+#: ../../c-api/exceptions.rst:1183
 msgid ":c:data:`!PyExc_EnvironmentError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1179
+#: ../../c-api/exceptions.rst:1185
 msgid ":c:data:`!PyExc_IOError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1181
+#: ../../c-api/exceptions.rst:1187
 msgid ":c:data:`!PyExc_WindowsError`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1181
+#: ../../c-api/exceptions.rst:1187
 msgid "[2]_"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1184
+#: ../../c-api/exceptions.rst:1190
 msgid "These aliases used to be separate exception types."
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1187 ../../c-api/exceptions.rst:1248
+#: ../../c-api/exceptions.rst:1193 ../../c-api/exceptions.rst:1260
 msgid "Notes:"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1190
+#: ../../c-api/exceptions.rst:1196
 msgid "This is a base class for other standard exceptions."
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1193
+#: ../../c-api/exceptions.rst:1199
 msgid ""
 "Only defined on Windows; protect code that uses this by testing that the "
 "preprocessor macro ``MS_WINDOWS`` is defined."
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1199
+#: ../../c-api/exceptions.rst:1205
 msgid "Standard Warning Categories"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1201
+#: ../../c-api/exceptions.rst:1207
 msgid ""
 "All standard Python warning categories are available as global variables "
 "whose names are ``PyExc_`` followed by the Python exception name. These have "
@@ -1580,103 +1592,115 @@ msgid ""
 "here are all the variables:"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1222
+#: ../../c-api/exceptions.rst:1229
 msgid ":c:data:`PyExc_Warning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1222
+#: ../../c-api/exceptions.rst:1229
 msgid ":exc:`Warning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1222
+#: ../../c-api/exceptions.rst:1229
 msgid "[3]_"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1224
+#: ../../c-api/exceptions.rst:1231
 msgid ":c:data:`PyExc_BytesWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1224
+#: ../../c-api/exceptions.rst:1231
 msgid ":exc:`BytesWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1226
+#: ../../c-api/exceptions.rst:1233
 msgid ":c:data:`PyExc_DeprecationWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1226
+#: ../../c-api/exceptions.rst:1233
 msgid ":exc:`DeprecationWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1228
+#: ../../c-api/exceptions.rst:1235
+msgid ":c:data:`PyExc_EncodingWarning`"
+msgstr ""
+
+#: ../../c-api/exceptions.rst:1235
+msgid ":exc:`EncodingWarning`"
+msgstr ""
+
+#: ../../c-api/exceptions.rst:1237
 msgid ":c:data:`PyExc_FutureWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1228
+#: ../../c-api/exceptions.rst:1237
 msgid ":exc:`FutureWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1230
+#: ../../c-api/exceptions.rst:1239
 msgid ":c:data:`PyExc_ImportWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1230
+#: ../../c-api/exceptions.rst:1239
 msgid ":exc:`ImportWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1232
+#: ../../c-api/exceptions.rst:1241
 msgid ":c:data:`PyExc_PendingDeprecationWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1232
+#: ../../c-api/exceptions.rst:1241
 msgid ":exc:`PendingDeprecationWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1234
+#: ../../c-api/exceptions.rst:1243
 msgid ":c:data:`PyExc_ResourceWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1234
+#: ../../c-api/exceptions.rst:1243
 msgid ":exc:`ResourceWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1236
+#: ../../c-api/exceptions.rst:1245
 msgid ":c:data:`PyExc_RuntimeWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1236
+#: ../../c-api/exceptions.rst:1245
 msgid ":exc:`RuntimeWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1238
+#: ../../c-api/exceptions.rst:1247
 msgid ":c:data:`PyExc_SyntaxWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1238
+#: ../../c-api/exceptions.rst:1247
 msgid ":exc:`SyntaxWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1240
+#: ../../c-api/exceptions.rst:1249
 msgid ":c:data:`PyExc_UnicodeWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1240
+#: ../../c-api/exceptions.rst:1249
 msgid ":exc:`UnicodeWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1242
+#: ../../c-api/exceptions.rst:1251
 msgid ":c:data:`PyExc_UserWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1242
+#: ../../c-api/exceptions.rst:1251
 msgid ":exc:`UserWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1245
+#: ../../c-api/exceptions.rst:1254
 msgid ":c:data:`PyExc_ResourceWarning`."
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1251
+#: ../../c-api/exceptions.rst:1257
+msgid ":c:data:`PyExc_EncodingWarning`."
+msgstr ""
+
+#: ../../c-api/exceptions.rst:1263
 msgid "This is a base class for other standard warning categories."
 msgstr ""
 
@@ -1705,6 +1729,10 @@ msgstr ""
 
 #: ../../c-api/exceptions.rst:983
 msgid "PyExc_BaseException (C var)"
+msgstr ""
+
+#: ../../c-api/exceptions.rst:983
+msgid "PyExc_BaseExceptionGroup (C var)"
 msgstr ""
 
 #: ../../c-api/exceptions.rst:983
@@ -1919,58 +1947,62 @@ msgstr ""
 msgid "PyExc_ZeroDivisionError (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1169
+#: ../../c-api/exceptions.rst:1175
 msgid "PyExc_EnvironmentError (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1169
+#: ../../c-api/exceptions.rst:1175
 msgid "PyExc_IOError (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1169
+#: ../../c-api/exceptions.rst:1175
 msgid "PyExc_WindowsError (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_Warning (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_BytesWarning (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_DeprecationWarning (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
+msgid "PyExc_EncodingWarning (C var)"
+msgstr ""
+
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_FutureWarning (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_ImportWarning (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_PendingDeprecationWarning (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_ResourceWarning (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_RuntimeWarning (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_SyntaxWarning (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_UnicodeWarning (C var)"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1206
+#: ../../c-api/exceptions.rst:1212
 msgid "PyExc_UserWarning (C var)"
 msgstr ""
