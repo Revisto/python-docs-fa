@@ -23,7 +23,7 @@
 | tutorial/controlflow.po | 97.0% | 0.0% | 0.0% |
 | tutorial/inputoutput.po | 96.8% | 0.0% | 0.0% |
 | tutorial/stdlib2.po | 94.3% | 0.0% | 0.0% |
-| library/stdtypes.po | 93.0% | 0.0% | 0.0% |
+| library/stdtypes.po | 92.3% | 0.0% | 0.0% |
 | tutorial/interactive.po | 77.2% | 0.0% | 0.0% |
 | c-api/apiabiversion.po | 58.4% | 0.0% | 0.0% |
 | extending/newtypes_tutorial.po | 4.6% | 0.0% | 0.0% |
@@ -68,7 +68,6 @@
 | library/curses_ascii.po | 0.7% | 0.0% | 0.0% |
 | library/site.po | 0.7% | 0.0% | 0.0% |
 | library/types.po | 0.7% | 0.0% | 0.0% |
-| reference/lexical_analysis.po | 0.7% | 0.0% | 0.0% |
 | c-api/init_config.po | 0.6% | 0.0% | 0.0% |
 | c-api/typeobj.po | 0.6% | 0.0% | 0.0% |
 | library/asyncio-exceptions.po | 0.6% | 0.0% | 0.0% |
@@ -76,6 +75,7 @@
 | library/termios.po | 0.6% | 0.0% | 0.0% |
 | library/webbrowser.po | 0.6% | 0.0% | 0.0% |
 | reference/compound_stmts.po | 0.6% | 0.0% | 0.0% |
+| reference/lexical_analysis.po | 0.6% | 0.0% | 0.0% |
 | c-api/code.po | 0.5% | 0.0% | 0.0% |
 | c-api/complex.po | 0.5% | 0.0% | 0.0% |
 | c-api/sequence.po | 0.5% | 0.0% | 0.0% |
@@ -519,3 +519,4 @@
 | library/asyncio-graph.po | 0.0% | 0.0% | 0.0% |
 | whatsnew/3_14.po | 0.0% | 0.0% | 0.0% |
 | library/compression.po | 0.0% | 0.0% | 0.0% |
+| c-api/extension-modules.po | 0.0% | 0.0% | 0.0% |
