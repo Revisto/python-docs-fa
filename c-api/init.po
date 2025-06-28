@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-13 14:21+0000\n"
+"POT-Creation-Date: 2025-06-27 14:20+0000\n"
 "PO-Revision-Date: 2021-06-28 00:49+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -1774,7 +1774,7 @@ msgstr ""
 #: ../../c-api/init.rst:1416
 msgid ""
 "Reset all information in an interpreter state object.  There must be an :"
-"term:`attached thread state` for the the interpreter."
+"term:`attached thread state` for the interpreter."
 msgstr ""
 
 #: ../../c-api/init.rst:1419

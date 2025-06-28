@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-20 14:21+0000\n"
+"POT-Creation-Date: 2025-06-27 14:20+0000\n"
 "PO-Revision-Date: 2021-06-28 01:10+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -40,26 +40,31 @@ msgid ""
 "user's home directory -- as determined by :func:`os.path.expanduser` -- will "
 "be read.  Otherwise, a :exc:`FileNotFoundError` exception will be raised. "
 "Parse errors will raise :exc:`NetrcParseError` with diagnostic information "
-"including the file name, line number, and terminating token. If no argument "
-"is specified on a POSIX system, the presence of passwords in the :file:`."
-"netrc` file will raise a :exc:`NetrcParseError` if the file ownership or "
-"permissions are insecure (owned by a user other than the user running the "
-"process, or accessible for read or write by any other user). This implements "
-"security behavior equivalent to that of ftp and other programs that use :"
-"file:`.netrc`."
+"including the file name, line number, and terminating token."
 msgstr ""
 
-#: ../../library/netrc.rst:34
-msgid "Added the POSIX permission check."
+#: ../../library/netrc.rst:28
+msgid ""
+"If no argument is specified on a POSIX system, the presence of passwords in "
+"the :file:`.netrc` file will raise a :exc:`NetrcParseError` if the file "
+"ownership or permissions are insecure (owned by a user other than the user "
+"running the process, or accessible for read or write by any other user). "
+"This implements security behavior equivalent to that of ftp and other "
+"programs that use :file:`.netrc`. Such security checks are not available on "
+"platforms that do not support :func:`os.getuid`."
 msgstr ""
 
 #: ../../library/netrc.rst:36
+msgid "Added the POSIX permission check."
+msgstr ""
+
+#: ../../library/netrc.rst:38
 msgid ""
 ":func:`os.path.expanduser` is used to find the location of the :file:`."
 "netrc` file when *file* is not passed as argument."
 msgstr ""
 
-#: ../../library/netrc.rst:40
+#: ../../library/netrc.rst:42
 msgid ""
 ":class:`netrc` try UTF-8 encoding before using locale specific encoding. The "
 "entry in the netrc file no longer needs to contain all tokens.  The missing "
@@ -69,34 +74,34 @@ msgid ""
 "check."
 msgstr ""
 
-#: ../../library/netrc.rst:51
+#: ../../library/netrc.rst:53
 msgid ""
 "Exception raised by the :class:`~netrc.netrc` class when syntactical errors "
 "are encountered in source text.  Instances of this exception provide three "
 "interesting attributes:"
 msgstr ""
 
-#: ../../library/netrc.rst:57
+#: ../../library/netrc.rst:59
 msgid "Textual explanation of the error."
 msgstr ""
 
-#: ../../library/netrc.rst:61
+#: ../../library/netrc.rst:63
 msgid "The name of the source file."
 msgstr ""
 
-#: ../../library/netrc.rst:65
+#: ../../library/netrc.rst:67
 msgid "The line number on which the error was found."
 msgstr ""
 
-#: ../../library/netrc.rst:71
+#: ../../library/netrc.rst:73
 msgid "netrc Objects"
 msgstr ""
 
-#: ../../library/netrc.rst:73
+#: ../../library/netrc.rst:75
 msgid "A :class:`~netrc.netrc` instance has the following methods:"
 msgstr ""
 
-#: ../../library/netrc.rst:78
+#: ../../library/netrc.rst:80
 msgid ""
 "Return a 3-tuple ``(login, account, password)`` of authenticators for "
 "*host*. If the netrc file did not contain an entry for the given host, "
@@ -104,22 +109,22 @@ msgid ""
 "host nor default entry is available, return ``None``."
 msgstr ""
 
-#: ../../library/netrc.rst:86
+#: ../../library/netrc.rst:88
 msgid ""
 "Dump the class data as a string in the format of a netrc file. (This "
 "discards comments and may reorder the entries.)"
 msgstr ""
 
-#: ../../library/netrc.rst:89
+#: ../../library/netrc.rst:91
 msgid "Instances of :class:`~netrc.netrc` have public instance variables:"
 msgstr ""
 
-#: ../../library/netrc.rst:94
+#: ../../library/netrc.rst:96
 msgid ""
 "Dictionary mapping host names to ``(login, account, password)`` tuples.  The "
 "'default' entry, if any, is represented as a pseudo-host by that name."
 msgstr ""
 
-#: ../../library/netrc.rst:100
+#: ../../library/netrc.rst:102
 msgid "Dictionary mapping macro names to string lists."
 msgstr ""
