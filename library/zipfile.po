@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-13 14:21+0000\n"
+"POT-Creation-Date: 2025-07-04 14:20+0000\n"
 "PO-Revision-Date: 2021-06-28 01:18+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -143,44 +143,59 @@ msgstr ""
 
 #: ../../library/zipfile.rst:134
 msgid ""
-"The ZIP file format specification has included support for bzip2 compression "
-"since 2001, and for LZMA compression since 2006. However, some tools "
-"(including older Python releases) do not support these compression methods, "
-"and may either refuse to process the ZIP file altogether, or fail to extract "
-"individual files."
+"The numeric constant for Zstandard compression. This requires the :mod:"
+"`compression.zstd` module."
 msgstr ""
 
-#: ../../library/zipfile.rst:143
+#: ../../library/zipfile.rst:139
+msgid ""
+"In APPNOTE 6.3.7, the method ID ``20`` was assigned to Zstandard "
+"compression. This was changed in APPNOTE 6.3.8 to method ID ``93`` to avoid "
+"conflicts, with method ID ``20`` being deprecated. For compatibility, the :"
+"mod:`!zipfile` module reads both method IDs but will only write data with "
+"method ID ``93``."
+msgstr ""
+
+#: ../../library/zipfile.rst:149
+msgid ""
+"The ZIP file format specification has included support for bzip2 compression "
+"since 2001, for LZMA compression since 2006, and Zstandard compression since "
+"2020. However, some tools (including older Python releases) do not support "
+"these compression methods, and may either refuse to process the ZIP file "
+"altogether, or fail to extract individual files."
+msgstr ""
+
+#: ../../library/zipfile.rst:157
 msgid "`PKZIP Application Note`_"
 msgstr ""
 
-#: ../../library/zipfile.rst:144
+#: ../../library/zipfile.rst:158
 msgid ""
 "Documentation on the ZIP file format by Phil Katz, the creator of the format "
 "and algorithms used."
 msgstr ""
 
-#: ../../library/zipfile.rst:147
+#: ../../library/zipfile.rst:161
 msgid "`Info-ZIP Home Page <https://infozip.sourceforge.net/>`_"
 msgstr ""
 
-#: ../../library/zipfile.rst:148
+#: ../../library/zipfile.rst:162
 msgid ""
 "Information about the Info-ZIP project's ZIP archive programs and "
 "development libraries."
 msgstr ""
 
-#: ../../library/zipfile.rst:155
+#: ../../library/zipfile.rst:169
 msgid "ZipFile Objects"
 msgstr ""
 
-#: ../../library/zipfile.rst:162
+#: ../../library/zipfile.rst:176
 msgid ""
 "Open a ZIP file, where *file* can be a path to a file (a string), a file-"
 "like object or a :term:`path-like object`."
 msgstr ""
 
-#: ../../library/zipfile.rst:165
+#: ../../library/zipfile.rst:179
 msgid ""
 "The *mode* parameter should be ``'r'`` to read an existing file, ``'w'`` to "
 "truncate and write a new file, ``'a'`` to append to an existing file, or "
@@ -194,18 +209,19 @@ msgid ""
 "``'r'`` or ``'a'``, the file should be seekable."
 msgstr ""
 
-#: ../../library/zipfile.rst:177
+#: ../../library/zipfile.rst:191
 msgid ""
 "*compression* is the ZIP compression method to use when writing the archive, "
-"and should be :const:`ZIP_STORED`, :const:`ZIP_DEFLATED`, :const:`ZIP_BZIP2` "
-"or :const:`ZIP_LZMA`; unrecognized values will cause :exc:"
-"`NotImplementedError` to be raised.  If :const:`ZIP_DEFLATED`, :const:"
-"`ZIP_BZIP2` or :const:`ZIP_LZMA` is specified but the corresponding module (:"
-"mod:`zlib`, :mod:`bz2` or :mod:`lzma`) is not available, :exc:`RuntimeError` "
-"is raised. The default is :const:`ZIP_STORED`."
+"and should be :const:`ZIP_STORED`, :const:`ZIP_DEFLATED`, :const:"
+"`ZIP_BZIP2`, :const:`ZIP_LZMA`, or :const:`ZIP_ZSTANDARD`; unrecognized "
+"values will cause :exc:`NotImplementedError` to be raised.  If :const:"
+"`ZIP_DEFLATED`, :const:`ZIP_BZIP2`, :const:`ZIP_LZMA`, or :const:"
+"`ZIP_ZSTANDARD` is specified but the corresponding module (:mod:`zlib`, :mod:"
+"`bz2`, :mod:`lzma`, or :mod:`compression.zstd`) is not available, :exc:"
+"`RuntimeError` is raised. The default is :const:`ZIP_STORED`."
 msgstr ""
 
-#: ../../library/zipfile.rst:185
+#: ../../library/zipfile.rst:200
 msgid ""
 "If *allowZip64* is ``True`` (the default) zipfile will create ZIP files that "
 "use the ZIP64 extensions when the zipfile is larger than 4 GiB. If it is "
@@ -213,17 +229,21 @@ msgid ""
 "require ZIP64 extensions."
 msgstr ""
 
-#: ../../library/zipfile.rst:190
+#: ../../library/zipfile.rst:205
 msgid ""
 "The *compresslevel* parameter controls the compression level to use when "
 "writing files to the archive. When using :const:`ZIP_STORED` or :const:"
 "`ZIP_LZMA` it has no effect. When using :const:`ZIP_DEFLATED` integers ``0`` "
 "through ``9`` are accepted (see :class:`zlib <zlib.compressobj>` for more "
 "information). When using :const:`ZIP_BZIP2` integers ``1`` through ``9`` are "
-"accepted (see :class:`bz2 <bz2.BZ2File>` for more information)."
+"accepted (see :class:`bz2 <bz2.BZ2File>` for more information). When using :"
+"const:`ZIP_ZSTANDARD` integers ``-131072`` through ``22`` are commonly "
+"accepted (see :attr:`CompressionParameter.compression_level <compression."
+"zstd.CompressionParameter.compression_level>` for more on retrieving valid "
+"values and their meaning)."
 msgstr ""
 
-#: ../../library/zipfile.rst:198 ../../library/zipfile.rst:787
+#: ../../library/zipfile.rst:217 ../../library/zipfile.rst:807
 msgid ""
 "The *strict_timestamps* argument, when set to ``False``, allows to zip files "
 "older than 1980-01-01 at the cost of setting the timestamp to 1980-01-01. "
@@ -231,40 +251,40 @@ msgid ""
 "also set to the limit."
 msgstr ""
 
-#: ../../library/zipfile.rst:204
+#: ../../library/zipfile.rst:223
 msgid ""
 "When mode is ``'r'``, *metadata_encoding* may be set to the name of a codec, "
 "which will be used to decode metadata such as the names of members and ZIP "
 "comments."
 msgstr ""
 
-#: ../../library/zipfile.rst:208
+#: ../../library/zipfile.rst:227
 msgid ""
 "If the file is created with mode ``'w'``, ``'x'`` or ``'a'`` and then :meth:"
 "`closed <close>` without adding any files to the archive, the appropriate "
 "ZIP structures for an empty archive will be written to the file."
 msgstr ""
 
-#: ../../library/zipfile.rst:212
+#: ../../library/zipfile.rst:231
 msgid ""
 "ZipFile is also a context manager and therefore supports the :keyword:`with` "
 "statement.  In the example, *myzip* is closed after the :keyword:`!with` "
 "statement's suite is finished---even if an exception occurs::"
 msgstr ""
 
-#: ../../library/zipfile.rst:216
+#: ../../library/zipfile.rst:235
 msgid ""
 "with ZipFile('spam.zip', 'w') as myzip:\n"
 "    myzip.write('eggs.txt')"
 msgstr ""
 
-#: ../../library/zipfile.rst:221
+#: ../../library/zipfile.rst:240
 msgid ""
 "*metadata_encoding* is an instance-wide setting for the ZipFile. It is not "
 "currently possible to set this on a per-member basis."
 msgstr ""
 
-#: ../../library/zipfile.rst:224
+#: ../../library/zipfile.rst:243
 msgid ""
 "This attribute is a workaround for legacy implementations which produce "
 "archives with names in the current locale encoding or code page (mostly on "
@@ -274,73 +294,73 @@ msgid ""
 "is a Python-specific extension."
 msgstr ""
 
-#: ../../library/zipfile.rst:232
+#: ../../library/zipfile.rst:251
 msgid "Added the ability to use :class:`ZipFile` as a context manager."
 msgstr ""
 
-#: ../../library/zipfile.rst:235
+#: ../../library/zipfile.rst:254
 msgid "Added support for :mod:`bzip2 <bz2>` and :mod:`lzma` compression."
 msgstr ""
 
-#: ../../library/zipfile.rst:238 ../../library/zipfile.rst:700
+#: ../../library/zipfile.rst:257 ../../library/zipfile.rst:720
 msgid "ZIP64 extensions are enabled by default."
 msgstr ""
 
-#: ../../library/zipfile.rst:241
+#: ../../library/zipfile.rst:260
 msgid ""
 "Added support for writing to unseekable streams. Added support for the "
 "``'x'`` mode."
 msgstr ""
 
-#: ../../library/zipfile.rst:245
+#: ../../library/zipfile.rst:264
 msgid ""
 "Previously, a plain :exc:`RuntimeError` was raised for unrecognized "
 "compression values."
 msgstr ""
 
-#: ../../library/zipfile.rst:249
+#: ../../library/zipfile.rst:268
 msgid "The *file* parameter accepts a :term:`path-like object`."
 msgstr ""
 
-#: ../../library/zipfile.rst:252
+#: ../../library/zipfile.rst:271
 msgid "Add the *compresslevel* parameter."
 msgstr ""
 
-#: ../../library/zipfile.rst:255
+#: ../../library/zipfile.rst:274
 msgid "The *strict_timestamps* keyword-only parameter."
 msgstr ""
 
-#: ../../library/zipfile.rst:258
+#: ../../library/zipfile.rst:277
 msgid ""
 "Added support for specifying member name encoding for reading metadata in "
 "the zipfile's directory and file headers."
 msgstr ""
 
-#: ../../library/zipfile.rst:265
+#: ../../library/zipfile.rst:284
 msgid ""
 "Close the archive file.  You must call :meth:`close` before exiting your "
 "program or essential records will not be written."
 msgstr ""
 
-#: ../../library/zipfile.rst:271
+#: ../../library/zipfile.rst:290
 msgid ""
 "Return a :class:`ZipInfo` object with information about the archive member "
 "*name*.  Calling :meth:`getinfo` for a name not currently contained in the "
 "archive will raise a :exc:`KeyError`."
 msgstr ""
 
-#: ../../library/zipfile.rst:278
+#: ../../library/zipfile.rst:297
 msgid ""
 "Return a list containing a :class:`ZipInfo` object for each member of the "
 "archive.  The objects are in the same order as their entries in the actual "
 "ZIP file on disk if an existing archive was opened."
 msgstr ""
 
-#: ../../library/zipfile.rst:285
+#: ../../library/zipfile.rst:304
 msgid "Return a list of archive members by name."
 msgstr ""
 
-#: ../../library/zipfile.rst:290
+#: ../../library/zipfile.rst:309
 msgid ""
 "Access a member of the archive as a binary file-like object.  *name* can be "
 "either the name of a file within the archive or a :class:`ZipInfo` object.  "
@@ -349,20 +369,20 @@ msgid ""
 "class:`bytes` object."
 msgstr ""
 
-#: ../../library/zipfile.rst:296
+#: ../../library/zipfile.rst:315
 msgid ""
 ":meth:`~ZipFile.open` is also a context manager and therefore supports the :"
 "keyword:`with` statement::"
 msgstr ""
 
-#: ../../library/zipfile.rst:299
+#: ../../library/zipfile.rst:318
 msgid ""
 "with ZipFile('spam.zip') as myzip:\n"
 "    with myzip.open('eggs.txt') as myfile:\n"
 "        print(myfile.read())"
 msgstr ""
 
-#: ../../library/zipfile.rst:303
+#: ../../library/zipfile.rst:322
 msgid ""
 "With *mode* ``'r'`` the file-like object (``ZipExtFile``) is read-only and "
 "provides the following methods: :meth:`~io.BufferedIOBase.read`, :meth:`~io."
@@ -371,7 +391,7 @@ msgid ""
 "__next__`. These objects can operate independently of the ZipFile."
 msgstr ""
 
-#: ../../library/zipfile.rst:310
+#: ../../library/zipfile.rst:329
 msgid ""
 "With ``mode='w'``, a writable file handle is returned, which supports the :"
 "meth:`~io.BufferedIOBase.write` method.  While a writable file handle is "
@@ -379,14 +399,14 @@ msgid ""
 "exc:`ValueError`."
 msgstr ""
 
-#: ../../library/zipfile.rst:315
+#: ../../library/zipfile.rst:334
 msgid ""
 "In both cases the file-like object has also attributes :attr:`!name`, which "
 "is equivalent to the name of a file within the archive, and :attr:`!mode`, "
 "which is ``'rb'`` or ``'wb'`` depending on the input mode."
 msgstr ""
 
-#: ../../library/zipfile.rst:319
+#: ../../library/zipfile.rst:338
 msgid ""
 "When writing a file, if the file size is not known in advance but may exceed "
 "2 GiB, pass ``force_zip64=True`` to ensure that the header format is capable "
@@ -395,39 +415,39 @@ msgid ""
 "as the *name* parameter."
 msgstr ""
 
-#: ../../library/zipfile.rst:327
+#: ../../library/zipfile.rst:346
 msgid ""
 "The :meth:`.open`, :meth:`read` and :meth:`extract` methods can take a "
 "filename or a :class:`ZipInfo` object.  You will appreciate this when trying "
 "to read a ZIP file that contains members with duplicate names."
 msgstr ""
 
-#: ../../library/zipfile.rst:331
+#: ../../library/zipfile.rst:350
 msgid ""
 "Removed support of ``mode='U'``.  Use :class:`io.TextIOWrapper` for reading "
 "compressed text files in :term:`universal newlines` mode."
 msgstr ""
 
-#: ../../library/zipfile.rst:335
+#: ../../library/zipfile.rst:354
 msgid ""
 ":meth:`ZipFile.open` can now be used to write files into the archive with "
 "the ``mode='w'`` option."
 msgstr ""
 
-#: ../../library/zipfile.rst:339
+#: ../../library/zipfile.rst:358
 msgid ""
 "Calling :meth:`.open` on a closed ZipFile will raise a :exc:`ValueError`. "
 "Previously, a :exc:`RuntimeError` was raised."
 msgstr ""
 
-#: ../../library/zipfile.rst:343
+#: ../../library/zipfile.rst:362
 msgid ""
 "Added attributes :attr:`!name` and :attr:`!mode` for the writeable file-like "
 "object. The value of the :attr:`!mode` attribute for the readable file-like "
 "object was changed from ``'r'`` to ``'rb'``."
 msgstr ""
 
-#: ../../library/zipfile.rst:352
+#: ../../library/zipfile.rst:371
 msgid ""
 "Extract a member from the archive to the current working directory; *member* "
 "must be its full name or a :class:`ZipInfo` object.  Its file information is "
@@ -436,11 +456,11 @@ msgid ""
 "*pwd* is the password used for encrypted files as a :class:`bytes` object."
 msgstr ""
 
-#: ../../library/zipfile.rst:358
+#: ../../library/zipfile.rst:377
 msgid "Returns the normalized path created (a directory or new file)."
 msgstr ""
 
-#: ../../library/zipfile.rst:362
+#: ../../library/zipfile.rst:381
 msgid ""
 "If a member filename is an absolute path, a drive/UNC sharepoint and leading "
 "(back)slashes will be stripped, e.g.: ``///foo/bar`` becomes ``foo/bar`` on "
@@ -451,17 +471,17 @@ msgid ""
 "(``_``)."
 msgstr ""
 
-#: ../../library/zipfile.rst:370
+#: ../../library/zipfile.rst:389
 msgid ""
 "Calling :meth:`extract` on a closed ZipFile will raise a :exc:`ValueError`.  "
 "Previously, a :exc:`RuntimeError` was raised."
 msgstr ""
 
-#: ../../library/zipfile.rst:374 ../../library/zipfile.rst:397
+#: ../../library/zipfile.rst:393 ../../library/zipfile.rst:416
 msgid "The *path* parameter accepts a :term:`path-like object`."
 msgstr ""
 
-#: ../../library/zipfile.rst:380
+#: ../../library/zipfile.rst:399
 msgid ""
 "Extract all members from the archive to the current working directory.  "
 "*path* specifies a different directory to extract to.  *members* is optional "
@@ -469,7 +489,7 @@ msgid ""
 "password used for encrypted files as a :class:`bytes` object."
 msgstr ""
 
-#: ../../library/zipfile.rst:387
+#: ../../library/zipfile.rst:406
 msgid ""
 "Never extract archives from untrusted sources without prior inspection. It "
 "is possible that files are created outside of *path*, e.g. members that have "
@@ -477,23 +497,23 @@ msgid ""
 "\"``.  This module attempts to prevent that. See :meth:`extract` note."
 msgstr ""
 
-#: ../../library/zipfile.rst:393
+#: ../../library/zipfile.rst:412
 msgid ""
 "Calling :meth:`extractall` on a closed ZipFile will raise a :exc:"
 "`ValueError`.  Previously, a :exc:`RuntimeError` was raised."
 msgstr ""
 
-#: ../../library/zipfile.rst:403
+#: ../../library/zipfile.rst:422
 msgid "Print a table of contents for the archive to ``sys.stdout``."
 msgstr ""
 
-#: ../../library/zipfile.rst:408
+#: ../../library/zipfile.rst:427
 msgid ""
 "Set *pwd* (a :class:`bytes` object) as default password to extract encrypted "
 "files."
 msgstr ""
 
-#: ../../library/zipfile.rst:413
+#: ../../library/zipfile.rst:432
 msgid ""
 "Return the bytes of the file *name* in the archive.  *name* is the name of "
 "the file in the archive, or a :class:`ZipInfo` object.  The archive must be "
@@ -501,30 +521,30 @@ msgid ""
 "a :class:`bytes` object and, if specified, overrides the default password "
 "set with :meth:`setpassword`. Calling :meth:`read` on a ZipFile that uses a "
 "compression method other than :const:`ZIP_STORED`, :const:`ZIP_DEFLATED`, :"
-"const:`ZIP_BZIP2` or :const:`ZIP_LZMA` will raise a :exc:"
-"`NotImplementedError`. An error will also be raised if the corresponding "
-"compression module is not available."
+"const:`ZIP_BZIP2`, :const:`ZIP_LZMA`, or :const:`ZIP_ZSTANDARD` will raise "
+"a :exc:`NotImplementedError`. An error will also be raised if the "
+"corresponding compression module is not available."
 msgstr ""
 
-#: ../../library/zipfile.rst:422
+#: ../../library/zipfile.rst:442
 msgid ""
 "Calling :meth:`read` on a closed ZipFile will raise a :exc:`ValueError`. "
 "Previously, a :exc:`RuntimeError` was raised."
 msgstr ""
 
-#: ../../library/zipfile.rst:429
+#: ../../library/zipfile.rst:449
 msgid ""
 "Read all the files in the archive and check their CRC's and file headers. "
 "Return the name of the first bad file, or else return ``None``."
 msgstr ""
 
-#: ../../library/zipfile.rst:432
+#: ../../library/zipfile.rst:452
 msgid ""
 "Calling :meth:`testzip` on a closed ZipFile will raise a :exc:`ValueError`.  "
 "Previously, a :exc:`RuntimeError` was raised."
 msgstr ""
 
-#: ../../library/zipfile.rst:440
+#: ../../library/zipfile.rst:460
 msgid ""
 "Write the file named *filename* to the archive, giving it the archive name "
 "*arcname* (by default, this will be the same as *filename*, but without a "
@@ -535,7 +555,7 @@ msgid ""
 "``'x'`` or ``'a'``."
 msgstr ""
 
-#: ../../library/zipfile.rst:450
+#: ../../library/zipfile.rst:470
 msgid ""
 "The ZIP file standard historically did not specify a metadata encoding, but "
 "strongly recommended CP437 (the original IBM PC encoding) for "
@@ -545,33 +565,33 @@ msgid ""
 "in any encoding other than ASCII or UTF-8."
 msgstr ""
 
-#: ../../library/zipfile.rst:459
+#: ../../library/zipfile.rst:479
 msgid ""
 "Archive names should be relative to the archive root, that is, they should "
 "not start with a path separator."
 msgstr ""
 
-#: ../../library/zipfile.rst:464
+#: ../../library/zipfile.rst:484
 msgid ""
 "If ``arcname`` (or ``filename``, if ``arcname`` is  not given) contains a "
 "null byte, the name of the file in the archive will be truncated at the null "
 "byte."
 msgstr ""
 
-#: ../../library/zipfile.rst:469
+#: ../../library/zipfile.rst:489
 msgid ""
 "A leading slash in the filename may lead to the archive being impossible to "
 "open in some zip programs on Windows systems."
 msgstr ""
 
-#: ../../library/zipfile.rst:472
+#: ../../library/zipfile.rst:492
 msgid ""
 "Calling :meth:`write` on a ZipFile created with mode ``'r'`` or a closed "
 "ZipFile will raise a :exc:`ValueError`.  Previously, a :exc:`RuntimeError` "
 "was raised."
 msgstr ""
 
-#: ../../library/zipfile.rst:481
+#: ../../library/zipfile.rst:501
 msgid ""
 "Write a file into the archive.  The contents is *data*, which may be either "
 "a :class:`str` or a :class:`bytes` instance; if it is a :class:`str`, it is "
@@ -582,7 +602,7 @@ msgid ""
 "must be opened with mode ``'w'``, ``'x'`` or ``'a'``."
 msgstr ""
 
-#: ../../library/zipfile.rst:489
+#: ../../library/zipfile.rst:509
 msgid ""
 "If given, *compress_type* overrides the value given for the *compression* "
 "parameter to the constructor for the new entry, or in the *zinfo_or_arcname* "
@@ -590,7 +610,7 @@ msgid ""
 "override the constructor if given."
 msgstr ""
 
-#: ../../library/zipfile.rst:496
+#: ../../library/zipfile.rst:516
 msgid ""
 "When passing a :class:`ZipInfo` instance as the *zinfo_or_arcname* "
 "parameter, the compression method used will be that specified in the "
@@ -598,18 +618,18 @@ msgid ""
 "the :class:`ZipInfo` constructor sets this member to :const:`ZIP_STORED`."
 msgstr ""
 
-#: ../../library/zipfile.rst:501
+#: ../../library/zipfile.rst:521
 msgid "The *compress_type* argument."
 msgstr ""
 
-#: ../../library/zipfile.rst:504
+#: ../../library/zipfile.rst:524
 msgid ""
 "Calling :meth:`writestr` on a ZipFile created with mode ``'r'`` or a closed "
 "ZipFile will raise a :exc:`ValueError`.  Previously, a :exc:`RuntimeError` "
 "was raised."
 msgstr ""
 
-#: ../../library/zipfile.rst:511
+#: ../../library/zipfile.rst:531
 msgid ""
 "Create a directory inside the archive.  If *zinfo_or_directory* is a string, "
 "a directory is created inside the archive with the mode that is specified in "
@@ -617,26 +637,26 @@ msgid ""
 "instance then the *mode* argument is ignored."
 msgstr ""
 
-#: ../../library/zipfile.rst:516
+#: ../../library/zipfile.rst:536
 msgid "The archive must be opened with mode ``'w'``, ``'x'`` or ``'a'``."
 msgstr ""
 
-#: ../../library/zipfile.rst:521
+#: ../../library/zipfile.rst:541
 msgid "The following data attributes are also available:"
 msgstr ""
 
-#: ../../library/zipfile.rst:525
+#: ../../library/zipfile.rst:545
 msgid "Name of the ZIP file."
 msgstr ""
 
-#: ../../library/zipfile.rst:529
+#: ../../library/zipfile.rst:549
 msgid ""
 "The level of debug output to use.  This may be set from ``0`` (the default, "
 "no output) to ``3`` (the most output).  Debugging information is written to "
 "``sys.stdout``."
 msgstr ""
 
-#: ../../library/zipfile.rst:535
+#: ../../library/zipfile.rst:555
 msgid ""
 "The comment associated with the ZIP file as a :class:`bytes` object. If "
 "assigning a comment to a :class:`ZipFile` instance created with mode "
@@ -644,7 +664,7 @@ msgid ""
 "Comments longer than this will be truncated."
 msgstr ""
 
-#: ../../library/zipfile.rst:543
+#: ../../library/zipfile.rst:563
 msgid ""
 "The offset to the start of ZIP data from the beginning of the file. When "
 "the :class:`ZipFile` is opened in either mode ``'w'`` or ``'x'`` and the "
@@ -652,24 +672,24 @@ msgid ""
 "instead."
 msgstr ""
 
-#: ../../library/zipfile.rst:553
+#: ../../library/zipfile.rst:573
 msgid "Path Objects"
 msgstr ""
 
-#: ../../library/zipfile.rst:557
+#: ../../library/zipfile.rst:577
 msgid ""
 "Construct a Path object from a ``root`` zipfile (which may be a :class:"
 "`ZipFile` instance or ``file`` suitable for passing to the :class:`ZipFile` "
 "constructor)."
 msgstr ""
 
-#: ../../library/zipfile.rst:561
+#: ../../library/zipfile.rst:581
 msgid ""
 "``at`` specifies the location of this Path within the zipfile, e.g. 'dir/"
 "file.txt', 'dir/', or ''. Defaults to the empty string, indicating the root."
 msgstr ""
 
-#: ../../library/zipfile.rst:566
+#: ../../library/zipfile.rst:586
 msgid ""
 "The :class:`Path` class does not sanitize filenames within the ZIP archive. "
 "Unlike the :meth:`ZipFile.extract` and :meth:`ZipFile.extractall` methods, "
@@ -680,20 +700,20 @@ msgid ""
 "directory with :func:`os.path.commonpath`."
 msgstr ""
 
-#: ../../library/zipfile.rst:573
+#: ../../library/zipfile.rst:593
 msgid ""
 "Path objects expose the following features of :mod:`pathlib.Path` objects:"
 msgstr ""
 
-#: ../../library/zipfile.rst:576
+#: ../../library/zipfile.rst:596
 msgid "Path objects are traversable using the ``/`` operator or ``joinpath``."
 msgstr ""
 
-#: ../../library/zipfile.rst:580
+#: ../../library/zipfile.rst:600
 msgid "The final path component."
 msgstr ""
 
-#: ../../library/zipfile.rst:584
+#: ../../library/zipfile.rst:604
 msgid ""
 "Invoke :meth:`ZipFile.open` on the current path. Allows opening for read or "
 "write, text or binary through supported modes: 'r', 'w', 'rb', 'wb'. "
@@ -702,12 +722,12 @@ msgid ""
 "``pwd`` parameter to :meth:`ZipFile.open`."
 msgstr ""
 
-#: ../../library/zipfile.rst:593
+#: ../../library/zipfile.rst:613
 msgid ""
 "Added support for text and binary modes for open. Default mode is now text."
 msgstr ""
 
-#: ../../library/zipfile.rst:597 ../../library/zipfile.rst:658
+#: ../../library/zipfile.rst:617 ../../library/zipfile.rst:678
 msgid ""
 "The ``encoding`` parameter can be supplied as a positional argument without "
 "causing a :exc:`TypeError`. As it could in 3.9. Code needing to be "
@@ -715,134 +735,134 @@ msgid ""
 "TextIOWrapper` arguments, ``encoding`` included, as keywords."
 msgstr ""
 
-#: ../../library/zipfile.rst:605
+#: ../../library/zipfile.rst:625
 msgid "Enumerate the children of the current directory."
 msgstr ""
 
-#: ../../library/zipfile.rst:609
+#: ../../library/zipfile.rst:629
 msgid "Return ``True`` if the current context references a directory."
 msgstr ""
 
-#: ../../library/zipfile.rst:613
+#: ../../library/zipfile.rst:633
 msgid "Return ``True`` if the current context references a file."
 msgstr ""
 
-#: ../../library/zipfile.rst:617
+#: ../../library/zipfile.rst:637
 msgid "Return ``True`` if the current context references a symbolic link."
 msgstr ""
 
-#: ../../library/zipfile.rst:621
+#: ../../library/zipfile.rst:641
 msgid "Previously, ``is_symlink`` would unconditionally return ``False``."
 msgstr ""
 
-#: ../../library/zipfile.rst:626
+#: ../../library/zipfile.rst:646
 msgid ""
 "Return ``True`` if the current context references a file or directory in the "
 "zip file."
 msgstr ""
 
-#: ../../library/zipfile.rst:631
+#: ../../library/zipfile.rst:651
 msgid ""
 "The last dot-separated portion of the final component, if any. This is "
 "commonly called the file extension."
 msgstr ""
 
-#: ../../library/zipfile.rst:634
+#: ../../library/zipfile.rst:654
 msgid "Added :data:`Path.suffix` property."
 msgstr ""
 
-#: ../../library/zipfile.rst:639
+#: ../../library/zipfile.rst:659
 msgid "The final path component, without its suffix."
 msgstr ""
 
-#: ../../library/zipfile.rst:641
+#: ../../library/zipfile.rst:661
 msgid "Added :data:`Path.stem` property."
 msgstr ""
 
-#: ../../library/zipfile.rst:646
+#: ../../library/zipfile.rst:666
 msgid "A list of the path’s suffixes, commonly called file extensions."
 msgstr ""
 
-#: ../../library/zipfile.rst:648
+#: ../../library/zipfile.rst:668
 msgid "Added :data:`Path.suffixes` property."
 msgstr ""
 
-#: ../../library/zipfile.rst:653
+#: ../../library/zipfile.rst:673
 msgid ""
 "Read the current file as unicode text. Positional and keyword arguments are "
 "passed through to :class:`io.TextIOWrapper` (except ``buffer``, which is "
 "implied by the context)."
 msgstr ""
 
-#: ../../library/zipfile.rst:666
+#: ../../library/zipfile.rst:686
 msgid "Read the current file as bytes."
 msgstr ""
 
-#: ../../library/zipfile.rst:670
+#: ../../library/zipfile.rst:690
 msgid ""
 "Return a new Path object with each of the *other* arguments joined. The "
 "following are equivalent::"
 msgstr ""
 
-#: ../../library/zipfile.rst:673
+#: ../../library/zipfile.rst:693
 msgid ""
 ">>> Path(...).joinpath('child').joinpath('grandchild')\n"
 ">>> Path(...).joinpath('child', 'grandchild')\n"
 ">>> Path(...) / 'child' / 'grandchild'"
 msgstr ""
 
-#: ../../library/zipfile.rst:677
+#: ../../library/zipfile.rst:697
 msgid ""
 "Prior to 3.10, ``joinpath`` was undocumented and accepted exactly one "
 "parameter."
 msgstr ""
 
-#: ../../library/zipfile.rst:681
+#: ../../library/zipfile.rst:701
 msgid ""
 "The :pypi:`zipp` project provides backports of the latest path object "
 "functionality to older Pythons. Use ``zipp.Path`` in place of ``zipfile."
 "Path`` for early access to changes."
 msgstr ""
 
-#: ../../library/zipfile.rst:689
+#: ../../library/zipfile.rst:709
 msgid "PyZipFile Objects"
 msgstr ""
 
-#: ../../library/zipfile.rst:691
+#: ../../library/zipfile.rst:711
 msgid ""
 "The :class:`PyZipFile` constructor takes the same parameters as the :class:"
 "`ZipFile` constructor, and one additional parameter, *optimize*."
 msgstr ""
 
-#: ../../library/zipfile.rst:697
+#: ../../library/zipfile.rst:717
 msgid "Added the *optimize* parameter."
 msgstr ""
 
-#: ../../library/zipfile.rst:703
+#: ../../library/zipfile.rst:723
 msgid ""
 "Instances have one method in addition to those of :class:`ZipFile` objects:"
 msgstr ""
 
-#: ../../library/zipfile.rst:707
+#: ../../library/zipfile.rst:727
 msgid ""
 "Search for files :file:`\\*.py` and add the corresponding file to the "
 "archive."
 msgstr ""
 
-#: ../../library/zipfile.rst:710
+#: ../../library/zipfile.rst:730
 msgid ""
 "If the *optimize* parameter to :class:`PyZipFile` was not given or ``-1``, "
 "the corresponding file is a :file:`\\*.pyc` file, compiling if necessary."
 msgstr ""
 
-#: ../../library/zipfile.rst:713
+#: ../../library/zipfile.rst:733
 msgid ""
 "If the *optimize* parameter to :class:`PyZipFile` was ``0``, ``1`` or ``2``, "
 "only files with that optimization level (see :func:`compile`) are added to "
 "the archive, compiling if necessary."
 msgstr ""
 
-#: ../../library/zipfile.rst:717
+#: ../../library/zipfile.rst:737
 msgid ""
 "If *pathname* is a file, the filename must end with :file:`.py`, and just "
 "the (corresponding :file:`\\*.pyc`) file is added at the top level (no path "
@@ -855,11 +875,11 @@ msgid ""
 "in sorted order."
 msgstr ""
 
-#: ../../library/zipfile.rst:727
+#: ../../library/zipfile.rst:747
 msgid "*basename* is intended for internal use only."
 msgstr ""
 
-#: ../../library/zipfile.rst:729
+#: ../../library/zipfile.rst:749
 msgid ""
 "*filterfunc*, if given, must be a function taking a single string argument.  "
 "It will be passed each path (including each individual full file path) "
@@ -870,7 +890,7 @@ msgid ""
 "exclude them::"
 msgstr ""
 
-#: ../../library/zipfile.rst:737
+#: ../../library/zipfile.rst:757
 msgid ""
 ">>> zf = PyZipFile('myprog.zip')\n"
 ">>> def notests(s):\n"
@@ -880,11 +900,11 @@ msgid ""
 ">>> zf.writepy('myprog', filterfunc=notests)"
 msgstr ""
 
-#: ../../library/zipfile.rst:744
+#: ../../library/zipfile.rst:764
 msgid "The :meth:`writepy` method makes archives with file names like this::"
 msgstr ""
 
-#: ../../library/zipfile.rst:747
+#: ../../library/zipfile.rst:767
 msgid ""
 "string.pyc                   # Top level name\n"
 "test/__init__.pyc            # Package directory\n"
@@ -893,302 +913,302 @@ msgid ""
 "test/bogus/myfile.pyc        # Submodule test.bogus.myfile"
 msgstr ""
 
-#: ../../library/zipfile.rst:753
+#: ../../library/zipfile.rst:773
 msgid "Added the *filterfunc* parameter."
 msgstr ""
 
-#: ../../library/zipfile.rst:756
+#: ../../library/zipfile.rst:776
 msgid "The *pathname* parameter accepts a :term:`path-like object`."
 msgstr ""
 
-#: ../../library/zipfile.rst:759
+#: ../../library/zipfile.rst:779
 msgid "Recursion sorts directory entries."
 msgstr ""
 
-#: ../../library/zipfile.rst:766
+#: ../../library/zipfile.rst:786
 msgid "ZipInfo Objects"
 msgstr ""
 
-#: ../../library/zipfile.rst:768
+#: ../../library/zipfile.rst:788
 msgid ""
 "Instances of the :class:`ZipInfo` class are returned by the :meth:`.getinfo` "
 "and :meth:`.infolist` methods of :class:`ZipFile` objects.  Each object "
 "stores information about a single member of the ZIP archive."
 msgstr ""
 
-#: ../../library/zipfile.rst:772
+#: ../../library/zipfile.rst:792
 msgid ""
 "There is one classmethod to make a :class:`ZipInfo` instance for a "
 "filesystem file:"
 msgstr ""
 
-#: ../../library/zipfile.rst:778
+#: ../../library/zipfile.rst:798
 msgid ""
 "Construct a :class:`ZipInfo` instance for a file on the filesystem, in "
 "preparation for adding it to a zip file."
 msgstr ""
 
-#: ../../library/zipfile.rst:781
+#: ../../library/zipfile.rst:801
 msgid "*filename* should be the path to a file or directory on the filesystem."
 msgstr ""
 
-#: ../../library/zipfile.rst:783
+#: ../../library/zipfile.rst:803
 msgid ""
 "If *arcname* is specified, it is used as the name within the archive. If "
 "*arcname* is not specified, the name will be the same as *filename*, but "
 "with any drive letter and leading path separators removed."
 msgstr ""
 
-#: ../../library/zipfile.rst:795
+#: ../../library/zipfile.rst:815
 msgid "The *filename* parameter accepts a :term:`path-like object`."
 msgstr ""
 
-#: ../../library/zipfile.rst:798
+#: ../../library/zipfile.rst:818
 msgid "Added the *strict_timestamps* keyword-only parameter."
 msgstr ""
 
-#: ../../library/zipfile.rst:802
+#: ../../library/zipfile.rst:822
 msgid "Instances have the following methods and attributes:"
 msgstr ""
 
-#: ../../library/zipfile.rst:806
+#: ../../library/zipfile.rst:826
 msgid "Return ``True`` if this archive member is a directory."
 msgstr ""
 
-#: ../../library/zipfile.rst:808
+#: ../../library/zipfile.rst:828
 msgid "This uses the entry's name: directories should always end with ``/``."
 msgstr ""
 
-#: ../../library/zipfile.rst:815
+#: ../../library/zipfile.rst:835
 msgid "Name of the file in the archive."
 msgstr ""
 
-#: ../../library/zipfile.rst:820
+#: ../../library/zipfile.rst:840
 msgid ""
 "The time and date of the last modification to the archive member.  This is a "
 "tuple of six values:"
 msgstr ""
 
-#: ../../library/zipfile.rst:824
+#: ../../library/zipfile.rst:844
 msgid "Index"
 msgstr ""
 
-#: ../../library/zipfile.rst:824
+#: ../../library/zipfile.rst:844
 msgid "Value"
 msgstr ""
 
-#: ../../library/zipfile.rst:826
+#: ../../library/zipfile.rst:846
 msgid "``0``"
 msgstr ""
 
-#: ../../library/zipfile.rst:826
+#: ../../library/zipfile.rst:846
 msgid "Year (>= 1980)"
 msgstr ""
 
-#: ../../library/zipfile.rst:828
+#: ../../library/zipfile.rst:848
 msgid "``1``"
 msgstr ""
 
-#: ../../library/zipfile.rst:828
+#: ../../library/zipfile.rst:848
 msgid "Month (one-based)"
 msgstr ""
 
-#: ../../library/zipfile.rst:830
+#: ../../library/zipfile.rst:850
 msgid "``2``"
 msgstr ""
 
-#: ../../library/zipfile.rst:830
+#: ../../library/zipfile.rst:850
 msgid "Day of month (one-based)"
 msgstr ""
 
-#: ../../library/zipfile.rst:832
+#: ../../library/zipfile.rst:852
 msgid "``3``"
 msgstr ""
 
-#: ../../library/zipfile.rst:832
+#: ../../library/zipfile.rst:852
 msgid "Hours (zero-based)"
 msgstr ""
 
-#: ../../library/zipfile.rst:834
+#: ../../library/zipfile.rst:854
 msgid "``4``"
 msgstr ""
 
-#: ../../library/zipfile.rst:834
+#: ../../library/zipfile.rst:854
 msgid "Minutes (zero-based)"
 msgstr ""
 
-#: ../../library/zipfile.rst:836
+#: ../../library/zipfile.rst:856
 msgid "``5``"
 msgstr ""
 
-#: ../../library/zipfile.rst:836
+#: ../../library/zipfile.rst:856
 msgid "Seconds (zero-based)"
 msgstr ""
 
-#: ../../library/zipfile.rst:841
+#: ../../library/zipfile.rst:861
 msgid "The ZIP file format does not support timestamps before 1980."
 msgstr ""
 
-#: ../../library/zipfile.rst:846
+#: ../../library/zipfile.rst:866
 msgid "Type of compression for the archive member."
 msgstr ""
 
-#: ../../library/zipfile.rst:851
+#: ../../library/zipfile.rst:871
 msgid "Comment for the individual archive member as a :class:`bytes` object."
 msgstr ""
 
-#: ../../library/zipfile.rst:856
+#: ../../library/zipfile.rst:876
 msgid ""
 "Expansion field data.  The `PKZIP Application Note`_ contains some comments "
 "on the internal structure of the data contained in this :class:`bytes` "
 "object."
 msgstr ""
 
-#: ../../library/zipfile.rst:863
+#: ../../library/zipfile.rst:883
 msgid "System which created ZIP archive."
 msgstr ""
 
-#: ../../library/zipfile.rst:868
+#: ../../library/zipfile.rst:888
 msgid "PKZIP version which created ZIP archive."
 msgstr ""
 
-#: ../../library/zipfile.rst:873
+#: ../../library/zipfile.rst:893
 msgid "PKZIP version needed to extract archive."
 msgstr ""
 
-#: ../../library/zipfile.rst:878
+#: ../../library/zipfile.rst:898
 msgid "Must be zero."
 msgstr ""
 
-#: ../../library/zipfile.rst:883
+#: ../../library/zipfile.rst:903
 msgid "ZIP flag bits."
 msgstr ""
 
-#: ../../library/zipfile.rst:888
+#: ../../library/zipfile.rst:908
 msgid "Volume number of file header."
 msgstr ""
 
-#: ../../library/zipfile.rst:893
+#: ../../library/zipfile.rst:913
 msgid "Internal attributes."
 msgstr ""
 
-#: ../../library/zipfile.rst:898
+#: ../../library/zipfile.rst:918
 msgid "External file attributes."
 msgstr ""
 
-#: ../../library/zipfile.rst:903
+#: ../../library/zipfile.rst:923
 msgid "Byte offset to the file header."
 msgstr ""
 
-#: ../../library/zipfile.rst:908
+#: ../../library/zipfile.rst:928
 msgid "CRC-32 of the uncompressed file."
 msgstr ""
 
-#: ../../library/zipfile.rst:913
+#: ../../library/zipfile.rst:933
 msgid "Size of the compressed data."
 msgstr ""
 
-#: ../../library/zipfile.rst:918
+#: ../../library/zipfile.rst:938
 msgid "Size of the uncompressed file."
 msgstr ""
 
-#: ../../library/zipfile.rst:925
+#: ../../library/zipfile.rst:945
 msgid "Command-Line Interface"
 msgstr ""
 
-#: ../../library/zipfile.rst:927
+#: ../../library/zipfile.rst:947
 msgid ""
 "The :mod:`zipfile` module provides a simple command-line interface to "
 "interact with ZIP archives."
 msgstr ""
 
-#: ../../library/zipfile.rst:930
+#: ../../library/zipfile.rst:950
 msgid ""
 "If you want to create a new ZIP archive, specify its name after the :option:"
 "`-c` option and then list the filename(s) that should be included:"
 msgstr ""
 
-#: ../../library/zipfile.rst:933
+#: ../../library/zipfile.rst:953
 msgid "$ python -m zipfile -c monty.zip spam.txt eggs.txt"
 msgstr ""
 
-#: ../../library/zipfile.rst:937
+#: ../../library/zipfile.rst:957
 msgid "Passing a directory is also acceptable:"
 msgstr ""
 
-#: ../../library/zipfile.rst:939
+#: ../../library/zipfile.rst:959
 msgid "$ python -m zipfile -c monty.zip life-of-brian_1979/"
 msgstr ""
 
-#: ../../library/zipfile.rst:943
+#: ../../library/zipfile.rst:963
 msgid ""
 "If you want to extract a ZIP archive into the specified directory, use the :"
 "option:`-e` option:"
 msgstr ""
 
-#: ../../library/zipfile.rst:946
+#: ../../library/zipfile.rst:966
 msgid "$ python -m zipfile -e monty.zip target-dir/"
 msgstr ""
 
-#: ../../library/zipfile.rst:950
+#: ../../library/zipfile.rst:970
 msgid "For a list of the files in a ZIP archive, use the :option:`-l` option:"
 msgstr ""
 
-#: ../../library/zipfile.rst:952
+#: ../../library/zipfile.rst:972
 msgid "$ python -m zipfile -l monty.zip"
 msgstr ""
 
-#: ../../library/zipfile.rst:958
+#: ../../library/zipfile.rst:978
 msgid "Command-line options"
 msgstr ""
 
-#: ../../library/zipfile.rst:963
+#: ../../library/zipfile.rst:983
 msgid "List files in a zipfile."
 msgstr ""
 
-#: ../../library/zipfile.rst:968
+#: ../../library/zipfile.rst:988
 msgid "Create zipfile from source files."
 msgstr ""
 
-#: ../../library/zipfile.rst:973
+#: ../../library/zipfile.rst:993
 msgid "Extract zipfile into target directory."
 msgstr ""
 
-#: ../../library/zipfile.rst:978
+#: ../../library/zipfile.rst:998
 msgid "Test whether the zipfile is valid or not."
 msgstr ""
 
-#: ../../library/zipfile.rst:982
+#: ../../library/zipfile.rst:1002
 msgid ""
 "Specify encoding of member names for :option:`-l`, :option:`-e` and :option:"
 "`-t`."
 msgstr ""
 
-#: ../../library/zipfile.rst:989
+#: ../../library/zipfile.rst:1009
 msgid "Decompression pitfalls"
 msgstr ""
 
-#: ../../library/zipfile.rst:991
+#: ../../library/zipfile.rst:1011
 msgid ""
 "The extraction in zipfile module might fail due to some pitfalls listed "
 "below."
 msgstr ""
 
-#: ../../library/zipfile.rst:994
+#: ../../library/zipfile.rst:1014
 msgid "From file itself"
 msgstr ""
 
-#: ../../library/zipfile.rst:996
+#: ../../library/zipfile.rst:1016
 msgid ""
 "Decompression may fail due to incorrect password / CRC checksum / ZIP format "
 "or unsupported compression method / decryption."
 msgstr ""
 
-#: ../../library/zipfile.rst:1000
+#: ../../library/zipfile.rst:1020
 msgid "File System limitations"
 msgstr ""
 
-#: ../../library/zipfile.rst:1002
+#: ../../library/zipfile.rst:1022
 msgid ""
 "Exceeding limitations on different file systems can cause decompression "
 "failed. Such as allowable characters in the directory entries, length of the "
@@ -1196,33 +1216,33 @@ msgid ""
 "files, etc."
 msgstr ""
 
-#: ../../library/zipfile.rst:1009
+#: ../../library/zipfile.rst:1029
 msgid "Resources limitations"
 msgstr ""
 
-#: ../../library/zipfile.rst:1011
+#: ../../library/zipfile.rst:1031
 msgid ""
 "The lack of memory or disk volume would lead to decompression failed. For "
 "example, decompression bombs (aka `ZIP bomb`_) apply to zipfile library that "
 "can cause disk volume exhaustion."
 msgstr ""
 
-#: ../../library/zipfile.rst:1016
+#: ../../library/zipfile.rst:1036
 msgid "Interruption"
 msgstr ""
 
-#: ../../library/zipfile.rst:1018
+#: ../../library/zipfile.rst:1038
 msgid ""
 "Interruption during the decompression, such as pressing control-C or killing "
 "the decompression process may result in incomplete decompression of the "
 "archive."
 msgstr ""
 
-#: ../../library/zipfile.rst:1022
+#: ../../library/zipfile.rst:1042
 msgid "Default behaviors of extraction"
 msgstr ""
 
-#: ../../library/zipfile.rst:1024
+#: ../../library/zipfile.rst:1044
 msgid ""
 "Not knowing the default extraction behaviors can cause unexpected "
 "decompression results. For example, when extracting the same archive twice, "
