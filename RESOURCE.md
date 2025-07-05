@@ -86,7 +86,6 @@
 | library/pprint.po | 0.5% | 0.0% | 0.0% |
 | reference/datamodel.po | 0.5% | 0.0% | 0.0% |
 | using/unix.po | 0.5% | 0.0% | 0.0% |
-| library/concurrent_interpreters.po | 0.5% | 0.0% | 0.0% |
 | c-api/buffer.po | 0.4% | 0.0% | 0.0% |
 | c-api/file.po | 0.4% | 0.0% | 0.0% |
 | howto/curses.po | 0.4% | 0.0% | 0.0% |
@@ -119,7 +118,6 @@
 | library/warnings.po | 0.3% | 0.0% | 0.0% |
 | reference/executionmodel.po | 0.3% | 0.0% | 0.0% |
 | c-api/time.po | 0.3% | 0.0% | 0.0% |
-| c-api/capsule.po | 0.2% | 0.0% | 0.0% |
 | c-api/contextvars.po | 0.2% | 0.0% | 0.0% |
 | c-api/intro.po | 0.2% | 0.0% | 0.0% |
 | c-api/object.po | 0.2% | 0.0% | 0.0% |
@@ -162,6 +160,7 @@
 | library/asyncio-runner.po | 0.2% | 0.0% | 0.0% |
 | howto/timerfd.po | 0.2% | 0.0% | 0.0% |
 | c-api/call.po | 0.1% | 0.0% | 0.0% |
+| c-api/capsule.po | 0.1% | 0.0% | 0.0% |
 | c-api/long.po | 0.1% | 0.0% | 0.0% |
 | c-api/module.po | 0.1% | 0.0% | 0.0% |
 | extending/embedding.po | 0.1% | 0.0% | 0.0% |
@@ -270,6 +269,7 @@
 | library/annotationlib.po | 0.1% | 0.0% | 0.0% |
 | c-api/lifecycle.po | 0.1% | 0.0% | 0.0% |
 | library/compression_zstd.po | 0.1% | 0.0% | 0.0% |
+| library/concurrent_interpreters.po | 0.1% | 0.0% | 0.0% |
 | contents.po | 0.0% | 0.0% | 0.0% |
 | c-api/bool.po | 0.0% | 0.0% | 0.0% |
 | c-api/cell.po | 0.0% | 0.0% | 0.0% |
@@ -520,3 +520,4 @@
 | whatsnew/3_14.po | 0.0% | 0.0% | 0.0% |
 | library/compression.po | 0.0% | 0.0% | 0.0% |
 | c-api/extension-modules.po | 0.0% | 0.0% | 0.0% |
+| deprecations/c-api-pending-removal-in-3_16.po | 0.0% | 0.0% | 0.0% |
