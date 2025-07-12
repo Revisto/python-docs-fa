@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-27 14:20+0000\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
 "Last-Translator: taha haghgoo, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -2300,32 +2300,59 @@ msgid ""
 msgstr ""
 
 #: ../../glossary.rst:1282
-msgid "statement"
+msgid "standard library"
 msgstr ""
 
 #: ../../glossary.rst:1284
+msgid ""
+"The collection of :term:`packages <package>`, :term:`modules <module>` and :"
+"term:`extension modules <extension module>` distributed as a part of the "
+"official Python interpreter package.  The exact membership of the collection "
+"may vary based on platform, available system libraries, or other criteria.  "
+"Documentation can be found at :ref:`library-index`."
+msgstr ""
+
+#: ../../glossary.rst:1290
+msgid ""
+"See also :data:`sys.stdlib_module_names` for a list of all possible standard "
+"library module names."
+msgstr ""
+
+#: ../../glossary.rst:1292
+msgid "statement"
+msgstr ""
+
+#: ../../glossary.rst:1294
 msgid ""
 "A statement is part of a suite (a \"block\" of code).  A statement is either "
 "an :term:`expression` or one of several constructs with a keyword, such as :"
 "keyword:`if`, :keyword:`while` or :keyword:`for`."
 msgstr ""
 
-#: ../../glossary.rst:1287
+#: ../../glossary.rst:1297
 msgid "static type checker"
 msgstr ""
 
-#: ../../glossary.rst:1289
+#: ../../glossary.rst:1299
 msgid ""
 "An external tool that reads Python code and analyzes it, looking for issues "
 "such as incorrect types. See also :term:`type hints <type hint>` and the :"
 "mod:`typing` module."
 msgstr ""
 
-#: ../../glossary.rst:1292
+#: ../../glossary.rst:1302
+msgid "stdlib"
+msgstr ""
+
+#: ../../glossary.rst:1304
+msgid "An abbreviation of :term:`standard library`."
+msgstr ""
+
+#: ../../glossary.rst:1305
 msgid "strong reference"
 msgstr ""
 
-#: ../../glossary.rst:1294
+#: ../../glossary.rst:1307
 msgid ""
 "In Python's C API, a strong reference is a reference to an object which is "
 "owned by the code holding the reference.  The strong reference is taken by "
@@ -2333,7 +2360,7 @@ msgid ""
 "c:func:`Py_DECREF` when the reference is deleted."
 msgstr ""
 
-#: ../../glossary.rst:1300
+#: ../../glossary.rst:1313
 msgid ""
 "The :c:func:`Py_NewRef` function can be used to create a strong reference to "
 "an object. Usually, the :c:func:`Py_DECREF` function must be called on the "
@@ -2341,38 +2368,38 @@ msgid ""
 "leaking one reference."
 msgstr ""
 
-#: ../../glossary.rst:1305
+#: ../../glossary.rst:1318
 msgid "See also :term:`borrowed reference`."
 msgstr ""
 
-#: ../../glossary.rst:1306
+#: ../../glossary.rst:1319
 msgid "text encoding"
 msgstr ""
 
-#: ../../glossary.rst:1308
+#: ../../glossary.rst:1321
 msgid ""
 "A string in Python is a sequence of Unicode code points (in range "
 "``U+0000``--``U+10FFFF``). To store or transfer a string, it needs to be "
 "serialized as a sequence of bytes."
 msgstr ""
 
-#: ../../glossary.rst:1312
+#: ../../glossary.rst:1325
 msgid ""
 "Serializing a string into a sequence of bytes is known as \"encoding\", and "
 "recreating the string from the sequence of bytes is known as \"decoding\"."
 msgstr ""
 
-#: ../../glossary.rst:1315
+#: ../../glossary.rst:1328
 msgid ""
 "There are a variety of different text serialization :ref:`codecs <standard-"
 "encodings>`, which are collectively referred to as \"text encodings\"."
 msgstr ""
 
-#: ../../glossary.rst:1318
+#: ../../glossary.rst:1331
 msgid "text file"
 msgstr ""
 
-#: ../../glossary.rst:1320
+#: ../../glossary.rst:1333
 msgid ""
 "A :term:`file object` able to read and write :class:`str` objects. Often, a "
 "text file actually accesses a byte-oriented datastream and handles the :term:"
@@ -2381,38 +2408,38 @@ msgid ""
 "instances of :class:`io.StringIO`."
 msgstr ""
 
-#: ../../glossary.rst:1327
+#: ../../glossary.rst:1340
 msgid ""
 "See also :term:`binary file` for a file object able to read and write :term:"
 "`bytes-like objects <bytes-like object>`."
 msgstr ""
 
-#: ../../glossary.rst:1329
+#: ../../glossary.rst:1342
 msgid "thread state"
 msgstr ""
 
-#: ../../glossary.rst:1332
+#: ../../glossary.rst:1345
 msgid ""
 "The information used by the :term:`CPython` runtime to run in an OS thread. "
 "For example, this includes the current exception, if any, and the state of "
 "the bytecode interpreter."
 msgstr ""
 
-#: ../../glossary.rst:1336
+#: ../../glossary.rst:1349
 msgid ""
 "Each thread state is bound to a single OS thread, but threads may have many "
 "thread states available.  At most, one of them may be :term:`attached "
 "<attached thread state>` at once."
 msgstr ""
 
-#: ../../glossary.rst:1340
+#: ../../glossary.rst:1353
 msgid ""
 "An :term:`attached thread state` is required to call most of Python's C API, "
 "unless a function explicitly documents otherwise. The bytecode interpreter "
 "only runs under an attached thread state."
 msgstr ""
 
-#: ../../glossary.rst:1344
+#: ../../glossary.rst:1357
 msgid ""
 "Each thread state belongs to a single interpreter, but each interpreter may "
 "have many thread states, including multiple for the same OS thread. Thread "
@@ -2421,34 +2448,34 @@ msgid ""
 "given moment."
 msgstr ""
 
-#: ../../glossary.rst:1350
+#: ../../glossary.rst:1363
 msgid ""
 "See :ref:`Thread State and the Global Interpreter Lock <threads>` for more "
 "information."
 msgstr ""
 
-#: ../../glossary.rst:1352
+#: ../../glossary.rst:1365
 msgid "token"
 msgstr ""
 
-#: ../../glossary.rst:1355
+#: ../../glossary.rst:1368
 msgid ""
 "A small unit of source code, generated by the :ref:`lexical analyzer "
 "<lexical>` (also called the *tokenizer*). Names, numbers, strings, "
 "operators, newlines and similar are represented by tokens."
 msgstr ""
 
-#: ../../glossary.rst:1360
+#: ../../glossary.rst:1373
 msgid ""
 "The :mod:`tokenize` module exposes Python's lexical analyzer. The :mod:"
 "`token` module contains information on the various types of tokens."
 msgstr ""
 
-#: ../../glossary.rst:1363
+#: ../../glossary.rst:1376
 msgid "triple-quoted string"
 msgstr ""
 
-#: ../../glossary.rst:1365
+#: ../../glossary.rst:1378
 msgid ""
 "A string which is bound by three instances of either a quotation mark (\") "
 "or an apostrophe (').  While they don't provide any functionality not "
@@ -2459,43 +2486,43 @@ msgid ""
 "docstrings."
 msgstr ""
 
-#: ../../glossary.rst:1372
+#: ../../glossary.rst:1385
 msgid "type"
 msgstr ""
 
-#: ../../glossary.rst:1374
+#: ../../glossary.rst:1387
 msgid ""
 "The type of a Python object determines what kind of object it is; every "
 "object has a type.  An object's type is accessible as its :attr:`~object."
 "__class__` attribute or can be retrieved with ``type(obj)``."
 msgstr ""
 
-#: ../../glossary.rst:1378
+#: ../../glossary.rst:1391
 msgid "type alias"
 msgstr ""
 
-#: ../../glossary.rst:1380
+#: ../../glossary.rst:1393
 msgid "A synonym for a type, created by assigning the type to an identifier."
 msgstr ""
 
-#: ../../glossary.rst:1382
+#: ../../glossary.rst:1395
 msgid ""
 "Type aliases are useful for simplifying :term:`type hints <type hint>`. For "
 "example::"
 msgstr ""
 
-#: ../../glossary.rst:1385
+#: ../../glossary.rst:1398
 msgid ""
 "def remove_gray_shades(\n"
 "        colors: list[tuple[int, int, int]]) -> list[tuple[int, int, int]]:\n"
 "    pass"
 msgstr ""
 
-#: ../../glossary.rst:1389
+#: ../../glossary.rst:1402
 msgid "could be made more readable like this::"
 msgstr ""
 
-#: ../../glossary.rst:1391
+#: ../../glossary.rst:1404
 msgid ""
 "Color = tuple[int, int, int]\n"
 "\n"
@@ -2503,38 +2530,38 @@ msgid ""
 "    pass"
 msgstr ""
 
-#: ../../glossary.rst:1396 ../../glossary.rst:1410
+#: ../../glossary.rst:1409 ../../glossary.rst:1423
 msgid "See :mod:`typing` and :pep:`484`, which describe this functionality."
 msgstr ""
 
-#: ../../glossary.rst:1397
+#: ../../glossary.rst:1410
 msgid "type hint"
 msgstr ""
 
-#: ../../glossary.rst:1399
+#: ../../glossary.rst:1412
 msgid ""
 "An :term:`annotation` that specifies the expected type for a variable, a "
 "class attribute, or a function parameter or return value."
 msgstr ""
 
-#: ../../glossary.rst:1402
+#: ../../glossary.rst:1415
 msgid ""
 "Type hints are optional and are not enforced by Python but they are useful "
 "to :term:`static type checkers <static type checker>`. They can also aid "
 "IDEs with code completion and refactoring."
 msgstr ""
 
-#: ../../glossary.rst:1406
+#: ../../glossary.rst:1419
 msgid ""
 "Type hints of global variables, class attributes, and functions, but not "
 "local variables, can be accessed using :func:`typing.get_type_hints`."
 msgstr ""
 
-#: ../../glossary.rst:1411
+#: ../../glossary.rst:1424
 msgid "universal newlines"
 msgstr ""
 
-#: ../../glossary.rst:1413
+#: ../../glossary.rst:1426
 msgid ""
 "A manner of interpreting text streams in which all of the following are "
 "recognized as ending a line: the Unix end-of-line convention ``'\\n'``, the "
@@ -2543,51 +2570,51 @@ msgid ""
 "splitlines` for an additional use."
 msgstr ""
 
-#: ../../glossary.rst:1418
+#: ../../glossary.rst:1431
 msgid "variable annotation"
 msgstr ""
 
-#: ../../glossary.rst:1420
+#: ../../glossary.rst:1433
 msgid "An :term:`annotation` of a variable or a class attribute."
 msgstr ""
 
-#: ../../glossary.rst:1422
+#: ../../glossary.rst:1435
 msgid ""
 "When annotating a variable or a class attribute, assignment is optional::"
 msgstr ""
 
-#: ../../glossary.rst:1424
+#: ../../glossary.rst:1437
 msgid ""
 "class C:\n"
 "    field: 'annotation'"
 msgstr ""
 
-#: ../../glossary.rst:1427
+#: ../../glossary.rst:1440
 msgid ""
 "Variable annotations are usually used for :term:`type hints <type hint>`: "
 "for example this variable is expected to take :class:`int` values::"
 msgstr ""
 
-#: ../../glossary.rst:1431
+#: ../../glossary.rst:1444
 msgid "count: int = 0"
 msgstr ""
 
-#: ../../glossary.rst:1433
+#: ../../glossary.rst:1446
 msgid "Variable annotation syntax is explained in section :ref:`annassign`."
 msgstr ""
 
-#: ../../glossary.rst:1435
+#: ../../glossary.rst:1448
 msgid ""
 "See :term:`function annotation`, :pep:`484` and :pep:`526`, which describe "
 "this functionality. Also see :ref:`annotations-howto` for best practices on "
 "working with annotations."
 msgstr ""
 
-#: ../../glossary.rst:1439
+#: ../../glossary.rst:1452
 msgid "virtual environment"
 msgstr ""
 
-#: ../../glossary.rst:1441
+#: ../../glossary.rst:1454
 msgid ""
 "A cooperatively isolated runtime environment that allows Python users and "
 "applications to install and upgrade Python distribution packages without "
@@ -2595,25 +2622,25 @@ msgid ""
 "same system."
 msgstr ""
 
-#: ../../glossary.rst:1446
+#: ../../glossary.rst:1459
 msgid "See also :mod:`venv`."
 msgstr ""
 
-#: ../../glossary.rst:1447
+#: ../../glossary.rst:1460
 msgid "virtual machine"
 msgstr ""
 
-#: ../../glossary.rst:1449
+#: ../../glossary.rst:1462
 msgid ""
 "A computer defined entirely in software.  Python's virtual machine executes "
 "the :term:`bytecode` emitted by the bytecode compiler."
 msgstr ""
 
-#: ../../glossary.rst:1451
+#: ../../glossary.rst:1464
 msgid "Zen of Python"
 msgstr ""
 
-#: ../../glossary.rst:1453
+#: ../../glossary.rst:1466
 msgid ""
 "Listing of Python design principles and philosophies that are helpful in "
 "understanding and using the language.  The listing can be found by typing "

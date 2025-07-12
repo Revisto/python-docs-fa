@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-20 14:21+0000\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 00:50+0000\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
 "fa/)\n"
@@ -400,10 +400,12 @@ msgid ""
 "mod:`!ast` Python module, which exports these constants under the same names."
 msgstr ""
 
-#: ../../c-api/veryhigh.rst:366
+#: ../../c-api/veryhigh.rst:364
 msgid ""
-"This bit can be set in *flags* to cause division operator ``/`` to be "
-"interpreted as \"true division\" according to :pep:`238`."
+"The \"``PyCF``\" flags above can be combined with \"``CO_FUTURE``\" flags "
+"such as :c:macro:`CO_FUTURE_ANNOTATIONS` to enable features normally "
+"selectable using :ref:`future statements <future>`. See :ref:"
+"`c_codeobject_flags` for a complete list."
 msgstr ""
 
 #: ../../c-api/veryhigh.rst:301 ../../c-api/veryhigh.rst:309

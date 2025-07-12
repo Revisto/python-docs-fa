@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-04 14:20+0000\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 00:48+0000\n"
 "Last-Translator: Alireza Shabani (Revisto) <theRevisto@gmail.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/python-doc/teams/5390/"
@@ -256,85 +256,191 @@ msgid ""
 "it before returning."
 msgstr ""
 
-#: ../../c-api/code.rst:215
+#: ../../c-api/code.rst:217
+msgid "Code Object Flags"
+msgstr ""
+
+#: ../../c-api/code.rst:219
+msgid ""
+"Code objects contain a bit-field of flags, which can be retrieved as the :"
+"attr:`~codeobject.co_flags` Python attribute (for example using :c:func:"
+"`PyObject_GetAttrString`), and set using a *flags* argument to :c:func:"
+"`PyUnstable_Code_New` and similar functions."
+msgstr ""
+
+#: ../../c-api/code.rst:224
+msgid ""
+"Flags whose names start with ``CO_FUTURE_`` correspond to features normally "
+"selectable by :ref:`future statements <future>`. These flags can be used in :"
+"c:member:`PyCompilerFlags.cf_flags`. Note that many ``CO_FUTURE_`` flags are "
+"mandatory in current versions of Python, and setting them has no effect."
+msgstr ""
+
+#: ../../c-api/code.rst:230
+msgid ""
+"The following flags are available. For their meaning, see the linked "
+"documentation of their Python equivalents."
+msgstr ""
+
+#: ../../c-api/code.rst:238
+msgid "Flag"
+msgstr ""
+
+#: ../../c-api/code.rst:239
+msgid "Meaning"
+msgstr ""
+
+#: ../../c-api/code.rst:241
+msgid ":py:data:`inspect.CO_OPTIMIZED`"
+msgstr ""
+
+#: ../../c-api/code.rst:243
+msgid ":py:data:`inspect.CO_NEWLOCALS`"
+msgstr ""
+
+#: ../../c-api/code.rst:245
+msgid ":py:data:`inspect.CO_VARARGS`"
+msgstr ""
+
+#: ../../c-api/code.rst:247
+msgid ":py:data:`inspect.CO_VARKEYWORDS`"
+msgstr ""
+
+#: ../../c-api/code.rst:249
+msgid ":py:data:`inspect.CO_NESTED`"
+msgstr ""
+
+#: ../../c-api/code.rst:251
+msgid ":py:data:`inspect.CO_GENERATOR`"
+msgstr ""
+
+#: ../../c-api/code.rst:253
+msgid ":py:data:`inspect.CO_COROUTINE`"
+msgstr ""
+
+#: ../../c-api/code.rst:255
+msgid ":py:data:`inspect.CO_ITERABLE_COROUTINE`"
+msgstr ""
+
+#: ../../c-api/code.rst:257
+msgid ":py:data:`inspect.CO_ASYNC_GENERATOR`"
+msgstr ""
+
+#: ../../c-api/code.rst:259
+msgid ":py:data:`inspect.CO_HAS_DOCSTRING`"
+msgstr ""
+
+#: ../../c-api/code.rst:261
+msgid ":py:data:`inspect.CO_METHOD`"
+msgstr ""
+
+#: ../../c-api/code.rst:264
+msgid "no effect (:py:data:`__future__.division`)"
+msgstr ""
+
+#: ../../c-api/code.rst:266
+msgid "no effect (:py:data:`__future__.absolute_import`)"
+msgstr ""
+
+#: ../../c-api/code.rst:268
+msgid "no effect (:py:data:`__future__.with_statement`)"
+msgstr ""
+
+#: ../../c-api/code.rst:270
+msgid "no effect (:py:data:`__future__.print_function`)"
+msgstr ""
+
+#: ../../c-api/code.rst:272
+msgid "no effect (:py:data:`__future__.unicode_literals`)"
+msgstr ""
+
+#: ../../c-api/code.rst:274
+msgid "no effect (:py:data:`__future__.generator_stop`)"
+msgstr ""
+
+#: ../../c-api/code.rst:276
+msgid ":py:data:`__future__.annotations`"
+msgstr ""
+
+#: ../../c-api/code.rst:280
 msgid "Extra information"
 msgstr ""
 
-#: ../../c-api/code.rst:217
+#: ../../c-api/code.rst:282
 msgid ""
 "To support low-level extensions to frame evaluation, such as external just-"
 "in-time compilers, it is possible to attach arbitrary extra data to code "
 "objects."
 msgstr ""
 
-#: ../../c-api/code.rst:221
+#: ../../c-api/code.rst:286
 msgid ""
 "These functions are part of the unstable C API tier: this functionality is a "
 "CPython implementation detail, and the API may change without deprecation "
 "warnings."
 msgstr ""
 
-#: ../../c-api/code.rst:227
+#: ../../c-api/code.rst:292
 msgid "Return a new an opaque index value used to adding data to code objects."
 msgstr ""
 
-#: ../../c-api/code.rst:229
+#: ../../c-api/code.rst:294
 msgid ""
 "You generally call this function once (per interpreter) and use the result "
 "with ``PyCode_GetExtra`` and ``PyCode_SetExtra`` to manipulate data on "
 "individual code objects."
 msgstr ""
 
-#: ../../c-api/code.rst:233
+#: ../../c-api/code.rst:298
 msgid ""
 "If *free* is not ``NULL``: when a code object is deallocated, *free* will be "
 "called on non-``NULL`` data stored under the new index. Use :c:func:"
 "`Py_DecRef` when storing :c:type:`PyObject`."
 msgstr ""
 
-#: ../../c-api/code.rst:239
+#: ../../c-api/code.rst:304
 msgid "as ``_PyEval_RequestCodeExtraIndex``"
 msgstr ""
 
-#: ../../c-api/code.rst:243
+#: ../../c-api/code.rst:308
 msgid ""
 "Renamed to ``PyUnstable_Eval_RequestCodeExtraIndex``. The old private name "
 "is deprecated, but will be available until the API changes."
 msgstr ""
 
-#: ../../c-api/code.rst:249
+#: ../../c-api/code.rst:314
 msgid ""
 "Set *extra* to the extra data stored under the given index. Return 0 on "
 "success. Set an exception and return -1 on failure."
 msgstr ""
 
-#: ../../c-api/code.rst:252
+#: ../../c-api/code.rst:317
 msgid ""
 "If no data was set under the index, set *extra* to ``NULL`` and return 0 "
 "without setting an exception."
 msgstr ""
 
-#: ../../c-api/code.rst:257
+#: ../../c-api/code.rst:322
 msgid "as ``_PyCode_GetExtra``"
 msgstr ""
 
-#: ../../c-api/code.rst:261
+#: ../../c-api/code.rst:326
 msgid ""
 "Renamed to ``PyUnstable_Code_GetExtra``. The old private name is deprecated, "
 "but will be available until the API changes."
 msgstr ""
 
-#: ../../c-api/code.rst:267
+#: ../../c-api/code.rst:332
 msgid ""
 "Set the extra data stored under the given index to *extra*. Return 0 on "
 "success. Set an exception and return -1 on failure."
 msgstr ""
 
-#: ../../c-api/code.rst:272
+#: ../../c-api/code.rst:337
 msgid "as ``_PyCode_SetExtra``"
 msgstr ""
 
-#: ../../c-api/code.rst:276
+#: ../../c-api/code.rst:341
 msgid ""
 "Renamed to ``PyUnstable_Code_SetExtra``. The old private name is deprecated, "
 "but will be available until the API changes."
@@ -360,14 +466,14 @@ msgstr ""
 msgid "PyCode_NewWithPosOnlyArgs (C function)"
 msgstr ""
 
-#: ../../c-api/code.rst:237
+#: ../../c-api/code.rst:302
 msgid "_PyEval_RequestCodeExtraIndex (C function)"
 msgstr ""
 
-#: ../../c-api/code.rst:255
+#: ../../c-api/code.rst:320
 msgid "_PyCode_GetExtra (C function)"
 msgstr ""
 
-#: ../../c-api/code.rst:270
+#: ../../c-api/code.rst:335
 msgid "_PyCode_SetExtra (C function)"
 msgstr ""
