@@ -29,7 +29,6 @@
 | extending/newtypes_tutorial.po | 4.6% | 0.0% | 0.0% |
 | library/datetime.po | 3.3% | 0.0% | 0.0% |
 | library/pwd.po | 3.1% | 0.0% | 0.0% |
-| c-api/exceptions.po | 2.9% | 0.0% | 0.0% |
 | c-api/utilities.po | 2.8% | 0.0% | 0.0% |
 | library/grp.po | 2.6% | 0.0% | 0.0% |
 | c-api/concrete.po | 2.2% | 0.0% | 0.0% |
@@ -40,10 +39,11 @@
 | library/zipimport.po | 1.9% | 0.0% | 0.0% |
 | library/tomllib.po | 1.9% | 0.0% | 0.0% |
 | library/internet.po | 1.8% | 0.0% | 0.0% |
+| c-api/exceptions.po | 1.7% | 0.0% | 0.0% |
 | reference/toplevel_components.po | 1.6% | 0.0% | 0.0% |
-| glossary.po | 1.5% | 0.0% | 0.0% |
 | c-api/method.po | 1.5% | 0.0% | 0.0% |
 | c-api/none.po | 1.5% | 0.0% | 0.0% |
+| glossary.po | 1.4% | 0.0% | 0.0% |
 | c-api/bytearray.po | 1.3% | 0.0% | 0.0% |
 | library/array.po | 1.3% | 0.0% | 0.0% |
 | library/io.po | 1.3% | 0.0% | 0.0% |
@@ -68,6 +68,7 @@
 | library/curses_ascii.po | 0.7% | 0.0% | 0.0% |
 | library/site.po | 0.7% | 0.0% | 0.0% |
 | library/types.po | 0.7% | 0.0% | 0.0% |
+| c-api/code.po | 0.6% | 0.0% | 0.0% |
 | c-api/init_config.po | 0.6% | 0.0% | 0.0% |
 | c-api/typeobj.po | 0.6% | 0.0% | 0.0% |
 | library/asyncio-exceptions.po | 0.6% | 0.0% | 0.0% |
@@ -76,7 +77,6 @@
 | library/webbrowser.po | 0.6% | 0.0% | 0.0% |
 | reference/compound_stmts.po | 0.6% | 0.0% | 0.0% |
 | reference/lexical_analysis.po | 0.6% | 0.0% | 0.0% |
-| c-api/code.po | 0.5% | 0.0% | 0.0% |
 | c-api/complex.po | 0.5% | 0.0% | 0.0% |
 | c-api/sequence.po | 0.5% | 0.0% | 0.0% |
 | library/asyncio-api-index.po | 0.5% | 0.0% | 0.0% |
@@ -122,7 +122,6 @@
 | c-api/intro.po | 0.2% | 0.0% | 0.0% |
 | c-api/object.po | 0.2% | 0.0% | 0.0% |
 | c-api/refcounting.po | 0.2% | 0.0% | 0.0% |
-| c-api/structures.po | 0.2% | 0.0% | 0.0% |
 | c-api/tuple.po | 0.2% | 0.0% | 0.0% |
 | c-api/type.po | 0.2% | 0.0% | 0.0% |
 | extending/newtypes.po | 0.2% | 0.0% | 0.0% |
@@ -133,7 +132,6 @@
 | howto/ipaddress.po | 0.2% | 0.0% | 0.0% |
 | howto/sorting.po | 0.2% | 0.0% | 0.0% |
 | howto/urllib2.po | 0.2% | 0.0% | 0.0% |
-| library/__future__.po | 0.2% | 0.0% | 0.0% |
 | library/asyncio-subprocess.po | 0.2% | 0.0% | 0.0% |
 | library/cmath.po | 0.2% | 0.0% | 0.0% |
 | library/copy.po | 0.2% | 0.0% | 0.0% |
@@ -163,6 +161,7 @@
 | c-api/capsule.po | 0.1% | 0.0% | 0.0% |
 | c-api/long.po | 0.1% | 0.0% | 0.0% |
 | c-api/module.po | 0.1% | 0.0% | 0.0% |
+| c-api/structures.po | 0.1% | 0.0% | 0.0% |
 | extending/embedding.po | 0.1% | 0.0% | 0.0% |
 | faq/extending.po | 0.1% | 0.0% | 0.0% |
 | faq/general.po | 0.1% | 0.0% | 0.0% |
@@ -306,6 +305,7 @@
 | howto/logging.po | 0.0% | 0.0% | 0.0% |
 | howto/unicode.po | 0.0% | 0.0% | 0.0% |
 | installing/index.po | 0.0% | 0.0% | 0.0% |
+| library/__future__.po | 0.0% | 0.0% | 0.0% |
 | library/__main__.po | 0.0% | 0.0% | 0.0% |
 | library/allos.po | 0.0% | 0.0% | 0.0% |
 | library/archiving.po | 0.0% | 0.0% | 0.0% |

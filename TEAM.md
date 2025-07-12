@@ -1,7 +1,7 @@
 | User | Role | Translated Count | Reviewed Count | Proofread Count |
 |:-----|:------:|:------------------:|:-------------------:|:----------------------:|
-| Revisto | coordinator | 3982 | 30 | 0 |
-| danialbehzadi | reviewer | 741 | 5 | 0 |
+| Revisto | coordinator | 3983 (+1) | 30 | 0 |
+| danialbehzadi | reviewer | 677 | 5 | 0 |
 | khosro_o | reviewer | 63 | 87 | 0 |
 | Ramiz_222 | reviewer | 10 | 82 | 0 |
 | ParhamF | translator | 41 | 0 | 0 |
