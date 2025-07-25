@@ -652,9 +652,9 @@ msgid ""
 "<bufferobjects>`, a read-only buffer of the object will be used to "
 "initialize the bytes array."
 msgstr ""
-"اگر «*source*» یک *شیء* باشد که از  \\:ref\\:`buffer interface "
-"<bufferobjects>`, رابط بافر پیروی می‌کند، از یک بافر فقط-خواندنیِ آن شیء برای "
-"مقداردهی اولیه آرایه بایت‌ها استفاده خواهد شد."
+"اگر «source» یک شیء باشد که از :ref:buffer interface <bufferobjects> پیروی "
+"می‌کند، از یک بافر فقط‌خواندنیِ آن شیء برای مقداردهی اولیهٔ آرایهٔ بایت‌ها استفاده "
+"خواهد شد."
 
 #: ../../library/functions.rst:208
 msgid ""
