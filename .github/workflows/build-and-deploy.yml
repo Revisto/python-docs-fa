@@ -48,12 +48,6 @@ jobs:
           cd sphinx-rtl
           ../Doc/venv/bin/pip install -e .
           
-      - name: Verify custom Sphinx installation
-        run: |
-          ../Doc/venv/bin/sphinx-build --version
-          echo "Sphinx location:"
-          ../Doc/venv/bin/python -c "import sphinx; print(sphinx.__file__)"
-        
       - name: Checkout translation files
         uses: actions/checkout@v4
         with:
