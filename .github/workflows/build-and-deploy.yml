@@ -32,17 +32,14 @@ jobs:
         with:
           python-version: '3.11'
           
-      - name: Checkout custom Sphinx fork
-        uses: actions/checkout@v4
-        with:
-          repository: Revisto/sphinx
-          ref: rtl-support
-          path: sphinx-rtl
-          
       - name: Setup virtual environment
         run: make venv
         working-directory: ./Doc
         
+      - name: Install custom Sphinx in Doc venv
+        run: |
+          ../Doc/venv/bin/pip install git+https://github.com/revisto/sphinx.git@sphinx-rtl
+          
       - name: Checkout translation files
         uses: actions/checkout@v4
         with:
