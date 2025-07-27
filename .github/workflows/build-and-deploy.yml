@@ -39,14 +39,20 @@ jobs:
           ref: rtl-support
           path: sphinx-rtl
           
-      - name: Install custom Sphinx
-        run: |
-          cd sphinx-rtl
-          pip install -e .
-          
       - name: Setup virtual environment
         run: make venv
         working-directory: ./Doc
+        
+      - name: Install custom Sphinx in Doc venv
+        run: |
+          cd sphinx-rtl
+          ../Doc/venv/bin/pip install -e .
+          
+      - name: Verify custom Sphinx installation
+        run: |
+          ../Doc/venv/bin/sphinx-build --version
+          echo "Sphinx location:"
+          ../Doc/venv/bin/python -c "import sphinx; print(sphinx.__file__)"
         
       - name: Checkout translation files
         uses: actions/checkout@v4
