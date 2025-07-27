@@ -43,11 +43,6 @@ jobs:
         run: make venv
         working-directory: ./Doc
         
-      - name: Install custom Sphinx in Doc venv
-        run: |
-          cd sphinx-rtl
-          ../Doc/venv/bin/pip install -e .
-          
       - name: Checkout translation files
         uses: actions/checkout@v4
         with:
