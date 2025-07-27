@@ -68,7 +68,7 @@ all: ensure_prerequisites
 	  -D latex_engine=xelatex           \
 	  -D latex_elements.inputenc=       \
 	  -D latex_elements.fontenc=        \
-	  -D is_rtl=True                    \
+	  -D html_theme_options.is_rtl=True \
 	  $(ADDITIONAL_ARGS)'               \
 	  SPHINXERRORHANDLING=$(SPHINXERRORHANDLING) \
 	  $(MODE)
