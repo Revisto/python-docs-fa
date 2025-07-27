@@ -38,7 +38,7 @@ jobs:
         
       - name: Install custom Sphinx in Doc venv
         run: |
-          ../Doc/venv/bin/pip install git+https://github.com/revisto/sphinx.git@sphinx-rtl
+          ./Doc/venv/bin/pip install git+https://github.com/revisto/sphinx.git@sphinx-rtl
           
       - name: Checkout translation files
         uses: actions/checkout@v4
