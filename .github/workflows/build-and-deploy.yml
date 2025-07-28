@@ -38,7 +38,7 @@ jobs:
         
       - name: Install custom Sphinx in Doc venv
         run: |
-          ./Doc/venv/bin/pip install git+https://github.com/revisto/sphinx.git@rtl-support
+          ./Doc/venv/bin/pip install git+https://github.com/revisto/sphinx.git@stable/v8.2.3-rtl
           
       - name: Checkout translation files
         uses: actions/checkout@v4
@@ -53,7 +53,7 @@ jobs:
         uses: sphinx-doc/github-problem-matcher@v1.1
         
       - name: Build documentation
-        run: make -e SPHINXOPTS="--color -D language='fa' -D gettext_allow_fuzzy_translations=1 -D html_theme_options.is_rtl=True -D extensions=audit_events,availability,c_annotations,changes,implementation_detail,issue_role,lexers,misc_news,pydoc_topics,pyspecific,sphinx.ext.coverage,sphinx.ext.doctest,sphinx.ext.extlinks,notfound.extension,sphinxext.opengraph,python_docs_theme -W --keep-going" html
+        run: make -e SPHINXOPTS="--color -D language='fa' -D gettext_allow_fuzzy_translations=1 -D html_theme_options.is_rtl=True -W --keep-going" html
         working-directory: ./Doc
         
       - name: Setup Pages
