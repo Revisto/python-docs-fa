@@ -91,7 +91,7 @@ msgid ""
 "Descriptors for nested definitions.  They are accessed through the new "
 "children attribute.  Each has a new parent attribute."
 msgstr ""
-"توصیف‌گرها (descriptors) برای تعریف‌های تودرتو. این توصیف‌گرها از طریق ویژگی"
+"توصیف‌گرها برای تعریف‌های تودرتو. این توصیف‌گرها از طریق ویژگی"
 " جدید children قابل دسترسی هستند. هر کدام یک ویژگی جدید parent دارد."
 
 msgid ""
@@ -112,7 +112,7 @@ msgstr ""
 " تعریف شده‌اند. این نمونه‌ها ویژگی‌های زیر را دارند:"
 
 msgid "Name of the file in which the function is defined."
-msgstr "نام فایلی که تابع در آن تعریف شده است."
+msgstr "نام پرونده‌ای که تابع در آن تعریف شده است."
 
 msgid "The name of the module defining the function described."
 msgstr "نام ماژولی که تابع توصیف‌شده را تعریف می‌کند."
@@ -121,7 +121,7 @@ msgid "The name of the function."
 msgstr "نام تابع."
 
 msgid "The line number in the file where the definition starts."
-msgstr "شماره‌ی خط در فایلی که تعریف در آن آغاز می‌شود."
+msgstr "شماره‌ی خط در پرونده‌ای که تعریف در آن آغاز می‌شود."
 
 msgid "For top-level functions, ``None``.  For nested functions, the parent."
 msgstr "برای توابع سطح بالا، ``None``. برای توابع تودرتو، والد."
@@ -153,7 +153,7 @@ msgstr ""
 " دارند و ۲ ویژگی دیگر نیز دارند."
 
 msgid "Name of the file in which the class is defined."
-msgstr "نام فایلی که کلاس در آن تعریف شده است."
+msgstr "نام پرونده‌ای که کلاس در آن تعریف شده است."
 
 msgid "The name of the module defining the class described."
 msgstr "نام ماژولی که کلاس توصیف‌شده را تعریف می‌کند."

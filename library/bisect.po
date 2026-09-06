@@ -75,7 +75,7 @@ msgstr ""
 "چندین نخ ممکن است باعث شود فهرست نامرتب شود."
 
 msgid "The following functions are provided:"
-msgstr "تابع‌های زیر ارائه شده‌اند:"
+msgstr "توابع زیر ارائه شده‌اند:"
 
 msgid ""
 "Locate the insertion point for *x* in *a* to maintain sorted order. The "

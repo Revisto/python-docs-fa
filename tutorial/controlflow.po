@@ -215,7 +215,7 @@ msgid "In many ways the object returned by :func:`range` behaves as if it is a l
 msgstr "از بسیاری جهات، شی‌ءای که توسط :func:`range` برگردانده می‌شود طوری رفتار می‌کند که گویی یک فهرست است، اما در واقع چنین نیست. این یک شیء است که هنگام پیمایش، آیتم‌های متوالی دنباله‌ی موردنظر را برمی‌گرداند، اما واقعاً فهرست را ایجاد نمی‌کند و در نتیجه در فضا صرفه‌جویی می‌شود."
 
 msgid "We say such an object is :term:`iterable`, that is, suitable as a target for functions and constructs that expect something from which they can obtain successive items until the supply is exhausted.  We have seen that the :keyword:`for` statement is such a construct, while an example of a function that takes an iterable is :func:`sum`::"
-msgstr "می‌گوییم چنین شی‌ءای :term:`پیمایش‌پذیر <iterable>` است؛ یعنی برای استفاده به‌عنوان هدف تابع‌ها و ساختارهایی مناسب است که انتظار دارند چیزی وجود داشته باشد که بتوانند از آن آیتم‌های متوالی را تا زمانی که چیزی باقی نمانده است دریافت کنند. دیدیم که دستور :keyword:`for` چنین ساختاری است، در حالی که نمونه‌ای از تابعی که یک شیء پیمایش‌پذیر دریافت می‌کند :func:`sum` است::"
+msgstr "می‌گوییم چنین شی‌ءای :term:`پیمایش‌پذیر <iterable>` است؛ یعنی برای استفاده به‌عنوان هدف توابع و ساختارهایی مناسب است که انتظار دارند چیزی وجود داشته باشد که بتوانند از آن آیتم‌های متوالی را تا زمانی که چیزی باقی نمانده است دریافت کنند. دیدیم که دستور :keyword:`for` چنین ساختاری است، در حالی که نمونه‌ای از تابعی که یک شیء پیمایش‌پذیر دریافت می‌کند :func:`sum` است::"
 
 msgid ""
 ">>> sum(range(4))  # 0 + 1 + 2 + 3\n"
@@ -225,7 +225,7 @@ msgstr ""
 "6"
 
 msgid "Later we will see more functions that return iterables and take iterables as arguments.  In chapter :ref:`tut-structures`, we will discuss :func:`list` in more detail."
-msgstr "بعداً تابع‌های بیشتری را خواهیم دید که اشیای پیمایش‌پذیر برمی‌گردانند و اشیای پیمایش‌پذیر را به‌عنوان آرگومان دریافت می‌کنند. در فصل :ref:`tut-structures`، درباره‌ی :func:`list` با جزئیات بیشتری صحبت خواهیم کرد."
+msgstr "بعداً توابع بیشتری را خواهیم دید که اشیای پیمایش‌پذیر برمی‌گردانند و اشیای پیمایش‌پذیر را به‌عنوان آرگومان دریافت می‌کنند. در فصل :ref:`tut-structures`، درباره‌ی :func:`list` با جزئیات بیشتری صحبت خواهیم کرد."
 
 msgid ":keyword:`!break` and :keyword:`!continue` Statements"
 msgstr "دستورهای :keyword:`!break` و :keyword:`!continue`"
@@ -688,7 +688,7 @@ msgid "The first statement of the function body can optionally be a string liter
 msgstr "اولین دستور بدنه‌ی تابع می‌تواند به‌صورت اختیاری یک رشته‌ی لفظی باشد؛ این رشته‌ی لفظی، رشته‌ی مستندات تابع یا :dfn:`docstring` است. (اطلاعات بیشتر درباره‌ی رشته‌های مستندات را می‌توانید در بخش :ref:`tut-docstrings` پیدا کنید.) ابزارهایی وجود دارند که از docstringها برای تولید خودکار مستندات آنلاین یا چاپی، یا برای اجازه دادن به کاربر جهت مرور تعاملی کد استفاده می‌کنند؛ بهتر است در کدی که می‌نویسید docstringها را قرار دهید، بنابراین آن را به یک عادت تبدیل کنید."
 
 msgid "The *execution* of a function introduces a new symbol table used for the local variables of the function.  More precisely, all variable assignments in a function store the value in the local symbol table; whereas variable references first look in the local symbol table, then in the local symbol tables of enclosing functions, then in the global symbol table, and finally in the table of built-in names. Thus, global variables and variables of enclosing functions cannot be directly assigned a value within a function (unless, for global variables, named in a :keyword:`global` statement, or, for variables of enclosing functions, named in a :keyword:`nonlocal` statement), although they may be referenced."
-msgstr "*اجرای* یک تابع، یک جدول نماد جدید ایجاد می‌کند که برای متغیرهای محلی تابع استفاده می‌شود. به‌طور دقیق‌تر، تمام انتساب‌های متغیر در یک تابع، مقدار را در جدول نماد محلی ذخیره می‌کنند؛ در حالی که ارجاع‌های متغیر ابتدا در جدول نماد محلی، سپس در جدول‌های نماد محلی تابع‌های دربرگیرنده، سپس در جدول نماد سراسری، و در نهایت در جدول نام‌های توکار جست‌وجو می‌شوند. بنابراین، متغیرهای سراسری و متغیرهای تابع‌های دربرگیرنده نمی‌توانند مستقیماً درون یک تابع مقداردهی شوند (مگر اینکه برای متغیرهای سراسری با یک دستور :keyword:`global`، یا برای متغیرهای تابع‌های دربرگیرنده با یک دستور :keyword:`nonlocal` نام‌گذاری شده باشند)، اگرچه می‌توان به آن‌ها ارجاع داد."
+msgstr "*اجرای* یک تابع، یک جدول نماد جدید ایجاد می‌کند که برای متغیرهای محلی تابع استفاده می‌شود. به‌طور دقیق‌تر، تمام انتساب‌های متغیر در یک تابع، مقدار را در جدول نماد محلی ذخیره می‌کنند؛ در حالی که ارجاع‌های متغیر ابتدا در جدول نماد محلی، سپس در جدول‌های نماد محلی توابع دربرگیرنده، سپس در جدول نماد سراسری، و در نهایت در جدول نام‌های توکار جست‌وجو می‌شوند. بنابراین، متغیرهای سراسری و متغیرهای توابع دربرگیرنده نمی‌توانند مستقیماً درون یک تابع مقداردهی شوند (مگر اینکه برای متغیرهای سراسری با یک دستور :keyword:`global`، یا برای متغیرهای توابع دربرگیرنده با یک دستور :keyword:`nonlocal` نام‌گذاری شده باشند)، اگرچه می‌توان به آن‌ها ارجاع داد."
 
 msgid "The actual parameters (arguments) to a function call are introduced in the local symbol table of the called function when it is called; thus, arguments are passed using *call by value* (where the *value* is always an object *reference*, not the value of the object). [#]_ When a function calls another function, or calls itself recursively, a new local symbol table is created for that call."
 msgstr "پارامترهای واقعی (آرگومان‌ها) در یک فراخوانی تابع، هنگام فراخوانی تابع در جدول نماد محلی تابع فراخوانی‌شده قرار می‌گیرند؛ بنابراین، آرگومان‌ها با استفاده از *انتقال با مقدار* (*call by value*) ارسال می‌شوند (که در آن *مقدار* همیشه یک ارجاع به شیء است، نه مقدار خود شیء). [#]_ هنگامی که یک تابع، تابع دیگری را فراخوانی می‌کند یا به‌صورت بازگشتی خودش را فراخوانی می‌کند، یک جدول نماد محلی جدید برای آن فراخوانی ایجاد می‌شود."
@@ -710,7 +710,7 @@ msgstr ""
 "0 1 1 2 3 5 8 13 21 34 55 89"
 
 msgid "Coming from other languages, you might object that ``fib`` is not a function but a procedure since it doesn't return a value.  In fact, even functions without a :keyword:`return` statement do return a value, albeit a rather boring one.  This value is called ``None`` (it's a built-in name).  Writing the value ``None`` is normally suppressed by the interpreter if it would be the only value written. You can see it if you really want to using :func:`print`::"
-msgstr "اگر از زبان‌های دیگر آمده باشید، ممکن است اعتراض کنید که ``fib`` یک تابع نیست، بلکه یک رویه (*procedure*) است، زیرا مقداری برنمی‌گرداند. در واقع، حتی تابع‌هایی که دستور :keyword:`return` ندارند نیز یک مقدار برمی‌گردانند، هرچند مقدار نسبتاً بی‌اهمیتی است. این مقدار ``None`` نام دارد (که یک نام توکار است). نوشتن مقدار ``None`` معمولاً توسط مفسر حذف می‌شود اگر تنها مقداری باشد که قرار است نوشته شود. اگر واقعاً بخواهید می‌توانید آن را با استفاده از :func:`print` ببینید::"
+msgstr "اگر از زبان‌های دیگر آمده باشید، ممکن است اعتراض کنید که ``fib`` یک تابع نیست، بلکه یک رویه (*procedure*) است، زیرا مقداری برنمی‌گرداند. در واقع، حتی توابعی که دستور :keyword:`return` ندارند نیز یک مقدار برمی‌گردانند، هرچند مقدار نسبتاً بی‌اهمیتی است. این مقدار ``None`` نام دارد (که یک نام توکار است). نوشتن مقدار ``None`` معمولاً توسط مفسر حذف می‌شود اگر تنها مقداری باشد که قرار است نوشته شود. اگر واقعاً بخواهید می‌توانید آن را با استفاده از :func:`print` ببینید::"
 
 msgid ""
 ">>> fib(0)\n"
@@ -761,10 +761,10 @@ msgid "The statement ``result.append(a)`` calls a *method* of the list object ``
 msgstr "دستور ``result.append(a)`` یک *متد* از شیء فهرست ``result`` را فراخوانی می‌کند. یک متد تابعی است که به یک شیء «تعلق دارد» و با قالب ``obj.methodname`` نام‌گذاری می‌شود؛ در اینجا ``obj`` یک شیء (که می‌تواند یک عبارت باشد) و ``methodname`` نام متدی است که توسط نوع شیء تعریف شده است. نوع‌های مختلف، متدهای متفاوتی تعریف می‌کنند. متدهای نوع‌های مختلف می‌توانند نام یکسانی داشته باشند، بدون اینکه ابهامی ایجاد شود. (می‌توان با استفاده از *کلاس‌ها* نوع‌ها و متدهای شیء سفارشی خود را تعریف کرد؛ به :ref:`tut-classes` مراجعه کنید.) متد :meth:`~list.append` که در مثال نشان داده شده است برای اشیای فهرست تعریف شده است؛ این متد یک عنصر جدید را به انتهای فهرست اضافه می‌کند. در این مثال، معادل ``result = result + [a]`` است، اما کارآمدتر است."
 
 msgid "More on Defining Functions"
-msgstr "اطلاعات بیشتر درباره‌ی تعریف تابع‌ها"
+msgstr "اطلاعات بیشتر درباره‌ی تعریف توابع"
 
 msgid "It is also possible to define functions with a variable number of arguments. There are three forms, which can be combined."
-msgstr "همچنین امکان تعریف تابع‌هایی با تعداد متغیری از آرگومان‌ها وجود دارد. سه شکل وجود دارد که می‌توان آن‌ها را با یکدیگر ترکیب کرد."
+msgstr "همچنین امکان تعریف توابعی با تعداد متغیری از آرگومان‌ها وجود دارد. سه شکل وجود دارد که می‌توان آن‌ها را با یکدیگر ترکیب کرد."
 
 msgid "Default Argument Values"
 msgstr "مقدارهای پیش‌فرض آرگومان‌ها"
@@ -887,7 +887,7 @@ msgid "Keyword Arguments"
 msgstr "آرگومان‌های کلیدواژه‌ای"
 
 msgid "Functions can also be called using :term:`keyword arguments <keyword argument>` of the form ``kwarg=value``.  For instance, the following function::"
-msgstr "تابع‌ها همچنین می‌توانند با استفاده از :term:`آرگومان کلیدواژه‌ای <keyword argument>` به شکل ``kwarg=value`` فراخوانی شوند. برای نمونه، تابع زیر::"
+msgstr "توابع همچنین می‌توانند با استفاده از :term:`آرگومان کلیدواژه‌ای <keyword argument>` به شکل ``kwarg=value`` فراخوانی شوند. برای نمونه، تابع زیر::"
 
 msgid ""
 "def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):\n"
@@ -1471,7 +1471,7 @@ msgid "Wrap lines so that they don't exceed 79 characters."
 msgstr "خطوط را طوری شکسته‌بندی کنید که بیشتر از ۷۹ نویسه نباشند."
 
 msgid "This helps users with small displays and makes it possible to have several code files side-by-side on larger displays."
-msgstr "این کار به کاربرانی که نمایشگرهای کوچک دارند کمک می‌کند و امکان نمایش چندین فایل کد در کنار یکدیگر را در نمایشگرهای بزرگ‌تر فراهم می‌سازد."
+msgstr "این کار به کاربرانی که نمایشگرهای کوچک دارند کمک می‌کند و امکان نمایش چندین پرونده کد در کنار یکدیگر را در نمایشگرهای بزرگ‌تر فراهم می‌سازد."
 
 msgid "Use blank lines to separate functions and classes, and larger blocks of code inside functions."
 msgstr "برای جدا کردن توابع و کلاس‌ها، و همچنین بلوک‌های بزرگ‌تر کد درون توابع، از خطوط خالی استفاده کنید."

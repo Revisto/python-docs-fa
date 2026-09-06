@@ -253,7 +253,7 @@ msgid ""
 "Recommended locations of the directories containing the include files needed"
 " for developing Python extensions and embedding the interpreter."
 msgstr ""
-"مکان‌های توصیه‌شده‌ی پوشه‌های حاوی فایل‌های سرآیند (include) لازم برای توسعه"
+"مکان‌های توصیه‌شده‌ی پوشه‌های حاوی پرونده‌های سرآیند لازم برای توسعه"
 " دادن ماژول‌های توسعه‌ای پایتون و تعبیه کردن مفسر."
 
 msgid "Miscellaneous"

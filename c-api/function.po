@@ -169,7 +169,7 @@ msgid ""
 "``Py_None`` or a tuple of cell objects."
 msgstr ""
 "بستار مرتبط با شیء تابع *op* را تنظیم می‌کند. *closure* باید ``Py_None`` یا "
-"تاپلی از اشیاء سلول (cell) باشد."
+"تاپلی از اشیاء سلول باشد."
 
 msgid ""
 "Return the annotations of the function object *op*. This can be a mutable "

@@ -72,7 +72,7 @@ msgid ""
 "Policy objects should implement the APIs defined in the "
 ":class:`AbstractEventLoopPolicy` abstract base class."
 msgstr ""
-"اشیای سیاست (Policy) باید APIهای تعریف‌شده در کلاس پایه انتزاعی "
+"اشیای سیاست باید APIهای تعریف‌شده در کلاس پایه انتزاعی "
 ":class:`AbstractEventLoopPolicy` را پیاده‌سازی کنند."
 
 msgid "Getting and Setting the Policy"

@@ -55,10 +55,10 @@ msgid "Selection of a target object occurs as follows:"
 msgstr "انتخاب یک شیء هدف به صورت زیر انجام می‌شود:"
 
 msgid "Top-down search of the area under the mouse for a target widget:"
-msgstr "جستجوی بالا به پایین در ناحیه‌ی زیر ماوس برای یک ابزارک هدف (widget):"
+msgstr "جستجوی بالا به پایین در ناحیه‌ی زیر ماوس برای یک ابزارک هدف :"
 
 msgid "the target widget should have a callable *dnd_accept* attribute;"
-msgstr "ابزارک هدف باید یک ویژگی *dnd_accept* قابل فراخوانی داشته باشد؛"
+msgstr "ابزارک هدف باید یک ویژگی *dnd_accept* فراخوانی‌پذیر داشته باشد؛"
 
 msgid ""
 "if *dnd_accept* is not present or returns ``None``, the search moves to the "

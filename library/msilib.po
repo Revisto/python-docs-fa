@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid ":mod:`!msilib` --- Read and write Microsoft Installer files"
-msgstr ":mod:`!msilib` --- خواندن و نوشتن فایل‌های Microsoft Installer"
+msgstr ":mod:`!msilib` --- خواندن و نوشتن پرونده‌های Microsoft Installer"
 
 msgid ""
 "This module is no longer part of the Python standard library. It was "

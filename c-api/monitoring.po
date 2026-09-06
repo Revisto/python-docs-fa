@@ -109,7 +109,7 @@ msgid "Fire a ``PY_YIELD`` event."
 msgstr "رویداد ``PY_YIELD`` را فعال می‌کند."
 
 msgid "Fire a ``CALL`` event."
-msgstr "رویداد ``CALL`` را صادر می‌کند."
+msgstr "رویداد ``CALL`` را اکسپورت می‌کند."
 
 msgid "Fire a ``LINE`` event."
 msgstr "رویداد ``LINE`` فعال می‌شود."
@@ -152,7 +152,7 @@ msgid ""
 ":c:func:`PyErr_GetRaisedException`)."
 msgstr ""
 "رویداد ``RERAISE`` را با استثنای فعلی (که توسط "
-":c:func:`PyErr_GetRaisedException` برگردانده می‌شود) صادر می‌کند."
+":c:func:`PyErr_GetRaisedException` برگردانده می‌شود) اکسپورت می‌کند."
 
 msgid ""
 "Fire an ``EXCEPTION_HANDLED`` event with the current exception (as returned "

@@ -40,7 +40,7 @@ msgid ""
 "things with timeouts."
 msgstr ""
 "ابزارهایی برای اجرای برنامه‌های asyncio، ایجاد Taskها، و await روی چندین "
-"چیز با مهلت‌های زمانی (timeouts)."
+"چیز با مهلت‌های زمانی ."
 
 msgid ":func:`run`"
 msgstr ":func:`run`"
@@ -105,7 +105,7 @@ msgid "``await`` :func:`wait_for`"
 msgstr "``await`` :func:`wait_for`"
 
 msgid "Run with a timeout."
-msgstr "با یک محدودیت زمانی (timeout) اجرا کنید."
+msgstr "با یک محدودیت زمانی اجرا کنید."
 
 msgid "``await`` :func:`shield`"
 msgstr "``await`` :func:`shield`"

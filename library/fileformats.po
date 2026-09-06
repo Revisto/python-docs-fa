@@ -22,11 +22,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid "File Formats"
-msgstr "قالب‌های فایل"
+msgstr "قالب‌های پرونده"
 
 msgid ""
 "The modules described in this chapter parse various miscellaneous file "
 "formats that aren't markup languages and are not related to e-mail."
 msgstr ""
-"ماژول‌های توصیف‌شده در این فصل، قالب‌های فایل متفرقه و گوناگونی را تجزیه "
+"ماژول‌های توصیف‌شده در این فصل، قالب‌های پرونده متفرقه و گوناگونی را تجزیه "
 "می‌کنند که زبان‌های نمادگذاری نیستند و به ایمیل مربوط نمی‌شوند."

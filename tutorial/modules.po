@@ -27,13 +27,13 @@ msgid "Modules"
 msgstr "ماژول‌ها"
 
 msgid "If you quit from the Python interpreter and enter it again, the definitions you have made (functions and variables) are lost. Therefore, if you want to write a somewhat longer program, you are better off using a text editor to prepare the input for the interpreter and running it with that file as input instead.  This is known as creating a *script*.  As your program gets longer, you may want to split it into several files for easier maintenance.  You may also want to use a handy function that you've written in several programs without copying its definition into each program."
-msgstr "اگر از مفسر پایتون خارج شوید و دوباره وارد آن شوید، تعریف‌هایی که ایجاد کرده‌اید (تابع‌ها و متغیرها) از بین می‌روند. بنابراین، اگر می‌خواهید برنامه‌ای نسبتاً طولانی‌تر بنویسید، بهتر است به‌جای آن از یک ویرایشگر متن برای آماده‌سازی ورودی مفسر استفاده کنید و آن را با استفاده از آن فایل به‌عنوان ورودی اجرا کنید. این کار با نام ایجاد یک *اسکریپت* شناخته می‌شود. هرچه برنامه‌ی شما طولانی‌تر شود، ممکن است بخواهید آن را برای نگهداری آسان‌تر به چندین فایل تقسیم کنید. همچنین ممکن است بخواهید از یک تابع کاربردی که در چندین برنامه نوشته‌اید، بدون کپی کردن تعریف آن در هر برنامه استفاده کنید."
+msgstr "اگر از مفسر پایتون خارج شوید و دوباره وارد آن شوید، تعریف‌هایی که ایجاد کرده‌اید (توابع و متغیرها) از بین می‌روند. بنابراین، اگر می‌خواهید برنامه‌ای نسبتاً طولانی‌تر بنویسید، بهتر است به‌جای آن از یک ویرایشگر متن برای آماده‌سازی ورودی مفسر استفاده کنید و آن را با استفاده از آن پرونده به‌عنوان ورودی اجرا کنید. این کار با نام ایجاد یک *اسکریپت* شناخته می‌شود. هرچه برنامه‌ی شما طولانی‌تر شود، ممکن است بخواهید آن را برای نگهداری آسان‌تر به چندین پرونده تقسیم کنید. همچنین ممکن است بخواهید از یک تابع کاربردی که در چندین برنامه نوشته‌اید، بدون کپی کردن تعریف آن در هر برنامه استفاده کنید."
 
 msgid "To support this, Python has a way to put definitions in a file and use them in a script or in an interactive instance of the interpreter. Such a file is called a *module*; definitions from a module can be *imported* into other modules or into the *main* module (the collection of variables that you have access to in a script executed at the top level and in calculator mode)."
-msgstr "برای پشتیبانی از این کار، پایتون روشی دارد که به شما اجازه می‌دهد تعریف‌ها را در یک فایل قرار دهید و از آن‌ها در یک اسکریپت یا در یک نمونه‌ی تعاملی از مفسر استفاده کنید. چنین فایلی یک *ماژول* نامیده می‌شود؛ تعریف‌های یک ماژول را می‌توان به ماژول‌های دیگر یا به ماژول *اصلی* (*main*) (مجموعه‌ای از متغیرهایی که در یک اسکریپت اجراشده در سطح بالا و در حالت ماشین‌حساب به آن‌ها دسترسی دارید) *ایمپورت* کرد."
+msgstr "برای پشتیبانی از این کار، پایتون روشی دارد که به شما اجازه می‌دهد تعریف‌ها را در یک پرونده قرار دهید و از آن‌ها در یک اسکریپت یا در یک نمونه‌ی تعاملی از مفسر استفاده کنید. چنین پرونده‌ای یک *ماژول* نامیده می‌شود؛ تعریف‌های یک ماژول را می‌توان به ماژول‌های دیگر یا به ماژول *اصلی* (*main*) (مجموعه‌ای از متغیرهایی که در یک اسکریپت اجراشده در سطح بالا و در حالت ماشین‌حساب به آن‌ها دسترسی دارید) *ایمپورت* کرد."
 
 msgid "A module is a file containing Python definitions and statements.  The file name is the module name with the suffix :file:`.py` appended.  Within a module, the module's name (as a string) is available as the value of the global variable ``__name__``.  For instance, use your favorite text editor to create a file called :file:`fibo.py` in the current directory with the following contents::"
-msgstr "یک ماژول فایلی است که شامل تعریف‌ها و دستورهای پایتون است. نام فایل، نام ماژول به‌همراه پسوند :file:`.py` است. درون یک ماژول، نام ماژول (به‌صورت یک رشته) به‌عنوان مقدار متغیر سراسری ``__name__`` در دسترس است. برای نمونه، با استفاده از ویرایشگر متن دلخواه خود فایلی با نام :file:`fibo.py` را در پوشه‌ی جاری ایجاد کنید که محتوای زیر را داشته باشد::"
+msgstr "یک ماژول پرونده‌ای است که شامل تعریف‌ها و دستورهای پایتون است. نام پرونده، نام ماژول به‌همراه پسوند :file:`.py` است. درون یک ماژول، نام ماژول (به‌صورت یک رشته) به‌عنوان مقدار متغیر سراسری ``__name__`` در دسترس است. برای نمونه، با استفاده از ویرایشگر متن دلخواه خود پرونده‌ای با نام :file:`fibo.py` را در پوشه‌ی جاری ایجاد کنید که محتوای زیر را داشته باشد::"
 
 msgid ""
 "# Fibonacci numbers module\n"
@@ -81,7 +81,7 @@ msgid ">>> import fibo"
 msgstr ">>> import fibo"
 
 msgid "This does not add the names of the functions defined in ``fibo``  directly to the current :term:`namespace` (see :ref:`tut-scopes` for more details); it only adds the module name ``fibo`` there. Using the module name you can access the functions::"
-msgstr "این کار نام تابع‌هایی را که در ``fibo`` تعریف شده‌اند، مستقیماً به :term:`فضای نام <namespace>` فعلی اضافه نمی‌کند (برای جزئیات بیشتر به :ref:`tut-scopes` مراجعه کنید)؛ بلکه فقط نام ماژول ``fibo`` را به آن اضافه می‌کند. با استفاده از نام ماژول می‌توانید به تابع‌ها دسترسی پیدا کنید::"
+msgstr "این کار نام توابعی را که در ``fibo`` تعریف شده‌اند، مستقیماً به :term:`فضای نام <namespace>` فعلی اضافه نمی‌کند (برای جزئیات بیشتر به :ref:`tut-scopes` مراجعه کنید)؛ بلکه فقط نام ماژول ``fibo`` را به آن اضافه می‌کند. با استفاده از نام ماژول می‌توانید به توابع دسترسی پیدا کنید::"
 
 msgid ""
 ">>> fibo.fib(1000)\n"
@@ -114,10 +114,10 @@ msgid "More on Modules"
 msgstr "بیشتر درباره‌ی ماژول‌ها"
 
 msgid "A module can contain executable statements as well as function definitions. These statements are intended to initialize the module. They are executed only the *first* time the module name is encountered in an import statement. [#]_ (They are also run if the file is executed as a script.)"
-msgstr "یک ماژول می‌تواند علاوه بر تعریف تابع‌ها، شامل دستورهای اجرایی نیز باشد. هدف از این دستورها مقداردهی اولیه‌ی ماژول است. این دستورها فقط در *اولین* باری که نام ماژول در یک دستور ایمپورت دیده می‌شود اجرا می‌شوند. [#]_ (همچنین اگر فایل به‌عنوان یک اسکریپت اجرا شود، این دستورها اجرا خواهند شد.)"
+msgstr "یک ماژول می‌تواند علاوه بر تعریف توابع، شامل دستورهای اجرایی نیز باشد. هدف از این دستورها مقداردهی اولیه‌ی ماژول است. این دستورها فقط در *اولین* باری که نام ماژول در یک دستور ایمپورت دیده می‌شود اجرا می‌شوند. [#]_ (همچنین اگر پرونده به‌عنوان یک اسکریپت اجرا شود، این دستورها اجرا خواهند شد.)"
 
 msgid "Each module has its own private namespace, which is used as the global namespace by all functions defined in the module. Thus, the author of a module can use global variables in the module without worrying about accidental clashes with a user's global variables. On the other hand, if you know what you are doing you can touch a module's global variables with the same notation used to refer to its functions, ``modname.itemname``."
-msgstr "هر ماژول فضای نام خصوصی خود را دارد که توسط تمام تابع‌های تعریف‌شده در ماژول، به‌عنوان فضای نام سراسری استفاده می‌شود. بنابراین، نویسنده‌ی یک ماژول می‌تواند بدون نگرانی از تداخل تصادفی با متغیرهای سراسری کاربر، از متغیرهای سراسری درون ماژول استفاده کند. از طرف دیگر، اگر بدانید چه کاری انجام می‌دهید، می‌توانید با همان نگارشی که برای ارجاع به تابع‌های ماژول استفاده می‌کنید، به متغیرهای سراسری ماژول دسترسی پیدا کنید: ``modname.itemname``."
+msgstr "هر ماژول فضای نام خصوصی خود را دارد که توسط تمام توابع تعریف‌شده در ماژول، به‌عنوان فضای نام سراسری استفاده می‌شود. بنابراین، نویسنده‌ی یک ماژول می‌تواند بدون نگرانی از تداخل تصادفی با متغیرهای سراسری کاربر، از متغیرهای سراسری درون ماژول استفاده کند. از طرف دیگر، اگر بدانید چه کاری انجام می‌دهید، می‌توانید با همان نگارشی که برای ارجاع به توابع ماژول استفاده می‌کنید، به متغیرهای سراسری ماژول دسترسی پیدا کنید: ``modname.itemname``."
 
 msgid "Modules can import other modules.  It is customary but not required to place all :keyword:`import` statements at the beginning of a module (or script, for that matter).  The imported module names, if placed at the top level of a module (outside any functions or classes), are added to the module's global namespace."
 msgstr "ماژول‌ها می‌توانند ماژول‌های دیگری را ایمپورت کنند. معمول است، اما اجباری نیست، که تمام دستورهای :keyword:`import` در ابتدای یک ماژول (یا به‌طور کلی یک اسکریپت) قرار داده شوند. نام ماژول‌های ایمپورت‌شده اگر در سطح بالای یک ماژول (خارج از هر تابع یا کلاس) قرار گرفته باشند، به فضای نام سراسری ماژول اضافه می‌شوند."
@@ -207,7 +207,7 @@ msgstr ""
 "    fib(int(sys.argv[1]))"
 
 msgid "you can make the file usable as a script as well as an importable module, because the code that parses the command line only runs if the module is executed as the \"main\" file:"
-msgstr "می‌توانید فایل را هم به‌عنوان یک اسکریپت و هم به‌عنوان یک ماژول قابل ایمپورت کردن استفاده کنید، زیرا کدی که خط فرمان را تجزیه می‌کند فقط زمانی اجرا می‌شود که ماژول به‌عنوان فایل «اصلی» اجرا شود:"
+msgstr "می‌توانید پرونده را هم به‌عنوان یک اسکریپت و هم به‌عنوان یک ماژول قابل ایمپورت کردن استفاده کنید، زیرا کدی که خط فرمان را تجزیه می‌کند فقط زمانی اجرا می‌شود که ماژول به‌عنوان پرونده «اصلی» اجرا شود:"
 
 msgid ""
 "$ python fibo.py 50\n"
@@ -233,10 +233,10 @@ msgid "The Module Search Path"
 msgstr "مسیر جست‌وجوی ماژول‌ها"
 
 msgid "When a module named :mod:`!spam` is imported, the interpreter first searches for a built-in module with that name. These module names are listed in :data:`sys.builtin_module_names`. If not found, it then searches for a file named :file:`spam.py` in a list of directories given by the variable :data:`sys.path`.  :data:`sys.path` is initialized from these locations:"
-msgstr "هنگامی که یک ماژول با نام :mod:`!spam` ایمپورت می‌شود، مفسر ابتدا به دنبال یک ماژول توکار با همان نام می‌گردد. نام این ماژول‌ها در :data:`sys.builtin_module_names` فهرست شده‌اند. اگر یافت نشود، سپس به دنبال فایلی با نام :file:`spam.py` در فهرستی از پوشه‌ها می‌گردد که توسط متغیر :data:`sys.path` مشخص شده‌اند. :data:`sys.path` از این مکان‌ها مقداردهی اولیه می‌شود:"
+msgstr "هنگامی که یک ماژول با نام :mod:`!spam` ایمپورت می‌شود، مفسر ابتدا به دنبال یک ماژول توکار با همان نام می‌گردد. نام این ماژول‌ها در :data:`sys.builtin_module_names` فهرست شده‌اند. اگر یافت نشود، سپس به دنبال پرونده‌ای با نام :file:`spam.py` در فهرستی از پوشه‌ها می‌گردد که توسط متغیر :data:`sys.path` مشخص شده‌اند. :data:`sys.path` از این مکان‌ها مقداردهی اولیه می‌شود:"
 
 msgid "The directory containing the input script (or the current directory when no file is specified)."
-msgstr "پوشه‌ای که اسکریپت ورودی در آن قرار دارد (یا پوشه‌ی جاری، زمانی که هیچ فایلی مشخص نشده باشد)."
+msgstr "پوشه‌ای که اسکریپت ورودی در آن قرار دارد (یا پوشه‌ی جاری، زمانی که هیچ پرونده‌ای مشخص نشده باشد)."
 
 msgid ":envvar:`PYTHONPATH` (a list of directory names, with the same syntax as the shell variable :envvar:`PATH`)."
 msgstr ":envvar:`PYTHONPATH` (فهرستی از نام پوشه‌ها با همان نحوی که متغیر پوسته‌ی :envvar:`PATH` دارد)."
@@ -248,19 +248,19 @@ msgid "More details are at :ref:`sys-path-init`."
 msgstr "جزئیات بیشتر در :ref:`sys-path-init` موجود است."
 
 msgid "On file systems which support symlinks, the directory containing the input script is calculated after the symlink is followed. In other words the directory containing the symlink is **not** added to the module search path."
-msgstr "در سیستم‌های فایلی که از پیوندهای نمادین پشتیبانی می‌کنند، پوشه‌ی شامل اسکریپت ورودی پس از دنبال کردن پیوند نمادین محاسبه می‌شود. به عبارت دیگر، پوشه‌ای که پیوند نمادین در آن قرار دارد **به مسیر جست‌وجوی ماژول‌ها اضافه نمی‌شود**."
+msgstr "در سیستم‌های پرونده‌ای که از پیوندهای نمادین پشتیبانی می‌کنند، پوشه‌ی شامل اسکریپت ورودی پس از دنبال کردن پیوند نمادین محاسبه می‌شود. به عبارت دیگر، پوشه‌ای که پیوند نمادین در آن قرار دارد **به مسیر جست‌وجوی ماژول‌ها اضافه نمی‌شود**."
 
 msgid "After initialization, Python programs can modify :data:`sys.path`.  The directory containing the script being run is placed at the beginning of the search path, ahead of the standard library path. This means that scripts in that directory will be loaded instead of modules of the same name in the library directory. This is an error unless the replacement is intended.  See section :ref:`tut-standardmodules` for more information."
 msgstr "پس از مقداردهی اولیه، برنامه‌های پایتون می‌توانند :data:`sys.path` را تغییر دهند. پوشه‌ای که اسکریپت در حال اجرا در آن قرار دارد، در ابتدای مسیر جست‌وجو و پیش از مسیر کتابخانه‌ی استاندارد قرار داده می‌شود. این بدان معناست که اسکریپت‌های موجود در آن پوشه، به‌جای ماژول‌هایی با همان نام در پوشه‌ی کتابخانه بارگذاری خواهند شد. این کار یک خطا محسوب می‌شود، مگر اینکه جایگزینی موردنظر باشد. برای اطلاعات بیشتر، بخش :ref:`tut-standardmodules` را ببینید."
 
 msgid "\"Compiled\" Python files"
-msgstr "فایل‌های پایتون «کامپایل‌شده»"
+msgstr "پرونده‌های پایتون «کامپایل‌شده»"
 
 msgid "To speed up loading modules, Python caches the compiled version of each module in the ``__pycache__`` directory under the name :file:`module.{version}.pyc`, where the version encodes the format of the compiled file; it generally contains the Python version number.  For example, in CPython release 3.3 the compiled version of spam.py would be cached as ``__pycache__/spam.cpython-33.pyc``.  This naming convention allows compiled modules from different releases and different versions of Python to coexist."
-msgstr "برای افزایش سرعت بارگذاری ماژول‌ها، پایتون نسخه‌ی کامپایل‌شده‌ی هر ماژول را در پوشه‌ی ``__pycache__`` و با نام :file:`module.{version}.pyc` ذخیره می‌کند؛ در این نام، نسخه قالب فایل کامپایل‌شده را مشخص می‌کند و معمولاً شامل شماره‌ی نسخه‌ی پایتون است. برای مثال، در انتشار CPython نسخه‌ی 3.3، نسخه‌ی کامپایل‌شده‌ی spam.py به‌صورت ``__pycache__/spam.cpython-33.pyc`` ذخیره می‌شود. این قرارداد نام‌گذاری اجازه می‌دهد ماژول‌های کامپایل‌شده از انتشارها و نسخه‌های مختلف پایتون در کنار یکدیگر وجود داشته باشند."
+msgstr "برای افزایش سرعت بارگذاری ماژول‌ها، پایتون نسخه‌ی کامپایل‌شده‌ی هر ماژول را در پوشه‌ی ``__pycache__`` و با نام :file:`module.{version}.pyc` ذخیره می‌کند؛ در این نام، نسخه قالب پرونده کامپایل‌شده را مشخص می‌کند و معمولاً شامل شماره‌ی نسخه‌ی پایتون است. برای مثال، در انتشار CPython نسخه‌ی 3.3، نسخه‌ی کامپایل‌شده‌ی spam.py به‌صورت ``__pycache__/spam.cpython-33.pyc`` ذخیره می‌شود. این قرارداد نام‌گذاری اجازه می‌دهد ماژول‌های کامپایل‌شده از انتشارها و نسخه‌های مختلف پایتون در کنار یکدیگر وجود داشته باشند."
 
 msgid "Python checks the modification date of the source against the compiled version to see if it's out of date and needs to be recompiled.  This is a completely automatic process.  Also, the compiled modules are platform-independent, so the same library can be shared among systems with different architectures."
-msgstr "پایتون تاریخ تغییر فایل منبع را با نسخه‌ی کامپایل‌شده بررسی می‌کند تا مشخص شود آیا قدیمی شده است و نیاز به کامپایل مجدد دارد یا خیر. این فرایند کاملاً خودکار است. همچنین، ماژول‌های کامپایل‌شده مستقل از پلتفرم هستند، بنابراین یک کتابخانه‌ی یکسان می‌تواند بین سیستم‌هایی با معماری‌های متفاوت به اشتراک گذاشته شود."
+msgstr "پایتون تاریخ تغییر پرونده منبع را با نسخه‌ی کامپایل‌شده بررسی می‌کند تا مشخص شود آیا قدیمی شده است و نیاز به کامپایل مجدد دارد یا خیر. این فرایند کاملاً خودکار است. همچنین، ماژول‌های کامپایل‌شده مستقل از پلتفرم هستند، بنابراین یک کتابخانه‌ی یکسان می‌تواند بین سیستم‌هایی با معماری‌های متفاوت به اشتراک گذاشته شود."
 
 msgid "Python does not check the cache in two circumstances.  First, it always recompiles and does not store the result for the module that's loaded directly from the command line.  Second, it does not check the cache if there is no source module.  To support a non-source (compiled only) distribution, the compiled module must be in the source directory, and there must not be a source module."
 msgstr "پایتون در دو حالت، حافظه‌ی نهان را بررسی نمی‌کند. نخست، همیشه ماژولی را که مستقیماً از خط فرمان بارگذاری شده است دوباره کامپایل می‌کند و نتیجه را ذخیره نمی‌کند. دوم، اگر هیچ ماژول منبعی وجود نداشته باشد، حافظه‌ی نهان را بررسی نمی‌کند. برای پشتیبانی از توزیع‌های بدون منبع (فقط کامپایل‌شده)، ماژول کامپایل‌شده باید در پوشه‌ی منبع قرار داشته باشد و نباید ماژول منبعی وجود داشته باشد."
@@ -272,10 +272,10 @@ msgid "You can use the :option:`-O` or :option:`-OO` switches on the Python comm
 msgstr "می‌توانید از گزینه‌های :option:`-O` یا :option:`-OO` در دستور پایتون برای کاهش اندازه‌ی یک ماژول کامپایل‌شده استفاده کنید. گزینه‌ی ``-O`` دستورهای assert را حذف می‌کند و گزینه‌ی ``-OO`` هم دستورهای assert و هم رشته‌های **doc** را حذف می‌کند. از آنجا که برخی برنامه‌ها ممکن است به وجود این موارد وابسته باشند، فقط زمانی باید از این گزینه استفاده کنید که بدانید چه کاری انجام می‌دهید. ماژول‌های «بهینه‌شده» دارای برچسب ``opt-`` هستند و معمولاً کوچک‌ترند. انتشارهای آینده ممکن است اثرات بهینه‌سازی را تغییر دهند."
 
 msgid "A program doesn't run any faster when it is read from a ``.pyc`` file than when it is read from a ``.py`` file; the only thing that's faster about ``.pyc`` files is the speed with which they are loaded."
-msgstr "یک برنامه زمانی که از یک فایل ``.pyc`` خوانده می‌شود، سریع‌تر از زمانی که از یک فایل ``.py`` خوانده می‌شود اجرا نمی‌شود؛ تنها چیزی که در فایل‌های ``.pyc`` سریع‌تر است، سرعت بارگذاری آن‌هاست."
+msgstr "یک برنامه زمانی که از یک پرونده ``.pyc`` خوانده می‌شود، سریع‌تر از زمانی که از یک پرونده ``.py`` خوانده می‌شود اجرا نمی‌شود؛ تنها چیزی که در پرونده‌های ``.pyc`` سریع‌تر است، سرعت بارگذاری آن‌هاست."
 
 msgid "The module :mod:`compileall` can create .pyc files for all modules in a directory."
-msgstr "ماژول :mod:`compileall` می‌تواند برای تمام ماژول‌های موجود در یک پوشه فایل‌های .pyc ایجاد کند."
+msgstr "ماژول :mod:`compileall` می‌تواند برای تمام ماژول‌های موجود در یک پوشه پرونده‌های .pyc ایجاد کند."
 
 msgid "There is more detail on this process, including a flow chart of the decisions, in :pep:`3147`."
 msgstr "جزئیات بیشتری درباره‌ی این فرایند، از جمله نمودار جریان تصمیم‌ها، در :pep:`3147` آمده است."
@@ -396,10 +396,10 @@ msgstr ""
 "['__builtins__', '__name__', 'a', 'fib', 'fibo', 'sys']"
 
 msgid "Note that it lists all types of names: variables, modules, functions, etc."
-msgstr "توجه کنید که این تابع همه‌ی انواع نام‌ها را فهرست می‌کند: متغیرها، ماژول‌ها، تابع‌ها و غیره."
+msgstr "توجه کنید که این تابع همه‌ی انواع نام‌ها را فهرست می‌کند: متغیرها، ماژول‌ها، توابع و غیره."
 
 msgid ":func:`dir` does not list the names of built-in functions and variables.  If you want a list of those, they are defined in the standard module :mod:`builtins`::"
-msgstr ":func:`dir` نام تابع‌ها و متغیرهای توکار را فهرست نمی‌کند. اگر فهرستی از آن‌ها می‌خواهید، این موارد در ماژول استاندارد :mod:`builtins` تعریف شده‌اند::"
+msgstr ":func:`dir` نام توابع و متغیرهای توکار را فهرست نمی‌کند. اگر فهرستی از آن‌ها می‌خواهید، این موارد در ماژول استاندارد :mod:`builtins` تعریف شده‌اند::"
 
 msgid ""
 ">>> import builtins\n"
@@ -473,7 +473,7 @@ msgid "Packages are a way of structuring Python's module namespace by using \"do
 msgstr "بسته‌ها روشی برای ساختاربندی فضای نام ماژول‌های پایتون با استفاده از «نام‌های نقطه‌دار ماژول» هستند. برای مثال، نام ماژول :mod:`!A.B` یک زیرماژول با نام ``B`` در بسته‌ای با نام ``A`` را مشخص می‌کند. همان‌طور که استفاده از ماژول‌ها باعث می‌شود نویسندگان ماژول‌های مختلف نگران نام متغیرهای سراسری یکدیگر نباشند، استفاده از نام‌های نقطه‌دار ماژول نیز باعث می‌شود نویسندگان بسته‌های چندماژوله‌ای مانند NumPy یا Pillow نگران نام ماژول‌های یکدیگر نباشند."
 
 msgid "Suppose you want to design a collection of modules (a \"package\") for the uniform handling of sound files and sound data.  There are many different sound file formats (usually recognized by their extension, for example: :file:`.wav`, :file:`.aiff`, :file:`.au`), so you may need to create and maintain a growing collection of modules for the conversion between the various file formats. There are also many different operations you might want to perform on sound data (such as mixing, adding echo, applying an equalizer function, creating an artificial stereo effect), so in addition you will be writing a never-ending stream of modules to perform these operations.  Here's a possible structure for your package (expressed in terms of a hierarchical filesystem):"
-msgstr "فرض کنید می‌خواهید مجموعه‌ای از ماژول‌ها (یک «بسته») را برای مدیریت یکپارچه‌ی فایل‌های صوتی و داده‌های صوتی طراحی کنید. قالب‌های فایل صوتی بسیار متفاوتی وجود دارند (که معمولاً با پسوندشان شناخته می‌شوند، برای مثال: :file:`.wav`، :file:`.aiff`، :file:`.au`)؛ بنابراین ممکن است نیاز داشته باشید مجموعه‌ای در حال رشد از ماژول‌ها را برای تبدیل بین قالب‌های مختلف فایل ایجاد و نگهداری کنید. همچنین عملیات‌های مختلف بسیاری وجود دارند که ممکن است بخواهید روی داده‌های صوتی انجام دهید (مانند ترکیب کردن، افزودن پژواک، اعمال تابع اکولایزر، ایجاد یک اثر استریوی مصنوعی)، بنابراین علاوه بر این، جریان بی‌پایانی از ماژول‌ها برای انجام این عملیات‌ها خواهید نوشت. ساختار احتمالی زیر برای بسته‌ی شما وجود دارد (که به‌صورت یک سیستم فایل سلسله‌مراتبی بیان شده است):"
+msgstr "فرض کنید می‌خواهید مجموعه‌ای از ماژول‌ها (یک «بسته») را برای مدیریت یکپارچه‌ی پرونده‌های صوتی و داده‌های صوتی طراحی کنید. قالب‌های پرونده صوتی بسیار متفاوتی وجود دارند (که معمولاً با پسوندشان شناخته می‌شوند، برای مثال: :file:`.wav`، :file:`.aiff`، :file:`.au`)؛ بنابراین ممکن است نیاز داشته باشید مجموعه‌ای در حال رشد از ماژول‌ها را برای تبدیل بین قالب‌های مختلف پرونده ایجاد و نگهداری کنید. همچنین عملیات‌های مختلف بسیاری وجود دارند که ممکن است بخواهید روی داده‌های صوتی انجام دهید (مانند ترکیب کردن، افزودن پژواک، اعمال تابع اکولایزر، ایجاد یک اثر استریوی مصنوعی)، بنابراین علاوه بر این، جریان بی‌پایانی از ماژول‌ها برای انجام این عملیات‌ها خواهید نوشت. ساختار احتمالی زیر برای بسته‌ی شما وجود دارد (که به‌صورت یک سیستم پرونده سلسله‌مراتبی بیان شده است):"
 
 msgid ""
 "sound/                          Top-level package\n"
@@ -502,7 +502,7 @@ msgid ""
 msgstr ""
 "sound/                          بسته‌های سطح بالا\n"
 "      __init__.py               راه‌اندازی اولیه بسته صوتی\n"
-"      formats/                  زیربسته برای تبدیل فرمت‌های فایل\n"
+"      formats/                  زیربسته برای تبدیل فرمت‌های پرونده\n"
 "              __init__.py\n"
 "              wavread.py\n"
 "              wavwrite.py\n"
@@ -528,7 +528,7 @@ msgid "When importing the package, Python searches through the directories on ``
 msgstr "هنگام ایمپورت کردن بسته، پایتون پوشه‌های موجود در ``sys.path`` را جست‌وجو می‌کند تا زیرپوشه‌ی بسته را پیدا کند."
 
 msgid "The :file:`__init__.py` files are required to make Python treat directories containing the file as packages (unless using a :term:`namespace package`, a relatively advanced feature). This prevents directories with a common name, such as ``string``, from unintentionally hiding valid modules that occur later on the module search path. In the simplest case, :file:`__init__.py` can just be an empty file, but it can also execute initialization code for the package or set the ``__all__`` variable, described later."
-msgstr "فایل‌های :file:`__init__.py` لازم هستند تا پایتون پوشه‌هایی را که شامل این فایل هستند به‌عنوان بسته در نظر بگیرد (مگر اینکه از یک :term:`namespace package` استفاده شود که قابلیتی نسبتاً پیشرفته است). این کار از پنهان شدن ناخواسته‌ی ماژول‌های معتبر که بعداً در مسیر جست‌وجوی ماژول قرار دارند، توسط پوشه‌هایی با نام مشترک مانند ``string`` جلوگیری می‌کند. در ساده‌ترین حالت، :file:`__init__.py` می‌تواند فقط یک فایل خالی باشد، اما می‌تواند کد مقداردهی اولیه‌ی بسته را نیز اجرا کند یا متغیر ``__all__`` را که بعداً توضیح داده می‌شود، تنظیم کند."
+msgstr "پرونده‌های :file:`__init__.py` لازم هستند تا پایتون پوشه‌هایی را که شامل این پرونده هستند به‌عنوان بسته در نظر بگیرد (مگر اینکه از یک :term:`namespace package` استفاده شود که قابلیتی نسبتاً پیشرفته است). این کار از پنهان شدن ناخواسته‌ی ماژول‌های معتبر که بعداً در مسیر جست‌وجوی ماژول قرار دارند، توسط پوشه‌هایی با نام مشترک مانند ``string`` جلوگیری می‌کند. در ساده‌ترین حالت، :file:`__init__.py` می‌تواند فقط یک پرونده خالی باشد، اما می‌تواند کد مقداردهی اولیه‌ی بسته را نیز اجرا کند یا متغیر ``__all__`` را که بعداً توضیح داده می‌شود، تنظیم کند."
 
 msgid "Users of the package can import individual modules from the package, for example::"
 msgstr "کاربران بسته می‌توانند ماژول‌های جداگانه‌ای را از بسته ایمپورت کنند، برای مثال::"
@@ -576,10 +576,10 @@ msgid "Importing \\* From a Package"
 msgstr "ایمپورت کردن \\* از یک بسته"
 
 msgid "Now what happens when the user writes ``from sound.effects import *``?  Ideally, one would hope that this somehow goes out to the filesystem, finds which submodules are present in the package, and imports them all.  This could take a long time and importing sub-modules might have unwanted side-effects that should only happen when the sub-module is explicitly imported."
-msgstr "اکنون اگر کاربر بنویسد ``from sound.effects import *`` چه اتفاقی می‌افتد؟ در حالت ایده‌آل، انتظار می‌رود این دستور به‌نحوی به سیستم فایل مراجعه کند، زیرماژول‌های موجود در بسته را پیدا کند و همه‌ی آن‌ها را ایمپورت کند. این کار می‌تواند زمان زیادی طول بکشد و ایمپورت کردن زیرماژول‌ها ممکن است عوارض جانبی ناخواسته‌ای پرتاب کند که باید فقط هنگام ایمپورت کردن صریح زیرماژول رخ دهند."
+msgstr "اکنون اگر کاربر بنویسد ``from sound.effects import *`` چه اتفاقی می‌افتد؟ در حالت ایده‌آل، انتظار می‌رود این دستور به‌نحوی به سیستم پرونده مراجعه کند، زیرماژول‌های موجود در بسته را پیدا کند و همه‌ی آن‌ها را ایمپورت کند. این کار می‌تواند زمان زیادی طول بکشد و ایمپورت کردن زیرماژول‌ها ممکن است عوارض جانبی ناخواسته‌ای پرتاب کند که باید فقط هنگام ایمپورت کردن صریح زیرماژول رخ دهند."
 
 msgid "The only solution is for the package author to provide an explicit index of the package.  The :keyword:`import` statement uses the following convention: if a package's :file:`__init__.py` code defines a list named ``__all__``, it is taken to be the list of module names that should be imported when ``from package import *`` is encountered.  It is up to the package author to keep this list up-to-date when a new version of the package is released.  Package authors may also decide not to support it, if they don't see a use for importing \\* from their package.  For example, the file :file:`sound/effects/__init__.py` could contain the following code::"
-msgstr "تنها راه‌حل این است که نویسنده‌ی بسته یک فهرست صریح از بسته فراهم کند. دستور :keyword:`import` از قرارداد زیر استفاده می‌کند: اگر کد :file:`__init__.py` یک بسته، فهرستی با نام ``__all__`` تعریف کند، این فهرست به‌عنوان فهرست نام ماژول‌هایی در نظر گرفته می‌شود که هنگام مشاهده‌ی ``from package import *`` باید ایمپورت شوند. این وظیفه‌ی نویسنده‌ی بسته است که هنگام انتشار نسخه‌ی جدید بسته، این فهرست را به‌روز نگه دارد. نویسندگان بسته همچنین ممکن است تصمیم بگیرند از این قابلیت پشتیبانی نکنند، اگر کاربردی برای ایمپورت کردن \\* از بسته‌ی خود نمی‌بینند. برای مثال، فایل :file:`sound/effects/__init__.py` می‌تواند شامل کد زیر باشد::"
+msgstr "تنها راه‌حل این است که نویسنده‌ی بسته یک فهرست صریح از بسته فراهم کند. دستور :keyword:`import` از قرارداد زیر استفاده می‌کند: اگر کد :file:`__init__.py` یک بسته، فهرستی با نام ``__all__`` تعریف کند، این فهرست به‌عنوان فهرست نام ماژول‌هایی در نظر گرفته می‌شود که هنگام مشاهده‌ی ``from package import *`` باید ایمپورت شوند. این وظیفه‌ی نویسنده‌ی بسته است که هنگام انتشار نسخه‌ی جدید بسته، این فهرست را به‌روز نگه دارد. نویسندگان بسته همچنین ممکن است تصمیم بگیرند از این قابلیت پشتیبانی نکنند، اگر کاربردی برای ایمپورت کردن \\* از بسته‌ی خود نمی‌بینند. برای مثال، پرونده :file:`sound/effects/__init__.py` می‌تواند شامل کد زیر باشد::"
 
 msgid "__all__ = [\"echo\", \"surround\", \"reverse\"]"
 msgstr "__all__ = [\"echo\", \"surround\", \"reverse\"]"
@@ -588,7 +588,7 @@ msgid "This would mean that ``from sound.effects import *`` would import the thr
 msgstr "این یعنی ``from sound.effects import *`` سه زیرماژول نام‌برده‌ی بسته‌ی :mod:`!sound.effects` را ایمپورت خواهد کرد."
 
 msgid "Be aware that submodules might become shadowed by locally defined names. For example, if you added a ``reverse`` function to the :file:`sound/effects/__init__.py` file, the ``from sound.effects import *`` would only import the two submodules ``echo`` and ``surround``, but *not* the ``reverse`` submodule, because it is shadowed by the locally defined ``reverse`` function::"
-msgstr "توجه داشته باشید که زیرماژول‌ها ممکن است توسط نام‌هایی که به‌صورت محلی تعریف شده‌اند، پوشانده شوند. برای مثال، اگر یک تابع ``reverse`` به فایل :file:`sound/effects/__init__.py` اضافه کنید، دستور ``from sound.effects import *`` فقط دو زیرماژول ``echo`` و ``surround`` را ایمپورت خواهد کرد، اما *زیرماژول* ``reverse`` را ایمپورت نمی‌کند، زیرا توسط تابع ``reverse`` تعریف‌شده در همان فضا پوشانده شده است::"
+msgstr "توجه داشته باشید که زیرماژول‌ها ممکن است توسط نام‌هایی که به‌صورت محلی تعریف شده‌اند، پوشانده شوند. برای مثال، اگر یک تابع ``reverse`` به پرونده :file:`sound/effects/__init__.py` اضافه کنید، دستور ``from sound.effects import *`` فقط دو زیرماژول ``echo`` و ``surround`` را ایمپورت خواهد کرد، اما *زیرماژول* ``reverse`` را ایمپورت نمی‌کند، زیرا توسط تابع ``reverse`` تعریف‌شده در همان فضا پوشانده شده است::"
 
 msgid ""
 "__all__ = [\n"
@@ -601,8 +601,8 @@ msgid ""
 "    return msg[::-1]    #     in the case of a 'from sound.effects import *'"
 msgstr ""
 "__all__ = [\n"
-"    \"echo\",      # به فایل «echo.py» اشاره می‌کند\n"
-"    \"surround\",  # به فایل «surround.py» اشاره می‌کند\n"
+"    \"echo\",      # به پرونده «echo.py» اشاره می‌کند\n"
+"    \"surround\",  # به پرونده «surround.py» اشاره می‌کند\n"
 "    \"reverse\",   # !!! اکنون به تابع «reverse» اشاره می‌کند !!!\n"
 "]\n"
 "\n"
@@ -625,7 +625,7 @@ msgid "In this example, the :mod:`!echo` and :mod:`!surround` modules are import
 msgstr "در این مثال، ماژول‌های :mod:`!echo` و :mod:`!surround` در فضای نام فعلی ایمپورت می‌شوند، زیرا هنگام اجرای دستور ``from...import`` در بسته‌ی :mod:`!sound.effects` تعریف شده‌اند. (این حالت زمانی که ``__all__`` تعریف شده باشد نیز کار می‌کند.)"
 
 msgid "Although certain modules are designed to export only names that follow certain patterns when you use ``import *``, it is still considered bad practice in production code."
-msgstr "اگرچه برخی ماژول‌ها طوری طراحی شده‌اند که هنگام استفاده از ``import *`` فقط نام‌هایی مطابق با الگوهای خاص صادر کنند، همچنان این کار در کدهای تولیدی روشی نامناسب محسوب می‌شود."
+msgstr "اگرچه برخی ماژول‌ها طوری طراحی شده‌اند که هنگام استفاده از ``import *`` فقط نام‌هایی مطابق با الگوهای خاص اکسپورت کنند، همچنان این کار در کدهای تولیدی روشی نامناسب محسوب می‌شود."
 
 msgid "Remember, there is nothing wrong with using ``from package import specific_submodule``!  In fact, this is the recommended notation unless the importing module needs to use submodules with the same name from different packages."
 msgstr "به یاد داشته باشید که استفاده از ``from package import specific_submodule`` هیچ مشکلی ندارد! در واقع، این نمادگذاری توصیه‌شده است، مگر اینکه ماژول ایمپورت‌کننده نیاز داشته باشد از زیرماژول‌هایی با نام یکسان از بسته‌های مختلف استفاده کند."
@@ -655,7 +655,7 @@ msgid "Packages in Multiple Directories"
 msgstr "بسته‌ها در چندین پوشه"
 
 msgid "Packages support one more special attribute, :attr:`~module.__path__`.  This is initialized to be a :term:`sequence` of strings containing the name of the directory holding the package's :file:`__init__.py` before the code in that file is executed.  This variable can be modified; doing so affects future searches for modules and subpackages contained in the package."
-msgstr "بسته‌ها یک ویژگی ویژه‌ی دیگر را نیز پشتیبانی می‌کنند: :attr:`~module.__path__`. این ویژگی مقداردهی اولیه می‌شود تا پیش از اجرای کد موجود در آن فایل، یک :term:`دنباله <sequence>` از رشته‌ها باشد که نام پوشه‌ی شامل :file:`__init__.py` بسته را در خود دارد. این متغیر قابل تغییر است؛ تغییر آن بر جست‌وجوهای آینده برای ماژول‌ها و زیربسته‌های موجود در بسته تأثیر می‌گذارد."
+msgstr "بسته‌ها یک ویژگی ویژه‌ی دیگر را نیز پشتیبانی می‌کنند: :attr:`~module.__path__`. این ویژگی مقداردهی اولیه می‌شود تا پیش از اجرای کد موجود در آن پرونده، یک :term:`دنباله <sequence>` از رشته‌ها باشد که نام پوشه‌ی شامل :file:`__init__.py` بسته را در خود دارد. این متغیر قابل تغییر است؛ تغییر آن بر جست‌وجوهای آینده برای ماژول‌ها و زیربسته‌های موجود در بسته تأثیر می‌گذارد."
 
 msgid "While this feature is not often needed, it can be used to extend the set of modules found in a package."
 msgstr "اگرچه این قابلیت معمولاً موردنیاز نیست، می‌توان از آن برای گسترش مجموعه‌ی ماژول‌هایی که در یک بسته پیدا می‌شوند استفاده کرد."
@@ -664,7 +664,7 @@ msgid "Footnotes"
 msgstr "پانویس‌ها"
 
 msgid "In fact function definitions are also 'statements' that are 'executed'; the execution of a module-level function definition adds the function name to the module's global namespace."
-msgstr "در واقع، تعریف تابع‌ها نیز «دستورهایی» هستند که «اجرا» می‌شوند؛ اجرای یک تعریف تابع در سطح ماژول، نام تابع را به فضای نام سراسری ماژول اضافه می‌کند."
+msgstr "در واقع، تعریف توابع نیز «دستورهایی» هستند که «اجرا» می‌شوند؛ اجرای یک تعریف تابع در سطح ماژول، نام تابع را به فضای نام سراسری ماژول اضافه می‌کند."
 
 msgid "module"
 msgstr "ماژول"

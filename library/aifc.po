@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid ":mod:`!aifc` --- Read and write AIFF and AIFC files"
-msgstr ":mod:`!aifc` --- خواندن و نوشتن فایل‌های AIFF و AIFC"
+msgstr ":mod:`!aifc` --- خواندن و نوشتن پرونده‌های AIFF و AIFC"
 
 msgid ""
 "This module is no longer part of the Python standard library. It was "

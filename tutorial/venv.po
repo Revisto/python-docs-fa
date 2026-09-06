@@ -55,10 +55,10 @@ msgid "python -m venv tutorial-env"
 msgstr "python -m venv tutorial-env"
 
 msgid "This will create the ``tutorial-env`` directory if it doesn't exist, and also create directories inside it containing a copy of the Python interpreter and various supporting files."
-msgstr "اگر پوشه ``tutorial-env`` وجود نداشته باشد، این دستور آن را ایجاد می‌کند و همچنین درون آن پوشه‌هایی شامل یک نسخه از مفسر پایتون و فایل‌های پشتیبان موردنیاز را می‌سازد."
+msgstr "اگر پوشه ``tutorial-env`` وجود نداشته باشد، این دستور آن را ایجاد می‌کند و همچنین درون آن پوشه‌هایی شامل یک نسخه از مفسر پایتون و پرونده‌های پشتیبان موردنیاز را می‌سازد."
 
 msgid "A common directory location for a virtual environment is ``.venv``. This name keeps the directory typically hidden in your shell and thus out of the way while giving it a name that explains why the directory exists. It also prevents clashing with ``.env`` environment variable definition files that some tooling supports."
-msgstr "یکی از محل‌های رایج برای ایجاد محیط مجازی، پوشه ``.venv`` است. این نام معمولاً باعث می‌شود پوشه در پوسته مخفی بماند و در عین حال به‌خوبی نشان دهد که دلیل وجود آن چیست. همچنین از تداخل با فایل‌های تعریف متغیرهای محیطی ``.env`` که برخی ابزارها از آن‌ها پشتیبانی می‌کنند، جلوگیری می‌کند."
+msgstr "یکی از محل‌های رایج برای ایجاد محیط مجازی، پوشه ``.venv`` است. این نام معمولاً باعث می‌شود پوشه در پوسته مخفی بماند و در عین حال به‌خوبی نشان دهد که دلیل وجود آن چیست. همچنین از تداخل با پرونده‌های تعریف متغیرهای محیطی ``.env`` که برخی ابزارها از آن‌ها پشتیبانی می‌کنند، جلوگیری می‌کند."
 
 msgid "Once you've created a virtual environment, you may activate it."
 msgstr "پس از ایجاد محیط مجازی، می‌توانید آن را فعال کنید."
@@ -79,7 +79,7 @@ msgid "(This script is written for the bash shell.  If you use the :program:`csh
 msgstr "(این اسکریپت برای پوسته bash نوشته شده است. اگر از پوسته‌های :program:`csh` یا :program:`fish` استفاده می‌کنید، باید به‌ترتیب از اسکریپت‌های ``activate.csh`` یا ``activate.fish`` استفاده کنید.)"
 
 msgid "Activating the virtual environment will change your shell's prompt to show what virtual environment you're using, and modify the environment so that running ``python`` will get you that particular version and installation of Python. For example:"
-msgstr "با فعال کردن محیط مجازی، اعلان (prompt) پوسته تغییر می‌کند تا نشان دهد از کدام محیط مجازی استفاده می‌کنید. همچنین محیط به‌گونه‌ای تنظیم می‌شود که با اجرای دستور ``python``، همان نسخه و نصب پایتون مربوط به آن محیط مجازی اجرا شود. برای مثال:"
+msgstr "با فعال کردن محیط مجازی، اعلان پوسته تغییر می‌کند تا نشان دهد از کدام محیط مجازی استفاده می‌کنید. همچنین محیط به‌گونه‌ای تنظیم می‌شود که با اجرای دستور ``python``، همان نسخه و نصب پایتون مربوط به آن محیط مجازی اجرا شود. برای مثال:"
 
 msgid ""
 "$ source ~/envs/tutorial-env/bin/activate\n"
@@ -229,7 +229,7 @@ msgstr ""
 "setuptools (16.0)"
 
 msgid "``python -m pip freeze`` will produce a similar list of the installed packages, but the output uses the format that ``python -m pip install`` expects. A common convention is to put this list in a ``requirements.txt`` file:"
-msgstr "دستور ``python -m pip freeze`` نیز فهرستی مشابه از بسته‌های نصب‌شده تولید می‌کند، اما خروجی آن در قالبی است که دستور ``python -m pip install`` انتظار دارد. معمولاً این فهرست را در فایلی با نام ``requirements.txt`` ذخیره می‌کنند:"
+msgstr "دستور ``python -m pip freeze`` نیز فهرستی مشابه از بسته‌های نصب‌شده تولید می‌کند، اما خروجی آن در قالبی است که دستور ``python -m pip install`` انتظار دارد. معمولاً این فهرست را در پرونده‌ای با نام ``requirements.txt`` ذخیره می‌کنند:"
 
 msgid ""
 "(tutorial-env) $ python -m pip freeze > requirements.txt\n"
@@ -245,7 +245,7 @@ msgstr ""
 "requests==2.7.0"
 
 msgid "The ``requirements.txt`` can then be committed to version control and shipped as part of an application.  Users can then install all the necessary packages with ``install -r``:"
-msgstr "سپس می‌توان فایل ``requirements.txt`` را در سامانه‌ی کنترل نسخه ثبت (commit) کرد و همراه با برنامه منتشر نمود. در این صورت، کاربران می‌توانند با استفاده از ``install -r`` تمام بسته‌های موردنیاز را نصب کنند:"
+msgstr "سپس می‌توان پرونده ``requirements.txt`` را در سامانه‌ی کنترل نسخه ثبت (commit) کرد و همراه با برنامه منتشر نمود. در این صورت، کاربران می‌توانند با استفاده از ``install -r`` تمام بسته‌های موردنیاز را نصب کنند:"
 
 msgid ""
 "(tutorial-env) $ python -m pip install -r requirements.txt\n"

@@ -101,7 +101,7 @@ msgid "For this purpose the following, *private* constructors are listed:"
 msgstr "برای این منظور، سازنده‌های *خصوصی* زیر فهرست شده‌اند:"
 
 msgid "Create a built-in future instance."
-msgstr "یک نمونه‌ی فیوچر (future) توکار ایجاد کنید."
+msgstr "یک نمونه‌ی فیوچر توکار ایجاد کنید."
 
 msgid "*loop* is an optional event loop instance."
 msgstr "*loop* نمونه‌ای اختیاری از حلقه رویداد است."
@@ -152,7 +152,7 @@ msgid ""
 "Call the function just before executing a portion of embedded *coroutine* "
 "(:meth:`coroutine.send` or :meth:`coroutine.throw`)."
 msgstr ""
-"تابع را درست پیش از اجرای بخشی از *هم‌روال* جاسازی‌شده فراخوانی کنید "
+"تابع را درست پیش از اجرای بخشی از *هم‌روال* تعبیه‌شده فراخوانی کنید "
 "(:meth:`coroutine.send` یا :meth:`coroutine.throw`)."
 
 msgid "Switch the current task back from *task* to ``None``."

@@ -471,7 +471,7 @@ msgstr ""
 
 msgid "Return an iterator over the variables stored in the context object."
 msgstr ""
-"یک پیمایش‌گر (iterator) بر روی متغیرهای ذخیره‌شده در شیء زمینه برمی‌گرداند."
+"یک پیمایش‌گر بر روی متغیرهای ذخیره‌شده در شیء زمینه برمی‌گرداند."
 
 msgid "Return the number of variables set in the context object."
 msgstr "تعداد متغیرهای تنظیم‌شده در شیء زمینه را برمی‌گرداند."

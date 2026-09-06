@@ -2,9 +2,9 @@
 
 <!-- خلاصهای از ترجمه یا تغییری که انجام دادهاید بنویسید. -->
 
-## فایل‌های تغییر یافته
+## پرونده‌های تغییر یافته
 
-<!-- فایل‌های .po که ترجمه/ویرایش شده‌اند را فهرست کنید، مثلاً:
+<!-- پرونده‌های .po که ترجمه/ویرایش شده‌اند را فهرست کنید، مثلاً:
 - `library/functions.po`
 - `tutorial/controlflow.po`
 -->
@@ -16,10 +16,10 @@
 ## چک‌لیست
 <!-- در هر براکتی که انجام شده، یک x قرار دهید.-->
 - [ ] می‌پذیرم که از [آیین‌نامه‌ی رفتاری PSF](https://www.python.org/psf/conduct/) پیروی کنم.
-- [ ] `msgfmt --check` روی فایل‌های تغییر یافته با موفقیت اجرا شده است
-- [ ] `python3 scripts/check_markup.py` روی فایل‌های تغییر یافته اجرا شده است
+- [ ] `msgfmt --check` روی پرونده‌های تغییر یافته با موفقیت اجرا شده است
+- [ ] `python3 scripts/check_markup.py` روی پرونده‌های تغییر یافته اجرا شده است
 - [ ] نشانه‌گذاری‌های Sphinx (`:class:`، `:func:`، کد درون‌خطی) و جای‌گذارها (`%s`، `{name}`) دست‌نخورده مانده‌اند
 - [ ] ترجمه‌ها با [واژه‌نامه (GLOSSARY.md)](https://github.com/python/python-docs-fa/blob/3.14/GLOSSARY.md) هماهنگ است
 - [ ] رشته‌های `fuzzy` بررسی و در صورت لزوم بازنویسی شده‌اند
-- [ ] فایل [CONTRIBUTING.md](https://github.com/python/python-docs-fa/blob/3.14/CONTRIBUTING.md) با دقت خوانده شده است.
+- [ ] پرونده [CONTRIBUTING.md](https://github.com/python/python-docs-fa/blob/3.14/CONTRIBUTING.md) با دقت خوانده شده است.
 <!-- یادآوری: بررسی‌های خودکار (sphinx-lint ،msgfmt ،check_markup و ساخت کامل) در GitHub Actions روی پول‌ریکوئست اجرا می‌شوند. -->

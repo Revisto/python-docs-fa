@@ -133,7 +133,7 @@ msgid "Escape"
 msgstr "خنثی کردن"
 
 msgid "File separator"
-msgstr "جداکننده‌ی فایل"
+msgstr "جداکننده‌ی پرونده"
 
 msgid "Group separator"
 msgstr "جداکننده‌ی گروه"

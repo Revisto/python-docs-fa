@@ -27,10 +27,10 @@ msgid "An Informal Introduction to Python"
 msgstr "معرفی غیررسمی پایتون"
 
 msgid "In the following examples, input and output are distinguished by the presence or absence of prompts (:term:`>>>` and :term:`...`): to repeat the example, you must type everything after the prompt, when the prompt appears; lines that do not begin with a prompt are output from the interpreter. Note that a secondary prompt on a line by itself in an example means you must type a blank line; this is used to end a multi-line command."
-msgstr "در مثال‌های زیر، ورودی و خروجی با وجود یا نبود اعلان‌ها (:term:`>>>` و :term:`...`) از یکدیگر متمایز می‌شوند: برای تکرار مثال، باید هر چیزی را که پس از اعلان ظاهر می‌شود، زمانی که اعلان نمایش داده می‌شود، تایپ کنید؛ خط‌هایی که با اعلان شروع نمی‌شوند، خروجی مفسر هستند. توجه کنید که یک اعلان ثانویه که در یک مثال به‌تنهایی در یک خط قرار دارد، به این معنی است که باید یک خط خالی تایپ کنید؛ این مورد برای پایان دادن به یک دستور چندخطی استفاده می‌شود."
+msgstr "در مثال‌های زیر، ورودی و خروجی با وجود یا نبود اعلان‌ها (:term:`>>>` و :term:`...`) از یکدیگر متمایز می‌شوند: برای تکرار مثال، باید هر چیزی را که پس از اعلان ظاهر می‌شود، زمانی که اعلان نمایش داده می‌شود، تایپ کنید؛ خطوطی که با اعلان شروع نمی‌شوند، خروجی مفسر هستند. توجه کنید که یک اعلان ثانویه که در یک مثال به‌تنهایی در یک خط قرار دارد، به این معنی است که باید یک خط خالی تایپ کنید؛ این مورد برای پایان دادن به یک دستور چندخطی استفاده می‌شود."
 
 msgid "You can use the \"Copy\" button (it appears in the upper-right corner when hovering over or tapping a code example), which strips prompts and omits output, to copy and paste the input lines into your interpreter."
-msgstr "می‌توانید از دکمه‌ی \"Copy\" استفاده کنید (این دکمه هنگام قرار گرفتن نشانگر روی یک مثال کد یا لمس کردن آن، در گوشه‌ی بالا-راست ظاهر می‌شود) که اعلان‌ها را حذف می‌کند و خروجی را کنار می‌گذارد، تا خط‌های ورودی را کپی کرده و در مفسر خود جای‌گذاری کنید."
+msgstr "می‌توانید از دکمه‌ی \"Copy\" استفاده کنید (این دکمه هنگام قرار گرفتن نشانگر روی یک مثال کد یا لمس کردن آن، در گوشه‌ی بالا-راست ظاهر می‌شود) که اعلان‌ها را حذف می‌کند و خروجی را کنار می‌گذارد، تا خطوط ورودی را کپی کرده و در مفسر خود جای‌گذاری کنید."
 
 msgid "Many of the examples in this manual, even those entered at the interactive prompt, include comments.  Comments in Python start with the hash character, ``#``, and extend to the end of the physical line.  A comment may appear at the start of a line or following whitespace or code, but not within a string literal.  A hash character within a string literal is just a hash character. Since comments are to clarify code and are not interpreted by Python, they may be omitted when typing in examples."
 msgstr "بسیاری از مثال‌های موجود در این راهنما، حتی آن‌هایی که در اعلان تعاملی وارد شده‌اند، شامل کامنت‌ها هستند. کامنت‌ها در پایتون با نویسه‌ی علامت هش، یعنی ``#``، شروع می‌شوند و تا انتهای خط فیزیکی ادامه دارند. یک توضیح می‌تواند در ابتدای یک خط یا پس از فاصله‌های سفید یا کد ظاهر شود، اما نمی‌تواند درون یک رشته‌ی متنی قرار بگیرد. یک نویسه‌ی هش درون یک رشته‌ی متنی فقط همان نویسه‌ی هش است. از آنجا که کامنت‌ها برای روشن کردن کد هستند و توسط پایتون تفسیر نمی‌شوند، هنگام تایپ مثال‌ها می‌توان آن‌ها را حذف کرد."
@@ -568,7 +568,7 @@ msgid ":ref:`f-strings`"
 msgstr ":ref:`f-strings`"
 
 msgid "String literals that have embedded expressions."
-msgstr "رشته‌های متنی ثابتی که شامل عبارت‌های جاسازی‌شده هستند."
+msgstr "رشته‌های متنی ثابتی که شامل عبارت‌های تعبیه‌شده هستند."
 
 msgid ":ref:`formatstrings`"
 msgstr ":ref:`formatstrings`"

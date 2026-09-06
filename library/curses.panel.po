@@ -49,7 +49,7 @@ msgstr ""
 "می‌شود."
 
 msgid "The module :mod:`!curses.panel` defines the following functions:"
-msgstr "ماژول :mod:`!curses.panel` تابع‌های زیر را تعریف می‌کند:"
+msgstr "ماژول :mod:`!curses.panel` توابع زیر را تعریف می‌کند:"
 
 msgid "Returns the bottom panel in the panel stack."
 msgstr "پایین‌ترین پنل را در پشته‌ی پنل‌ها برمی‌گرداند."

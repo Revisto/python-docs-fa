@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid ":mod:`!telnetlib` --- Telnet client"
-msgstr ":mod:`!telnetlib` --- کارخواه Telnet"
+msgstr ":mod:`!telnetlib` --- کلاینت Telnet"
 
 msgid ""
 "This module is no longer part of the Python standard library. It was "

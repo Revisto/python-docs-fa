@@ -70,7 +70,7 @@ msgid "For Python-related questions and problem reports, you can post to the new
 msgstr "برای پرسش‌ها و گزارش مشکلات مرتبط با پایتون، می‌توانید در گروه خبری :newsgroup:`comp.lang.python` مطلب ارسال کنید یا آن‌ها را به فهرست پستی python-list@python.org بفرستید. گروه خبری و فهرست پستی به یکدیگر متصل هستند؛ بنابراین پیام‌هایی که در یکی ارسال شوند، به‌طور خودکار به دیگری نیز فرستاده می‌شوند. هر روز صدها پیام ارسال می‌شود که در آن‌ها کاربران پرسش می‌پرسند (و به پرسش‌ها پاسخ می‌دهند)، قابلیت‌های جدید پیشنهاد می‌کنند و ماژول‌های تازه را معرفی می‌کنند. آرشیو فهرست پستی در https://mail.python.org/pipermail/ در دسترس است."
 
 msgid "Before posting, be sure to check the list of :ref:`Frequently Asked Questions <faq-index>` (also called the FAQ).  The FAQ answers many of the questions that come up again and again, and may already contain the solution for your problem."
-msgstr "پیش از ارسال پیام، حتماً فهرست :ref:`پرسش‌های متداول <faq-index>` (FAQ) را بررسی کنید. این فهرست به بسیاری از پرسش‌هایی که بارها و بارها مطرح می‌شوند پاسخ داده است و ممکن است راه‌حل مشکل شما نیز از قبل در آن وجود داشته باشد."
+msgstr "پیش از ارسال پیام، حتماً فهرست :ref:`پرسش‌های متداول <faq-index>` را بررسی کنید. این فهرست به بسیاری از پرسش‌هایی که بارها و بارها مطرح می‌شوند پاسخ داده است و ممکن است راه‌حل مشکل شما نیز از قبل در آن وجود داشته باشد."
 
 msgid "Footnotes"
 msgstr "پانویس‌ها"

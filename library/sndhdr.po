@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid ":mod:`!sndhdr` --- Determine type of sound file"
-msgstr ":mod:`!sndhdr` --- تعیین نوع فایل صوتی"
+msgstr ":mod:`!sndhdr` --- تعیین نوع پرونده صوتی"
 
 msgid ""
 "This module is no longer part of the Python standard library. It was "

@@ -98,7 +98,7 @@ msgid "The memory is initialized like :c:func:`PyObject_InitVar`."
 msgstr "حافظه، مانند :c:func:`PyObject_InitVar` مقداردهی اولیه می‌شود."
 
 msgid "This is useful for implementing objects like tuples, which are able to determine their size at construction time.  Embedding the array of fields into the same allocation decreases the number of allocations, improving the memory management efficiency."
-msgstr "این (روش) برای پیاده‌سازی اشیایی مثل تاپل‌ها مفید است، که می‌توانند اندازه‌ی خود را در زمان ساخت تعیین کنند. جاسازی آرایه‌ی فیلدها در همان تخصیص، تعداد تخصیص‌ها را کاهش می‌دهد و بازدهی مدیریت حافظه را بهبود می‌بخشد."
+msgstr "این (روش) برای پیاده‌سازی اشیایی مثل تاپل‌ها مفید است، که می‌توانند اندازه‌ی خود را در زمان ساخت تعیین کنند. تعبیه آرایه‌ی فیلدها در همان تخصیص، تعداد تخصیص‌ها را کاهش می‌دهد و بازدهی مدیریت حافظه را بهبود می‌بخشد."
 
 msgid "This cannot be used for objects with :c:macro:`Py_TPFLAGS_HAVE_GC` set in :c:member:`~PyTypeObject.tp_flags`; use :c:macro:`PyObject_GC_NewVar` instead."
 msgstr "این را نمی‌توان برای اشیایی که :c:macro:`Py_TPFLAGS_HAVE_GC` در :c:member:`~PyTypeObject.tp_flags` آنها تنظیم شده است، استفاده کرد؛ به جای آن از :c:macro:`PyObject_GC_NewVar` استفاده کنید."

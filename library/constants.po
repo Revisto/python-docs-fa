@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 "ارزیابی :data:`!NotImplemented` در یک زمینه بولی، اکنون یک :exc:`TypeError` "
 "پرتاب می‌کند. پیش از این به :const:`True` ارزیابی می‌شد و از پایتون 3.9، یک "
-":exc:`DeprecationWarning` صادر می‌کرد."
+":exc:`DeprecationWarning` اکسپورت می‌کرد."
 
 msgid ""
 "The same as the ellipsis literal \"``...``\", an object frequently used to "

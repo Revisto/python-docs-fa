@@ -132,7 +132,7 @@ msgstr ""
 "``interpolations`` و ``values`` است:"
 
 msgid "A :class:`tuple` of the interpolations in the template."
-msgstr "یک :class:`tuple` از درون‌یابی‌ها (interpolations) در قالب."
+msgstr "یک :class:`tuple` از درون‌یابی‌ها در قالب."
 
 msgid ""
 "The ``interpolations`` tuple may be empty and always contains one fewer "
@@ -227,7 +227,7 @@ msgid ""
 "Interpolations support pattern matching, allowing you to match against their"
 " attributes with the :ref:`match statement <match>`:"
 msgstr ""
-"درون‌یابی‌ها (interpolations) از تطبیق الگو پشتیبانی می‌کنند و به شما امکان"
+"درون‌یابی‌ها از تطبیق الگو پشتیبانی می‌کنند و به شما امکان"
 " می‌دهند با استفاده از :ref:`دستور match <match>`، آن‌ها را بر اساس "
 "ویژگی‌هایشان تطبیق دهید:"
 

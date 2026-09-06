@@ -269,7 +269,7 @@ msgid ""
 "become quiet NaNs), for example on x86 systems in 32-bit mode."
 msgstr ""
 "توجه داشته باشید که نوع NaN ممکن است روی سکوهای IEEE حفظ نشود (NaNهای "
-"علامت‌دهنده (signaling NaN) به NaNهای خاموش (quiet NaN) تبدیل می‌شوند)، برای"
+"سیگنال‌دهنده به NaNهای خاموش (quiet NaN) تبدیل می‌شوند)، برای"
 " مثال روی سیستم‌های x86 در حالت ۳۲ بیتی."
 
 msgid ""

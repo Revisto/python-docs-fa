@@ -115,7 +115,7 @@ msgid ":ref:`synchronize <asyncio-sync>` concurrent code;"
 msgstr ":ref:`همگام‌سازی <asyncio-sync>` کد هم‌روند؛"
 
 msgid "For **introspection**, asyncio provides APIs and tools for:"
-msgstr "برای **درون‌نگری** (introspection)، asyncio APIها و ابزارهایی برای:"
+msgstr "برای **درون‌نگری** ، asyncio APIها و ابزارهایی برای:"
 
 msgid ""
 "inspecting the :ref:`async call graph <asyncio-graph>` of tasks and futures;"

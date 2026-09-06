@@ -53,7 +53,7 @@ msgid ""
 "The reference point for timestamps depends on the clock used. For example, "
 ":c:func:`PyTime_Time` returns timestamps relative to the UNIX epoch."
 msgstr ""
-"نقطه مرجع مهرهای زمانی (timestamp) به ساعت مورد استفاده بستگی دارد. برای "
+"نقطه مرجع مهرهای زمانی به ساعت مورد استفاده بستگی دارد. برای "
 "مثال، :c:func:`PyTime_Time` مهرهای زمانی را نسبت به مبدأ زمان یونیکس "
 "برمی‌گرداند."
 

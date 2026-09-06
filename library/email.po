@@ -223,19 +223,19 @@ msgid "Module :mod:`smtplib`"
 msgstr "ماژول :mod:`smtplib`"
 
 msgid "SMTP (Simple Mail Transport Protocol) client"
-msgstr "کارخواه SMTP (پروتکل انتقال ایمیل ساده)"
+msgstr "کلاینت SMTP (پروتکل انتقال ایمیل ساده)"
 
 msgid "Module :mod:`poplib`"
 msgstr "ماژول :mod:`poplib`"
 
 msgid "POP (Post Office Protocol) client"
-msgstr "کارخواه POP (Post Office Protocol)"
+msgstr "کلاینت POP (Post Office Protocol)"
 
 msgid "Module :mod:`imaplib`"
 msgstr "ماژول :mod:`imaplib`"
 
 msgid "IMAP (Internet Message Access Protocol) client"
-msgstr "کارخواه IMAP (Internet Message Access Protocol)"
+msgstr "کلاینت IMAP (Internet Message Access Protocol)"
 
 msgid "Module :mod:`mailbox`"
 msgstr "ماژول :mod:`mailbox`"

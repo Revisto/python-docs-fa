@@ -55,7 +55,7 @@ msgid ""
 "A dictionary mapping XHTML 1.0 entity definitions to their replacement text "
 "in ISO Latin-1."
 msgstr ""
-"یک دیکشنری که تعریف‌های موجودیت (entity) در XHTML 1.0 را به متن جایگزین "
+"یک دیکشنری که تعریف‌های موجودیت در XHTML 1.0 را به متن جایگزین "
 "آن‌ها در ISO Latin-1 نگاشت می‌کند."
 
 msgid "A dictionary that maps HTML4 entity names to the Unicode code points."

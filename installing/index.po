@@ -368,7 +368,7 @@ msgid ""
 "without needing to build them locally."
 msgstr ""
 "برخی از راه‌حل‌های نصب `نرم‌افزار علمی "
-"<https://packaging.python.org/science/>`__ که هنوز به‌صورت فایل‌های wheel "
+"<https://packaging.python.org/science/>`__ که هنوز به‌صورت پرونده‌های wheel "
 "پیش‌ساخته در دسترس نیست، ممکن است در به‌دست آوردن سایر توسعه‌های دودویی بدون"
 " نیاز به ساخت آن‌ها به‌طور محلی نیز کمک کنند."
 

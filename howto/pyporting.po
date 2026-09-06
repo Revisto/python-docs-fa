@@ -62,7 +62,7 @@ msgid ""
 "the old guide in the `archive "
 "<https://docs.python.org/3.10/howto/pyporting.html>`_."
 msgstr ""
-"از پایتون 3.11، راهنمای اصلی انتقال (porting) از رده خارج شده است. شما "
+"از پایتون 3.11، راهنمای اصلی انتقال از رده خارج شده است. شما "
 "می‌توانید راهنمای قدیمی را در `بایگانی "
 "<https://docs.python.org/3.10/howto/pyporting.html>`_ پیدا کنید."
 

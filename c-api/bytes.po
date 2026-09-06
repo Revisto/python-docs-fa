@@ -55,7 +55,7 @@ msgid ""
 "Return true if the object *o* is a bytes object, but not an instance of a "
 "subtype of the bytes type.  This function always succeeds."
 msgstr ""
-"اگر شیء *o* یک شیء بایت (bytes) باشد اما نمونه‌ای از زیرنوعی از نوع بایت "
+"اگر شیء *o* یک شیء بایت باشد اما نمونه‌ای از زیرنوعی از نوع بایت "
 "نباشد، مقدار true را برمی‌گرداند. این تابع همیشه با موفقیت اجرا می‌شود."
 
 msgid ""

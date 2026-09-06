@@ -295,7 +295,7 @@ msgstr ""
 
 msgid "or for recovering a rational number that's represented as a float:"
 msgstr ""
-"یا برای بازیابی عدد گویایی که به‌صورت یک شناور (float) نمایش داده شده است:"
+"یا برای بازیابی عدد گویایی که به‌صورت یک شناور نمایش داده شده است:"
 
 msgid ""
 "Returns the greatest :class:`int` ``<= self``.  This method can also be "

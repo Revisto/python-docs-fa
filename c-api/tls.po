@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 "تخصیص پویای :c:type:`Py_tss_t`، که در ماژول‌های توسعه‌ای ساخته‌شده با "
 ":ref:`Py_LIMITED_API <stable>` لازم است؛ جایی که تخصیص ایستای این نوع به "
-"دلیل مات (opaque) بودن پیاده‌سازی آن در زمان ساخت ممکن نیست."
+"دلیل مات بودن پیاده‌سازی آن در زمان ساخت ممکن نیست."
 
 msgid ""
 "Return a value which is the same state as a value initialized with "

@@ -40,7 +40,7 @@ msgid ""
 ":mod:`http.client` is a low-level HTTP protocol client; for high-level URL "
 "opening use :mod:`urllib.request`"
 msgstr ""
-":mod:`http.client` یک کارخواه سطح پایین برای پروتکل HTTP است؛ برای باز کردن "
+":mod:`http.client` یک کلاینت سطح پایین برای پروتکل HTTP است؛ برای باز کردن "
 "URL در سطح بالا از :mod:`urllib.request` استفاده کنید"
 
 msgid ""

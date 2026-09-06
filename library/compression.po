@@ -38,16 +38,16 @@ msgstr ""
 "صورت امکان توصیه می‌شود."
 
 msgid ":mod:`!compression.bz2` -- Re-exports :mod:`bz2`"
-msgstr ":mod:`!compression.bz2` -- بازصادرات :mod:`bz2`"
+msgstr ":mod:`!compression.bz2` -- بازاکسپورت :mod:`bz2`"
 
 msgid ":mod:`!compression.gzip` -- Re-exports :mod:`gzip`"
-msgstr ":mod:`!compression.gzip` -- :mod:`gzip` را بازصادرات می‌کند"
+msgstr ":mod:`!compression.gzip` -- :mod:`gzip` را بازاکسپورت می‌کند"
 
 msgid ":mod:`!compression.lzma` -- Re-exports :mod:`lzma`"
-msgstr ":mod:`!compression.lzma` -- :mod:`lzma` را بازصادرات می‌کند"
+msgstr ":mod:`!compression.lzma` -- :mod:`lzma` را بازاکسپورت می‌کند"
 
 msgid ":mod:`!compression.zlib` -- Re-exports :mod:`zlib`"
-msgstr ":mod:`!compression.zlib` -- :mod:`zlib` را بازصادرات می‌کند"
+msgstr ":mod:`!compression.zlib` -- :mod:`zlib` را بازاکسپورت می‌کند"
 
 msgid ""
 ":mod:`compression.zstd` -- Wrapper for the Zstandard compression library"

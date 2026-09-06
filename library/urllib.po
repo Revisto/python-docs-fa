@@ -45,4 +45,4 @@ msgid ":mod:`urllib.parse` for parsing URLs"
 msgstr ":mod:`urllib.parse` برای تجزیه‌ی URLها"
 
 msgid ":mod:`urllib.robotparser` for parsing ``robots.txt`` files"
-msgstr ":mod:`urllib.robotparser` برای تجزیه‌ی فایل‌های ``robots.txt``"
+msgstr ":mod:`urllib.robotparser` برای تجزیه‌ی پرونده‌های ``robots.txt``"

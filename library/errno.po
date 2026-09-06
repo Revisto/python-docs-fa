@@ -71,7 +71,7 @@ msgid ""
 "No such file or directory. This error is mapped to the "
 "exception :exc:`FileNotFoundError`."
 msgstr ""
-"چنین فایل یا پوشه‌ای وجود ندارد. این خطا به استثنای :exc:`FileNotFoundError` "
+"چنین پرونده یا پوشه‌ای وجود ندارد. این خطا به استثنای :exc:`FileNotFoundError` "
 "نگاشته شده است."
 
 msgid ""
@@ -101,7 +101,7 @@ msgid "Exec format error"
 msgstr "خطای قالب اجرایی"
 
 msgid "Bad file number"
-msgstr "شماره‌ی فایل نامعتبر"
+msgstr "شماره‌ی پرونده نامعتبر"
 
 msgid ""
 "No child processes. This error is mapped to the "
@@ -137,7 +137,7 @@ msgstr "دستگاه یا منبع مشغول"
 msgid ""
 "File exists. This error is mapped to the exception :exc:`FileExistsError`."
 msgstr ""
-"فایل وجود دارد. این خطا به استثنای :exc:`FileExistsError` نگاشت می‌شود."
+"پرونده وجود دارد. این خطا به استثنای :exc:`FileExistsError` نگاشت می‌شود."
 
 msgid "Cross-device link"
 msgstr "پیوند بین‌دستگاهی"
@@ -161,19 +161,19 @@ msgid "Invalid argument"
 msgstr "آرگومان نامعتبر"
 
 msgid "File table overflow"
-msgstr "سرریز جدول فایل"
+msgstr "سرریز جدول پرونده"
 
 msgid "Too many open files"
-msgstr "تعداد فایل‌های باز بیش از حد است"
+msgstr "تعداد پرونده‌های باز بیش از حد است"
 
 msgid "Not a typewriter"
 msgstr "ماشین تحریر نیست"
 
 msgid "Text file busy"
-msgstr "فایل متنی مشغول"
+msgstr "پرونده متنی مشغول"
 
 msgid "File too large"
-msgstr "فایل بیش از حد بزرگ است"
+msgstr "پرونده بیش از حد بزرگ است"
 
 msgid "No space left on device"
 msgstr "هیچ فضایی در دستگاه باقی نمانده است"
@@ -182,7 +182,7 @@ msgid "Illegal seek"
 msgstr "جستجوی غیرمجاز"
 
 msgid "Read-only file system"
-msgstr "سیستم فایل فقط‌خواندنی"
+msgstr "سیستم پرونده فقط‌خواندنی"
 
 msgid "Too many links"
 msgstr "پیوندهای بیش‌ازحد"
@@ -202,7 +202,7 @@ msgid "Resource deadlock would occur"
 msgstr "بن‌بست منابع رخ خواهد داد"
 
 msgid "File name too long"
-msgstr "نام فایل بیش از حد طولانی است"
+msgstr "نام پرونده بیش از حد طولانی است"
 
 msgid "No record locks available"
 msgstr "هیچ قفل رکوردی در دسترس نیست"
@@ -269,13 +269,13 @@ msgid "Invalid request code"
 msgstr "کد درخواست نامعتبر"
 
 msgid "Invalid slot"
-msgstr "جایگاه نامعتبر (slot)"
+msgstr "جایگاه نامعتبر "
 
 msgid "File locking deadlock error"
-msgstr "خطای بن‌بست در قفل فایل"
+msgstr "خطای بن‌بست در قفل پرونده"
 
 msgid "Bad font file format"
-msgstr "قالب فایل فونت نامعتبر"
+msgstr "قالب پرونده فونت نامعتبر"
 
 msgid "Device not a stream"
 msgstr "دستگاه یک جریان نیست"
@@ -329,7 +329,7 @@ msgid "Name not unique on network"
 msgstr "نام در شبکه یکتا نیست"
 
 msgid "File descriptor in bad state"
-msgstr "توصیف‌گر فایل در وضعیت نامناسب"
+msgstr "توصیف‌گر پرونده در وضعیت نامناسب"
 
 msgid "Remote address changed"
 msgstr "نشانی دوردست تغییر کرد"
@@ -479,19 +479,19 @@ msgstr ""
 "نگاشت شده است."
 
 msgid "Stale NFS file handle"
-msgstr "دسته‌ی فایل NFS قدیمی"
+msgstr "دسته‌ی پرونده NFS قدیمی"
 
 msgid "Structure needs cleaning"
 msgstr "ساختار نیاز به پاک‌سازی دارد"
 
 msgid "Not a XENIX named type file"
-msgstr "یک فایل از نوع نام‌گذاری‌شده‌ی XENIX نیست"
+msgstr "یک پرونده از نوع نام‌گذاری‌شده‌ی XENIX نیست"
 
 msgid "No XENIX semaphores available"
 msgstr "هیچ سمافور XENIX در دسترس نیست"
 
 msgid "Is a named type file"
-msgstr "یک فایل نوع نام‌دار است"
+msgstr "یک پرونده نوع نام‌دار است"
 
 msgid "Remote I/O error"
 msgstr "خطای ورودی/خروجی راه دور"
@@ -533,19 +533,19 @@ msgid "Authentication error"
 msgstr "خطای احراز هویت"
 
 msgid "Bad CPU type in executable"
-msgstr "نوع پردازنده نامعتبر در فایل اجرایی"
+msgstr "نوع پردازنده نامعتبر در پرونده اجرایی"
 
 msgid "Bad executable (or shared library)"
-msgstr "فایل اجرایی (یا کتابخانه اشتراکی) نامعتبر"
+msgstr "پرونده اجرایی (یا کتابخانه اشتراکی) نامعتبر"
 
 msgid "Malformed Mach-o file"
-msgstr "فایل Mach-o نامعتبر"
+msgstr "پرونده Mach-o نامعتبر"
 
 msgid "Device error"
 msgstr "خطای دستگاه"
 
 msgid "Inappropriate file type or format"
-msgstr "نوع یا قالب فایل نامناسب"
+msgstr "نوع یا قالب پرونده نامناسب"
 
 msgid "Need authenticator"
 msgstr "نیاز به اصالت‌سنج (authenticator)"

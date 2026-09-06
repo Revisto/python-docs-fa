@@ -59,7 +59,7 @@ msgid ""
 msgstr "در صورت نیاز به کنترل دقیق‌تر، ویژگی‌های زیر در دسترس هستند:"
 
 msgid "The frame which surrounds the text and scroll bar widgets."
-msgstr "فریم که ابزارک‌های متن و نوار پیمایش را احاطه می‌کند."
+msgstr "قابی که ابزارک‌های متن و نوار پیمایش را احاطه می‌کند."
 
 msgid "The scroll bar widget."
 msgstr "ابزارک نوار پیمایش."

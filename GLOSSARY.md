@@ -14,6 +14,7 @@
 | action | اکشن، کنش |
 | anchor | لنگر |
 | annotate | حاشیه‌نویسی کردن |
+| arena | آرنا |
 | annotation | حاشیه‌نویسی |
 | API | API |
 | argument | آرگومان |
@@ -43,6 +44,7 @@
 | bind | مقید کردن |
 | bitmap | بیت‌مپ |
 | bitmask | نقاب بیتی |
+| backport | بک‌پورت |
 | bitwise mask | نقاب بیتی |
 | blob | بلاب |
 | boilerplate | کد پیش‌ساخته، متن قالبی |
@@ -57,6 +59,7 @@
 | broadcast (network/event) | پخش |
 | broadcasting (array) | بسط‌دهی |
 | buffer | بافر |
+| build  | ساخت |
 | built-in | توکار، درونی، درون‌ساخته |
 | by-name | نام‌محور |
 | bytecode | بایت‌کد |
@@ -80,6 +83,7 @@
 | chunked | بخش‌بندی‌شده |
 | cipher | رمز |
 | class | کلاس |
+| client | کلاینت |
 | class method | متد کلاس |
 | class variable | متغیر کلاس |
 | classmethod | classmethod |
@@ -120,7 +124,9 @@
 | dataclass | دیتاکلاس |
 | debugging | اشکال‌زدایی، دیباگ کردن |
 | decoding | کدگشایی |
+| deallocater | آزادساز حافظه |
 | decompressor | واگشا |
+| decompression | واگشایی |
 | decorator | دکوراتور، آراینده |
 | deferred reference counting | شمارش ارجاعِ معوق |
 | delegation | واگذاری |
@@ -129,6 +135,7 @@
 | dependency resolution | حل وابستگی |
 | deprecated | منسوخ، از رده خارج شده |
 | deque | صف دوطرفه |
+| deleter | deleter |
 | descriptor | توصیف‌گر |
 | deserialization | سریال‌زدایی |
 | deserialize | سریال‌زدایی کردن |
@@ -160,6 +167,9 @@
 | entitlement | حق دسترسی |
 | entity | موجودیت |
 | enum | enum |
+| embed | تعبیه کردن |
+| embedded | تعبیه‌شده |
+| embedding | تعبیه |
 | envelope | پاکت |
 | EOF | EOF، پایان پرونده |
 | epoch | مبدأ زمان |
@@ -167,6 +177,7 @@
 | event | رویداد |
 | exception | استثنا |
 | executor | اجراکننده |
+| export | اکسپورت |
 | expression | عبارت |
 | extended hex alphabet | الفبای مبنای شانزده‌ی توسعه‌یافته |
 | extension module | ماژول توسعه‌ای |
@@ -175,10 +186,15 @@
 | facility | امکان، دسته گزارش |
 | factory function | تابع کارخانه‌ای |
 | fallback | جایگزین |
+| frame | فریم |
+| frame (GUI) | قاب |
+| folder | پوشه |
+| file | پرونده |
 | file object | شیء پرونده |
 | file-like object | شیء شبه‌پرونده |
 | filesystem encoding | کدگذاری فایل‌سیستم |
 | finalizer | نهایی‌ساز |
+| frozen | فریزشده |
 | finder | یابنده |
 | fixture | ثابت آزمایشی |
 | flattening | تخت‌سازی |
@@ -201,6 +217,8 @@
 | futures | آینده‌نماها، فیوچرز |
 | garbage collection | زباله‌روبی |
 | generator | تولیدگر |
+| getatter | getatter |
+| getter | getter |
 | generator expression | عبارت تولیدگر |
 | generic | عام |
 | generic function | تابع عام، تابع عمومی |
@@ -223,6 +241,9 @@
 | idempotent | هم‌توان |
 | IDN | IDN، دامنه اینترنتی بین‌المللی |
 | immortal | نامیرا |
+| intern | درونی‌سازی کردن |
+| interning | درونی‌سازی |
+| interned | درونی‌سازی‌شده |
 | immutable | تغییرناپذیر |
 | import | ایمپورت |
 | import path | مسیر ایمپورت |
@@ -237,8 +258,10 @@
 | interpreted | تفسیرشده |
 | interpreter | مفسر |
 | invariant | ناوردا |
+| isolate | ایزوله کردن |
 | IPC | ارتباط بین‌فرایندی |
 | item | آیتم |
+| introspection | درون‌نگری |
 | iterable | پیمایش‌پذیر |
 | iterate | پیمایش کردن |
 | iteration | پیمایش |
@@ -258,6 +281,7 @@
 | literal | لفظی |
 | literals | مقادیر لفظی |
 | little-endian | کوچک‌اندیان |
+| linker | پیونددهنده |
 | load | بارگذاری |
 | loader | بارگذار |
 | local | محلی |
@@ -335,6 +359,7 @@
 | pipe | پایپ |
 | placeholder | جای‌نگهدار |
 | poll | پایش |
+| pool | استخر |
 | polling | پایش |
 | portion | بخش |
 | positional | جایگاهی |
@@ -388,9 +413,12 @@
 | scheme | طرح‌واره، طرح |
 | scope | محدوده |
 | seal | مهر و موم |
+| server | سرور |
 | seed | بذر |
 | seek | مکان‌یابی کردن |
 | seeking | مکان‌یابی |
+| setatter | setatter |
+| setter | setter |
 | segmentation fault | خطای قطعه‌بندی (segmentation fault) |
 | sentinel | نشانگر |
 | sequence | دنباله |
@@ -412,6 +440,7 @@
 | spec | مشخصات |
 | special method | متد ویژه |
 | spinbox | اسپین‌باکس |
+| shebang | خط مفسر |
 | stack traceback | ردگیری پشته |
 | state | وضعیت |
 | statement | دستور |
@@ -465,6 +494,7 @@
 | unary | یک‌عملوندی |
 | undo buffer | بافر لغو |
 | unhashable | هش‌ناپذیر |
+| URL | URL، نشانی‌وب |
 | unicode | یونیکد |
 | unit test | آزمون واحد |
 | universal | همگانی |
@@ -472,6 +502,7 @@
 | unmarshal | مارشال‌گشایی کردن |
 | unmarshaling | مارشال‌گشایی |
 | unpacking | واگشایی |
+| unraisable | غیرقابل‌پرتاب |
 | unpacking assignments | انتساب‌های واگشایی |
 | unpickle | پیکل‌گشایی |
 | UTC | UTC، زمان هماهنگ جهانی |
@@ -479,6 +510,7 @@
 | variable | متغیر |
 | variable annotation | حاشیه‌نویسی متغیر |
 | view | نما |
+| verbose | پرگو، پرجزئیات |
 | virtual environment | محیط مجازی |
 | walrus operator | عملگر گراز دریایی |
 | weak reference | ارجاع ضعیف |

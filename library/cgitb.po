@@ -38,7 +38,7 @@ msgid ""
 "This is a copy of the cgi module, no longer maintained or supported by the "
 "core Python team."
 msgstr ""
-"اکنون می‌توان به‌جای آن از نسخه منشعب‌شده‌ای (fork) از این ماژول در PyPI "
+"اکنون می‌توان به‌جای آن از نسخه منشعب‌شده‌ای از این ماژول در PyPI "
 "استفاده کرد: :pypi:`legacy-cgi`. این یک کپی از ماژول cgi است که دیگر توسط "
 "تیم اصلی پایتون نگهداری یا پشتیبانی نمی‌شود."
 

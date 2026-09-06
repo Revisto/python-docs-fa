@@ -67,7 +67,7 @@ msgstr ""
 "<returns an extensive manual page created from the module's docstrings>"
 
 msgid "For daily file and directory management tasks, the :mod:`shutil` module provides a higher level interface that is easier to use::"
-msgstr "برای کارهای روزمره‌ی مدیریت فایل‌ها و پوشه‌ها، ماژول :mod:`shutil` یک رابط سطح بالاتر ارائه می‌دهد که استفاده از آن ساده‌تر است::"
+msgstr "برای کارهای روزمره‌ی مدیریت پرونده‌ها و پوشه‌ها، ماژول :mod:`shutil` یک رابط سطح بالاتر ارائه می‌دهد که استفاده از آن ساده‌تر است::"
 
 msgid ""
 ">>> import shutil\n"
@@ -83,10 +83,10 @@ msgstr ""
 "'installdir'"
 
 msgid "File wildcards"
-msgstr "الگوهای عام فایل"
+msgstr "الگوهای عام پرونده"
 
 msgid "The :mod:`glob` module provides a function for making file lists from directory wildcard searches::"
-msgstr "ماژول :mod:`glob` تابعی برای ساخت فهرستی از فایل‌ها با استفاده از جست‌وجوهای الگوی عام در پوشه‌ها فراهم می‌کند::"
+msgstr "ماژول :mod:`glob` تابعی برای ساخت فهرستی از پرونده‌ها با استفاده از جست‌وجوهای الگوی عام در پوشه‌ها فراهم می‌کند::"
 
 msgid ""
 ">>> import glob\n"
@@ -101,7 +101,7 @@ msgid "Command-line arguments"
 msgstr "آرگومان‌های خط فرمان"
 
 msgid "Common utility scripts often need to process command line arguments. These arguments are stored in the :mod:`sys` module's *argv* attribute as a list.  For instance, let's take the following :file:`demo.py` file::"
-msgstr "اسکریپت‌های کاربردی معمولاً نیاز دارند آرگومان‌های خط فرمان را پردازش کنند. این آرگومان‌ها در ویژگی *argv* ماژول :mod:`sys` به‌صورت یک فهرست ذخیره می‌شوند. برای مثال، فایل :file:`demo.py` زیر را در نظر بگیرید::"
+msgstr "اسکریپت‌های کاربردی معمولاً نیاز دارند آرگومان‌های خط فرمان را پردازش کنند. این آرگومان‌ها در ویژگی *argv* ماژول :mod:`sys` به‌صورت یک فهرست ذخیره می‌شوند. برای مثال، پرونده :file:`demo.py` زیر را در نظر بگیرید::"
 
 msgid ""
 "# File demo.py\n"
@@ -119,7 +119,7 @@ msgid "['demo.py', 'one', 'two', 'three']"
 msgstr "['demo.py', 'one', 'two', 'three']"
 
 msgid "The :mod:`argparse` module provides a more sophisticated mechanism to process command line arguments.  The following script extracts one or more filenames and an optional number of lines to be displayed::"
-msgstr "ماژول :mod:`argparse` سازوکار پیشرفته‌تری برای پردازش آرگومان‌های خط فرمان فراهم می‌کند. اسکریپت زیر یک یا چند نام فایل و همچنین تعداد اختیاری خطوطی که باید نمایش داده شوند را استخراج می‌کند::"
+msgstr "ماژول :mod:`argparse` سازوکار پیشرفته‌تری برای پردازش آرگومان‌های خط فرمان فراهم می‌کند. اسکریپت زیر یک یا چند نام پرونده و همچنین تعداد اختیاری خطوطی که باید نمایش داده شوند را استخراج می‌کند::"
 
 msgid ""
 "import argparse\n"
@@ -430,7 +430,7 @@ msgstr ""
 "doctest.testmod()   # آزمون‌های تعبیه‌شده را به‌صورت خودکار اعتبارسنجی می‌کند"
 
 msgid "The :mod:`unittest` module is not as effortless as the :mod:`doctest` module, but it allows a more comprehensive set of tests to be maintained in a separate file::"
-msgstr "ماژول :mod:`unittest` به اندازه‌ی :mod:`doctest` ساده و بدون زحمت نیست، اما اجازه می‌دهد مجموعه‌ای جامع‌تر از آزمون‌ها در یک فایل جداگانه نگهداری شود::"
+msgstr "ماژول :mod:`unittest` به اندازه‌ی :mod:`doctest` ساده و بدون زحمت نیست، اما اجازه می‌دهد مجموعه‌ای جامع‌تر از آزمون‌ها در یک پرونده جداگانه نگهداری شود::"
 
 msgid ""
 "import unittest\n"
@@ -474,10 +474,10 @@ msgid "The :mod:`email` package is a library for managing email messages, includ
 msgstr "بسته‌ی :mod:`email` کتابخانه‌ای برای مدیریت پیام‌های ایمیل است که از MIME و سایر قالب‌های پیام مبتنی بر :rfc:`5322` نیز پشتیبانی می‌کند. برخلاف ماژول‌های :mod:`smtplib` و :mod:`poplib` که وظیفه‌ی ارسال و دریافت پیام‌ها را بر عهده دارند، بسته‌ی email مجموعه‌ای کامل از ابزارها را برای ساخت یا کدگشایی ساختارهای پیچیده‌ی پیام (از جمله پیوست‌ها) و همچنین پیاده‌سازی پروتکل‌های کدگذاری اینترنتی و سرآیندهای پیام فراهم می‌کند."
 
 msgid "The :mod:`json` package provides robust support for parsing this popular data interchange format.  The :mod:`csv` module supports direct reading and writing of files in Comma-Separated Value format, commonly supported by databases and spreadsheets.  XML processing is supported by the :mod:`xml.etree.ElementTree`, :mod:`xml.dom` and :mod:`xml.sax` packages. Together, these modules and packages greatly simplify data interchange between Python applications and other tools."
-msgstr "بسته‌ی :mod:`json` از تجزیه و پردازش این قالب پرکاربرد تبادل داده به‌خوبی پشتیبانی می‌کند. ماژول :mod:`csv` امکان خواندن و نوشتن مستقیم فایل‌ها در قالب مقادیر جداشده با ویرگول (CSV) را فراهم می‌کند؛ قالبی که معمولاً توسط پایگاه‌های داده و نرم‌افزارهای صفحه‌گسترده پشتیبانی می‌شود. پردازش XML نیز توسط بسته‌های :mod:`xml.etree.ElementTree`، :mod:`xml.dom` و :mod:`xml.sax` پشتیبانی می‌شود. در کنار هم، این ماژول‌ها و بسته‌ها تبادل داده میان برنامه‌های پایتون و سایر ابزارها را تا حد زیادی ساده می‌کنند."
+msgstr "بسته‌ی :mod:`json` از تجزیه و پردازش این قالب پرکاربرد تبادل داده به‌خوبی پشتیبانی می‌کند. ماژول :mod:`csv` امکان خواندن و نوشتن مستقیم پرونده‌ها در قالب مقادیر جداشده با ویرگول (CSV) را فراهم می‌کند؛ قالبی که معمولاً توسط پایگاه‌های داده و نرم‌افزارهای صفحه‌گسترده پشتیبانی می‌شود. پردازش XML نیز توسط بسته‌های :mod:`xml.etree.ElementTree`، :mod:`xml.dom` و :mod:`xml.sax` پشتیبانی می‌شود. در کنار هم، این ماژول‌ها و بسته‌ها تبادل داده میان برنامه‌های پایتون و سایر ابزارها را تا حد زیادی ساده می‌کنند."
 
 msgid "The :mod:`sqlite3` module is a wrapper for the SQLite database library, providing a persistent database that can be updated and accessed using slightly nonstandard SQL syntax."
-msgstr "ماژول :mod:`sqlite3` پوششی (wrapper) برای کتابخانه‌ی پایگاه داده‌ی SQLite است و یک پایگاه داده‌ی پایدار فراهم می‌کند که با استفاده از نگارش اندکی غیراستاندارد SQL قابل به‌روزرسانی و دسترسی است."
+msgstr "ماژول :mod:`sqlite3` پوششی برای کتابخانه‌ی پایگاه داده‌ی SQLite است و یک پایگاه داده‌ی پایدار فراهم می‌کند که با استفاده از نگارش اندکی غیراستاندارد SQL قابل به‌روزرسانی و دسترسی است."
 
 msgid "Internationalization is supported by a number of modules including :mod:`gettext`, :mod:`locale`, and the :mod:`codecs` package."
 msgstr "پشتیبانی از بین‌المللی‌سازی (Internationalization) توسط چندین ماژول، از جمله :mod:`gettext`، :mod:`locale` و بسته‌ی :mod:`codecs` فراهم می‌شود."

@@ -377,7 +377,7 @@ msgstr "اگر نماد یک متغیر تکرار در یک درک باشد، `
 
 msgid "Return ``True`` if the symbol is a cell in an inlined comprehension."
 msgstr ""
-"اگر نماد یک سلول (cell) در یک درک درون‌خطی باشد، ``True`` را برمی‌گرداند."
+"اگر نماد یک سلول در یک درک درون‌خطی باشد، ``True`` را برمی‌گرداند."
 
 msgid "Return ``True`` if name binding introduces new namespace."
 msgstr ""
@@ -439,6 +439,6 @@ msgid ""
 "Symbol tables are generated for the specified Python source files and dumped"
 " to stdout. If no input file is specified, the content is read from stdin."
 msgstr ""
-"جدول‌های نماد برای فایل‌های منبع پایتون مشخص‌شده تولید می‌شوند و در stdout "
-"ریخته می‌شوند. اگر هیچ فایل ورودی مشخص نشده باشد، محتوا از stdin خوانده "
+"جدول‌های نماد برای پرونده‌های منبع پایتون مشخص‌شده تولید می‌شوند و در stdout "
+"ریخته می‌شوند. اگر هیچ پرونده ورودی مشخص نشده باشد، محتوا از stdin خوانده "
 "می‌شود."

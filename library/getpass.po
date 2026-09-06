@@ -103,7 +103,7 @@ msgstr "پارامتر *echo_char* برای بازخورد صفحه‌کلید �
 msgid ""
 "A :exc:`UserWarning` subclass issued when password input may be echoed."
 msgstr ""
-"یک زیرکلاس از :exc:`UserWarning` که زمانی صادر می‌شود که ممکن است ورودی "
+"یک زیرکلاس از :exc:`UserWarning` که زمانی اکسپورت می‌شود که ممکن است ورودی "
 "گذرواژه بازتاب داده شود."
 
 msgid "Return the \"login name\" of the user."

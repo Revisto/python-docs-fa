@@ -1123,7 +1123,7 @@ msgstr ""
 "*keywords* در :c:func:`PyArg_ParseTupleAndKeywords` و "
 ":c:func:`PyArg_VaParseTupleAndKeywords` درج می‌شود. مقدار پیش‌فرض برای C "
 "خالی و برای C++ مقدار ``const`` است (:c:expr:`const char * const *`). برای "
-"تغییر این مقدار، آن را پیش از گنجاندن (include) :file:`Python.h` به مقدار "
+"تغییر این مقدار، آن را پیش از گنجاندن :file:`Python.h` به مقدار "
 "دلخواه تعریف کنید."
 
 msgid "Building values"

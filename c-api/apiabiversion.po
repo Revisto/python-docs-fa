@@ -34,7 +34,7 @@ msgid "Build-time version constants"
 msgstr "ثابتهای نسخه در زمان ساخت"
 
 msgid "CPython exposes its version number in the following macros. Note that these correspond to the version code is **built** with. See :c:var:`Py_Version` for the version used at **run time**."
-msgstr "CPython شماره‌ی نسخه‌ی خود را در ماکروهای زیر در معرض دید قرار می‌دهد. توجه داشته باشید که اینها مربوط به نسخه‌ای هستند که کد با آن **ساخته (build)** شده است. برای نسخه‌ای که در **زمان اجرا** استفاده می‌شود، به :c:var:`Py_Version` مراجعه کنید."
+msgstr "CPython شماره‌ی نسخه‌ی خود را در ماکروهای زیر در معرض دید قرار می‌دهد. توجه داشته باشید که اینها مربوط به نسخه‌ای هستند که کد با آن **ساخته ** شده است. برای نسخه‌ای که در **زمان اجرا** استفاده می‌شود، به :c:var:`Py_Version` مراجعه کنید."
 
 msgid "See :ref:`stable` for a discussion of API and ABI stability across versions."
 msgstr "برای بحث درباره‌ی پایداری API و ABI در میان نسخه‌ها، به :ref:`stable` مراجعه کنید."
@@ -218,7 +218,7 @@ msgstr ""
 "#endif"
 
 msgid "``Py_PACK_FULL_VERSION`` is primarily a macro, intended for use in ``#if`` directives, but it is also available as an exported function."
-msgstr "``Py_PACK_FULL_VERSION`` در درجه‌ی اول یک ماکرو است که برای استفاده در دستورات ``#if`` در نظر گرفته شده است، اما به‌عنوان یک تابع صادرشده نیز در دسترس است."
+msgstr "``Py_PACK_FULL_VERSION`` در درجه‌ی اول یک ماکرو است که برای استفاده در دستورات ``#if`` در نظر گرفته شده است، اما به‌عنوان یک تابع اکسپورتشده نیز در دسترس است."
 
 msgid "Equivalent to ``Py_PACK_FULL_VERSION(major, minor, 0, 0, 0)``. The result does not correspond to any Python release, but is useful in numeric comparisons."
 msgstr "معادل ``Py_PACK_FULL_VERSION(major, minor, 0, 0, 0)`` است. نتیجه با هیچ نسخه‌ی انتشار یافته‌ای از پایتون مطابقت ندارد، اما در مقایسه‌های عددی مفید است."

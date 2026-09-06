@@ -70,7 +70,7 @@ msgstr ""
 msgid ""
 "The \"sendfile\" syscall is not available for the given socket or file type."
 msgstr ""
-"فراخوانی سیستمی \"sendfile\" برای سوکت یا نوع فایل داده‌شده در دسترس نیست."
+"فراخوانی سیستمی \"sendfile\" برای سوکت یا نوع پرونده داده‌شده در دسترس نیست."
 
 msgid "A subclass of :exc:`RuntimeError`."
 msgstr "زیرکلاسی از :exc:`RuntimeError`."

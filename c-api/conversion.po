@@ -380,7 +380,7 @@ msgid ""
 "Return true if the character *c* is a whitespace character (space, tab, "
 "carriage return, newline, vertical tab, or form feed)."
 msgstr ""
-"در صورتی که نویسه *c* یک نویسه فاصله‌ساز (whitespace) باشد (فاصله، تب، "
+"در صورتی که نویسه *c* یک نویسه فاصله‌ساز باشد (فاصله، تب، "
 "بازگشت به ابتدای سطر، سطر جدید، تب عمودی یا تغذیه‌ی صفحه)، true برمی‌گرداند."
 
 msgid ""

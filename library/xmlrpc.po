@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid ":mod:`!xmlrpc` --- XMLRPC server and client modules"
-msgstr ":mod:`!xmlrpc` --- ماژول‌های کارساز و کارخواه XMLRPC"
+msgstr ":mod:`!xmlrpc` --- ماژول‌های سرور و کلاینت XMLRPC"
 
 msgid ""
 "XML-RPC is a Remote Procedure Call method that uses XML passed via HTTP as a"

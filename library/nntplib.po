@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid ":mod:`!nntplib` --- NNTP protocol client"
-msgstr ":mod:`!nntplib` --- کارخواه پروتکل NNTP"
+msgstr ":mod:`!nntplib` --- کلاینت پروتکل NNTP"
 
 msgid ""
 "This module is no longer part of the Python standard library. It was "

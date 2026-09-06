@@ -329,7 +329,7 @@ msgstr ""
 "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
 
 msgid "List comprehensions can contain complex expressions and nested functions::"
-msgstr "درک‌های فهرستی می‌توانند شامل عبارت‌های پیچیده و تابع‌های تودرتو باشند::"
+msgstr "درک‌های فهرستی می‌توانند شامل عبارت‌های پیچیده و توابع تودرتو باشند::"
 
 msgid ""
 ">>> from math import pi\n"
@@ -417,7 +417,7 @@ msgstr ""
 "[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 
 msgid "In the real world, you should prefer built-in functions to complex flow statements. The :func:`zip` function would do a great job for this use case::"
-msgstr "در دنیای واقعی، بهتر است از تابع‌های توکار به‌جای دستورهای جریان کنترل پیچیده استفاده کنید. تابع :func:`zip` برای این مورد کاربرد بسیار خوبی دارد::"
+msgstr "در دنیای واقعی، بهتر است از توابع توکار به‌جای دستورهای جریان کنترل پیچیده استفاده کنید. تابع :func:`zip` برای این مورد کاربرد بسیار خوبی دارد::"
 
 msgid ""
 ">>> list(zip(*matrix))\n"

@@ -276,7 +276,7 @@ msgid "``await`` :meth:`loop.sendfile`"
 msgstr "``await`` :meth:`loop.sendfile`"
 
 msgid "Send a file over a transport."
-msgstr "ارسال یک فایل از طریق یک انتقال ."
+msgstr "ارسال یک پرونده از طریق یک انتقال ."
 
 msgid "``await`` :meth:`loop.start_tls`"
 msgstr "``await`` :meth:`loop.start_tls`"
@@ -354,33 +354,33 @@ msgid "``await`` :meth:`loop.sock_sendfile`"
 msgstr "``await`` :meth:`loop.sock_sendfile`"
 
 msgid "Send a file over the :class:`~socket.socket`."
-msgstr "یک فایل را از طریق :class:`~socket.socket` ارسال کنید."
+msgstr "یک پرونده را از طریق :class:`~socket.socket` ارسال کنید."
 
 msgid ":meth:`loop.add_reader`"
 msgstr ":meth:`loop.add_reader`"
 
 msgid "Start watching a file descriptor for read availability."
-msgstr "آغاز پایش یک توصیف‌گر فایل برای دسترس‌پذیری جهت خواندن."
+msgstr "آغاز پایش یک توصیف‌گر پرونده برای دسترس‌پذیری جهت خواندن."
 
 msgid ":meth:`loop.remove_reader`"
 msgstr ":meth:`loop.remove_reader`"
 
 msgid "Stop watching a file descriptor for read availability."
 msgstr ""
-"پایش یک توصیف‌گر فایل (file descriptor) را برای دسترس‌پذیری جهت خواندن "
+"پایش یک توصیف‌گر پرونده را برای دسترس‌پذیری جهت خواندن "
 "متوقف کنید."
 
 msgid ":meth:`loop.add_writer`"
 msgstr ":meth:`loop.add_writer`"
 
 msgid "Start watching a file descriptor for write availability."
-msgstr "شروع به پایش یک توصیف‌گر فایل برای آمادگی نوشتن کنید."
+msgstr "شروع به پایش یک توصیف‌گر پرونده برای آمادگی نوشتن کنید."
 
 msgid ":meth:`loop.remove_writer`"
 msgstr ":meth:`loop.remove_writer`"
 
 msgid "Stop watching a file descriptor for write availability."
-msgstr "پایش یک توصیف‌گر فایل از نظر دسترس‌پذیری برای نوشتن را متوقف کنید."
+msgstr "پایش یک توصیف‌گر پرونده از نظر دسترس‌پذیری برای نوشتن را متوقف کنید."
 
 msgid "Unix Signals"
 msgstr "سیگنال‌های یونیکس"

@@ -66,7 +66,7 @@ msgid ""
 "The RGB values in the returned color are now integers in the range 0–255 "
 "instead of floats."
 msgstr ""
-"مقادیر RGB در رنگ برگردانده‌شده اکنون به‌جای مقادیر شناور، اعداد صحیح در "
+"مقادیر RGB در رنگ برگردانده‌شده اکنون به‌جای مقادیر اعشاری، اعداد صحیح در "
 "بازه‌ی ۰ تا ۲۵۵ هستند."
 
 msgid "Module :mod:`tkinter.commondialog`"
